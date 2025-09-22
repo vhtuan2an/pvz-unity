@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 173e8fbaa2c6d9d43906179bc14f5261
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7989227704583194407
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_0
+  - first:
+      213: -7849904242738872699
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_1
+  - first:
+      213: -5175594691260005717
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_2
+  - first:
+      213: 3690119861270578462
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_3
+  - first:
+      213: 7838728477995857585
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_4
+  - first:
+      213: -1244830520108070688
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_5
+  - first:
+      213: 5838977612150076216
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_6
+  - first:
+      213: 8199387581083509483
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_7
+  - first:
+      213: -2919920055941502723
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_8
+  - first:
+      213: 635868874391020456
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_9
+  - first:
+      213: 4106354016253228908
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_10
+  - first:
+      213: -8411650396543021562
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_11
+  - first:
+      213: 7709166319554176122
+    second: ATLASES_PLANTSUNBEAN_1536_00_PTX_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 264
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8fb9e3bbf802190800000000000000
+      internalID: -7989227704583194407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 139
+        width: 98
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58eb7ba8ea98f0390800000000000000
+      internalID: -7849904242738872699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 142
+        width: 96
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2cc0ebc089c28b0800000000000000
+      internalID: -5175594691260005717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 149
+        width: 29
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1585a57670f53330800000000000000
+      internalID: 3690119861270578462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 52
+        width: 138
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b67ea5f402c8cc60800000000000000
+      internalID: 7838728477995857585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 97
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8c463cc3979bee0800000000000000
+      internalID: -1244830520108070688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 54
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833f9a7b337380150800000000000000
+      internalID: 5838977612150076216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 44
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be26b3210931ac170800000000000000
+      internalID: 8199387581083509483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 29
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df86115fd2c5a77d0800000000000000
+      internalID: -2919920055941502723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 16
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3edcd4f5f03d800800000000000000
+      internalID: 635868874391020456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 38
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67b5cca833bcf830800000000000000
+      internalID: 4106354016253228908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 6
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e874bf780d34b80800000000000000
+      internalID: -8411650396543021562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNBEAN_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 30
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74ae673ce57cfa60800000000000000
+      internalID: 7709166319554176122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_0: -7989227704583194407
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_1: -7849904242738872699
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_10: 4106354016253228908
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_11: -8411650396543021562
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_12: 7709166319554176122
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_2: -5175594691260005717
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_3: 3690119861270578462
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_4: 7838728477995857585
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_5: -1244830520108070688
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_6: 5838977612150076216
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_7: 8199387581083509483
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_8: -2919920055941502723
+      ATLASES_PLANTSUNBEAN_1536_00_PTX_9: 635868874391020456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

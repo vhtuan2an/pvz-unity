@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: d59fa84fc704ebb4e9372c04ba9c3cc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8599901719724895388
+    second: PLANTBOMBARDMINT_1536_00_0
+  - first:
+      213: -4339906258462288003
+    second: PLANTBOMBARDMINT_1536_00_1
+  - first:
+      213: -8521179763297388562
+    second: PLANTBOMBARDMINT_1536_00_2
+  - first:
+      213: -5161834192058170868
+    second: PLANTBOMBARDMINT_1536_00_3
+  - first:
+      213: -6313681257587853349
+    second: PLANTBOMBARDMINT_1536_00_4
+  - first:
+      213: 6813911862335520545
+    second: PLANTBOMBARDMINT_1536_00_5
+  - first:
+      213: 4455368311254080102
+    second: PLANTBOMBARDMINT_1536_00_6
+  - first:
+      213: 7132083665996852131
+    second: PLANTBOMBARDMINT_1536_00_7
+  - first:
+      213: 6284405083680520255
+    second: PLANTBOMBARDMINT_1536_00_8
+  - first:
+      213: -6798222268176204458
+    second: PLANTBOMBARDMINT_1536_00_9
+  - first:
+      213: -1987081139625105100
+    second: PLANTBOMBARDMINT_1536_00_10
+  - first:
+      213: 2764076166907363000
+    second: PLANTBOMBARDMINT_1536_00_11
+  - first:
+      213: -6046038507208831922
+    second: PLANTBOMBARDMINT_1536_00_12
+  - first:
+      213: 2174399369127418197
+    second: PLANTBOMBARDMINT_1536_00_13
+  - first:
+      213: -5643714211845667516
+    second: PLANTBOMBARDMINT_1536_00_14
+  - first:
+      213: -1998864484162709796
+    second: PLANTBOMBARDMINT_1536_00_15
+  - first:
+      213: -1039466453046015202
+    second: PLANTBOMBARDMINT_1536_00_16
+  - first:
+      213: -2048461153092392185
+    second: PLANTBOMBARDMINT_1536_00_17
+  - first:
+      213: -4587841749919233408
+    second: PLANTBOMBARDMINT_1536_00_18
+  - first:
+      213: 5153145795626808256
+    second: PLANTBOMBARDMINT_1536_00_19
+  - first:
+      213: -3635955239205204934
+    second: PLANTBOMBARDMINT_1536_00_20
+  - first:
+      213: -4537339458203520469
+    second: PLANTBOMBARDMINT_1536_00_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 551
+        width: 530
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463d68c33f207a880800000000000000
+      internalID: -8599901719724895388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 589
+        width: 122
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d775cd1704e85c3c0800000000000000
+      internalID: -4339906258462288003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 829
+        width: 150
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee779650720beb980800000000000000
+      internalID: -8521179763297388562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 846
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0248e0a62b7d58b0800000000000000
+      internalID: -5161834192058170868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 709
+        width: 90
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd73f68f85c4168a0800000000000000
+      internalID: -6313681257587853349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 787
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f3455bcb0ef8e50800000000000000
+      internalID: 6813911862335520545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 757
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ad4df9fd5a4dd30800000000000000
+      internalID: 4455368311254080102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 796
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abab1c8e404af260800000000000000
+      internalID: 7132083665996852131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 817
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38bf6d9021b63750800000000000000
+      internalID: 6284405083680520255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 796
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65df4399ddcd7a1a0800000000000000
+      internalID: -6798222268176204458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 751
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43964c44b387c64e0800000000000000
+      internalID: -1987081139625105100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 775
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bef2ac01a8fb5620800000000000000
+      internalID: 2764076166907363000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 756
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c0c7fc208281ca0800000000000000
+      internalID: -6046038507208831922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 754
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5595caca4b40d2e10800000000000000
+      internalID: 2174399369127418197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 744
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4458d1573df7da1b0800000000000000
+      internalID: -5643714211845667516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 674
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd65653975b9244e0800000000000000
+      internalID: -1998864484162709796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 690
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bc14ea4c21391f0800000000000000
+      internalID: -1039466453046015202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 670
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70badb93f676293e0800000000000000
+      internalID: -2048461153092392185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 697
+        width: 76
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a8b526c36b450c0800000000000000
+      internalID: -4587841749919233408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 697
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c332207cc6a38740800000000000000
+      internalID: 5153145795626808256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 663
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c04fb59fd7a8dc0800000000000000
+      internalID: -3635955239205204934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBOMBARDMINT_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 77
+        width: 472
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b227a687dc12801c0800000000000000
+      internalID: -4537339458203520469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTBOMBARDMINT_1536_00_0: -8599901719724895388
+      PLANTBOMBARDMINT_1536_00_1: -4339906258462288003
+      PLANTBOMBARDMINT_1536_00_10: -1987081139625105100
+      PLANTBOMBARDMINT_1536_00_11: 2764076166907363000
+      PLANTBOMBARDMINT_1536_00_12: -6046038507208831922
+      PLANTBOMBARDMINT_1536_00_13: 2174399369127418197
+      PLANTBOMBARDMINT_1536_00_14: -5643714211845667516
+      PLANTBOMBARDMINT_1536_00_15: -1998864484162709796
+      PLANTBOMBARDMINT_1536_00_16: -1039466453046015202
+      PLANTBOMBARDMINT_1536_00_17: -2048461153092392185
+      PLANTBOMBARDMINT_1536_00_18: -4587841749919233408
+      PLANTBOMBARDMINT_1536_00_19: 5153145795626808256
+      PLANTBOMBARDMINT_1536_00_2: -8521179763297388562
+      PLANTBOMBARDMINT_1536_00_20: -3635955239205204934
+      PLANTBOMBARDMINT_1536_00_21: -4537339458203520469
+      PLANTBOMBARDMINT_1536_00_3: -5161834192058170868
+      PLANTBOMBARDMINT_1536_00_4: -6313681257587853349
+      PLANTBOMBARDMINT_1536_00_5: 6813911862335520545
+      PLANTBOMBARDMINT_1536_00_6: 4455368311254080102
+      PLANTBOMBARDMINT_1536_00_7: 7132083665996852131
+      PLANTBOMBARDMINT_1536_00_8: 6284405083680520255
+      PLANTBOMBARDMINT_1536_00_9: -6798222268176204458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

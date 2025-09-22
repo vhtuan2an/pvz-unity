@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 30c858439e2ede04caa0b49a40f48fa6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2385524964697067153
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_0
+  - first:
+      213: -6977198155648119863
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_1
+  - first:
+      213: -3952893698360195165
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_2
+  - first:
+      213: -3358318194415491270
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_3
+  - first:
+      213: 5212318701779266848
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_4
+  - first:
+      213: -7498364045796688042
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_5
+  - first:
+      213: -7434793178428662888
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_6
+  - first:
+      213: 8369391064411485697
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_7
+  - first:
+      213: -839685090259667547
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_8
+  - first:
+      213: 317339848084681895
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_9
+  - first:
+      213: -5780769682530450103
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_10
+  - first:
+      213: 6059946718073302545
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_11
+  - first:
+      213: -6407467598429943252
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_12
+  - first:
+      213: -8332881181360588887
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_13
+  - first:
+      213: 7632632416884694795
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_14
+  - first:
+      213: 1655984543994406132
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_15
+  - first:
+      213: 8687031040404353743
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_16
+  - first:
+      213: -6939426218293994597
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_17
+  - first:
+      213: 3759639897317783503
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_18
+  - first:
+      213: 9199713215892563452
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_19
+  - first:
+      213: -4667624806929492642
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_20
+  - first:
+      213: -1949928729421449436
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_21
+  - first:
+      213: -448330281095974612
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_22
+  - first:
+      213: 6656469078388571770
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_23
+  - first:
+      213: 3264390506811917286
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_24
+  - first:
+      213: -3760501629758285334
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_25
+  - first:
+      213: -9061836157029319350
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_26
+  - first:
+      213: -4504181561009706658
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_27
+  - first:
+      213: 7548740223703151326
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_28
+  - first:
+      213: 5350008683918286484
+    second: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61b7640fa9e4eed0800000000000000
+      internalID: -2385524964697067153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 200
+        width: 125
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb45158e330c2f90800000000000000
+      internalID: -6977198155648119863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 196
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a74c5aef108429c0800000000000000
+      internalID: -3952893698360195165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 196
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a372223356bd461d0800000000000000
+      internalID: -3358318194415491270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 205
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dada34e30e55840800000000000000
+      internalID: 5212318701779266848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 89
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f3abdd0a570f790800000000000000
+      internalID: -7498364045796688042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 114
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b1345defe42d890800000000000000
+      internalID: -7434793178428662888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 109
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106339484dc062470800000000000000
+      internalID: 8369391064411485697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 103
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a571e7fbd6d854f0800000000000000
+      internalID: -839685090259667547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 126
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f92619ea676400800000000000000
+      internalID: 317339848084681895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 140
+        width: 97
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945cc600a9496cfa0800000000000000
+      internalID: -5780769682530450103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ead80ee61491450800000000000000
+      internalID: 6059946718073302545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 55
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a02cdda2a1417a0800000000000000
+      internalID: -6407467598429943252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 67
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7f67d07b8ab5c80800000000000000
+      internalID: -8332881181360588887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 49
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f1b856ebe8ce960800000000000000
+      internalID: 7632632416884694795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 66
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4e2524b2d3bf610800000000000000
+      internalID: 1655984543994406132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 64
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2f71494b88e8870800000000000000
+      internalID: 8687031040404353743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 103
+        width: 92
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bdd810f9432bf90800000000000000
+      internalID: -6939426218293994597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 38
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc73303319cec2430800000000000000
+      internalID: 3759639897317783503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 42
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf52ebc7d62fbaf70800000000000000
+      internalID: 9199713215892563452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 54
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e559a2ed7f3493fb0800000000000000
+      internalID: -4667624806929492642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 53
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4277189d62670f4e0800000000000000
+      internalID: -1949928729421449436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 69
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2139351cf537c9f0800000000000000
+      internalID: -448330281095974612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 23
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ef8bbfb57806c50800000000000000
+      internalID: 6656469078388571770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e38ea6ded17d4d20800000000000000
+      internalID: 3264390506811917286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 35
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9daf411b300dbc0800000000000000
+      internalID: -3760501629758285334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df97fd604ed3280800000000000000
+      internalID: -9061836157029319350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 17
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59e6240cbeed71c0800000000000000
+      internalID: -4504181561009706658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2778f0d3382c860800000000000000
+      internalID: 7548740223703151326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 42
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e543e6d8c0f3a40800000000000000
+      internalID: 5350008683918286484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_0: -2385524964697067153
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_1: -6977198155648119863
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_10: -5780769682530450103
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_11: 6059946718073302545
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_12: -6407467598429943252
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_13: -8332881181360588887
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_14: 7632632416884694795
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_15: 1655984543994406132
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_16: 8687031040404353743
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_17: -6939426218293994597
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_18: 3759639897317783503
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_19: 9199713215892563452
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_2: -3952893698360195165
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_20: -4667624806929492642
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_21: -1949928729421449436
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_22: -448330281095974612
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_23: 6656469078388571770
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_24: 3264390506811917286
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_25: -3760501629758285334
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_26: -9061836157029319350
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_27: -4504181561009706658
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_28: 7548740223703151326
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_29: 5350008683918286484
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_3: -3358318194415491270
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_4: 5212318701779266848
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_5: -7498364045796688042
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_6: -7434793178428662888
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_7: 8369391064411485697
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_8: -839685090259667547
+      ZOMBIEHEROELECTRICBOOGALOOGROUP_1536_00_9: 317339848084681895
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

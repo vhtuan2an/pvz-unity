@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: ef0ba8c26e7ff774abe251100914af1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7433579695654172584
+    second: PLANTENCHANTMINT_1536_00_0
+  - first:
+      213: 5979307682648193209
+    second: PLANTENCHANTMINT_1536_00_1
+  - first:
+      213: 8353103599270989882
+    second: PLANTENCHANTMINT_1536_00_2
+  - first:
+      213: 6919559669360539405
+    second: PLANTENCHANTMINT_1536_00_3
+  - first:
+      213: -8208237650142550023
+    second: PLANTENCHANTMINT_1536_00_4
+  - first:
+      213: -2299371711026419979
+    second: PLANTENCHANTMINT_1536_00_5
+  - first:
+      213: 1279601171058786455
+    second: PLANTENCHANTMINT_1536_00_6
+  - first:
+      213: -3354964630619199094
+    second: PLANTENCHANTMINT_1536_00_7
+  - first:
+      213: 4480503057221486613
+    second: PLANTENCHANTMINT_1536_00_8
+  - first:
+      213: -1705360277178681353
+    second: PLANTENCHANTMINT_1536_00_9
+  - first:
+      213: -2362812849335047103
+    second: PLANTENCHANTMINT_1536_00_10
+  - first:
+      213: 4446342191442172509
+    second: PLANTENCHANTMINT_1536_00_11
+  - first:
+      213: -4456718110294441724
+    second: PLANTENCHANTMINT_1536_00_12
+  - first:
+      213: 5055876189315863385
+    second: PLANTENCHANTMINT_1536_00_13
+  - first:
+      213: 7097793338781611429
+    second: PLANTENCHANTMINT_1536_00_14
+  - first:
+      213: 4305526448925176607
+    second: PLANTENCHANTMINT_1536_00_15
+  - first:
+      213: -7697137906223786015
+    second: PLANTENCHANTMINT_1536_00_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 1576
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8580afec6ae96d890800000000000000
+      internalID: -7433579695654172584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 201
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8720b58a4caf250800000000000000
+      internalID: 5979307682648193209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 262
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a309596877f2ce370800000000000000
+      internalID: 8353103599270989882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 319
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07ba5e9bd6370060800000000000000
+      internalID: 6919559669360539405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 298
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f72447a85b761e80800000000000000
+      internalID: -8208237650142550023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 277
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f620b58c9df610e0800000000000000
+      internalID: -2299371711026419979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 226
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79002274c7e02c110800000000000000
+      internalID: 1279601171058786455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 170
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8961fd9175c071d0800000000000000
+      internalID: -3354964630619199094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5180db4bac1fd2e30800000000000000
+      internalID: 4480503057221486613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 207
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7f3b00dd75558e0800000000000000
+      internalID: -1705360277178681353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 112
+        width: 214
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ce7a47b3a953fd0800000000000000
+      internalID: -2362812849335047103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 132
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a1eb65aa494bd30800000000000000
+      internalID: 4446342191442172509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2
+        width: 140
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40189dbcd7e8622c0800000000000000
+      internalID: -4456718110294441724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 23
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95317846b941a2640800000000000000
+      internalID: 5055876189315863385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 101
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a536379f6d608260800000000000000
+      internalID: 7097793338781611429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 89
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13fb3f5e7d40cb30800000000000000
+      internalID: 4305526448925176607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENCHANTMINT_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 69
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e756500bd54e2590800000000000000
+      internalID: -7697137906223786015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTENCHANTMINT_1536_00_0: -7433579695654172584
+      PLANTENCHANTMINT_1536_00_1: 5979307682648193209
+      PLANTENCHANTMINT_1536_00_10: -2362812849335047103
+      PLANTENCHANTMINT_1536_00_11: 4446342191442172509
+      PLANTENCHANTMINT_1536_00_12: -4456718110294441724
+      PLANTENCHANTMINT_1536_00_13: 5055876189315863385
+      PLANTENCHANTMINT_1536_00_14: 7097793338781611429
+      PLANTENCHANTMINT_1536_00_15: 4305526448925176607
+      PLANTENCHANTMINT_1536_00_16: -7697137906223786015
+      PLANTENCHANTMINT_1536_00_2: 8353103599270989882
+      PLANTENCHANTMINT_1536_00_3: 6919559669360539405
+      PLANTENCHANTMINT_1536_00_4: -8208237650142550023
+      PLANTENCHANTMINT_1536_00_5: -2299371711026419979
+      PLANTENCHANTMINT_1536_00_6: 1279601171058786455
+      PLANTENCHANTMINT_1536_00_7: -3354964630619199094
+      PLANTENCHANTMINT_1536_00_8: 4480503057221486613
+      PLANTENCHANTMINT_1536_00_9: -1705360277178681353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

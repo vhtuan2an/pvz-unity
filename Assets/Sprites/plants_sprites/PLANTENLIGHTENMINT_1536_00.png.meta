@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 0242dce3104e9e344b5a7fdcdfaf1194
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3745228735096216175
+    second: PLANTENLIGHTENMINT_1536_00_0
+  - first:
+      213: -5881941781670964949
+    second: PLANTENLIGHTENMINT_1536_00_1
+  - first:
+      213: -4496723360157153940
+    second: PLANTENLIGHTENMINT_1536_00_2
+  - first:
+      213: 1479006783014478544
+    second: PLANTENLIGHTENMINT_1536_00_3
+  - first:
+      213: -4859854190431413656
+    second: PLANTENLIGHTENMINT_1536_00_4
+  - first:
+      213: -3156446135981581682
+    second: PLANTENLIGHTENMINT_1536_00_5
+  - first:
+      213: -6286807865923134980
+    second: PLANTENLIGHTENMINT_1536_00_6
+  - first:
+      213: 3202703141181939262
+    second: PLANTENLIGHTENMINT_1536_00_7
+  - first:
+      213: -8631889532217362065
+    second: PLANTENLIGHTENMINT_1536_00_8
+  - first:
+      213: -2567990102203136281
+    second: PLANTENLIGHTENMINT_1536_00_9
+  - first:
+      213: -1854753281104594324
+    second: PLANTENLIGHTENMINT_1536_00_10
+  - first:
+      213: -3095057108272699763
+    second: PLANTENLIGHTENMINT_1536_00_11
+  - first:
+      213: 1548554583643488062
+    second: PLANTENLIGHTENMINT_1536_00_12
+  - first:
+      213: -2354193949923947062
+    second: PLANTENLIGHTENMINT_1536_00_13
+  - first:
+      213: 171892172924152022
+    second: PLANTENLIGHTENMINT_1536_00_14
+  - first:
+      213: -4983700044996579746
+    second: PLANTENLIGHTENMINT_1536_00_15
+  - first:
+      213: -4063548388619080538
+    second: PLANTENLIGHTENMINT_1536_00_16
+  - first:
+      213: 5001807801527092298
+    second: PLANTENLIGHTENMINT_1536_00_17
+  - first:
+      213: -6105549676174021680
+    second: PLANTENLIGHTENMINT_1536_00_18
+  - first:
+      213: -2700500801022805641
+    second: PLANTENLIGHTENMINT_1536_00_19
+  - first:
+      213: -1020720606945203521
+    second: PLANTENLIGHTENMINT_1536_00_20
+  - first:
+      213: 6603072627089413528
+    second: PLANTENLIGHTENMINT_1536_00_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 114
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6adef501b9b9f330800000000000000
+      internalID: 3745228735096216175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 357
+        width: 198
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2159f90d152f5ea0800000000000000
+      internalID: -5881941781670964949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 357
+        width: 198
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65c1a8bded6891c0800000000000000
+      internalID: -4496723360157153940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 357
+        width: 202
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2a8f145dc768410800000000000000
+      internalID: 1479006783014478544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 653
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a5427cc545e8cb0800000000000000
+      internalID: -4859854190431413656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 656
+        width: 54
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ad92086fc0234d0800000000000000
+      internalID: -3156446135981581682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 522
+        width: 145
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9158c0e85c0c8a0800000000000000
+      internalID: -6286807865923134980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 528
+        width: 29
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e5d2bc989427c20800000000000000
+      internalID: 3202703141181939262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 615
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6975c3443e553880800000000000000
+      internalID: -8631889532217362065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 574
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6867b9b9aac5cd0800000000000000
+      internalID: -2567990102203136281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 550
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a35cdb7b79246e0800000000000000
+      internalID: -1854753281104594324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 530
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86abd555f52c05d0800000000000000
+      internalID: -3095057108272699763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 526
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7f5170329d7510800000000000000
+      internalID: 1548554583643488062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 448
+        width: 112
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdc86a5319345fd0800000000000000
+      internalID: -2354193949923947062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 422
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d860d2450fa26200800000000000000
+      internalID: 171892172924152022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 507
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e61eeb63756dab0800000000000000
+      internalID: -4983700044996579746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 491
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acafb825406b97c0800000000000000
+      internalID: -4063548388619080538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 410
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44ccccd1bdf96540800000000000000
+      internalID: 5001807801527092298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 386
+        width: 88
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db65290beab44ba0800000000000000
+      internalID: -6105549676174021680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 359
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779b06f44d4e58ad0800000000000000
+      internalID: -2700500801022805641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 346
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba2c18140ca5d1f0800000000000000
+      internalID: -1020720606945203521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENLIGHTENMINT_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 86
+        width: 264
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89515cbd193d2ab50800000000000000
+      internalID: 6603072627089413528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTENLIGHTENMINT_1536_00_0: 3745228735096216175
+      PLANTENLIGHTENMINT_1536_00_1: -5881941781670964949
+      PLANTENLIGHTENMINT_1536_00_10: -1854753281104594324
+      PLANTENLIGHTENMINT_1536_00_11: -3095057108272699763
+      PLANTENLIGHTENMINT_1536_00_12: 1548554583643488062
+      PLANTENLIGHTENMINT_1536_00_13: -2354193949923947062
+      PLANTENLIGHTENMINT_1536_00_14: 171892172924152022
+      PLANTENLIGHTENMINT_1536_00_15: -4983700044996579746
+      PLANTENLIGHTENMINT_1536_00_16: -4063548388619080538
+      PLANTENLIGHTENMINT_1536_00_17: 5001807801527092298
+      PLANTENLIGHTENMINT_1536_00_18: -6105549676174021680
+      PLANTENLIGHTENMINT_1536_00_19: -2700500801022805641
+      PLANTENLIGHTENMINT_1536_00_2: -4496723360157153940
+      PLANTENLIGHTENMINT_1536_00_20: -1020720606945203521
+      PLANTENLIGHTENMINT_1536_00_21: 6603072627089413528
+      PLANTENLIGHTENMINT_1536_00_3: 1479006783014478544
+      PLANTENLIGHTENMINT_1536_00_4: -4859854190431413656
+      PLANTENLIGHTENMINT_1536_00_5: -3156446135981581682
+      PLANTENLIGHTENMINT_1536_00_6: -6286807865923134980
+      PLANTENLIGHTENMINT_1536_00_7: 3202703141181939262
+      PLANTENLIGHTENMINT_1536_00_8: -8631889532217362065
+      PLANTENLIGHTENMINT_1536_00_9: -2567990102203136281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

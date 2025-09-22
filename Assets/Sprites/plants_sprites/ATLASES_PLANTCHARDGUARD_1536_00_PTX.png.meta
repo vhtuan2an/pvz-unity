@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: b1fe73a129d9025498c34d7ba473dfe0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8564538060420813862
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_0
+  - first:
+      213: 1492834083383517404
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_1
+  - first:
+      213: -8526209940671627384
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_2
+  - first:
+      213: 291027812577430416
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_3
+  - first:
+      213: 4214279601145213276
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_4
+  - first:
+      213: -1295692996462711251
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_5
+  - first:
+      213: -155444040265940640
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_6
+  - first:
+      213: -5770763725519440455
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_7
+  - first:
+      213: -4464820995963696791
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_8
+  - first:
+      213: 4997934818220406388
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_9
+  - first:
+      213: -9192907402797445743
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_10
+  - first:
+      213: -6008457624316523539
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_11
+  - first:
+      213: 6553267087554001451
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_12
+  - first:
+      213: -5313259894433714659
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_13
+  - first:
+      213: -116507281942396425
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_14
+  - first:
+      213: -2737768578058392035
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_15
+  - first:
+      213: -6440806402306283322
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_16
+  - first:
+      213: 5339587060245379505
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_17
+  - first:
+      213: -5152956741005104436
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_18
+  - first:
+      213: 7232732402838934536
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_19
+  - first:
+      213: 2558139980996122334
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_20
+  - first:
+      213: 3251663211346738397
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_21
+  - first:
+      213: 8085026972705050879
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_22
+  - first:
+      213: 15078938277472734
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_23
+  - first:
+      213: -1949224833693829719
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_24
+  - first:
+      213: -723157291563606941
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_25
+  - first:
+      213: -5510686963724007506
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_26
+  - first:
+      213: -5001048914286122478
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_27
+  - first:
+      213: -7900618956605737625
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_28
+  - first:
+      213: -7970708178785655351
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_29
+  - first:
+      213: -2432919885800051359
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_30
+  - first:
+      213: -2460721834910007612
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_31
+  - first:
+      213: 6545992512763977753
+    second: ATLASES_PLANTCHARDGUARD_1536_00_PTX_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 513
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62412b43df95bd670800000000000000
+      internalID: 8564538060420813862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 695
+        width: 112
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0aba080bc97b410800000000000000
+      internalID: 1492834083383517404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 840
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ffcd59b31dca980800000000000000
+      internalID: -8526209940671627384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 543
+        width: 112
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bcf6ce040f90400800000000000000
+      internalID: 291027812577430416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 378
+        width: 94
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c517f6218f02c7a30800000000000000
+      internalID: 4214279601145213276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 527
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ee0e7a516c40ee0800000000000000
+      internalID: -1295692996462711251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 326
+        width: 193
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0614f7d0870c7ddf0800000000000000
+      internalID: -155444040265940640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 344
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b534b967f02aefa0800000000000000
+      internalID: -5770763725519440455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 352
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969c0e5b5f4c902c0800000000000000
+      internalID: -4464820995963696791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 266
+        width: 62
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476759aac3b3c5540800000000000000
+      internalID: 4997934818220406388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 161
+        width: 93
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d033b5c6b3c6080800000000000000
+      internalID: -9192907402797445743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 253
+        width: 92
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb40a6ff9bad9ca0800000000000000
+      internalID: -6008457624316523539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 246
+        width: 225
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a3ae702b1e1fa50800000000000000
+      internalID: 6553267087554001451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 248
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ee2f0e6428346b0800000000000000
+      internalID: -5313259894433714659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 252
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1c31e8e35126ef0800000000000000
+      internalID: -116507281942396425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 136
+        width: 140
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e6a9bcbfd710ad0800000000000000
+      internalID: -2737768578058392035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 131
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8e873b3b8ad96a0800000000000000
+      internalID: -6440806402306283322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 168
+        width: 128
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9b23514260a1a40800000000000000
+      internalID: 5339587060245379505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaaf6545250d78b0800000000000000
+      internalID: -5152956741005104436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 136
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8041caabcc3df5460800000000000000
+      internalID: 7232732402838934536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 72
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed69ff452c6508320800000000000000
+      internalID: 2558139980996122334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 113
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc3781767a302d20800000000000000
+      internalID: 3251663211346738397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 62
+        width: 140
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff059830239c33070800000000000000
+      internalID: 8085026972705050879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 50
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed96e97e632953000800000000000000
+      internalID: 15078938277472734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 42
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a53f485756f2f4e0800000000000000
+      internalID: -1949224833693829719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 96
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c1e975644d6f5f0800000000000000
+      internalID: -723157291563606941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 83
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7cad2476b1683b0800000000000000
+      internalID: -5510686963724007506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 80
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a6f975284b89ab0800000000000000
+      internalID: -5001048914286122478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 71
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7653cc11bec5b5290800000000000000
+      internalID: -7900618956605737625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 93
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c52e2b542b526190800000000000000
+      internalID: -7970708178785655351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 28
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d67e701488c3ed0800000000000000
+      internalID: -2432919885800051359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce34235782c9ddd0800000000000000
+      internalID: -2460721834910007612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCHARDGUARD_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 21
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910e9a9128908da50800000000000000
+      internalID: 6545992512763977753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_0: 8564538060420813862
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_1: 1492834083383517404
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_10: -9192907402797445743
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_11: -6008457624316523539
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_12: 6553267087554001451
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_13: -5313259894433714659
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_14: -116507281942396425
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_15: -2737768578058392035
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_16: -6440806402306283322
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_17: 5339587060245379505
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_18: -5152956741005104436
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_19: 7232732402838934536
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_2: -8526209940671627384
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_20: 2558139980996122334
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_21: 3251663211346738397
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_22: 8085026972705050879
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_23: 15078938277472734
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_24: -1949224833693829719
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_25: -723157291563606941
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_26: -5510686963724007506
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_27: -5001048914286122478
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_28: -7900618956605737625
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_29: -7970708178785655351
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_3: 291027812577430416
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_30: -2432919885800051359
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_31: -2460721834910007612
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_32: 6545992512763977753
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_4: 4214279601145213276
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_5: -1295692996462711251
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_6: -155444040265940640
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_7: -5770763725519440455
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_8: -4464820995963696791
+      ATLASES_PLANTCHARDGUARD_1536_00_PTX_9: 4997934818220406388
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

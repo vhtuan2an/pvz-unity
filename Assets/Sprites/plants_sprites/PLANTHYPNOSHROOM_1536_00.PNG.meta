@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: bc0a2fbe97d57c44b99318c76da8e062
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7214928366341390708
+    second: PLANTHYPNOSHROOM_1536_00_0
+  - first:
+      213: -3806385096267408019
+    second: PLANTHYPNOSHROOM_1536_00_1
+  - first:
+      213: -5654510438677952339
+    second: PLANTHYPNOSHROOM_1536_00_2
+  - first:
+      213: -5489761521990423123
+    second: PLANTHYPNOSHROOM_1536_00_3
+  - first:
+      213: 1305201520520425322
+    second: PLANTHYPNOSHROOM_1536_00_4
+  - first:
+      213: -1233612435116394355
+    second: PLANTHYPNOSHROOM_1536_00_5
+  - first:
+      213: 5320775088185365647
+    second: PLANTHYPNOSHROOM_1536_00_6
+  - first:
+      213: 3722801864574728542
+    second: PLANTHYPNOSHROOM_1536_00_7
+  - first:
+      213: -41550165901600463
+    second: PLANTHYPNOSHROOM_1536_00_8
+  - first:
+      213: -2026023667871421962
+    second: PLANTHYPNOSHROOM_1536_00_9
+  - first:
+      213: 597452411054817680
+    second: PLANTHYPNOSHROOM_1536_00_10
+  - first:
+      213: -6075640910124858390
+    second: PLANTHYPNOSHROOM_1536_00_11
+  - first:
+      213: 1667865170695002228
+    second: PLANTHYPNOSHROOM_1536_00_12
+  - first:
+      213: 8504917635433023890
+    second: PLANTHYPNOSHROOM_1536_00_13
+  - first:
+      213: -701085454128458536
+    second: PLANTHYPNOSHROOM_1536_00_14
+  - first:
+      213: 4743917927464533672
+    second: PLANTHYPNOSHROOM_1536_00_15
+  - first:
+      213: -8455932530750311038
+    second: PLANTHYPNOSHROOM_1536_00_16
+  - first:
+      213: 6412719707134643057
+    second: PLANTHYPNOSHROOM_1536_00_17
+  - first:
+      213: 7897018927489006067
+    second: PLANTHYPNOSHROOM_1536_00_18
+  - first:
+      213: -3221657853922274512
+    second: PLANTHYPNOSHROOM_1536_00_19
+  - first:
+      213: -3390288718807886059
+    second: PLANTHYPNOSHROOM_1536_00_20
+  - first:
+      213: -8398896386249820731
+    second: PLANTHYPNOSHROOM_1536_00_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 150
+        width: 182
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ef45c80ec6fdb90800000000000000
+      internalID: -7214928366341390708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 107
+        width: 51
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd3aa0ce00d2bc0800000000000000
+      internalID: -3806385096267408019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 235
+        width: 117
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8ccd307b42781b0800000000000000
+      internalID: -5654510438677952339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 244
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad27245bf270d3b0800000000000000
+      internalID: -5489761521990423123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 133
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f6bee1ed10d1210800000000000000
+      internalID: 1305201520520425322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 145
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88f166b60451eee0800000000000000
+      internalID: -1233612435116394355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 217
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84590580c037d940800000000000000
+      internalID: 5320775088185365647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e597323529c0aa330800000000000000
+      internalID: 3722801864574728542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 74
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139931128526c6ff0800000000000000
+      internalID: -41550165901600463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 113
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f96df9553e12e3e0800000000000000
+      internalID: -2026023667871421962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 56
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0918f1b6dc39a4800800000000000000
+      internalID: 597452411054817680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 82
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae34d2948ccfeaba0800000000000000
+      internalID: -6075640910124858390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 52
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47895883982752710800000000000000
+      internalID: 1667865170695002228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 47
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299c0f74789870670800000000000000
+      internalID: 8504917635433023890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 91
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4da757e7e3546f0800000000000000
+      internalID: -701085454128458536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 71
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae712e7838c5d140800000000000000
+      internalID: 4743917927464533672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 42
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28535fb2a2e76aa80800000000000000
+      internalID: -8455932530750311038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 10
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b48ebf89e8ef850800000000000000
+      internalID: 6412719707134643057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9b485dfd8d79d60800000000000000
+      internalID: 7897018927489006067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0339d1d304f5a43d0800000000000000
+      internalID: -3221657853922274512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 14
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517117d6f5643f0d0800000000000000
+      internalID: -3390288718807886059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTHYPNOSHROOM_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 33
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c574486c30217b80800000000000000
+      internalID: -8398896386249820731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTHYPNOSHROOM_1536_00_0: -7214928366341390708
+      PLANTHYPNOSHROOM_1536_00_1: -3806385096267408019
+      PLANTHYPNOSHROOM_1536_00_10: 597452411054817680
+      PLANTHYPNOSHROOM_1536_00_11: -6075640910124858390
+      PLANTHYPNOSHROOM_1536_00_12: 1667865170695002228
+      PLANTHYPNOSHROOM_1536_00_13: 8504917635433023890
+      PLANTHYPNOSHROOM_1536_00_14: -701085454128458536
+      PLANTHYPNOSHROOM_1536_00_15: 4743917927464533672
+      PLANTHYPNOSHROOM_1536_00_16: -8455932530750311038
+      PLANTHYPNOSHROOM_1536_00_17: 6412719707134643057
+      PLANTHYPNOSHROOM_1536_00_18: 7897018927489006067
+      PLANTHYPNOSHROOM_1536_00_19: -3221657853922274512
+      PLANTHYPNOSHROOM_1536_00_2: -5654510438677952339
+      PLANTHYPNOSHROOM_1536_00_20: -3390288718807886059
+      PLANTHYPNOSHROOM_1536_00_21: -8398896386249820731
+      PLANTHYPNOSHROOM_1536_00_3: -5489761521990423123
+      PLANTHYPNOSHROOM_1536_00_4: 1305201520520425322
+      PLANTHYPNOSHROOM_1536_00_5: -1233612435116394355
+      PLANTHYPNOSHROOM_1536_00_6: 5320775088185365647
+      PLANTHYPNOSHROOM_1536_00_7: 3722801864574728542
+      PLANTHYPNOSHROOM_1536_00_8: -41550165901600463
+      PLANTHYPNOSHROOM_1536_00_9: -2026023667871421962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

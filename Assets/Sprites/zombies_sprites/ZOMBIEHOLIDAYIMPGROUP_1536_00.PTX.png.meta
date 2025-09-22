@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: a1415347086c8064aa9d52bda5c97ce1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8451014290486702493
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_0
+  - first:
+      213: -1008067936953593579
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_1
+  - first:
+      213: -2893765320905537771
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_2
+  - first:
+      213: -1241590446406906568
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_3
+  - first:
+      213: -3043695339180002433
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_4
+  - first:
+      213: 2094028882615446764
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_5
+  - first:
+      213: 5236705368187432764
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_6
+  - first:
+      213: 3997887028199436255
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_7
+  - first:
+      213: 3511281319673076559
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_8
+  - first:
+      213: 1166515216339418379
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_9
+  - first:
+      213: -3719286331399293069
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_10
+  - first:
+      213: -639693701882799282
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_11
+  - first:
+      213: 7476303615565567843
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_12
+  - first:
+      213: -3161874474257673488
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_13
+  - first:
+      213: -2177937486949463246
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_14
+  - first:
+      213: 7059351260117080050
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_15
+  - first:
+      213: -2764763357687233340
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_16
+  - first:
+      213: -1098130732965937905
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_17
+  - first:
+      213: 1446907604330937794
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_18
+  - first:
+      213: -4400443302459717389
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_19
+  - first:
+      213: -1999353716251540914
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_20
+  - first:
+      213: -7582133389809721687
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_21
+  - first:
+      213: -7040454651603171193
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_22
+  - first:
+      213: 3895289095316794259
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_23
+  - first:
+      213: 7064074977088148336
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_24
+  - first:
+      213: 2767845198598512762
+    second: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 186
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91b538c8b8084570800000000000000
+      internalID: 8451014290486702493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 197
+        width: 93
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5119b646d8f9202f0800000000000000
+      internalID: -1008067936953593579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 238
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517c410c5c747d7d0800000000000000
+      internalID: -2893765320905537771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 240
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dc565311cf4cee0800000000000000
+      internalID: -1241590446406906568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73f9a7173f92c5d0800000000000000
+      internalID: -3043695339180002433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_5
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 201
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceca3b19c2c7f0d10800000000000000
+      internalID: 2094028882615446764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f613089c38ca840800000000000000
+      internalID: 5236705368187432764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 115
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf28f702195b7730800000000000000
+      internalID: 3997887028199436255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 159
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b1495b1c39ab030800000000000000
+      internalID: 3511281319673076559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 125
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dbff6a86b403010800000000000000
+      internalID: 1166515216339418379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 125
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377baf689c0726cc0800000000000000
+      internalID: -3719286331399293069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b9836a7f95f17f0800000000000000
+      internalID: -639693701882799282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36711c6f68a21c760800000000000000
+      internalID: 7476303615565567843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_13
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 44
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f21f710be3ce14d0800000000000000
+      internalID: -3161874474257673488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 91
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bce53156966c1e0800000000000000
+      internalID: -2177937486949463246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 97
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f71cfba19ad7f160800000000000000
+      internalID: 7059351260117080050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 109
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c44901ef5691a9d0800000000000000
+      internalID: -2764763357687233340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 110
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d30a0aae7a2c0f0800000000000000
+      internalID: -1098130732965937905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 57
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdf4f2dcc2741410800000000000000
+      internalID: 1446907604330937794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 55
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f844a6812c7ee2c0800000000000000
+      internalID: -4400443302459717389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_20
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 63
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42487a536ed044e0800000000000000
+      internalID: -1999353716251540914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 66
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae53c49ad9d6c690800000000000000
+      internalID: -7582133389809721687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 212
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78842f9dbc74b4e90800000000000000
+      internalID: -7040454651603171193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 29
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b6fc74bc8de0630800000000000000
+      internalID: 3895289095316794259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073901cb3c2a80260800000000000000
+      internalID: 7064074977088148336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a702cbf1b8c596620800000000000000
+      internalID: 2767845198598512762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_0: 8451014290486702493
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_1: -1008067936953593579
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_10: -3719286331399293069
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_11: -639693701882799282
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_12: 7476303615565567843
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_13: -3161874474257673488
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_14: -2177937486949463246
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_15: 7059351260117080050
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_16: -2764763357687233340
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_17: -1098130732965937905
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_18: 1446907604330937794
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_19: -4400443302459717389
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_2: -2893765320905537771
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_20: -1999353716251540914
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_21: -7582133389809721687
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_22: -7040454651603171193
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_23: 3895289095316794259
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_24: 7064074977088148336
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_25: 2767845198598512762
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_3: -1241590446406906568
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_4: -3043695339180002433
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_5: 2094028882615446764
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_6: 5236705368187432764
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_7: 3997887028199436255
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_8: 3511281319673076559
+      ZOMBIEHOLIDAYIMPGROUP_1536_00.PTX_9: 1166515216339418379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

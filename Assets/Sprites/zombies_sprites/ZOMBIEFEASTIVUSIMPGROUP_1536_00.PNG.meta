@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: e2cecc5e7cd8f804eb6379b85538bfca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4254711677094819664
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_0
+  - first:
+      213: 6462434995408115208
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_1
+  - first:
+      213: -3149328840398460199
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_2
+  - first:
+      213: 1532566735274547335
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_3
+  - first:
+      213: 4622734946289467691
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_4
+  - first:
+      213: 6601208126870638636
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_5
+  - first:
+      213: 571921282256896841
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_6
+  - first:
+      213: 8821694535223855406
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_7
+  - first:
+      213: -786534593611416825
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_8
+  - first:
+      213: -1430605453190726274
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_9
+  - first:
+      213: -775890257105656564
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_10
+  - first:
+      213: 7866383463572678415
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_11
+  - first:
+      213: 8056585827864336375
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_12
+  - first:
+      213: -6313510064417297948
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_13
+  - first:
+      213: -3491087819728670790
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_14
+  - first:
+      213: -2597176373963164728
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_15
+  - first:
+      213: -8308852580036905267
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_16
+  - first:
+      213: -358684794638059104
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_17
+  - first:
+      213: -6139956090384482232
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_18
+  - first:
+      213: 242686905189744417
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_19
+  - first:
+      213: -7155376473676498062
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_20
+  - first:
+      213: -463601692914443006
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_21
+  - first:
+      213: -3118988503179621985
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_22
+  - first:
+      213: 925974014345540456
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_23
+  - first:
+      213: -3755412920288955248
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_24
+  - first:
+      213: 928353231753662166
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_25
+  - first:
+      213: 6300621203179799214
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_26
+  - first:
+      213: 6837489333378554576
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_27
+  - first:
+      213: -3213307832546349846
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_28
+  - first:
+      213: 4373537579900577765
+    second: ZOMBIEFEASTIVUSIMPGROUP_1536_00_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b88e09a54a34f4c0800000000000000
+      internalID: -4254711677094819664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 177
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8069a5d836e2fa950800000000000000
+      internalID: 6462434995408115208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 229
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da28230b165b44d0800000000000000
+      internalID: -3149328840398460199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 254
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7889e9a6355c44510800000000000000
+      internalID: 1532566735274547335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 255
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b214e5cf0f0472040800000000000000
+      internalID: 4622734946289467691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 243
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20db8211d33c9b50800000000000000
+      internalID: 6601208126870638636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 233
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9438864406fdfe700800000000000000
+      internalID: 571921282256896841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 191
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29c501c074fc6a70800000000000000
+      internalID: 8821694535223855406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 192
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b3c3054faa515f0800000000000000
+      internalID: -786534593611416825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 88
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d74d48be7752ce0800000000000000
+      internalID: -1430605453190726274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05e7880ceb7b35f0800000000000000
+      internalID: -775890257105656564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 152
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07a14d05120b2d60800000000000000
+      internalID: 7866383463572678415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 152
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7dc44ff1ebecf60800000000000000
+      internalID: 8056585827864336375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 117
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9ad8cfb08e168a0800000000000000
+      internalID: -6313510064417297948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 112
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf2161ef1a2d8fc0800000000000000
+      internalID: -3491087819728670790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 98
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c373ea29d9f4fbd0800000000000000
+      internalID: -2597176373963164728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6ffc3c99601bc80800000000000000
+      internalID: -8308852580036905267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 51
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9b3456412b50bf0800000000000000
+      internalID: -358684794638059104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 51
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8400328777e7acaa0800000000000000
+      internalID: -6139956090384482232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 74
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f397754723e5300800000000000000
+      internalID: 242686905189744417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 76
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b335c020ff2bc90800000000000000
+      internalID: -7155376473676498062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 71
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d909077b4f099f0800000000000000
+      internalID: -463601692914443006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 56
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9983714b7027b4d0800000000000000
+      internalID: -3118988503179621985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 212
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863fe44c578b9dc00800000000000000
+      internalID: 925974014345540456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 24
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094b34598d712ebc0800000000000000
+      internalID: -3755412920288955248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de43cc785c22ec00800000000000000
+      internalID: 928353231753662166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea283d72a9d407750800000000000000
+      internalID: 6300621203179799214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da1d877254a3ee50800000000000000
+      internalID: 6837489333378554576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec28171d890863d0800000000000000
+      internalID: -3213307832546349846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEFEASTIVUSIMPGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 19
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7abc5c14de1bc30800000000000000
+      internalID: 4373537579900577765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_0: -4254711677094819664
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_1: 6462434995408115208
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_10: -775890257105656564
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_11: 7866383463572678415
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_12: 8056585827864336375
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_13: -6313510064417297948
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_14: -3491087819728670790
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_15: -2597176373963164728
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_16: -8308852580036905267
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_17: -358684794638059104
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_18: -6139956090384482232
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_19: 242686905189744417
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_2: -3149328840398460199
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_20: -7155376473676498062
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_21: -463601692914443006
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_22: -3118988503179621985
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_23: 925974014345540456
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_24: -3755412920288955248
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_25: 928353231753662166
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_26: 6300621203179799214
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_27: 6837489333378554576
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_28: -3213307832546349846
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_29: 4373537579900577765
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_3: 1532566735274547335
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_4: 4622734946289467691
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_5: 6601208126870638636
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_6: 571921282256896841
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_7: 8821694535223855406
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_8: -786534593611416825
+      ZOMBIEFEASTIVUSIMPGROUP_1536_00_9: -1430605453190726274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

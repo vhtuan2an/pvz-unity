@@ -1,0 +1,4745 @@
+fileFormatVersion: 2
+guid: 3b23b3c5cb21b3d428bbbd85e3a164f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 500704750982257142
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_0
+  - first:
+      213: 442629179099739913
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_1
+  - first:
+      213: 607272276125461449
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_2
+  - first:
+      213: 4873684087515210660
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_3
+  - first:
+      213: 8414802869417410250
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_4
+  - first:
+      213: 8907830052163781247
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_5
+  - first:
+      213: -2840831121097138164
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_6
+  - first:
+      213: 9190166641972487015
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_7
+  - first:
+      213: 571617816609282249
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_8
+  - first:
+      213: 5022919772564643886
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_9
+  - first:
+      213: -7390014182937338069
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_10
+  - first:
+      213: -4674693200775501141
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_11
+  - first:
+      213: 4377278883977298844
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_12
+  - first:
+      213: 6502104361397924337
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_13
+  - first:
+      213: -2144331508856992951
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_14
+  - first:
+      213: 4178530026324124862
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_15
+  - first:
+      213: -8982284461556407013
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_16
+  - first:
+      213: -1312465213449925985
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_17
+  - first:
+      213: 5640549656540055828
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_18
+  - first:
+      213: -2957536043919612318
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_19
+  - first:
+      213: -8279328615777587716
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_20
+  - first:
+      213: -3456507252121626574
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_21
+  - first:
+      213: 8666143784849711129
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_22
+  - first:
+      213: 1074262627749107446
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_23
+  - first:
+      213: -7999729418076742817
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_24
+  - first:
+      213: -6658642403777957436
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_25
+  - first:
+      213: -1453912588741517363
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_26
+  - first:
+      213: 7703729426434035875
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_27
+  - first:
+      213: 6189631726311281349
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_28
+  - first:
+      213: 5758869181978379431
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_29
+  - first:
+      213: 4430833504970075131
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_30
+  - first:
+      213: 9181545138715064335
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_31
+  - first:
+      213: 9152301756171888102
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_32
+  - first:
+      213: -8893645185405975063
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_33
+  - first:
+      213: -3060549179885305891
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_34
+  - first:
+      213: -5268392270100779909
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_35
+  - first:
+      213: -7117727626896599720
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_36
+  - first:
+      213: 6231322621940937736
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_37
+  - first:
+      213: 6062731173990411257
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_38
+  - first:
+      213: -2522359068155066277
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_39
+  - first:
+      213: 2050688919443373817
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_40
+  - first:
+      213: -9006348360513505714
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_41
+  - first:
+      213: 3830998048515127355
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_42
+  - first:
+      213: 8068054759396507048
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_43
+  - first:
+      213: 4685420046256727401
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_44
+  - first:
+      213: -8091470803175856885
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_45
+  - first:
+      213: -8069108510125260516
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_46
+  - first:
+      213: -1433690124348604853
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_47
+  - first:
+      213: -2587302962581086631
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_48
+  - first:
+      213: 3313611941054839202
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_49
+  - first:
+      213: -8092651745487655407
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_50
+  - first:
+      213: -4310519944907877146
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_51
+  - first:
+      213: 2206085908014368296
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_52
+  - first:
+      213: -2686607572414955719
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_53
+  - first:
+      213: 5051355727403611750
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_54
+  - first:
+      213: -6052760418927246850
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_55
+  - first:
+      213: -3166610184768832730
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_56
+  - first:
+      213: -861143541405948979
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_57
+  - first:
+      213: 2970507743916743566
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_58
+  - first:
+      213: 7631112938942707435
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_59
+  - first:
+      213: -3811922669025565059
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_60
+  - first:
+      213: 5994026924731100088
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_61
+  - first:
+      213: 8284559536744709512
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_62
+  - first:
+      213: 6420327156270708590
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_63
+  - first:
+      213: 7885079621425656304
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_64
+  - first:
+      213: 2316247035095133012
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_65
+  - first:
+      213: 6972574273208249229
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_66
+  - first:
+      213: -1303496400332508044
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_67
+  - first:
+      213: -5818016984211870129
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_68
+  - first:
+      213: -5391979893244186086
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_69
+  - first:
+      213: -6954248162650872128
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_70
+  - first:
+      213: 1204730797185812649
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_71
+  - first:
+      213: -2371769626437580558
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_72
+  - first:
+      213: 4425728105553592097
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_73
+  - first:
+      213: -5145689065566416728
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_74
+  - first:
+      213: -111369216463212749
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_75
+  - first:
+      213: -2481553693078044991
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_76
+  - first:
+      213: -2455766220080126777
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_77
+  - first:
+      213: -4704980089589688380
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_78
+  - first:
+      213: -416138490153571777
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_79
+  - first:
+      213: 8739489834721154905
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_80
+  - first:
+      213: -2246988752917437500
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_81
+  - first:
+      213: 6588285794161977900
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_82
+  - first:
+      213: 994295175902796422
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_83
+  - first:
+      213: -7400549695952062426
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_84
+  - first:
+      213: -138111905795581680
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_85
+  - first:
+      213: -2971188572897233691
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_86
+  - first:
+      213: -8242257507265534443
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_87
+  - first:
+      213: -4698034880053254303
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_88
+  - first:
+      213: 5590953700849140182
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_89
+  - first:
+      213: -3335314125045664169
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_90
+  - first:
+      213: -2803038741565354546
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_91
+  - first:
+      213: 1566322072020490549
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_92
+  - first:
+      213: 1388802567779346335
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_93
+  - first:
+      213: -5965563530489715181
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_94
+  - first:
+      213: 3568954813303772436
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_95
+  - first:
+      213: -4948172236736040118
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_96
+  - first:
+      213: 8272897080817324596
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_97
+  - first:
+      213: 5989950576356340918
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_98
+  - first:
+      213: -3327303234257512356
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_99
+  - first:
+      213: 2682094273616251559
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_100
+  - first:
+      213: 6506222872407553021
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_101
+  - first:
+      213: -4873828887828925063
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_102
+  - first:
+      213: 3733268573705973803
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_103
+  - first:
+      213: -7518204109326663250
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_104
+  - first:
+      213: -125884988351163539
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_105
+  - first:
+      213: -2599763470696082662
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_106
+  - first:
+      213: -8148892694926234031
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_107
+  - first:
+      213: -7710097023200721669
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_108
+  - first:
+      213: -9183792199401783207
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_109
+  - first:
+      213: -4318448858839318907
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_110
+  - first:
+      213: 826623342509207035
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_111
+  - first:
+      213: -5624756683094905058
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_112
+  - first:
+      213: -8464523217405404262
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_113
+  - first:
+      213: 536628674281734161
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_114
+  - first:
+      213: -7690587045049625304
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_115
+  - first:
+      213: 2972258661086449270
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_116
+  - first:
+      213: -7059210812632964087
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_117
+  - first:
+      213: 3928331975828404518
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_118
+  - first:
+      213: 5117172422115849535
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_119
+  - first:
+      213: 5742257835132462082
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_120
+  - first:
+      213: 6767022772402389088
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_121
+  - first:
+      213: -2316275307992892350
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_122
+  - first:
+      213: -7408918398580009841
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_123
+  - first:
+      213: 792287760275067795
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_124
+  - first:
+      213: 4910736118218939926
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_125
+  - first:
+      213: -4577591681260675239
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_126
+  - first:
+      213: -3859809113452381606
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_127
+  - first:
+      213: 3673246328462026576
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_128
+  - first:
+      213: 6003584650635393830
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_129
+  - first:
+      213: 7514702788228684403
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_130
+  - first:
+      213: 1839308227312959729
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_131
+  - first:
+      213: 7533212369093900585
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_132
+  - first:
+      213: 2887121808328516758
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_133
+  - first:
+      213: 7760906548738652094
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_134
+  - first:
+      213: 4183899281483297605
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_135
+  - first:
+      213: -597364437480998086
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_136
+  - first:
+      213: 9191339764274373441
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_137
+  - first:
+      213: 3077091722328625538
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_138
+  - first:
+      213: -8619099119450167048
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_139
+  - first:
+      213: -7940795227641833719
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_140
+  - first:
+      213: 7753503405396491472
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_141
+  - first:
+      213: 3135772902732734199
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_142
+  - first:
+      213: 7339986572927888081
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_143
+  - first:
+      213: 6029534671927393973
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_144
+  - first:
+      213: 4626445563811553910
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_145
+  - first:
+      213: 7436926422706441665
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_146
+  - first:
+      213: 4991868321678970719
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_147
+  - first:
+      213: 8095551803918558247
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_148
+  - first:
+      213: -5289393543718758357
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_149
+  - first:
+      213: -2978951008879841802
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_150
+  - first:
+      213: -781771828589872353
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_151
+  - first:
+      213: 1629069052127190911
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_152
+  - first:
+      213: -5861595651381184620
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_153
+  - first:
+      213: -7382631108003076108
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_154
+  - first:
+      213: -1900656023510183623
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_155
+  - first:
+      213: -5156794173723455372
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_156
+  - first:
+      213: 8257979325402348158
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_157
+  - first:
+      213: 6624273095408755564
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_158
+  - first:
+      213: -6254146044309499424
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_159
+  - first:
+      213: -3132139025472937534
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_160
+  - first:
+      213: -2354150842032833107
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_161
+  - first:
+      213: 179831914190203779
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_162
+  - first:
+      213: -1764704944847971085
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_163
+  - first:
+      213: -4404200554340575351
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_164
+  - first:
+      213: -6252441129406665594
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_165
+  - first:
+      213: -915648102038973470
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_166
+  - first:
+      213: 6084374702778934215
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_167
+  - first:
+      213: -2581629634007463328
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_168
+  - first:
+      213: 2553955164169696909
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_169
+  - first:
+      213: 1592018363974624007
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_170
+  - first:
+      213: 2911866828508821443
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_171
+  - first:
+      213: -8256716768403993151
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_172
+  - first:
+      213: 4383910999527966776
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_173
+  - first:
+      213: 3488681940090384538
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_174
+  - first:
+      213: 7281977531761581839
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_175
+  - first:
+      213: -3668839914037373963
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_176
+  - first:
+      213: 3771825147731881046
+    second: VET_ZOMBIEDARKBASICGROUP_1536_00_177
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 626
+        width: 138
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9d5a3715cd2f600800000000000000
+      internalID: 500704750982257142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 686
+        width: 138
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907767ba4e8842600800000000000000
+      internalID: 442629179099739913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 696
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cba66ceae67d6800800000000000000
+      internalID: 607272276125461449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 762
+        width: 171
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a361df0bddc2a340800000000000000
+      internalID: 4873684087515210660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 729
+        width: 124
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceff8e40a267c470800000000000000
+      internalID: 8414802869417410250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 729
+        width: 124
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7285ca9c38fe9b70800000000000000
+      internalID: 8907830052163781247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 742
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00612095275398d0800000000000000
+      internalID: -2840831121097138164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 668
+        width: 24
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7632a698ed70a8f70800000000000000
+      internalID: 9190166641972487015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 632
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8d74a206bcee700800000000000000
+      internalID: 571617816609282249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 731
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20600babeef4b540800000000000000
+      internalID: 5022919772564643886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 622
+        width: 128
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fdbec2145617990800000000000000
+      internalID: -7390014182937338069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 575
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaa7dd2d47202fb0800000000000000
+      internalID: -4674693200775501141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 635
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93094204f73fbc30800000000000000
+      internalID: 4377278883977298844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 585
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f134a1977d1c3a50800000000000000
+      internalID: 6502104361397924337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 645
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bc6e59addcd32e0800000000000000
+      internalID: -2144331508856992951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 609
+        width: 128
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb46a5e8bee1df930800000000000000
+      internalID: 4178530026324124862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 629
+        width: 138
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b156b655fd3885380800000000000000
+      internalID: -8982284461556407013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 678
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a824497df29cde0800000000000000
+      internalID: -1312465213449925985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 627
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41985081702474e40800000000000000
+      internalID: 5640549656540055828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 650
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266e1c343a8b4f6d0800000000000000
+      internalID: -2957536043919612318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 657
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfda9dd5d7ae91d80800000000000000
+      internalID: -8279328615777587716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 632
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2389ab1b7f40800d0800000000000000
+      internalID: -3456507252121626574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 646
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9102d6c6bd3544870800000000000000
+      internalID: 8666143784849711129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 634
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f696721b2c88ee00800000000000000
+      internalID: 1074262627749107446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 635
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b1b488a704bf090800000000000000
+      internalID: -7999729418076742817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 515
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c136744300c793a0800000000000000
+      internalID: -6658642403777957436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 579
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfd795243aa2dbe0800000000000000
+      internalID: -1453912588741517363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 588
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a01354e81529ea60800000000000000
+      internalID: 7703729426434035875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 521
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c29541d24df5e550800000000000000
+      internalID: 6189631726311281349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 513
+        width: 104
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a404cb520d9bef40800000000000000
+      internalID: 5758869181978379431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 549
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbe3a2e89b7d7d30800000000000000
+      internalID: 4430833504970075131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 562
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08735268a66b6f70800000000000000
+      internalID: 9181545138715064335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 527
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e52fcdc4f1830f70800000000000000
+      internalID: 9152301756171888102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 511
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5838d03dc639480800000000000000
+      internalID: -8893645185405975063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 527
+        width: 104
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfb2538cbeb685d0800000000000000
+      internalID: -3060549179885305891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 479
+        width: 104
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7caa3bb429e2e6b0800000000000000
+      internalID: -5268392270100779909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 499
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85518d64f60c83d90800000000000000
+      internalID: -7117727626896599720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 490
+        width: 104
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80435a1e8ea1a7650800000000000000
+      internalID: 6231322621940937736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 530
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fba26a81e5232450800000000000000
+      internalID: 6062731173990411257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 424
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58c1a2aac7cefcd0800000000000000
+      internalID: -2522359068155066277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 388
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe704c05b2857c10800000000000000
+      internalID: 2050688919443373817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 398
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46bb2042e5030380800000000000000
+      internalID: -9006348360513505714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 433
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3875f87d607a2530800000000000000
+      internalID: 3830998048515127355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 430
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad7a3aae0d77ff60800000000000000
+      internalID: 8068054759396507048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 422
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96560a825b4f50140800000000000000
+      internalID: 4685420046256727401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 437
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05224acc2255bf80800000000000000
+      internalID: -8091470803175856885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 436
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1107efdf84c40090800000000000000
+      internalID: -8069108510125260516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 420
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e373c8d628a1ce0800000000000000
+      internalID: -1433690124348604853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 401
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ed905e9ad081cd0800000000000000
+      internalID: -2587302962581086631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 435
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9f01e01805cfd20800000000000000
+      internalID: 3313611941054839202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 331
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e634b3d1021bf80800000000000000
+      internalID: -8092651745487655407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 295
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4978eb2f4fd24c0800000000000000
+      internalID: -4310519944907877146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 335
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826013be1779d9e10800000000000000
+      internalID: 2206085908014368296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 305
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ff45ba5a047bad0800000000000000
+      internalID: -2686607572414955719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 320
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666f60655450a1640800000000000000
+      internalID: 5051355727403611750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 340
+        width: 104
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef10c47c776400ca0800000000000000
+      internalID: -6052760418927246850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 362
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b38ba70d0fd04d0800000000000000
+      internalID: -3166610184768832730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 326
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc360e9f28a9c04f0800000000000000
+      internalID: -861143541405948979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 338
+        width: 104
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b54befd0d593920800000000000000
+      internalID: 2970507743916743566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 308
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6319e59c827e960800000000000000
+      internalID: 7631112938942707435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 341
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76e8796784591bc0800000000000000
+      internalID: -3811922669025565059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 325
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb69b6fabf0f2350800000000000000
+      internalID: 5994026924731100088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 232
+        width: 24
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d3e34510ba8f270800000000000000
+      internalID: 8284559536744709512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 297
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e673f434885991950800000000000000
+      internalID: 6420327156270708590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 331
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f17fb4832e6d6d60800000000000000
+      internalID: 7885079621425656304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ba5ea0866f42020800000000000000
+      internalID: 2316247035095133012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 223
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bea94fb5f83c060800000000000000
+      internalID: 6972574273208249229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 238
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4743e2c1eec09ede0800000000000000
+      internalID: -1303496400332508044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 269
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eacd6c060424fa0800000000000000
+      internalID: -5818016984211870129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 255
+        width: 115
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12b123ead6db25b0800000000000000
+      internalID: -5391979893244186086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 283
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c62849242c8d7f90800000000000000
+      internalID: -6954248162650872128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 255
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8cb30f64018b010800000000000000
+      internalID: 1204730797185812649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 269
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f880274718c51fd0800000000000000
+      internalID: -2371769626437580558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 254
+        width: 115
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ffbf373485b6d30800000000000000
+      internalID: 4425728105553592097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 213
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a05d42de07d698b0800000000000000
+      internalID: -5145689065566416728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 235
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33febc5a946547ef0800000000000000
+      internalID: -111369216463212749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 240
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce36016010cf8dd0800000000000000
+      internalID: -2481553693078044991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 187
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c468b052ad5bedd0800000000000000
+      internalID: -2455766220080126777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 207
+        width: 138
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c798bc598d84beb0800000000000000
+      internalID: -4704980089589688380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 216
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a670d7f34993af0800000000000000
+      internalID: -416138490153571777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 230
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95711bc63b7e84970800000000000000
+      internalID: 8739489834721154905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 215
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3ee0062a711d0e0800000000000000
+      internalID: -2246988752917437500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 161
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ae6c7060b4e6b50800000000000000
+      internalID: 6588285794161977900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 161
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a1299c1327ccd00800000000000000
+      internalID: 994295175902796422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628f626e247fb4990800000000000000
+      internalID: -7400549695952062426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 163
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0195dc314f3551ef0800000000000000
+      internalID: -138111905795581680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 163
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4b2c72cb734c6d0800000000000000
+      internalID: -2971188572897233691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 196
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516242c677e9d9d80800000000000000
+      internalID: -8242257507265534443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 178
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167e708fa2a3dceb0800000000000000
+      internalID: -4698034880053254303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 156
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1c4cec4ce079d40800000000000000
+      internalID: 5590953700849140182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 156
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7567f4a797596b1d0800000000000000
+      internalID: -3335314125045664169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 151
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdc65d9d1b9919d0800000000000000
+      internalID: -2803038741565354546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 156
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53992a230a1bcb510800000000000000
+      internalID: 1566322072020490549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 140
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9763a3c394064310800000000000000
+      internalID: 1388802567779346335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 188
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316a220739f063da0800000000000000
+      internalID: -5965563530489715181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 163
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415546a5e79778130800000000000000
+      internalID: 3568954813303772436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 163
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43f5e5319f845bb0800000000000000
+      internalID: -4948172236736040118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 139
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4329b75301c3fc270800000000000000
+      internalID: 8272897080817324596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 190
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4bdd52054902350800000000000000
+      internalID: 5989950576356340918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c589216565b03d1d0800000000000000
+      internalID: -3327303234257512356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 142
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa81011886b83520800000000000000
+      internalID: 2682094273616251559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 112
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3bf532b3fba4a50800000000000000
+      internalID: 6506222872407553021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 99
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9757becf27eac5cb0800000000000000
+      internalID: -4873828887828925063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 99
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20bfd2fcfb3fc330800000000000000
+      internalID: 3733268573705973803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 140
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1c3ba1239f9a790800000000000000
+      internalID: -7518204109326663250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 140
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6356c22544c04ef0800000000000000
+      internalID: -125884988351163539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 128
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a139f15c5e8cbebd0800000000000000
+      internalID: -2599763470696082662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 131
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e6526c44159ee80800000000000000
+      internalID: -8148892694926234031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 137
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf403547b9b300590800000000000000
+      internalID: -7710097023200721669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 136
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95047a707ad9c8080800000000000000
+      internalID: -9183792199401783207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 155
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef03c94a9c114c0800000000000000
+      internalID: -4318448858839318907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 155
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdae45ec81c87b00800000000000000
+      internalID: 826623342509207035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 138
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1faf141999d0f1b0800000000000000
+      internalID: -5624756683094905058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 124
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b11811bf8f78a80800000000000000
+      internalID: -8464523217405404262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 99
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1100ad2afec727700800000000000000
+      internalID: 536628674281734161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 122
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825989934db854590800000000000000
+      internalID: -7690587045049625304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 140
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ec2aa21859f3920800000000000000
+      internalID: 2972258661086449270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 140
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9046a6eca25a80e90800000000000000
+      internalID: -7059210812632964087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 108
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6297f0b6e1d348630800000000000000
+      internalID: 3928331975828404518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 126
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35f3aab439d30740800000000000000
+      internalID: 5117172422115849535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 135
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20426c7c31990bf40800000000000000
+      internalID: 5742257835132462082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 135
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0600608bb5b49ed50800000000000000
+      internalID: 6767022772402389088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 114
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c331921efeadfd0800000000000000
+      internalID: -2316275307992892350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 121
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8458ca78fb3e2990800000000000000
+      internalID: -7408918398580009841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 122
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393d51f2585cefa00800000000000000
+      internalID: 792287760275067795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 93
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ede183b70762440800000000000000
+      internalID: 4910736118218939926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 111
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f9ca77e902970c0800000000000000
+      internalID: -4577591681260675239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 115
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5afadbbf043f6ac0800000000000000
+      internalID: -3859809113452381606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 101
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057ac74f21ef9f230800000000000000
+      internalID: 3673246328462026576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 87
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b3c107e64015350800000000000000
+      internalID: 6003584650635393830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 111
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a120d0f56994860800000000000000
+      internalID: 7514702788228684403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 68
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f041717619868910800000000000000
+      internalID: 1839308227312959729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 110
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929bb6dacb85b8860800000000000000
+      internalID: 7533212369093900585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 61
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69464b0fcfd111820800000000000000
+      internalID: 2887121808328516758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 70
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7f194136744bb60800000000000000
+      internalID: 7760906548738652094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 103
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543f2d0ba32301a30800000000000000
+      internalID: 4183899281483297605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 72
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b7e76853cb5b7f0800000000000000
+      internalID: -597364437480998086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 55
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1432f7b51d23e8f70800000000000000
+      internalID: 9191339764274373441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 71
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28151ba4e9604ba20800000000000000
+      internalID: 3077091722328625538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 71
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f86a4d440fc26880800000000000000
+      internalID: -8619099119450167048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 71
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9079a4600d0acc190800000000000000
+      internalID: -7940795227641833719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 70
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc7073744af99b60800000000000000
+      internalID: 7753503405396491472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 47
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe1eab47d0848b20800000000000000
+      internalID: 3135772902732734199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 47
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dae08f26eedcd560800000000000000
+      internalID: 7339986572927888081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 47
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be322996d53da350800000000000000
+      internalID: 6029534671927393973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 47
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6726ba37abf643040800000000000000
+      internalID: 4626445563811553910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 62
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd422ecd25453760800000000000000
+      internalID: 7436926422706441665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 61
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f433f5acda64540800000000000000
+      internalID: 4991868321678970719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 37
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724a65d397d295070800000000000000
+      internalID: 8095551803918558247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 57
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28166da89c4896b0800000000000000
+      internalID: -5289393543718758357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 55
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdec6037d3a8a6d0800000000000000
+      internalID: -2978951008879841802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 55
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b3e75f9a69625f0800000000000000
+      internalID: -781771828589872353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 61
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f9f96fbad9b9610800000000000000
+      internalID: 1629069052127190911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 61
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4973376afcd67aea0800000000000000
+      internalID: -5861595651381184620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 60
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f76ab34f10ab8990800000000000000
+      internalID: -7382631108003076108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 40
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931187eaa638f95e0800000000000000
+      internalID: -1900656023510183623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 55
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470d86755036f68b0800000000000000
+      internalID: -5156794173723455372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 39
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a702d917c3a9270800000000000000
+      internalID: 8257979325402348158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 50
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63240b88452eeb50800000000000000
+      internalID: 6624273095408755564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 54
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1948ffe4fc439a0800000000000000
+      internalID: -6254146044309499424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 24
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c12c8fa6286884d0800000000000000
+      internalID: -3132139025472937534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 49
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad32f03840645fd0800000000000000
+      internalID: -2354150842032833107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 53
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38be5945c24ee7200800000000000000
+      internalID: 179831914190203779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc16f4d3328287e0800000000000000
+      internalID: -1764704944847971085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 17
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98793f62ee221e2c0800000000000000
+      internalID: -4404200554340575351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 15
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c6cae6bedda39a0800000000000000
+      internalID: -6252441129406665594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 15
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3d4ba07e6fa43f0800000000000000
+      internalID: -915648102038973470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 13
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3e2874e8a007450800000000000000
+      internalID: 6084374702778934215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 13
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a0d53a6853c2cd0800000000000000
+      internalID: -2581629634007463328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 16
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86fb9cb0b8717320800000000000000
+      internalID: 2553955164169696909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 17
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7032b94644cf71610800000000000000
+      internalID: 1592018363974624007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_171
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 17
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7f28ae377096820800000000000000
+      internalID: 2911866828508821443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_172
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 13
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdc44858df3a6d80800000000000000
+      internalID: -8256716768403993151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_173
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838cacdb3d7c6dc30800000000000000
+      internalID: 4383910999527966776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_174
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90786d9db94a6030800000000000000
+      internalID: 3488681940090384538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_175
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 20
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f560bcbf7ce0560800000000000000
+      internalID: 7281977531761581839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_176
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 19
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3170a5989a51dc0800000000000000
+      internalID: -3668839914037373963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEDARKBASICGROUP_1536_00_177
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 9
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ca175ecf6385430800000000000000
+      internalID: 3771825147731881046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VET_ZOMBIEDARKBASICGROUP_1536_00_0: 500704750982257142
+      VET_ZOMBIEDARKBASICGROUP_1536_00_1: 442629179099739913
+      VET_ZOMBIEDARKBASICGROUP_1536_00_10: -7390014182937338069
+      VET_ZOMBIEDARKBASICGROUP_1536_00_100: 2682094273616251559
+      VET_ZOMBIEDARKBASICGROUP_1536_00_101: 6506222872407553021
+      VET_ZOMBIEDARKBASICGROUP_1536_00_102: -4873828887828925063
+      VET_ZOMBIEDARKBASICGROUP_1536_00_103: 3733268573705973803
+      VET_ZOMBIEDARKBASICGROUP_1536_00_104: -7518204109326663250
+      VET_ZOMBIEDARKBASICGROUP_1536_00_105: -125884988351163539
+      VET_ZOMBIEDARKBASICGROUP_1536_00_106: -2599763470696082662
+      VET_ZOMBIEDARKBASICGROUP_1536_00_107: -8148892694926234031
+      VET_ZOMBIEDARKBASICGROUP_1536_00_108: -7710097023200721669
+      VET_ZOMBIEDARKBASICGROUP_1536_00_109: -9183792199401783207
+      VET_ZOMBIEDARKBASICGROUP_1536_00_11: -4674693200775501141
+      VET_ZOMBIEDARKBASICGROUP_1536_00_110: -4318448858839318907
+      VET_ZOMBIEDARKBASICGROUP_1536_00_111: 826623342509207035
+      VET_ZOMBIEDARKBASICGROUP_1536_00_112: -5624756683094905058
+      VET_ZOMBIEDARKBASICGROUP_1536_00_113: -8464523217405404262
+      VET_ZOMBIEDARKBASICGROUP_1536_00_114: 536628674281734161
+      VET_ZOMBIEDARKBASICGROUP_1536_00_115: -7690587045049625304
+      VET_ZOMBIEDARKBASICGROUP_1536_00_116: 2972258661086449270
+      VET_ZOMBIEDARKBASICGROUP_1536_00_117: -7059210812632964087
+      VET_ZOMBIEDARKBASICGROUP_1536_00_118: 3928331975828404518
+      VET_ZOMBIEDARKBASICGROUP_1536_00_119: 5117172422115849535
+      VET_ZOMBIEDARKBASICGROUP_1536_00_12: 4377278883977298844
+      VET_ZOMBIEDARKBASICGROUP_1536_00_120: 5742257835132462082
+      VET_ZOMBIEDARKBASICGROUP_1536_00_121: 6767022772402389088
+      VET_ZOMBIEDARKBASICGROUP_1536_00_122: -2316275307992892350
+      VET_ZOMBIEDARKBASICGROUP_1536_00_123: -7408918398580009841
+      VET_ZOMBIEDARKBASICGROUP_1536_00_124: 792287760275067795
+      VET_ZOMBIEDARKBASICGROUP_1536_00_125: 4910736118218939926
+      VET_ZOMBIEDARKBASICGROUP_1536_00_126: -4577591681260675239
+      VET_ZOMBIEDARKBASICGROUP_1536_00_127: -3859809113452381606
+      VET_ZOMBIEDARKBASICGROUP_1536_00_128: 3673246328462026576
+      VET_ZOMBIEDARKBASICGROUP_1536_00_129: 6003584650635393830
+      VET_ZOMBIEDARKBASICGROUP_1536_00_13: 6502104361397924337
+      VET_ZOMBIEDARKBASICGROUP_1536_00_130: 7514702788228684403
+      VET_ZOMBIEDARKBASICGROUP_1536_00_131: 1839308227312959729
+      VET_ZOMBIEDARKBASICGROUP_1536_00_132: 7533212369093900585
+      VET_ZOMBIEDARKBASICGROUP_1536_00_133: 2887121808328516758
+      VET_ZOMBIEDARKBASICGROUP_1536_00_134: 7760906548738652094
+      VET_ZOMBIEDARKBASICGROUP_1536_00_135: 4183899281483297605
+      VET_ZOMBIEDARKBASICGROUP_1536_00_136: -597364437480998086
+      VET_ZOMBIEDARKBASICGROUP_1536_00_137: 9191339764274373441
+      VET_ZOMBIEDARKBASICGROUP_1536_00_138: 3077091722328625538
+      VET_ZOMBIEDARKBASICGROUP_1536_00_139: -8619099119450167048
+      VET_ZOMBIEDARKBASICGROUP_1536_00_14: -2144331508856992951
+      VET_ZOMBIEDARKBASICGROUP_1536_00_140: -7940795227641833719
+      VET_ZOMBIEDARKBASICGROUP_1536_00_141: 7753503405396491472
+      VET_ZOMBIEDARKBASICGROUP_1536_00_142: 3135772902732734199
+      VET_ZOMBIEDARKBASICGROUP_1536_00_143: 7339986572927888081
+      VET_ZOMBIEDARKBASICGROUP_1536_00_144: 6029534671927393973
+      VET_ZOMBIEDARKBASICGROUP_1536_00_145: 4626445563811553910
+      VET_ZOMBIEDARKBASICGROUP_1536_00_146: 7436926422706441665
+      VET_ZOMBIEDARKBASICGROUP_1536_00_147: 4991868321678970719
+      VET_ZOMBIEDARKBASICGROUP_1536_00_148: 8095551803918558247
+      VET_ZOMBIEDARKBASICGROUP_1536_00_149: -5289393543718758357
+      VET_ZOMBIEDARKBASICGROUP_1536_00_15: 4178530026324124862
+      VET_ZOMBIEDARKBASICGROUP_1536_00_150: -2978951008879841802
+      VET_ZOMBIEDARKBASICGROUP_1536_00_151: -781771828589872353
+      VET_ZOMBIEDARKBASICGROUP_1536_00_152: 1629069052127190911
+      VET_ZOMBIEDARKBASICGROUP_1536_00_153: -5861595651381184620
+      VET_ZOMBIEDARKBASICGROUP_1536_00_154: -7382631108003076108
+      VET_ZOMBIEDARKBASICGROUP_1536_00_155: -1900656023510183623
+      VET_ZOMBIEDARKBASICGROUP_1536_00_156: -5156794173723455372
+      VET_ZOMBIEDARKBASICGROUP_1536_00_157: 8257979325402348158
+      VET_ZOMBIEDARKBASICGROUP_1536_00_158: 6624273095408755564
+      VET_ZOMBIEDARKBASICGROUP_1536_00_159: -6254146044309499424
+      VET_ZOMBIEDARKBASICGROUP_1536_00_16: -8982284461556407013
+      VET_ZOMBIEDARKBASICGROUP_1536_00_160: -3132139025472937534
+      VET_ZOMBIEDARKBASICGROUP_1536_00_161: -2354150842032833107
+      VET_ZOMBIEDARKBASICGROUP_1536_00_162: 179831914190203779
+      VET_ZOMBIEDARKBASICGROUP_1536_00_163: -1764704944847971085
+      VET_ZOMBIEDARKBASICGROUP_1536_00_164: -4404200554340575351
+      VET_ZOMBIEDARKBASICGROUP_1536_00_165: -6252441129406665594
+      VET_ZOMBIEDARKBASICGROUP_1536_00_166: -915648102038973470
+      VET_ZOMBIEDARKBASICGROUP_1536_00_167: 6084374702778934215
+      VET_ZOMBIEDARKBASICGROUP_1536_00_168: -2581629634007463328
+      VET_ZOMBIEDARKBASICGROUP_1536_00_169: 2553955164169696909
+      VET_ZOMBIEDARKBASICGROUP_1536_00_17: -1312465213449925985
+      VET_ZOMBIEDARKBASICGROUP_1536_00_170: 1592018363974624007
+      VET_ZOMBIEDARKBASICGROUP_1536_00_171: 2911866828508821443
+      VET_ZOMBIEDARKBASICGROUP_1536_00_172: -8256716768403993151
+      VET_ZOMBIEDARKBASICGROUP_1536_00_173: 4383910999527966776
+      VET_ZOMBIEDARKBASICGROUP_1536_00_174: 3488681940090384538
+      VET_ZOMBIEDARKBASICGROUP_1536_00_175: 7281977531761581839
+      VET_ZOMBIEDARKBASICGROUP_1536_00_176: -3668839914037373963
+      VET_ZOMBIEDARKBASICGROUP_1536_00_177: 3771825147731881046
+      VET_ZOMBIEDARKBASICGROUP_1536_00_18: 5640549656540055828
+      VET_ZOMBIEDARKBASICGROUP_1536_00_19: -2957536043919612318
+      VET_ZOMBIEDARKBASICGROUP_1536_00_2: 607272276125461449
+      VET_ZOMBIEDARKBASICGROUP_1536_00_20: -8279328615777587716
+      VET_ZOMBIEDARKBASICGROUP_1536_00_21: -3456507252121626574
+      VET_ZOMBIEDARKBASICGROUP_1536_00_22: 8666143784849711129
+      VET_ZOMBIEDARKBASICGROUP_1536_00_23: 1074262627749107446
+      VET_ZOMBIEDARKBASICGROUP_1536_00_24: -7999729418076742817
+      VET_ZOMBIEDARKBASICGROUP_1536_00_25: -6658642403777957436
+      VET_ZOMBIEDARKBASICGROUP_1536_00_26: -1453912588741517363
+      VET_ZOMBIEDARKBASICGROUP_1536_00_27: 7703729426434035875
+      VET_ZOMBIEDARKBASICGROUP_1536_00_28: 6189631726311281349
+      VET_ZOMBIEDARKBASICGROUP_1536_00_29: 5758869181978379431
+      VET_ZOMBIEDARKBASICGROUP_1536_00_3: 4873684087515210660
+      VET_ZOMBIEDARKBASICGROUP_1536_00_30: 4430833504970075131
+      VET_ZOMBIEDARKBASICGROUP_1536_00_31: 9181545138715064335
+      VET_ZOMBIEDARKBASICGROUP_1536_00_32: 9152301756171888102
+      VET_ZOMBIEDARKBASICGROUP_1536_00_33: -8893645185405975063
+      VET_ZOMBIEDARKBASICGROUP_1536_00_34: -3060549179885305891
+      VET_ZOMBIEDARKBASICGROUP_1536_00_35: -5268392270100779909
+      VET_ZOMBIEDARKBASICGROUP_1536_00_36: -7117727626896599720
+      VET_ZOMBIEDARKBASICGROUP_1536_00_37: 6231322621940937736
+      VET_ZOMBIEDARKBASICGROUP_1536_00_38: 6062731173990411257
+      VET_ZOMBIEDARKBASICGROUP_1536_00_39: -2522359068155066277
+      VET_ZOMBIEDARKBASICGROUP_1536_00_4: 8414802869417410250
+      VET_ZOMBIEDARKBASICGROUP_1536_00_40: 2050688919443373817
+      VET_ZOMBIEDARKBASICGROUP_1536_00_41: -9006348360513505714
+      VET_ZOMBIEDARKBASICGROUP_1536_00_42: 3830998048515127355
+      VET_ZOMBIEDARKBASICGROUP_1536_00_43: 8068054759396507048
+      VET_ZOMBIEDARKBASICGROUP_1536_00_44: 4685420046256727401
+      VET_ZOMBIEDARKBASICGROUP_1536_00_45: -8091470803175856885
+      VET_ZOMBIEDARKBASICGROUP_1536_00_46: -8069108510125260516
+      VET_ZOMBIEDARKBASICGROUP_1536_00_47: -1433690124348604853
+      VET_ZOMBIEDARKBASICGROUP_1536_00_48: -2587302962581086631
+      VET_ZOMBIEDARKBASICGROUP_1536_00_49: 3313611941054839202
+      VET_ZOMBIEDARKBASICGROUP_1536_00_5: 8907830052163781247
+      VET_ZOMBIEDARKBASICGROUP_1536_00_50: -8092651745487655407
+      VET_ZOMBIEDARKBASICGROUP_1536_00_51: -4310519944907877146
+      VET_ZOMBIEDARKBASICGROUP_1536_00_52: 2206085908014368296
+      VET_ZOMBIEDARKBASICGROUP_1536_00_53: -2686607572414955719
+      VET_ZOMBIEDARKBASICGROUP_1536_00_54: 5051355727403611750
+      VET_ZOMBIEDARKBASICGROUP_1536_00_55: -6052760418927246850
+      VET_ZOMBIEDARKBASICGROUP_1536_00_56: -3166610184768832730
+      VET_ZOMBIEDARKBASICGROUP_1536_00_57: -861143541405948979
+      VET_ZOMBIEDARKBASICGROUP_1536_00_58: 2970507743916743566
+      VET_ZOMBIEDARKBASICGROUP_1536_00_59: 7631112938942707435
+      VET_ZOMBIEDARKBASICGROUP_1536_00_6: -2840831121097138164
+      VET_ZOMBIEDARKBASICGROUP_1536_00_60: -3811922669025565059
+      VET_ZOMBIEDARKBASICGROUP_1536_00_61: 5994026924731100088
+      VET_ZOMBIEDARKBASICGROUP_1536_00_62: 8284559536744709512
+      VET_ZOMBIEDARKBASICGROUP_1536_00_63: 6420327156270708590
+      VET_ZOMBIEDARKBASICGROUP_1536_00_64: 7885079621425656304
+      VET_ZOMBIEDARKBASICGROUP_1536_00_65: 2316247035095133012
+      VET_ZOMBIEDARKBASICGROUP_1536_00_66: 6972574273208249229
+      VET_ZOMBIEDARKBASICGROUP_1536_00_67: -1303496400332508044
+      VET_ZOMBIEDARKBASICGROUP_1536_00_68: -5818016984211870129
+      VET_ZOMBIEDARKBASICGROUP_1536_00_69: -5391979893244186086
+      VET_ZOMBIEDARKBASICGROUP_1536_00_7: 9190166641972487015
+      VET_ZOMBIEDARKBASICGROUP_1536_00_70: -6954248162650872128
+      VET_ZOMBIEDARKBASICGROUP_1536_00_71: 1204730797185812649
+      VET_ZOMBIEDARKBASICGROUP_1536_00_72: -2371769626437580558
+      VET_ZOMBIEDARKBASICGROUP_1536_00_73: 4425728105553592097
+      VET_ZOMBIEDARKBASICGROUP_1536_00_74: -5145689065566416728
+      VET_ZOMBIEDARKBASICGROUP_1536_00_75: -111369216463212749
+      VET_ZOMBIEDARKBASICGROUP_1536_00_76: -2481553693078044991
+      VET_ZOMBIEDARKBASICGROUP_1536_00_77: -2455766220080126777
+      VET_ZOMBIEDARKBASICGROUP_1536_00_78: -4704980089589688380
+      VET_ZOMBIEDARKBASICGROUP_1536_00_79: -416138490153571777
+      VET_ZOMBIEDARKBASICGROUP_1536_00_8: 571617816609282249
+      VET_ZOMBIEDARKBASICGROUP_1536_00_80: 8739489834721154905
+      VET_ZOMBIEDARKBASICGROUP_1536_00_81: -2246988752917437500
+      VET_ZOMBIEDARKBASICGROUP_1536_00_82: 6588285794161977900
+      VET_ZOMBIEDARKBASICGROUP_1536_00_83: 994295175902796422
+      VET_ZOMBIEDARKBASICGROUP_1536_00_84: -7400549695952062426
+      VET_ZOMBIEDARKBASICGROUP_1536_00_85: -138111905795581680
+      VET_ZOMBIEDARKBASICGROUP_1536_00_86: -2971188572897233691
+      VET_ZOMBIEDARKBASICGROUP_1536_00_87: -8242257507265534443
+      VET_ZOMBIEDARKBASICGROUP_1536_00_88: -4698034880053254303
+      VET_ZOMBIEDARKBASICGROUP_1536_00_89: 5590953700849140182
+      VET_ZOMBIEDARKBASICGROUP_1536_00_9: 5022919772564643886
+      VET_ZOMBIEDARKBASICGROUP_1536_00_90: -3335314125045664169
+      VET_ZOMBIEDARKBASICGROUP_1536_00_91: -2803038741565354546
+      VET_ZOMBIEDARKBASICGROUP_1536_00_92: 1566322072020490549
+      VET_ZOMBIEDARKBASICGROUP_1536_00_93: 1388802567779346335
+      VET_ZOMBIEDARKBASICGROUP_1536_00_94: -5965563530489715181
+      VET_ZOMBIEDARKBASICGROUP_1536_00_95: 3568954813303772436
+      VET_ZOMBIEDARKBASICGROUP_1536_00_96: -4948172236736040118
+      VET_ZOMBIEDARKBASICGROUP_1536_00_97: 8272897080817324596
+      VET_ZOMBIEDARKBASICGROUP_1536_00_98: 5989950576356340918
+      VET_ZOMBIEDARKBASICGROUP_1536_00_99: -3327303234257512356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

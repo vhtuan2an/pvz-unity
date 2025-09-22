@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 603c0fae3e07fc14cbf32425edd14e30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6710519454318540908
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_0
+  - first:
+      213: 6574193492166093020
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_1
+  - first:
+      213: 7445981995050433432
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_2
+  - first:
+      213: 5113750289268472869
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_3
+  - first:
+      213: -5348285838605252237
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_4
+  - first:
+      213: -5500935854194470566
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_5
+  - first:
+      213: -7875137091558983851
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_6
+  - first:
+      213: 2218069420843694808
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_7
+  - first:
+      213: 6800153127755970150
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_8
+  - first:
+      213: -2909183264328187598
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_9
+  - first:
+      213: -7947069826361460054
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_10
+  - first:
+      213: -767670199014015435
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_11
+  - first:
+      213: -1235961159204249872
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_12
+  - first:
+      213: 760746274696545777
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_13
+  - first:
+      213: 2391204110460510403
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_14
+  - first:
+      213: 1333418894475079803
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_15
+  - first:
+      213: -2528855379792568310
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_16
+  - first:
+      213: -7993593771260957198
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_17
+  - first:
+      213: -7321904470170367824
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_18
+  - first:
+      213: -5433992837794613021
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_19
+  - first:
+      213: -1591716703069908314
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_20
+  - first:
+      213: 5136785854661439093
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_21
+  - first:
+      213: -2207736046622935485
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_22
+  - first:
+      213: -2809467884312521383
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_23
+  - first:
+      213: 1667649931574639630
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_24
+  - first:
+      213: -5813875634155604734
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_25
+  - first:
+      213: -4343938725141494145
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_26
+  - first:
+      213: 7316305728382026018
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_27
+  - first:
+      213: -7305753541587850154
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_28
+  - first:
+      213: 3370233461538034893
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_29
+  - first:
+      213: -3244075234652535290
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_30
+  - first:
+      213: -412379796097955147
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_31
+  - first:
+      213: -5368756117759769536
+    second: ATLASES_PLANTCAULIPOWER_1536_00_PTX_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 237
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497cef23c127fd2a0800000000000000
+      internalID: -6710519454318540908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 406
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8ae39462a3c3b50800000000000000
+      internalID: 6574193492166093020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 470
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b7fea8c21755760800000000000000
+      internalID: 7445981995050433432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 300
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cf5e55bc0b7f640800000000000000
+      internalID: 5113750289268472869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 407
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3798ea0cd5217c5b0800000000000000
+      internalID: -5348285838605252237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 406
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51578e5cffb8a3b0800000000000000
+      internalID: -5500935854194470566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 337
+        width: 47
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557bf1c1a84e5b290800000000000000
+      internalID: -7875137091558983851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 260
+        width: 83
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da7b8ce26a28ce10800000000000000
+      internalID: 2218069420843694808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 259
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666f72ead3ffe5e50800000000000000
+      internalID: 6800153127755970150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 272
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231053f0c3180a7d0800000000000000
+      internalID: -2909183264328187598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 257
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaff7a291656b190800000000000000
+      internalID: -7947069826361460054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 257
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ebd137500b855f0800000000000000
+      internalID: -767670199014015435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 277
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5375cfdbf8dee0800000000000000
+      internalID: -1235961159204249872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 260
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f54d7bc4b6be8a00800000000000000
+      internalID: 760746274696545777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 257
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0e37528734f2120800000000000000
+      internalID: 2391204110460510403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b703bf57b61418210800000000000000
+      internalID: 1333418894475079803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 105
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00e0273e63b7ecd0800000000000000
+      internalID: -2528855379792568310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 131
+        width: 136
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd273121dc011190800000000000000
+      internalID: -7993593771260957198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 190
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b886207dae536a90800000000000000
+      internalID: -7321904470170367824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 133
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e83c37fd449694b0800000000000000
+      internalID: -5433992837794613021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 25
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a25672871619e9e0800000000000000
+      internalID: -1591716703069908314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ea85ad487894740800000000000000
+      internalID: 5136785854661439093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 41
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346f63f33cb8c51e0800000000000000
+      internalID: -2207736046622935485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 49
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9551fab28d3c209d0800000000000000
+      internalID: -2809467884312521383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 55
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cf535f6cea42710800000000000000
+      internalID: 1667649931574639630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 52
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2053bd9f9e6f05fa0800000000000000
+      internalID: -5813875634155604734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 59
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76c0e1aeba37b3c0800000000000000
+      internalID: -4343938725141494145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 24
+        width: 139
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221cd58eb4db88560800000000000000
+      internalID: 7316305728382026018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 76
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65caa198cdfbc9a90800000000000000
+      internalID: -7305753541587850154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 29
+        width: 79
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc41c1d1a7975ce20800000000000000
+      internalID: 3370233461538034893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 31
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606c4ed03cabaf2d0800000000000000
+      internalID: -3244075234652535290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 34
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba8805a2cee64af0800000000000000
+      internalID: -412379796097955147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTCAULIPOWER_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 42
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044493b71c85e75b0800000000000000
+      internalID: -5368756117759769536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_0: -6710519454318540908
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_1: 6574193492166093020
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_10: -7947069826361460054
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_11: -767670199014015435
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_12: -1235961159204249872
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_13: 760746274696545777
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_14: 2391204110460510403
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_15: 1333418894475079803
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_16: -2528855379792568310
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_17: -7993593771260957198
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_18: -7321904470170367824
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_19: -5433992837794613021
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_2: 7445981995050433432
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_20: -1591716703069908314
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_21: 5136785854661439093
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_22: -2207736046622935485
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_23: -2809467884312521383
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_24: 1667649931574639630
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_25: -5813875634155604734
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_26: -4343938725141494145
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_27: 7316305728382026018
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_28: -7305753541587850154
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_29: 3370233461538034893
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_3: 5113750289268472869
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_30: -3244075234652535290
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_31: -412379796097955147
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_32: -5368756117759769536
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_4: -5348285838605252237
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_5: -5500935854194470566
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_6: -7875137091558983851
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_7: 2218069420843694808
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_8: 6800153127755970150
+      ATLASES_PLANTCAULIPOWER_1536_00_PTX_9: -2909183264328187598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

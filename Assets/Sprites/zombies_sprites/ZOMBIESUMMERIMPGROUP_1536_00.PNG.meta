@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 04c5c58012c17a1429ba8e47be41cbf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4656747548992960284
+    second: ZOMBIESUMMERIMPGROUP_1536_00_0
+  - first:
+      213: -6082951708606392204
+    second: ZOMBIESUMMERIMPGROUP_1536_00_1
+  - first:
+      213: 3099524570941763845
+    second: ZOMBIESUMMERIMPGROUP_1536_00_2
+  - first:
+      213: 1921309282159809580
+    second: ZOMBIESUMMERIMPGROUP_1536_00_3
+  - first:
+      213: -6899810519389060868
+    second: ZOMBIESUMMERIMPGROUP_1536_00_4
+  - first:
+      213: -6915875147061114328
+    second: ZOMBIESUMMERIMPGROUP_1536_00_5
+  - first:
+      213: -3204760991646904801
+    second: ZOMBIESUMMERIMPGROUP_1536_00_6
+  - first:
+      213: -2261856804013231799
+    second: ZOMBIESUMMERIMPGROUP_1536_00_7
+  - first:
+      213: 6757064569710616350
+    second: ZOMBIESUMMERIMPGROUP_1536_00_8
+  - first:
+      213: 940675319831580222
+    second: ZOMBIESUMMERIMPGROUP_1536_00_9
+  - first:
+      213: -9016204157088675996
+    second: ZOMBIESUMMERIMPGROUP_1536_00_10
+  - first:
+      213: 3290938420296589984
+    second: ZOMBIESUMMERIMPGROUP_1536_00_11
+  - first:
+      213: -8550165485652277457
+    second: ZOMBIESUMMERIMPGROUP_1536_00_12
+  - first:
+      213: -47920617752799884
+    second: ZOMBIESUMMERIMPGROUP_1536_00_13
+  - first:
+      213: -876520174872081232
+    second: ZOMBIESUMMERIMPGROUP_1536_00_14
+  - first:
+      213: 6738719828470998175
+    second: ZOMBIESUMMERIMPGROUP_1536_00_15
+  - first:
+      213: 6493196001684438660
+    second: ZOMBIESUMMERIMPGROUP_1536_00_16
+  - first:
+      213: 1164436074028894221
+    second: ZOMBIESUMMERIMPGROUP_1536_00_17
+  - first:
+      213: 7475276913564731295
+    second: ZOMBIESUMMERIMPGROUP_1536_00_18
+  - first:
+      213: -1651786721628640555
+    second: ZOMBIESUMMERIMPGROUP_1536_00_19
+  - first:
+      213: -7362488838408592209
+    second: ZOMBIESUMMERIMPGROUP_1536_00_20
+  - first:
+      213: -9144217368880590600
+    second: ZOMBIESUMMERIMPGROUP_1536_00_21
+  - first:
+      213: 5412044402112916667
+    second: ZOMBIESUMMERIMPGROUP_1536_00_22
+  - first:
+      213: 519488034304868822
+    second: ZOMBIESUMMERIMPGROUP_1536_00_23
+  - first:
+      213: -4180449277583320372
+    second: ZOMBIESUMMERIMPGROUP_1536_00_24
+  - first:
+      213: 1103352330997562698
+    second: ZOMBIESUMMERIMPGROUP_1536_00_25
+  - first:
+      213: 1217902301049072366
+    second: ZOMBIESUMMERIMPGROUP_1536_00_26
+  - first:
+      213: -9118734197377766211
+    second: ZOMBIESUMMERIMPGROUP_1536_00_27
+  - first:
+      213: 6469915238800981543
+    second: ZOMBIESUMMERIMPGROUP_1536_00_28
+  - first:
+      213: -2148846037449752594
+    second: ZOMBIESUMMERIMPGROUP_1536_00_29
+  - first:
+      213: -3617796255854644720
+    second: ZOMBIESUMMERIMPGROUP_1536_00_30
+  - first:
+      213: 3530375308389254310
+    second: ZOMBIESUMMERIMPGROUP_1536_00_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 73
+        width: 121
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17756a293710a040800000000000000
+      internalID: 4656747548992960284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 73
+        width: 112
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47819ae56a3059ba0800000000000000
+      internalID: -6082951708606392204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 169
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501349fdc29b30b20800000000000000
+      internalID: 3099524570941763845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 182
+        width: 110
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24dbc2dc9cd9aa10800000000000000
+      internalID: 1921309282159809580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 63
+        width: 111
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0cf4ea3e2fe30a0800000000000000
+      internalID: -6899810519389060868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 127
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a48741230e500a0800000000000000
+      internalID: -6915875147061114328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e8bde8bd66683d0800000000000000
+      internalID: -3204760991646904801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941bdf778354c90e0800000000000000
+      internalID: -2261856804013231799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 93
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f9af9fc6ae5cd50800000000000000
+      internalID: 6757064569710616350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 116
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ec98f2833fd0d00800000000000000
+      internalID: 940675319831580222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 111
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467445ac61200e280800000000000000
+      internalID: -9016204157088675996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 106
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a67f9e03cbad20800000000000000
+      internalID: 3290938420296589984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 95
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2704e0aac5b75980800000000000000
+      internalID: -8550165485652277457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 96
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4755d69b370c55ff0800000000000000
+      internalID: -47920617752799884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 7
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc49428b89f5d3f0800000000000000
+      internalID: -876520174872081232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 68
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9425e01bfdb48d50800000000000000
+      internalID: 6738719828470998175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 70
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e33617c577c1a50800000000000000
+      internalID: 6493196001684438660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 65
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08842c9078e82010800000000000000
+      internalID: 1164436074028894221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9744b64fb48db760800000000000000
+      internalID: 7475276913564731295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 29
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da2e9c6abca319e0800000000000000
+      internalID: -1651786721628640555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 45
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4a0ebd86f23d990800000000000000
+      internalID: -7362488838408592209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 42
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f05aea40c6391180800000000000000
+      internalID: -9144217368880590600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 30
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbce490a5b17b1b40800000000000000
+      internalID: 5412044402112916667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 32
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1cec56d97953700800000000000000
+      internalID: 519488034304868822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 33
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca9b10f78f0cf5c0800000000000000
+      internalID: -4180449277583320372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 27
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d75376915ef4f00800000000000000
+      internalID: 1103352330997562698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 43
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea2929a0bbd6e010800000000000000
+      internalID: 1217902301049072366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 31
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc67148f8fb37180800000000000000
+      internalID: -9118734197377766211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 30
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e7e9f61a1c9c950800000000000000
+      internalID: 6469915238800981543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 27
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef3dccf9e3cd22e0800000000000000
+      internalID: -2148846037449752594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 17
+        width: 212
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012bb0429710bcdc0800000000000000
+      internalID: -3617796255854644720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESUMMERIMPGROUP_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 9
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a40a5463a96ef030800000000000000
+      internalID: 3530375308389254310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIESUMMERIMPGROUP_1536_00_0: 4656747548992960284
+      ZOMBIESUMMERIMPGROUP_1536_00_1: -6082951708606392204
+      ZOMBIESUMMERIMPGROUP_1536_00_10: -9016204157088675996
+      ZOMBIESUMMERIMPGROUP_1536_00_11: 3290938420296589984
+      ZOMBIESUMMERIMPGROUP_1536_00_12: -8550165485652277457
+      ZOMBIESUMMERIMPGROUP_1536_00_13: -47920617752799884
+      ZOMBIESUMMERIMPGROUP_1536_00_14: -876520174872081232
+      ZOMBIESUMMERIMPGROUP_1536_00_15: 6738719828470998175
+      ZOMBIESUMMERIMPGROUP_1536_00_16: 6493196001684438660
+      ZOMBIESUMMERIMPGROUP_1536_00_17: 1164436074028894221
+      ZOMBIESUMMERIMPGROUP_1536_00_18: 7475276913564731295
+      ZOMBIESUMMERIMPGROUP_1536_00_19: -1651786721628640555
+      ZOMBIESUMMERIMPGROUP_1536_00_2: 3099524570941763845
+      ZOMBIESUMMERIMPGROUP_1536_00_20: -7362488838408592209
+      ZOMBIESUMMERIMPGROUP_1536_00_21: -9144217368880590600
+      ZOMBIESUMMERIMPGROUP_1536_00_22: 5412044402112916667
+      ZOMBIESUMMERIMPGROUP_1536_00_23: 519488034304868822
+      ZOMBIESUMMERIMPGROUP_1536_00_24: -4180449277583320372
+      ZOMBIESUMMERIMPGROUP_1536_00_25: 1103352330997562698
+      ZOMBIESUMMERIMPGROUP_1536_00_26: 1217902301049072366
+      ZOMBIESUMMERIMPGROUP_1536_00_27: -9118734197377766211
+      ZOMBIESUMMERIMPGROUP_1536_00_28: 6469915238800981543
+      ZOMBIESUMMERIMPGROUP_1536_00_29: -2148846037449752594
+      ZOMBIESUMMERIMPGROUP_1536_00_3: 1921309282159809580
+      ZOMBIESUMMERIMPGROUP_1536_00_30: -3617796255854644720
+      ZOMBIESUMMERIMPGROUP_1536_00_31: 3530375308389254310
+      ZOMBIESUMMERIMPGROUP_1536_00_4: -6899810519389060868
+      ZOMBIESUMMERIMPGROUP_1536_00_5: -6915875147061114328
+      ZOMBIESUMMERIMPGROUP_1536_00_6: -3204760991646904801
+      ZOMBIESUMMERIMPGROUP_1536_00_7: -2261856804013231799
+      ZOMBIESUMMERIMPGROUP_1536_00_8: 6757064569710616350
+      ZOMBIESUMMERIMPGROUP_1536_00_9: 940675319831580222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

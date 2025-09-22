@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 9c7fe74ad373a1c439f5161db1fa860a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1289607620885846096
+    second: PLANTZOYBEANPOD_1536_00_0
+  - first:
+      213: -5640001642815917092
+    second: PLANTZOYBEANPOD_1536_00_1
+  - first:
+      213: -7445703776661260674
+    second: PLANTZOYBEANPOD_1536_00_2
+  - first:
+      213: -2096932350067364834
+    second: PLANTZOYBEANPOD_1536_00_3
+  - first:
+      213: 5735881815580936758
+    second: PLANTZOYBEANPOD_1536_00_4
+  - first:
+      213: -1892394503875869110
+    second: PLANTZOYBEANPOD_1536_00_5
+  - first:
+      213: -824595664273006054
+    second: PLANTZOYBEANPOD_1536_00_6
+  - first:
+      213: -3404235263506688637
+    second: PLANTZOYBEANPOD_1536_00_7
+  - first:
+      213: -1121261541554422748
+    second: PLANTZOYBEANPOD_1536_00_8
+  - first:
+      213: 3610423231827201261
+    second: PLANTZOYBEANPOD_1536_00_9
+  - first:
+      213: -1347442741397112129
+    second: PLANTZOYBEANPOD_1536_00_10
+  - first:
+      213: -6978107356079360229
+    second: PLANTZOYBEANPOD_1536_00_11
+  - first:
+      213: 9061387781366137199
+    second: PLANTZOYBEANPOD_1536_00_12
+  - first:
+      213: 8480063312282063739
+    second: PLANTZOYBEANPOD_1536_00_13
+  - first:
+      213: -337278783700324597
+    second: PLANTZOYBEANPOD_1536_00_14
+  - first:
+      213: 7367993808408382745
+    second: PLANTZOYBEANPOD_1536_00_15
+  - first:
+      213: -1184421343000154472
+    second: PLANTZOYBEANPOD_1536_00_16
+  - first:
+      213: 5230216815770972948
+    second: PLANTZOYBEANPOD_1536_00_17
+  - first:
+      213: 5528696882961676915
+    second: PLANTZOYBEANPOD_1536_00_18
+  - first:
+      213: -8373995950390340758
+    second: PLANTZOYBEANPOD_1536_00_19
+  - first:
+      213: -8738059173446807464
+    second: PLANTZOYBEANPOD_1536_00_20
+  - first:
+      213: 5509203338610536877
+    second: PLANTZOYBEANPOD_1536_00_21
+  - first:
+      213: -8740722862906154583
+    second: PLANTZOYBEANPOD_1536_00_22
+  - first:
+      213: 5680503746434448141
+    second: PLANTZOYBEANPOD_1536_00_23
+  - first:
+      213: -5663411768802542103
+    second: PLANTZOYBEANPOD_1536_00_24
+  - first:
+      213: -4402240497030865380
+    second: PLANTZOYBEANPOD_1536_00_25
+  - first:
+      213: 3656529889780404849
+    second: PLANTZOYBEANPOD_1536_00_26
+  - first:
+      213: -215713208659787034
+    second: PLANTZOYBEANPOD_1536_00_27
+  - first:
+      213: 3633977341072557011
+    second: PLANTZOYBEANPOD_1536_00_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 591
+        width: 466
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058998e6c4b95e110800000000000000
+      internalID: 1289607620885846096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 591
+        width: 466
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3765b4360bab1b0800000000000000
+      internalID: -5640001642815917092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 737
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7632593ddb8ba890800000000000000
+      internalID: -7445703776661260674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 620
+        width: 21
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ca53c332336e2e0800000000000000
+      internalID: -2096932350067364834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 673
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a035b0f12f99f40800000000000000
+      internalID: 5735881815580936758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 710
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46c39d993ddcb5e0800000000000000
+      internalID: -1892394503875869110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 631
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a122eabbc927e84f0800000000000000
+      internalID: -824595664273006054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 601
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38553d2701ab1c0d0800000000000000
+      internalID: -3404235263506688637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 270
+        width: 276
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c7753919a7070f0800000000000000
+      internalID: -1121261541554422748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 157
+        width: 167
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc0edecccca1230800000000000000
+      internalID: 3610423231827201261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 275
+        width: 168
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbab8db37fbec4de0800000000000000
+      internalID: -1347442741397112129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 274
+        width: 157
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17795cc458c82f90800000000000000
+      internalID: -6978107356079360229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 381
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61c4688d2480cd70800000000000000
+      internalID: 9061387781366137199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 162
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73156937ac3fa570800000000000000
+      internalID: 8480063312282063739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 204
+        width: 101
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f2443bbbeb15bf0800000000000000
+      internalID: -337278783700324597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 114
+        width: 141
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d8579d45f504660800000000000000
+      internalID: 7367993808408382745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 126
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ea51a5017109fe0800000000000000
+      internalID: -1184421343000154472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 187
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413bd4aab76759840800000000000000
+      internalID: 5230216815770972948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 153
+        width: 162
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a7db3d580e9bc40800000000000000
+      internalID: 5528696882961676915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 118
+        width: 33
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a639c6aec0799cb80800000000000000
+      internalID: -8373995950390340758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 56
+        width: 111
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8501c5c5a7d2cb680800000000000000
+      internalID: -8738059173446807464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 25
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1f6495f3f947c40800000000000000
+      internalID: 5509203338610536877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 84
+        width: 143
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1e754ddd6b2b680800000000000000
+      internalID: -8740722862906154583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 46
+        width: 168
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b308f8f0435de40800000000000000
+      internalID: 5680503746434448141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 54
+        width: 115
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edf1c790058761b0800000000000000
+      internalID: -5663411768802542103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 74
+        width: 154
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ed2ae879918e2c0800000000000000
+      internalID: -4402240497030865380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 21
+        width: 154
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17295f6cf8a9eb230800000000000000
+      internalID: 3656529889780404849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e24978caf1a10df0800000000000000
+      internalID: -215713208659787034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTZOYBEANPOD_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 14
+        width: 102
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3c278532b7e6230800000000000000
+      internalID: 3633977341072557011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTZOYBEANPOD_1536_00_0: 1289607620885846096
+      PLANTZOYBEANPOD_1536_00_1: -5640001642815917092
+      PLANTZOYBEANPOD_1536_00_10: -1347442741397112129
+      PLANTZOYBEANPOD_1536_00_11: -6978107356079360229
+      PLANTZOYBEANPOD_1536_00_12: 9061387781366137199
+      PLANTZOYBEANPOD_1536_00_13: 8480063312282063739
+      PLANTZOYBEANPOD_1536_00_14: -337278783700324597
+      PLANTZOYBEANPOD_1536_00_15: 7367993808408382745
+      PLANTZOYBEANPOD_1536_00_16: -1184421343000154472
+      PLANTZOYBEANPOD_1536_00_17: 5230216815770972948
+      PLANTZOYBEANPOD_1536_00_18: 5528696882961676915
+      PLANTZOYBEANPOD_1536_00_19: -8373995950390340758
+      PLANTZOYBEANPOD_1536_00_2: -7445703776661260674
+      PLANTZOYBEANPOD_1536_00_20: -8738059173446807464
+      PLANTZOYBEANPOD_1536_00_21: 5509203338610536877
+      PLANTZOYBEANPOD_1536_00_22: -8740722862906154583
+      PLANTZOYBEANPOD_1536_00_23: 5680503746434448141
+      PLANTZOYBEANPOD_1536_00_24: -5663411768802542103
+      PLANTZOYBEANPOD_1536_00_25: -4402240497030865380
+      PLANTZOYBEANPOD_1536_00_26: 3656529889780404849
+      PLANTZOYBEANPOD_1536_00_27: -215713208659787034
+      PLANTZOYBEANPOD_1536_00_28: 3633977341072557011
+      PLANTZOYBEANPOD_1536_00_3: -2096932350067364834
+      PLANTZOYBEANPOD_1536_00_4: 5735881815580936758
+      PLANTZOYBEANPOD_1536_00_5: -1892394503875869110
+      PLANTZOYBEANPOD_1536_00_6: -824595664273006054
+      PLANTZOYBEANPOD_1536_00_7: -3404235263506688637
+      PLANTZOYBEANPOD_1536_00_8: -1121261541554422748
+      PLANTZOYBEANPOD_1536_00_9: 3610423231827201261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

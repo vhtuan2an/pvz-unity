@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 2ca9a3595bd78684da7e7bdeed668a83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7195304080526334703
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_0
+  - first:
+      213: 525189377683828766
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_1
+  - first:
+      213: -3861479070786386654
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_2
+  - first:
+      213: 6001749884619885670
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_3
+  - first:
+      213: -2258170657769836742
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_4
+  - first:
+      213: 7385719612983383092
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_5
+  - first:
+      213: -2700693664689119347
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_6
+  - first:
+      213: -1062891288541310252
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_7
+  - first:
+      213: 250211656131061139
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_8
+  - first:
+      213: 761759079410727597
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_9
+  - first:
+      213: -3079958291297271824
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_10
+  - first:
+      213: -2954140624468933497
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_11
+  - first:
+      213: -425708170037386821
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_12
+  - first:
+      213: -2138597664192314596
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_13
+  - first:
+      213: 3358523045193853813
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_14
+  - first:
+      213: 5522645731127286746
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_15
+  - first:
+      213: -2404820939917772663
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_16
+  - first:
+      213: -3374741391534472309
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_17
+  - first:
+      213: 7485044298482355726
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_18
+  - first:
+      213: -2124026729981483437
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_19
+  - first:
+      213: -4400246844246113889
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_20
+  - first:
+      213: 1700688167234331740
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_21
+  - first:
+      213: 8967289245230113295
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_22
+  - first:
+      213: -4008196245622773127
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_23
+  - first:
+      213: 1164537722581419546
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_24
+  - first:
+      213: -5581774879306753273
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_25
+  - first:
+      213: -7109899763747140675
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_26
+  - first:
+      213: 6389024330122745647
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_27
+  - first:
+      213: -1703370160253603295
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_28
+  - first:
+      213: 7353174384080913812
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_29
+  - first:
+      213: 7485724974302255214
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_30
+  - first:
+      213: -5688170754354299109
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_31
+  - first:
+      213: 5619310687460656187
+    second: ATLASES_PLANTGUACODILE_1536_00_PTX_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 403
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fead0ba50fadad360800000000000000
+      internalID: 7195304080526334703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 426
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1037a8d4f8d94700800000000000000
+      internalID: 525189377683828766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 419
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2250c2e7e35496ac0800000000000000
+      internalID: -3861479070786386654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 346
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c828fa8bf7a4350800000000000000
+      internalID: 6001749884619885670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 342
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f2b6540cd59a0e0800000000000000
+      internalID: -2258170657769836742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 345
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43492865bd85f7660800000000000000
+      internalID: 7385719612983383092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 389
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f9e0dbb65358ad0800000000000000
+      internalID: -2700693664689119347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 366
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d253a7210adf31f0800000000000000
+      internalID: -1062891288541310252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 268
+        width: 99
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395aa52fc2ee87300800000000000000
+      internalID: 250211656131061139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 308
+        width: 147
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa74b4c8df429a00800000000000000
+      internalID: 761759079410727597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 221
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fff43c904ac145d0800000000000000
+      internalID: -3079958291297271824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 234
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7848af5f0c8c007d0800000000000000
+      internalID: -2954140624468933497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 257
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1a0f2cca4971af0800000000000000
+      internalID: -425708170037386821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 170
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13465451cc2252e0800000000000000
+      internalID: -2138597664192314596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 193
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b2eb65aeedb9e20800000000000000
+      internalID: 3358523045193853813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 223
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb5b20480164ac40800000000000000
+      internalID: 5522645731127286746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988b7cfa81c50aed0800000000000000
+      internalID: -2404820939917772663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 125
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83c7c4a5928a21d0800000000000000
+      internalID: -3374741391534472309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 134
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e8a1bc12830e760800000000000000
+      internalID: 7485044298482355726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 151
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356e40251f0f582e0800000000000000
+      internalID: -2124026729981483437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f914da40fce2fe2c0800000000000000
+      internalID: -4400246844246113889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 82
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5466b1a0ee0a9710800000000000000
+      internalID: 1700688167234331740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 124
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f022f1cce06327c70800000000000000
+      internalID: 8967289245230113295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 82
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aa99d30c60068c0800000000000000
+      internalID: -4008196245622773127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 70
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16020283e4492010800000000000000
+      internalID: 1164537722581419546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 80
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bd8be125d8982b0800000000000000
+      internalID: -5581774879306753273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 85
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbc731b5df845d90800000000000000
+      internalID: -7109899763747140675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f275b4a17cf5aa850800000000000000
+      internalID: 6389024330122745647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 30
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12275153dd96c58e0800000000000000
+      internalID: -1703370160253603295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 35
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49505aeb429bb0660800000000000000
+      internalID: 7353174384080913812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 35
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e685e8bf333a2e760800000000000000
+      internalID: 7485724974302255214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f32fc06de8f01b0800000000000000
+      internalID: -5688170754354299109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTGUACODILE_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3406a04c4dcbfd40800000000000000
+      internalID: 5619310687460656187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTGUACODILE_1536_00_PTX_0: 7195304080526334703
+      ATLASES_PLANTGUACODILE_1536_00_PTX_1: 525189377683828766
+      ATLASES_PLANTGUACODILE_1536_00_PTX_10: -3079958291297271824
+      ATLASES_PLANTGUACODILE_1536_00_PTX_11: -2954140624468933497
+      ATLASES_PLANTGUACODILE_1536_00_PTX_12: -425708170037386821
+      ATLASES_PLANTGUACODILE_1536_00_PTX_13: -2138597664192314596
+      ATLASES_PLANTGUACODILE_1536_00_PTX_14: 3358523045193853813
+      ATLASES_PLANTGUACODILE_1536_00_PTX_15: 5522645731127286746
+      ATLASES_PLANTGUACODILE_1536_00_PTX_16: -2404820939917772663
+      ATLASES_PLANTGUACODILE_1536_00_PTX_17: -3374741391534472309
+      ATLASES_PLANTGUACODILE_1536_00_PTX_18: 7485044298482355726
+      ATLASES_PLANTGUACODILE_1536_00_PTX_19: -2124026729981483437
+      ATLASES_PLANTGUACODILE_1536_00_PTX_2: -3861479070786386654
+      ATLASES_PLANTGUACODILE_1536_00_PTX_20: -4400246844246113889
+      ATLASES_PLANTGUACODILE_1536_00_PTX_21: 1700688167234331740
+      ATLASES_PLANTGUACODILE_1536_00_PTX_22: 8967289245230113295
+      ATLASES_PLANTGUACODILE_1536_00_PTX_23: -4008196245622773127
+      ATLASES_PLANTGUACODILE_1536_00_PTX_24: 1164537722581419546
+      ATLASES_PLANTGUACODILE_1536_00_PTX_25: -5581774879306753273
+      ATLASES_PLANTGUACODILE_1536_00_PTX_26: -7109899763747140675
+      ATLASES_PLANTGUACODILE_1536_00_PTX_27: 6389024330122745647
+      ATLASES_PLANTGUACODILE_1536_00_PTX_28: -1703370160253603295
+      ATLASES_PLANTGUACODILE_1536_00_PTX_29: 7353174384080913812
+      ATLASES_PLANTGUACODILE_1536_00_PTX_3: 6001749884619885670
+      ATLASES_PLANTGUACODILE_1536_00_PTX_30: 7485724974302255214
+      ATLASES_PLANTGUACODILE_1536_00_PTX_31: -5688170754354299109
+      ATLASES_PLANTGUACODILE_1536_00_PTX_32: 5619310687460656187
+      ATLASES_PLANTGUACODILE_1536_00_PTX_4: -2258170657769836742
+      ATLASES_PLANTGUACODILE_1536_00_PTX_5: 7385719612983383092
+      ATLASES_PLANTGUACODILE_1536_00_PTX_6: -2700693664689119347
+      ATLASES_PLANTGUACODILE_1536_00_PTX_7: -1062891288541310252
+      ATLASES_PLANTGUACODILE_1536_00_PTX_8: 250211656131061139
+      ATLASES_PLANTGUACODILE_1536_00_PTX_9: 761759079410727597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 7e05c1aee4b750b46a5c81da902cdca3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8206821904804204055
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_0
+  - first:
+      213: 980150078233927049
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_1
+  - first:
+      213: -2986536693772123689
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_2
+  - first:
+      213: 7414430023000438592
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_3
+  - first:
+      213: 3135506911220592106
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_4
+  - first:
+      213: 8831808856323197228
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_5
+  - first:
+      213: -7700765147613781939
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_6
+  - first:
+      213: -3814888802586190135
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_7
+  - first:
+      213: 3208708744569866300
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_8
+  - first:
+      213: 3858573177195143831
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_9
+  - first:
+      213: -6161247404980412952
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_10
+  - first:
+      213: 3331848386899946537
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_11
+  - first:
+      213: 8311018894580535973
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_12
+  - first:
+      213: -2115519535963039553
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_13
+  - first:
+      213: -931678159913879263
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_14
+  - first:
+      213: 4632410010286008531
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_15
+  - first:
+      213: 2684042002375186920
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_16
+  - first:
+      213: 7153578041429416239
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_17
+  - first:
+      213: 5917750821210938159
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_18
+  - first:
+      213: -2536945492871776624
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_19
+  - first:
+      213: -817807089262326460
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_20
+  - first:
+      213: -5668986390883858121
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_21
+  - first:
+      213: 6953503724571838512
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_22
+  - first:
+      213: -4355358973590712910
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_23
+  - first:
+      213: -9105347133689653104
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_24
+  - first:
+      213: 716288123826517103
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_25
+  - first:
+      213: 8624798620038744406
+    second: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 377
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1304d85f28b1e80800000000000000
+      internalID: -8206821904804204055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 427
+        width: 86
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d54b79d413a9d00800000000000000
+      internalID: 980150078233927049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 456
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d10b0b43b0bd86d0800000000000000
+      internalID: -2986536693772123689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 362
+        width: 88
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047bee492d855e660800000000000000
+      internalID: 7414430023000438592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 417
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aede5125cee838b20800000000000000
+      internalID: 3135506911220592106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 378
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c290b45ac53e09a70800000000000000
+      internalID: 8831808856323197228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 247
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40a5cd06e2612590800000000000000
+      internalID: -7700765147613781939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 292
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce1c30a8dace0bc0800000000000000
+      internalID: -3814888802586190135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 313
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38c6cb4a9f978c20800000000000000
+      internalID: 3208708744569866300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 354
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792219e6cd76c8530800000000000000
+      internalID: 3858573177195143831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 330
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed58dcf02ade7aa0800000000000000
+      internalID: -6161247404980412952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 294
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c21aa747a1d3e20800000000000000
+      internalID: 3331848386899946537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 273
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a25805a6aba65370800000000000000
+      internalID: 8311018894580535973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 259
+        width: 87
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb81687c03a24a2e0800000000000000
+      internalID: -2115519535963039553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 128
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129f75956a30213f0800000000000000
+      internalID: -931678159913879263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 215
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8af0d5c50a94040800000000000000
+      internalID: 4632410010286008531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 216
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e91dc10bf1af3520800000000000000
+      internalID: 2684042002375186920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 231
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f295f60d35d964360800000000000000
+      internalID: 7153578041429416239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 191
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bdd8fa403102250800000000000000
+      internalID: 5917750821210938159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 188
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09679daf385faccd0800000000000000
+      internalID: -2536945492871776624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 206
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d09b509c096a4f0800000000000000
+      internalID: -817807089262326460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 167
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73908deb9e6b351b0800000000000000
+      internalID: -5668986390883858121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 170
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038c577dbcecf7060800000000000000
+      internalID: 6953503724571838512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 173
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdc0d5d618ae83c0800000000000000
+      internalID: -4355358973590712910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 155
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0989ecb260f43a180800000000000000
+      internalID: -9105347133689653104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 157
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64b289e044c0f900800000000000000
+      internalID: 716288123826517103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSWEETPOTATO_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65940b616a071b770800000000000000
+      internalID: 8624798620038744406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_0: -8206821904804204055
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_1: 980150078233927049
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_10: -6161247404980412952
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_11: 3331848386899946537
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_12: 8311018894580535973
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_13: -2115519535963039553
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_14: -931678159913879263
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_15: 4632410010286008531
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_16: 2684042002375186920
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_17: 7153578041429416239
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_18: 5917750821210938159
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_19: -2536945492871776624
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_2: -2986536693772123689
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_20: -817807089262326460
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_21: -5668986390883858121
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_22: 6953503724571838512
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_23: -4355358973590712910
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_24: -9105347133689653104
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_25: 716288123826517103
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_26: 8624798620038744406
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_3: 7414430023000438592
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_4: 3135506911220592106
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_5: 8831808856323197228
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_6: -7700765147613781939
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_7: -3814888802586190135
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_8: 3208708744569866300
+      ATLASES_PLANTSWEETPOTATO_1536_00_PTX_9: 3858573177195143831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2821 @@
+fileFormatVersion: 2
+guid: 38469c868ac602343bc4265beec567f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1091586940588810405
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_0
+  - first:
+      213: -2221939610101314300
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_1
+  - first:
+      213: -412021884053767324
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_2
+  - first:
+      213: 6385503755175261531
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_3
+  - first:
+      213: 3260746354152454704
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_4
+  - first:
+      213: -1607389536280029753
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_5
+  - first:
+      213: 5526936294004267463
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_6
+  - first:
+      213: -4821026969700418996
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_7
+  - first:
+      213: -2399671292716965496
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_8
+  - first:
+      213: 3067993867773245987
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_9
+  - first:
+      213: -8917291054741650859
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_10
+  - first:
+      213: 1901425372447527861
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_11
+  - first:
+      213: -1696100142150499848
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_12
+  - first:
+      213: -1168291123891881499
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_13
+  - first:
+      213: 7317577883809927214
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_14
+  - first:
+      213: -6280900383694175036
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_15
+  - first:
+      213: 8667212482191134283
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_16
+  - first:
+      213: 3395935703754309252
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_17
+  - first:
+      213: 3678895830828544190
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_18
+  - first:
+      213: 3246343958848251818
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_19
+  - first:
+      213: 5528459779474998612
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_20
+  - first:
+      213: -3075959785616409782
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_21
+  - first:
+      213: 1095832135971800019
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_22
+  - first:
+      213: -9190299889429296393
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_23
+  - first:
+      213: 4922050483485486579
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_24
+  - first:
+      213: -5833844483287976906
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_25
+  - first:
+      213: 2889553818467473546
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_26
+  - first:
+      213: -9191635535217308879
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_27
+  - first:
+      213: 4344500834060706331
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_28
+  - first:
+      213: -328836301916345912
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_29
+  - first:
+      213: 722600696316669202
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_30
+  - first:
+      213: 4179084350750731591
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_31
+  - first:
+      213: -7956050101763568592
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_32
+  - first:
+      213: 3556062829016753408
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_33
+  - first:
+      213: -3761985995437878832
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_34
+  - first:
+      213: -1520162694387490063
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_35
+  - first:
+      213: -4956227028538395098
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_36
+  - first:
+      213: -3728633558778056610
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_37
+  - first:
+      213: -7646098075016038947
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_38
+  - first:
+      213: 2075528290550271589
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_39
+  - first:
+      213: 350796636517642022
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_40
+  - first:
+      213: -968998088818891488
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_41
+  - first:
+      213: 8785061607164927319
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_42
+  - first:
+      213: 1277327395983136241
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_43
+  - first:
+      213: 3842436318617417874
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_44
+  - first:
+      213: -4022807905357946158
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_45
+  - first:
+      213: 868007453255344854
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_46
+  - first:
+      213: 5506105182110487881
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_47
+  - first:
+      213: -7428727957788088737
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_48
+  - first:
+      213: 5340360512357781190
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_49
+  - first:
+      213: 1116220516591931983
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_50
+  - first:
+      213: 7347844439010726289
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_51
+  - first:
+      213: 2550389588998509890
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_52
+  - first:
+      213: -5044691438726356710
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_53
+  - first:
+      213: -5013598551371666481
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_54
+  - first:
+      213: -1293471544191568023
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_55
+  - first:
+      213: 3228979234171982685
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_56
+  - first:
+      213: 901551676379065199
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_57
+  - first:
+      213: -5776496389608211790
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_58
+  - first:
+      213: 8817352209202624747
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_59
+  - first:
+      213: -5606877296021266212
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_60
+  - first:
+      213: -2773948601124233938
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_61
+  - first:
+      213: -4291215757733603543
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_62
+  - first:
+      213: 9187595268127362519
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_63
+  - first:
+      213: 9095845307341318035
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_64
+  - first:
+      213: 6706947853493969583
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_65
+  - first:
+      213: 5108910219467404877
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_66
+  - first:
+      213: -3008287779794175013
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_67
+  - first:
+      213: 3936125731153748661
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_68
+  - first:
+      213: -6072250889531624878
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_69
+  - first:
+      213: 3022683520812529514
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_70
+  - first:
+      213: 4715977418642540503
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_71
+  - first:
+      213: 1578115407152759876
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_72
+  - first:
+      213: -8549359124127590042
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_73
+  - first:
+      213: 6491470111695001003
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_74
+  - first:
+      213: -7055355475579995718
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_75
+  - first:
+      213: -5779697695983996708
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_76
+  - first:
+      213: -2117484393457682450
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_77
+  - first:
+      213: -400368942330750157
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_78
+  - first:
+      213: -2450933331307464661
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_79
+  - first:
+      213: 7000185253769528786
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_80
+  - first:
+      213: -6029653057440409276
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_81
+  - first:
+      213: -5953636840984001562
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_82
+  - first:
+      213: -3575468569763420031
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_83
+  - first:
+      213: 1656769330576508890
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_84
+  - first:
+      213: 1434965400892714895
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_85
+  - first:
+      213: 8305722625414114049
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_86
+  - first:
+      213: -8848823316361390006
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_87
+  - first:
+      213: 396383144762183357
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_88
+  - first:
+      213: -7439223990983904289
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_89
+  - first:
+      213: 7287708405901066618
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_90
+  - first:
+      213: -8007998204199925790
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_91
+  - first:
+      213: -2971613004016827100
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_92
+  - first:
+      213: 996241640788719535
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_93
+  - first:
+      213: 5325527900084378398
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_94
+  - first:
+      213: 2199338415756856525
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_95
+  - first:
+      213: -785703677285381003
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_96
+  - first:
+      213: -4475327298312496816
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_97
+  - first:
+      213: -81554531646796330
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_98
+  - first:
+      213: 6302676587377688535
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_99
+  - first:
+      213: 6568786431405602126
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_100
+  - first:
+      213: 3625969711684650345
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_101
+  - first:
+      213: -4766340300814063323
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_102
+  - first:
+      213: -3263970757462033713
+    second: ATLASES_PLANTPOTATOMINE_1536_00_PTX_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 500
+        width: 250
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0604bf988162f00800000000000000
+      internalID: 1091586940588810405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 493
+        width: 264
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d8a8b62b51a21e0800000000000000
+      internalID: -2221939610101314300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 537
+        width: 209
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bb9498744384af0800000000000000
+      internalID: -412021884053767324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 434
+        width: 108
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55f42f55dddd9850800000000000000
+      internalID: 6385503755175261531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 689
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a38ed688f704d20800000000000000
+      internalID: 3260746354152454704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 629
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5595aabb761b9e0800000000000000
+      internalID: -1607389536280029753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 608
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c99654c64f93bc40800000000000000
+      internalID: 5526936294004267463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 617
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4abd629385481db0800000000000000
+      internalID: -4821026969700418996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 597
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88127eb5ca7a2bed0800000000000000
+      internalID: -2399671292716965496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 587
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a73b5fa24b39a20800000000000000
+      internalID: 3067993867773245987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 573
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5520b53180b6f3480800000000000000
+      internalID: -8917291054741650859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 545
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b356a35d48336a10800000000000000
+      internalID: 1901425372447527861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 550
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f141a338ed3678e0800000000000000
+      internalID: -1696100142150499848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 219
+        width: 106
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9be26a96569cfe0800000000000000
+      internalID: -1168291123891881499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 506
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20debca0524d8560800000000000000
+      internalID: 7317577883809927214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 507
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c44b40f062c5d8a0800000000000000
+      internalID: -6280900383694175036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 505
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e85d9e4df184870800000000000000
+      internalID: 8667212482191134283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 480
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e7756b789c02f20800000000000000
+      internalID: 3395935703754309252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 486
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0733a34401e0330800000000000000
+      internalID: 3678895830828544190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 446
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7a2e571a45d0d20800000000000000
+      internalID: 3246343958848251818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 326
+        width: 163
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45544aed0e809bc40800000000000000
+      internalID: 5528459779474998612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 325
+        width: 108
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b72f24fdeff45d0800000000000000
+      internalID: -3075959785616409782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 465
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d38e0e858d253f00800000000000000
+      internalID: 1095832135971800019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 341
+        width: 143
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa414f51fe757080800000000000000
+      internalID: -9190299889429296393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 430
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd21ba26d2ae4440800000000000000
+      internalID: 4922050483485486579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 448
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6347fbaf9550a0fa0800000000000000
+      internalID: -5833844483287976906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 421
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88902d63e1c91820800000000000000
+      internalID: 2889553818467473546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 422
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bc38a1e20c07080800000000000000
+      internalID: -9191635535217308879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 431
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12a39c8d74ca4c30800000000000000
+      internalID: 4344500834060706331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 422
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9e50b202dbf6bf0800000000000000
+      internalID: -328836301916345912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 422
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21da76a3181370a00800000000000000
+      internalID: 722600696316669202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 336
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d24e443171ff930800000000000000
+      internalID: 4179084350750731591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 420
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c0c2dd59e669190800000000000000
+      internalID: -7956050101763568592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_33
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 377
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005a38a5d4ca95130800000000000000
+      internalID: 3556062829016753408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_34
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 388
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d15ee34badbacbc0800000000000000
+      internalID: -3761985995437878832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_35
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 318
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2ab38651c47eae0800000000000000
+      internalID: -1520162694387490063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 373
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62677c9d6c1f73bb0800000000000000
+      internalID: -4956227028538395098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_37
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 294
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50fe6f888b314cc0800000000000000
+      internalID: -3728633558778056610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_38
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 378
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5fed0cf4a93e590800000000000000
+      internalID: -7646098075016038947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_39
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 356
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ec58fcbf1cdcc10800000000000000
+      internalID: 2075528290550271589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_40
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 338
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f290caea74ed400800000000000000
+      internalID: 350796636517642022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_41
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 342
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025eae74f5d6d82f0800000000000000
+      internalID: -968998088818891488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_42
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 335
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ddcf88cfecae970800000000000000
+      internalID: 8785061607164927319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 332
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f51373cf7af9b110800000000000000
+      internalID: 1277327395983136241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_44
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 314
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29830434973135530800000000000000
+      internalID: 3842436318617417874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_45
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 331
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2a189168d1c28c0800000000000000
+      internalID: -4022807905357946158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_46
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 212
+        width: 143
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d22da90e28cb0c00800000000000000
+      internalID: 868007453255344854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_47
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 177
+        width: 111
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94512a39d7d996c40800000000000000
+      internalID: 5506105182110487881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 197
+        width: 132
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56270f084bd7e890800000000000000
+      internalID: -7428727957788088737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_49
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 217
+        width: 123
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cecb9f6795cc1a40800000000000000
+      internalID: 5340360512357781190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 279
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42177655ac9d7f00800000000000000
+      internalID: 1116220516591931983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_51
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 296
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19150143699c8f560800000000000000
+      internalID: 7347844439010726289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_52
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 300
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2455c1391ddc46320800000000000000
+      internalID: 2550389588998509890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_53
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 298
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11e2494dd7adf9b0800000000000000
+      internalID: -5044691438726356710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_54
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 290
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb24134eae1c6ab0800000000000000
+      internalID: -5013598551371666481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_55
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 137
+        width: 96
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967b261db7aac0ee0800000000000000
+      internalID: -1293471544191568023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_56
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 256
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d531fef6183afcc20800000000000000
+      internalID: 3228979234171982685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 251
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b6b391974f28c00800000000000000
+      internalID: 901551676379065199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_58
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 246
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba731b8323c5dfa0800000000000000
+      internalID: -5776496389608211790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_59
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 182
+        width: 154
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be837013e178d5a70800000000000000
+      internalID: 8817352209202624747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 219
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd023774ece5032b0800000000000000
+      internalID: -5606877296021266212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_61
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 208
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d5cccb174f089d0800000000000000
+      internalID: -2773948601124233938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_62
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 180
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927dab1110a8274c0800000000000000
+      internalID: -4291215757733603543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 52
+        width: 80
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd8ac8e735e08f70800000000000000
+      internalID: 9187595268127362519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_64
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 181
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397abfb7d1fea3e70800000000000000
+      internalID: 9095845307341318035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_65
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 185
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a39ea98dd31d50800000000000000
+      internalID: 6706947853493969583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 184
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46b7b4c6ce76e640800000000000000
+      internalID: 5108910219467404877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_67
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 179
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb383fe33a6046d0800000000000000
+      internalID: -3008287779794175013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_68
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 179
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2a1bc7f7def9630800000000000000
+      internalID: 3936125731153748661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_69
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 184
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252fa66fcf70bbba0800000000000000
+      internalID: -6072250889531624878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_70
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 182
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a673576b5aab2f920800000000000000
+      internalID: 3022683520812529514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_71
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 186
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c3f6d974827140800000000000000
+      internalID: 4715977418642540503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_72
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44449e10a9796e510800000000000000
+      internalID: 1578115407152759876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_73
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669512d4c239a5980800000000000000
+      internalID: -8549359124127590042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 125
+        width: 145
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba555ad5ca5561a50800000000000000
+      internalID: 6491470111695001003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_75
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 157
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab972f96397561e90800000000000000
+      internalID: -7055355475579995718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_76
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0fab151936acfa0800000000000000
+      internalID: -5779697695983996708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_77
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7758eb92f2d92e0800000000000000
+      internalID: -2117484393457682450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_78
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 157
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bd645719a917af0800000000000000
+      internalID: -400368942330750157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_79
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 125
+        width: 142
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28f04bee198cfdd0800000000000000
+      internalID: -2450933331307464661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_80
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 167
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d54cd45667a52160800000000000000
+      internalID: 7000185253769528786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_81
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 81
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4499a60ad7e525ca0800000000000000
+      internalID: -6029653057440409276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_82
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 146
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3487b36de606da0800000000000000
+      internalID: -5953636840984001562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_83
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 126
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1886da98742616ec0800000000000000
+      internalID: -3575468569763420031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_84
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 127
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad746cf9de60ef610800000000000000
+      internalID: 1656769330576508890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_85
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 114
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8faf29ed650ae310800000000000000
+      internalID: 1434965400892714895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_86
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 41
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10babb2e8bad34370800000000000000
+      internalID: 8305722625414114049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_87
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 60
+        width: 112
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48d51ca31aa23580800000000000000
+      internalID: -8848823316361390006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_88
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe808abe5c308500800000000000000
+      internalID: 396383144762183357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_89
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 68
+        width: 125
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd337d4e13192c890800000000000000
+      internalID: -7439223990983904289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_90
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 69
+        width: 124
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a718c58ee24232560800000000000000
+      internalID: 7287708405901066618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_91
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 37
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e782bcbf00edd090800000000000000
+      internalID: -8007998204199925790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_92
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 77
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42545a597b5b2c6d0800000000000000
+      internalID: -2971613004016827100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_93
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 86
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7f9a57e7c53dd00800000000000000
+      internalID: 996241640788719535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_94
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 87
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b16f5c86318e940800000000000000
+      internalID: 5325527900084378398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_95
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 24
+        width: 113
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccce04f2ae958e10800000000000000
+      internalID: 2199338415756856525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_96
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 30
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ccfa81bae9815f0800000000000000
+      internalID: -785703677285381003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_97
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 74
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0599972988174e1c0800000000000000
+      internalID: -4475327298312496816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_98
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 31
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd8e57e5924edef0800000000000000
+      internalID: -81554531646796330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_99
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 52
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df71d496fa977750800000000000000
+      internalID: 6302676587377688535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_100
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e453659d474092b50800000000000000
+      internalID: 6568786431405602126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_101
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 29
+        width: 107
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9650a47dd38025230800000000000000
+      internalID: 3625969711684650345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_102
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 50
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5296953efbe8addb0800000000000000
+      internalID: -4766340300814063323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTPOTATOMINE_1536_00_PTX_103
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 3
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca763ca3eb04b2d0800000000000000
+      internalID: -3263970757462033713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_0: 1091586940588810405
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_1: -2221939610101314300
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_10: -8917291054741650859
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_100: 6568786431405602126
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_101: 3625969711684650345
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_102: -4766340300814063323
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_103: -3263970757462033713
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_11: 1901425372447527861
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_12: -1696100142150499848
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_13: -1168291123891881499
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_14: 7317577883809927214
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_15: -6280900383694175036
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_16: 8667212482191134283
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_17: 3395935703754309252
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_18: 3678895830828544190
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_19: 3246343958848251818
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_2: -412021884053767324
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_20: 5528459779474998612
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_21: -3075959785616409782
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_22: 1095832135971800019
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_23: -9190299889429296393
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_24: 4922050483485486579
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_25: -5833844483287976906
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_26: 2889553818467473546
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_27: -9191635535217308879
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_28: 4344500834060706331
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_29: -328836301916345912
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_3: 6385503755175261531
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_30: 722600696316669202
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_31: 4179084350750731591
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_32: -7956050101763568592
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_33: 3556062829016753408
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_34: -3761985995437878832
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_35: -1520162694387490063
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_36: -4956227028538395098
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_37: -3728633558778056610
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_38: -7646098075016038947
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_39: 2075528290550271589
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_4: 3260746354152454704
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_40: 350796636517642022
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_41: -968998088818891488
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_42: 8785061607164927319
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_43: 1277327395983136241
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_44: 3842436318617417874
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_45: -4022807905357946158
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_46: 868007453255344854
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_47: 5506105182110487881
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_48: -7428727957788088737
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_49: 5340360512357781190
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_5: -1607389536280029753
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_50: 1116220516591931983
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_51: 7347844439010726289
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_52: 2550389588998509890
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_53: -5044691438726356710
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_54: -5013598551371666481
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_55: -1293471544191568023
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_56: 3228979234171982685
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_57: 901551676379065199
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_58: -5776496389608211790
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_59: 8817352209202624747
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_6: 5526936294004267463
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_60: -5606877296021266212
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_61: -2773948601124233938
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_62: -4291215757733603543
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_63: 9187595268127362519
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_64: 9095845307341318035
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_65: 6706947853493969583
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_66: 5108910219467404877
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_67: -3008287779794175013
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_68: 3936125731153748661
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_69: -6072250889531624878
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_7: -4821026969700418996
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_70: 3022683520812529514
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_71: 4715977418642540503
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_72: 1578115407152759876
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_73: -8549359124127590042
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_74: 6491470111695001003
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_75: -7055355475579995718
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_76: -5779697695983996708
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_77: -2117484393457682450
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_78: -400368942330750157
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_79: -2450933331307464661
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_8: -2399671292716965496
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_80: 7000185253769528786
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_81: -6029653057440409276
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_82: -5953636840984001562
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_83: -3575468569763420031
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_84: 1656769330576508890
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_85: 1434965400892714895
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_86: 8305722625414114049
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_87: -8848823316361390006
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_88: 396383144762183357
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_89: -7439223990983904289
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_9: 3067993867773245987
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_90: 7287708405901066618
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_91: -8007998204199925790
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_92: -2971613004016827100
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_93: 996241640788719535
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_94: 5325527900084378398
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_95: 2199338415756856525
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_96: -785703677285381003
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_97: -4475327298312496816
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_98: -81554531646796330
+      ATLASES_PLANTPOTATOMINE_1536_00_PTX_99: 6302676587377688535
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

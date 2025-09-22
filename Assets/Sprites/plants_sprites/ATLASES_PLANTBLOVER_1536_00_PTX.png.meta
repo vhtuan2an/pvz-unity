@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 5ea7b0473c7136045a46cd988835ac07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8995514380875023086
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_0
+  - first:
+      213: 5064665480073922933
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_1
+  - first:
+      213: 507547301998161941
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_2
+  - first:
+      213: 4761663310943912133
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_3
+  - first:
+      213: -7429992236532600757
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_4
+  - first:
+      213: 6991821182986441373
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_5
+  - first:
+      213: 391247904852526300
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_6
+  - first:
+      213: 7370060263278367855
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_7
+  - first:
+      213: -2384745519187495662
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_8
+  - first:
+      213: -7351194181416835263
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_9
+  - first:
+      213: 8675635368789679033
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_10
+  - first:
+      213: -4972552884974826359
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_11
+  - first:
+      213: 5581407413916720498
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_12
+  - first:
+      213: -7071151403096888151
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_13
+  - first:
+      213: 4907129801059045977
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_14
+  - first:
+      213: 8973027800288543395
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_15
+  - first:
+      213: 2555178929529913030
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_16
+  - first:
+      213: 3099598790181662074
+    second: ATLASES_PLANTBLOVER_1536_00_PTX_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 208
+        width: 154
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee249fb4bac76dc70800000000000000
+      internalID: 8995514380875023086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 329
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5794dfd9b6e494640800000000000000
+      internalID: 5064665480073922933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 242
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510fe42059b2b0700800000000000000
+      internalID: 507547301998161941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 315
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c082dc8d83d41240800000000000000
+      internalID: 4761663310943912133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 299
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4070993d6d53e890800000000000000
+      internalID: -7429992236532600757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 72
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9255f85250f70160800000000000000
+      internalID: 6991821182986441373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 163
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4c9d385edfd6500800000000000000
+      internalID: 391247904852526300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 119
+        width: 95
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64ddedd2c6b74660800000000000000
+      internalID: 7370060263278367855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 125
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215ff11d59ea7eed0800000000000000
+      internalID: -2384745519187495662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 73
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1472bbd17df4bf990800000000000000
+      internalID: -7351194181416835263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 63
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb1685076c066870800000000000000
+      internalID: 8675635368789679033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 47
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c4b303f71fdfab0800000000000000
+      internalID: -4972552884974826359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 46
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ddc3da874257d40800000000000000
+      internalID: 5581407413916720498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 47
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aca76173493edd90800000000000000
+      internalID: -7071151403096888151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 18
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9529bd21e80a91440800000000000000
+      internalID: 4907129801059045977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 46
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a247e34e39968c70800000000000000
+      internalID: 8973027800288543395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce7130d2b1d57320800000000000000
+      internalID: 2555178929529913030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTBLOVER_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 176
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d22036dacf30b20800000000000000
+      internalID: 3099598790181662074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTBLOVER_1536_00_PTX_0: 8995514380875023086
+      ATLASES_PLANTBLOVER_1536_00_PTX_1: 5064665480073922933
+      ATLASES_PLANTBLOVER_1536_00_PTX_10: 8675635368789679033
+      ATLASES_PLANTBLOVER_1536_00_PTX_11: -4972552884974826359
+      ATLASES_PLANTBLOVER_1536_00_PTX_12: 5581407413916720498
+      ATLASES_PLANTBLOVER_1536_00_PTX_13: -7071151403096888151
+      ATLASES_PLANTBLOVER_1536_00_PTX_14: 4907129801059045977
+      ATLASES_PLANTBLOVER_1536_00_PTX_15: 8973027800288543395
+      ATLASES_PLANTBLOVER_1536_00_PTX_16: 2555178929529913030
+      ATLASES_PLANTBLOVER_1536_00_PTX_17: 3099598790181662074
+      ATLASES_PLANTBLOVER_1536_00_PTX_2: 507547301998161941
+      ATLASES_PLANTBLOVER_1536_00_PTX_3: 4761663310943912133
+      ATLASES_PLANTBLOVER_1536_00_PTX_4: -7429992236532600757
+      ATLASES_PLANTBLOVER_1536_00_PTX_5: 6991821182986441373
+      ATLASES_PLANTBLOVER_1536_00_PTX_6: 391247904852526300
+      ATLASES_PLANTBLOVER_1536_00_PTX_7: 7370060263278367855
+      ATLASES_PLANTBLOVER_1536_00_PTX_8: -2384745519187495662
+      ATLASES_PLANTBLOVER_1536_00_PTX_9: -7351194181416835263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

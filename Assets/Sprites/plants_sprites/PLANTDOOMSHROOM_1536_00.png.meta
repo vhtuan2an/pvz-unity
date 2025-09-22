@@ -1,0 +1,6383 @@
+fileFormatVersion: 2
+guid: 8a951fcbb66b4f94e857526769ba3bdd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3379505745625544254
+    second: PLANTDOOMSHROOM_1536_00_0
+  - first:
+      213: -7373581394504082956
+    second: PLANTDOOMSHROOM_1536_00_1
+  - first:
+      213: 6914044492637345832
+    second: PLANTDOOMSHROOM_1536_00_2
+  - first:
+      213: 2434609448388218396
+    second: PLANTDOOMSHROOM_1536_00_3
+  - first:
+      213: 8366132673094940024
+    second: PLANTDOOMSHROOM_1536_00_4
+  - first:
+      213: 8173136681190030376
+    second: PLANTDOOMSHROOM_1536_00_5
+  - first:
+      213: -3862236580151375644
+    second: PLANTDOOMSHROOM_1536_00_6
+  - first:
+      213: 6962695359043876729
+    second: PLANTDOOMSHROOM_1536_00_7
+  - first:
+      213: 7694675241852656870
+    second: PLANTDOOMSHROOM_1536_00_8
+  - first:
+      213: 5913365868167787336
+    second: PLANTDOOMSHROOM_1536_00_9
+  - first:
+      213: -3316979825213193118
+    second: PLANTDOOMSHROOM_1536_00_10
+  - first:
+      213: -8843484972742035156
+    second: PLANTDOOMSHROOM_1536_00_11
+  - first:
+      213: 9218721162049538217
+    second: PLANTDOOMSHROOM_1536_00_12
+  - first:
+      213: 2731363953171542372
+    second: PLANTDOOMSHROOM_1536_00_13
+  - first:
+      213: 8123437198186934994
+    second: PLANTDOOMSHROOM_1536_00_14
+  - first:
+      213: 1761077757413853870
+    second: PLANTDOOMSHROOM_1536_00_15
+  - first:
+      213: -5519548095238179540
+    second: PLANTDOOMSHROOM_1536_00_16
+  - first:
+      213: -7978795877860605566
+    second: PLANTDOOMSHROOM_1536_00_17
+  - first:
+      213: 1071113637018222793
+    second: PLANTDOOMSHROOM_1536_00_18
+  - first:
+      213: 5766966431598379453
+    second: PLANTDOOMSHROOM_1536_00_19
+  - first:
+      213: 4922866410710331092
+    second: PLANTDOOMSHROOM_1536_00_20
+  - first:
+      213: -4147942764961643137
+    second: PLANTDOOMSHROOM_1536_00_21
+  - first:
+      213: -3842943702377102551
+    second: PLANTDOOMSHROOM_1536_00_22
+  - first:
+      213: -7338832424285325659
+    second: PLANTDOOMSHROOM_1536_00_23
+  - first:
+      213: -8127491630683217442
+    second: PLANTDOOMSHROOM_1536_00_24
+  - first:
+      213: 902257622076357183
+    second: PLANTDOOMSHROOM_1536_00_25
+  - first:
+      213: 5488903136746581385
+    second: PLANTDOOMSHROOM_1536_00_26
+  - first:
+      213: -737385460450844349
+    second: PLANTDOOMSHROOM_1536_00_27
+  - first:
+      213: -4618930206661879870
+    second: PLANTDOOMSHROOM_1536_00_28
+  - first:
+      213: 8842092865244261264
+    second: PLANTDOOMSHROOM_1536_00_29
+  - first:
+      213: -996128821950375010
+    second: PLANTDOOMSHROOM_1536_00_30
+  - first:
+      213: 1017843566462286397
+    second: PLANTDOOMSHROOM_1536_00_31
+  - first:
+      213: -6171893271337678522
+    second: PLANTDOOMSHROOM_1536_00_32
+  - first:
+      213: 1441420389034890356
+    second: PLANTDOOMSHROOM_1536_00_33
+  - first:
+      213: 971771528147707533
+    second: PLANTDOOMSHROOM_1536_00_34
+  - first:
+      213: 135359048949871543
+    second: PLANTDOOMSHROOM_1536_00_35
+  - first:
+      213: 2696544568773329546
+    second: PLANTDOOMSHROOM_1536_00_36
+  - first:
+      213: -6480531021022207161
+    second: PLANTDOOMSHROOM_1536_00_37
+  - first:
+      213: -5791627492733775940
+    second: PLANTDOOMSHROOM_1536_00_38
+  - first:
+      213: -2208527613441581072
+    second: PLANTDOOMSHROOM_1536_00_39
+  - first:
+      213: -4593341288184135090
+    second: PLANTDOOMSHROOM_1536_00_40
+  - first:
+      213: 3978701467362161981
+    second: PLANTDOOMSHROOM_1536_00_41
+  - first:
+      213: 7131364864854115778
+    second: PLANTDOOMSHROOM_1536_00_42
+  - first:
+      213: -2769963234177865517
+    second: PLANTDOOMSHROOM_1536_00_43
+  - first:
+      213: 5998323154260133558
+    second: PLANTDOOMSHROOM_1536_00_44
+  - first:
+      213: 7787282123378853352
+    second: PLANTDOOMSHROOM_1536_00_45
+  - first:
+      213: 4752279228089404672
+    second: PLANTDOOMSHROOM_1536_00_46
+  - first:
+      213: -330001755062724478
+    second: PLANTDOOMSHROOM_1536_00_47
+  - first:
+      213: -8259078223878843428
+    second: PLANTDOOMSHROOM_1536_00_48
+  - first:
+      213: -1129255884638170610
+    second: PLANTDOOMSHROOM_1536_00_49
+  - first:
+      213: -5680580561006134064
+    second: PLANTDOOMSHROOM_1536_00_50
+  - first:
+      213: -4653779596053453276
+    second: PLANTDOOMSHROOM_1536_00_51
+  - first:
+      213: 5862162686478185473
+    second: PLANTDOOMSHROOM_1536_00_52
+  - first:
+      213: 2233257953988212937
+    second: PLANTDOOMSHROOM_1536_00_53
+  - first:
+      213: -2712769466621343249
+    second: PLANTDOOMSHROOM_1536_00_54
+  - first:
+      213: -4986260943291562687
+    second: PLANTDOOMSHROOM_1536_00_55
+  - first:
+      213: -5335540998215023862
+    second: PLANTDOOMSHROOM_1536_00_56
+  - first:
+      213: 3421626951421696662
+    second: PLANTDOOMSHROOM_1536_00_57
+  - first:
+      213: 4283566581698054864
+    second: PLANTDOOMSHROOM_1536_00_58
+  - first:
+      213: -7342147880463567081
+    second: PLANTDOOMSHROOM_1536_00_59
+  - first:
+      213: -8046157270817784933
+    second: PLANTDOOMSHROOM_1536_00_60
+  - first:
+      213: -4916943401154601754
+    second: PLANTDOOMSHROOM_1536_00_61
+  - first:
+      213: 181839883388989625
+    second: PLANTDOOMSHROOM_1536_00_62
+  - first:
+      213: -4974307355107752227
+    second: PLANTDOOMSHROOM_1536_00_63
+  - first:
+      213: -2463876205094878333
+    second: PLANTDOOMSHROOM_1536_00_64
+  - first:
+      213: 6782645292895450993
+    second: PLANTDOOMSHROOM_1536_00_65
+  - first:
+      213: 7019914707821798248
+    second: PLANTDOOMSHROOM_1536_00_66
+  - first:
+      213: -5025690986013129982
+    second: PLANTDOOMSHROOM_1536_00_67
+  - first:
+      213: 6912197517735722918
+    second: PLANTDOOMSHROOM_1536_00_68
+  - first:
+      213: 9135706177187888544
+    second: PLANTDOOMSHROOM_1536_00_69
+  - first:
+      213: 7190948878223250113
+    second: PLANTDOOMSHROOM_1536_00_70
+  - first:
+      213: -93927755102842543
+    second: PLANTDOOMSHROOM_1536_00_71
+  - first:
+      213: 3416977826755184531
+    second: PLANTDOOMSHROOM_1536_00_72
+  - first:
+      213: -4240871737835143860
+    second: PLANTDOOMSHROOM_1536_00_73
+  - first:
+      213: 3872595452021086439
+    second: PLANTDOOMSHROOM_1536_00_74
+  - first:
+      213: -1366351939502429790
+    second: PLANTDOOMSHROOM_1536_00_75
+  - first:
+      213: 4462046197950173460
+    second: PLANTDOOMSHROOM_1536_00_76
+  - first:
+      213: 4775237861849402748
+    second: PLANTDOOMSHROOM_1536_00_77
+  - first:
+      213: -8638616421549414090
+    second: PLANTDOOMSHROOM_1536_00_78
+  - first:
+      213: -6975312946279090678
+    second: PLANTDOOMSHROOM_1536_00_79
+  - first:
+      213: 2140171140563474674
+    second: PLANTDOOMSHROOM_1536_00_80
+  - first:
+      213: 3981305341828616410
+    second: PLANTDOOMSHROOM_1536_00_81
+  - first:
+      213: -5299647588729643162
+    second: PLANTDOOMSHROOM_1536_00_82
+  - first:
+      213: -5544825074768950173
+    second: PLANTDOOMSHROOM_1536_00_83
+  - first:
+      213: -4790223992081993089
+    second: PLANTDOOMSHROOM_1536_00_84
+  - first:
+      213: 8887359649917335743
+    second: PLANTDOOMSHROOM_1536_00_85
+  - first:
+      213: -3935884659106312482
+    second: PLANTDOOMSHROOM_1536_00_86
+  - first:
+      213: -45257759530474727
+    second: PLANTDOOMSHROOM_1536_00_87
+  - first:
+      213: 817982899600545095
+    second: PLANTDOOMSHROOM_1536_00_88
+  - first:
+      213: 2729381186899515166
+    second: PLANTDOOMSHROOM_1536_00_89
+  - first:
+      213: -4989739561037472611
+    second: PLANTDOOMSHROOM_1536_00_90
+  - first:
+      213: 8808006253947732149
+    second: PLANTDOOMSHROOM_1536_00_91
+  - first:
+      213: 211957849445484799
+    second: PLANTDOOMSHROOM_1536_00_92
+  - first:
+      213: -119245093380697172
+    second: PLANTDOOMSHROOM_1536_00_93
+  - first:
+      213: -64901804735568398
+    second: PLANTDOOMSHROOM_1536_00_94
+  - first:
+      213: 1298092992957700528
+    second: PLANTDOOMSHROOM_1536_00_95
+  - first:
+      213: -8013565839664575997
+    second: PLANTDOOMSHROOM_1536_00_96
+  - first:
+      213: 5233082957263593039
+    second: PLANTDOOMSHROOM_1536_00_97
+  - first:
+      213: -7217952501476001828
+    second: PLANTDOOMSHROOM_1536_00_98
+  - first:
+      213: -4503828565870927579
+    second: PLANTDOOMSHROOM_1536_00_99
+  - first:
+      213: -8111402866902148559
+    second: PLANTDOOMSHROOM_1536_00_100
+  - first:
+      213: 4685346231932497587
+    second: PLANTDOOMSHROOM_1536_00_101
+  - first:
+      213: -677545323516154664
+    second: PLANTDOOMSHROOM_1536_00_102
+  - first:
+      213: 2565165177926746092
+    second: PLANTDOOMSHROOM_1536_00_103
+  - first:
+      213: 7917185011348700795
+    second: PLANTDOOMSHROOM_1536_00_104
+  - first:
+      213: -4578211540602607107
+    second: PLANTDOOMSHROOM_1536_00_105
+  - first:
+      213: 2501208107878808356
+    second: PLANTDOOMSHROOM_1536_00_106
+  - first:
+      213: -5269118764838567226
+    second: PLANTDOOMSHROOM_1536_00_107
+  - first:
+      213: -7860267020987631133
+    second: PLANTDOOMSHROOM_1536_00_108
+  - first:
+      213: -2616598438001631351
+    second: PLANTDOOMSHROOM_1536_00_109
+  - first:
+      213: 455542717078509279
+    second: PLANTDOOMSHROOM_1536_00_110
+  - first:
+      213: -272186442428534180
+    second: PLANTDOOMSHROOM_1536_00_111
+  - first:
+      213: -6419264850947573652
+    second: PLANTDOOMSHROOM_1536_00_112
+  - first:
+      213: 8164208005124086755
+    second: PLANTDOOMSHROOM_1536_00_113
+  - first:
+      213: 6645273606339678893
+    second: PLANTDOOMSHROOM_1536_00_114
+  - first:
+      213: 2120312677363365181
+    second: PLANTDOOMSHROOM_1536_00_115
+  - first:
+      213: -2609913463537184900
+    second: PLANTDOOMSHROOM_1536_00_116
+  - first:
+      213: -1674414630699698840
+    second: PLANTDOOMSHROOM_1536_00_117
+  - first:
+      213: 4352150821853478947
+    second: PLANTDOOMSHROOM_1536_00_118
+  - first:
+      213: -6207056071259976040
+    second: PLANTDOOMSHROOM_1536_00_119
+  - first:
+      213: 8721478852426380361
+    second: PLANTDOOMSHROOM_1536_00_120
+  - first:
+      213: -1571108153826821230
+    second: PLANTDOOMSHROOM_1536_00_121
+  - first:
+      213: 7282267525334367256
+    second: PLANTDOOMSHROOM_1536_00_122
+  - first:
+      213: 1409224955726957250
+    second: PLANTDOOMSHROOM_1536_00_123
+  - first:
+      213: -4125452971498065012
+    second: PLANTDOOMSHROOM_1536_00_124
+  - first:
+      213: 5324490566131902157
+    second: PLANTDOOMSHROOM_1536_00_125
+  - first:
+      213: 6209119619118944831
+    second: PLANTDOOMSHROOM_1536_00_126
+  - first:
+      213: 7621132904562890557
+    second: PLANTDOOMSHROOM_1536_00_127
+  - first:
+      213: -994726711052571458
+    second: PLANTDOOMSHROOM_1536_00_128
+  - first:
+      213: 2078447621054486355
+    second: PLANTDOOMSHROOM_1536_00_129
+  - first:
+      213: 4676711742029172179
+    second: PLANTDOOMSHROOM_1536_00_130
+  - first:
+      213: 2442817757342809952
+    second: PLANTDOOMSHROOM_1536_00_131
+  - first:
+      213: 1616553720819442828
+    second: PLANTDOOMSHROOM_1536_00_132
+  - first:
+      213: -368224005476957937
+    second: PLANTDOOMSHROOM_1536_00_133
+  - first:
+      213: 5390802785597688824
+    second: PLANTDOOMSHROOM_1536_00_134
+  - first:
+      213: -4192585266535683974
+    second: PLANTDOOMSHROOM_1536_00_135
+  - first:
+      213: 2394226820945624750
+    second: PLANTDOOMSHROOM_1536_00_136
+  - first:
+      213: -4097864172695043416
+    second: PLANTDOOMSHROOM_1536_00_137
+  - first:
+      213: 974213406369435352
+    second: PLANTDOOMSHROOM_1536_00_138
+  - first:
+      213: 2009659887861459394
+    second: PLANTDOOMSHROOM_1536_00_139
+  - first:
+      213: -6160969205720473953
+    second: PLANTDOOMSHROOM_1536_00_140
+  - first:
+      213: -2456417029686142912
+    second: PLANTDOOMSHROOM_1536_00_141
+  - first:
+      213: 8271111090201583879
+    second: PLANTDOOMSHROOM_1536_00_142
+  - first:
+      213: 8786987829029690149
+    second: PLANTDOOMSHROOM_1536_00_143
+  - first:
+      213: -6005582076987311494
+    second: PLANTDOOMSHROOM_1536_00_144
+  - first:
+      213: -4995195079441165513
+    second: PLANTDOOMSHROOM_1536_00_145
+  - first:
+      213: -7022685461749816624
+    second: PLANTDOOMSHROOM_1536_00_146
+  - first:
+      213: 8406547825027714396
+    second: PLANTDOOMSHROOM_1536_00_147
+  - first:
+      213: 8604645272109273480
+    second: PLANTDOOMSHROOM_1536_00_148
+  - first:
+      213: 4055436983616897315
+    second: PLANTDOOMSHROOM_1536_00_149
+  - first:
+      213: 593042557199398057
+    second: PLANTDOOMSHROOM_1536_00_150
+  - first:
+      213: 1440416390497369021
+    second: PLANTDOOMSHROOM_1536_00_151
+  - first:
+      213: -7462276940469283262
+    second: PLANTDOOMSHROOM_1536_00_152
+  - first:
+      213: -7258908646595080201
+    second: PLANTDOOMSHROOM_1536_00_153
+  - first:
+      213: 296203362666198135
+    second: PLANTDOOMSHROOM_1536_00_154
+  - first:
+      213: -8649547582880714052
+    second: PLANTDOOMSHROOM_1536_00_155
+  - first:
+      213: -4017844205509601604
+    second: PLANTDOOMSHROOM_1536_00_156
+  - first:
+      213: 6975804663607550637
+    second: PLANTDOOMSHROOM_1536_00_157
+  - first:
+      213: -7155747277317151103
+    second: PLANTDOOMSHROOM_1536_00_158
+  - first:
+      213: -8448365022247114533
+    second: PLANTDOOMSHROOM_1536_00_159
+  - first:
+      213: 5930805823049718120
+    second: PLANTDOOMSHROOM_1536_00_160
+  - first:
+      213: 3140162110168355896
+    second: PLANTDOOMSHROOM_1536_00_161
+  - first:
+      213: -793081600891498296
+    second: PLANTDOOMSHROOM_1536_00_162
+  - first:
+      213: -2858626386752806382
+    second: PLANTDOOMSHROOM_1536_00_163
+  - first:
+      213: -8465250594444438291
+    second: PLANTDOOMSHROOM_1536_00_164
+  - first:
+      213: -707364507904612699
+    second: PLANTDOOMSHROOM_1536_00_165
+  - first:
+      213: 9117768256177550635
+    second: PLANTDOOMSHROOM_1536_00_166
+  - first:
+      213: -5679560738758025645
+    second: PLANTDOOMSHROOM_1536_00_167
+  - first:
+      213: 5645122282181942686
+    second: PLANTDOOMSHROOM_1536_00_168
+  - first:
+      213: 6349879824814106448
+    second: PLANTDOOMSHROOM_1536_00_169
+  - first:
+      213: 3183451715969369656
+    second: PLANTDOOMSHROOM_1536_00_170
+  - first:
+      213: -7764094658797819293
+    second: PLANTDOOMSHROOM_1536_00_171
+  - first:
+      213: 5193788340914893230
+    second: PLANTDOOMSHROOM_1536_00_172
+  - first:
+      213: -2761728638362358163
+    second: PLANTDOOMSHROOM_1536_00_173
+  - first:
+      213: 7520543137789378207
+    second: PLANTDOOMSHROOM_1536_00_174
+  - first:
+      213: 4389368710700604527
+    second: PLANTDOOMSHROOM_1536_00_175
+  - first:
+      213: 9213048853884593104
+    second: PLANTDOOMSHROOM_1536_00_176
+  - first:
+      213: 7526664465146821033
+    second: PLANTDOOMSHROOM_1536_00_177
+  - first:
+      213: 845382946415926079
+    second: PLANTDOOMSHROOM_1536_00_178
+  - first:
+      213: 4226180916046500321
+    second: PLANTDOOMSHROOM_1536_00_179
+  - first:
+      213: -424703878642527254
+    second: PLANTDOOMSHROOM_1536_00_180
+  - first:
+      213: 3573413112623785562
+    second: PLANTDOOMSHROOM_1536_00_181
+  - first:
+      213: -1474507043776211782
+    second: PLANTDOOMSHROOM_1536_00_182
+  - first:
+      213: -4872644406763717464
+    second: PLANTDOOMSHROOM_1536_00_183
+  - first:
+      213: -2521910065405950164
+    second: PLANTDOOMSHROOM_1536_00_184
+  - first:
+      213: -3841062931117674945
+    second: PLANTDOOMSHROOM_1536_00_185
+  - first:
+      213: -3186602831602409942
+    second: PLANTDOOMSHROOM_1536_00_186
+  - first:
+      213: -927187456452338583
+    second: PLANTDOOMSHROOM_1536_00_187
+  - first:
+      213: -2696234580722154684
+    second: PLANTDOOMSHROOM_1536_00_188
+  - first:
+      213: 96211472152243930
+    second: PLANTDOOMSHROOM_1536_00_189
+  - first:
+      213: -2106766810548290291
+    second: PLANTDOOMSHROOM_1536_00_190
+  - first:
+      213: -2218749157356743496
+    second: PLANTDOOMSHROOM_1536_00_191
+  - first:
+      213: -5115627490045873667
+    second: PLANTDOOMSHROOM_1536_00_192
+  - first:
+      213: -710851457860059219
+    second: PLANTDOOMSHROOM_1536_00_193
+  - first:
+      213: -8623688577226673161
+    second: PLANTDOOMSHROOM_1536_00_194
+  - first:
+      213: 3310297932268232623
+    second: PLANTDOOMSHROOM_1536_00_195
+  - first:
+      213: -7514778927155811784
+    second: PLANTDOOMSHROOM_1536_00_196
+  - first:
+      213: 7024076804772261004
+    second: PLANTDOOMSHROOM_1536_00_197
+  - first:
+      213: 4226893252304487591
+    second: PLANTDOOMSHROOM_1536_00_198
+  - first:
+      213: -934334600627050589
+    second: PLANTDOOMSHROOM_1536_00_199
+  - first:
+      213: 8368738792373494226
+    second: PLANTDOOMSHROOM_1536_00_200
+  - first:
+      213: -7948804494622622480
+    second: PLANTDOOMSHROOM_1536_00_201
+  - first:
+      213: -5321194476164782061
+    second: PLANTDOOMSHROOM_1536_00_202
+  - first:
+      213: -7404636040787992642
+    second: PLANTDOOMSHROOM_1536_00_203
+  - first:
+      213: 2909133700447929458
+    second: PLANTDOOMSHROOM_1536_00_204
+  - first:
+      213: -8992980659707242708
+    second: PLANTDOOMSHROOM_1536_00_205
+  - first:
+      213: 4370121535206541682
+    second: PLANTDOOMSHROOM_1536_00_206
+  - first:
+      213: -7237632119037660742
+    second: PLANTDOOMSHROOM_1536_00_207
+  - first:
+      213: -3109517273388115835
+    second: PLANTDOOMSHROOM_1536_00_208
+  - first:
+      213: 8919592323149776423
+    second: PLANTDOOMSHROOM_1536_00_209
+  - first:
+      213: 1302762035277509925
+    second: PLANTDOOMSHROOM_1536_00_210
+  - first:
+      213: -9104262389368720757
+    second: PLANTDOOMSHROOM_1536_00_211
+  - first:
+      213: -3012306669750090690
+    second: PLANTDOOMSHROOM_1536_00_212
+  - first:
+      213: -4436059747958290281
+    second: PLANTDOOMSHROOM_1536_00_213
+  - first:
+      213: 2374881787770229902
+    second: PLANTDOOMSHROOM_1536_00_214
+  - first:
+      213: 7170539127779414689
+    second: PLANTDOOMSHROOM_1536_00_215
+  - first:
+      213: 1050869188539628324
+    second: PLANTDOOMSHROOM_1536_00_216
+  - first:
+      213: -4738829444053132718
+    second: PLANTDOOMSHROOM_1536_00_217
+  - first:
+      213: -1747307928870017858
+    second: PLANTDOOMSHROOM_1536_00_218
+  - first:
+      213: -6886527616960669194
+    second: PLANTDOOMSHROOM_1536_00_219
+  - first:
+      213: -8375172217027627215
+    second: PLANTDOOMSHROOM_1536_00_220
+  - first:
+      213: 1445363624691060157
+    second: PLANTDOOMSHROOM_1536_00_221
+  - first:
+      213: 2277610296388475121
+    second: PLANTDOOMSHROOM_1536_00_222
+  - first:
+      213: -9112686192275483684
+    second: PLANTDOOMSHROOM_1536_00_223
+  - first:
+      213: -4049781417624759770
+    second: PLANTDOOMSHROOM_1536_00_224
+  - first:
+      213: 961634949414784943
+    second: PLANTDOOMSHROOM_1536_00_225
+  - first:
+      213: -6809461004755802869
+    second: PLANTDOOMSHROOM_1536_00_226
+  - first:
+      213: 8412394436504786451
+    second: PLANTDOOMSHROOM_1536_00_227
+  - first:
+      213: -1955832504472985948
+    second: PLANTDOOMSHROOM_1536_00_228
+  - first:
+      213: 1091974997997498228
+    second: PLANTDOOMSHROOM_1536_00_229
+  - first:
+      213: 4627718398886250872
+    second: PLANTDOOMSHROOM_1536_00_230
+  - first:
+      213: -9029004462685040851
+    second: PLANTDOOMSHROOM_1536_00_231
+  - first:
+      213: 756569001971725804
+    second: PLANTDOOMSHROOM_1536_00_232
+  - first:
+      213: 6114040417230146407
+    second: PLANTDOOMSHROOM_1536_00_233
+  - first:
+      213: 836312886448801430
+    second: PLANTDOOMSHROOM_1536_00_234
+  - first:
+      213: 7717638532743366664
+    second: PLANTDOOMSHROOM_1536_00_235
+  - first:
+      213: 9197312730302761827
+    second: PLANTDOOMSHROOM_1536_00_236
+  - first:
+      213: -6552602137136570235
+    second: PLANTDOOMSHROOM_1536_00_237
+  - first:
+      213: 4907011672813613391
+    second: PLANTDOOMSHROOM_1536_00_238
+  - first:
+      213: 5822568592850617179
+    second: PLANTDOOMSHROOM_1536_00_239
+  - first:
+      213: -4185298888130774905
+    second: PLANTDOOMSHROOM_1536_00_240
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3603
+        width: 912
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36f66cf19a66ee20800000000000000
+      internalID: 3379505745625544254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 3535
+        width: 718
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f99722e9c6cba990800000000000000
+      internalID: -7373581394504082956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3634
+        width: 864
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82815e875de93ff50800000000000000
+      internalID: 6914044492637345832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 3611
+        width: 801
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e4df9e46879c120800000000000000
+      internalID: 2434609448388218396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 3617
+        width: 615
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875fc9b27597a1470800000000000000
+      internalID: 8366132673094940024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 3891
+        width: 107
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cfb072280dc6170800000000000000
+      internalID: 8173136681190030376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 3699
+        width: 99
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8ce891b44966ac0800000000000000
+      internalID: -3862236580151375644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 3879
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97732130a8670a060800000000000000
+      internalID: 6962695359043876729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 3868
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecde944d5af8ca60800000000000000
+      internalID: 7694675241852656870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 3574
+        width: 89
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8437f0f3dee701250800000000000000
+      internalID: 5913365868167787336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 3674
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264c70f4c68b7f1d0800000000000000
+      internalID: -3316979825213193118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 3650
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29b437a541a54580800000000000000
+      internalID: -8843484972742035156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 3606
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8c653dd0a7fef70800000000000000
+      internalID: 9218721162049538217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 3607
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461b8154b01c7e520800000000000000
+      internalID: 2731363953171542372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 3615
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d27029871f3cb070800000000000000
+      internalID: 8123437198186934994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 3626
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa8e78c3ea907810800000000000000
+      internalID: 1761077757413853870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3175
+        width: 754
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25f4ae4040a663b0800000000000000
+      internalID: -5519548095238179540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 3509
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28184cc2c6f954190800000000000000
+      internalID: -7978795877860605566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 3213
+        width: 619
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c04c888d2c5dde00800000000000000
+      internalID: 1071113637018222793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 3602
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db106033a61680050800000000000000
+      internalID: 5766966431598379453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 3538
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de67170be8815440800000000000000
+      internalID: 4922866410710331092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 3235
+        width: 793
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f754fc1380c8f66c0800000000000000
+      internalID: -4147942764961643137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 3582
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9230dff301f1baac0800000000000000
+      internalID: -3842943702377102551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3264
+        width: 859
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6ba5cfaca372a90800000000000000
+      internalID: -7338832424285325659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3126
+        width: 526
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1aa265c69553f80800000000000000
+      internalID: -8127491630683217442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 3354
+        width: 185
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3affb3e686758c00800000000000000
+      internalID: 902257622076357183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 3421
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dae4842508c2c40800000000000000
+      internalID: 5488903136746581385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 3485
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3412a4f94d744c5f0800000000000000
+      internalID: -737385460450844349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 3342
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7d89df27346efb0800000000000000
+      internalID: -4618930206661879870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 3390
+        width: 107
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b66ef0d9c65ba70800000000000000
+      internalID: 8842092865244261264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 3336
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b9e193d1a0d22f0800000000000000
+      internalID: -996128821950375010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 3278
+        width: 102
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ab6e7b45b102e00800000000000000
+      internalID: 1017843566462286397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 3320
+        width: 110
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6494b4215c7095aa0800000000000000
+      internalID: -6171893271337678522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 3216
+        width: 147
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4741e64f434f00410800000000000000
+      internalID: 1441420389034890356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 3322
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8625126e0d6c7d00800000000000000
+      internalID: 971771528147707533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 3309
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3bacd7654e0e100800000000000000
+      internalID: 135359048949871543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 3245
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a824eb69ffc0c6520800000000000000
+      internalID: 2696544568773329546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 3286
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74362182f578016a0800000000000000
+      internalID: -6480531021022207161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 3211
+        width: 76
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf87301b7100afa0800000000000000
+      internalID: -5791627492733775940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 3257
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff5c2c36dbb951e0800000000000000
+      internalID: -2208527613441581072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2976
+        width: 760
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4246a95f6c2140c0800000000000000
+      internalID: -4593341288184135090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 3188
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35727d87ef273730800000000000000
+      internalID: 3978701467362161981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3230
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c45d9f82b7f260800000000000000
+      internalID: 7131364864854115778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 3212
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8afe94d1d1f89d0800000000000000
+      internalID: -2769963234177865517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 3157
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b60da9d0235e3350800000000000000
+      internalID: 5998323154260133558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 3160
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e50fb915dbf11c60800000000000000
+      internalID: 7787282123378853352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 3173
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d8cbf77cc73f140800000000000000
+      internalID: 4752279228089404672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 3172
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2881b36f6299b6bf0800000000000000
+      internalID: -330001755062724478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3173
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd399852d1cd16d80800000000000000
+      internalID: -8259078223878843428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 3177
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e025f9781c31450f0800000000000000
+      internalID: -1129255884638170610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 3175
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc7d37a3168a21b0800000000000000
+      internalID: -5680580561006134064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 3172
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e54a3d147a6fb0800000000000000
+      internalID: -4653779596053453276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 2907
+        width: 653
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104f41f77e59a5150800000000000000
+      internalID: 5862162686478185473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 2981
+        width: 134
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8784fd6402efe10800000000000000
+      internalID: 2233257953988212937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 3125
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe942800b8e4a5ad0800000000000000
+      internalID: -2712769466621343249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 3140
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145c3b5271e3dcab0800000000000000
+      internalID: -4986260943291562687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 2764
+        width: 522
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a034cd42bb954f5b0800000000000000
+      internalID: -5335540998215023862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 2814
+        width: 410
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a9461759f0c7f20800000000000000
+      internalID: 3421626951421696662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 2792
+        width: 507
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac8d95c19427b30800000000000000
+      internalID: 4283566581698054864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 2987
+        width: 231
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717f49037637b1a90800000000000000
+      internalID: -7342147880463567081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 3077
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bbaf1b79e465090800000000000000
+      internalID: -8046157270817784933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 3125
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec9a79170283cbb0800000000000000
+      internalID: -4916943401154601754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2779
+        width: 621
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b036671966068200800000000000000
+      internalID: 181839883388989625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 3078
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd68037c0d5b7fab0800000000000000
+      internalID: -4974307355107752227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 3046
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38348c845ad8ecdd0800000000000000
+      internalID: -2463876205094878333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 4055
+        y: 3037
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177328835fbc02e50800000000000000
+      internalID: 6782645292895450993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 3017
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8632241db3fbb6160800000000000000
+      internalID: 7019914707821798248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 4055
+        y: 2993
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2030ecbeca8214ab0800000000000000
+      internalID: -5025690986013129982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2984
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af79fd150f0def50800000000000000
+      internalID: 6912197517735722918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2958
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad30a77d5c88ce70800000000000000
+      internalID: 9135706177187888544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 2886
+        width: 244
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c29d7cc7e16bc360800000000000000
+      internalID: 7190948878223250113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 2885
+        width: 144
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519b82543d42bef0800000000000000
+      internalID: -93927755102842543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2937
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3970121ca3b8b6f20800000000000000
+      internalID: 3416977826755184531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2544
+        width: 502
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4db750af956525c0800000000000000
+      internalID: -4240871737835143860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2795
+        width: 201
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e89284bb093eb530800000000000000
+      internalID: 3872595452021086439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2921
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9aac7762eb90de0800000000000000
+      internalID: -1366351939502429790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2921
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d338406f5ced30800000000000000
+      internalID: 4462046197950173460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 2902
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d8789f88d054240800000000000000
+      internalID: 4775237861849402748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2505
+        width: 707
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639e0ba42287d1880800000000000000
+      internalID: -8638616421549414090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 2375
+        width: 485
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06f9d705d5b23f90800000000000000
+      internalID: -6975312946279090678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 2555
+        width: 216
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f814df205a63bd10800000000000000
+      internalID: 2140171140563474674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2408
+        width: 490
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad05f025d10704730800000000000000
+      internalID: 3981305341828616410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2621
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f9307c89ed376b0800000000000000
+      internalID: -5299647588729643162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 2648
+        width: 197
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cc7b4e8f2dc03b0800000000000000
+      internalID: -5544825074768950173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 2618
+        width: 114
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72366da8a4b58db0800000000000000
+      internalID: -4790223992081993089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 2600
+        width: 748
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8767ca38e365b70800000000000000
+      internalID: 8887359649917335743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 2194
+        width: 273
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede0f0971cde069c0800000000000000
+      internalID: -3935884659106312482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1879
+        width: 264
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9132bd7be463f5ff0800000000000000
+      internalID: -45257759530474727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2503
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745d8030d1f0a5b00800000000000000
+      internalID: 817982899600545095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2503
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1797c58ab5b0e520800000000000000
+      internalID: 2729381186899515166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2499
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cd5a65e42e0cab0800000000000000
+      internalID: -4989739561037472611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 2414
+        width: 243
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b049f965035c3a70800000000000000
+      internalID: 8808006253947732149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 2455
+        width: 156
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8cd838a8601f200800000000000000
+      internalID: 211957849445484799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 2271
+        width: 551
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3d5d7283b585ef0800000000000000
+      internalID: -119245093380697172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 2239
+        width: 475
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f56477072c691ff0800000000000000
+      internalID: -64901804735568398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 2390
+        width: 122
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9daa213b0c30210800000000000000
+      internalID: 1298092992957700528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2120
+        width: 469
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a869693581ac090800000000000000
+      internalID: -8013565839664575997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1841
+        width: 255
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed8db3935af9840800000000000000
+      internalID: 5233082957263593039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2376
+        width: 189
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd771e7317ea4db90800000000000000
+      internalID: -7217952501476001828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 2074
+        width: 537
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521a10a18cf2f71c0800000000000000
+      internalID: -4503828565870927579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2263
+        width: 231
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a563091128e6f80800000000000000
+      internalID: -8111402866902148559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 2244
+        width: 146
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be2d0ce291b50140800000000000000
+      internalID: 4685346231932497587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 2137
+        width: 655
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dca7983e10e896f0800000000000000
+      internalID: -677545323516154664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1890
+        width: 457
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef7684732c499320800000000000000
+      internalID: 2565165177926746092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 2230
+        width: 87
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e7c7e12dd7fdd60800000000000000
+      internalID: 7917185011348700795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 2231
+        width: 77
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9a9c73cdce670c0800000000000000
+      internalID: -4578211540602607107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 2228
+        width: 71
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b717ba58316b220800000000000000
+      internalID: 2501208107878808356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 3005
+        y: 2233
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2c37e766450e6b0800000000000000
+      internalID: -5269118764838567226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 1992
+        width: 688
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e970563ac8bae290800000000000000
+      internalID: -7860267020987631133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 1570
+        width: 247
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f121f7599ffabd0800000000000000
+      internalID: -2616598438001631351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1524
+        width: 239
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd61b7700b9625600800000000000000
+      internalID: 455542717078509279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 2129
+        width: 87
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52be5a6fdff83cf0800000000000000
+      internalID: -272186442428534180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1749
+        width: 443
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c687e18f0a03ae6a0800000000000000
+      internalID: -6419264850947573652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1767
+        width: 458
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb52d1cce71d4170800000000000000
+      internalID: 8164208005124086755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2072
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2d7250321c83c50800000000000000
+      internalID: 6645273606339678893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 2078
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35300b652ddc6d10800000000000000
+      internalID: 2120312677363365181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 2080
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f4b576889b7cbd0800000000000000
+      internalID: -2609913463537184900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 2041
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8657d6ac3c843c8e0800000000000000
+      internalID: -1674414630699698840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 2091
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32040812d12f56c30800000000000000
+      internalID: 4352150821853478947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1811
+        width: 561
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e0e9bb36b1cd9a0800000000000000
+      internalID: -6207056071259976040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1942
+        width: 140
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944b4f2decae80970800000000000000
+      internalID: 8721478852426380361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 1993
+        width: 98
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bbe6b457d423ae0800000000000000
+      internalID: -1571108153826821230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 1626
+        width: 433
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cfaee2bbfcf0560800000000000000
+      internalID: 7282267525334367256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 1321
+        width: 233
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca88be71a29e8310800000000000000
+      internalID: 1409224955726957250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 1915
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83374841627fb6c0800000000000000
+      internalID: -4125452971498065012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1801
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6e534a5f364e940800000000000000
+      internalID: 5324490566131902157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 1210
+        width: 228
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f325e7175693b2650800000000000000
+      internalID: 6209119619118944831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 1636
+        width: 363
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37138a8ff3b3c960800000000000000
+      internalID: 7621132904562890557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 1866
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc6e1b93550232f0800000000000000
+      internalID: -994726711052571458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 4002
+        y: 1864
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3575539691128dc10800000000000000
+      internalID: 2078447621054486355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1751
+        width: 207
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd0c841d8407e040800000000000000
+      internalID: 4676711742029172179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1762
+        width: 181
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3f65cec1a6e120800000000000000
+      internalID: 2442817757342809952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1774
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8467c15b072f6610800000000000000
+      internalID: 1616553720819442828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1808
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0146cbc73ec3eaf0800000000000000
+      internalID: -368224005476957937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 1810
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb8cb1629affca40800000000000000
+      internalID: 5390802785597688824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1749
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78aa91d9e1f0d5c0800000000000000
+      internalID: -4192585266535683974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1549
+        width: 216
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae3d26cb900a3120800000000000000
+      internalID: 2394226820945624750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1417
+        width: 423
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a246b01f367127c0800000000000000
+      internalID: -4097864172695043416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1679
+        width: 109
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dec2167ee9158d00800000000000000
+      internalID: 974213406369435352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 1748
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c96557350fb3eb10800000000000000
+      internalID: 2009659887861459394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1638
+        width: 139
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e19ec4627df7aa0800000000000000
+      internalID: -6160969205720473953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1627
+        width: 165
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0485655e9bd09edd0800000000000000
+      internalID: -2456417029686142912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1619
+        width: 138
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701624dd6b3e8c270800000000000000
+      internalID: 8271111090201583879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1504
+        width: 536
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bdef200e6a1f970800000000000000
+      internalID: 8786987829029690149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 1696
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7af7bf7be2e7aca0800000000000000
+      internalID: -6005582076987311494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1573
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733512a7a808daab0800000000000000
+      internalID: -4995195079441165513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 1639
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d22a13c7c86a8e90800000000000000
+      internalID: -7022685461749816624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1456
+        width: 222
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d0c1205be0aa470800000000000000
+      internalID: 8406547825027714396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1451
+        width: 228
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881515e1947d96770800000000000000
+      internalID: 8604645272109273480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 1264
+        width: 417
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3218771337ec74830800000000000000
+      internalID: 4055436983616897315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 1343
+        width: 393
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a43f8e4019ea3800800000000000000
+      internalID: 593042557199398057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 3998
+        y: 1590
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbfe3453136df310800000000000000
+      internalID: 1440416390497369021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1494
+        width: 153
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2465db3d8aaa07890800000000000000
+      internalID: -7462276940469283262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1486
+        width: 110
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff40b69b0d234b90800000000000000
+      internalID: -7258908646595080201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 1521
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774bef493635c1400800000000000000
+      internalID: 296203362666198135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 1527
+        width: 69
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27e86fc42a6f780800000000000000
+      internalID: -8649547582880714052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 1521
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb61db78bffbd38c0800000000000000
+      internalID: -4017844205509601604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1523
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da267d4d1690fc060800000000000000
+      internalID: 6975804663607550637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 1541
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186ea0993cda1bc90800000000000000
+      internalID: -7155747277317151103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1488
+        width: 173
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8202c06c061ca80800000000000000
+      internalID: -8448365022247114533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1501
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86952ba29747e4250800000000000000
+      internalID: 5930805823049718120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1448
+        width: 206
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834d9b94dc8149b20800000000000000
+      internalID: 3140162110168355896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 1194
+        width: 442
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0d6f46c786ef4f0800000000000000
+      internalID: -793081600891498296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 1376
+        width: 148
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2126a08627e1458d0800000000000000
+      internalID: -2858626386752806382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1450
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de499776f63658a80800000000000000
+      internalID: -8465250594444438291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1185
+        width: 539
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a660a35abfee26f0800000000000000
+      internalID: -707364507904612699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1411
+        width: 116
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25bbc5cbe1d88e70800000000000000
+      internalID: 9117768256177550635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1416
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e921689952e21b0800000000000000
+      internalID: -5679560738758025645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1417
+        width: 101
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9dd8177ec0875e40800000000000000
+      internalID: 5645122282181942686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 1422
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057e67cbe0e4f1850800000000000000
+      internalID: 6349879824814106448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1203
+        width: 513
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83646f11874ed2c20800000000000000
+      internalID: 3183451715969369656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_171
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1166
+        width: 495
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a29d33b05604490800000000000000
+      internalID: -7764094658797819293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_172
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1215
+        width: 389
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea13cca6afa041840800000000000000
+      internalID: 5193788340914893230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_173
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1370
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e63688f6e5ca9d0800000000000000
+      internalID: -2761728638362358163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_174
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 1228
+        width: 146
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9effe563265e5860800000000000000
+      internalID: 7520543137789378207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_175
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1323
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c1685269b2aec30800000000000000
+      internalID: 4389368710700604527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_176
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1287
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d36c1aae135bdf70800000000000000
+      internalID: 9213048853884593104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_177
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 1199
+        width: 137
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9b1acf375147860800000000000000
+      internalID: 7526664465146821033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_178
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1031
+        width: 492
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b5b4c8f476bbb00800000000000000
+      internalID: 845382946415926079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_179
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 1208
+        width: 116
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e19c71e62966aa30800000000000000
+      internalID: 4226180916046500321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_180
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1249
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae318c292162b1af0800000000000000
+      internalID: -424703878642527254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_181
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 1219
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56e9ad0b40579130800000000000000
+      internalID: 3573413112623785562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_182
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1202
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab458ece7af798be0800000000000000
+      internalID: -1474507043776211782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_183
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1125
+        width: 154
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acfd0a7ab3e06cb0800000000000000
+      internalID: -4872644406763717464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_184
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 923
+        width: 418
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c270ffb3820600dd0800000000000000
+      internalID: -2521910065405950164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_185
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 947
+        width: 449
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e6fce6d9dc1bac0800000000000000
+      internalID: -3841062931117674945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_186
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 889
+        width: 436
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e9516ab99e6c3d0800000000000000
+      internalID: -3186602831602409942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_187
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1038
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cd5f9bbe7f123f0800000000000000
+      internalID: -927187456452338583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_188
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 968
+        width: 478
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4438ee02fec059ad0800000000000000
+      internalID: -2696234580722154684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_189
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 897
+        width: 427
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adea3fcf2dfc55100800000000000000
+      internalID: 96211472152243930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_190
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1038
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dbfa87fb243c2e0800000000000000
+      internalID: -2106766810548290291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_191
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1037
+        width: 118
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4dd06956b6531e0800000000000000
+      internalID: -2218749157356743496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_192
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 952
+        width: 463
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1b79cc6e3a109b0800000000000000
+      internalID: -5115627490045873667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_193
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 625
+        width: 176
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafbe268d5c8226f0800000000000000
+      internalID: -710851457860059219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_194
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 955
+        width: 115
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f37fc4ede0825880800000000000000
+      internalID: -8623688577226673161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_195
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 795
+        width: 427
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafde814e6a80fd20800000000000000
+      internalID: 3310297932268232623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_196
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 918
+        width: 197
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a6949716426b790800000000000000
+      internalID: -7514778927155811784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_197
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 595
+        width: 378
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ce28783a88a7160800000000000000
+      internalID: 7024076804772261004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_198
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 436
+        width: 260
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4ca179401f8aa30800000000000000
+      internalID: 4226893252304487591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_199
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 454
+        width: 243
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7a44c81a39803f0800000000000000
+      internalID: -934334600627050589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_200
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 592
+        width: 450
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d12479979bb32470800000000000000
+      internalID: 8368738792373494226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_201
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 622
+        width: 411
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc7dfc3d6c20b190800000000000000
+      internalID: -7948804494622622480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_202
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 649
+        width: 464
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3186d6b11d15726b0800000000000000
+      internalID: -5321194476164782061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_203
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 766
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfd6c990c27d3990800000000000000
+      internalID: -7404636040787992642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_204
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 609
+        width: 448
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2740153ffa15f5820800000000000000
+      internalID: 2909133700447929458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_205
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 559
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c271132acb3823380800000000000000
+      internalID: -8992980659707242708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_206
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 462
+        width: 322
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2794543e16ac5ac30800000000000000
+      internalID: 4370121535206541682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_207
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 391
+        width: 368
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab17dc13fe3ce8b90800000000000000
+      internalID: -7237632119037660742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_208
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 404
+        width: 426
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58892c8c386c8d4d0800000000000000
+      internalID: -3109517273388115835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_209
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 535
+        width: 519
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726c4aab5f1c8cb70800000000000000
+      internalID: 8919592323149776423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_210
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 419
+        width: 544
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525b4933b27541210800000000000000
+      internalID: 1302762035277509925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_211
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 559
+        width: 142
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b827ab3e79927a180800000000000000
+      internalID: -9104262389368720757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_212
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 369
+        width: 377
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3481033b032236d0800000000000000
+      internalID: -3012306669750090690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_213
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 323
+        width: 146
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79889889923ff62c0800000000000000
+      internalID: -4436059747958290281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_214
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 297
+        width: 659
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84d69f376645f020800000000000000
+      internalID: 2374881787770229902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_215
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 335
+        width: 494
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2d457785fd28360800000000000000
+      internalID: 7170539127779414689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_216
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 219
+        width: 472
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bbe4095ff659e00800000000000000
+      internalID: 1050869188539628324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_217
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 379
+        width: 508
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a1d006abb4c3eb0800000000000000
+      internalID: -4738829444053132718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_218
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 164
+        width: 488
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4aa7242b050c7e0800000000000000
+      internalID: -1747307928870017858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_219
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 92
+        width: 457
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f954276e932e60a0800000000000000
+      internalID: -6886527616960669194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_220
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 68
+        width: 406
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137f85ffd3965cb80800000000000000
+      internalID: -8375172217027627215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_221
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 158
+        width: 388
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd4bfc0f86fe0410800000000000000
+      internalID: 1445363624691060157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_222
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 185
+        width: 381
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8d10d4f72bb9f10800000000000000
+      internalID: 2277610296388475121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_223
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 116
+        width: 394
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd310df603c398180800000000000000
+      internalID: -9112686192275483684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_224
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 173
+        width: 468
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6229f70e1494cc7c0800000000000000
+      internalID: -4049781417624759770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_225
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 209
+        width: 182
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf087b34e9685d00800000000000000
+      internalID: 961634949414784943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_226
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 8
+        width: 444
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05e7a35b4fef71a0800000000000000
+      internalID: -6809461004755802869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_227
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 146
+        width: 136
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31617525b24deb470800000000000000
+      internalID: 8412394436504786451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_228
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 147
+        width: 130
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae99ba13bc7bd4e0800000000000000
+      internalID: -1955832504472985948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_229
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 76
+        width: 161
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47faf33a979772f00800000000000000
+      internalID: 1091974997997498228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_230
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 277
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87987267d55f83040800000000000000
+      internalID: 4627718398886250872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_231
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 16
+        width: 338
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fcd36674882b280800000000000000
+      internalID: -9029004462685040851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_232
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 5
+        width: 203
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5b892bf7fdf7a00800000000000000
+      internalID: 756569001971725804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_233
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 6
+        width: 121
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b426bad5f69d450800000000000000
+      internalID: 6114040417230146407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_234
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 27
+        width: 301
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696ccd5a32e2b9b00800000000000000
+      internalID: 836312886448801430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_235
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 39
+        width: 103
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80809011b5f8a1b60800000000000000
+      internalID: 7717638532743366664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_236
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 9
+        width: 234
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bcfd1e23b63af70800000000000000
+      internalID: 9197312730302761827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_237
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 7
+        width: 197
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580628dc21b7015a0800000000000000
+      internalID: -6552602137136570235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_238
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 11
+        width: 626
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4130c23e15391440800000000000000
+      internalID: 4907011672813613391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_239
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 47
+        width: 480
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b530531394bedc050800000000000000
+      internalID: 5822568592850617179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDOOMSHROOM_1536_00_240
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 12
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788b02ef5d4dae5c0800000000000000
+      internalID: -4185298888130774905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTDOOMSHROOM_1536_00_0: 3379505745625544254
+      PLANTDOOMSHROOM_1536_00_1: -7373581394504082956
+      PLANTDOOMSHROOM_1536_00_10: -3316979825213193118
+      PLANTDOOMSHROOM_1536_00_100: -8111402866902148559
+      PLANTDOOMSHROOM_1536_00_101: 4685346231932497587
+      PLANTDOOMSHROOM_1536_00_102: -677545323516154664
+      PLANTDOOMSHROOM_1536_00_103: 2565165177926746092
+      PLANTDOOMSHROOM_1536_00_104: 7917185011348700795
+      PLANTDOOMSHROOM_1536_00_105: -4578211540602607107
+      PLANTDOOMSHROOM_1536_00_106: 2501208107878808356
+      PLANTDOOMSHROOM_1536_00_107: -5269118764838567226
+      PLANTDOOMSHROOM_1536_00_108: -7860267020987631133
+      PLANTDOOMSHROOM_1536_00_109: -2616598438001631351
+      PLANTDOOMSHROOM_1536_00_11: -8843484972742035156
+      PLANTDOOMSHROOM_1536_00_110: 455542717078509279
+      PLANTDOOMSHROOM_1536_00_111: -272186442428534180
+      PLANTDOOMSHROOM_1536_00_112: -6419264850947573652
+      PLANTDOOMSHROOM_1536_00_113: 8164208005124086755
+      PLANTDOOMSHROOM_1536_00_114: 6645273606339678893
+      PLANTDOOMSHROOM_1536_00_115: 2120312677363365181
+      PLANTDOOMSHROOM_1536_00_116: -2609913463537184900
+      PLANTDOOMSHROOM_1536_00_117: -1674414630699698840
+      PLANTDOOMSHROOM_1536_00_118: 4352150821853478947
+      PLANTDOOMSHROOM_1536_00_119: -6207056071259976040
+      PLANTDOOMSHROOM_1536_00_12: 9218721162049538217
+      PLANTDOOMSHROOM_1536_00_120: 8721478852426380361
+      PLANTDOOMSHROOM_1536_00_121: -1571108153826821230
+      PLANTDOOMSHROOM_1536_00_122: 7282267525334367256
+      PLANTDOOMSHROOM_1536_00_123: 1409224955726957250
+      PLANTDOOMSHROOM_1536_00_124: -4125452971498065012
+      PLANTDOOMSHROOM_1536_00_125: 5324490566131902157
+      PLANTDOOMSHROOM_1536_00_126: 6209119619118944831
+      PLANTDOOMSHROOM_1536_00_127: 7621132904562890557
+      PLANTDOOMSHROOM_1536_00_128: -994726711052571458
+      PLANTDOOMSHROOM_1536_00_129: 2078447621054486355
+      PLANTDOOMSHROOM_1536_00_13: 2731363953171542372
+      PLANTDOOMSHROOM_1536_00_130: 4676711742029172179
+      PLANTDOOMSHROOM_1536_00_131: 2442817757342809952
+      PLANTDOOMSHROOM_1536_00_132: 1616553720819442828
+      PLANTDOOMSHROOM_1536_00_133: -368224005476957937
+      PLANTDOOMSHROOM_1536_00_134: 5390802785597688824
+      PLANTDOOMSHROOM_1536_00_135: -4192585266535683974
+      PLANTDOOMSHROOM_1536_00_136: 2394226820945624750
+      PLANTDOOMSHROOM_1536_00_137: -4097864172695043416
+      PLANTDOOMSHROOM_1536_00_138: 974213406369435352
+      PLANTDOOMSHROOM_1536_00_139: 2009659887861459394
+      PLANTDOOMSHROOM_1536_00_14: 8123437198186934994
+      PLANTDOOMSHROOM_1536_00_140: -6160969205720473953
+      PLANTDOOMSHROOM_1536_00_141: -2456417029686142912
+      PLANTDOOMSHROOM_1536_00_142: 8271111090201583879
+      PLANTDOOMSHROOM_1536_00_143: 8786987829029690149
+      PLANTDOOMSHROOM_1536_00_144: -6005582076987311494
+      PLANTDOOMSHROOM_1536_00_145: -4995195079441165513
+      PLANTDOOMSHROOM_1536_00_146: -7022685461749816624
+      PLANTDOOMSHROOM_1536_00_147: 8406547825027714396
+      PLANTDOOMSHROOM_1536_00_148: 8604645272109273480
+      PLANTDOOMSHROOM_1536_00_149: 4055436983616897315
+      PLANTDOOMSHROOM_1536_00_15: 1761077757413853870
+      PLANTDOOMSHROOM_1536_00_150: 593042557199398057
+      PLANTDOOMSHROOM_1536_00_151: 1440416390497369021
+      PLANTDOOMSHROOM_1536_00_152: -7462276940469283262
+      PLANTDOOMSHROOM_1536_00_153: -7258908646595080201
+      PLANTDOOMSHROOM_1536_00_154: 296203362666198135
+      PLANTDOOMSHROOM_1536_00_155: -8649547582880714052
+      PLANTDOOMSHROOM_1536_00_156: -4017844205509601604
+      PLANTDOOMSHROOM_1536_00_157: 6975804663607550637
+      PLANTDOOMSHROOM_1536_00_158: -7155747277317151103
+      PLANTDOOMSHROOM_1536_00_159: -8448365022247114533
+      PLANTDOOMSHROOM_1536_00_16: -5519548095238179540
+      PLANTDOOMSHROOM_1536_00_160: 5930805823049718120
+      PLANTDOOMSHROOM_1536_00_161: 3140162110168355896
+      PLANTDOOMSHROOM_1536_00_162: -793081600891498296
+      PLANTDOOMSHROOM_1536_00_163: -2858626386752806382
+      PLANTDOOMSHROOM_1536_00_164: -8465250594444438291
+      PLANTDOOMSHROOM_1536_00_165: -707364507904612699
+      PLANTDOOMSHROOM_1536_00_166: 9117768256177550635
+      PLANTDOOMSHROOM_1536_00_167: -5679560738758025645
+      PLANTDOOMSHROOM_1536_00_168: 5645122282181942686
+      PLANTDOOMSHROOM_1536_00_169: 6349879824814106448
+      PLANTDOOMSHROOM_1536_00_17: -7978795877860605566
+      PLANTDOOMSHROOM_1536_00_170: 3183451715969369656
+      PLANTDOOMSHROOM_1536_00_171: -7764094658797819293
+      PLANTDOOMSHROOM_1536_00_172: 5193788340914893230
+      PLANTDOOMSHROOM_1536_00_173: -2761728638362358163
+      PLANTDOOMSHROOM_1536_00_174: 7520543137789378207
+      PLANTDOOMSHROOM_1536_00_175: 4389368710700604527
+      PLANTDOOMSHROOM_1536_00_176: 9213048853884593104
+      PLANTDOOMSHROOM_1536_00_177: 7526664465146821033
+      PLANTDOOMSHROOM_1536_00_178: 845382946415926079
+      PLANTDOOMSHROOM_1536_00_179: 4226180916046500321
+      PLANTDOOMSHROOM_1536_00_18: 1071113637018222793
+      PLANTDOOMSHROOM_1536_00_180: -424703878642527254
+      PLANTDOOMSHROOM_1536_00_181: 3573413112623785562
+      PLANTDOOMSHROOM_1536_00_182: -1474507043776211782
+      PLANTDOOMSHROOM_1536_00_183: -4872644406763717464
+      PLANTDOOMSHROOM_1536_00_184: -2521910065405950164
+      PLANTDOOMSHROOM_1536_00_185: -3841062931117674945
+      PLANTDOOMSHROOM_1536_00_186: -3186602831602409942
+      PLANTDOOMSHROOM_1536_00_187: -927187456452338583
+      PLANTDOOMSHROOM_1536_00_188: -2696234580722154684
+      PLANTDOOMSHROOM_1536_00_189: 96211472152243930
+      PLANTDOOMSHROOM_1536_00_19: 5766966431598379453
+      PLANTDOOMSHROOM_1536_00_190: -2106766810548290291
+      PLANTDOOMSHROOM_1536_00_191: -2218749157356743496
+      PLANTDOOMSHROOM_1536_00_192: -5115627490045873667
+      PLANTDOOMSHROOM_1536_00_193: -710851457860059219
+      PLANTDOOMSHROOM_1536_00_194: -8623688577226673161
+      PLANTDOOMSHROOM_1536_00_195: 3310297932268232623
+      PLANTDOOMSHROOM_1536_00_196: -7514778927155811784
+      PLANTDOOMSHROOM_1536_00_197: 7024076804772261004
+      PLANTDOOMSHROOM_1536_00_198: 4226893252304487591
+      PLANTDOOMSHROOM_1536_00_199: -934334600627050589
+      PLANTDOOMSHROOM_1536_00_2: 6914044492637345832
+      PLANTDOOMSHROOM_1536_00_20: 4922866410710331092
+      PLANTDOOMSHROOM_1536_00_200: 8368738792373494226
+      PLANTDOOMSHROOM_1536_00_201: -7948804494622622480
+      PLANTDOOMSHROOM_1536_00_202: -5321194476164782061
+      PLANTDOOMSHROOM_1536_00_203: -7404636040787992642
+      PLANTDOOMSHROOM_1536_00_204: 2909133700447929458
+      PLANTDOOMSHROOM_1536_00_205: -8992980659707242708
+      PLANTDOOMSHROOM_1536_00_206: 4370121535206541682
+      PLANTDOOMSHROOM_1536_00_207: -7237632119037660742
+      PLANTDOOMSHROOM_1536_00_208: -3109517273388115835
+      PLANTDOOMSHROOM_1536_00_209: 8919592323149776423
+      PLANTDOOMSHROOM_1536_00_21: -4147942764961643137
+      PLANTDOOMSHROOM_1536_00_210: 1302762035277509925
+      PLANTDOOMSHROOM_1536_00_211: -9104262389368720757
+      PLANTDOOMSHROOM_1536_00_212: -3012306669750090690
+      PLANTDOOMSHROOM_1536_00_213: -4436059747958290281
+      PLANTDOOMSHROOM_1536_00_214: 2374881787770229902
+      PLANTDOOMSHROOM_1536_00_215: 7170539127779414689
+      PLANTDOOMSHROOM_1536_00_216: 1050869188539628324
+      PLANTDOOMSHROOM_1536_00_217: -4738829444053132718
+      PLANTDOOMSHROOM_1536_00_218: -1747307928870017858
+      PLANTDOOMSHROOM_1536_00_219: -6886527616960669194
+      PLANTDOOMSHROOM_1536_00_22: -3842943702377102551
+      PLANTDOOMSHROOM_1536_00_220: -8375172217027627215
+      PLANTDOOMSHROOM_1536_00_221: 1445363624691060157
+      PLANTDOOMSHROOM_1536_00_222: 2277610296388475121
+      PLANTDOOMSHROOM_1536_00_223: -9112686192275483684
+      PLANTDOOMSHROOM_1536_00_224: -4049781417624759770
+      PLANTDOOMSHROOM_1536_00_225: 961634949414784943
+      PLANTDOOMSHROOM_1536_00_226: -6809461004755802869
+      PLANTDOOMSHROOM_1536_00_227: 8412394436504786451
+      PLANTDOOMSHROOM_1536_00_228: -1955832504472985948
+      PLANTDOOMSHROOM_1536_00_229: 1091974997997498228
+      PLANTDOOMSHROOM_1536_00_23: -7338832424285325659
+      PLANTDOOMSHROOM_1536_00_230: 4627718398886250872
+      PLANTDOOMSHROOM_1536_00_231: -9029004462685040851
+      PLANTDOOMSHROOM_1536_00_232: 756569001971725804
+      PLANTDOOMSHROOM_1536_00_233: 6114040417230146407
+      PLANTDOOMSHROOM_1536_00_234: 836312886448801430
+      PLANTDOOMSHROOM_1536_00_235: 7717638532743366664
+      PLANTDOOMSHROOM_1536_00_236: 9197312730302761827
+      PLANTDOOMSHROOM_1536_00_237: -6552602137136570235
+      PLANTDOOMSHROOM_1536_00_238: 4907011672813613391
+      PLANTDOOMSHROOM_1536_00_239: 5822568592850617179
+      PLANTDOOMSHROOM_1536_00_24: -8127491630683217442
+      PLANTDOOMSHROOM_1536_00_240: -4185298888130774905
+      PLANTDOOMSHROOM_1536_00_25: 902257622076357183
+      PLANTDOOMSHROOM_1536_00_26: 5488903136746581385
+      PLANTDOOMSHROOM_1536_00_27: -737385460450844349
+      PLANTDOOMSHROOM_1536_00_28: -4618930206661879870
+      PLANTDOOMSHROOM_1536_00_29: 8842092865244261264
+      PLANTDOOMSHROOM_1536_00_3: 2434609448388218396
+      PLANTDOOMSHROOM_1536_00_30: -996128821950375010
+      PLANTDOOMSHROOM_1536_00_31: 1017843566462286397
+      PLANTDOOMSHROOM_1536_00_32: -6171893271337678522
+      PLANTDOOMSHROOM_1536_00_33: 1441420389034890356
+      PLANTDOOMSHROOM_1536_00_34: 971771528147707533
+      PLANTDOOMSHROOM_1536_00_35: 135359048949871543
+      PLANTDOOMSHROOM_1536_00_36: 2696544568773329546
+      PLANTDOOMSHROOM_1536_00_37: -6480531021022207161
+      PLANTDOOMSHROOM_1536_00_38: -5791627492733775940
+      PLANTDOOMSHROOM_1536_00_39: -2208527613441581072
+      PLANTDOOMSHROOM_1536_00_4: 8366132673094940024
+      PLANTDOOMSHROOM_1536_00_40: -4593341288184135090
+      PLANTDOOMSHROOM_1536_00_41: 3978701467362161981
+      PLANTDOOMSHROOM_1536_00_42: 7131364864854115778
+      PLANTDOOMSHROOM_1536_00_43: -2769963234177865517
+      PLANTDOOMSHROOM_1536_00_44: 5998323154260133558
+      PLANTDOOMSHROOM_1536_00_45: 7787282123378853352
+      PLANTDOOMSHROOM_1536_00_46: 4752279228089404672
+      PLANTDOOMSHROOM_1536_00_47: -330001755062724478
+      PLANTDOOMSHROOM_1536_00_48: -8259078223878843428
+      PLANTDOOMSHROOM_1536_00_49: -1129255884638170610
+      PLANTDOOMSHROOM_1536_00_5: 8173136681190030376
+      PLANTDOOMSHROOM_1536_00_50: -5680580561006134064
+      PLANTDOOMSHROOM_1536_00_51: -4653779596053453276
+      PLANTDOOMSHROOM_1536_00_52: 5862162686478185473
+      PLANTDOOMSHROOM_1536_00_53: 2233257953988212937
+      PLANTDOOMSHROOM_1536_00_54: -2712769466621343249
+      PLANTDOOMSHROOM_1536_00_55: -4986260943291562687
+      PLANTDOOMSHROOM_1536_00_56: -5335540998215023862
+      PLANTDOOMSHROOM_1536_00_57: 3421626951421696662
+      PLANTDOOMSHROOM_1536_00_58: 4283566581698054864
+      PLANTDOOMSHROOM_1536_00_59: -7342147880463567081
+      PLANTDOOMSHROOM_1536_00_6: -3862236580151375644
+      PLANTDOOMSHROOM_1536_00_60: -8046157270817784933
+      PLANTDOOMSHROOM_1536_00_61: -4916943401154601754
+      PLANTDOOMSHROOM_1536_00_62: 181839883388989625
+      PLANTDOOMSHROOM_1536_00_63: -4974307355107752227
+      PLANTDOOMSHROOM_1536_00_64: -2463876205094878333
+      PLANTDOOMSHROOM_1536_00_65: 6782645292895450993
+      PLANTDOOMSHROOM_1536_00_66: 7019914707821798248
+      PLANTDOOMSHROOM_1536_00_67: -5025690986013129982
+      PLANTDOOMSHROOM_1536_00_68: 6912197517735722918
+      PLANTDOOMSHROOM_1536_00_69: 9135706177187888544
+      PLANTDOOMSHROOM_1536_00_7: 6962695359043876729
+      PLANTDOOMSHROOM_1536_00_70: 7190948878223250113
+      PLANTDOOMSHROOM_1536_00_71: -93927755102842543
+      PLANTDOOMSHROOM_1536_00_72: 3416977826755184531
+      PLANTDOOMSHROOM_1536_00_73: -4240871737835143860
+      PLANTDOOMSHROOM_1536_00_74: 3872595452021086439
+      PLANTDOOMSHROOM_1536_00_75: -1366351939502429790
+      PLANTDOOMSHROOM_1536_00_76: 4462046197950173460
+      PLANTDOOMSHROOM_1536_00_77: 4775237861849402748
+      PLANTDOOMSHROOM_1536_00_78: -8638616421549414090
+      PLANTDOOMSHROOM_1536_00_79: -6975312946279090678
+      PLANTDOOMSHROOM_1536_00_8: 7694675241852656870
+      PLANTDOOMSHROOM_1536_00_80: 2140171140563474674
+      PLANTDOOMSHROOM_1536_00_81: 3981305341828616410
+      PLANTDOOMSHROOM_1536_00_82: -5299647588729643162
+      PLANTDOOMSHROOM_1536_00_83: -5544825074768950173
+      PLANTDOOMSHROOM_1536_00_84: -4790223992081993089
+      PLANTDOOMSHROOM_1536_00_85: 8887359649917335743
+      PLANTDOOMSHROOM_1536_00_86: -3935884659106312482
+      PLANTDOOMSHROOM_1536_00_87: -45257759530474727
+      PLANTDOOMSHROOM_1536_00_88: 817982899600545095
+      PLANTDOOMSHROOM_1536_00_89: 2729381186899515166
+      PLANTDOOMSHROOM_1536_00_9: 5913365868167787336
+      PLANTDOOMSHROOM_1536_00_90: -4989739561037472611
+      PLANTDOOMSHROOM_1536_00_91: 8808006253947732149
+      PLANTDOOMSHROOM_1536_00_92: 211957849445484799
+      PLANTDOOMSHROOM_1536_00_93: -119245093380697172
+      PLANTDOOMSHROOM_1536_00_94: -64901804735568398
+      PLANTDOOMSHROOM_1536_00_95: 1298092992957700528
+      PLANTDOOMSHROOM_1536_00_96: -8013565839664575997
+      PLANTDOOMSHROOM_1536_00_97: 5233082957263593039
+      PLANTDOOMSHROOM_1536_00_98: -7217952501476001828
+      PLANTDOOMSHROOM_1536_00_99: -4503828565870927579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

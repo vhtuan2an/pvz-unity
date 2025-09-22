@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 6dd046a9f86027a45af8a1cc93074f88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7202612845303952047
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_0
+  - first:
+      213: -1266272700360137925
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_1
+  - first:
+      213: -3182442008198306379
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_2
+  - first:
+      213: -4001591876888006711
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_3
+  - first:
+      213: 5470752677963148501
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_4
+  - first:
+      213: -4740855961417347000
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_5
+  - first:
+      213: 8351020828990281343
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_6
+  - first:
+      213: 2392569729200449487
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_7
+  - first:
+      213: -64316470085916846
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_8
+  - first:
+      213: 5262760810760485347
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_9
+  - first:
+      213: -2485704233975447197
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_10
+  - first:
+      213: -5712089022034501871
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_11
+  - first:
+      213: -2411429862242407339
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_12
+  - first:
+      213: 1127990739700875195
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_13
+  - first:
+      213: -687138418300110304
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_14
+  - first:
+      213: 8595280416850089550
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_15
+  - first:
+      213: 7604400040684895754
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_16
+  - first:
+      213: -694125560673296039
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_17
+  - first:
+      213: 907488618542187989
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_18
+  - first:
+      213: 5914010111001588032
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_19
+  - first:
+      213: -4899613997682408215
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_20
+  - first:
+      213: 4127493064740647207
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_21
+  - first:
+      213: 6518040609591268032
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_22
+  - first:
+      213: 8400958255124417440
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_23
+  - first:
+      213: 5498826684080624696
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_24
+  - first:
+      213: -4663907555914895571
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_25
+  - first:
+      213: 5293445388000550295
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_26
+  - first:
+      213: -4538274139168864251
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_27
+  - first:
+      213: -3304532121323165330
+    second: ATLASES_PLANTSQUASH_1536_00_PTX_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 265
+        width: 188
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d0efc37cd2b0c90800000000000000
+      internalID: -7202612845303952047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 299
+        width: 166
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33624220bb4d6ee0800000000000000
+      internalID: -1266272700360137925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 320
+        width: 130
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b52f07dad1b5d3d0800000000000000
+      internalID: -3182442008198306379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 402
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf600aa36d7778c0800000000000000
+      internalID: -4001591876888006711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 303
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dca20843940ceb40800000000000000
+      internalID: 5470752677963148501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 130
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8401d680f98153eb0800000000000000
+      internalID: -4740855961417347000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 221
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f769ad7c239c4e370800000000000000
+      internalID: 8351020828990281343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 240
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc768590e7d143120800000000000000
+      internalID: 2392569729200449487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 175
+        width: 160
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257625fd2808b1ff0800000000000000
+      internalID: -64316470085916846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 194
+        width: 143
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9b937f215190940800000000000000
+      internalID: 5262760810760485347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 179
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36185354b21018dd0800000000000000
+      internalID: -2485704233975447197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 216
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f99346c459ab0b0800000000000000
+      internalID: -5712089022034501871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 110
+        width: 98
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ca54c0151e88ed0800000000000000
+      internalID: -2411429862242407339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 109
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbffcc5f99d67af00800000000000000
+      internalID: 1127990739700875195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 146
+        width: 85
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ab2b9cf3bc676f0800000000000000
+      internalID: -687138418300110304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 148
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e469837dff1984770800000000000000
+      internalID: 8595280416850089550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 144
+        width: 138
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e3df21c81488960800000000000000
+      internalID: 7604400040684895754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 52
+        width: 84
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951ac8eea78fd56f0800000000000000
+      internalID: -694125560673296039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 52
+        width: 84
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5cae9271c089c00800000000000000
+      internalID: 907488618542187989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 96
+        width: 130
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0417158bcd8c21250800000000000000
+      internalID: 5914010111001588032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 94
+        width: 101
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4cb934703110cb0800000000000000
+      internalID: -4899613997682408215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 52
+        width: 103
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72131c0f21dc74930800000000000000
+      internalID: 4127493064740647207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 62
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2124e766bb47a50800000000000000
+      internalID: 6518040609591268032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 53
+        width: 71
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab8399d503369470800000000000000
+      internalID: 8400958255124417440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 68
+        width: 60
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83490123cb1cf4c40800000000000000
+      internalID: 5498826684080624696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 55
+        width: 73
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fae60d9c8764fb0800000000000000
+      internalID: -4663907555914895571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 87
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dd3b5d888167940800000000000000
+      internalID: 5293445388000550295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5088f7917bfc401c0800000000000000
+      internalID: -4538274139168864251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSQUASH_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 21
+        width: 103
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e692aa73b81f322d0800000000000000
+      internalID: -3304532121323165330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSQUASH_1536_00_PTX_0: -7202612845303952047
+      ATLASES_PLANTSQUASH_1536_00_PTX_1: -1266272700360137925
+      ATLASES_PLANTSQUASH_1536_00_PTX_10: -2485704233975447197
+      ATLASES_PLANTSQUASH_1536_00_PTX_11: -5712089022034501871
+      ATLASES_PLANTSQUASH_1536_00_PTX_12: -2411429862242407339
+      ATLASES_PLANTSQUASH_1536_00_PTX_13: 1127990739700875195
+      ATLASES_PLANTSQUASH_1536_00_PTX_14: -687138418300110304
+      ATLASES_PLANTSQUASH_1536_00_PTX_15: 8595280416850089550
+      ATLASES_PLANTSQUASH_1536_00_PTX_16: 7604400040684895754
+      ATLASES_PLANTSQUASH_1536_00_PTX_17: -694125560673296039
+      ATLASES_PLANTSQUASH_1536_00_PTX_18: 907488618542187989
+      ATLASES_PLANTSQUASH_1536_00_PTX_19: 5914010111001588032
+      ATLASES_PLANTSQUASH_1536_00_PTX_2: -3182442008198306379
+      ATLASES_PLANTSQUASH_1536_00_PTX_20: -4899613997682408215
+      ATLASES_PLANTSQUASH_1536_00_PTX_21: 4127493064740647207
+      ATLASES_PLANTSQUASH_1536_00_PTX_22: 6518040609591268032
+      ATLASES_PLANTSQUASH_1536_00_PTX_23: 8400958255124417440
+      ATLASES_PLANTSQUASH_1536_00_PTX_24: 5498826684080624696
+      ATLASES_PLANTSQUASH_1536_00_PTX_25: -4663907555914895571
+      ATLASES_PLANTSQUASH_1536_00_PTX_26: 5293445388000550295
+      ATLASES_PLANTSQUASH_1536_00_PTX_27: -4538274139168864251
+      ATLASES_PLANTSQUASH_1536_00_PTX_28: -3304532121323165330
+      ATLASES_PLANTSQUASH_1536_00_PTX_3: -4001591876888006711
+      ATLASES_PLANTSQUASH_1536_00_PTX_4: 5470752677963148501
+      ATLASES_PLANTSQUASH_1536_00_PTX_5: -4740855961417347000
+      ATLASES_PLANTSQUASH_1536_00_PTX_6: 8351020828990281343
+      ATLASES_PLANTSQUASH_1536_00_PTX_7: 2392569729200449487
+      ATLASES_PLANTSQUASH_1536_00_PTX_8: -64316470085916846
+      ATLASES_PLANTSQUASH_1536_00_PTX_9: 5262760810760485347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

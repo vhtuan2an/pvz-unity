@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: e7a5bd9f540dbc646bb3ba37db0b72c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -404881573660128469
+    second: PLANTJALAPENO_1536_00_0
+  - first:
+      213: 7070198592500089042
+    second: PLANTJALAPENO_1536_00_1
+  - first:
+      213: 3929299563704969696
+    second: PLANTJALAPENO_1536_00_2
+  - first:
+      213: -3030892821738567546
+    second: PLANTJALAPENO_1536_00_3
+  - first:
+      213: -6537395060581305815
+    second: PLANTJALAPENO_1536_00_4
+  - first:
+      213: -3114172903608274597
+    second: PLANTJALAPENO_1536_00_5
+  - first:
+      213: 6222962018404101058
+    second: PLANTJALAPENO_1536_00_6
+  - first:
+      213: -5266212819220402148
+    second: PLANTJALAPENO_1536_00_7
+  - first:
+      213: 6183531484515637174
+    second: PLANTJALAPENO_1536_00_8
+  - first:
+      213: 1747819480979073576
+    second: PLANTJALAPENO_1536_00_9
+  - first:
+      213: -2939128292927890478
+    second: PLANTJALAPENO_1536_00_10
+  - first:
+      213: 2095929140766105172
+    second: PLANTJALAPENO_1536_00_11
+  - first:
+      213: 8582526404738759085
+    second: PLANTJALAPENO_1536_00_12
+  - first:
+      213: -7482493674698847986
+    second: PLANTJALAPENO_1536_00_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 93
+        width: 137
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b03e99a52916af0800000000000000
+      internalID: -404881573660128469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 166
+        width: 119
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d04f6d09246e1260800000000000000
+      internalID: 7070198592500089042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 166
+        width: 119
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e96bb6822da78630800000000000000
+      internalID: 3929299563704969696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 268
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688cdf7790b10f5d0800000000000000
+      internalID: -3030892821738567546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 280
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92278a934d18645a0800000000000000
+      internalID: -6537395060581305815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 307
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5138476e3c38c4d0800000000000000
+      internalID: -3114172903608274597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 268
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb69bd2cf66c5650800000000000000
+      internalID: 6222962018404101058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 203
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1072cea757aae6b0800000000000000
+      internalID: -5266212819220402148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 203
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b79ff79f1150d550800000000000000
+      internalID: 6183531484515637174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 119
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ae34fbe80814810800000000000000
+      internalID: 1747819480979073576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 93
+        width: 133
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db9bb6c36e1637d0800000000000000
+      internalID: -2939128292927890478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 138
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ed0c5e27c361d10800000000000000
+      internalID: 2095929140766105172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 157
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da93dddfa424b1770800000000000000
+      internalID: 8582526404738759085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTJALAPENO_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 128
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09c77595a7d82890800000000000000
+      internalID: -7482493674698847986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTJALAPENO_1536_00_0: -404881573660128469
+      PLANTJALAPENO_1536_00_1: 7070198592500089042
+      PLANTJALAPENO_1536_00_10: -2939128292927890478
+      PLANTJALAPENO_1536_00_11: 2095929140766105172
+      PLANTJALAPENO_1536_00_12: 8582526404738759085
+      PLANTJALAPENO_1536_00_13: -7482493674698847986
+      PLANTJALAPENO_1536_00_2: 3929299563704969696
+      PLANTJALAPENO_1536_00_3: -3030892821738567546
+      PLANTJALAPENO_1536_00_4: -6537395060581305815
+      PLANTJALAPENO_1536_00_5: -3114172903608274597
+      PLANTJALAPENO_1536_00_6: 6222962018404101058
+      PLANTJALAPENO_1536_00_7: -5266212819220402148
+      PLANTJALAPENO_1536_00_8: 6183531484515637174
+      PLANTJALAPENO_1536_00_9: 1747819480979073576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

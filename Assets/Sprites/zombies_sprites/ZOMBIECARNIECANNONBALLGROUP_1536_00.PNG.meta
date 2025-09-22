@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 8686a7f99c9f3b1419932d55883f76e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 912449669129337836
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_0
+  - first:
+      213: 62001278653725932
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_1
+  - first:
+      213: 4162784219573787036
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_2
+  - first:
+      213: -2533969388507444902
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_3
+  - first:
+      213: -7852830825069316267
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_4
+  - first:
+      213: 8692760155509375510
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_5
+  - first:
+      213: -1413867648550522212
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_6
+  - first:
+      213: 4865599974745276572
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_7
+  - first:
+      213: -6075571519944400918
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_8
+  - first:
+      213: 6394268731608069106
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_9
+  - first:
+      213: 774741973236823270
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_10
+  - first:
+      213: -8688129464083615093
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_11
+  - first:
+      213: 1053976458341564848
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_12
+  - first:
+      213: -5755156183363512047
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_13
+  - first:
+      213: 5806341427218936834
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_14
+  - first:
+      213: 4456120489822780099
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_15
+  - first:
+      213: -2906656434491546077
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_16
+  - first:
+      213: 6162577242594598723
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_17
+  - first:
+      213: -4997207190936208348
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_18
+  - first:
+      213: -7754325416943181676
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_19
+  - first:
+      213: -1766077065503451978
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_20
+  - first:
+      213: 8570747765245092867
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_21
+  - first:
+      213: -3858599307678923795
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_22
+  - first:
+      213: -7493079565393898496
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_23
+  - first:
+      213: 8410949931054086735
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_24
+  - first:
+      213: -1659178943513357917
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_25
+  - first:
+      213: 3398700241850819618
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_26
+  - first:
+      213: -4133202765542710760
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_27
+  - first:
+      213: 5966198700706155632
+    second: ZOMBIECARNIECANNONBALLGROUP_1536_00_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 303
+        width: 320
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb70e3c32ca9ac00800000000000000
+      internalID: 912449669129337836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 315
+        width: 291
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec76cd95d54cd000800000000000000
+      internalID: 62001278653725932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 574
+        width: 261
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c991c4c313e25c930800000000000000
+      internalID: 4162784219573787036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 676
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59cc46444885dcd0800000000000000
+      internalID: -2533969388507444902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 683
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557718e78f3250390800000000000000
+      internalID: -7852830825069316267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 645
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6124ec22e43e2a870800000000000000
+      internalID: 8692760155509375510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 665
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92bab85ddee06ce0800000000000000
+      internalID: -1413867648550522212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 655
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9087d1e565168340800000000000000
+      internalID: 4865599974745276572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 628
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefdb3274eb3faba0800000000000000
+      internalID: -6075571519944400918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 629
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3f2e978810db850800000000000000
+      internalID: 6394268731608069106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 626
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4bd5b48bf60ca00800000000000000
+      internalID: 774741973236823270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 631
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82f0bab8409d6780800000000000000
+      internalID: -8688129464083615093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 597
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1c211310a70ae00800000000000000
+      internalID: 1053976458341564848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 597
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11999bf71f39120b0800000000000000
+      internalID: -5755156183363512047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 568
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204f406c3c4449050800000000000000
+      internalID: 5806341427218936834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 344
+        width: 220
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caf938d9f157dd30800000000000000
+      internalID: 4456120489822780099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 404
+        width: 114
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326270a7f5b79a7d0800000000000000
+      internalID: -2906656434491546077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 333
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fd1c5f95fd58550800000000000000
+      internalID: 6162577242594598723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 111
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c3833498a56aab0800000000000000
+      internalID: -4997207190936208348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 199
+        width: 140
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490a1521e1a136490800000000000000
+      internalID: -7754325416943181676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 226
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4d3b81442ad77e0800000000000000
+      internalID: -1766077065503451978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 9
+        width: 353
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30428e6cea961f670800000000000000
+      internalID: 8570747765245092867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 165
+        width: 299
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3ca379f50837ac0800000000000000
+      internalID: -3858599307678923795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 113
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00455f6d5db330890800000000000000
+      internalID: -7493079565393898496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 97
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a33103662b9b470800000000000000
+      internalID: 8410949931054086735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 97
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a11415aa8969f8e0800000000000000
+      internalID: -1659178943513357917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 83
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2246d85ecdb9a2f20800000000000000
+      internalID: 3398700241850819618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 113
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8122a2fbbf9e3a6c0800000000000000
+      internalID: -4133202765542710760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIECARNIECANNONBALLGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 128
+        width: 101
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cccf6ab123cc250800000000000000
+      internalID: 5966198700706155632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_0: 912449669129337836
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_1: 62001278653725932
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_10: 774741973236823270
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_11: -8688129464083615093
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_12: 1053976458341564848
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_13: -5755156183363512047
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_14: 5806341427218936834
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_15: 4456120489822780099
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_16: -2906656434491546077
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_17: 6162577242594598723
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_18: -4997207190936208348
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_19: -7754325416943181676
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_2: 4162784219573787036
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_20: -1766077065503451978
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_21: 8570747765245092867
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_22: -3858599307678923795
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_23: -7493079565393898496
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_24: 8410949931054086735
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_25: -1659178943513357917
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_26: 3398700241850819618
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_27: -4133202765542710760
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_28: 5966198700706155632
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_3: -2533969388507444902
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_4: -7852830825069316267
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_5: 8692760155509375510
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_6: -1413867648550522212
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_7: 4865599974745276572
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_8: -6075571519944400918
+      ZOMBIECARNIECANNONBALLGROUP_1536_00_9: 6394268731608069106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

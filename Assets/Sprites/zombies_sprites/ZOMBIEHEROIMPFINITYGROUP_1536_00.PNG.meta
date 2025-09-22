@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: f98ac4a8c4712b741bbf263aace64123
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3100541232609559892
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_0
+  - first:
+      213: -8828114899160246013
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_1
+  - first:
+      213: 5628569058087972880
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_2
+  - first:
+      213: -4259367907807031914
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_3
+  - first:
+      213: 1703396364289207867
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_4
+  - first:
+      213: 1045809531181853399
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_5
+  - first:
+      213: 3512762732548029201
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_6
+  - first:
+      213: -1491088863476655732
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_7
+  - first:
+      213: 5646947635043801510
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_8
+  - first:
+      213: -866281511651930827
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_9
+  - first:
+      213: -3632715975624378166
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_10
+  - first:
+      213: -7077829678763228441
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_11
+  - first:
+      213: -2191598793240478938
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_12
+  - first:
+      213: -2095073827518746310
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_13
+  - first:
+      213: 3580867535857661041
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_14
+  - first:
+      213: -6089885752130969275
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_15
+  - first:
+      213: 230372095523516251
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_16
+  - first:
+      213: 3349023229300707261
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_17
+  - first:
+      213: 4643726645170450998
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_18
+  - first:
+      213: 2546437662499176815
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_19
+  - first:
+      213: -5939871844365219742
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_20
+  - first:
+      213: 2238091774001935384
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_21
+  - first:
+      213: -444997705918465544
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_22
+  - first:
+      213: -3115754774403524870
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_23
+  - first:
+      213: 3751813510541617093
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_24
+  - first:
+      213: -8411923292908882815
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_25
+  - first:
+      213: -271464660335795468
+    second: ZOMBIEHEROIMPFINITYGROUP_1536_00_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 189
+        width: 140
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caafad22d2aa8f4d0800000000000000
+      internalID: -3100541232609559892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 211
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3095837c54c3c7580800000000000000
+      internalID: -8828114899160246013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 271
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010b615acb1bc1e40800000000000000
+      internalID: 5628569058087972880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 255
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d8677747fa3e4c0800000000000000
+      internalID: -4259367907807031914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 256
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e6625e7fda3a710800000000000000
+      internalID: 1703396364289207867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 244
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7daefc84a36738e00800000000000000
+      internalID: 1045809531181853399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b71c50817dfb030800000000000000
+      internalID: 3512762732548029201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89deeb24969e4be0800000000000000
+      internalID: -1491088863476655732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9940c84fcfd5e40800000000000000
+      internalID: 5646947635043801510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 129
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d8f7e0e895af3f0800000000000000
+      internalID: -866281511651930827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 68
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8b50f2110069dc0800000000000000
+      internalID: -3632715975624378166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2c998386f76cd90800000000000000
+      internalID: -7077829678763228441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 63
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bf9b65280e591e0800000000000000
+      internalID: -2191598793240478938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 58
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31f68c347dcce2e0800000000000000
+      internalID: -2095073827518746310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 87
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17436863d0cc1b130800000000000000
+      internalID: 3580867535857661041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541658d8c216c7ba0800000000000000
+      internalID: -6089885752130969275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 27
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f67d74332723300800000000000000
+      internalID: 230372095523516251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 20
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf000712ee1a7e20800000000000000
+      internalID: 3349023229300707261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632b66fb7c4d17040800000000000000
+      internalID: 4643726645170450998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 52
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6180fbff83c65320800000000000000
+      internalID: 2546437662499176815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 48
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26844414706519da0800000000000000
+      internalID: -5939871844365219742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 49
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814fb1c4c9c4f0f10800000000000000
+      internalID: 2238091774001935384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 19
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9bdd4b1fc03d9f0800000000000000
+      internalID: -444997705918465544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 19
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af653786a8d92c4d0800000000000000
+      internalID: -3115754774403524870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 28
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c72857828e111430800000000000000
+      internalID: 3751813510541617093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 212
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184f4585558d24b80800000000000000
+      internalID: -8411923292908882815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEHEROIMPFINITYGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 7
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2ec9764509b3cf0800000000000000
+      internalID: -271464660335795468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_0: -3100541232609559892
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_1: -8828114899160246013
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_10: -3632715975624378166
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_11: -7077829678763228441
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_12: -2191598793240478938
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_13: -2095073827518746310
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_14: 3580867535857661041
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_15: -6089885752130969275
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_16: 230372095523516251
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_17: 3349023229300707261
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_18: 4643726645170450998
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_19: 2546437662499176815
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_2: 5628569058087972880
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_20: -5939871844365219742
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_21: 2238091774001935384
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_22: -444997705918465544
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_23: -3115754774403524870
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_24: 3751813510541617093
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_25: -8411923292908882815
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_26: -271464660335795468
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_3: -4259367907807031914
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_4: 1703396364289207867
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_5: 1045809531181853399
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_6: 3512762732548029201
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_7: -1491088863476655732
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_8: 5646947635043801510
+      ZOMBIEHEROIMPFINITYGROUP_1536_00_9: -866281511651930827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

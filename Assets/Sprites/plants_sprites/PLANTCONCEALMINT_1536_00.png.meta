@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: c9fa84a7501c9d24a8dd22dabbbb5e9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2145945259604160836
+    second: PLANTCONCEALMINT_1536_00_0
+  - first:
+      213: -3062005945297693307
+    second: PLANTCONCEALMINT_1536_00_1
+  - first:
+      213: 3915424595715471600
+    second: PLANTCONCEALMINT_1536_00_2
+  - first:
+      213: -4269624356700908234
+    second: PLANTCONCEALMINT_1536_00_3
+  - first:
+      213: -8019619013732006657
+    second: PLANTCONCEALMINT_1536_00_4
+  - first:
+      213: 6478705454227265577
+    second: PLANTCONCEALMINT_1536_00_5
+  - first:
+      213: 9004029719217589537
+    second: PLANTCONCEALMINT_1536_00_6
+  - first:
+      213: 3883762589094718089
+    second: PLANTCONCEALMINT_1536_00_7
+  - first:
+      213: 1861168290379779382
+    second: PLANTCONCEALMINT_1536_00_8
+  - first:
+      213: 4356261462174648880
+    second: PLANTCONCEALMINT_1536_00_9
+  - first:
+      213: 6810874417665465621
+    second: PLANTCONCEALMINT_1536_00_10
+  - first:
+      213: 3334005385713609571
+    second: PLANTCONCEALMINT_1536_00_11
+  - first:
+      213: -7321673606872221321
+    second: PLANTCONCEALMINT_1536_00_12
+  - first:
+      213: -6718433924888898788
+    second: PLANTCONCEALMINT_1536_00_13
+  - first:
+      213: 532227429421465186
+    second: PLANTCONCEALMINT_1536_00_14
+  - first:
+      213: 6588381607729282317
+    second: PLANTCONCEALMINT_1536_00_15
+  - first:
+      213: -7483534969828403340
+    second: PLANTCONCEALMINT_1536_00_16
+  - first:
+      213: -4558555472111016031
+    second: PLANTCONCEALMINT_1536_00_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 214
+        width: 214
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe4cd5f7221832e0800000000000000
+      internalID: -2145945259604160836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 239
+        width: 211
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5859562e0d19185d0800000000000000
+      internalID: -3062005945297693307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 266
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8b27ccce1665630800000000000000
+      internalID: 3915424595715471600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 279
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6359c7ed44f3fb4c0800000000000000
+      internalID: -4269624356700908234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 242
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4098c2ff694b090800000000000000
+      internalID: -8019619013732006657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 229
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9281a93f84cf8e950800000000000000
+      internalID: 6478705454227265577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 113
+        width: 112
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d4601035db4fc70800000000000000
+      internalID: 9004029719217589537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 117
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a21fa6f75e5e530800000000000000
+      internalID: 3883762589094718089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 213
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dce4ff2b234d910800000000000000
+      internalID: 1861168290379779382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 93
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ac4a928bc847c30800000000000000
+      internalID: 4356261462174648880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 116
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ddeb28236158e50800000000000000
+      internalID: 6810874417665465621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36be2b6eb34c44e20800000000000000
+      internalID: 3334005385713609571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 57
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779370d75a0346a90800000000000000
+      internalID: -7321673606872221321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 38
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13501ce0f353c2a0800000000000000
+      internalID: -6718433924888898788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 101
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eb266f60ad26700800000000000000
+      internalID: 532227429421465186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 43
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dbb6d5a22ae6b50800000000000000
+      internalID: 6588381607729282317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 88
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4771a2b2894252890800000000000000
+      internalID: -7483534969828403340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTCONCEALMINT_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2
+        width: 81
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7e8eb43f1ccb0c0800000000000000
+      internalID: -4558555472111016031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTCONCEALMINT_1536_00_0: -2145945259604160836
+      PLANTCONCEALMINT_1536_00_1: -3062005945297693307
+      PLANTCONCEALMINT_1536_00_10: 6810874417665465621
+      PLANTCONCEALMINT_1536_00_11: 3334005385713609571
+      PLANTCONCEALMINT_1536_00_12: -7321673606872221321
+      PLANTCONCEALMINT_1536_00_13: -6718433924888898788
+      PLANTCONCEALMINT_1536_00_14: 532227429421465186
+      PLANTCONCEALMINT_1536_00_15: 6588381607729282317
+      PLANTCONCEALMINT_1536_00_16: -7483534969828403340
+      PLANTCONCEALMINT_1536_00_17: -4558555472111016031
+      PLANTCONCEALMINT_1536_00_2: 3915424595715471600
+      PLANTCONCEALMINT_1536_00_3: -4269624356700908234
+      PLANTCONCEALMINT_1536_00_4: -8019619013732006657
+      PLANTCONCEALMINT_1536_00_5: 6478705454227265577
+      PLANTCONCEALMINT_1536_00_6: 9004029719217589537
+      PLANTCONCEALMINT_1536_00_7: 3883762589094718089
+      PLANTCONCEALMINT_1536_00_8: 1861168290379779382
+      PLANTCONCEALMINT_1536_00_9: 4356261462174648880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,6253 @@
+fileFormatVersion: 2
+guid: ecf936a444fc6ff409f8724bfb11a17d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5700116123003254374
+    second: PLANTTIGERGRASS_1536_00_0
+  - first:
+      213: -1013649121519840606
+    second: PLANTTIGERGRASS_1536_00_1
+  - first:
+      213: -4804978593631492449
+    second: PLANTTIGERGRASS_1536_00_2
+  - first:
+      213: 1197958259425821935
+    second: PLANTTIGERGRASS_1536_00_3
+  - first:
+      213: 716043500108615050
+    second: PLANTTIGERGRASS_1536_00_4
+  - first:
+      213: -3548892096910802897
+    second: PLANTTIGERGRASS_1536_00_5
+  - first:
+      213: -2314014269146369
+    second: PLANTTIGERGRASS_1536_00_6
+  - first:
+      213: -3300602791090087465
+    second: PLANTTIGERGRASS_1536_00_7
+  - first:
+      213: 2428848070621084610
+    second: PLANTTIGERGRASS_1536_00_8
+  - first:
+      213: 7729139630760230499
+    second: PLANTTIGERGRASS_1536_00_9
+  - first:
+      213: -9008881138986057045
+    second: PLANTTIGERGRASS_1536_00_10
+  - first:
+      213: -2601840946770054796
+    second: PLANTTIGERGRASS_1536_00_11
+  - first:
+      213: -5826058167207164341
+    second: PLANTTIGERGRASS_1536_00_12
+  - first:
+      213: 3437638609047413086
+    second: PLANTTIGERGRASS_1536_00_13
+  - first:
+      213: -3705167855687183961
+    second: PLANTTIGERGRASS_1536_00_14
+  - first:
+      213: -6013620547839115378
+    second: PLANTTIGERGRASS_1536_00_15
+  - first:
+      213: -754184718159669856
+    second: PLANTTIGERGRASS_1536_00_16
+  - first:
+      213: 41871045194820586
+    second: PLANTTIGERGRASS_1536_00_17
+  - first:
+      213: 2476469503764855772
+    second: PLANTTIGERGRASS_1536_00_18
+  - first:
+      213: -7811025290616591500
+    second: PLANTTIGERGRASS_1536_00_19
+  - first:
+      213: -6611031153283717510
+    second: PLANTTIGERGRASS_1536_00_20
+  - first:
+      213: 194110607657272631
+    second: PLANTTIGERGRASS_1536_00_21
+  - first:
+      213: 1164014993475857920
+    second: PLANTTIGERGRASS_1536_00_22
+  - first:
+      213: 1537201063272402260
+    second: PLANTTIGERGRASS_1536_00_23
+  - first:
+      213: 9019304363831486722
+    second: PLANTTIGERGRASS_1536_00_24
+  - first:
+      213: -8435355464044661246
+    second: PLANTTIGERGRASS_1536_00_25
+  - first:
+      213: -6217600177831783528
+    second: PLANTTIGERGRASS_1536_00_26
+  - first:
+      213: 6395225870702418921
+    second: PLANTTIGERGRASS_1536_00_27
+  - first:
+      213: -7886199819182813166
+    second: PLANTTIGERGRASS_1536_00_28
+  - first:
+      213: -5471050205524817280
+    second: PLANTTIGERGRASS_1536_00_29
+  - first:
+      213: -435722225378890089
+    second: PLANTTIGERGRASS_1536_00_30
+  - first:
+      213: 3796988745247568217
+    second: PLANTTIGERGRASS_1536_00_31
+  - first:
+      213: -8644946750061976143
+    second: PLANTTIGERGRASS_1536_00_32
+  - first:
+      213: -286914046983492640
+    second: PLANTTIGERGRASS_1536_00_33
+  - first:
+      213: 3226736896319936919
+    second: PLANTTIGERGRASS_1536_00_34
+  - first:
+      213: -1376457090264583254
+    second: PLANTTIGERGRASS_1536_00_35
+  - first:
+      213: 6756060150969517664
+    second: PLANTTIGERGRASS_1536_00_36
+  - first:
+      213: 4446260211986336887
+    second: PLANTTIGERGRASS_1536_00_37
+  - first:
+      213: 2933579732356566413
+    second: PLANTTIGERGRASS_1536_00_38
+  - first:
+      213: 5375506516300570503
+    second: PLANTTIGERGRASS_1536_00_39
+  - first:
+      213: 1592733445630798964
+    second: PLANTTIGERGRASS_1536_00_40
+  - first:
+      213: 1860265144194781944
+    second: PLANTTIGERGRASS_1536_00_41
+  - first:
+      213: -4076011593131260893
+    second: PLANTTIGERGRASS_1536_00_42
+  - first:
+      213: -1954406413078336579
+    second: PLANTTIGERGRASS_1536_00_43
+  - first:
+      213: 5168888701779610006
+    second: PLANTTIGERGRASS_1536_00_44
+  - first:
+      213: -8986306783824365266
+    second: PLANTTIGERGRASS_1536_00_45
+  - first:
+      213: 7298390130806833800
+    second: PLANTTIGERGRASS_1536_00_46
+  - first:
+      213: 7855561760583325132
+    second: PLANTTIGERGRASS_1536_00_47
+  - first:
+      213: 8779657479309326091
+    second: PLANTTIGERGRASS_1536_00_48
+  - first:
+      213: -4193458662693455433
+    second: PLANTTIGERGRASS_1536_00_49
+  - first:
+      213: 4684845703380361978
+    second: PLANTTIGERGRASS_1536_00_50
+  - first:
+      213: 2421475433744511904
+    second: PLANTTIGERGRASS_1536_00_51
+  - first:
+      213: 2119419164972225661
+    second: PLANTTIGERGRASS_1536_00_52
+  - first:
+      213: 2359671873756288365
+    second: PLANTTIGERGRASS_1536_00_53
+  - first:
+      213: -4541669151608760819
+    second: PLANTTIGERGRASS_1536_00_54
+  - first:
+      213: -722124400978566327
+    second: PLANTTIGERGRASS_1536_00_55
+  - first:
+      213: -7729715480306752390
+    second: PLANTTIGERGRASS_1536_00_56
+  - first:
+      213: 8723189850744694185
+    second: PLANTTIGERGRASS_1536_00_57
+  - first:
+      213: 5282104865004729462
+    second: PLANTTIGERGRASS_1536_00_58
+  - first:
+      213: 8050774087127783140
+    second: PLANTTIGERGRASS_1536_00_59
+  - first:
+      213: -8091114758564685710
+    second: PLANTTIGERGRASS_1536_00_60
+  - first:
+      213: -2187236040311072966
+    second: PLANTTIGERGRASS_1536_00_61
+  - first:
+      213: 3850100798908298379
+    second: PLANTTIGERGRASS_1536_00_62
+  - first:
+      213: 5398406569271380232
+    second: PLANTTIGERGRASS_1536_00_63
+  - first:
+      213: -7111526241801054183
+    second: PLANTTIGERGRASS_1536_00_64
+  - first:
+      213: -5705598806868198155
+    second: PLANTTIGERGRASS_1536_00_65
+  - first:
+      213: 6194441094667336013
+    second: PLANTTIGERGRASS_1536_00_66
+  - first:
+      213: 670838877027561078
+    second: PLANTTIGERGRASS_1536_00_67
+  - first:
+      213: 3417930385497487411
+    second: PLANTTIGERGRASS_1536_00_68
+  - first:
+      213: 8619608722642283102
+    second: PLANTTIGERGRASS_1536_00_69
+  - first:
+      213: 7724802868553365636
+    second: PLANTTIGERGRASS_1536_00_70
+  - first:
+      213: -1842594083886359605
+    second: PLANTTIGERGRASS_1536_00_71
+  - first:
+      213: -6985892413632453262
+    second: PLANTTIGERGRASS_1536_00_72
+  - first:
+      213: -2736997096631118715
+    second: PLANTTIGERGRASS_1536_00_73
+  - first:
+      213: -8677546949723655806
+    second: PLANTTIGERGRASS_1536_00_74
+  - first:
+      213: 3411080182947876876
+    second: PLANTTIGERGRASS_1536_00_75
+  - first:
+      213: 1672400489408128362
+    second: PLANTTIGERGRASS_1536_00_76
+  - first:
+      213: -9220903181403994097
+    second: PLANTTIGERGRASS_1536_00_77
+  - first:
+      213: 4965002649208947683
+    second: PLANTTIGERGRASS_1536_00_78
+  - first:
+      213: -8062768968216959296
+    second: PLANTTIGERGRASS_1536_00_79
+  - first:
+      213: -1800403770308486111
+    second: PLANTTIGERGRASS_1536_00_80
+  - first:
+      213: -6882041806584877897
+    second: PLANTTIGERGRASS_1536_00_81
+  - first:
+      213: 4289024732016797677
+    second: PLANTTIGERGRASS_1536_00_82
+  - first:
+      213: 5932439133465288836
+    second: PLANTTIGERGRASS_1536_00_83
+  - first:
+      213: -7584321837729394161
+    second: PLANTTIGERGRASS_1536_00_84
+  - first:
+      213: -7497783274865274896
+    second: PLANTTIGERGRASS_1536_00_85
+  - first:
+      213: -5817635926868662359
+    second: PLANTTIGERGRASS_1536_00_86
+  - first:
+      213: 7858290712546394343
+    second: PLANTTIGERGRASS_1536_00_87
+  - first:
+      213: -725910786830801385
+    second: PLANTTIGERGRASS_1536_00_88
+  - first:
+      213: 627670412777696520
+    second: PLANTTIGERGRASS_1536_00_89
+  - first:
+      213: 5086021866468681936
+    second: PLANTTIGERGRASS_1536_00_90
+  - first:
+      213: 6174184632452094624
+    second: PLANTTIGERGRASS_1536_00_91
+  - first:
+      213: 5783028422524080010
+    second: PLANTTIGERGRASS_1536_00_92
+  - first:
+      213: -4690408111639014180
+    second: PLANTTIGERGRASS_1536_00_93
+  - first:
+      213: -2387026551590761683
+    second: PLANTTIGERGRASS_1536_00_94
+  - first:
+      213: -3662146330062324738
+    second: PLANTTIGERGRASS_1536_00_95
+  - first:
+      213: 8813326415938211112
+    second: PLANTTIGERGRASS_1536_00_96
+  - first:
+      213: -7188793804589398553
+    second: PLANTTIGERGRASS_1536_00_97
+  - first:
+      213: -3706131780195464634
+    second: PLANTTIGERGRASS_1536_00_98
+  - first:
+      213: -8371805035382056117
+    second: PLANTTIGERGRASS_1536_00_99
+  - first:
+      213: -7846100615614353995
+    second: PLANTTIGERGRASS_1536_00_100
+  - first:
+      213: -8589070551910839700
+    second: PLANTTIGERGRASS_1536_00_101
+  - first:
+      213: -74071155974105933
+    second: PLANTTIGERGRASS_1536_00_102
+  - first:
+      213: 4776571924466554632
+    second: PLANTTIGERGRASS_1536_00_103
+  - first:
+      213: 6682038113926652962
+    second: PLANTTIGERGRASS_1536_00_104
+  - first:
+      213: 8780841590003309551
+    second: PLANTTIGERGRASS_1536_00_105
+  - first:
+      213: 4483967622884080879
+    second: PLANTTIGERGRASS_1536_00_106
+  - first:
+      213: 4051590401855727427
+    second: PLANTTIGERGRASS_1536_00_107
+  - first:
+      213: 7951523729169373012
+    second: PLANTTIGERGRASS_1536_00_108
+  - first:
+      213: 5299102233610099207
+    second: PLANTTIGERGRASS_1536_00_109
+  - first:
+      213: -2672340714655535058
+    second: PLANTTIGERGRASS_1536_00_110
+  - first:
+      213: -5932911666131402567
+    second: PLANTTIGERGRASS_1536_00_111
+  - first:
+      213: -9054907978004581108
+    second: PLANTTIGERGRASS_1536_00_112
+  - first:
+      213: 8442535861590383149
+    second: PLANTTIGERGRASS_1536_00_113
+  - first:
+      213: -7270657842246430231
+    second: PLANTTIGERGRASS_1536_00_114
+  - first:
+      213: 7570052068551788722
+    second: PLANTTIGERGRASS_1536_00_115
+  - first:
+      213: 208438438547868016
+    second: PLANTTIGERGRASS_1536_00_116
+  - first:
+      213: 3223766704981469136
+    second: PLANTTIGERGRASS_1536_00_117
+  - first:
+      213: 5009589857425615981
+    second: PLANTTIGERGRASS_1536_00_118
+  - first:
+      213: -4631723049491963810
+    second: PLANTTIGERGRASS_1536_00_119
+  - first:
+      213: -7048068789812331848
+    second: PLANTTIGERGRASS_1536_00_120
+  - first:
+      213: 6589998006558881859
+    second: PLANTTIGERGRASS_1536_00_121
+  - first:
+      213: -3372072796182793428
+    second: PLANTTIGERGRASS_1536_00_122
+  - first:
+      213: -5431876747736937588
+    second: PLANTTIGERGRASS_1536_00_123
+  - first:
+      213: -4207722655036814084
+    second: PLANTTIGERGRASS_1536_00_124
+  - first:
+      213: -419563217334995297
+    second: PLANTTIGERGRASS_1536_00_125
+  - first:
+      213: -3631567322163442433
+    second: PLANTTIGERGRASS_1536_00_126
+  - first:
+      213: -7198325700110929341
+    second: PLANTTIGERGRASS_1536_00_127
+  - first:
+      213: 5479872639731658164
+    second: PLANTTIGERGRASS_1536_00_128
+  - first:
+      213: -9099839792245532109
+    second: PLANTTIGERGRASS_1536_00_129
+  - first:
+      213: 6639378064717825082
+    second: PLANTTIGERGRASS_1536_00_130
+  - first:
+      213: -5758348992299543656
+    second: PLANTTIGERGRASS_1536_00_131
+  - first:
+      213: 7202551727795388434
+    second: PLANTTIGERGRASS_1536_00_132
+  - first:
+      213: 7266277389611704216
+    second: PLANTTIGERGRASS_1536_00_133
+  - first:
+      213: 8192139319028446819
+    second: PLANTTIGERGRASS_1536_00_134
+  - first:
+      213: 2273659001992538835
+    second: PLANTTIGERGRASS_1536_00_135
+  - first:
+      213: -1381859261180259879
+    second: PLANTTIGERGRASS_1536_00_136
+  - first:
+      213: 3684908192430855577
+    second: PLANTTIGERGRASS_1536_00_137
+  - first:
+      213: -2745120737398591687
+    second: PLANTTIGERGRASS_1536_00_138
+  - first:
+      213: -8507630018085777807
+    second: PLANTTIGERGRASS_1536_00_139
+  - first:
+      213: 1062268542807163401
+    second: PLANTTIGERGRASS_1536_00_140
+  - first:
+      213: -2050567691574197057
+    second: PLANTTIGERGRASS_1536_00_141
+  - first:
+      213: 5326079981125589779
+    second: PLANTTIGERGRASS_1536_00_142
+  - first:
+      213: 1146788183848548067
+    second: PLANTTIGERGRASS_1536_00_143
+  - first:
+      213: 4900422026060214311
+    second: PLANTTIGERGRASS_1536_00_144
+  - first:
+      213: 5232920338060713335
+    second: PLANTTIGERGRASS_1536_00_145
+  - first:
+      213: -5808307876107837307
+    second: PLANTTIGERGRASS_1536_00_146
+  - first:
+      213: -7700086109628804715
+    second: PLANTTIGERGRASS_1536_00_147
+  - first:
+      213: -3953133857225625238
+    second: PLANTTIGERGRASS_1536_00_148
+  - first:
+      213: 4484560511155776124
+    second: PLANTTIGERGRASS_1536_00_149
+  - first:
+      213: 3058454456297964866
+    second: PLANTTIGERGRASS_1536_00_150
+  - first:
+      213: 1142267939122560404
+    second: PLANTTIGERGRASS_1536_00_151
+  - first:
+      213: -3580452382608515033
+    second: PLANTTIGERGRASS_1536_00_152
+  - first:
+      213: 2386555445538148430
+    second: PLANTTIGERGRASS_1536_00_153
+  - first:
+      213: -6856998542027213703
+    second: PLANTTIGERGRASS_1536_00_154
+  - first:
+      213: -2755022608049281124
+    second: PLANTTIGERGRASS_1536_00_155
+  - first:
+      213: 1105836759665698406
+    second: PLANTTIGERGRASS_1536_00_156
+  - first:
+      213: 8544242040978544886
+    second: PLANTTIGERGRASS_1536_00_157
+  - first:
+      213: 7467039257124736065
+    second: PLANTTIGERGRASS_1536_00_158
+  - first:
+      213: -322938302326824853
+    second: PLANTTIGERGRASS_1536_00_159
+  - first:
+      213: -933188933707311277
+    second: PLANTTIGERGRASS_1536_00_160
+  - first:
+      213: 5265922937431343140
+    second: PLANTTIGERGRASS_1536_00_161
+  - first:
+      213: 1277791478518819693
+    second: PLANTTIGERGRASS_1536_00_162
+  - first:
+      213: -3876161426299387925
+    second: PLANTTIGERGRASS_1536_00_163
+  - first:
+      213: -356225519179965778
+    second: PLANTTIGERGRASS_1536_00_164
+  - first:
+      213: 6756016167565791669
+    second: PLANTTIGERGRASS_1536_00_165
+  - first:
+      213: -5727490451815523323
+    second: PLANTTIGERGRASS_1536_00_166
+  - first:
+      213: -3697385907050691925
+    second: PLANTTIGERGRASS_1536_00_167
+  - first:
+      213: -7797922413648755709
+    second: PLANTTIGERGRASS_1536_00_168
+  - first:
+      213: 7867691263643365295
+    second: PLANTTIGERGRASS_1536_00_169
+  - first:
+      213: -8295960265356293707
+    second: PLANTTIGERGRASS_1536_00_170
+  - first:
+      213: 5504433632865940071
+    second: PLANTTIGERGRASS_1536_00_171
+  - first:
+      213: 6538126418546873441
+    second: PLANTTIGERGRASS_1536_00_172
+  - first:
+      213: 8647610637612601718
+    second: PLANTTIGERGRASS_1536_00_173
+  - first:
+      213: -7453689869311312649
+    second: PLANTTIGERGRASS_1536_00_174
+  - first:
+      213: 5695553433755603047
+    second: PLANTTIGERGRASS_1536_00_175
+  - first:
+      213: 4091959152161544708
+    second: PLANTTIGERGRASS_1536_00_176
+  - first:
+      213: 7866226222773247617
+    second: PLANTTIGERGRASS_1536_00_177
+  - first:
+      213: 7787671966174378049
+    second: PLANTTIGERGRASS_1536_00_178
+  - first:
+      213: -3148908517315292648
+    second: PLANTTIGERGRASS_1536_00_179
+  - first:
+      213: 3648888145595054557
+    second: PLANTTIGERGRASS_1536_00_180
+  - first:
+      213: 8172824346112835522
+    second: PLANTTIGERGRASS_1536_00_181
+  - first:
+      213: 8187529183140050714
+    second: PLANTTIGERGRASS_1536_00_182
+  - first:
+      213: -2677582679832441736
+    second: PLANTTIGERGRASS_1536_00_183
+  - first:
+      213: -5053174924532408155
+    second: PLANTTIGERGRASS_1536_00_184
+  - first:
+      213: 4816599985229380080
+    second: PLANTTIGERGRASS_1536_00_185
+  - first:
+      213: 245784607313950377
+    second: PLANTTIGERGRASS_1536_00_186
+  - first:
+      213: 1413816446551622449
+    second: PLANTTIGERGRASS_1536_00_187
+  - first:
+      213: -1587155759810812369
+    second: PLANTTIGERGRASS_1536_00_188
+  - first:
+      213: 7351461727463357443
+    second: PLANTTIGERGRASS_1536_00_189
+  - first:
+      213: 9174791363643849833
+    second: PLANTTIGERGRASS_1536_00_190
+  - first:
+      213: -6725061210390122207
+    second: PLANTTIGERGRASS_1536_00_191
+  - first:
+      213: -3479269908342282103
+    second: PLANTTIGERGRASS_1536_00_192
+  - first:
+      213: -7799180973024547379
+    second: PLANTTIGERGRASS_1536_00_193
+  - first:
+      213: 2260587765534532521
+    second: PLANTTIGERGRASS_1536_00_194
+  - first:
+      213: -9100087495694309407
+    second: PLANTTIGERGRASS_1536_00_195
+  - first:
+      213: 5879841736164195072
+    second: PLANTTIGERGRASS_1536_00_196
+  - first:
+      213: 7005834110909031589
+    second: PLANTTIGERGRASS_1536_00_197
+  - first:
+      213: -2052399863907363347
+    second: PLANTTIGERGRASS_1536_00_198
+  - first:
+      213: 8702864711473893975
+    second: PLANTTIGERGRASS_1536_00_199
+  - first:
+      213: 5855977668246395925
+    second: PLANTTIGERGRASS_1536_00_200
+  - first:
+      213: -1533723480946140329
+    second: PLANTTIGERGRASS_1536_00_201
+  - first:
+      213: 9108861006294365653
+    second: PLANTTIGERGRASS_1536_00_202
+  - first:
+      213: -3429664087065196998
+    second: PLANTTIGERGRASS_1536_00_203
+  - first:
+      213: -7760467314746538181
+    second: PLANTTIGERGRASS_1536_00_204
+  - first:
+      213: -2194836728486307208
+    second: PLANTTIGERGRASS_1536_00_205
+  - first:
+      213: 1249544927928645895
+    second: PLANTTIGERGRASS_1536_00_206
+  - first:
+      213: -4109803692751843672
+    second: PLANTTIGERGRASS_1536_00_207
+  - first:
+      213: -5816752760394007758
+    second: PLANTTIGERGRASS_1536_00_208
+  - first:
+      213: 1543402558443755955
+    second: PLANTTIGERGRASS_1536_00_209
+  - first:
+      213: 3636758654755763253
+    second: PLANTTIGERGRASS_1536_00_210
+  - first:
+      213: -1467730504366646639
+    second: PLANTTIGERGRASS_1536_00_211
+  - first:
+      213: -4787620552811973694
+    second: PLANTTIGERGRASS_1536_00_212
+  - first:
+      213: -886940398128010104
+    second: PLANTTIGERGRASS_1536_00_213
+  - first:
+      213: -990576025885677666
+    second: PLANTTIGERGRASS_1536_00_214
+  - first:
+      213: -3593112833472443500
+    second: PLANTTIGERGRASS_1536_00_215
+  - first:
+      213: -7321106989875751850
+    second: PLANTTIGERGRASS_1536_00_216
+  - first:
+      213: -9198036372410655478
+    second: PLANTTIGERGRASS_1536_00_217
+  - first:
+      213: -6308121093318104416
+    second: PLANTTIGERGRASS_1536_00_218
+  - first:
+      213: 4707315262438396458
+    second: PLANTTIGERGRASS_1536_00_219
+  - first:
+      213: 6584121214298781354
+    second: PLANTTIGERGRASS_1536_00_220
+  - first:
+      213: -8802361299600212058
+    second: PLANTTIGERGRASS_1536_00_221
+  - first:
+      213: -8905108083393028534
+    second: PLANTTIGERGRASS_1536_00_222
+  - first:
+      213: -603282598715728966
+    second: PLANTTIGERGRASS_1536_00_223
+  - first:
+      213: 6507943293504560416
+    second: PLANTTIGERGRASS_1536_00_224
+  - first:
+      213: 8026855210565487296
+    second: PLANTTIGERGRASS_1536_00_225
+  - first:
+      213: 1021346859152583679
+    second: PLANTTIGERGRASS_1536_00_226
+  - first:
+      213: 2431627440028180858
+    second: PLANTTIGERGRASS_1536_00_227
+  - first:
+      213: 2816176830648593070
+    second: PLANTTIGERGRASS_1536_00_228
+  - first:
+      213: -6856387636582894318
+    second: PLANTTIGERGRASS_1536_00_229
+  - first:
+      213: 2944224346874012622
+    second: PLANTTIGERGRASS_1536_00_230
+  - first:
+      213: -5968224788228279976
+    second: PLANTTIGERGRASS_1536_00_231
+  - first:
+      213: 5158020608014361745
+    second: PLANTTIGERGRASS_1536_00_232
+  - first:
+      213: 1737695139015916628
+    second: PLANTTIGERGRASS_1536_00_233
+  - first:
+      213: -1181626329385996642
+    second: PLANTTIGERGRASS_1536_00_234
+  - first:
+      213: 560273681376749649
+    second: PLANTTIGERGRASS_1536_00_235
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1032
+        width: 115
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a990aed269e15e0b0800000000000000
+      internalID: -5700116123003254374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1085
+        width: 190
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a25ce89e7bcee1f0800000000000000
+      internalID: -1013649121519840606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1085
+        width: 190
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f962d3d4d69415db0800000000000000
+      internalID: -4804978593631492449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1085
+        width: 190
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe442dc90b000a010800000000000000
+      internalID: 1197958259425821935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1085
+        width: 190
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d83b305c5efe900800000000000000
+      internalID: 716043500108615050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1031
+        width: 94
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c071d07dcfbec0800000000000000
+      internalID: -3548892096910802897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1180
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa7b719a67c7fff0800000000000000
+      internalID: -2314014269146369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1165
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d99964bf37e132d0800000000000000
+      internalID: -3300602791090087465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1151
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb33ce937005b120800000000000000
+      internalID: 2428848070621084610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1137
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e7bde1b8b634b60800000000000000
+      internalID: 7729139630760230499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1123
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2050fc5560af280800000000000000
+      internalID: -9008881138986057045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1055
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47174bda17764ebd0800000000000000
+      internalID: -2601840946770054796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 937
+        width: 125
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b468ad6f6fea52fa0800000000000000
+      internalID: -5826058167207164341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 937
+        width: 125
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51607ef912f4bf20800000000000000
+      internalID: 3437638609047413086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 937
+        width: 125
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1d1905779949cc0800000000000000
+      internalID: -3705167855687183961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 937
+        width: 125
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f3f0829f35b8ca0800000000000000
+      internalID: -6013620547839115378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1050
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a59013aef89885f0800000000000000
+      internalID: -754184718159669856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1064
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb26376e71c49000800000000000000
+      internalID: 41871045194820586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1048
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbfdfc84ef2e5220800000000000000
+      internalID: 2476469503764855772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 895
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ba43df1e9a99390800000000000000
+      internalID: -7811025290616591500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 996
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76ab7d5136e044a0800000000000000
+      internalID: -6611031153283717510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 938
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7350c88b19e91b200800000000000000
+      internalID: 194110607657272631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 937
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e6b572879672010800000000000000
+      internalID: 1164014993475857920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 800
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d44bcf83c355510800000000000000
+      internalID: 1537201063272402260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 809
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2096e4758810b2d70800000000000000
+      internalID: 9019304363831486722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 809
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b77bd5e89fea80800000000000000
+      internalID: -8435355464044661246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 847
+        width: 188
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8935eec9495a6b9a0800000000000000
+      internalID: -6217600177831783528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 894
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb1b99cb0860c850800000000000000
+      internalID: 6395225870702418921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 887
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210dbdd1c079e8290800000000000000
+      internalID: -7886199819182813166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 881
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a8d5f23dce214b0800000000000000
+      internalID: -5471050205524817280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 829
+        width: 83
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e6c8fc1f004f9f0800000000000000
+      internalID: -435722225378890089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 865
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95133a0852d91b430800000000000000
+      internalID: 3796988745247568217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 766
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b56364dbbaf60880800000000000000
+      internalID: -8644946750061976143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 771
+        width: 42
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebaa74c13da40cf0800000000000000
+      internalID: -286914046983492640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 835
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799dbc87c1ca7cc20800000000000000
+      internalID: 3226736896319936919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 736
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa33636b197d5ece0800000000000000
+      internalID: -1376457090264583254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 790
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066c5b389e852cd50800000000000000
+      internalID: 6756060150969517664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 805
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c06620b1a44bd30800000000000000
+      internalID: 4446260211986336887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 785
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d066b493b26b820800000000000000
+      internalID: 2933579732356566413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 690
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f94e722b2a99a40800000000000000
+      internalID: 5375506516300570503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 690
+        width: 136
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c25b051a68a1610800000000000000
+      internalID: 1592733445630798964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 688
+        width: 125
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f255c3ea4df0d910800000000000000
+      internalID: 1860265144194781944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 697
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324890b3d091f67c0800000000000000
+      internalID: -4076011593131260893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 742
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb68b1e8bd80e4e0800000000000000
+      internalID: -1954406413078336579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 640
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6998a1963e49bb740800000000000000
+      internalID: 5168888701779610006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 628
+        width: 73
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29377377993a4380800000000000000
+      internalID: -8986306783824365266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 590
+        width: 58
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88245fac727194560800000000000000
+      internalID: 7298390130806833800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 579
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc516bafccf840d60800000000000000
+      internalID: 7855561760583325132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 589
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0775d7f5fb97d970800000000000000
+      internalID: 8779657479309326091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 660
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b93fdd6097ddc5c0800000000000000
+      internalID: -4193458662693455433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 498
+        width: 51
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af26089885ae30140800000000000000
+      internalID: 4684845703380361978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 653
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a33da4d31fca9120800000000000000
+      internalID: 2421475433744511904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 586
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74135a5080b96d10800000000000000
+      internalID: 2119419164972225661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 581
+        width: 76
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6559bd211d3fb020800000000000000
+      internalID: 2359671873756288365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 558
+        width: 56
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06920b28ffb8f0c0800000000000000
+      internalID: -4541669151608760819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 641
+        width: 54
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943e70ceeaf7af5f0800000000000000
+      internalID: -722124400978566327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 582
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a746a7579b88ab490800000000000000
+      internalID: -7729715480306752390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 578
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a52ee9a3fefe0970800000000000000
+      internalID: 8723189850744694185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 579
+        width: 168
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67438f0936ecd4940800000000000000
+      internalID: 5282104865004729462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 593
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6db2e90681abf60800000000000000
+      internalID: 8050774087127783140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 592
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278d4d2eef596bf80800000000000000
+      internalID: -8091114758564685710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 458
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a379359e86065a1e0800000000000000
+      internalID: -2187236040311072966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 547
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b847064274e4e6530800000000000000
+      internalID: 3850100798908298379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 481
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8094e8a3c2efaea40800000000000000
+      internalID: 5398406569271380232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 493
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9185492cf88ce4d90800000000000000
+      internalID: -7111526241801054183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 506
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc7abd5d14a1d0b0800000000000000
+      internalID: -5705598806868198155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 478
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d497ab52b5317f550800000000000000
+      internalID: 6194441094667336013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 434
+        width: 56
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eefb6876c4f4900800000000000000
+      internalID: 670838877027561078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 415
+        width: 53
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338779e939dee6f20800000000000000
+      internalID: 3417930385497487411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 544
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aa3ffe6700f9770800000000000000
+      internalID: 8619608722642283102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 522
+        width: 81
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488ba0cf743043b60800000000000000
+      internalID: 7724802868553365636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 487
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb97b4717acd66e0800000000000000
+      internalID: -1842594083886359605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 515
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2756756dcdf1d0f90800000000000000
+      internalID: -6985892413632453262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 517
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584d60054ab340ad0800000000000000
+      internalID: -2736997096631118715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 483
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28172fb5609239780800000000000000
+      internalID: -8677546949723655806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 414
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c009bfc8a57965f20800000000000000
+      internalID: 3411080182947876876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 478
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a656c55626f853710800000000000000
+      internalID: 1672400489408128362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 471
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0845243965c80080800000000000000
+      internalID: -9220903181403994097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 428
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e309fe8a9b37e440800000000000000
+      internalID: 4965002649208947683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 487
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6a26f775a4b1090800000000000000
+      internalID: -8062768968216959296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 408
+        width: 96
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c1d725f4ea307e0800000000000000
+      internalID: -1800403770308486111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 408
+        width: 96
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcee1580731e70a0800000000000000
+      internalID: -6882041806584877897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 405
+        width: 96
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7e9b0054da58b30800000000000000
+      internalID: 4289024732016797677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 311
+        width: 37
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48023d1e5f1445250800000000000000
+      internalID: 5932439133465288836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 366
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02d6e7d8731fb690800000000000000
+      internalID: -7584321837729394161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 445
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4ac226d582f790800000000000000
+      internalID: -7497783274865274896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 414
+        width: 96
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7617a92fa934fa0800000000000000
+      internalID: -5817635926868662359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 330
+        width: 43
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0441f94c14e0d60800000000000000
+      internalID: 7858290712546394343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 457
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71663544cfb0de5f0800000000000000
+      internalID: -725910786830801385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 357
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d23a53aeee5b800800000000000000
+      internalID: 627670412777696520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 433
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d82cbec0fd259640800000000000000
+      internalID: 5086021866468681936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 349
+        width: 99
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa9bf2063c1fa550800000000000000
+      internalID: 6174184632452094624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 350
+        width: 99
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f0982e5b1714050800000000000000
+      internalID: 5783028422524080010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 363
+        width: 99
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4552e5ca258eeb0800000000000000
+      internalID: -4690408111639014180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 349
+        width: 99
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bc1039ff39fded0800000000000000
+      internalID: -2387026551590761683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 409
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb7221d0517d2dc0800000000000000
+      internalID: -3662146330062324738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 312
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d40972ea93f4a70800000000000000
+      internalID: 8813326415938211112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 337
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e58be16f164c3c90800000000000000
+      internalID: -7188793804589398553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 355
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ac9a628cc219cc0800000000000000
+      internalID: -3706131780195464634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 352
+        width: 106
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bd9311daf51db80800000000000000
+      internalID: -8371805035382056117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 385
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd255e7f0d0d1390800000000000000
+      internalID: -7846100615614353995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 361
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a069207dd7dc880800000000000000
+      internalID: -8589070551910839700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 312
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b49f041da8d8fef0800000000000000
+      internalID: -74071155974105933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 295
+        width: 106
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807dee1abdac94240800000000000000
+      internalID: 4776571924466554632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 307
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224283cf24e5bbc50800000000000000
+      internalID: 6682038113926652962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 299
+        width: 106
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb9f1937e0dbd970800000000000000
+      internalID: 8780841590003309551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 297
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecbb52cbc04a3e30800000000000000
+      internalID: 4483967622884080879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 309
+        width: 106
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3472ef511042a3830800000000000000
+      internalID: 4051590401855727427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 338
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457da34e3bc795e60800000000000000
+      internalID: 7951523729169373012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 260
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a1fc6d7613a8940800000000000000
+      internalID: 5299102233610099207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 260
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20b4285740f9ead0800000000000000
+      internalID: -2672340714655535058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 304
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0877806401aada0800000000000000
+      internalID: -5932911666131402567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 304
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05bf214b21865280800000000000000
+      internalID: -9054907978004581108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 278
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a5799b2a9e92570800000000000000
+      internalID: 8442535861590383149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 246
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e15e7dc63f691b90800000000000000
+      internalID: -7270657842246430231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 211
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b88d3d9f3a3e0960800000000000000
+      internalID: 7570052068551788722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 211
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079ce2fc7a584e200800000000000000
+      internalID: 208438438547868016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 274
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7e629ecbe1dbc20800000000000000
+      internalID: 3223766704981469136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 242
+        width: 81
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ce042fe63a58540800000000000000
+      internalID: 5009589857425615981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 242
+        width: 81
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50ea092d60d8bfb0800000000000000
+      internalID: -4631723049491963810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 257
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8baf7b627ca303e90800000000000000
+      internalID: -7048068789812331848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 259
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348797b8540647b50800000000000000
+      internalID: 6589998006558881859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 243
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2334ca68adf331d0800000000000000
+      internalID: -3372072796182793428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 241
+        width: 81
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b8f6390e81e94b0800000000000000
+      internalID: -5431876747736937588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 214
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcca29e98a2b95c0800000000000000
+      internalID: -4207722655036814084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 193
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f967ded0a796d2af0800000000000000
+      internalID: -419563217334995297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 257
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc0888e2c41a9dc0800000000000000
+      internalID: -3631567322163442433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 213
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342b2530ae86a1c90800000000000000
+      internalID: -7198325700110929341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 175
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd6699d12b6c0c40800000000000000
+      internalID: 5479872639731658164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a9d360cefd6b180800000000000000
+      internalID: -9099839792245532109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 175
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34c6054c2fc32c50800000000000000
+      internalID: 6639378064717825082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 222
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893d14db91c3610b0800000000000000
+      internalID: -5758348992299543656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 154
+        width: 29
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210ce9bb2aa94f360800000000000000
+      internalID: 7202551727795388434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 168
+        width: 21
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f124799c007d460800000000000000
+      internalID: 7266277389611704216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 156
+        width: 17
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366733d8e4350b170800000000000000
+      internalID: 8192139319028446819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 180
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da6222e0d8ad8f10800000000000000
+      internalID: 2273659001992538835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 180
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d154c7c256a2dce0800000000000000
+      internalID: -1381859261180259879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 187
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99594cf3a7c632330800000000000000
+      internalID: 3684908192430855577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 192
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6ccdcb3f57e9d0800000000000000
+      internalID: -2745120737398591687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 177
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e0c8be293dee980800000000000000
+      internalID: -8507630018085777807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 179
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902c71e8c9fedbe00800000000000000
+      internalID: 1062268542807163401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 189
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c3d38c8bea83e0800000000000000
+      internalID: -2050567691574197057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 150
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b5f4826890ae940800000000000000
+      internalID: 5326079981125589779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 147
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e678eaf6c53aef00800000000000000
+      internalID: 1146788183848548067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 174
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720b1d08edbc10440800000000000000
+      internalID: 4900422026060214311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 134
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d960082511f9840800000000000000
+      internalID: 5232920338060713335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 102
+        width: 40
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5802d7aa2ceb46fa0800000000000000
+      internalID: -5808307876107837307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 136
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591d7a7ea7cc32590800000000000000
+      internalID: -7700086109628804715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 136
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a613f7293b5a329c0800000000000000
+      internalID: -3953133857225625238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 111
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a2f21560c5c3e30800000000000000
+      internalID: 4484560511155776124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 157
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245c955af10d17a20800000000000000
+      internalID: 3058454456297964866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 159
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49db7bd73a62adf00800000000000000
+      internalID: 1142267939122560404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 156
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7202b6f278daf4ec0800000000000000
+      internalID: -3580452382608515033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 139
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e405310888fbe1120800000000000000
+      internalID: 2386555445538148430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 151
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974b81de72c07d0a0800000000000000
+      internalID: -6856998542027213703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 140
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c976d03e88134c9d0800000000000000
+      internalID: -2755022608049281124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 130
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66661778ca8b85f00800000000000000
+      internalID: 1105836759665698406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 102
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f81c7fedde339670800000000000000
+      internalID: 8544242040978544886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 91
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c01dc64a040a760800000000000000
+      internalID: 7467039257124736065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 109
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6021753351b48bf0800000000000000
+      internalID: -322938302326824853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 102
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357dc0aeb95ac03f0800000000000000
+      internalID: -933188933707311277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 109
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4204d24f201541940800000000000000
+      internalID: 5265922937431343140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 103
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ba2266490abb110800000000000000
+      internalID: 1277791478518819693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 104
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef7a5538bb153ac0800000000000000
+      internalID: -3876161426299387925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 105
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa595517ce6e0bf0800000000000000
+      internalID: -356225519179965778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 110
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b11e84d8e032cd50800000000000000
+      internalID: 6756016167565791669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 94
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c181597cdd380b0800000000000000
+      internalID: -5727490451815523323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 94
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba245bc6b1f30bcc0800000000000000
+      internalID: -3697385907050691925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 93
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304c86441e638c390800000000000000
+      internalID: -7797922413648755709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 97
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf28ebf487af2d60800000000000000
+      internalID: 7867691263643365295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 76
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9cea0b714dedc80800000000000000
+      internalID: -8295960265356293707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_171
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 102
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762ffa0b93da36c40800000000000000
+      internalID: 5504433632865940071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_172
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 66
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164551256571cba50800000000000000
+      internalID: 6538126418546873441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_173
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 92
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d9c2de0c720870800000000000000
+      internalID: 8647610637612601718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_174
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 95
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc75c12e8c2f8890800000000000000
+      internalID: -7453689869311312649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_175
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 66
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7605242fbabaa0f40800000000000000
+      internalID: 5695553433755603047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_176
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 69
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a5ff33b2f89c830800000000000000
+      internalID: 4091959152161544708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_177
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 69
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e134392137a2d60800000000000000
+      internalID: 7866226222773247617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_178
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 69
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1487713746e531c60800000000000000
+      internalID: 7787671966174378049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_179
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 61
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812583b1364dc44d0800000000000000
+      internalID: -3148908517315292648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_180
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 67
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9b35f8f6473a230800000000000000
+      internalID: 3648888145595054557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_181
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 69
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf38b9f074bb6170800000000000000
+      internalID: 8172824346112835522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_182
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 64
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17f435a962ff9170800000000000000
+      internalID: 8187529183140050714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_183
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 72
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c49d73db057dad0800000000000000
+      internalID: -2677582679832441736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_184
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 73
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0a553dd248fd9b0800000000000000
+      internalID: -5053174924532408155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_185
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 54
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9bfb8ca2008d240800000000000000
+      internalID: 4816599985229380080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_186
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 63
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6f4325cc3396300800000000000000
+      internalID: 245784607313950377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_187
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 63
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13380524192ee9310800000000000000
+      internalID: 1413816446551622449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_188
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 71
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26e24dde3a49f9e0800000000000000
+      internalID: -1587155759810812369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_189
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 62
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c355dcd73a50660800000000000000
+      internalID: 7351461727463357443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_190
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 62
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c30569228635f70800000000000000
+      internalID: 9174791363643849833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_191
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12130f5c578cba2a0800000000000000
+      internalID: -6725061210390122207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_192
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9886d8bc37627bfc0800000000000000
+      internalID: -3479269908342282103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_193
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 30
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcde2e31a3eb3c390800000000000000
+      internalID: -7799180973024547379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_194
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 40
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3a74c78983f5f10800000000000000
+      internalID: 2260587765534532521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_195
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 36
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7aa2213aef5b180800000000000000
+      internalID: -9100087495694309407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_196
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 48
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b359308e4699150800000000000000
+      internalID: 5879841736164195072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_197
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 45
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a42c006109b93160800000000000000
+      internalID: 7005834110909031589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_198
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 36
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5ddb6a2396483e0800000000000000
+      internalID: -2052399863907363347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_199
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 46
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7521fa76859c6c870800000000000000
+      internalID: 8702864711473893975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_200
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 38
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c5278b9ac944150800000000000000
+      internalID: 5855977668246395925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_201
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 26
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b978ebe9e17bae0800000000000000
+      internalID: -1533723480946140329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_202
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 35
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5359c03dc296e70800000000000000
+      internalID: 9108861006294365653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_203
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 34
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3680971fa26760d0800000000000000
+      internalID: -3429664087065196998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_204
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 41
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37c08d08184d4490800000000000000
+      internalID: -7760467314746538181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_205
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 38
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ad79acf9f5a81e0800000000000000
+      internalID: -2194836728486307208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_206
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 33
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709f318dd76475110800000000000000
+      internalID: 1249544927928645895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_207
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 33
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae00fce05b07f6c0800000000000000
+      internalID: -4109803692751843672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_208
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 33
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b3172de2eb64fa0800000000000000
+      internalID: -5816752760394007758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_209
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 42
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9187913744b6510800000000000000
+      internalID: 1543402558443755955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_210
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5347b866abc587230800000000000000
+      internalID: 3636758654755763253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_211
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a9835f1e291abe0800000000000000
+      internalID: -1467730504366646639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_212
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3784e1974fe8db0800000000000000
+      internalID: -4787620552811973694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_213
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 12
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ce2a83864f0b3f0800000000000000
+      internalID: -886940398128010104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_214
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 8
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97e01e4a54c042f0800000000000000
+      internalID: -990576025885677666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_215
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 6
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b4af24ae2b22ec0800000000000000
+      internalID: -3593112833472443500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_216
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 20
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65493d94bf3366a90800000000000000
+      internalID: -7321106989875751850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_217
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 17
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d175f07a20a5080800000000000000
+      internalID: -9198036372410655478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_218
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 16
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa20a8994d0578a0800000000000000
+      internalID: -6308121093318104416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_219
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 7
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a225a6f6a4eb35140800000000000000
+      internalID: 4707315262438396458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_220
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 18
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa674683c5f7f5b50800000000000000
+      internalID: 6584121214298781354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_221
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 10
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6affea0f80bb7d580800000000000000
+      internalID: -8802361299600212058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_222
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 7
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e16e22163ba6480800000000000000
+      internalID: -8905108083393028534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_223
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 7
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbdf5c3ca5b0a7f0800000000000000
+      internalID: -603282598715728966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_224
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 11
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d99b3e1fbd05a50800000000000000
+      internalID: 6507943293504560416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_225
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 4
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cacf31394e156f60800000000000000
+      internalID: 8026855210565487296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_226
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 13
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb204c9e8d8c2e00800000000000000
+      internalID: 1021346859152583679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_227
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 10
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71e8fcf540eeb120800000000000000
+      internalID: 2431627440028180858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_228
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 11
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaae7f18e1151720800000000000000
+      internalID: 2816176830648593070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_229
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 11
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215b81f65c739d0a0800000000000000
+      internalID: -6856387636582894318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_230
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 11
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec36b7eb17cfbd820800000000000000
+      internalID: 2944224346874012622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_231
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 10
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851f8f51d2b9c2da0800000000000000
+      internalID: -5968224788228279976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_232
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 5
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19427d42a68f49740800000000000000
+      internalID: 5158020608014361745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_233
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c77f0b5888d1810800000000000000
+      internalID: 1737695139015916628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_234
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ee2bb2d150a9fe0800000000000000
+      internalID: -1181626329385996642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTTIGERGRASS_1536_00_235
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 11
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158267bd1fd76c700800000000000000
+      internalID: 560273681376749649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTTIGERGRASS_1536_00_0: -5700116123003254374
+      PLANTTIGERGRASS_1536_00_1: -1013649121519840606
+      PLANTTIGERGRASS_1536_00_10: -9008881138986057045
+      PLANTTIGERGRASS_1536_00_100: -7846100615614353995
+      PLANTTIGERGRASS_1536_00_101: -8589070551910839700
+      PLANTTIGERGRASS_1536_00_102: -74071155974105933
+      PLANTTIGERGRASS_1536_00_103: 4776571924466554632
+      PLANTTIGERGRASS_1536_00_104: 6682038113926652962
+      PLANTTIGERGRASS_1536_00_105: 8780841590003309551
+      PLANTTIGERGRASS_1536_00_106: 4483967622884080879
+      PLANTTIGERGRASS_1536_00_107: 4051590401855727427
+      PLANTTIGERGRASS_1536_00_108: 7951523729169373012
+      PLANTTIGERGRASS_1536_00_109: 5299102233610099207
+      PLANTTIGERGRASS_1536_00_11: -2601840946770054796
+      PLANTTIGERGRASS_1536_00_110: -2672340714655535058
+      PLANTTIGERGRASS_1536_00_111: -5932911666131402567
+      PLANTTIGERGRASS_1536_00_112: -9054907978004581108
+      PLANTTIGERGRASS_1536_00_113: 8442535861590383149
+      PLANTTIGERGRASS_1536_00_114: -7270657842246430231
+      PLANTTIGERGRASS_1536_00_115: 7570052068551788722
+      PLANTTIGERGRASS_1536_00_116: 208438438547868016
+      PLANTTIGERGRASS_1536_00_117: 3223766704981469136
+      PLANTTIGERGRASS_1536_00_118: 5009589857425615981
+      PLANTTIGERGRASS_1536_00_119: -4631723049491963810
+      PLANTTIGERGRASS_1536_00_12: -5826058167207164341
+      PLANTTIGERGRASS_1536_00_120: -7048068789812331848
+      PLANTTIGERGRASS_1536_00_121: 6589998006558881859
+      PLANTTIGERGRASS_1536_00_122: -3372072796182793428
+      PLANTTIGERGRASS_1536_00_123: -5431876747736937588
+      PLANTTIGERGRASS_1536_00_124: -4207722655036814084
+      PLANTTIGERGRASS_1536_00_125: -419563217334995297
+      PLANTTIGERGRASS_1536_00_126: -3631567322163442433
+      PLANTTIGERGRASS_1536_00_127: -7198325700110929341
+      PLANTTIGERGRASS_1536_00_128: 5479872639731658164
+      PLANTTIGERGRASS_1536_00_129: -9099839792245532109
+      PLANTTIGERGRASS_1536_00_13: 3437638609047413086
+      PLANTTIGERGRASS_1536_00_130: 6639378064717825082
+      PLANTTIGERGRASS_1536_00_131: -5758348992299543656
+      PLANTTIGERGRASS_1536_00_132: 7202551727795388434
+      PLANTTIGERGRASS_1536_00_133: 7266277389611704216
+      PLANTTIGERGRASS_1536_00_134: 8192139319028446819
+      PLANTTIGERGRASS_1536_00_135: 2273659001992538835
+      PLANTTIGERGRASS_1536_00_136: -1381859261180259879
+      PLANTTIGERGRASS_1536_00_137: 3684908192430855577
+      PLANTTIGERGRASS_1536_00_138: -2745120737398591687
+      PLANTTIGERGRASS_1536_00_139: -8507630018085777807
+      PLANTTIGERGRASS_1536_00_14: -3705167855687183961
+      PLANTTIGERGRASS_1536_00_140: 1062268542807163401
+      PLANTTIGERGRASS_1536_00_141: -2050567691574197057
+      PLANTTIGERGRASS_1536_00_142: 5326079981125589779
+      PLANTTIGERGRASS_1536_00_143: 1146788183848548067
+      PLANTTIGERGRASS_1536_00_144: 4900422026060214311
+      PLANTTIGERGRASS_1536_00_145: 5232920338060713335
+      PLANTTIGERGRASS_1536_00_146: -5808307876107837307
+      PLANTTIGERGRASS_1536_00_147: -7700086109628804715
+      PLANTTIGERGRASS_1536_00_148: -3953133857225625238
+      PLANTTIGERGRASS_1536_00_149: 4484560511155776124
+      PLANTTIGERGRASS_1536_00_15: -6013620547839115378
+      PLANTTIGERGRASS_1536_00_150: 3058454456297964866
+      PLANTTIGERGRASS_1536_00_151: 1142267939122560404
+      PLANTTIGERGRASS_1536_00_152: -3580452382608515033
+      PLANTTIGERGRASS_1536_00_153: 2386555445538148430
+      PLANTTIGERGRASS_1536_00_154: -6856998542027213703
+      PLANTTIGERGRASS_1536_00_155: -2755022608049281124
+      PLANTTIGERGRASS_1536_00_156: 1105836759665698406
+      PLANTTIGERGRASS_1536_00_157: 8544242040978544886
+      PLANTTIGERGRASS_1536_00_158: 7467039257124736065
+      PLANTTIGERGRASS_1536_00_159: -322938302326824853
+      PLANTTIGERGRASS_1536_00_16: -754184718159669856
+      PLANTTIGERGRASS_1536_00_160: -933188933707311277
+      PLANTTIGERGRASS_1536_00_161: 5265922937431343140
+      PLANTTIGERGRASS_1536_00_162: 1277791478518819693
+      PLANTTIGERGRASS_1536_00_163: -3876161426299387925
+      PLANTTIGERGRASS_1536_00_164: -356225519179965778
+      PLANTTIGERGRASS_1536_00_165: 6756016167565791669
+      PLANTTIGERGRASS_1536_00_166: -5727490451815523323
+      PLANTTIGERGRASS_1536_00_167: -3697385907050691925
+      PLANTTIGERGRASS_1536_00_168: -7797922413648755709
+      PLANTTIGERGRASS_1536_00_169: 7867691263643365295
+      PLANTTIGERGRASS_1536_00_17: 41871045194820586
+      PLANTTIGERGRASS_1536_00_170: -8295960265356293707
+      PLANTTIGERGRASS_1536_00_171: 5504433632865940071
+      PLANTTIGERGRASS_1536_00_172: 6538126418546873441
+      PLANTTIGERGRASS_1536_00_173: 8647610637612601718
+      PLANTTIGERGRASS_1536_00_174: -7453689869311312649
+      PLANTTIGERGRASS_1536_00_175: 5695553433755603047
+      PLANTTIGERGRASS_1536_00_176: 4091959152161544708
+      PLANTTIGERGRASS_1536_00_177: 7866226222773247617
+      PLANTTIGERGRASS_1536_00_178: 7787671966174378049
+      PLANTTIGERGRASS_1536_00_179: -3148908517315292648
+      PLANTTIGERGRASS_1536_00_18: 2476469503764855772
+      PLANTTIGERGRASS_1536_00_180: 3648888145595054557
+      PLANTTIGERGRASS_1536_00_181: 8172824346112835522
+      PLANTTIGERGRASS_1536_00_182: 8187529183140050714
+      PLANTTIGERGRASS_1536_00_183: -2677582679832441736
+      PLANTTIGERGRASS_1536_00_184: -5053174924532408155
+      PLANTTIGERGRASS_1536_00_185: 4816599985229380080
+      PLANTTIGERGRASS_1536_00_186: 245784607313950377
+      PLANTTIGERGRASS_1536_00_187: 1413816446551622449
+      PLANTTIGERGRASS_1536_00_188: -1587155759810812369
+      PLANTTIGERGRASS_1536_00_189: 7351461727463357443
+      PLANTTIGERGRASS_1536_00_19: -7811025290616591500
+      PLANTTIGERGRASS_1536_00_190: 9174791363643849833
+      PLANTTIGERGRASS_1536_00_191: -6725061210390122207
+      PLANTTIGERGRASS_1536_00_192: -3479269908342282103
+      PLANTTIGERGRASS_1536_00_193: -7799180973024547379
+      PLANTTIGERGRASS_1536_00_194: 2260587765534532521
+      PLANTTIGERGRASS_1536_00_195: -9100087495694309407
+      PLANTTIGERGRASS_1536_00_196: 5879841736164195072
+      PLANTTIGERGRASS_1536_00_197: 7005834110909031589
+      PLANTTIGERGRASS_1536_00_198: -2052399863907363347
+      PLANTTIGERGRASS_1536_00_199: 8702864711473893975
+      PLANTTIGERGRASS_1536_00_2: -4804978593631492449
+      PLANTTIGERGRASS_1536_00_20: -6611031153283717510
+      PLANTTIGERGRASS_1536_00_200: 5855977668246395925
+      PLANTTIGERGRASS_1536_00_201: -1533723480946140329
+      PLANTTIGERGRASS_1536_00_202: 9108861006294365653
+      PLANTTIGERGRASS_1536_00_203: -3429664087065196998
+      PLANTTIGERGRASS_1536_00_204: -7760467314746538181
+      PLANTTIGERGRASS_1536_00_205: -2194836728486307208
+      PLANTTIGERGRASS_1536_00_206: 1249544927928645895
+      PLANTTIGERGRASS_1536_00_207: -4109803692751843672
+      PLANTTIGERGRASS_1536_00_208: -5816752760394007758
+      PLANTTIGERGRASS_1536_00_209: 1543402558443755955
+      PLANTTIGERGRASS_1536_00_21: 194110607657272631
+      PLANTTIGERGRASS_1536_00_210: 3636758654755763253
+      PLANTTIGERGRASS_1536_00_211: -1467730504366646639
+      PLANTTIGERGRASS_1536_00_212: -4787620552811973694
+      PLANTTIGERGRASS_1536_00_213: -886940398128010104
+      PLANTTIGERGRASS_1536_00_214: -990576025885677666
+      PLANTTIGERGRASS_1536_00_215: -3593112833472443500
+      PLANTTIGERGRASS_1536_00_216: -7321106989875751850
+      PLANTTIGERGRASS_1536_00_217: -9198036372410655478
+      PLANTTIGERGRASS_1536_00_218: -6308121093318104416
+      PLANTTIGERGRASS_1536_00_219: 4707315262438396458
+      PLANTTIGERGRASS_1536_00_22: 1164014993475857920
+      PLANTTIGERGRASS_1536_00_220: 6584121214298781354
+      PLANTTIGERGRASS_1536_00_221: -8802361299600212058
+      PLANTTIGERGRASS_1536_00_222: -8905108083393028534
+      PLANTTIGERGRASS_1536_00_223: -603282598715728966
+      PLANTTIGERGRASS_1536_00_224: 6507943293504560416
+      PLANTTIGERGRASS_1536_00_225: 8026855210565487296
+      PLANTTIGERGRASS_1536_00_226: 1021346859152583679
+      PLANTTIGERGRASS_1536_00_227: 2431627440028180858
+      PLANTTIGERGRASS_1536_00_228: 2816176830648593070
+      PLANTTIGERGRASS_1536_00_229: -6856387636582894318
+      PLANTTIGERGRASS_1536_00_23: 1537201063272402260
+      PLANTTIGERGRASS_1536_00_230: 2944224346874012622
+      PLANTTIGERGRASS_1536_00_231: -5968224788228279976
+      PLANTTIGERGRASS_1536_00_232: 5158020608014361745
+      PLANTTIGERGRASS_1536_00_233: 1737695139015916628
+      PLANTTIGERGRASS_1536_00_234: -1181626329385996642
+      PLANTTIGERGRASS_1536_00_235: 560273681376749649
+      PLANTTIGERGRASS_1536_00_24: 9019304363831486722
+      PLANTTIGERGRASS_1536_00_25: -8435355464044661246
+      PLANTTIGERGRASS_1536_00_26: -6217600177831783528
+      PLANTTIGERGRASS_1536_00_27: 6395225870702418921
+      PLANTTIGERGRASS_1536_00_28: -7886199819182813166
+      PLANTTIGERGRASS_1536_00_29: -5471050205524817280
+      PLANTTIGERGRASS_1536_00_3: 1197958259425821935
+      PLANTTIGERGRASS_1536_00_30: -435722225378890089
+      PLANTTIGERGRASS_1536_00_31: 3796988745247568217
+      PLANTTIGERGRASS_1536_00_32: -8644946750061976143
+      PLANTTIGERGRASS_1536_00_33: -286914046983492640
+      PLANTTIGERGRASS_1536_00_34: 3226736896319936919
+      PLANTTIGERGRASS_1536_00_35: -1376457090264583254
+      PLANTTIGERGRASS_1536_00_36: 6756060150969517664
+      PLANTTIGERGRASS_1536_00_37: 4446260211986336887
+      PLANTTIGERGRASS_1536_00_38: 2933579732356566413
+      PLANTTIGERGRASS_1536_00_39: 5375506516300570503
+      PLANTTIGERGRASS_1536_00_4: 716043500108615050
+      PLANTTIGERGRASS_1536_00_40: 1592733445630798964
+      PLANTTIGERGRASS_1536_00_41: 1860265144194781944
+      PLANTTIGERGRASS_1536_00_42: -4076011593131260893
+      PLANTTIGERGRASS_1536_00_43: -1954406413078336579
+      PLANTTIGERGRASS_1536_00_44: 5168888701779610006
+      PLANTTIGERGRASS_1536_00_45: -8986306783824365266
+      PLANTTIGERGRASS_1536_00_46: 7298390130806833800
+      PLANTTIGERGRASS_1536_00_47: 7855561760583325132
+      PLANTTIGERGRASS_1536_00_48: 8779657479309326091
+      PLANTTIGERGRASS_1536_00_49: -4193458662693455433
+      PLANTTIGERGRASS_1536_00_5: -3548892096910802897
+      PLANTTIGERGRASS_1536_00_50: 4684845703380361978
+      PLANTTIGERGRASS_1536_00_51: 2421475433744511904
+      PLANTTIGERGRASS_1536_00_52: 2119419164972225661
+      PLANTTIGERGRASS_1536_00_53: 2359671873756288365
+      PLANTTIGERGRASS_1536_00_54: -4541669151608760819
+      PLANTTIGERGRASS_1536_00_55: -722124400978566327
+      PLANTTIGERGRASS_1536_00_56: -7729715480306752390
+      PLANTTIGERGRASS_1536_00_57: 8723189850744694185
+      PLANTTIGERGRASS_1536_00_58: 5282104865004729462
+      PLANTTIGERGRASS_1536_00_59: 8050774087127783140
+      PLANTTIGERGRASS_1536_00_6: -2314014269146369
+      PLANTTIGERGRASS_1536_00_60: -8091114758564685710
+      PLANTTIGERGRASS_1536_00_61: -2187236040311072966
+      PLANTTIGERGRASS_1536_00_62: 3850100798908298379
+      PLANTTIGERGRASS_1536_00_63: 5398406569271380232
+      PLANTTIGERGRASS_1536_00_64: -7111526241801054183
+      PLANTTIGERGRASS_1536_00_65: -5705598806868198155
+      PLANTTIGERGRASS_1536_00_66: 6194441094667336013
+      PLANTTIGERGRASS_1536_00_67: 670838877027561078
+      PLANTTIGERGRASS_1536_00_68: 3417930385497487411
+      PLANTTIGERGRASS_1536_00_69: 8619608722642283102
+      PLANTTIGERGRASS_1536_00_7: -3300602791090087465
+      PLANTTIGERGRASS_1536_00_70: 7724802868553365636
+      PLANTTIGERGRASS_1536_00_71: -1842594083886359605
+      PLANTTIGERGRASS_1536_00_72: -6985892413632453262
+      PLANTTIGERGRASS_1536_00_73: -2736997096631118715
+      PLANTTIGERGRASS_1536_00_74: -8677546949723655806
+      PLANTTIGERGRASS_1536_00_75: 3411080182947876876
+      PLANTTIGERGRASS_1536_00_76: 1672400489408128362
+      PLANTTIGERGRASS_1536_00_77: -9220903181403994097
+      PLANTTIGERGRASS_1536_00_78: 4965002649208947683
+      PLANTTIGERGRASS_1536_00_79: -8062768968216959296
+      PLANTTIGERGRASS_1536_00_8: 2428848070621084610
+      PLANTTIGERGRASS_1536_00_80: -1800403770308486111
+      PLANTTIGERGRASS_1536_00_81: -6882041806584877897
+      PLANTTIGERGRASS_1536_00_82: 4289024732016797677
+      PLANTTIGERGRASS_1536_00_83: 5932439133465288836
+      PLANTTIGERGRASS_1536_00_84: -7584321837729394161
+      PLANTTIGERGRASS_1536_00_85: -7497783274865274896
+      PLANTTIGERGRASS_1536_00_86: -5817635926868662359
+      PLANTTIGERGRASS_1536_00_87: 7858290712546394343
+      PLANTTIGERGRASS_1536_00_88: -725910786830801385
+      PLANTTIGERGRASS_1536_00_89: 627670412777696520
+      PLANTTIGERGRASS_1536_00_9: 7729139630760230499
+      PLANTTIGERGRASS_1536_00_90: 5086021866468681936
+      PLANTTIGERGRASS_1536_00_91: 6174184632452094624
+      PLANTTIGERGRASS_1536_00_92: 5783028422524080010
+      PLANTTIGERGRASS_1536_00_93: -4690408111639014180
+      PLANTTIGERGRASS_1536_00_94: -2387026551590761683
+      PLANTTIGERGRASS_1536_00_95: -3662146330062324738
+      PLANTTIGERGRASS_1536_00_96: 8813326415938211112
+      PLANTTIGERGRASS_1536_00_97: -7188793804589398553
+      PLANTTIGERGRASS_1536_00_98: -3706131780195464634
+      PLANTTIGERGRASS_1536_00_99: -8371805035382056117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

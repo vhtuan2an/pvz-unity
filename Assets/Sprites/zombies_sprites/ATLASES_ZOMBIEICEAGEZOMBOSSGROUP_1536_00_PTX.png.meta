@@ -1,0 +1,5421 @@
+fileFormatVersion: 2
+guid: 3517af883da2dbc4f8f97880e48a2f13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8715394598635281557
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_0
+  - first:
+      213: 751693230711146397
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_1
+  - first:
+      213: 1684540943849764819
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_2
+  - first:
+      213: 2902019560818085141
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_3
+  - first:
+      213: 7936938303042734725
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_4
+  - first:
+      213: 1162413590059071379
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_5
+  - first:
+      213: -7986923701471515149
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_6
+  - first:
+      213: -1163924770982508841
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_7
+  - first:
+      213: -4172507586855032786
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_8
+  - first:
+      213: 1543255794387014645
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_9
+  - first:
+      213: -820547520131924736
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_10
+  - first:
+      213: 3543354066794865553
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_11
+  - first:
+      213: -5380423142668084315
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_12
+  - first:
+      213: -5163054473253273779
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_13
+  - first:
+      213: -7802103484313048285
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_14
+  - first:
+      213: -4314673144138289500
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_15
+  - first:
+      213: -596980049445456473
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_16
+  - first:
+      213: 8112770576704319413
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_17
+  - first:
+      213: 354240716361316450
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_18
+  - first:
+      213: -2986269959646520565
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_19
+  - first:
+      213: -1469262757029930378
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_20
+  - first:
+      213: -9116418192999694693
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_21
+  - first:
+      213: 4342784480487752349
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_22
+  - first:
+      213: 6774161315902800801
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_23
+  - first:
+      213: 2150243627206561475
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_24
+  - first:
+      213: 7597386137948637908
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_25
+  - first:
+      213: -3162055919985416650
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_26
+  - first:
+      213: 4853822149994382912
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_27
+  - first:
+      213: -414824810665059364
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_28
+  - first:
+      213: -5478226743967558733
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_29
+  - first:
+      213: 549553248479435938
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_30
+  - first:
+      213: -5798926806014749458
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_31
+  - first:
+      213: 7631293909130477438
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_32
+  - first:
+      213: 6983266545226051001
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_33
+  - first:
+      213: -9175803036310777851
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_34
+  - first:
+      213: -2604681371017032257
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_35
+  - first:
+      213: -368038236911907551
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_36
+  - first:
+      213: 4733681915538697886
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_37
+  - first:
+      213: -6820643911875589260
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_38
+  - first:
+      213: 3705813448720262117
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_39
+  - first:
+      213: 1523119190251907937
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_40
+  - first:
+      213: -1076099721649366369
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_41
+  - first:
+      213: 2662591461083776600
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_42
+  - first:
+      213: -5774370774462903928
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_43
+  - first:
+      213: -2129351717003044351
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_44
+  - first:
+      213: 1269522620558747590
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_45
+  - first:
+      213: -6805653993417026256
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_46
+  - first:
+      213: -896084443504193398
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_47
+  - first:
+      213: 2709238561184428754
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_48
+  - first:
+      213: 1990865370027119450
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_49
+  - first:
+      213: 6464735647731492119
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_50
+  - first:
+      213: -7737281459750834645
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_51
+  - first:
+      213: -1488232901757992898
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_52
+  - first:
+      213: -4698507436878768923
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_53
+  - first:
+      213: -7400519588080653131
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_54
+  - first:
+      213: 1837610559691825856
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_55
+  - first:
+      213: -3464046127139636909
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_56
+  - first:
+      213: -468437171101320363
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_57
+  - first:
+      213: -8812360718092401911
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_58
+  - first:
+      213: 6305533181740648213
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_59
+  - first:
+      213: -2077459202975089915
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_60
+  - first:
+      213: -5229317511130070659
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_61
+  - first:
+      213: -7791119813037003817
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_62
+  - first:
+      213: -8929967392276623290
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_63
+  - first:
+      213: 5669638006184851083
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_64
+  - first:
+      213: -6468956901713915793
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_65
+  - first:
+      213: -5272012219502580637
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_66
+  - first:
+      213: -3316057973678044370
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_67
+  - first:
+      213: 2470486686856167742
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_68
+  - first:
+      213: -3889409904871154867
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_69
+  - first:
+      213: -7662251866215544555
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_70
+  - first:
+      213: 912202913585688561
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_71
+  - first:
+      213: -5869656966753894818
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_72
+  - first:
+      213: 886562697053101368
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_73
+  - first:
+      213: 4822787245650059201
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_74
+  - first:
+      213: 6291907920839727530
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_75
+  - first:
+      213: -3897028107736167481
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_76
+  - first:
+      213: 1162067780412914294
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_77
+  - first:
+      213: 6344125437175580088
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_78
+  - first:
+      213: 8681486077513843378
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_79
+  - first:
+      213: 3579852933936584458
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_80
+  - first:
+      213: 8474279916477076261
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_81
+  - first:
+      213: -7761923926082987486
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_82
+  - first:
+      213: -5540830758657721122
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_83
+  - first:
+      213: -7651289483245279590
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_84
+  - first:
+      213: -9136421488924241397
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_85
+  - first:
+      213: -7431761003888860672
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_86
+  - first:
+      213: -4681932877081252769
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_87
+  - first:
+      213: -3120246717579010996
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_88
+  - first:
+      213: 1994403164071768218
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_89
+  - first:
+      213: 7884722507406184587
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_90
+  - first:
+      213: 5607171058481154436
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_91
+  - first:
+      213: 7256822495429568830
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_92
+  - first:
+      213: 6950807710883296656
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_93
+  - first:
+      213: -6938227013072856414
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_94
+  - first:
+      213: -8257291670566393965
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_95
+  - first:
+      213: -6929106234954493913
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_96
+  - first:
+      213: -1532463843902356828
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_97
+  - first:
+      213: -5212608411125448756
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_98
+  - first:
+      213: -4841057512146888123
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_99
+  - first:
+      213: 7935535458480506652
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_100
+  - first:
+      213: -5337073017626072197
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_101
+  - first:
+      213: -578630437777960780
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_102
+  - first:
+      213: -6791166213614404349
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_103
+  - first:
+      213: 3879821773047788632
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_104
+  - first:
+      213: 465122425424735117
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_105
+  - first:
+      213: -7179097222788256171
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_106
+  - first:
+      213: -8091534063835241749
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_107
+  - first:
+      213: 9170832170059915695
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_108
+  - first:
+      213: 954915449516256864
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_109
+  - first:
+      213: -902801885693949967
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_110
+  - first:
+      213: -3866779181042686575
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_111
+  - first:
+      213: -3044028170186044305
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_112
+  - first:
+      213: -4464719784547433488
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_113
+  - first:
+      213: -4043546449530484161
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_114
+  - first:
+      213: -5007922605235736081
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_115
+  - first:
+      213: -1417984321296879762
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_116
+  - first:
+      213: 8966974028290018824
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_117
+  - first:
+      213: 551437079739190770
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_118
+  - first:
+      213: -3224251284341999300
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_119
+  - first:
+      213: -7153714409461641416
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_120
+  - first:
+      213: -2312856592680132816
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_121
+  - first:
+      213: 5579669873779761392
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_122
+  - first:
+      213: 3932253217863722265
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_123
+  - first:
+      213: -1260125208005223108
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_124
+  - first:
+      213: -610163790346969867
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_125
+  - first:
+      213: -4873892692667690868
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_126
+  - first:
+      213: -1434358793189301229
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_127
+  - first:
+      213: 3093378208968548674
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_128
+  - first:
+      213: -2054072824235058275
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_129
+  - first:
+      213: -4049310415318332303
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_130
+  - first:
+      213: 1816636724077300855
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_131
+  - first:
+      213: -486442081042150697
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_132
+  - first:
+      213: -2377888860446339963
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_133
+  - first:
+      213: -6567485504668612300
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_134
+  - first:
+      213: 8742158494726092271
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_135
+  - first:
+      213: -8210801207938634834
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_136
+  - first:
+      213: 3362319998159491597
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_137
+  - first:
+      213: 6941279914267079750
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_138
+  - first:
+      213: 5063308541878252631
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_139
+  - first:
+      213: 8316934213998543871
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_140
+  - first:
+      213: 5811148870522344622
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_141
+  - first:
+      213: -3402206788999902264
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_142
+  - first:
+      213: -5322152044412667115
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_143
+  - first:
+      213: -1376395375231007830
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_144
+  - first:
+      213: 4947036896443512782
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_145
+  - first:
+      213: 6989546301591999047
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_146
+  - first:
+      213: -3698381238264862399
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_147
+  - first:
+      213: 410585289187884117
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_148
+  - first:
+      213: -5201424957016685397
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_149
+  - first:
+      213: -8056922557537484875
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_150
+  - first:
+      213: -8097151454192150282
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_151
+  - first:
+      213: 1689663078238679116
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_152
+  - first:
+      213: -6466618788281109959
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_153
+  - first:
+      213: 8786437552076726423
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_154
+  - first:
+      213: -2457592073850327930
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_155
+  - first:
+      213: -5492953708785683416
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_156
+  - first:
+      213: -6329109711337331458
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_157
+  - first:
+      213: 5823277485215183114
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_158
+  - first:
+      213: 407085888343328673
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_159
+  - first:
+      213: -8588198088187058591
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_160
+  - first:
+      213: -5364663664591013210
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_161
+  - first:
+      213: -6940605515591037897
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_162
+  - first:
+      213: -6872487802359156288
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_163
+  - first:
+      213: -4583750982877754198
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_164
+  - first:
+      213: -5000224765355487257
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_165
+  - first:
+      213: -7047330539241594727
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_166
+  - first:
+      213: 2287947211347356820
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_167
+  - first:
+      213: 8880214670454333798
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_168
+  - first:
+      213: -6315043907368684901
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_169
+  - first:
+      213: -5181902074116871050
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_170
+  - first:
+      213: 5355301359826666186
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_171
+  - first:
+      213: -4244495277598881215
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_172
+  - first:
+      213: 1090490546021700863
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_173
+  - first:
+      213: -8548104008352771299
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_174
+  - first:
+      213: 834426716228610449
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_175
+  - first:
+      213: -5532002207389574387
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_176
+  - first:
+      213: -2097682862842565742
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_177
+  - first:
+      213: 578921672512118206
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_178
+  - first:
+      213: 942980088840916104
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_179
+  - first:
+      213: 9094911753538954254
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_180
+  - first:
+      213: 6498173064262056863
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_181
+  - first:
+      213: -4631660051188800511
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_182
+  - first:
+      213: -7576573272108780774
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_183
+  - first:
+      213: 3587151985175790971
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_184
+  - first:
+      213: 6208352345146410231
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_185
+  - first:
+      213: -763865016395010017
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_186
+  - first:
+      213: -3184768802966218263
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_187
+  - first:
+      213: 6506466912221755775
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_188
+  - first:
+      213: -2222027356022841620
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_189
+  - first:
+      213: -5288803054772823238
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_190
+  - first:
+      213: -1996208459068718939
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_191
+  - first:
+      213: -1287836590120310452
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_192
+  - first:
+      213: 5233674060907565255
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_193
+  - first:
+      213: 4509122643363522681
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_194
+  - first:
+      213: 5172130372112254346
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_195
+  - first:
+      213: -3258552429905553941
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_196
+  - first:
+      213: 3897822768065799426
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_197
+  - first:
+      213: -5881058827820422453
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_198
+  - first:
+      213: 7324560021823237986
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_199
+  - first:
+      213: -577172990086651829
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_200
+  - first:
+      213: -2192882940820158265
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_201
+  - first:
+      213: -2823920211999201422
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_202
+  - first:
+      213: 2816785893974248400
+    second: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_203
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1714
+        width: 903
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c9309163d43f870800000000000000
+      internalID: 8715394598635281557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1907
+        width: 788
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d978a9cb20d8e6a00800000000000000
+      internalID: 751693230711146397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 2174
+        width: 919
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d734c73011b06710800000000000000
+      internalID: 1684540943849764819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2183
+        width: 878
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d0ccd3a6b064820800000000000000
+      internalID: 2902019560818085141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 2260
+        width: 512
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58acd0db55ba52e60800000000000000
+      internalID: 7936938303042734725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 2610
+        width: 28
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397be8d5009b12010800000000000000
+      internalID: 1162413590059071379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 2153
+        width: 21
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd64a5c53fb82190800000000000000
+      internalID: -7986923701471515149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 2679
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d64f486698e8dfe0800000000000000
+      internalID: -1163924770982508841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 2527
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2822e6e4764816c0800000000000000
+      internalID: -4172507586855032786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 2442
+        width: 24
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3500ee7feba6510800000000000000
+      internalID: 1543255794387014645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 2378
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d753db064dc94f0800000000000000
+      internalID: -820547520131924736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 2318
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1936eb010c58c2130800000000000000
+      internalID: 3543354066794865553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 2263
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab5aff88a5e455b0800000000000000
+      internalID: -5380423142668084315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 2186
+        width: 206
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f3fb5cf452958b0800000000000000
+      internalID: -5163054473253273779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2204
+        width: 231
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32beea4e73c59b390800000000000000
+      internalID: -7802103484313048285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 2190
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae28b1b2a33f14c0800000000000000
+      internalID: -4314673144138289500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 2183
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5fec6dec917b7f0800000000000000
+      internalID: -596980049445456473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 2186
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfa3b03bd9569070800000000000000
+      internalID: 8112770576704319413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 2184
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26832bffd048ae400800000000000000
+      internalID: 354240716361316450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2187
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b59db2b43ae86d0800000000000000
+      internalID: -2986269959646520565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1543
+        width: 465
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a15859e412c9be0800000000000000
+      internalID: -1469262757029930378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1109
+        width: 158
+        height: 1061
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e385e44f9fb7180800000000000000
+      internalID: -9116418192999694693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1789
+        width: 221
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d924d87d97ba44c30800000000000000
+      internalID: 4342784480487752349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2095
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3449563d7a20e50800000000000000
+      internalID: 6774161315902800801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 1501
+        width: 646
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cec13cbf2337dd10800000000000000
+      internalID: 2150243627206561475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1576
+        width: 747
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dac7e590765f6960800000000000000
+      internalID: 7597386137948637908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 2076
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6362951e4ee1e14d0800000000000000
+      internalID: -3162055919985416650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2049
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046865d578d3c5340800000000000000
+      internalID: 4853822149994382912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 2016
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb5a44580f3e3af0800000000000000
+      internalID: -414824810665059364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2005
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d4ce1dcd69f3b0800000000000000
+      internalID: -5478226743967558733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1976
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac57c094c760a700800000000000000
+      internalID: 549553248479435938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 1985
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee410014bc2168fa0800000000000000
+      internalID: -5798926806014749458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1961
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ff256c06dc7e960800000000000000
+      internalID: 7631293909130477438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_33
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1937
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd61188ceb89e060800000000000000
+      internalID: 6983266545226051001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_34
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1895
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500deb301cff8a080800000000000000
+      internalID: -9175803036310777851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_35
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1914
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdc37fd7105adbd0800000000000000
+      internalID: -2604681371017032257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_36
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1880
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dca196c2774eaf0800000000000000
+      internalID: -368038236911907551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_37
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1605
+        width: 568
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9eef5f3f9a61b140800000000000000
+      internalID: 4733681915538697886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_38
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1783
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b893ddf743851a0800000000000000
+      internalID: -6820643911875589260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_39
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1838
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e326d682b1bd6330800000000000000
+      internalID: 3705813448720262117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_40
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1846
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bab8d65d4332510800000000000000
+      internalID: 1523119190251907937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_41
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1709
+        width: 197
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a513c210de011f0800000000000000
+      internalID: -1076099721649366369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_42
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1804
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85603eba3dc63f420800000000000000
+      internalID: 2662591461083776600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_43
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1807
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889cdb2ef505ddfa0800000000000000
+      internalID: -5774370774462903928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_44
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1681
+        width: 64
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a5a2a25e50372e0800000000000000
+      internalID: -2129351717003044351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_45
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1533
+        width: 206
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c72ab0e8104e9110800000000000000
+      internalID: 1269522620558747590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_46
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1733
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035d82a30c57d81a0800000000000000
+      internalID: -6805653993417026256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_47
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1777
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80dd2042f77093f0800000000000000
+      internalID: -896084443504193398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_48
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1743
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d230330e16299520800000000000000
+      internalID: 2709238561184428754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1666
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53d7188189f0ab10800000000000000
+      internalID: 1990865370027119450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_50
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1311
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71527d9e1da57b950800000000000000
+      internalID: 6464735647731492119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_51
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1683
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ee5589187af9490800000000000000
+      internalID: -7737281459750834645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_52
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1673
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e308aa39f0cb85be0800000000000000
+      internalID: -1488232901757992898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_53
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1709
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e45f42416c8bceb0800000000000000
+      internalID: -4698507436878768923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_54
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1679
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bce12fe4a21c4990800000000000000
+      internalID: -7400519588080653131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_55
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1648
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c220f56111808910800000000000000
+      internalID: 1837610559691825856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_56
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1570
+        width: 241
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3593642966c3defc0800000000000000
+      internalID: -3464046127139636909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_57
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1599
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bbae0ffd6cf79f0800000000000000
+      internalID: -468437171101320363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_58
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1613
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9030f75ed9434b580800000000000000
+      internalID: -8812360718092401911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_59
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1650
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51707194501c18750800000000000000
+      internalID: 6305533181740648213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_60
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1620
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bbd4b9cd16b23e0800000000000000
+      internalID: -2077459202975089915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_61
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1627
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71cc530e6bbd67b0800000000000000
+      internalID: -5229317511130070659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_62
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1596
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbeb652fc160e390800000000000000
+      internalID: -7791119813037003817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_63
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1554
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640d78f38f1621480800000000000000
+      internalID: -8929967392276623290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_64
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1603
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86b3b34ab99eae40800000000000000
+      internalID: 5669638006184851083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_65
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1384
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60d70ec8f5a936a0800000000000000
+      internalID: -6468956901713915793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_66
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1130
+        width: 357
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca70591dc06d6b0800000000000000
+      internalID: -5272012219502580637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_67
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1132
+        width: 357
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b815897defaf1d0800000000000000
+      internalID: -3316057973678044370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_68
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1535
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31c4607d8ee84220800000000000000
+      internalID: 2470486686856167742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_69
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 1500
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bd44a6c4a060ac0800000000000000
+      internalID: -3889409904871154867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_70
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 1221
+        width: 560
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51906a626863aa590800000000000000
+      internalID: -7662251866215544555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_71
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 1354
+        width: 221
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffe95387bbc8ac00800000000000000
+      internalID: 912202913585688561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_72
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1092
+        width: 357
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ebc37661aca8ea0800000000000000
+      internalID: -5869656966753894818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_73
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1151
+        width: 160
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d56f46314bd4c00800000000000000
+      internalID: 886562697053101368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_74
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1445
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf914c927bfde240800000000000000
+      internalID: 4822787245650059201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_75
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1494
+        width: 110
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa95e150be8515750800000000000000
+      internalID: 6291907920839727530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_76
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 1507
+        width: 103
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb4ca65599fae9c0800000000000000
+      internalID: -3897028107736167481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_77
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1461
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a30784d7e702010800000000000000
+      internalID: 1162067780412914294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_78
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1461
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5ce55f87cda0850800000000000000
+      internalID: 6344125437175580088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_79
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1053
+        width: 357
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b246bc4795da7870800000000000000
+      internalID: 8681486077513843378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_80
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 1087
+        width: 357
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a071e6bc6413ea130800000000000000
+      internalID: 3579852933936584458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_81
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 1261
+        width: 199
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523d7d47fa0ba9570800000000000000
+      internalID: 8474279916477076261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_82
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1361
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ad73c405b184490800000000000000
+      internalID: -7761923926082987486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_83
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1243
+        width: 107
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcf5a518c30b13b0800000000000000
+      internalID: -5540830758657721122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_84
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1149
+        width: 263
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96ab75d0c821d590800000000000000
+      internalID: -7651289483245279590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_85
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1283
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02dc6a0019e43180800000000000000
+      internalID: -9136421488924241397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_86
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 1244
+        width: 208
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002aa9bfdb41dd890800000000000000
+      internalID: -7431761003888860672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1238
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c695faade660fb0800000000000000
+      internalID: -4681932877081252769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_88
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1210
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cdf136428a2b4d0800000000000000
+      internalID: -3120246717579010996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_89
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 1227
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b9656c1b8dab10800000000000000
+      internalID: 1994403164071768218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_90
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 1222
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80197e68592c6d60800000000000000
+      internalID: 7884722507406184587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_91
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 1229
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489ce9f9e5ca0dd40800000000000000
+      internalID: 5607171058481154436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 996
+        width: 599
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39a42e7c9965b460800000000000000
+      internalID: 7256822495429568830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_93
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1148
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095be3d39ca367060800000000000000
+      internalID: 6950807710883296656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_94
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 818
+        width: 357
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aad5caba4776bf90800000000000000
+      internalID: -6938227013072856414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_95
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 828
+        width: 364
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397291189f4386d80800000000000000
+      internalID: -8257291670566393965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_96
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 886
+        width: 282
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720d79e579ed6df90800000000000000
+      internalID: -6929106234954493913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_97
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 791
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a20219d0489bbae0800000000000000
+      internalID: -1532463843902356828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_98
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 803
+        width: 231
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf77a5844819a7b0800000000000000
+      internalID: -5212608411125448756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_99
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 766
+        width: 340
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a9f3b77db11dcb0800000000000000
+      internalID: -4841057512146888123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_100
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1123
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c174f39847fa02e60800000000000000
+      internalID: 7935535458480506652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_101
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 694
+        width: 299
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b63141e58eee5b0800000000000000
+      internalID: -5337073017626072197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_102
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1029
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0140cbeaa48f7f0800000000000000
+      internalID: -578630437777960780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_103
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 770
+        width: 351
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30df0e25f4ee0c1a0800000000000000
+      internalID: -6791166213614404349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_104
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 1058
+        width: 70
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854f65ea855e7d530800000000000000
+      internalID: 3879821773047788632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_105
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 776
+        width: 512
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b6280b162747600800000000000000
+      internalID: 465122425424735117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_106
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 898
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e66b3cc19be5c90800000000000000
+      internalID: -7179097222788256171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_107
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 988
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2a025c3a815bf80800000000000000
+      internalID: -8091534063835241749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_108
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 746
+        width: 386
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1652ff447554f70800000000000000
+      internalID: 9170832170059915695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_109
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 740
+        width: 359
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ee2feba8a804d00800000000000000
+      internalID: 954915449516256864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_110
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 973
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7c8acd77a9873f0800000000000000
+      internalID: -902801885693949967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_111
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 916
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195231962d0765ac0800000000000000
+      internalID: -3866779181042686575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_112
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 820
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c47c5d18071c5d0800000000000000
+      internalID: -3044028170186044305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_113
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 866
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f34464d2012a02c0800000000000000
+      internalID: -4464719784547433488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_114
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 836
+        width: 184
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a81f28def62e7c0800000000000000
+      internalID: -4043546449530484161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_115
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 836
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe176447ce8408ab0800000000000000
+      internalID: -5007922605235736081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_116
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 814
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fa608c5ce425ce0800000000000000
+      internalID: -1417984321296879762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_117
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 476
+        width: 316
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e4162ae57117c70800000000000000
+      internalID: 8966974028290018824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_118
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 482
+        width: 298
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd45d53a1917a700800000000000000
+      internalID: 551437079739190770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_119
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 428
+        width: 284
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39b23a2a882143d0800000000000000
+      internalID: -3224251284341999300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_120
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 124
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f027785a6e8bc90800000000000000
+      internalID: -7153714409461641416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_121
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 534
+        width: 413
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f51e8de2517efd0800000000000000
+      internalID: -2312856592680132816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_122
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 452
+        width: 294
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f067961038fe6d40800000000000000
+      internalID: 5579669873779761392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_123
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 770
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91567a9b77b229630800000000000000
+      internalID: 3932253217863722265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_124
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 471
+        width: 298
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d555cbcc2238ee0800000000000000
+      internalID: -1260125208005223108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_125
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 762
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc1095f3434887f0800000000000000
+      internalID: -610163790346969867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_126
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 632
+        width: 77
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c809b244b647c5cb0800000000000000
+      internalID: -4873892692667690868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_127
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 516
+        width: 243
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3146e73f642281ce0800000000000000
+      internalID: -1434358793189301229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_128
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 704
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24121857713edea20800000000000000
+      internalID: 3093378208968548674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_129
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 490
+        width: 344
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b9fa836a77e73e0800000000000000
+      internalID: -2054072824235058275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_130
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 543
+        width: 299
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c49a5a1a5fdc7c0800000000000000
+      internalID: -4049310415318332303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_131
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 680
+        width: 76
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c8e80c97df53910800000000000000
+      internalID: 1816636724077300855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_132
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 710
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da4eab218fcf39f0800000000000000
+      internalID: -486442081042150697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_133
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 730
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cccb51eaa000fd0800000000000000
+      internalID: -2377888860446339963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_134
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 537
+        width: 340
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43943b2caba9bd4a0800000000000000
+      internalID: -6567485504668612300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_135
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 591
+        width: 270
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5ff4045d2625970800000000000000
+      internalID: 8742158494726092271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_136
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 431
+        width: 106
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab2877ddcf5d0e80800000000000000
+      internalID: -8210801207938634834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_137
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 633
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d021d77593c59ae20800000000000000
+      internalID: 3362319998159491597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_138
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 658
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64471783e41645060800000000000000
+      internalID: 6941279914267079750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_139
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 534
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754bad2da4c744640800000000000000
+      internalID: 5063308541878252631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_140
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 595
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff30da54a9fab6370800000000000000
+      internalID: 8316934213998543871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_141
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 615
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea49564eb1955a050800000000000000
+      internalID: 5811148870522344622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_142
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 276
+        width: 200
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb0d3973fee8c0d0800000000000000
+      internalID: -3402206788999902264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_143
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 396
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bf920e9eae326b0800000000000000
+      internalID: -5322152044412667115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_144
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 322
+        width: 161
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa38ddcd2bf06ece0800000000000000
+      internalID: -1376395375231007830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_145
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 278
+        width: 153
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec73447c8d767a440800000000000000
+      internalID: 4947036896443512782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 253
+        width: 128
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742598f345bdff060800000000000000
+      internalID: 6989546301591999047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_147
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 267
+        width: 165
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149e041dbd5bcacc0800000000000000
+      internalID: -3698381238264862399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_148
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 264
+        width: 156
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c7b082521b2b500800000000000000
+      internalID: 410585289187884117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_149
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 344
+        width: 247
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba44b275f83d0d7b0800000000000000
+      internalID: -5201424957016685397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_150
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 390
+        width: 291
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf752f0f9f003090800000000000000
+      internalID: -8056922557537484875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_151
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 268
+        width: 159
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8d65827a321af80800000000000000
+      internalID: -8097151454192150282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_152
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 298
+        width: 176
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4072801e93e27710800000000000000
+      internalID: 1689663078238679116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_153
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 386
+        width: 320
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93233a24974f146a0800000000000000
+      internalID: -6466618788281109959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_154
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 353
+        width: 184
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790afaca662bfe970800000000000000
+      internalID: 8786437552076726423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_155
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 247
+        width: 170
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ce55b9701e4edd0800000000000000
+      internalID: -2457592073850327930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_156
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 291
+        width: 170
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8243a2c64bb15c3b0800000000000000
+      internalID: -5492953708785683416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_157
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 216
+        width: 97
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef46347204c7a28a0800000000000000
+      internalID: -6329109711337331458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_158
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 307
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01f7ce050070d050800000000000000
+      internalID: 5823277485215183114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_159
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 270
+        width: 156
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a747c7657246a500800000000000000
+      internalID: 407085888343328673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_160
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 364
+        width: 308
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166ebec475790d880800000000000000
+      internalID: -8588198088187058591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_161
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 190
+        width: 133
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa7b9cf1d2ec85b0800000000000000
+      internalID: -5364663664591013210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_162
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 250
+        width: 250
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c44157e040eaf90800000000000000
+      internalID: -6940605515591037897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_163
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 256
+        width: 227
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c17d2971c400a0a0800000000000000
+      internalID: -6872487802359156288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_164
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 201
+        width: 96
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac49be44ce3360c0800000000000000
+      internalID: -4583750982877754198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_165
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 151
+        width: 119
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef00e77112ab9ab0800000000000000
+      internalID: -5000224765355487257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_166
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 178
+        width: 124
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9902eb1863ad23e90800000000000000
+      internalID: -7047330539241594727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_167
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 213
+        width: 144
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c643ddddb60cf10800000000000000
+      internalID: 2287947211347356820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_168
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 220
+        width: 143
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661a4a1813cdc3b70800000000000000
+      internalID: 8880214670454333798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_169
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 276
+        width: 145
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b927b4856057c58a0800000000000000
+      internalID: -6315043907368684901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_170
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 192
+        width: 171
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c676bb48f2618b0800000000000000
+      internalID: -5181902074116871050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_171
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 247
+        width: 119
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac282a1963ad15a40800000000000000
+      internalID: 5355301359826666186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_172
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 281
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a45e788068815c0800000000000000
+      internalID: -4244495277598881215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_173
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 192
+        width: 144
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff49b8abf53322f00800000000000000
+      internalID: 1090490546021700863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_174
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 186
+        width: 124
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d135a07b1b80f5980800000000000000
+      internalID: -8548104008352771299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_175
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 250
+        width: 84
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199e6eb6daa749b00800000000000000
+      internalID: 834426716228610449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_176
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 165
+        width: 143
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b1edb5d416a33b0800000000000000
+      internalID: -5532002207389574387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_177
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 155
+        width: 128
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b28dcdc8883e2e0800000000000000
+      internalID: -2097682862842565742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_178
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 146
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd1cd2a13eb80800800000000000000
+      internalID: 578921672512118206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_179
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 120
+        width: 85
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c01a90563261d00800000000000000
+      internalID: 942980088840916104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_180
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 167
+        width: 135
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04e63d8d0e973e70800000000000000
+      internalID: 9094911753538954254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_181
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 148
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bf95029f52e2a50800000000000000
+      internalID: 6498173064262056863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_182
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 149
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104268819b909bfb0800000000000000
+      internalID: -4631660051188800511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_183
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 150
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13bc3d50ca9ad690800000000000000
+      internalID: -7576573272108780774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_184
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 140
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b758db799bf18c130800000000000000
+      internalID: 3587151985175790971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_185
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 117
+        width: 89
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f44aec809f782650800000000000000
+      internalID: 6208352345146410231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_186
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 140
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f107d6190d43665f0800000000000000
+      internalID: -763865016395010017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_187
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 240
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9d377b5ad6dc3d0800000000000000
+      internalID: -3184768802966218263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_188
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 228
+        width: 75
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f797fc51f2d9b4a50800000000000000
+      internalID: 6506466912221755775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_189
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 227
+        width: 113
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceede0b74e5c921e0800000000000000
+      internalID: -2222027356022841620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_190
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 244
+        width: 127
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd34994a56a96b0800000000000000
+      internalID: -5288803054772823238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_191
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 157
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0449b9bfa0c44e0800000000000000
+      internalID: -1996208459068718939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_192
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 164
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49e02dc17fa02ee0800000000000000
+      internalID: -1287836590120310452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_193
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 145
+        width: 124
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0529644deb1a840800000000000000
+      internalID: 5233674060907565255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_194
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 180
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9786a5e572f939e30800000000000000
+      internalID: 4509122643363522681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_195
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 184
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8582c99b2917c740800000000000000
+      internalID: 5172130372112254346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_196
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 187
+        width: 157
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be55e7d54db47c2d0800000000000000
+      internalID: -3258552429905553941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_197
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 114
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205edffe729d71630800000000000000
+      internalID: 3897822768065799426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_198
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 162
+        width: 143
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcaa690c728426ea0800000000000000
+      internalID: -5881058827820422453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_199
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 174
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f2dcc588016a560800000000000000
+      internalID: 7324560021823237986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_200
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 190
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b406fe739387df7f0800000000000000
+      internalID: -577172990086651829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_201
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 144
+        width: 139
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8866e65905191e0800000000000000
+      internalID: -2192882940820158265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_202
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 149
+        width: 215
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277edb9678b6fc8d0800000000000000
+      internalID: -2823920211999201422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_203
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 131
+        width: 129
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db8aaab8db371720800000000000000
+      internalID: 2816785893974248400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_0: 8715394598635281557
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_1: 751693230711146397
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_10: -820547520131924736
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_100: 7935535458480506652
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_101: -5337073017626072197
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_102: -578630437777960780
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_103: -6791166213614404349
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_104: 3879821773047788632
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_105: 465122425424735117
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_106: -7179097222788256171
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_107: -8091534063835241749
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_108: 9170832170059915695
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_109: 954915449516256864
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_11: 3543354066794865553
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_110: -902801885693949967
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_111: -3866779181042686575
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_112: -3044028170186044305
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_113: -4464719784547433488
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_114: -4043546449530484161
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_115: -5007922605235736081
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_116: -1417984321296879762
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_117: 8966974028290018824
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_118: 551437079739190770
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_119: -3224251284341999300
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_12: -5380423142668084315
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_120: -7153714409461641416
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_121: -2312856592680132816
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_122: 5579669873779761392
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_123: 3932253217863722265
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_124: -1260125208005223108
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_125: -610163790346969867
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_126: -4873892692667690868
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_127: -1434358793189301229
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_128: 3093378208968548674
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_129: -2054072824235058275
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_13: -5163054473253273779
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_130: -4049310415318332303
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_131: 1816636724077300855
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_132: -486442081042150697
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_133: -2377888860446339963
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_134: -6567485504668612300
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_135: 8742158494726092271
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_136: -8210801207938634834
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_137: 3362319998159491597
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_138: 6941279914267079750
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_139: 5063308541878252631
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_14: -7802103484313048285
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_140: 8316934213998543871
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_141: 5811148870522344622
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_142: -3402206788999902264
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_143: -5322152044412667115
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_144: -1376395375231007830
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_145: 4947036896443512782
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_146: 6989546301591999047
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_147: -3698381238264862399
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_148: 410585289187884117
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_149: -5201424957016685397
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_15: -4314673144138289500
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_150: -8056922557537484875
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_151: -8097151454192150282
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_152: 1689663078238679116
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_153: -6466618788281109959
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_154: 8786437552076726423
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_155: -2457592073850327930
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_156: -5492953708785683416
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_157: -6329109711337331458
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_158: 5823277485215183114
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_159: 407085888343328673
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_16: -596980049445456473
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_160: -8588198088187058591
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_161: -5364663664591013210
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_162: -6940605515591037897
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_163: -6872487802359156288
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_164: -4583750982877754198
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_165: -5000224765355487257
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_166: -7047330539241594727
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_167: 2287947211347356820
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_168: 8880214670454333798
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_169: -6315043907368684901
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_17: 8112770576704319413
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_170: -5181902074116871050
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_171: 5355301359826666186
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_172: -4244495277598881215
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_173: 1090490546021700863
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_174: -8548104008352771299
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_175: 834426716228610449
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_176: -5532002207389574387
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_177: -2097682862842565742
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_178: 578921672512118206
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_179: 942980088840916104
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_18: 354240716361316450
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_180: 9094911753538954254
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_181: 6498173064262056863
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_182: -4631660051188800511
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_183: -7576573272108780774
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_184: 3587151985175790971
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_185: 6208352345146410231
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_186: -763865016395010017
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_187: -3184768802966218263
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_188: 6506466912221755775
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_189: -2222027356022841620
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_19: -2986269959646520565
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_190: -5288803054772823238
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_191: -1996208459068718939
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_192: -1287836590120310452
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_193: 5233674060907565255
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_194: 4509122643363522681
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_195: 5172130372112254346
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_196: -3258552429905553941
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_197: 3897822768065799426
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_198: -5881058827820422453
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_199: 7324560021823237986
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_2: 1684540943849764819
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_20: -1469262757029930378
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_200: -577172990086651829
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_201: -2192882940820158265
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_202: -2823920211999201422
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_203: 2816785893974248400
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_21: -9116418192999694693
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_22: 4342784480487752349
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_23: 6774161315902800801
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_24: 2150243627206561475
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_25: 7597386137948637908
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_26: -3162055919985416650
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_27: 4853822149994382912
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_28: -414824810665059364
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_29: -5478226743967558733
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_3: 2902019560818085141
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_30: 549553248479435938
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_31: -5798926806014749458
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_32: 7631293909130477438
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_33: 6983266545226051001
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_34: -9175803036310777851
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_35: -2604681371017032257
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_36: -368038236911907551
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_37: 4733681915538697886
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_38: -6820643911875589260
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_39: 3705813448720262117
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_4: 7936938303042734725
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_40: 1523119190251907937
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_41: -1076099721649366369
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_42: 2662591461083776600
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_43: -5774370774462903928
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_44: -2129351717003044351
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_45: 1269522620558747590
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_46: -6805653993417026256
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_47: -896084443504193398
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_48: 2709238561184428754
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_49: 1990865370027119450
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_5: 1162413590059071379
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_50: 6464735647731492119
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_51: -7737281459750834645
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_52: -1488232901757992898
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_53: -4698507436878768923
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_54: -7400519588080653131
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_55: 1837610559691825856
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_56: -3464046127139636909
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_57: -468437171101320363
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_58: -8812360718092401911
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_59: 6305533181740648213
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_6: -7986923701471515149
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_60: -2077459202975089915
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_61: -5229317511130070659
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_62: -7791119813037003817
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_63: -8929967392276623290
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_64: 5669638006184851083
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_65: -6468956901713915793
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_66: -5272012219502580637
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_67: -3316057973678044370
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_68: 2470486686856167742
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_69: -3889409904871154867
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_7: -1163924770982508841
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_70: -7662251866215544555
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_71: 912202913585688561
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_72: -5869656966753894818
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_73: 886562697053101368
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_74: 4822787245650059201
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_75: 6291907920839727530
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_76: -3897028107736167481
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_77: 1162067780412914294
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_78: 6344125437175580088
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_79: 8681486077513843378
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_8: -4172507586855032786
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_80: 3579852933936584458
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_81: 8474279916477076261
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_82: -7761923926082987486
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_83: -5540830758657721122
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_84: -7651289483245279590
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_85: -9136421488924241397
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_86: -7431761003888860672
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_87: -4681932877081252769
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_88: -3120246717579010996
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_89: 1994403164071768218
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_9: 1543255794387014645
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_90: 7884722507406184587
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_91: 5607171058481154436
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_92: 7256822495429568830
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_93: 6950807710883296656
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_94: -6938227013072856414
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_95: -8257291670566393965
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_96: -6929106234954493913
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_97: -1532463843902356828
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_98: -5212608411125448756
+      ATLASES_ZOMBIEICEAGEZOMBOSSGROUP_1536_00_PTX_99: -4841057512146888123
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

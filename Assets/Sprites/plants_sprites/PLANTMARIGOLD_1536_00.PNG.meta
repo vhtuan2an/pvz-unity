@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 88d226e590bcb92448594a85a93e09b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6940754970000629082
+    second: PLANTMARIGOLD_1536_00_0
+  - first:
+      213: 2575728730729139860
+    second: PLANTMARIGOLD_1536_00_1
+  - first:
+      213: 8580697255782382001
+    second: PLANTMARIGOLD_1536_00_2
+  - first:
+      213: -5025192145845574179
+    second: PLANTMARIGOLD_1536_00_3
+  - first:
+      213: 5273961460393550266
+    second: PLANTMARIGOLD_1536_00_4
+  - first:
+      213: -8739618859431967542
+    second: PLANTMARIGOLD_1536_00_5
+  - first:
+      213: -169254841242797938
+    second: PLANTMARIGOLD_1536_00_6
+  - first:
+      213: -8587784978229882827
+    second: PLANTMARIGOLD_1536_00_7
+  - first:
+      213: -6489064779504380876
+    second: PLANTMARIGOLD_1536_00_8
+  - first:
+      213: -8217210218313557534
+    second: PLANTMARIGOLD_1536_00_9
+  - first:
+      213: 2930425445346386921
+    second: PLANTMARIGOLD_1536_00_10
+  - first:
+      213: -7538560941020820919
+    second: PLANTMARIGOLD_1536_00_11
+  - first:
+      213: 2365042231199053650
+    second: PLANTMARIGOLD_1536_00_12
+  - first:
+      213: 3347765959525555565
+    second: PLANTMARIGOLD_1536_00_13
+  - first:
+      213: -168845182663017923
+    second: PLANTMARIGOLD_1536_00_14
+  - first:
+      213: -9004831047570318968
+    second: PLANTMARIGOLD_1536_00_15
+  - first:
+      213: 5390540103167053274
+    second: PLANTMARIGOLD_1536_00_16
+  - first:
+      213: 2513290804624879558
+    second: PLANTMARIGOLD_1536_00_17
+  - first:
+      213: -4219063749722205014
+    second: PLANTMARIGOLD_1536_00_18
+  - first:
+      213: -9090611713449950074
+    second: PLANTMARIGOLD_1536_00_19
+  - first:
+      213: -585319963896451117
+    second: PLANTMARIGOLD_1536_00_20
+  - first:
+      213: 7078130901767397674
+    second: PLANTMARIGOLD_1536_00_21
+  - first:
+      213: -5858214088401700305
+    second: PLANTMARIGOLD_1536_00_22
+  - first:
+      213: -3976980596998408088
+    second: PLANTMARIGOLD_1536_00_23
+  - first:
+      213: -7417502058904150978
+    second: PLANTMARIGOLD_1536_00_24
+  - first:
+      213: 6945229700177338366
+    second: PLANTMARIGOLD_1536_00_25
+  - first:
+      213: -2182150418080561082
+    second: PLANTMARIGOLD_1536_00_26
+  - first:
+      213: 6956515833982134188
+    second: PLANTMARIGOLD_1536_00_27
+  - first:
+      213: -6528291048798499914
+    second: PLANTMARIGOLD_1536_00_28
+  - first:
+      213: -2212574379528007747
+    second: PLANTMARIGOLD_1536_00_29
+  - first:
+      213: -8642373196940803715
+    second: PLANTMARIGOLD_1536_00_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 443
+        width: 272
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d1aeb1fd3825060800000000000000
+      internalID: 6940754970000629082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 569
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec0e042a3deb320800000000000000
+      internalID: 2575728730729139860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 396
+        width: 125
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9f31011b2c41770800000000000000
+      internalID: 8580697255782382001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 264
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5aac23e5ee24ab0800000000000000
+      internalID: -5025192145845574179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 264
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1abdd6100e03940800000000000000
+      internalID: 5273961460393550266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 264
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c04ba3f2a6b680800000000000000
+      internalID: -8739618859431967542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 253
+        width: 139
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88353f5e9fa6adf0800000000000000
+      internalID: -169254841242797938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 153
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5301c25ff0f02d880800000000000000
+      internalID: -8587784978229882827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 153
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434942da6f532f5a0800000000000000
+      internalID: -6489064779504380876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 153
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9d5b4d7da96fd80800000000000000
+      internalID: -8217210218313557534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 142
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e323ae9a66faa820800000000000000
+      internalID: 2930425445346386921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 216
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac1d0e3c6a16790800000000000000
+      internalID: -7538560941020820919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 179
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257ba65f06152d020800000000000000
+      internalID: 2365042231199053650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 150
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d5aa82767a57e20800000000000000
+      internalID: 3347765959525555565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 42
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ab551733428adf0800000000000000
+      internalID: -168845182663017923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 42
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88999233fd9680380800000000000000
+      internalID: -9004831047570318968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 75
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add05ccd9ab0fca40800000000000000
+      internalID: 5390540103167053274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 67
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfebeabba001e220800000000000000
+      internalID: 2513290804624879558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 73
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa494198fdfd275c0800000000000000
+      internalID: -4219063749722205014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 113
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6848fcc8fc8a7d180800000000000000
+      internalID: -9090611713449950074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 84
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfe100189680e7f0800000000000000
+      internalID: -585319963896451117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 18
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21af89bd829a3260800000000000000
+      internalID: 7078130901767397674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 43
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ab0a2235173bea0800000000000000
+      internalID: -5858214088401700305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 43
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868f94dc73deec8c0800000000000000
+      internalID: -3976980596998408088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 39
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c1a425d2dbf0990800000000000000
+      internalID: -7417502058904150978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 8
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff109a6d99626060800000000000000
+      internalID: 6945229700177338366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 18
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64886db91c177b1e0800000000000000
+      internalID: -2182150418080561082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7a2e63b428a8060800000000000000
+      internalID: 6956515833982134188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 21
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbc00621e9d665a0800000000000000
+      internalID: -6528291048798499914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 25
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf4a15135b5b41e0800000000000000
+      internalID: -2212574379528007747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTMARIGOLD_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 16
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d718cfbdd5f101880800000000000000
+      internalID: -8642373196940803715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTMARIGOLD_1536_00_0: 6940754970000629082
+      PLANTMARIGOLD_1536_00_1: 2575728730729139860
+      PLANTMARIGOLD_1536_00_10: 2930425445346386921
+      PLANTMARIGOLD_1536_00_11: -7538560941020820919
+      PLANTMARIGOLD_1536_00_12: 2365042231199053650
+      PLANTMARIGOLD_1536_00_13: 3347765959525555565
+      PLANTMARIGOLD_1536_00_14: -168845182663017923
+      PLANTMARIGOLD_1536_00_15: -9004831047570318968
+      PLANTMARIGOLD_1536_00_16: 5390540103167053274
+      PLANTMARIGOLD_1536_00_17: 2513290804624879558
+      PLANTMARIGOLD_1536_00_18: -4219063749722205014
+      PLANTMARIGOLD_1536_00_19: -9090611713449950074
+      PLANTMARIGOLD_1536_00_2: 8580697255782382001
+      PLANTMARIGOLD_1536_00_20: -585319963896451117
+      PLANTMARIGOLD_1536_00_21: 7078130901767397674
+      PLANTMARIGOLD_1536_00_22: -5858214088401700305
+      PLANTMARIGOLD_1536_00_23: -3976980596998408088
+      PLANTMARIGOLD_1536_00_24: -7417502058904150978
+      PLANTMARIGOLD_1536_00_25: 6945229700177338366
+      PLANTMARIGOLD_1536_00_26: -2182150418080561082
+      PLANTMARIGOLD_1536_00_27: 6956515833982134188
+      PLANTMARIGOLD_1536_00_28: -6528291048798499914
+      PLANTMARIGOLD_1536_00_29: -2212574379528007747
+      PLANTMARIGOLD_1536_00_3: -5025192145845574179
+      PLANTMARIGOLD_1536_00_30: -8642373196940803715
+      PLANTMARIGOLD_1536_00_4: 5273961460393550266
+      PLANTMARIGOLD_1536_00_5: -8739618859431967542
+      PLANTMARIGOLD_1536_00_6: -169254841242797938
+      PLANTMARIGOLD_1536_00_7: -8587784978229882827
+      PLANTMARIGOLD_1536_00_8: -6489064779504380876
+      PLANTMARIGOLD_1536_00_9: -8217210218313557534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

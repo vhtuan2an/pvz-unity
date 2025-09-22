@@ -1,0 +1,4095 @@
+fileFormatVersion: 2
+guid: 5f0c020a6013f664da64f74b53c129c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -291984862691508451
+    second: PLANTDRAGONBRUIT_1536_00_0
+  - first:
+      213: -1641257032813352186
+    second: PLANTDRAGONBRUIT_1536_00_1
+  - first:
+      213: -2778024708058045235
+    second: PLANTDRAGONBRUIT_1536_00_2
+  - first:
+      213: -2966934726119838897
+    second: PLANTDRAGONBRUIT_1536_00_3
+  - first:
+      213: 1652892596872092090
+    second: PLANTDRAGONBRUIT_1536_00_4
+  - first:
+      213: 4011482106234197896
+    second: PLANTDRAGONBRUIT_1536_00_5
+  - first:
+      213: -494668357842163558
+    second: PLANTDRAGONBRUIT_1536_00_6
+  - first:
+      213: 1903820193875438343
+    second: PLANTDRAGONBRUIT_1536_00_7
+  - first:
+      213: -4203285550534846427
+    second: PLANTDRAGONBRUIT_1536_00_8
+  - first:
+      213: 981983324553602510
+    second: PLANTDRAGONBRUIT_1536_00_9
+  - first:
+      213: 1508572786084021804
+    second: PLANTDRAGONBRUIT_1536_00_10
+  - first:
+      213: -3983222619289306827
+    second: PLANTDRAGONBRUIT_1536_00_11
+  - first:
+      213: -7764389241246775672
+    second: PLANTDRAGONBRUIT_1536_00_12
+  - first:
+      213: 6955053581770551872
+    second: PLANTDRAGONBRUIT_1536_00_13
+  - first:
+      213: -4067184877430337822
+    second: PLANTDRAGONBRUIT_1536_00_14
+  - first:
+      213: -2220216513886436570
+    second: PLANTDRAGONBRUIT_1536_00_15
+  - first:
+      213: 3248008730934016761
+    second: PLANTDRAGONBRUIT_1536_00_16
+  - first:
+      213: 7602224497584823984
+    second: PLANTDRAGONBRUIT_1536_00_17
+  - first:
+      213: -6370625643003613492
+    second: PLANTDRAGONBRUIT_1536_00_18
+  - first:
+      213: 5175250125915808524
+    second: PLANTDRAGONBRUIT_1536_00_19
+  - first:
+      213: -6789021879592377947
+    second: PLANTDRAGONBRUIT_1536_00_20
+  - first:
+      213: -2082625259238356033
+    second: PLANTDRAGONBRUIT_1536_00_21
+  - first:
+      213: -8115501456908766158
+    second: PLANTDRAGONBRUIT_1536_00_22
+  - first:
+      213: 5828446338982339230
+    second: PLANTDRAGONBRUIT_1536_00_23
+  - first:
+      213: 8338900009639230939
+    second: PLANTDRAGONBRUIT_1536_00_24
+  - first:
+      213: 1550725561857645814
+    second: PLANTDRAGONBRUIT_1536_00_25
+  - first:
+      213: -4026294758342335650
+    second: PLANTDRAGONBRUIT_1536_00_26
+  - first:
+      213: -4375150084655374426
+    second: PLANTDRAGONBRUIT_1536_00_27
+  - first:
+      213: -8952645364106756257
+    second: PLANTDRAGONBRUIT_1536_00_28
+  - first:
+      213: -6794532736946121872
+    second: PLANTDRAGONBRUIT_1536_00_29
+  - first:
+      213: -1851567684352098674
+    second: PLANTDRAGONBRUIT_1536_00_30
+  - first:
+      213: 301596259508593084
+    second: PLANTDRAGONBRUIT_1536_00_31
+  - first:
+      213: -8004229088675145088
+    second: PLANTDRAGONBRUIT_1536_00_32
+  - first:
+      213: -320768887838680133
+    second: PLANTDRAGONBRUIT_1536_00_33
+  - first:
+      213: -1859517864034165380
+    second: PLANTDRAGONBRUIT_1536_00_34
+  - first:
+      213: 8652996161886063782
+    second: PLANTDRAGONBRUIT_1536_00_35
+  - first:
+      213: -7249027409791834647
+    second: PLANTDRAGONBRUIT_1536_00_36
+  - first:
+      213: 2157203996873620745
+    second: PLANTDRAGONBRUIT_1536_00_37
+  - first:
+      213: -3544088632472545919
+    second: PLANTDRAGONBRUIT_1536_00_38
+  - first:
+      213: 8303341426433119457
+    second: PLANTDRAGONBRUIT_1536_00_39
+  - first:
+      213: -4329346982706492899
+    second: PLANTDRAGONBRUIT_1536_00_40
+  - first:
+      213: 3209730500903052159
+    second: PLANTDRAGONBRUIT_1536_00_41
+  - first:
+      213: 6620259427447765060
+    second: PLANTDRAGONBRUIT_1536_00_42
+  - first:
+      213: -657247712511180068
+    second: PLANTDRAGONBRUIT_1536_00_43
+  - first:
+      213: 8827422746966761882
+    second: PLANTDRAGONBRUIT_1536_00_44
+  - first:
+      213: -1995488489142363435
+    second: PLANTDRAGONBRUIT_1536_00_45
+  - first:
+      213: 7109104730108321805
+    second: PLANTDRAGONBRUIT_1536_00_46
+  - first:
+      213: -259474019779835585
+    second: PLANTDRAGONBRUIT_1536_00_47
+  - first:
+      213: -6794085291069024884
+    second: PLANTDRAGONBRUIT_1536_00_48
+  - first:
+      213: 960004805926767659
+    second: PLANTDRAGONBRUIT_1536_00_49
+  - first:
+      213: 1478471564582364537
+    second: PLANTDRAGONBRUIT_1536_00_50
+  - first:
+      213: 1980398879749483018
+    second: PLANTDRAGONBRUIT_1536_00_51
+  - first:
+      213: -7443734756486932041
+    second: PLANTDRAGONBRUIT_1536_00_52
+  - first:
+      213: 2474943532819329807
+    second: PLANTDRAGONBRUIT_1536_00_53
+  - first:
+      213: 1348726842247342939
+    second: PLANTDRAGONBRUIT_1536_00_54
+  - first:
+      213: 7342263560367812355
+    second: PLANTDRAGONBRUIT_1536_00_55
+  - first:
+      213: 5063268941485510279
+    second: PLANTDRAGONBRUIT_1536_00_56
+  - first:
+      213: -3983217964007696378
+    second: PLANTDRAGONBRUIT_1536_00_57
+  - first:
+      213: 6364880684547109623
+    second: PLANTDRAGONBRUIT_1536_00_58
+  - first:
+      213: 3094055144004495600
+    second: PLANTDRAGONBRUIT_1536_00_59
+  - first:
+      213: 405487966707326321
+    second: PLANTDRAGONBRUIT_1536_00_60
+  - first:
+      213: -4221320392092062648
+    second: PLANTDRAGONBRUIT_1536_00_61
+  - first:
+      213: -5135846619063427220
+    second: PLANTDRAGONBRUIT_1536_00_62
+  - first:
+      213: 5506866835795285546
+    second: PLANTDRAGONBRUIT_1536_00_63
+  - first:
+      213: -8350829036337097135
+    second: PLANTDRAGONBRUIT_1536_00_64
+  - first:
+      213: -6793666949513167026
+    second: PLANTDRAGONBRUIT_1536_00_65
+  - first:
+      213: 5558970380345960305
+    second: PLANTDRAGONBRUIT_1536_00_66
+  - first:
+      213: -3779107316076240204
+    second: PLANTDRAGONBRUIT_1536_00_67
+  - first:
+      213: 963759289533913611
+    second: PLANTDRAGONBRUIT_1536_00_68
+  - first:
+      213: -2363984804050083452
+    second: PLANTDRAGONBRUIT_1536_00_69
+  - first:
+      213: 1507416383782322476
+    second: PLANTDRAGONBRUIT_1536_00_70
+  - first:
+      213: -6587964677372665748
+    second: PLANTDRAGONBRUIT_1536_00_71
+  - first:
+      213: -5944706798548947987
+    second: PLANTDRAGONBRUIT_1536_00_72
+  - first:
+      213: -5655764575733102470
+    second: PLANTDRAGONBRUIT_1536_00_73
+  - first:
+      213: -8304698435247812009
+    second: PLANTDRAGONBRUIT_1536_00_74
+  - first:
+      213: -2624383781071425351
+    second: PLANTDRAGONBRUIT_1536_00_75
+  - first:
+      213: -4661913456276886314
+    second: PLANTDRAGONBRUIT_1536_00_76
+  - first:
+      213: 6300930889076846090
+    second: PLANTDRAGONBRUIT_1536_00_77
+  - first:
+      213: 6765950671601756382
+    second: PLANTDRAGONBRUIT_1536_00_78
+  - first:
+      213: 9214262502937369301
+    second: PLANTDRAGONBRUIT_1536_00_79
+  - first:
+      213: 247246398081722592
+    second: PLANTDRAGONBRUIT_1536_00_80
+  - first:
+      213: 5194479112908403433
+    second: PLANTDRAGONBRUIT_1536_00_81
+  - first:
+      213: -8428667464701496158
+    second: PLANTDRAGONBRUIT_1536_00_82
+  - first:
+      213: 8901365021051978454
+    second: PLANTDRAGONBRUIT_1536_00_83
+  - first:
+      213: -3745779560119128422
+    second: PLANTDRAGONBRUIT_1536_00_84
+  - first:
+      213: -4521953082564134207
+    second: PLANTDRAGONBRUIT_1536_00_85
+  - first:
+      213: 6805535156429719835
+    second: PLANTDRAGONBRUIT_1536_00_86
+  - first:
+      213: -1452322992958942062
+    second: PLANTDRAGONBRUIT_1536_00_87
+  - first:
+      213: -7100243126253707101
+    second: PLANTDRAGONBRUIT_1536_00_88
+  - first:
+      213: -7295675210336169807
+    second: PLANTDRAGONBRUIT_1536_00_89
+  - first:
+      213: 5290954903117968789
+    second: PLANTDRAGONBRUIT_1536_00_90
+  - first:
+      213: 5463799239491398620
+    second: PLANTDRAGONBRUIT_1536_00_91
+  - first:
+      213: 5651248739296306082
+    second: PLANTDRAGONBRUIT_1536_00_92
+  - first:
+      213: -7039444602709057454
+    second: PLANTDRAGONBRUIT_1536_00_93
+  - first:
+      213: 7547408588376312173
+    second: PLANTDRAGONBRUIT_1536_00_94
+  - first:
+      213: 7490937907858621613
+    second: PLANTDRAGONBRUIT_1536_00_95
+  - first:
+      213: -6785741122377746861
+    second: PLANTDRAGONBRUIT_1536_00_96
+  - first:
+      213: -4181138163725347158
+    second: PLANTDRAGONBRUIT_1536_00_97
+  - first:
+      213: -4478670644195165823
+    second: PLANTDRAGONBRUIT_1536_00_98
+  - first:
+      213: 162082483762391309
+    second: PLANTDRAGONBRUIT_1536_00_99
+  - first:
+      213: 8598093870767374053
+    second: PLANTDRAGONBRUIT_1536_00_100
+  - first:
+      213: -1684494949378395047
+    second: PLANTDRAGONBRUIT_1536_00_101
+  - first:
+      213: -8164593335246399232
+    second: PLANTDRAGONBRUIT_1536_00_102
+  - first:
+      213: 8340450468983761836
+    second: PLANTDRAGONBRUIT_1536_00_103
+  - first:
+      213: 946683288284462246
+    second: PLANTDRAGONBRUIT_1536_00_104
+  - first:
+      213: -7543440882325431776
+    second: PLANTDRAGONBRUIT_1536_00_105
+  - first:
+      213: 8617859347716816892
+    second: PLANTDRAGONBRUIT_1536_00_106
+  - first:
+      213: 2274455345651790258
+    second: PLANTDRAGONBRUIT_1536_00_107
+  - first:
+      213: -4912361785381396242
+    second: PLANTDRAGONBRUIT_1536_00_108
+  - first:
+      213: 4596001354407182694
+    second: PLANTDRAGONBRUIT_1536_00_109
+  - first:
+      213: 4699879373338115412
+    second: PLANTDRAGONBRUIT_1536_00_110
+  - first:
+      213: -3017035836372036052
+    second: PLANTDRAGONBRUIT_1536_00_111
+  - first:
+      213: -4350635086482605245
+    second: PLANTDRAGONBRUIT_1536_00_112
+  - first:
+      213: 1863559407499382410
+    second: PLANTDRAGONBRUIT_1536_00_113
+  - first:
+      213: -8764106987395460497
+    second: PLANTDRAGONBRUIT_1536_00_114
+  - first:
+      213: 8229657564760287672
+    second: PLANTDRAGONBRUIT_1536_00_115
+  - first:
+      213: 1747659580889201272
+    second: PLANTDRAGONBRUIT_1536_00_116
+  - first:
+      213: -8672634811073213567
+    second: PLANTDRAGONBRUIT_1536_00_117
+  - first:
+      213: -3341785228754235258
+    second: PLANTDRAGONBRUIT_1536_00_118
+  - first:
+      213: 2587230377782810837
+    second: PLANTDRAGONBRUIT_1536_00_119
+  - first:
+      213: 1602464899955223411
+    second: PLANTDRAGONBRUIT_1536_00_120
+  - first:
+      213: 5299858122687860943
+    second: PLANTDRAGONBRUIT_1536_00_121
+  - first:
+      213: -2954363183933229840
+    second: PLANTDRAGONBRUIT_1536_00_122
+  - first:
+      213: -2019653412224132044
+    second: PLANTDRAGONBRUIT_1536_00_123
+  - first:
+      213: 1141612419464723936
+    second: PLANTDRAGONBRUIT_1536_00_124
+  - first:
+      213: 569547783407572162
+    second: PLANTDRAGONBRUIT_1536_00_125
+  - first:
+      213: 1908537083741393351
+    second: PLANTDRAGONBRUIT_1536_00_126
+  - first:
+      213: 4756533093338134001
+    second: PLANTDRAGONBRUIT_1536_00_127
+  - first:
+      213: 5931830905360968996
+    second: PLANTDRAGONBRUIT_1536_00_128
+  - first:
+      213: -8076934138208046041
+    second: PLANTDRAGONBRUIT_1536_00_129
+  - first:
+      213: 8696799340358744272
+    second: PLANTDRAGONBRUIT_1536_00_130
+  - first:
+      213: -6293072113721964009
+    second: PLANTDRAGONBRUIT_1536_00_131
+  - first:
+      213: -2136351641102500160
+    second: PLANTDRAGONBRUIT_1536_00_132
+  - first:
+      213: -8189955599623316728
+    second: PLANTDRAGONBRUIT_1536_00_133
+  - first:
+      213: -5680329118360331508
+    second: PLANTDRAGONBRUIT_1536_00_134
+  - first:
+      213: 2376803735710043417
+    second: PLANTDRAGONBRUIT_1536_00_135
+  - first:
+      213: -8584927101202585936
+    second: PLANTDRAGONBRUIT_1536_00_136
+  - first:
+      213: 7064571652171987668
+    second: PLANTDRAGONBRUIT_1536_00_137
+  - first:
+      213: -6858073114562063179
+    second: PLANTDRAGONBRUIT_1536_00_138
+  - first:
+      213: 4107417962018587046
+    second: PLANTDRAGONBRUIT_1536_00_139
+  - first:
+      213: 8228322563482407263
+    second: PLANTDRAGONBRUIT_1536_00_140
+  - first:
+      213: -4705387243894049766
+    second: PLANTDRAGONBRUIT_1536_00_141
+  - first:
+      213: 2271111208345804816
+    second: PLANTDRAGONBRUIT_1536_00_142
+  - first:
+      213: -2894138212984775760
+    second: PLANTDRAGONBRUIT_1536_00_143
+  - first:
+      213: 6971421324081578791
+    second: PLANTDRAGONBRUIT_1536_00_144
+  - first:
+      213: 6371389604868897288
+    second: PLANTDRAGONBRUIT_1536_00_145
+  - first:
+      213: 1035955636219750732
+    second: PLANTDRAGONBRUIT_1536_00_146
+  - first:
+      213: 4466194744544079984
+    second: PLANTDRAGONBRUIT_1536_00_147
+  - first:
+      213: -4822230171522770141
+    second: PLANTDRAGONBRUIT_1536_00_148
+  - first:
+      213: 5387284667093150192
+    second: PLANTDRAGONBRUIT_1536_00_149
+  - first:
+      213: -4359379640280350418
+    second: PLANTDRAGONBRUIT_1536_00_150
+  - first:
+      213: 515236252653361159
+    second: PLANTDRAGONBRUIT_1536_00_151
+  - first:
+      213: 904670411588337045
+    second: PLANTDRAGONBRUIT_1536_00_152
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 925
+        width: 424
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f3b7b7059a2fbf0800000000000000
+      internalID: -291984862691508451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 937
+        width: 400
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b6c06ac651939e0800000000000000
+      internalID: -1641257032813352186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 972
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc421f22f397279d0800000000000000
+      internalID: -2778024708058045235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1295
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b2bd9069453d6d0800000000000000
+      internalID: -2966934726119838897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1277
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab91f683f0140f610800000000000000
+      internalID: 1652892596872092090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1295
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887dcecc8b5aba730800000000000000
+      internalID: 4011482106234197896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1262
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a982139dfb59229f0800000000000000
+      internalID: -494668357842163558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b2924216abb6a10800000000000000
+      internalID: 1903820193875438343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 969
+        width: 313
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52896decf0eeaa5c0800000000000000
+      internalID: -4203285550534846427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 969
+        width: 313
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5ef5381a4b0ad00800000000000000
+      internalID: 981983324553602510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1245
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c260c58c4f68fe410800000000000000
+      internalID: 1508572786084021804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1256
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539b5fbb120c8b8c0800000000000000
+      internalID: -3983222619289306827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1198
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8860f916f195f3490800000000000000
+      internalID: -7764389241246775672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1151
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042fd371260558060800000000000000
+      internalID: 6955053581770551872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1099
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee8ce027e47e87c0800000000000000
+      internalID: -4067184877430337822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1047
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623c75508d43031e0800000000000000
+      internalID: -2220216513886436570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 997
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa70ba6bbe331d20800000000000000
+      internalID: 3248008730934016761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 639
+        width: 358
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bed059f6e6808960800000000000000
+      internalID: 7602224497584823984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 947
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce66cf0bbdf697a0800000000000000
+      internalID: -6370625643003613492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 609
+        width: 340
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03e103e19e22d740800000000000000
+      internalID: 5175250125915808524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 878
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1aa8ef19c88c1a0800000000000000
+      internalID: -6789021879592377947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 614
+        width: 340
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb87d66c570913e0800000000000000
+      internalID: -2082625259238356033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 879
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234b9c63c62ff5f80800000000000000
+      internalID: -8115501456908766158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 889
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92e77b901dc2e050800000000000000
+      internalID: 5828446338982339230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 897
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd3c0c9069b9b370800000000000000
+      internalID: 8338900009639230939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 915
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc94a2bea8458510800000000000000
+      internalID: 1550725561857645814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 834
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53ecffdf3abf18c0800000000000000
+      internalID: -4026294758342335650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 831
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af9815bd285843c0800000000000000
+      internalID: -4375150084655374426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 627
+        width: 288
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f7e587970d1c380800000000000000
+      internalID: -8952645364106756257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 627
+        width: 288
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07350978978f4b1a0800000000000000
+      internalID: -6794532736946121872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 838
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8eb9984009ed46e0800000000000000
+      internalID: -1851567684352098674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 850
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1a899333c7f2400800000000000000
+      internalID: 301596259508593084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 790
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a5ba45d044be090800000000000000
+      internalID: -8004229088675145088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 793
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbd06165666c8bf0800000000000000
+      internalID: -320768887838680133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 800
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d10c4da5aa136e0800000000000000
+      internalID: -1859517864034165380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 806
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac8908e92e951870800000000000000
+      internalID: 8652996161886063782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 747
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5a9405af7466b90800000000000000
+      internalID: -7249027409791834647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 746
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d74b51b9defed10800000000000000
+      internalID: 2157203996873620745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 750
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18559f88a2ed0dec0800000000000000
+      internalID: -3544088632472545919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 770
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4d45bc8056b3370800000000000000
+      internalID: 8303341426433119457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 757
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ace5a6bd11be3c0800000000000000
+      internalID: -4329346982706492899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 775
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73201b72e04b8c20800000000000000
+      internalID: 3209730500903052159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 763
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44874f5afd2efdb50800000000000000
+      internalID: 6620259427447765060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 770
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2455e00bcf0e6f0800000000000000
+      internalID: -657247712511180068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 755
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91282bf73e418a70800000000000000
+      internalID: 8827422746966761882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 752
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dad94baac99e44e0800000000000000
+      internalID: -1995488489142363435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 719
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00e72d161d98a260800000000000000
+      internalID: 7109104730108321805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 716
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f398496f0c9266cf0800000000000000
+      internalID: -259474019779835585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 708
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85df14ac6f86b1a0800000000000000
+      internalID: -6794085291069024884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 720
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cceefd84f925d00800000000000000
+      internalID: 960004805926767659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 703
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975a2710e06948410800000000000000
+      internalID: 1478471564582364537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 706
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0aac0dd94acb7b10800000000000000
+      internalID: 1980398879749483018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 713
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b91e557daa82b890800000000000000
+      internalID: -7443734756486932041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 734
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03b8d0c704c85220800000000000000
+      internalID: 2474943532819329807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 718
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bef2bcae3a7b210800000000000000
+      internalID: 1348726842247342939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 669
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fa403aec5f4e560800000000000000
+      internalID: 7342263560367812355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 692
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e0383a648544640800000000000000
+      internalID: 5063268941485510279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 664
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608dd50ad54c8b8c0800000000000000
+      internalID: -3983217964007696378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 687
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2fc209249945850800000000000000
+      internalID: 6364880684547109623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 674
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8abdda2ca40fa20800000000000000
+      internalID: 3094055144004495600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 677
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d1948482590a500800000000000000
+      internalID: 405487966707326321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 661
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c6d3a087bda65c0800000000000000
+      internalID: -4221320392092062648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 680
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f55d9f5bec9b8b0800000000000000
+      internalID: -5135846619063427220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 614
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2615f4e5325c6c40800000000000000
+      internalID: 5506866835795285546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 614
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1561c1d6c35eb1c80800000000000000
+      internalID: -8350829036337097135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 609
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fb4ff57eb08b1a0800000000000000
+      internalID: -6793666949513167026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 613
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1776075bb1e652d40800000000000000
+      internalID: 5558970380345960305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 638
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b222392be9ed8bc0800000000000000
+      internalID: -3779107316076240204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 638
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ad6a5b7f5ff5d00800000000000000
+      internalID: 963759289533913611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 610
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4816c2c7850713fd0800000000000000
+      internalID: -2363984804050083452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 319
+        width: 267
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2103f3e63b6be410800000000000000
+      internalID: 1507416383782322476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 569
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60a16cc709d294a0800000000000000
+      internalID: -6587964677372665748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 324
+        width: 267
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debe3a2c9a8208da0800000000000000
+      internalID: -5944706798548947987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 487
+        width: 223
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78c03a7510b281b0800000000000000
+      internalID: -5655764575733102470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 487
+        width: 183
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752df48f5c8cfbc80800000000000000
+      internalID: -8304698435247812009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 452
+        width: 251
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0f0fe0bd0549bd0800000000000000
+      internalID: -2624383781071425351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 363
+        width: 290
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dca001596e8d4fb0800000000000000
+      internalID: -4661913456276886314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 373
+        width: 131
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e26b58247617750800000000000000
+      internalID: 6300930889076846090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 573
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed863acc94c75ed50800000000000000
+      internalID: 6765950671601756382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 528
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da98ca5de2afdf70800000000000000
+      internalID: 9214262502937369301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 537
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8e7a10a456e6300800000000000000
+      internalID: 247246398081722592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 496
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2771e4b3f761840800000000000000
+      internalID: 5194479112908403433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 468
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4339c099b570b80800000000000000
+      internalID: -8428667464701496158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 468
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d204ef3350088b70800000000000000
+      internalID: 8901365021051978454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 496
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e2e280651540cc0800000000000000
+      internalID: -3745779560119128422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 464
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca38c631abce31c0800000000000000
+      internalID: -4521953082564134207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 467
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b190d61ea2e127e50800000000000000
+      internalID: 6805535156429719835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 427
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294dc81ceef48dbe0800000000000000
+      internalID: -1452322992958942062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 427
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a02db0de7ed67d90800000000000000
+      internalID: -7100243126253707101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 427
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b01a43ec0e80ca90800000000000000
+      internalID: -7295675210336169807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 427
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59535f2a37f3d6940800000000000000
+      internalID: 5290954903117968789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 414
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb2fe9b57053db40800000000000000
+      internalID: 5463799239491398620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 414
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3612b69c44d6e40800000000000000
+      internalID: 5651248739296306082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 312
+        width: 172
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2506c7f2e6ede4e90800000000000000
+      internalID: -7039444602709057454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 404
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6907ec8f18cdb860800000000000000
+      internalID: 7547408588376312173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 404
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4cb68a65825f760800000000000000
+      internalID: 7490937907858621613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 297
+        width: 172
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356f9eec66434d1a0800000000000000
+      internalID: -6785741122377746861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 143
+        width: 131
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa652522efc99f5c0800000000000000
+      internalID: -4181138163725347158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 283
+        width: 108
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189f6c237c098d1c0800000000000000
+      internalID: -4478670644195165823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 330
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0968f40925df3200800000000000000
+      internalID: 162082483762391309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 226
+        width: 185
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee7d8022d0925770800000000000000
+      internalID: 8598093870767374053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 226
+        width: 185
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9547c54b4c87f98e0800000000000000
+      internalID: -1684494949378395047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 337
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009dd159e9981be80800000000000000
+      internalID: -8164593335246399232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 315
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab648e038b3fb370800000000000000
+      internalID: 8340450468983761836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 277
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac7ef85f6b432d00800000000000000
+      internalID: 946683288284462246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 292
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a55d00c70505790800000000000000
+      internalID: -7543440882325431776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 310
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffb0f8da69c89770800000000000000
+      internalID: 8617859347716816892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 116
+        width: 161
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b13017161d709f10800000000000000
+      internalID: 2274455345651790258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 187
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee06326abf8c3dbb0800000000000000
+      internalID: -4912361785381396242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 137
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66187a491e648cf30800000000000000
+      internalID: 4596001354407182694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 268
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45df0079363593140800000000000000
+      internalID: 4699879373338115412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 283
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26db6a44e55126d0800000000000000
+      internalID: -3017035836372036052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 229
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b7ad280707f93c0800000000000000
+      internalID: -4350635086482605245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 233
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e86d55861bcd910800000000000000
+      internalID: 1863559407499382410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 256
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6256c21123af5680800000000000000
+      internalID: -8764106987395460497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 247
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9a4aad3fd953270800000000000000
+      internalID: 8229657564760287672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 257
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a753b112fe04810800000000000000
+      internalID: 1747659580889201272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 264
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b4b43c69c94a780800000000000000
+      internalID: -8672634811073213567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 264
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680d47c3a089f91d0800000000000000
+      internalID: -3341785228754235258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 241
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d818d32250b7e320800000000000000
+      internalID: 2587230377782810837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 232
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37becd616591d3610800000000000000
+      internalID: 1602464899955223411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 242
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc057caf1e0ec8940800000000000000
+      internalID: 5299858122687860943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 239
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4fa2c465efff6d0800000000000000
+      internalID: -2954363183933229840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c99f21cefb8f3e0800000000000000
+      internalID: -2019653412224132044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 55
+        width: 160
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed7e5d6272d7df00800000000000000
+      internalID: 1141612419464723936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 123
+        width: 175
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c49e9001b077e700800000000000000
+      internalID: 569547783407572162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 108
+        width: 175
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1d015ad5c7c7a10800000000000000
+      internalID: 1908537083741393351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 88
+        width: 191
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f53fcea5a9920240800000000000000
+      internalID: 4756533093338134001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 187
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d69bdb7c8125250800000000000000
+      internalID: 5931830905360968996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 192
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72432e9d137f8ef80800000000000000
+      internalID: -8076934138208046041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 187
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d83fe42cec31b870800000000000000
+      internalID: 8696799340358744272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 192
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a8fa331448aa8a0800000000000000
+      internalID: -6293072113721964009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 145
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce33c450872a52e0800000000000000
+      internalID: -2136351641102500160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 160
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b1b3e36ce675e80800000000000000
+      internalID: -8189955599623316728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 52
+        width: 191
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b13d433ca6b21b0800000000000000
+      internalID: -5680329118360331508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 49
+        width: 147
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d81df976a1cf020800000000000000
+      internalID: 2376803735710043417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 53
+        width: 143
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6223e49463cd880800000000000000
+      internalID: -8584927101202585936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da710aec766a0260800000000000000
+      internalID: 7064571652171987668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 18
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b41fd286da33d0a0800000000000000
+      internalID: -6858073114562063179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 143
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a14d2adfda700930800000000000000
+      internalID: 4107417962018587046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 27
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5153b5a6cfd03270800000000000000
+      internalID: 8228322563482407263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 81
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a147a0d5b3b13beb0800000000000000
+      internalID: -4705387243894049766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 81
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0102cd27c9b948f10800000000000000
+      internalID: 2271111208345804816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 57
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb982c01a4f5d7d0800000000000000
+      internalID: -2894138212984775760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 96
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723477112c67fb060800000000000000
+      internalID: 6971421324081578791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 96
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ab3dba619bb6850800000000000000
+      internalID: 6371389604868897288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 96
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4921f39924706e00800000000000000
+      internalID: 1035955636219750732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 15
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070344e057c1bfd30800000000000000
+      internalID: 4466194744544079984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 7
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd631553ff31db0800000000000000
+      internalID: -4822230171522770141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 19
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9eef59cda73ca40800000000000000
+      internalID: 5387284667093150192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 61
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21050c605f5083c0800000000000000
+      internalID: -4359379640280350418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 19
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7089ec654ac762700800000000000000
+      internalID: 515236252653361159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDRAGONBRUIT_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 18
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d778932f80e8c00800000000000000
+      internalID: 904670411588337045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTDRAGONBRUIT_1536_00_0: -291984862691508451
+      PLANTDRAGONBRUIT_1536_00_1: -1641257032813352186
+      PLANTDRAGONBRUIT_1536_00_10: 1508572786084021804
+      PLANTDRAGONBRUIT_1536_00_100: 8598093870767374053
+      PLANTDRAGONBRUIT_1536_00_101: -1684494949378395047
+      PLANTDRAGONBRUIT_1536_00_102: -8164593335246399232
+      PLANTDRAGONBRUIT_1536_00_103: 8340450468983761836
+      PLANTDRAGONBRUIT_1536_00_104: 946683288284462246
+      PLANTDRAGONBRUIT_1536_00_105: -7543440882325431776
+      PLANTDRAGONBRUIT_1536_00_106: 8617859347716816892
+      PLANTDRAGONBRUIT_1536_00_107: 2274455345651790258
+      PLANTDRAGONBRUIT_1536_00_108: -4912361785381396242
+      PLANTDRAGONBRUIT_1536_00_109: 4596001354407182694
+      PLANTDRAGONBRUIT_1536_00_11: -3983222619289306827
+      PLANTDRAGONBRUIT_1536_00_110: 4699879373338115412
+      PLANTDRAGONBRUIT_1536_00_111: -3017035836372036052
+      PLANTDRAGONBRUIT_1536_00_112: -4350635086482605245
+      PLANTDRAGONBRUIT_1536_00_113: 1863559407499382410
+      PLANTDRAGONBRUIT_1536_00_114: -8764106987395460497
+      PLANTDRAGONBRUIT_1536_00_115: 8229657564760287672
+      PLANTDRAGONBRUIT_1536_00_116: 1747659580889201272
+      PLANTDRAGONBRUIT_1536_00_117: -8672634811073213567
+      PLANTDRAGONBRUIT_1536_00_118: -3341785228754235258
+      PLANTDRAGONBRUIT_1536_00_119: 2587230377782810837
+      PLANTDRAGONBRUIT_1536_00_12: -7764389241246775672
+      PLANTDRAGONBRUIT_1536_00_120: 1602464899955223411
+      PLANTDRAGONBRUIT_1536_00_121: 5299858122687860943
+      PLANTDRAGONBRUIT_1536_00_122: -2954363183933229840
+      PLANTDRAGONBRUIT_1536_00_123: -2019653412224132044
+      PLANTDRAGONBRUIT_1536_00_124: 1141612419464723936
+      PLANTDRAGONBRUIT_1536_00_125: 569547783407572162
+      PLANTDRAGONBRUIT_1536_00_126: 1908537083741393351
+      PLANTDRAGONBRUIT_1536_00_127: 4756533093338134001
+      PLANTDRAGONBRUIT_1536_00_128: 5931830905360968996
+      PLANTDRAGONBRUIT_1536_00_129: -8076934138208046041
+      PLANTDRAGONBRUIT_1536_00_13: 6955053581770551872
+      PLANTDRAGONBRUIT_1536_00_130: 8696799340358744272
+      PLANTDRAGONBRUIT_1536_00_131: -6293072113721964009
+      PLANTDRAGONBRUIT_1536_00_132: -2136351641102500160
+      PLANTDRAGONBRUIT_1536_00_133: -8189955599623316728
+      PLANTDRAGONBRUIT_1536_00_134: -5680329118360331508
+      PLANTDRAGONBRUIT_1536_00_135: 2376803735710043417
+      PLANTDRAGONBRUIT_1536_00_136: -8584927101202585936
+      PLANTDRAGONBRUIT_1536_00_137: 7064571652171987668
+      PLANTDRAGONBRUIT_1536_00_138: -6858073114562063179
+      PLANTDRAGONBRUIT_1536_00_139: 4107417962018587046
+      PLANTDRAGONBRUIT_1536_00_14: -4067184877430337822
+      PLANTDRAGONBRUIT_1536_00_140: 8228322563482407263
+      PLANTDRAGONBRUIT_1536_00_141: -4705387243894049766
+      PLANTDRAGONBRUIT_1536_00_142: 2271111208345804816
+      PLANTDRAGONBRUIT_1536_00_143: -2894138212984775760
+      PLANTDRAGONBRUIT_1536_00_144: 6971421324081578791
+      PLANTDRAGONBRUIT_1536_00_145: 6371389604868897288
+      PLANTDRAGONBRUIT_1536_00_146: 1035955636219750732
+      PLANTDRAGONBRUIT_1536_00_147: 4466194744544079984
+      PLANTDRAGONBRUIT_1536_00_148: -4822230171522770141
+      PLANTDRAGONBRUIT_1536_00_149: 5387284667093150192
+      PLANTDRAGONBRUIT_1536_00_15: -2220216513886436570
+      PLANTDRAGONBRUIT_1536_00_150: -4359379640280350418
+      PLANTDRAGONBRUIT_1536_00_151: 515236252653361159
+      PLANTDRAGONBRUIT_1536_00_152: 904670411588337045
+      PLANTDRAGONBRUIT_1536_00_16: 3248008730934016761
+      PLANTDRAGONBRUIT_1536_00_17: 7602224497584823984
+      PLANTDRAGONBRUIT_1536_00_18: -6370625643003613492
+      PLANTDRAGONBRUIT_1536_00_19: 5175250125915808524
+      PLANTDRAGONBRUIT_1536_00_2: -2778024708058045235
+      PLANTDRAGONBRUIT_1536_00_20: -6789021879592377947
+      PLANTDRAGONBRUIT_1536_00_21: -2082625259238356033
+      PLANTDRAGONBRUIT_1536_00_22: -8115501456908766158
+      PLANTDRAGONBRUIT_1536_00_23: 5828446338982339230
+      PLANTDRAGONBRUIT_1536_00_24: 8338900009639230939
+      PLANTDRAGONBRUIT_1536_00_25: 1550725561857645814
+      PLANTDRAGONBRUIT_1536_00_26: -4026294758342335650
+      PLANTDRAGONBRUIT_1536_00_27: -4375150084655374426
+      PLANTDRAGONBRUIT_1536_00_28: -8952645364106756257
+      PLANTDRAGONBRUIT_1536_00_29: -6794532736946121872
+      PLANTDRAGONBRUIT_1536_00_3: -2966934726119838897
+      PLANTDRAGONBRUIT_1536_00_30: -1851567684352098674
+      PLANTDRAGONBRUIT_1536_00_31: 301596259508593084
+      PLANTDRAGONBRUIT_1536_00_32: -8004229088675145088
+      PLANTDRAGONBRUIT_1536_00_33: -320768887838680133
+      PLANTDRAGONBRUIT_1536_00_34: -1859517864034165380
+      PLANTDRAGONBRUIT_1536_00_35: 8652996161886063782
+      PLANTDRAGONBRUIT_1536_00_36: -7249027409791834647
+      PLANTDRAGONBRUIT_1536_00_37: 2157203996873620745
+      PLANTDRAGONBRUIT_1536_00_38: -3544088632472545919
+      PLANTDRAGONBRUIT_1536_00_39: 8303341426433119457
+      PLANTDRAGONBRUIT_1536_00_4: 1652892596872092090
+      PLANTDRAGONBRUIT_1536_00_40: -4329346982706492899
+      PLANTDRAGONBRUIT_1536_00_41: 3209730500903052159
+      PLANTDRAGONBRUIT_1536_00_42: 6620259427447765060
+      PLANTDRAGONBRUIT_1536_00_43: -657247712511180068
+      PLANTDRAGONBRUIT_1536_00_44: 8827422746966761882
+      PLANTDRAGONBRUIT_1536_00_45: -1995488489142363435
+      PLANTDRAGONBRUIT_1536_00_46: 7109104730108321805
+      PLANTDRAGONBRUIT_1536_00_47: -259474019779835585
+      PLANTDRAGONBRUIT_1536_00_48: -6794085291069024884
+      PLANTDRAGONBRUIT_1536_00_49: 960004805926767659
+      PLANTDRAGONBRUIT_1536_00_5: 4011482106234197896
+      PLANTDRAGONBRUIT_1536_00_50: 1478471564582364537
+      PLANTDRAGONBRUIT_1536_00_51: 1980398879749483018
+      PLANTDRAGONBRUIT_1536_00_52: -7443734756486932041
+      PLANTDRAGONBRUIT_1536_00_53: 2474943532819329807
+      PLANTDRAGONBRUIT_1536_00_54: 1348726842247342939
+      PLANTDRAGONBRUIT_1536_00_55: 7342263560367812355
+      PLANTDRAGONBRUIT_1536_00_56: 5063268941485510279
+      PLANTDRAGONBRUIT_1536_00_57: -3983217964007696378
+      PLANTDRAGONBRUIT_1536_00_58: 6364880684547109623
+      PLANTDRAGONBRUIT_1536_00_59: 3094055144004495600
+      PLANTDRAGONBRUIT_1536_00_6: -494668357842163558
+      PLANTDRAGONBRUIT_1536_00_60: 405487966707326321
+      PLANTDRAGONBRUIT_1536_00_61: -4221320392092062648
+      PLANTDRAGONBRUIT_1536_00_62: -5135846619063427220
+      PLANTDRAGONBRUIT_1536_00_63: 5506866835795285546
+      PLANTDRAGONBRUIT_1536_00_64: -8350829036337097135
+      PLANTDRAGONBRUIT_1536_00_65: -6793666949513167026
+      PLANTDRAGONBRUIT_1536_00_66: 5558970380345960305
+      PLANTDRAGONBRUIT_1536_00_67: -3779107316076240204
+      PLANTDRAGONBRUIT_1536_00_68: 963759289533913611
+      PLANTDRAGONBRUIT_1536_00_69: -2363984804050083452
+      PLANTDRAGONBRUIT_1536_00_7: 1903820193875438343
+      PLANTDRAGONBRUIT_1536_00_70: 1507416383782322476
+      PLANTDRAGONBRUIT_1536_00_71: -6587964677372665748
+      PLANTDRAGONBRUIT_1536_00_72: -5944706798548947987
+      PLANTDRAGONBRUIT_1536_00_73: -5655764575733102470
+      PLANTDRAGONBRUIT_1536_00_74: -8304698435247812009
+      PLANTDRAGONBRUIT_1536_00_75: -2624383781071425351
+      PLANTDRAGONBRUIT_1536_00_76: -4661913456276886314
+      PLANTDRAGONBRUIT_1536_00_77: 6300930889076846090
+      PLANTDRAGONBRUIT_1536_00_78: 6765950671601756382
+      PLANTDRAGONBRUIT_1536_00_79: 9214262502937369301
+      PLANTDRAGONBRUIT_1536_00_8: -4203285550534846427
+      PLANTDRAGONBRUIT_1536_00_80: 247246398081722592
+      PLANTDRAGONBRUIT_1536_00_81: 5194479112908403433
+      PLANTDRAGONBRUIT_1536_00_82: -8428667464701496158
+      PLANTDRAGONBRUIT_1536_00_83: 8901365021051978454
+      PLANTDRAGONBRUIT_1536_00_84: -3745779560119128422
+      PLANTDRAGONBRUIT_1536_00_85: -4521953082564134207
+      PLANTDRAGONBRUIT_1536_00_86: 6805535156429719835
+      PLANTDRAGONBRUIT_1536_00_87: -1452322992958942062
+      PLANTDRAGONBRUIT_1536_00_88: -7100243126253707101
+      PLANTDRAGONBRUIT_1536_00_89: -7295675210336169807
+      PLANTDRAGONBRUIT_1536_00_9: 981983324553602510
+      PLANTDRAGONBRUIT_1536_00_90: 5290954903117968789
+      PLANTDRAGONBRUIT_1536_00_91: 5463799239491398620
+      PLANTDRAGONBRUIT_1536_00_92: 5651248739296306082
+      PLANTDRAGONBRUIT_1536_00_93: -7039444602709057454
+      PLANTDRAGONBRUIT_1536_00_94: 7547408588376312173
+      PLANTDRAGONBRUIT_1536_00_95: 7490937907858621613
+      PLANTDRAGONBRUIT_1536_00_96: -6785741122377746861
+      PLANTDRAGONBRUIT_1536_00_97: -4181138163725347158
+      PLANTDRAGONBRUIT_1536_00_98: -4478670644195165823
+      PLANTDRAGONBRUIT_1536_00_99: 162082483762391309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

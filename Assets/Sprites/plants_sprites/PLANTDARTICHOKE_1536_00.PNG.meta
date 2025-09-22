@@ -1,0 +1,5187 @@
+fileFormatVersion: 2
+guid: a31a43c09fc89fd42868bd7e24d7977f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2663227321927258172
+    second: PLANTDARTICHOKE_1536_00_0
+  - first:
+      213: -575589140742868592
+    second: PLANTDARTICHOKE_1536_00_1
+  - first:
+      213: -7648298748682715438
+    second: PLANTDARTICHOKE_1536_00_2
+  - first:
+      213: -902561612128769890
+    second: PLANTDARTICHOKE_1536_00_3
+  - first:
+      213: -4415121350751165881
+    second: PLANTDARTICHOKE_1536_00_4
+  - first:
+      213: 4844924572086838209
+    second: PLANTDARTICHOKE_1536_00_5
+  - first:
+      213: 444328440114361175
+    second: PLANTDARTICHOKE_1536_00_6
+  - first:
+      213: 193168003550566533
+    second: PLANTDARTICHOKE_1536_00_7
+  - first:
+      213: -2783531022226930548
+    second: PLANTDARTICHOKE_1536_00_8
+  - first:
+      213: -6046991767097647013
+    second: PLANTDARTICHOKE_1536_00_9
+  - first:
+      213: 1757750573060378336
+    second: PLANTDARTICHOKE_1536_00_10
+  - first:
+      213: -2689720356013945765
+    second: PLANTDARTICHOKE_1536_00_11
+  - first:
+      213: 5366614164664868752
+    second: PLANTDARTICHOKE_1536_00_12
+  - first:
+      213: -2543974838627667699
+    second: PLANTDARTICHOKE_1536_00_13
+  - first:
+      213: 5882978204117714695
+    second: PLANTDARTICHOKE_1536_00_14
+  - first:
+      213: -9157673426964422762
+    second: PLANTDARTICHOKE_1536_00_15
+  - first:
+      213: 765123642231654480
+    second: PLANTDARTICHOKE_1536_00_16
+  - first:
+      213: -3247530615645831214
+    second: PLANTDARTICHOKE_1536_00_17
+  - first:
+      213: 3636942510563434034
+    second: PLANTDARTICHOKE_1536_00_18
+  - first:
+      213: -376398494385688835
+    second: PLANTDARTICHOKE_1536_00_19
+  - first:
+      213: -2444761931512062986
+    second: PLANTDARTICHOKE_1536_00_20
+  - first:
+      213: -3531475704971244562
+    second: PLANTDARTICHOKE_1536_00_21
+  - first:
+      213: 5928559975655542195
+    second: PLANTDARTICHOKE_1536_00_22
+  - first:
+      213: -1886151447234984767
+    second: PLANTDARTICHOKE_1536_00_23
+  - first:
+      213: -7028693187489279439
+    second: PLANTDARTICHOKE_1536_00_24
+  - first:
+      213: 781729254619946244
+    second: PLANTDARTICHOKE_1536_00_25
+  - first:
+      213: -343933245711536994
+    second: PLANTDARTICHOKE_1536_00_26
+  - first:
+      213: -4732707388856329157
+    second: PLANTDARTICHOKE_1536_00_27
+  - first:
+      213: 2725035705634443325
+    second: PLANTDARTICHOKE_1536_00_28
+  - first:
+      213: -667068662217833357
+    second: PLANTDARTICHOKE_1536_00_29
+  - first:
+      213: -1403361663566452430
+    second: PLANTDARTICHOKE_1536_00_30
+  - first:
+      213: -8743350137196105980
+    second: PLANTDARTICHOKE_1536_00_31
+  - first:
+      213: -8495597598027809295
+    second: PLANTDARTICHOKE_1536_00_32
+  - first:
+      213: 2242937339469433650
+    second: PLANTDARTICHOKE_1536_00_33
+  - first:
+      213: 62791572884216977
+    second: PLANTDARTICHOKE_1536_00_34
+  - first:
+      213: -3944525413694337857
+    second: PLANTDARTICHOKE_1536_00_35
+  - first:
+      213: 952224014953501
+    second: PLANTDARTICHOKE_1536_00_36
+  - first:
+      213: 2173097179154009718
+    second: PLANTDARTICHOKE_1536_00_37
+  - first:
+      213: 3368656465934419088
+    second: PLANTDARTICHOKE_1536_00_38
+  - first:
+      213: 7074682923406330547
+    second: PLANTDARTICHOKE_1536_00_39
+  - first:
+      213: 3547256419868628782
+    second: PLANTDARTICHOKE_1536_00_40
+  - first:
+      213: 8872143004895877791
+    second: PLANTDARTICHOKE_1536_00_41
+  - first:
+      213: -3132879267958453950
+    second: PLANTDARTICHOKE_1536_00_42
+  - first:
+      213: -5905313644800674390
+    second: PLANTDARTICHOKE_1536_00_43
+  - first:
+      213: 1464212765043002084
+    second: PLANTDARTICHOKE_1536_00_44
+  - first:
+      213: 5340128232948790596
+    second: PLANTDARTICHOKE_1536_00_45
+  - first:
+      213: 7412186294955080531
+    second: PLANTDARTICHOKE_1536_00_46
+  - first:
+      213: 2914353042771907401
+    second: PLANTDARTICHOKE_1536_00_47
+  - first:
+      213: -5641437723710414326
+    second: PLANTDARTICHOKE_1536_00_48
+  - first:
+      213: -4935663601220395717
+    second: PLANTDARTICHOKE_1536_00_49
+  - first:
+      213: 2371161472246935623
+    second: PLANTDARTICHOKE_1536_00_50
+  - first:
+      213: 6807217387731959203
+    second: PLANTDARTICHOKE_1536_00_51
+  - first:
+      213: 4508011727188200513
+    second: PLANTDARTICHOKE_1536_00_52
+  - first:
+      213: -7041866364146023133
+    second: PLANTDARTICHOKE_1536_00_53
+  - first:
+      213: -7434110237519578787
+    second: PLANTDARTICHOKE_1536_00_54
+  - first:
+      213: -2564881553035533875
+    second: PLANTDARTICHOKE_1536_00_55
+  - first:
+      213: 2181874630857144921
+    second: PLANTDARTICHOKE_1536_00_56
+  - first:
+      213: -1089443366544795949
+    second: PLANTDARTICHOKE_1536_00_57
+  - first:
+      213: -1010614773086549843
+    second: PLANTDARTICHOKE_1536_00_58
+  - first:
+      213: 3814414132299005239
+    second: PLANTDARTICHOKE_1536_00_59
+  - first:
+      213: -5797710335543546993
+    second: PLANTDARTICHOKE_1536_00_60
+  - first:
+      213: 6778252015369173157
+    second: PLANTDARTICHOKE_1536_00_61
+  - first:
+      213: 4080059909446229822
+    second: PLANTDARTICHOKE_1536_00_62
+  - first:
+      213: 5446840695703380385
+    second: PLANTDARTICHOKE_1536_00_63
+  - first:
+      213: -2083763759952041925
+    second: PLANTDARTICHOKE_1536_00_64
+  - first:
+      213: 8290151599402737766
+    second: PLANTDARTICHOKE_1536_00_65
+  - first:
+      213: 2395186451509687465
+    second: PLANTDARTICHOKE_1536_00_66
+  - first:
+      213: -9182279167818160709
+    second: PLANTDARTICHOKE_1536_00_67
+  - first:
+      213: -6872353697769119984
+    second: PLANTDARTICHOKE_1536_00_68
+  - first:
+      213: 1650489585050616416
+    second: PLANTDARTICHOKE_1536_00_69
+  - first:
+      213: -1228082882821649302
+    second: PLANTDARTICHOKE_1536_00_70
+  - first:
+      213: -6595161115900816493
+    second: PLANTDARTICHOKE_1536_00_71
+  - first:
+      213: -4009105188030825380
+    second: PLANTDARTICHOKE_1536_00_72
+  - first:
+      213: -886638334571596042
+    second: PLANTDARTICHOKE_1536_00_73
+  - first:
+      213: 7132474098245080515
+    second: PLANTDARTICHOKE_1536_00_74
+  - first:
+      213: -3548012839764402191
+    second: PLANTDARTICHOKE_1536_00_75
+  - first:
+      213: 8744312805761699273
+    second: PLANTDARTICHOKE_1536_00_76
+  - first:
+      213: 7546065077370632397
+    second: PLANTDARTICHOKE_1536_00_77
+  - first:
+      213: 9215021150230384141
+    second: PLANTDARTICHOKE_1536_00_78
+  - first:
+      213: 8579989189419268804
+    second: PLANTDARTICHOKE_1536_00_79
+  - first:
+      213: 4798946963510274621
+    second: PLANTDARTICHOKE_1536_00_80
+  - first:
+      213: -6779425176426628686
+    second: PLANTDARTICHOKE_1536_00_81
+  - first:
+      213: 8703582846575966368
+    second: PLANTDARTICHOKE_1536_00_82
+  - first:
+      213: 457102497927282741
+    second: PLANTDARTICHOKE_1536_00_83
+  - first:
+      213: 7891431927001852452
+    second: PLANTDARTICHOKE_1536_00_84
+  - first:
+      213: 6810550336948585338
+    second: PLANTDARTICHOKE_1536_00_85
+  - first:
+      213: -2744009200504307345
+    second: PLANTDARTICHOKE_1536_00_86
+  - first:
+      213: -4801643704120485714
+    second: PLANTDARTICHOKE_1536_00_87
+  - first:
+      213: -7078330001389462436
+    second: PLANTDARTICHOKE_1536_00_88
+  - first:
+      213: 2936855455780281186
+    second: PLANTDARTICHOKE_1536_00_89
+  - first:
+      213: -541256466714938978
+    second: PLANTDARTICHOKE_1536_00_90
+  - first:
+      213: -1374179043225085640
+    second: PLANTDARTICHOKE_1536_00_91
+  - first:
+      213: 6997989656407049357
+    second: PLANTDARTICHOKE_1536_00_92
+  - first:
+      213: 313119474993177442
+    second: PLANTDARTICHOKE_1536_00_93
+  - first:
+      213: 717034187199149285
+    second: PLANTDARTICHOKE_1536_00_94
+  - first:
+      213: 1184205520914386048
+    second: PLANTDARTICHOKE_1536_00_95
+  - first:
+      213: 6896982297221286079
+    second: PLANTDARTICHOKE_1536_00_96
+  - first:
+      213: -478741802992871810
+    second: PLANTDARTICHOKE_1536_00_97
+  - first:
+      213: -1364075332164424783
+    second: PLANTDARTICHOKE_1536_00_98
+  - first:
+      213: -4415815097984773431
+    second: PLANTDARTICHOKE_1536_00_99
+  - first:
+      213: -1037620730624836289
+    second: PLANTDARTICHOKE_1536_00_100
+  - first:
+      213: 6467273818314008890
+    second: PLANTDARTICHOKE_1536_00_101
+  - first:
+      213: 6799542250983052147
+    second: PLANTDARTICHOKE_1536_00_102
+  - first:
+      213: -832648531952279801
+    second: PLANTDARTICHOKE_1536_00_103
+  - first:
+      213: 509999269043446561
+    second: PLANTDARTICHOKE_1536_00_104
+  - first:
+      213: 9146913323231229328
+    second: PLANTDARTICHOKE_1536_00_105
+  - first:
+      213: 1323495585568532624
+    second: PLANTDARTICHOKE_1536_00_106
+  - first:
+      213: 5310711195157492434
+    second: PLANTDARTICHOKE_1536_00_107
+  - first:
+      213: 3046542735500859522
+    second: PLANTDARTICHOKE_1536_00_108
+  - first:
+      213: -4784926745936162702
+    second: PLANTDARTICHOKE_1536_00_109
+  - first:
+      213: 1421419315041465060
+    second: PLANTDARTICHOKE_1536_00_110
+  - first:
+      213: -7956994158810770901
+    second: PLANTDARTICHOKE_1536_00_111
+  - first:
+      213: -7646599374787244853
+    second: PLANTDARTICHOKE_1536_00_112
+  - first:
+      213: 6809327636489243683
+    second: PLANTDARTICHOKE_1536_00_113
+  - first:
+      213: -1773000415506595318
+    second: PLANTDARTICHOKE_1536_00_114
+  - first:
+      213: -34737289654168370
+    second: PLANTDARTICHOKE_1536_00_115
+  - first:
+      213: -3163145957326392756
+    second: PLANTDARTICHOKE_1536_00_116
+  - first:
+      213: 2080658833082319248
+    second: PLANTDARTICHOKE_1536_00_117
+  - first:
+      213: -5647853053965335700
+    second: PLANTDARTICHOKE_1536_00_118
+  - first:
+      213: -1289543047308163893
+    second: PLANTDARTICHOKE_1536_00_119
+  - first:
+      213: -5308891683269632106
+    second: PLANTDARTICHOKE_1536_00_120
+  - first:
+      213: -5983409826993522388
+    second: PLANTDARTICHOKE_1536_00_121
+  - first:
+      213: -4469351457675402788
+    second: PLANTDARTICHOKE_1536_00_122
+  - first:
+      213: -2151476068832605949
+    second: PLANTDARTICHOKE_1536_00_123
+  - first:
+      213: 7672120921832890600
+    second: PLANTDARTICHOKE_1536_00_124
+  - first:
+      213: 7271732924237856293
+    second: PLANTDARTICHOKE_1536_00_125
+  - first:
+      213: 5203509643547173036
+    second: PLANTDARTICHOKE_1536_00_126
+  - first:
+      213: -2217513870452919925
+    second: PLANTDARTICHOKE_1536_00_127
+  - first:
+      213: 4042924138960490361
+    second: PLANTDARTICHOKE_1536_00_128
+  - first:
+      213: 7995189906284640702
+    second: PLANTDARTICHOKE_1536_00_129
+  - first:
+      213: 630757571358162128
+    second: PLANTDARTICHOKE_1536_00_130
+  - first:
+      213: 7953800387897194314
+    second: PLANTDARTICHOKE_1536_00_131
+  - first:
+      213: 7302141768298727874
+    second: PLANTDARTICHOKE_1536_00_132
+  - first:
+      213: -3978902702500568112
+    second: PLANTDARTICHOKE_1536_00_133
+  - first:
+      213: 6964943386856392389
+    second: PLANTDARTICHOKE_1536_00_134
+  - first:
+      213: 2913975182647500502
+    second: PLANTDARTICHOKE_1536_00_135
+  - first:
+      213: -4941765495052458461
+    second: PLANTDARTICHOKE_1536_00_136
+  - first:
+      213: 8839927669072128798
+    second: PLANTDARTICHOKE_1536_00_137
+  - first:
+      213: -6937734753255313461
+    second: PLANTDARTICHOKE_1536_00_138
+  - first:
+      213: -2789557206427220003
+    second: PLANTDARTICHOKE_1536_00_139
+  - first:
+      213: -2562373754196954173
+    second: PLANTDARTICHOKE_1536_00_140
+  - first:
+      213: 7919905945793206289
+    second: PLANTDARTICHOKE_1536_00_141
+  - first:
+      213: 7817459617317491642
+    second: PLANTDARTICHOKE_1536_00_142
+  - first:
+      213: 7153220810393563588
+    second: PLANTDARTICHOKE_1536_00_143
+  - first:
+      213: 4683297318361711362
+    second: PLANTDARTICHOKE_1536_00_144
+  - first:
+      213: -1816691561664286050
+    second: PLANTDARTICHOKE_1536_00_145
+  - first:
+      213: -6222490877247566017
+    second: PLANTDARTICHOKE_1536_00_146
+  - first:
+      213: 4042316526211829956
+    second: PLANTDARTICHOKE_1536_00_147
+  - first:
+      213: 5816593738000954001
+    second: PLANTDARTICHOKE_1536_00_148
+  - first:
+      213: 8589480083786364891
+    second: PLANTDARTICHOKE_1536_00_149
+  - first:
+      213: -1848290991091746321
+    second: PLANTDARTICHOKE_1536_00_150
+  - first:
+      213: -924625188732959963
+    second: PLANTDARTICHOKE_1536_00_151
+  - first:
+      213: -5061415252771223423
+    second: PLANTDARTICHOKE_1536_00_152
+  - first:
+      213: 1105728259461864049
+    second: PLANTDARTICHOKE_1536_00_153
+  - first:
+      213: -1271837084056141969
+    second: PLANTDARTICHOKE_1536_00_154
+  - first:
+      213: -1189026510497351879
+    second: PLANTDARTICHOKE_1536_00_155
+  - first:
+      213: 3095820601333914257
+    second: PLANTDARTICHOKE_1536_00_156
+  - first:
+      213: -5191107622980449371
+    second: PLANTDARTICHOKE_1536_00_157
+  - first:
+      213: -2236712618113834227
+    second: PLANTDARTICHOKE_1536_00_158
+  - first:
+      213: -237746630988614734
+    second: PLANTDARTICHOKE_1536_00_159
+  - first:
+      213: -4531296271405768727
+    second: PLANTDARTICHOKE_1536_00_160
+  - first:
+      213: 118038406513797217
+    second: PLANTDARTICHOKE_1536_00_161
+  - first:
+      213: -4258364107638921155
+    second: PLANTDARTICHOKE_1536_00_162
+  - first:
+      213: 849215889862132126
+    second: PLANTDARTICHOKE_1536_00_163
+  - first:
+      213: -2252384972904197104
+    second: PLANTDARTICHOKE_1536_00_164
+  - first:
+      213: 2006081866084430626
+    second: PLANTDARTICHOKE_1536_00_165
+  - first:
+      213: -2767672887227503783
+    second: PLANTDARTICHOKE_1536_00_166
+  - first:
+      213: 7288748411083819430
+    second: PLANTDARTICHOKE_1536_00_167
+  - first:
+      213: -8582501180338780064
+    second: PLANTDARTICHOKE_1536_00_168
+  - first:
+      213: 7184400758537947805
+    second: PLANTDARTICHOKE_1536_00_169
+  - first:
+      213: 1441313964612039347
+    second: PLANTDARTICHOKE_1536_00_170
+  - first:
+      213: 6287201246102078118
+    second: PLANTDARTICHOKE_1536_00_171
+  - first:
+      213: 1314929307834187028
+    second: PLANTDARTICHOKE_1536_00_172
+  - first:
+      213: -2327174323046667991
+    second: PLANTDARTICHOKE_1536_00_173
+  - first:
+      213: -312211490431431694
+    second: PLANTDARTICHOKE_1536_00_174
+  - first:
+      213: 7608342933425884492
+    second: PLANTDARTICHOKE_1536_00_175
+  - first:
+      213: -4933970600669427706
+    second: PLANTDARTICHOKE_1536_00_176
+  - first:
+      213: -7524874122687363919
+    second: PLANTDARTICHOKE_1536_00_177
+  - first:
+      213: 4457656819539001456
+    second: PLANTDARTICHOKE_1536_00_178
+  - first:
+      213: 2289285958245500772
+    second: PLANTDARTICHOKE_1536_00_179
+  - first:
+      213: 3375015833744452252
+    second: PLANTDARTICHOKE_1536_00_180
+  - first:
+      213: 3629581114725927517
+    second: PLANTDARTICHOKE_1536_00_181
+  - first:
+      213: 355349084580106113
+    second: PLANTDARTICHOKE_1536_00_182
+  - first:
+      213: 609406108176166544
+    second: PLANTDARTICHOKE_1536_00_183
+  - first:
+      213: 4668463886814105370
+    second: PLANTDARTICHOKE_1536_00_184
+  - first:
+      213: -3125525317485235830
+    second: PLANTDARTICHOKE_1536_00_185
+  - first:
+      213: 3856360457909984596
+    second: PLANTDARTICHOKE_1536_00_186
+  - first:
+      213: 2533129528476349459
+    second: PLANTDARTICHOKE_1536_00_187
+  - first:
+      213: 6780437014208647229
+    second: PLANTDARTICHOKE_1536_00_188
+  - first:
+      213: -4270955552602986762
+    second: PLANTDARTICHOKE_1536_00_189
+  - first:
+      213: -4224214001264848386
+    second: PLANTDARTICHOKE_1536_00_190
+  - first:
+      213: 3772765718266665714
+    second: PLANTDARTICHOKE_1536_00_191
+  - first:
+      213: -3108983557781341926
+    second: PLANTDARTICHOKE_1536_00_192
+  - first:
+      213: -3617435181471941275
+    second: PLANTDARTICHOKE_1536_00_193
+  - first:
+      213: -6988182497629886273
+    second: PLANTDARTICHOKE_1536_00_194
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 789
+        width: 696
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf29607cd05a0bd0800000000000000
+      internalID: -2663227321927258172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1109
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091f271e9b81308f0800000000000000
+      internalID: -575589140742868592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1109
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2deb3bc7fc8cbd590800000000000000
+      internalID: -7648298748682715438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1135
+        width: 338
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e982929eef47973f0800000000000000
+      internalID: -902561612128769890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1333
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742eb3816865ab2c0800000000000000
+      internalID: -4415121350751165881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1315
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c32cc29a31ac3340800000000000000
+      internalID: 4844924572086838209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1338
+        width: 13
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753be94bc529a2600800000000000000
+      internalID: 444328440114361175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1361
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5885a9996454ea200800000000000000
+      internalID: 193168003550566533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1254
+        width: 21
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8442e67849ee59d0800000000000000
+      internalID: -2783531022226930548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1348
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50ee62b605c41ca0800000000000000
+      internalID: -6046991767097647013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1178
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eec00f45d8c46810800000000000000
+      internalID: 1757750573060378336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1208
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cc6a246913caad0800000000000000
+      internalID: -2689720356013945765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1193
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fdd63362b0a7a40800000000000000
+      internalID: 5366614164664868752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1062
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01f012ec5cf1bcd0800000000000000
+      internalID: -2543974838627667699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1044
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7074dcdd18984a150800000000000000
+      internalID: 5882978204117714695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1067
+        width: 13
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f50c0a98869e080800000000000000
+      internalID: -9157673426964422762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1142
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058887816e34e9a00800000000000000
+      internalID: 765123642231654480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 853
+        width: 290
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df79397c147ee2d0800000000000000
+      internalID: -3247530615645831214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1102
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e96aaa1f3097230800000000000000
+      internalID: 3636942510563434034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1077
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe26284093c6caf0800000000000000
+      internalID: -376398494385688835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb53d7e9f5721ed0800000000000000
+      internalID: -2444761931512062986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1090
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb44409e8dadfec0800000000000000
+      internalID: -3531475704971244562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1098
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd0c8213e9764250800000000000000
+      internalID: 5928559975655542195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 948
+        width: 356
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c448f2804b03d5e0800000000000000
+      internalID: -1886151447234984767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 883
+        width: 221
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1325e7c19c0157e90800000000000000
+      internalID: -7028693187489279439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1078
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d17248d9249da00800000000000000
+      internalID: 781729254619946244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1086
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9caae6098a1a3bf0800000000000000
+      internalID: -343933245711536994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 861
+        width: 79
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c1a5d64bb025eb0800000000000000
+      internalID: -4732707388856329157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1038
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30d892598541d520800000000000000
+      internalID: 2725035705634443325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 937
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37406b306981eb6f0800000000000000
+      internalID: -667068662217833357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 994
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23968b79002468ce0800000000000000
+      internalID: -1403361663566452430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 907
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f209ddf5169a680800000000000000
+      internalID: -8743350137196105980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 953
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdf3e60ff2991a80800000000000000
+      internalID: -8495597598027809295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 866
+        width: 137
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b098c60a3802f10800000000000000
+      internalID: 2242937339469433650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 855
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cd6a45a941fd000800000000000000
+      internalID: 62791572884216977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 913
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc8f35090b3249c0800000000000000
+      internalID: -3944525413694337857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 805
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c682eea02630000800000000000000
+      internalID: 952224014953501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 787
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ec0e1fe54682e10800000000000000
+      internalID: 2173097179154009718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 810
+        width: 13
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0940856353fdfbe20800000000000000
+      internalID: 3368656465934419088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 727
+        width: 195
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba0824b2a25e2260800000000000000
+      internalID: 7074682923406330547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 876
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e275e717be26a3130800000000000000
+      internalID: 3547256419868628782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 682
+        width: 282
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a194b6e0f202b70800000000000000
+      internalID: 8872143004895877791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 652
+        width: 181
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249862d87e6c584d0800000000000000
+      internalID: -3132879267958453950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 840
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5736a178c1c0ea0800000000000000
+      internalID: -5905313644800674390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 838
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea0bf780cde15410800000000000000
+      internalID: 1464212765043002084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 843
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44572fba552fb1a40800000000000000
+      internalID: 5340128232948790596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 638
+        width: 181
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf0dfe9206dd660800000000000000
+      internalID: 7412186294955080531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 638
+        width: 181
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9439f78c6acd17820800000000000000
+      internalID: 2914353042771907401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 812
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02a0c7a74695b1b0800000000000000
+      internalID: -5641437723710414326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 588
+        width: 181
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dde6eda10018bb0800000000000000
+      internalID: -4935663601220395717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 603
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740fe5acbce08e020800000000000000
+      internalID: 2371161472246935623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 738
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad30a0e528187e50800000000000000
+      internalID: 6807217387731959203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 775
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c095a08ccaf8e30800000000000000
+      internalID: 4508011727188200513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 497
+        width: 104
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3250e49e9d3464e90800000000000000
+      internalID: -7041866364146023133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 666
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59fc87602cb4d890800000000000000
+      internalID: -7434110237519578787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 680
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc16d5c11d5b76cd0800000000000000
+      internalID: -2564881553035533875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 745
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a3dacaa63974e10800000000000000
+      internalID: 2181874630857144921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 726
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6113eb70581e0f0800000000000000
+      internalID: -1089443366544795949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 650
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da80a65e73399f1f0800000000000000
+      internalID: -1010614773086549843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 502
+        width: 161
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d79e591758fe430800000000000000
+      internalID: 3814414132299005239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 648
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8be05bda256a8fa0800000000000000
+      internalID: -5797710335543546993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 650
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8b7269b40311e50800000000000000
+      internalID: 6778252015369173157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 556
+        width: 204
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fdadcded84f9830800000000000000
+      internalID: 4080059909446229822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 624
+        width: 61
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1aa8f01c0179b40800000000000000
+      internalID: 5446840695703380385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 534
+        width: 246
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38e93c86ebf413e0800000000000000
+      internalID: -2083763759952041925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 313
+        width: 82
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6606980e4f88c0370800000000000000
+      internalID: 8290151599402737766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 475
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4301d23696d3120800000000000000
+      internalID: 2395186451509687465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 631
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5aab52fbdf19080800000000000000
+      internalID: -9182279167818160709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 633
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f11a129be70a0a0800000000000000
+      internalID: -6872353697769119984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 468
+        width: 172
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0628c6e6887b7e610800000000000000
+      internalID: 1650489585050616416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 618
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c8daeef19f4fee0800000000000000
+      internalID: -1228082882821649302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 565
+        width: 112
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393534268e74974a0800000000000000
+      internalID: -6595161115900816493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 604
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c3f38921ccc58c0800000000000000
+      internalID: -4009105188030825380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 610
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6bd9fd12702b3f0800000000000000
+      internalID: -886638334571596042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 470
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c592932763abf260800000000000000
+      internalID: 7132474098245080515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 447
+        width: 182
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff5153de1de2cec0800000000000000
+      internalID: -3548012839764402191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 380
+        width: 88
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd4350ea2a0a5970800000000000000
+      internalID: 8744312805761699273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 502
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc838a4053209b860800000000000000
+      internalID: 7546065077370632397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 560
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e8131b9e452ef70800000000000000
+      internalID: 9215021150230384141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 574
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caf60485be321770800000000000000
+      internalID: 8579989189419268804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 522
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a28ff56d8499240800000000000000
+      internalID: 4798946963510274621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 559
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b930c198b4aae1a0800000000000000
+      internalID: -6779425176426628686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 426
+        width: 129
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8f7534c7659c870800000000000000
+      internalID: 8703582846575966368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 455
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53046eecc44f75600800000000000000
+      internalID: 457102497927282741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 472
+        width: 81
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a2f1ae68ff38d60800000000000000
+      internalID: 7891431927001852452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 473
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73ccb6927fe38e50800000000000000
+      internalID: 6810550336948585338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 476
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f618987ab225be9d0800000000000000
+      internalID: -2744009200504307345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 422
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea858e5cd722d5db0800000000000000
+      internalID: -4801643704120485714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 475
+        width: 126
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cd038cd58b4cd90800000000000000
+      internalID: -7078330001389462436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 426
+        width: 193
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b93761a7ec1c820800000000000000
+      internalID: 2936855455780281186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 434
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91b2197c121d78f0800000000000000
+      internalID: -541256466714938978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 318
+        width: 154
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83958ced07fedece0800000000000000
+      internalID: -1374179043225085640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 418
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84000cf38add1160800000000000000
+      internalID: 6997989656407049357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 327
+        width: 123
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263a937e08c685400800000000000000
+      internalID: 313119474993177442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 430
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f0d35bca63f900800000000000000
+      internalID: 717034187199149285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 364
+        width: 129
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c8827a5a42f6010800000000000000
+      internalID: 1184205520914386048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 332
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb848088bd007bf50800000000000000
+      internalID: 6896982297221286079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 354
+        width: 208
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76da7dddda2b59f0800000000000000
+      internalID: -478741802992871810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 421
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb677b66b4d11de0800000000000000
+      internalID: -1364075332164424783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 426
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c29fca709fd7b2c0800000000000000
+      internalID: -4415815097984773431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 429
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d768b6171a991f0800000000000000
+      internalID: -1037620730624836289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 391
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a396acdc54f50c950800000000000000
+      internalID: 6467273818314008890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 290
+        width: 125
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373da19d6a3dc5e50800000000000000
+      internalID: 6799542250983052147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 320
+        width: 190
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fdb3e5296d174f0800000000000000
+      internalID: -832648531952279801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 309
+        width: 160
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1232b0312a1e31700800000000000000
+      internalID: 509999269043446561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 278
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0953c7e743d50fe70800000000000000
+      internalID: 9146913323231229328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 292
+        width: 143
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0982c9f09300e5210800000000000000
+      internalID: 1323495585568532624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 249
+        width: 80
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d27d04d1bf63b940800000000000000
+      internalID: 5310711195157492434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 231
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28853960a7e774a20800000000000000
+      internalID: 3046542735500859522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 224
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2709538e976889db0800000000000000
+      internalID: -4784926745936162702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 326
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2fce50655e9b310800000000000000
+      internalID: 1421419315041465060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 197
+        width: 112
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22d93478f3139190800000000000000
+      internalID: -7956994158810770901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 133
+        width: 72
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc051ec162d1e590800000000000000
+      internalID: -7646599374787244853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 200
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c013478679f7e50800000000000000
+      internalID: 6809327636489243683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 186
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a020c1f04890567e0800000000000000
+      internalID: -1773000415506595318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 184
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec414bd7e96948ff0800000000000000
+      internalID: -34737289654168370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 249
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f8d8c28f3a14d0800000000000000
+      internalID: -3163145957326392756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 203
+        width: 144
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09186a45f2cffdc10800000000000000
+      internalID: 2080658833082319248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 194
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c638ace229bce91b0800000000000000
+      internalID: -5647853053965335700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 187
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc44f964e6f9a1ee0800000000000000
+      internalID: -1289543047308163893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 272
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f10bb44270356b0800000000000000
+      internalID: -5308891683269632106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 196
+        width: 130
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29387cb678a6fca0800000000000000
+      internalID: -5983409826993522388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 205
+        width: 138
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd122e4678ca9f1c0800000000000000
+      internalID: -4469351457675402788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 124
+        width: 112
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3098a761aeb6422e0800000000000000
+      internalID: -2151476068832605949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 203
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e021bb6459d87a60800000000000000
+      internalID: 7672120921832890600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 220
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eb5ba31926ae460800000000000000
+      internalID: 7271732924237856293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 203
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e2f09374963840800000000000000
+      internalID: 5203509643547173036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 201
+        width: 147
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81f62b32eec931e0800000000000000
+      internalID: -2217513870452919925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 130
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f8794851a5b1830800000000000000
+      internalID: 4042924138960490361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 102
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb972e30cde94fe60800000000000000
+      internalID: 7995189906284640702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 159
+        width: 135
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcf0345ba6e0c800800000000000000
+      internalID: 630757571358162128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 155
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47f9fecf43916e60800000000000000
+      internalID: 7953800387897194314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 122
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c90df6ff3b665560800000000000000
+      internalID: 7302141768298727874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 101
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3ac9db21918c8c0800000000000000
+      internalID: -3978902702500568112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 126
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c60846cb1378a060800000000000000
+      internalID: 6964943386856392389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 113
+        width: 97
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de120e5df4807820800000000000000
+      internalID: 2913975182647500502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 158
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326ad1007725b6bb0800000000000000
+      internalID: -4941765495052458461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 105
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1be03b016bbdaa70800000000000000
+      internalID: 8839927669072128798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 117
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfa556eff638bf90800000000000000
+      internalID: -6937734753255313461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 103
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7464e10808949d0800000000000000
+      internalID: -2789557206427220003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 105
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c37e4785ae907cd0800000000000000
+      internalID: -2562373754196954173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 129
+        width: 117
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11812890f7829ed60800000000000000
+      internalID: 7919905945793206289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 121
+        width: 215
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab39b207a123d7c60800000000000000
+      internalID: 7817459617317491642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 106
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1b07b7d68554360800000000000000
+      internalID: 7153220810393563588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 63
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2034d7e091a6ef040800000000000000
+      internalID: 4683297318361711362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 82
+        width: 91
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92fc8066a0d9c6e0800000000000000
+      internalID: -1816691561664286050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 65
+        width: 82
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fcc8be38545a9a0800000000000000
+      internalID: -6222490877247566017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 67
+        width: 102
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c01c86a671391830800000000000000
+      internalID: 4042316526211829956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 67
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192fe44ef21b8b050800000000000000
+      internalID: 5816593738000954001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 37
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7f06f80a6f33770800000000000000
+      internalID: 8589480083786364891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 71
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9fb62e22d8956e0800000000000000
+      internalID: -1848290991091746321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 64
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523813b2a421b23f0800000000000000
+      internalID: -924625188732959963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 64
+        width: 83
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188c3d5e4ad32c9b0800000000000000
+      internalID: -5061415252771223423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 70
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ad55b5ef5585f00800000000000000
+      internalID: 1105728259461864049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 58
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f3aa819e6895ee0800000000000000
+      internalID: -1271837084056141969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 38
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937784d30babf7fe0800000000000000
+      internalID: -1189026510497351879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 38
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a18de3f6096fa20800000000000000
+      internalID: 3095820601333914257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 51
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab8d6dde1b75f7b0800000000000000
+      internalID: -5191107622980449371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 53
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03e0b479b995f0e0800000000000000
+      internalID: -2236712618113834227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 54
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3b061e2ba53bcf0800000000000000
+      internalID: -237746630988614734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 20
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef9eca8c0a9d11c0800000000000000
+      internalID: -4531296271405768727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 20
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ab1a2e4b53a100800000000000000
+      internalID: 118038406513797217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 49
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38a8e7e76047e4c0800000000000000
+      internalID: -4258364107638921155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 53
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9189dc3a5509cb00800000000000000
+      internalID: 849215889862132126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 49
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0141e900dcbedb0e0800000000000000
+      internalID: -2252384972904197104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 44
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223b05a14d807db10800000000000000
+      internalID: 2006081866084430626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 41
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b235e3c204799d0800000000000000
+      internalID: -2767672887227503783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 43
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a908dbff06d62560800000000000000
+      internalID: 7288748411083819430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 48
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068498506a4d4e880800000000000000
+      internalID: -8582501180338780064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 61
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a83b0ec6e14b360800000000000000
+      internalID: 7184400758537947805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 53
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2b2861a63900410800000000000000
+      internalID: 1441313964612039347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_171
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 53
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2ce49e830a04750800000000000000
+      internalID: 6287201246102078118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_172
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 26
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41df43a1d319f3210800000000000000
+      internalID: 1314929307834187028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_173
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 26
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929a468784734bfd0800000000000000
+      internalID: -2327174323046667991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_174
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 56
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb0a0abd4dcaabf0800000000000000
+      internalID: -312211490431431694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_175
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 45
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d04345693469960800000000000000
+      internalID: 7608342933425884492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_176
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 10
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608c0e641e3078bb0800000000000000
+      internalID: -4933970600669427706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_177
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 19
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4c0b99ad6429790800000000000000
+      internalID: -7524874122687363919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_178
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 29
+        width: 88
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070483b7247ccdd30800000000000000
+      internalID: 4457656819539001456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_179
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 5
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467438a237d25cf10800000000000000
+      internalID: 2289285958245500772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_180
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 39
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a28a9e40776de20800000000000000
+      internalID: 3375015833744452252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_181
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 42
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a84b22bccde5230800000000000000
+      internalID: 3629581114725927517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_182
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f48a51c147ee400800000000000000
+      internalID: 355349084580106113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_183
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 42
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e2bc960ab057800800000000000000
+      internalID: 609406108176166544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_184
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 18
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f4b44ab27b9c040800000000000000
+      internalID: 4668463886814105370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_185
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 42
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a817dc29847ef94d0800000000000000
+      internalID: -3125525317485235830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_186
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d5693976b848530800000000000000
+      internalID: 3856360457909984596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_187
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b2e292eb772320800000000000000
+      internalID: 2533129528476349459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_188
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 32
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3011d54a83f81e50800000000000000
+      internalID: 6780437014208647229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6ed9bad848ab4c0800000000000000
+      internalID: -4270955552602986762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_190
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef190672fb39065c0800000000000000
+      internalID: -4224214001264848386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_191
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa5e0a8e6e8b5430800000000000000
+      internalID: 3772765718266665714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_192
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19b9e12debaad4d0800000000000000
+      internalID: -3108983557781341926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_193
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d3d525ed94ccdc0800000000000000
+      internalID: -3617435181471941275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTDARTICHOKE_1536_00_194
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 6
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb82b2b1b0df40f90800000000000000
+      internalID: -6988182497629886273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTDARTICHOKE_1536_00_0: -2663227321927258172
+      PLANTDARTICHOKE_1536_00_1: -575589140742868592
+      PLANTDARTICHOKE_1536_00_10: 1757750573060378336
+      PLANTDARTICHOKE_1536_00_100: -1037620730624836289
+      PLANTDARTICHOKE_1536_00_101: 6467273818314008890
+      PLANTDARTICHOKE_1536_00_102: 6799542250983052147
+      PLANTDARTICHOKE_1536_00_103: -832648531952279801
+      PLANTDARTICHOKE_1536_00_104: 509999269043446561
+      PLANTDARTICHOKE_1536_00_105: 9146913323231229328
+      PLANTDARTICHOKE_1536_00_106: 1323495585568532624
+      PLANTDARTICHOKE_1536_00_107: 5310711195157492434
+      PLANTDARTICHOKE_1536_00_108: 3046542735500859522
+      PLANTDARTICHOKE_1536_00_109: -4784926745936162702
+      PLANTDARTICHOKE_1536_00_11: -2689720356013945765
+      PLANTDARTICHOKE_1536_00_110: 1421419315041465060
+      PLANTDARTICHOKE_1536_00_111: -7956994158810770901
+      PLANTDARTICHOKE_1536_00_112: -7646599374787244853
+      PLANTDARTICHOKE_1536_00_113: 6809327636489243683
+      PLANTDARTICHOKE_1536_00_114: -1773000415506595318
+      PLANTDARTICHOKE_1536_00_115: -34737289654168370
+      PLANTDARTICHOKE_1536_00_116: -3163145957326392756
+      PLANTDARTICHOKE_1536_00_117: 2080658833082319248
+      PLANTDARTICHOKE_1536_00_118: -5647853053965335700
+      PLANTDARTICHOKE_1536_00_119: -1289543047308163893
+      PLANTDARTICHOKE_1536_00_12: 5366614164664868752
+      PLANTDARTICHOKE_1536_00_120: -5308891683269632106
+      PLANTDARTICHOKE_1536_00_121: -5983409826993522388
+      PLANTDARTICHOKE_1536_00_122: -4469351457675402788
+      PLANTDARTICHOKE_1536_00_123: -2151476068832605949
+      PLANTDARTICHOKE_1536_00_124: 7672120921832890600
+      PLANTDARTICHOKE_1536_00_125: 7271732924237856293
+      PLANTDARTICHOKE_1536_00_126: 5203509643547173036
+      PLANTDARTICHOKE_1536_00_127: -2217513870452919925
+      PLANTDARTICHOKE_1536_00_128: 4042924138960490361
+      PLANTDARTICHOKE_1536_00_129: 7995189906284640702
+      PLANTDARTICHOKE_1536_00_13: -2543974838627667699
+      PLANTDARTICHOKE_1536_00_130: 630757571358162128
+      PLANTDARTICHOKE_1536_00_131: 7953800387897194314
+      PLANTDARTICHOKE_1536_00_132: 7302141768298727874
+      PLANTDARTICHOKE_1536_00_133: -3978902702500568112
+      PLANTDARTICHOKE_1536_00_134: 6964943386856392389
+      PLANTDARTICHOKE_1536_00_135: 2913975182647500502
+      PLANTDARTICHOKE_1536_00_136: -4941765495052458461
+      PLANTDARTICHOKE_1536_00_137: 8839927669072128798
+      PLANTDARTICHOKE_1536_00_138: -6937734753255313461
+      PLANTDARTICHOKE_1536_00_139: -2789557206427220003
+      PLANTDARTICHOKE_1536_00_14: 5882978204117714695
+      PLANTDARTICHOKE_1536_00_140: -2562373754196954173
+      PLANTDARTICHOKE_1536_00_141: 7919905945793206289
+      PLANTDARTICHOKE_1536_00_142: 7817459617317491642
+      PLANTDARTICHOKE_1536_00_143: 7153220810393563588
+      PLANTDARTICHOKE_1536_00_144: 4683297318361711362
+      PLANTDARTICHOKE_1536_00_145: -1816691561664286050
+      PLANTDARTICHOKE_1536_00_146: -6222490877247566017
+      PLANTDARTICHOKE_1536_00_147: 4042316526211829956
+      PLANTDARTICHOKE_1536_00_148: 5816593738000954001
+      PLANTDARTICHOKE_1536_00_149: 8589480083786364891
+      PLANTDARTICHOKE_1536_00_15: -9157673426964422762
+      PLANTDARTICHOKE_1536_00_150: -1848290991091746321
+      PLANTDARTICHOKE_1536_00_151: -924625188732959963
+      PLANTDARTICHOKE_1536_00_152: -5061415252771223423
+      PLANTDARTICHOKE_1536_00_153: 1105728259461864049
+      PLANTDARTICHOKE_1536_00_154: -1271837084056141969
+      PLANTDARTICHOKE_1536_00_155: -1189026510497351879
+      PLANTDARTICHOKE_1536_00_156: 3095820601333914257
+      PLANTDARTICHOKE_1536_00_157: -5191107622980449371
+      PLANTDARTICHOKE_1536_00_158: -2236712618113834227
+      PLANTDARTICHOKE_1536_00_159: -237746630988614734
+      PLANTDARTICHOKE_1536_00_16: 765123642231654480
+      PLANTDARTICHOKE_1536_00_160: -4531296271405768727
+      PLANTDARTICHOKE_1536_00_161: 118038406513797217
+      PLANTDARTICHOKE_1536_00_162: -4258364107638921155
+      PLANTDARTICHOKE_1536_00_163: 849215889862132126
+      PLANTDARTICHOKE_1536_00_164: -2252384972904197104
+      PLANTDARTICHOKE_1536_00_165: 2006081866084430626
+      PLANTDARTICHOKE_1536_00_166: -2767672887227503783
+      PLANTDARTICHOKE_1536_00_167: 7288748411083819430
+      PLANTDARTICHOKE_1536_00_168: -8582501180338780064
+      PLANTDARTICHOKE_1536_00_169: 7184400758537947805
+      PLANTDARTICHOKE_1536_00_17: -3247530615645831214
+      PLANTDARTICHOKE_1536_00_170: 1441313964612039347
+      PLANTDARTICHOKE_1536_00_171: 6287201246102078118
+      PLANTDARTICHOKE_1536_00_172: 1314929307834187028
+      PLANTDARTICHOKE_1536_00_173: -2327174323046667991
+      PLANTDARTICHOKE_1536_00_174: -312211490431431694
+      PLANTDARTICHOKE_1536_00_175: 7608342933425884492
+      PLANTDARTICHOKE_1536_00_176: -4933970600669427706
+      PLANTDARTICHOKE_1536_00_177: -7524874122687363919
+      PLANTDARTICHOKE_1536_00_178: 4457656819539001456
+      PLANTDARTICHOKE_1536_00_179: 2289285958245500772
+      PLANTDARTICHOKE_1536_00_18: 3636942510563434034
+      PLANTDARTICHOKE_1536_00_180: 3375015833744452252
+      PLANTDARTICHOKE_1536_00_181: 3629581114725927517
+      PLANTDARTICHOKE_1536_00_182: 355349084580106113
+      PLANTDARTICHOKE_1536_00_183: 609406108176166544
+      PLANTDARTICHOKE_1536_00_184: 4668463886814105370
+      PLANTDARTICHOKE_1536_00_185: -3125525317485235830
+      PLANTDARTICHOKE_1536_00_186: 3856360457909984596
+      PLANTDARTICHOKE_1536_00_187: 2533129528476349459
+      PLANTDARTICHOKE_1536_00_188: 6780437014208647229
+      PLANTDARTICHOKE_1536_00_189: -4270955552602986762
+      PLANTDARTICHOKE_1536_00_19: -376398494385688835
+      PLANTDARTICHOKE_1536_00_190: -4224214001264848386
+      PLANTDARTICHOKE_1536_00_191: 3772765718266665714
+      PLANTDARTICHOKE_1536_00_192: -3108983557781341926
+      PLANTDARTICHOKE_1536_00_193: -3617435181471941275
+      PLANTDARTICHOKE_1536_00_194: -6988182497629886273
+      PLANTDARTICHOKE_1536_00_2: -7648298748682715438
+      PLANTDARTICHOKE_1536_00_20: -2444761931512062986
+      PLANTDARTICHOKE_1536_00_21: -3531475704971244562
+      PLANTDARTICHOKE_1536_00_22: 5928559975655542195
+      PLANTDARTICHOKE_1536_00_23: -1886151447234984767
+      PLANTDARTICHOKE_1536_00_24: -7028693187489279439
+      PLANTDARTICHOKE_1536_00_25: 781729254619946244
+      PLANTDARTICHOKE_1536_00_26: -343933245711536994
+      PLANTDARTICHOKE_1536_00_27: -4732707388856329157
+      PLANTDARTICHOKE_1536_00_28: 2725035705634443325
+      PLANTDARTICHOKE_1536_00_29: -667068662217833357
+      PLANTDARTICHOKE_1536_00_3: -902561612128769890
+      PLANTDARTICHOKE_1536_00_30: -1403361663566452430
+      PLANTDARTICHOKE_1536_00_31: -8743350137196105980
+      PLANTDARTICHOKE_1536_00_32: -8495597598027809295
+      PLANTDARTICHOKE_1536_00_33: 2242937339469433650
+      PLANTDARTICHOKE_1536_00_34: 62791572884216977
+      PLANTDARTICHOKE_1536_00_35: -3944525413694337857
+      PLANTDARTICHOKE_1536_00_36: 952224014953501
+      PLANTDARTICHOKE_1536_00_37: 2173097179154009718
+      PLANTDARTICHOKE_1536_00_38: 3368656465934419088
+      PLANTDARTICHOKE_1536_00_39: 7074682923406330547
+      PLANTDARTICHOKE_1536_00_4: -4415121350751165881
+      PLANTDARTICHOKE_1536_00_40: 3547256419868628782
+      PLANTDARTICHOKE_1536_00_41: 8872143004895877791
+      PLANTDARTICHOKE_1536_00_42: -3132879267958453950
+      PLANTDARTICHOKE_1536_00_43: -5905313644800674390
+      PLANTDARTICHOKE_1536_00_44: 1464212765043002084
+      PLANTDARTICHOKE_1536_00_45: 5340128232948790596
+      PLANTDARTICHOKE_1536_00_46: 7412186294955080531
+      PLANTDARTICHOKE_1536_00_47: 2914353042771907401
+      PLANTDARTICHOKE_1536_00_48: -5641437723710414326
+      PLANTDARTICHOKE_1536_00_49: -4935663601220395717
+      PLANTDARTICHOKE_1536_00_5: 4844924572086838209
+      PLANTDARTICHOKE_1536_00_50: 2371161472246935623
+      PLANTDARTICHOKE_1536_00_51: 6807217387731959203
+      PLANTDARTICHOKE_1536_00_52: 4508011727188200513
+      PLANTDARTICHOKE_1536_00_53: -7041866364146023133
+      PLANTDARTICHOKE_1536_00_54: -7434110237519578787
+      PLANTDARTICHOKE_1536_00_55: -2564881553035533875
+      PLANTDARTICHOKE_1536_00_56: 2181874630857144921
+      PLANTDARTICHOKE_1536_00_57: -1089443366544795949
+      PLANTDARTICHOKE_1536_00_58: -1010614773086549843
+      PLANTDARTICHOKE_1536_00_59: 3814414132299005239
+      PLANTDARTICHOKE_1536_00_6: 444328440114361175
+      PLANTDARTICHOKE_1536_00_60: -5797710335543546993
+      PLANTDARTICHOKE_1536_00_61: 6778252015369173157
+      PLANTDARTICHOKE_1536_00_62: 4080059909446229822
+      PLANTDARTICHOKE_1536_00_63: 5446840695703380385
+      PLANTDARTICHOKE_1536_00_64: -2083763759952041925
+      PLANTDARTICHOKE_1536_00_65: 8290151599402737766
+      PLANTDARTICHOKE_1536_00_66: 2395186451509687465
+      PLANTDARTICHOKE_1536_00_67: -9182279167818160709
+      PLANTDARTICHOKE_1536_00_68: -6872353697769119984
+      PLANTDARTICHOKE_1536_00_69: 1650489585050616416
+      PLANTDARTICHOKE_1536_00_7: 193168003550566533
+      PLANTDARTICHOKE_1536_00_70: -1228082882821649302
+      PLANTDARTICHOKE_1536_00_71: -6595161115900816493
+      PLANTDARTICHOKE_1536_00_72: -4009105188030825380
+      PLANTDARTICHOKE_1536_00_73: -886638334571596042
+      PLANTDARTICHOKE_1536_00_74: 7132474098245080515
+      PLANTDARTICHOKE_1536_00_75: -3548012839764402191
+      PLANTDARTICHOKE_1536_00_76: 8744312805761699273
+      PLANTDARTICHOKE_1536_00_77: 7546065077370632397
+      PLANTDARTICHOKE_1536_00_78: 9215021150230384141
+      PLANTDARTICHOKE_1536_00_79: 8579989189419268804
+      PLANTDARTICHOKE_1536_00_8: -2783531022226930548
+      PLANTDARTICHOKE_1536_00_80: 4798946963510274621
+      PLANTDARTICHOKE_1536_00_81: -6779425176426628686
+      PLANTDARTICHOKE_1536_00_82: 8703582846575966368
+      PLANTDARTICHOKE_1536_00_83: 457102497927282741
+      PLANTDARTICHOKE_1536_00_84: 7891431927001852452
+      PLANTDARTICHOKE_1536_00_85: 6810550336948585338
+      PLANTDARTICHOKE_1536_00_86: -2744009200504307345
+      PLANTDARTICHOKE_1536_00_87: -4801643704120485714
+      PLANTDARTICHOKE_1536_00_88: -7078330001389462436
+      PLANTDARTICHOKE_1536_00_89: 2936855455780281186
+      PLANTDARTICHOKE_1536_00_9: -6046991767097647013
+      PLANTDARTICHOKE_1536_00_90: -541256466714938978
+      PLANTDARTICHOKE_1536_00_91: -1374179043225085640
+      PLANTDARTICHOKE_1536_00_92: 6997989656407049357
+      PLANTDARTICHOKE_1536_00_93: 313119474993177442
+      PLANTDARTICHOKE_1536_00_94: 717034187199149285
+      PLANTDARTICHOKE_1536_00_95: 1184205520914386048
+      PLANTDARTICHOKE_1536_00_96: 6896982297221286079
+      PLANTDARTICHOKE_1536_00_97: -478741802992871810
+      PLANTDARTICHOKE_1536_00_98: -1364075332164424783
+      PLANTDARTICHOKE_1536_00_99: -4415815097984773431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

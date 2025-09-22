@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 9ac6b0e517d0e4443a05ccfd8fd57b52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4119601504967661923
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_0
+  - first:
+      213: -1147991305499417783
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_1
+  - first:
+      213: 2446433886370372372
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_2
+  - first:
+      213: -5830379799092943473
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_3
+  - first:
+      213: -2761394230174360329
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_4
+  - first:
+      213: -6699966794154655972
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_5
+  - first:
+      213: 2335394467436703386
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_6
+  - first:
+      213: 3684869945075375333
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_7
+  - first:
+      213: -5870857250333964497
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_8
+  - first:
+      213: 2680363865495265219
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_9
+  - first:
+      213: 3527815619090497206
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_10
+  - first:
+      213: -1708798636018638510
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_11
+  - first:
+      213: 6941054136809492464
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_12
+  - first:
+      213: 1451951079450406307
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_13
+  - first:
+      213: 490210003792563529
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_14
+  - first:
+      213: -8867562339300331426
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_15
+  - first:
+      213: -369682521244195268
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_16
+  - first:
+      213: -3922661069674628474
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_17
+  - first:
+      213: -4783612191643366017
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_18
+  - first:
+      213: -645277845856470368
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_19
+  - first:
+      213: 4229260527420759936
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_20
+  - first:
+      213: 2029254859385053363
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_21
+  - first:
+      213: 4063575029525508732
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_22
+  - first:
+      213: 2577775728666427512
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_23
+  - first:
+      213: -1014376252142098971
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_24
+  - first:
+      213: 5754068833639924693
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_25
+  - first:
+      213: -4978352519265560508
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_26
+  - first:
+      213: 476273992518673798
+    second: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 164
+        width: 320
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36913cffdb3cb2930800000000000000
+      internalID: 4119601504967661923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 278
+        width: 372
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943687e6df38110f0800000000000000
+      internalID: -1147991305499417783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 371
+        width: 229
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b959b68aa73f120800000000000000
+      internalID: 2446433886370372372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 525
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85a371a674561fa0800000000000000
+      internalID: -5830379799092943473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 484
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcd4a1049e8da9d0800000000000000
+      internalID: -2761394230174360329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 514
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fbf7bd2bfe403a0800000000000000
+      internalID: -6699966794154655972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 450
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e2af905ecf86020800000000000000
+      internalID: 2335394467436703386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 468
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec1bb711b9432330800000000000000
+      internalID: 3684869945075375333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 469
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2741da9f66868ea0800000000000000
+      internalID: -5870857250333964497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 422
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf53a70cb0923520800000000000000
+      internalID: 2680363865495265219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 419
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beb6f84d9155f030800000000000000
+      internalID: 3527815619090497206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 292
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251ef63b1b02948e0800000000000000
+      internalID: -1708798636018638510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 311
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff094f46f3935060800000000000000
+      internalID: 6941054136809492464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 292
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ade2e160dd562410800000000000000
+      internalID: 1451951079450406307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 9
+        width: 174
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d0665b6639dc600800000000000000
+      internalID: 490210003792563529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 60
+        width: 140
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e503f56e80710f480800000000000000
+      internalID: -8867562339300331426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 129
+        width: 261
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36a191a4bf9edaf0800000000000000
+      internalID: -369682521244195268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 133
+        width: 318
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a3acf4a88ef89c0800000000000000
+      internalID: -3922661069674628474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2
+        width: 172
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d8edd6e023d9db0800000000000000
+      internalID: -4783612191643366017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 39
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aabb40d7338b07f0800000000000000
+      internalID: -645277845856470368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 111
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fde77ca0a51ba30800000000000000
+      internalID: 4229260527420759936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 113
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0a16c0b8c592c10800000000000000
+      internalID: 2029254859385053363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 108
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72f309a5f7b46830800000000000000
+      internalID: 4063575029525508732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 54
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87049c91e5916c320800000000000000
+      internalID: 2577775728666427512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 38
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e56a7e4c263ce1f0800000000000000
+      internalID: -1014376252142098971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 38
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3014a2e1f8adf40800000000000000
+      internalID: 5754068833639924693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 92
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448518a92c659eab0800000000000000
+      internalID: -4978352519265560508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 68
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68525db3ca01c9600800000000000000
+      internalID: 476273992518673798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_0: 4119601504967661923
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_1: -1147991305499417783
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_10: 3527815619090497206
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_11: -1708798636018638510
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_12: 6941054136809492464
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_13: 1451951079450406307
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_14: 490210003792563529
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_15: -8867562339300331426
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_16: -369682521244195268
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_17: -3922661069674628474
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_18: -4783612191643366017
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_19: -645277845856470368
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_2: 2446433886370372372
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_20: 4229260527420759936
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_21: 2029254859385053363
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_22: 4063575029525508732
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_23: 2577775728666427512
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_24: -1014376252142098971
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_25: 5754068833639924693
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_26: -4978352519265560508
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_27: 476273992518673798
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_3: -5830379799092943473
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_4: -2761394230174360329
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_5: -6699966794154655972
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_6: 2335394467436703386
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_7: 3684869945075375333
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_8: -5870857250333964497
+      ATLASES_ZOMBIEPIRATECANNONGROUP_1536_00_PTX_9: 2680363865495265219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

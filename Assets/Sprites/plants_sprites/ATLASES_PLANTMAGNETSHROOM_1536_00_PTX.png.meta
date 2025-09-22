@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: fec42c0636e47854e9bc7caf1886db7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3918171739014754917
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_0
+  - first:
+      213: -8659817977685545783
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_1
+  - first:
+      213: -5779187629792267295
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_2
+  - first:
+      213: 1734036205767398567
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_3
+  - first:
+      213: -5374266856840765842
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_4
+  - first:
+      213: 6121942650926497819
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_5
+  - first:
+      213: -7625444009786278104
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_6
+  - first:
+      213: -7703777374735477864
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_7
+  - first:
+      213: 8200155243277918598
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_8
+  - first:
+      213: 5337844368702649550
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_9
+  - first:
+      213: -8265246074894636747
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_10
+  - first:
+      213: -7811585182054153578
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_11
+  - first:
+      213: -723416080794251385
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_12
+  - first:
+      213: 390088270819202970
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_13
+  - first:
+      213: 5021704941979926544
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_14
+  - first:
+      213: -6433950359423726772
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_15
+  - first:
+      213: -176372462646777884
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_16
+  - first:
+      213: 1944233600493927600
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_17
+  - first:
+      213: -2026134404915643546
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_18
+  - first:
+      213: -9121565990670972018
+    second: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 177
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562f2f0ff64206630800000000000000
+      internalID: 3918171739014754917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 406
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cce2845e6522d780800000000000000
+      internalID: -8659817977685545783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 470
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e376eb58733ccfa0800000000000000
+      internalID: -5779187629792267295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 447
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a49e68edb8801810800000000000000
+      internalID: 1734036205767398567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 445
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ed9dd84c4ca65b0800000000000000
+      internalID: -5374266856840765842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 416
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1089c3d76285f450800000000000000
+      internalID: 6121942650926497819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 424
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ffe0e031bfc2690800000000000000
+      internalID: -7625444009786278104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 291
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89353364b4fa61590800000000000000
+      internalID: -7703777374735477864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 203
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68123aa5fbdccc170800000000000000
+      internalID: 8200155243277918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 215
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec437d61c25d31a40800000000000000
+      internalID: 5337844368702649550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 117
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539a6bc6c72fb4d80800000000000000
+      internalID: -8265246074894636747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 179
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69205fa1aaca79390800000000000000
+      internalID: -7811585182054153578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f047748e8e5f5f0800000000000000
+      internalID: -723416080794251385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 124
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97993d273fd96500800000000000000
+      internalID: 390088270819202970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 124
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0108981e90ea0b540800000000000000
+      internalID: 5021704941979926544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 136
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b4d049c3406b6a0800000000000000
+      internalID: -6433950359423726772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 74
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e727cffd266d8df0800000000000000
+      internalID: -176372462646777884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 94
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcb1dd982e4bfa10800000000000000
+      internalID: 1944233600493927600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 88
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b3ecf5e79b1e3e0800000000000000
+      internalID: -2026134404915643546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 88
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bc5c24f00b96180800000000000000
+      internalID: -9121565990670972018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_0: 3918171739014754917
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_1: -8659817977685545783
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_10: -8265246074894636747
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_11: -7811585182054153578
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_12: -723416080794251385
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_13: 390088270819202970
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_14: 5021704941979926544
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_15: -6433950359423726772
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_16: -176372462646777884
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_17: 1944233600493927600
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_18: -2026134404915643546
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_19: -9121565990670972018
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_2: -5779187629792267295
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_3: 1734036205767398567
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_4: -5374266856840765842
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_5: 6121942650926497819
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_6: -7625444009786278104
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_7: -7703777374735477864
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_8: 8200155243277918598
+      ATLASES_PLANTMAGNETSHROOM_1536_00_PTX_9: 5337844368702649550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

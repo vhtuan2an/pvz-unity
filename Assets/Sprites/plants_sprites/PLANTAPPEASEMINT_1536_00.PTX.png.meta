@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4d4520ffc7837ac4eaa559908dc5c643
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5091087802235857422
+    second: PLANTAPPEASEMINT_1536_00.PTX_0
+  - first:
+      213: 3296910962474687704
+    second: PLANTAPPEASEMINT_1536_00.PTX_1
+  - first:
+      213: -8221389833305382656
+    second: PLANTAPPEASEMINT_1536_00.PTX_2
+  - first:
+      213: 5869509795018830866
+    second: PLANTAPPEASEMINT_1536_00.PTX_3
+  - first:
+      213: -6865988400689710608
+    second: PLANTAPPEASEMINT_1536_00.PTX_4
+  - first:
+      213: -4788812752918434697
+    second: PLANTAPPEASEMINT_1536_00.PTX_5
+  - first:
+      213: 3206741426949531456
+    second: PLANTAPPEASEMINT_1536_00.PTX_6
+  - first:
+      213: 8244311932759549985
+    second: PLANTAPPEASEMINT_1536_00.PTX_7
+  - first:
+      213: 104571105885344571
+    second: PLANTAPPEASEMINT_1536_00.PTX_8
+  - first:
+      213: -4577161642304019010
+    second: PLANTAPPEASEMINT_1536_00.PTX_9
+  - first:
+      213: 1323602290261944590
+    second: PLANTAPPEASEMINT_1536_00.PTX_10
+  - first:
+      213: -5713306049195857782
+    second: PLANTAPPEASEMINT_1536_00.PTX_11
+  - first:
+      213: 2821280588101453467
+    second: PLANTAPPEASEMINT_1536_00.PTX_12
+  - first:
+      213: 2328779954237211551
+    second: PLANTAPPEASEMINT_1536_00.PTX_13
+  - first:
+      213: 8538720321883401567
+    second: PLANTAPPEASEMINT_1536_00.PTX_14
+  - first:
+      213: -1641295686044647542
+    second: PLANTAPPEASEMINT_1536_00.PTX_15
+  - first:
+      213: -5281619825350245822
+    second: PLANTAPPEASEMINT_1536_00.PTX_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 196
+        width: 178
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aa794e16d27a640800000000000000
+      internalID: 5091087802235857422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 231
+        width: 102
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc15667d0bf0cd20800000000000000
+      internalID: 3296910962474687704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 327
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00123d16181c7ed80800000000000000
+      internalID: -8221389833305382656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 163
+        width: 181
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214f5c18f00b47150800000000000000
+      internalID: 5869509795018830866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 84
+        width: 65
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9ffe85deb17b0a0800000000000000
+      internalID: -6865988400689710608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 197
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77caf666c28ba8db0800000000000000
+      internalID: -4788812752918434697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 163
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0472bd77652a08c20800000000000000
+      internalID: 3206741426949531456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 61
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128a5a9c50ea96270800000000000000
+      internalID: 8244311932759549985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33d014edd2837100800000000000000
+      internalID: 104571105885344571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 84
+        width: 119
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5ece6bcb7aa70c0800000000000000
+      internalID: -4577161642304019010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 127
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09e4fe25416e5210800000000000000
+      internalID: 1323602290261944590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 136
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88279c2b6246b0b0800000000000000
+      internalID: -5713306049195857782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 136
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b960e714fb3372720800000000000000
+      internalID: 2821280588101453467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 17
+        width: 78
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f930c5ca70d715020800000000000000
+      internalID: 2328779954237211551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_14
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 27
+        width: 90
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5de44684e0af7670800000000000000
+      internalID: 8538720321883401567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 31
+        width: 90
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f7dedf442f839e0800000000000000
+      internalID: -1641295686044647542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTAPPEASEMINT_1536_00.PTX_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 37
+        width: 78
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242865780cae3b6b0800000000000000
+      internalID: -5281619825350245822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTAPPEASEMINT_1536_00.PTX_0: 5091087802235857422
+      PLANTAPPEASEMINT_1536_00.PTX_1: 3296910962474687704
+      PLANTAPPEASEMINT_1536_00.PTX_10: 1323602290261944590
+      PLANTAPPEASEMINT_1536_00.PTX_11: -5713306049195857782
+      PLANTAPPEASEMINT_1536_00.PTX_12: 2821280588101453467
+      PLANTAPPEASEMINT_1536_00.PTX_13: 2328779954237211551
+      PLANTAPPEASEMINT_1536_00.PTX_14: 8538720321883401567
+      PLANTAPPEASEMINT_1536_00.PTX_15: -1641295686044647542
+      PLANTAPPEASEMINT_1536_00.PTX_16: -5281619825350245822
+      PLANTAPPEASEMINT_1536_00.PTX_2: -8221389833305382656
+      PLANTAPPEASEMINT_1536_00.PTX_3: 5869509795018830866
+      PLANTAPPEASEMINT_1536_00.PTX_4: -6865988400689710608
+      PLANTAPPEASEMINT_1536_00.PTX_5: -4788812752918434697
+      PLANTAPPEASEMINT_1536_00.PTX_6: 3206741426949531456
+      PLANTAPPEASEMINT_1536_00.PTX_7: 8244311932759549985
+      PLANTAPPEASEMINT_1536_00.PTX_8: 104571105885344571
+      PLANTAPPEASEMINT_1536_00.PTX_9: -4577161642304019010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
