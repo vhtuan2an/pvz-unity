@@ -53,4 +53,24 @@ public class PlayFabLogin : MonoBehaviour
             Debug.LogError(error.GenerateErrorReport());
         });
     }
+
+    // Thêm method này vào class MatchMaking để lấy display name
+private void GetPlayerProfile()
+{
+    PlayFabClientAPI.GetPlayerProfile(new GetPlayerProfileRequest()
+    {
+        PlayFabId = PlayFabLogin.PlayFabId,
+        ProfileConstraints = new PlayerProfileViewConstraints()
+        {
+            ShowDisplayName = true
+        }
+    },
+    result => {
+        string displayName = result.PlayerProfile.DisplayName ?? "Player";
+        // Use this displayName in matchmaking
+    },
+    error => {
+        Debug.LogError("Error getting player profile: " + error.GenerateErrorReport());
+    });
+}
 }
