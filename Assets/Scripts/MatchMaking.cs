@@ -6,6 +6,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Security.Cryptography;
+using System.Text;
+using System.Linq;
 
 public enum PlayerRole
 {
@@ -190,16 +193,18 @@ public class MatchMaking : MonoBehaviour
     
     private void onGetMatch(GetMatchResult result)
     {
+        if (pollingCoroutine != null)
+        {
+            StopCoroutine(pollingCoroutine);
+        }
+
         var opponent = result.Members.Find(m => m.Entity.Id != PlayFabLogin.EntityId);
         if (opponent != null)
         {
-            // Get opponent's display name
+            // Get opponent info
             string opponentName = "Unknown Player";
-
-            // Try to get display name from opponent's attributes
             if (opponent.Attributes?.DataObject != null)
             {
-                // Cast to dictionary to use ContainsKey
                 if (opponent.Attributes.DataObject is System.Collections.Generic.Dictionary<string, object> attributes)
                 {
                     if (attributes.ContainsKey("displayName"))
@@ -209,21 +214,47 @@ public class MatchMaking : MonoBehaviour
                 }
             }
 
-            // If no display name in attributes, use Entity ID as fallback
             if (opponentName == "Unknown Player")
             {
-                opponentName = opponent.Entity.Id.Substring(0, 8) + "..."; // Show first 8 chars of ID
+                opponentName = opponent.Entity.Id.Substring(0, 8) + "...";
             }
 
             statusText.text = $"You ({selectedRole}) vs {opponentName}";
+
+            // Tạo deterministic room code từ match ID
+            string roomCode = GenerateRoomCode(result.MatchId);
+            
+            // Xác định ai sẽ làm host (player đầu tiên trong list hoặc theo role)
+            bool isHost = ShouldBeHost(result, PlayFabLogin.EntityId);
 
             // Store match information for game session
             PlayerPrefs.SetString("PlayerRole", selectedRole.ToString());
             PlayerPrefs.SetString("MatchId", result.MatchId);
             PlayerPrefs.SetString("OpponentName", opponentName);
+            PlayerPrefs.SetString("RoomCode", roomCode);
+            PlayerPrefs.SetInt("IsHost", isHost ? 1 : 0);
             
-            // Load game scene or start game logic
+            // Load game scene
             SceneManager.LoadScene("GameScene");
         }
+    }
+
+    private string GenerateRoomCode(string matchId)
+    {
+        // Tạo room code deterministic từ match ID
+        using (SHA256 sha256 = SHA256.Create())
+        {
+            byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(matchId));
+            string hash = System.Convert.ToBase64String(hashBytes);
+            // Lấy 6 ký tự đầu, loại bỏ các ký tự đặc biệt
+            return hash.Replace("+", "").Replace("/", "").Replace("=", "").Substring(0, 6).ToUpper();
+        }
+    }
+
+    private bool ShouldBeHost(GetMatchResult result, string myEntityId)
+    {
+        // Sắp xếp players theo Entity ID để có kết quả deterministic
+        var sortedPlayers = result.Members.OrderBy(m => m.Entity.Id).ToList();
+        return sortedPlayers[0].Entity.Id == myEntityId;
     }
 }
