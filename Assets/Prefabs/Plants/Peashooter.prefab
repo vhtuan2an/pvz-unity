@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 4510875523957054736}
   - component: {fileID: 4453159782855990791}
   - component: {fileID: 4589151850186231828}
-  m_Layer: 0
+  - component: {fileID: 2157186212544230630}
+  m_Layer: 6
   m_Name: Peashooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,3 +165,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2157186212544230630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6182550927699580811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea83d858ade11c4da5eaf9a05ae30ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  peaPrefab: {fileID: 6182550927699580811}
+  shootPoint: {fileID: 0}
+  shootInterval: 1.5
+  detectionRange: 10
+  zombieLayer:
+    serializedVersion: 2
+    m_Bits: 8
