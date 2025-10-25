@@ -152,8 +152,6 @@ MonoBehaviour:
   roleText: {fileID: 991514731}
   statusText: {fileID: 938358653}
   connectionStatusText: {fileID: 1998410688}
-  gameTimeText: {fileID: 108212854}
-  gameStatusText: {fileID: 921262355}
 --- !u!4 &4918040
 Transform:
   m_ObjectHideFlags: 0
@@ -355,18 +353,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &54118170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54118169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 309aff59b6161bb4fbac145c7ad765f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &54118171
 Transform:
   m_ObjectHideFlags: 0
@@ -7270,3 +7256,4 @@ SceneRoots:
   - {fileID: 1544430661}
   - {fileID: 1616149496}
   - {fileID: 1075152232}
+  - {fileID: 4918040}
