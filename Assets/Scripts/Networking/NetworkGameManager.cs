@@ -374,7 +374,7 @@ public class NetworkGameManager : NetworkBehaviour
         }
     }
 
-    void OnDestroy()
+    public override void OnDestroy()
     {
         if (networkManager != null)
         {
