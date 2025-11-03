@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8566756412297137395}
   - component: {fileID: 90622441209279776}
   - component: {fileID: 4550239931731890911}
-  - component: {fileID: 7108783241607768023}
+  - component: {fileID: 8809050246921148317}
   m_Layer: 0
   m_Name: PeaProjectile
   m_TagString: Untagged
@@ -153,7 +153,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.425
---- !u!114 &7108783241607768023
+--- !u!114 &8809050246921148317
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3329404701775528199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4d4262d255148243a51abcf5c94a15e, type: 3}
+  m_Script: {fileID: 11500000, guid: dc643f1f7a7d43a43b57e9aa982dfc13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5

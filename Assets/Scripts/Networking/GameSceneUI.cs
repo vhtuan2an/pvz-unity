@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Unity.Netcode;
+using System.Collections;
 
 public class GameSceneUI : MonoBehaviour
 {
@@ -15,20 +16,41 @@ public class GameSceneUI : MonoBehaviour
     {
         spawnButton.onClick.AddListener(OnSpawnButtonClicked);
         
+        // Đợi NetworkGameManager ready
+        StartCoroutine(WaitForNetworkManagerAndDisplayRole());
+
+        UpdateConnectionStatus();
+        InvokeRepeating(nameof(UpdateConnectionStatus), 0.5f, 0.5f);
+    }
+
+    private IEnumerator WaitForNetworkManagerAndDisplayRole()
+    {
+        // Đợi NetworkGameManager spawn
+        while (NetworkGameManager.Instance == null)
+        {
+            yield return null;
+        }
+
         // Hiển thị role
         if (LobbyManager.Instance != null)
         {
             PlayerRole role = LobbyManager.Instance.SelectedRole;
             roleText.text = $"Role: {role}";
             roleText.color = role == PlayerRole.Plant ? Color.green : Color.red;
+            Debug.Log($"GameSceneUI: Displaying role {role}");
         }
-
-        UpdateConnectionStatus();
-        InvokeRepeating(nameof(UpdateConnectionStatus), 0.5f, 0.5f);
+        else
+        {
+            Debug.LogError("GameSceneUI: LobbyManager.Instance is null!");
+            roleText.text = "Role: Unknown";
+            roleText.color = Color.yellow;
+        }
     }
 
     private void OnSpawnButtonClicked()
     {
+        Debug.Log("Spawn button clicked!");
+
         if (NetworkGameManager.Instance != null)
         {
             NetworkGameManager.Instance.SpawnUnit();
@@ -38,6 +60,7 @@ public class GameSceneUI : MonoBehaviour
         {
             statusText.text = "Error: NetworkGameManager not found!";
             statusText.color = Color.red;
+            Debug.LogError("NetworkGameManager.Instance is null when spawn button clicked!");
         }
     }
 
