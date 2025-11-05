@@ -1,0 +1,5629 @@
+fileFormatVersion: 2
+guid: a1638ff51db577c428189f70a2d73d3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4226094887878928577
+    second: PLANTBLASTSPINNER_1536_00_0
+  - first:
+      213: -4207241176284815247
+    second: PLANTBLASTSPINNER_1536_00_1
+  - first:
+      213: -6036023157556256675
+    second: PLANTBLASTSPINNER_1536_00_2
+  - first:
+      213: 3858196763118162807
+    second: PLANTBLASTSPINNER_1536_00_3
+  - first:
+      213: -3987496437767871276
+    second: PLANTBLASTSPINNER_1536_00_4
+  - first:
+      213: -5816614274443852705
+    second: PLANTBLASTSPINNER_1536_00_5
+  - first:
+      213: -9074766942220253841
+    second: PLANTBLASTSPINNER_1536_00_6
+  - first:
+      213: 7682771027943266679
+    second: PLANTBLASTSPINNER_1536_00_7
+  - first:
+      213: 8176192725680706928
+    second: PLANTBLASTSPINNER_1536_00_8
+  - first:
+      213: 6282143534229888919
+    second: PLANTBLASTSPINNER_1536_00_9
+  - first:
+      213: 4454276548674059053
+    second: PLANTBLASTSPINNER_1536_00_10
+  - first:
+      213: 4123825353373817756
+    second: PLANTBLASTSPINNER_1536_00_11
+  - first:
+      213: -2534613100542212586
+    second: PLANTBLASTSPINNER_1536_00_12
+  - first:
+      213: 676480921899669086
+    second: PLANTBLASTSPINNER_1536_00_13
+  - first:
+      213: 6234454593196793672
+    second: PLANTBLASTSPINNER_1536_00_14
+  - first:
+      213: 7008298925879628773
+    second: PLANTBLASTSPINNER_1536_00_15
+  - first:
+      213: -2635129735657625186
+    second: PLANTBLASTSPINNER_1536_00_16
+  - first:
+      213: 151985561134138718
+    second: PLANTBLASTSPINNER_1536_00_17
+  - first:
+      213: 5545689221467405692
+    second: PLANTBLASTSPINNER_1536_00_18
+  - first:
+      213: 4412072993743296300
+    second: PLANTBLASTSPINNER_1536_00_19
+  - first:
+      213: 5692570409925730997
+    second: PLANTBLASTSPINNER_1536_00_20
+  - first:
+      213: -2695428742974143074
+    second: PLANTBLASTSPINNER_1536_00_21
+  - first:
+      213: -8121226475815652540
+    second: PLANTBLASTSPINNER_1536_00_22
+  - first:
+      213: -3286679571562760040
+    second: PLANTBLASTSPINNER_1536_00_23
+  - first:
+      213: 1332162473646371408
+    second: PLANTBLASTSPINNER_1536_00_24
+  - first:
+      213: -1615000885567663489
+    second: PLANTBLASTSPINNER_1536_00_25
+  - first:
+      213: -4156743575629351962
+    second: PLANTBLASTSPINNER_1536_00_26
+  - first:
+      213: 5269277885773064733
+    second: PLANTBLASTSPINNER_1536_00_27
+  - first:
+      213: -6891689813968649696
+    second: PLANTBLASTSPINNER_1536_00_28
+  - first:
+      213: 3294735368372069581
+    second: PLANTBLASTSPINNER_1536_00_29
+  - first:
+      213: -6528187829746471863
+    second: PLANTBLASTSPINNER_1536_00_30
+  - first:
+      213: -7644956939725372761
+    second: PLANTBLASTSPINNER_1536_00_31
+  - first:
+      213: 567974337429830797
+    second: PLANTBLASTSPINNER_1536_00_32
+  - first:
+      213: -5531507097646593874
+    second: PLANTBLASTSPINNER_1536_00_33
+  - first:
+      213: -3525832923886525525
+    second: PLANTBLASTSPINNER_1536_00_34
+  - first:
+      213: -8251620085712603796
+    second: PLANTBLASTSPINNER_1536_00_35
+  - first:
+      213: -2559395552990648004
+    second: PLANTBLASTSPINNER_1536_00_36
+  - first:
+      213: 2754111096199806307
+    second: PLANTBLASTSPINNER_1536_00_37
+  - first:
+      213: -816172096259595323
+    second: PLANTBLASTSPINNER_1536_00_38
+  - first:
+      213: 7781845244625187598
+    second: PLANTBLASTSPINNER_1536_00_39
+  - first:
+      213: 5064990319828565384
+    second: PLANTBLASTSPINNER_1536_00_40
+  - first:
+      213: -1062832695643431060
+    second: PLANTBLASTSPINNER_1536_00_41
+  - first:
+      213: -1726932591646046055
+    second: PLANTBLASTSPINNER_1536_00_42
+  - first:
+      213: -8000518158518705743
+    second: PLANTBLASTSPINNER_1536_00_43
+  - first:
+      213: -3797356814528130179
+    second: PLANTBLASTSPINNER_1536_00_44
+  - first:
+      213: 8556692893955017948
+    second: PLANTBLASTSPINNER_1536_00_45
+  - first:
+      213: 8207810515234205449
+    second: PLANTBLASTSPINNER_1536_00_46
+  - first:
+      213: -2710470381947338614
+    second: PLANTBLASTSPINNER_1536_00_47
+  - first:
+      213: -2139451370403671751
+    second: PLANTBLASTSPINNER_1536_00_48
+  - first:
+      213: -1472367183578110631
+    second: PLANTBLASTSPINNER_1536_00_49
+  - first:
+      213: -6218288437878066901
+    second: PLANTBLASTSPINNER_1536_00_50
+  - first:
+      213: -7817215313155127596
+    second: PLANTBLASTSPINNER_1536_00_51
+  - first:
+      213: -6289783355207179231
+    second: PLANTBLASTSPINNER_1536_00_52
+  - first:
+      213: 766659646960534663
+    second: PLANTBLASTSPINNER_1536_00_53
+  - first:
+      213: -5565799590788008031
+    second: PLANTBLASTSPINNER_1536_00_54
+  - first:
+      213: -22931956017005369
+    second: PLANTBLASTSPINNER_1536_00_55
+  - first:
+      213: -4743517047578409906
+    second: PLANTBLASTSPINNER_1536_00_56
+  - first:
+      213: -6294929845762618019
+    second: PLANTBLASTSPINNER_1536_00_57
+  - first:
+      213: 5930955661448113520
+    second: PLANTBLASTSPINNER_1536_00_58
+  - first:
+      213: 9152617999832475293
+    second: PLANTBLASTSPINNER_1536_00_59
+  - first:
+      213: -3393317297464327122
+    second: PLANTBLASTSPINNER_1536_00_60
+  - first:
+      213: -5433193843075638976
+    second: PLANTBLASTSPINNER_1536_00_61
+  - first:
+      213: -7753109353242505709
+    second: PLANTBLASTSPINNER_1536_00_62
+  - first:
+      213: -9024563634230889100
+    second: PLANTBLASTSPINNER_1536_00_63
+  - first:
+      213: 6975584871472636953
+    second: PLANTBLASTSPINNER_1536_00_64
+  - first:
+      213: -1786706184994132643
+    second: PLANTBLASTSPINNER_1536_00_65
+  - first:
+      213: -4110100638566998586
+    second: PLANTBLASTSPINNER_1536_00_66
+  - first:
+      213: -6568532789182916703
+    second: PLANTBLASTSPINNER_1536_00_67
+  - first:
+      213: 4472777929953950878
+    second: PLANTBLASTSPINNER_1536_00_68
+  - first:
+      213: 3826445349743387510
+    second: PLANTBLASTSPINNER_1536_00_69
+  - first:
+      213: 5915065330232121154
+    second: PLANTBLASTSPINNER_1536_00_70
+  - first:
+      213: 1491643455925004632
+    second: PLANTBLASTSPINNER_1536_00_71
+  - first:
+      213: -4553948346418732026
+    second: PLANTBLASTSPINNER_1536_00_72
+  - first:
+      213: -6105384566837309185
+    second: PLANTBLASTSPINNER_1536_00_73
+  - first:
+      213: -5073310942205351863
+    second: PLANTBLASTSPINNER_1536_00_74
+  - first:
+      213: -5130062623791340145
+    second: PLANTBLASTSPINNER_1536_00_75
+  - first:
+      213: -2314713226212391714
+    second: PLANTBLASTSPINNER_1536_00_76
+  - first:
+      213: -7834315606961255182
+    second: PLANTBLASTSPINNER_1536_00_77
+  - first:
+      213: -2776265980699243904
+    second: PLANTBLASTSPINNER_1536_00_78
+  - first:
+      213: 13892152688059135
+    second: PLANTBLASTSPINNER_1536_00_79
+  - first:
+      213: -7008967287426432435
+    second: PLANTBLASTSPINNER_1536_00_80
+  - first:
+      213: 3689240484455961917
+    second: PLANTBLASTSPINNER_1536_00_81
+  - first:
+      213: 3293614345678107862
+    second: PLANTBLASTSPINNER_1536_00_82
+  - first:
+      213: -3032131986520694795
+    second: PLANTBLASTSPINNER_1536_00_83
+  - first:
+      213: -8848155541853259146
+    second: PLANTBLASTSPINNER_1536_00_84
+  - first:
+      213: 51936431741460216
+    second: PLANTBLASTSPINNER_1536_00_85
+  - first:
+      213: 4810026743474593289
+    second: PLANTBLASTSPINNER_1536_00_86
+  - first:
+      213: 3708582120495610179
+    second: PLANTBLASTSPINNER_1536_00_87
+  - first:
+      213: 8306892757246496217
+    second: PLANTBLASTSPINNER_1536_00_88
+  - first:
+      213: 5483223111874812689
+    second: PLANTBLASTSPINNER_1536_00_89
+  - first:
+      213: -5839465744412906184
+    second: PLANTBLASTSPINNER_1536_00_90
+  - first:
+      213: -363163784688004601
+    second: PLANTBLASTSPINNER_1536_00_91
+  - first:
+      213: 7708356763381293074
+    second: PLANTBLASTSPINNER_1536_00_92
+  - first:
+      213: -7381091066003381792
+    second: PLANTBLASTSPINNER_1536_00_93
+  - first:
+      213: 6239021612689972601
+    second: PLANTBLASTSPINNER_1536_00_94
+  - first:
+      213: 4033360533674725225
+    second: PLANTBLASTSPINNER_1536_00_95
+  - first:
+      213: -2101370862988165454
+    second: PLANTBLASTSPINNER_1536_00_96
+  - first:
+      213: 5729088543339777490
+    second: PLANTBLASTSPINNER_1536_00_97
+  - first:
+      213: -4187306924969853520
+    second: PLANTBLASTSPINNER_1536_00_98
+  - first:
+      213: 1173978874558376387
+    second: PLANTBLASTSPINNER_1536_00_99
+  - first:
+      213: -4254831602068467291
+    second: PLANTBLASTSPINNER_1536_00_100
+  - first:
+      213: -7662901324590388499
+    second: PLANTBLASTSPINNER_1536_00_101
+  - first:
+      213: 5216596495322876265
+    second: PLANTBLASTSPINNER_1536_00_102
+  - first:
+      213: -5789779568449162855
+    second: PLANTBLASTSPINNER_1536_00_103
+  - first:
+      213: -7056537936606757431
+    second: PLANTBLASTSPINNER_1536_00_104
+  - first:
+      213: 6882389479672197743
+    second: PLANTBLASTSPINNER_1536_00_105
+  - first:
+      213: 1593799555458255203
+    second: PLANTBLASTSPINNER_1536_00_106
+  - first:
+      213: 1333521440312620754
+    second: PLANTBLASTSPINNER_1536_00_107
+  - first:
+      213: 1857105741740987816
+    second: PLANTBLASTSPINNER_1536_00_108
+  - first:
+      213: 6049764536278542839
+    second: PLANTBLASTSPINNER_1536_00_109
+  - first:
+      213: -1953868104330072018
+    second: PLANTBLASTSPINNER_1536_00_110
+  - first:
+      213: -2088624793748473559
+    second: PLANTBLASTSPINNER_1536_00_111
+  - first:
+      213: -4513485754171330121
+    second: PLANTBLASTSPINNER_1536_00_112
+  - first:
+      213: -5366023297293550527
+    second: PLANTBLASTSPINNER_1536_00_113
+  - first:
+      213: -858007094855927057
+    second: PLANTBLASTSPINNER_1536_00_114
+  - first:
+      213: -5850070438429720624
+    second: PLANTBLASTSPINNER_1536_00_115
+  - first:
+      213: -8750531927823670042
+    second: PLANTBLASTSPINNER_1536_00_116
+  - first:
+      213: 2310858462659075828
+    second: PLANTBLASTSPINNER_1536_00_117
+  - first:
+      213: -7122903234449433541
+    second: PLANTBLASTSPINNER_1536_00_118
+  - first:
+      213: -8140730787849095690
+    second: PLANTBLASTSPINNER_1536_00_119
+  - first:
+      213: 672853940187530037
+    second: PLANTBLASTSPINNER_1536_00_120
+  - first:
+      213: 1416488390139967276
+    second: PLANTBLASTSPINNER_1536_00_121
+  - first:
+      213: 1764703783678583225
+    second: PLANTBLASTSPINNER_1536_00_122
+  - first:
+      213: -1823841277800008382
+    second: PLANTBLASTSPINNER_1536_00_123
+  - first:
+      213: -8954142399844700484
+    second: PLANTBLASTSPINNER_1536_00_124
+  - first:
+      213: 8051485431281620155
+    second: PLANTBLASTSPINNER_1536_00_125
+  - first:
+      213: 2003295807911853221
+    second: PLANTBLASTSPINNER_1536_00_126
+  - first:
+      213: -8534256768198424588
+    second: PLANTBLASTSPINNER_1536_00_127
+  - first:
+      213: 188259351508999635
+    second: PLANTBLASTSPINNER_1536_00_128
+  - first:
+      213: 53030437712996983
+    second: PLANTBLASTSPINNER_1536_00_129
+  - first:
+      213: -2425732107658323670
+    second: PLANTBLASTSPINNER_1536_00_130
+  - first:
+      213: 6443232592509339107
+    second: PLANTBLASTSPINNER_1536_00_131
+  - first:
+      213: -5689495986730740427
+    second: PLANTBLASTSPINNER_1536_00_132
+  - first:
+      213: 827909454686771627
+    second: PLANTBLASTSPINNER_1536_00_133
+  - first:
+      213: 1137331205367393594
+    second: PLANTBLASTSPINNER_1536_00_134
+  - first:
+      213: -4636707946868357736
+    second: PLANTBLASTSPINNER_1536_00_135
+  - first:
+      213: 1537636853005784932
+    second: PLANTBLASTSPINNER_1536_00_136
+  - first:
+      213: -7399298964156381981
+    second: PLANTBLASTSPINNER_1536_00_137
+  - first:
+      213: 7911963536616942375
+    second: PLANTBLASTSPINNER_1536_00_138
+  - first:
+      213: -6026013750621482892
+    second: PLANTBLASTSPINNER_1536_00_139
+  - first:
+      213: -6187303034830185717
+    second: PLANTBLASTSPINNER_1536_00_140
+  - first:
+      213: 4717750403562293397
+    second: PLANTBLASTSPINNER_1536_00_141
+  - first:
+      213: 8247038745573267045
+    second: PLANTBLASTSPINNER_1536_00_142
+  - first:
+      213: -3934694972377064636
+    second: PLANTBLASTSPINNER_1536_00_143
+  - first:
+      213: -2979704873442896825
+    second: PLANTBLASTSPINNER_1536_00_144
+  - first:
+      213: 2654414968242503308
+    second: PLANTBLASTSPINNER_1536_00_145
+  - first:
+      213: 4764398380612267394
+    second: PLANTBLASTSPINNER_1536_00_146
+  - first:
+      213: -1800898810645232395
+    second: PLANTBLASTSPINNER_1536_00_147
+  - first:
+      213: 8119404565480858718
+    second: PLANTBLASTSPINNER_1536_00_148
+  - first:
+      213: 622854195972783701
+    second: PLANTBLASTSPINNER_1536_00_149
+  - first:
+      213: -8782005811839083265
+    second: PLANTBLASTSPINNER_1536_00_150
+  - first:
+      213: -5137044105451373634
+    second: PLANTBLASTSPINNER_1536_00_151
+  - first:
+      213: -1557819589647366970
+    second: PLANTBLASTSPINNER_1536_00_152
+  - first:
+      213: 271744609042751832
+    second: PLANTBLASTSPINNER_1536_00_153
+  - first:
+      213: -5762330411982225432
+    second: PLANTBLASTSPINNER_1536_00_154
+  - first:
+      213: 4208133456415649124
+    second: PLANTBLASTSPINNER_1536_00_155
+  - first:
+      213: -239259386665508179
+    second: PLANTBLASTSPINNER_1536_00_156
+  - first:
+      213: 2646292825457245323
+    second: PLANTBLASTSPINNER_1536_00_157
+  - first:
+      213: 6268766444679869539
+    second: PLANTBLASTSPINNER_1536_00_158
+  - first:
+      213: 8165524756667176607
+    second: PLANTBLASTSPINNER_1536_00_159
+  - first:
+      213: 2122677567324143494
+    second: PLANTBLASTSPINNER_1536_00_160
+  - first:
+      213: -8179104350439004569
+    second: PLANTBLASTSPINNER_1536_00_161
+  - first:
+      213: 2328524944575106724
+    second: PLANTBLASTSPINNER_1536_00_162
+  - first:
+      213: 2854213165716000311
+    second: PLANTBLASTSPINNER_1536_00_163
+  - first:
+      213: 4742586260243393939
+    second: PLANTBLASTSPINNER_1536_00_164
+  - first:
+      213: -1313447533262348106
+    second: PLANTBLASTSPINNER_1536_00_165
+  - first:
+      213: 8432412202797582443
+    second: PLANTBLASTSPINNER_1536_00_166
+  - first:
+      213: -6374839217392541896
+    second: PLANTBLASTSPINNER_1536_00_167
+  - first:
+      213: -4769497040898863770
+    second: PLANTBLASTSPINNER_1536_00_168
+  - first:
+      213: -2679427215263251857
+    second: PLANTBLASTSPINNER_1536_00_169
+  - first:
+      213: 3734372702518995780
+    second: PLANTBLASTSPINNER_1536_00_170
+  - first:
+      213: -5536637991882136757
+    second: PLANTBLASTSPINNER_1536_00_171
+  - first:
+      213: 1600872771659134321
+    second: PLANTBLASTSPINNER_1536_00_172
+  - first:
+      213: -7257153410343446836
+    second: PLANTBLASTSPINNER_1536_00_173
+  - first:
+      213: 7278540503239408486
+    second: PLANTBLASTSPINNER_1536_00_174
+  - first:
+      213: -7674199583527569487
+    second: PLANTBLASTSPINNER_1536_00_175
+  - first:
+      213: 4027403185610729276
+    second: PLANTBLASTSPINNER_1536_00_176
+  - first:
+      213: 2454416079376522326
+    second: PLANTBLASTSPINNER_1536_00_177
+  - first:
+      213: -6287936625509141856
+    second: PLANTBLASTSPINNER_1536_00_178
+  - first:
+      213: -1736901295595083801
+    second: PLANTBLASTSPINNER_1536_00_179
+  - first:
+      213: 2910686314325527896
+    second: PLANTBLASTSPINNER_1536_00_180
+  - first:
+      213: 8899953506147473761
+    second: PLANTBLASTSPINNER_1536_00_181
+  - first:
+      213: 3782046573740806520
+    second: PLANTBLASTSPINNER_1536_00_182
+  - first:
+      213: -5156006192695576363
+    second: PLANTBLASTSPINNER_1536_00_183
+  - first:
+      213: -4569943275335505237
+    second: PLANTBLASTSPINNER_1536_00_184
+  - first:
+      213: -4114012995588461610
+    second: PLANTBLASTSPINNER_1536_00_185
+  - first:
+      213: -3358217894663873549
+    second: PLANTBLASTSPINNER_1536_00_186
+  - first:
+      213: 6519172108483570383
+    second: PLANTBLASTSPINNER_1536_00_187
+  - first:
+      213: 6882689230569467839
+    second: PLANTBLASTSPINNER_1536_00_188
+  - first:
+      213: 703314890481312259
+    second: PLANTBLASTSPINNER_1536_00_189
+  - first:
+      213: 8961570897117271222
+    second: PLANTBLASTSPINNER_1536_00_190
+  - first:
+      213: 2273821085667798255
+    second: PLANTBLASTSPINNER_1536_00_191
+  - first:
+      213: 5437307102072586097
+    second: PLANTBLASTSPINNER_1536_00_192
+  - first:
+      213: 475640574980295230
+    second: PLANTBLASTSPINNER_1536_00_193
+  - first:
+      213: 2131532107895209091
+    second: PLANTBLASTSPINNER_1536_00_194
+  - first:
+      213: -8091070756795449856
+    second: PLANTBLASTSPINNER_1536_00_195
+  - first:
+      213: -8947814024836839957
+    second: PLANTBLASTSPINNER_1536_00_196
+  - first:
+      213: -3104627296422495799
+    second: PLANTBLASTSPINNER_1536_00_197
+  - first:
+      213: -5230772792132835503
+    second: PLANTBLASTSPINNER_1536_00_198
+  - first:
+      213: 6372660801086534949
+    second: PLANTBLASTSPINNER_1536_00_199
+  - first:
+      213: 7523118495529445153
+    second: PLANTBLASTSPINNER_1536_00_200
+  - first:
+      213: -3789891369277459190
+    second: PLANTBLASTSPINNER_1536_00_201
+  - first:
+      213: -4362231068200399936
+    second: PLANTBLASTSPINNER_1536_00_202
+  - first:
+      213: -951766181647758001
+    second: PLANTBLASTSPINNER_1536_00_203
+  - first:
+      213: -2757359399088114626
+    second: PLANTBLASTSPINNER_1536_00_204
+  - first:
+      213: 8380560393575599687
+    second: PLANTBLASTSPINNER_1536_00_205
+  - first:
+      213: -2111178433009378042
+    second: PLANTBLASTSPINNER_1536_00_206
+  - first:
+      213: -2280066957831624506
+    second: PLANTBLASTSPINNER_1536_00_207
+  - first:
+      213: -5430371959490867215
+    second: PLANTBLASTSPINNER_1536_00_208
+  - first:
+      213: -6508078104725068219
+    second: PLANTBLASTSPINNER_1536_00_209
+  - first:
+      213: -7508938743955368772
+    second: PLANTBLASTSPINNER_1536_00_210
+  - first:
+      213: -1852942741772178133
+    second: PLANTBLASTSPINNER_1536_00_211
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 976
+        width: 244
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37d1ec1715e955c0800000000000000
+      internalID: -4226094887878928577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 976
+        width: 244
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170a52be070ec95c0800000000000000
+      internalID: -4207241176284815247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1018
+        width: 211
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50e3dd1becbb3ca0800000000000000
+      internalID: -6036023157556256675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 967
+        width: 43
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7735833b3811b8530800000000000000
+      internalID: 3858196763118162807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1116
+        width: 49
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4e5b3dd1199a8c0800000000000000
+      internalID: -3987496437767871276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 804
+        width: 189
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54ce48922c374fa0800000000000000
+      internalID: -5816614274443852705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 808
+        width: 169
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f650185db83ff0280800000000000000
+      internalID: -9074766942220253841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 808
+        width: 169
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779983b7b8fae9a60800000000000000
+      internalID: 7682771027943266679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 843
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075d455f6fba77170800000000000000
+      internalID: 8176192725680706928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 956
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f1ac99248ae2750800000000000000
+      internalID: 6282143534229888919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 805
+        width: 211
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bf117dbe4c0dd30800000000000000
+      internalID: 4454276548674059053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 932
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b98975f45ca3930800000000000000
+      internalID: 4123825353373817756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 938
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616412360de33dcd0800000000000000
+      internalID: -2534613100542212586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 922
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56982770d7536900800000000000000
+      internalID: 676480921899669086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 823
+        width: 49
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f1cc3cb6b358650800000000000000
+      internalID: 6234454593196793672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 907
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e39ec4ddba724160800000000000000
+      internalID: 7008298925879628773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 892
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99ee0987732e6bd0800000000000000
+      internalID: -2635129735657625186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 876
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5583660016fb1200800000000000000
+      internalID: 151985561134138718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 861
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7df640f6fe36fc40800000000000000
+      internalID: 5545689221467405692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 674
+        width: 43
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27d92bf205da3d30800000000000000
+      internalID: 4412072993743296300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 841
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2e58690a2100f40800000000000000
+      internalID: 5692570409925730997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 846
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9506a9d6d9e79ad0800000000000000
+      internalID: -2695428742974143074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 798
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443b2806c8b9b4f80800000000000000
+      internalID: -8121226475815652540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 804
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898f77ed75e5362d0800000000000000
+      internalID: -3286679571562760040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 656
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0523cc036bacc7210800000000000000
+      internalID: 1332162473646371408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 718
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f725ccf404d5699e0800000000000000
+      internalID: -1615000885567663489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 785
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3b938cdb74056c0800000000000000
+      internalID: -4156743575629351962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 639
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a235cb15c302940800000000000000
+      internalID: 5269277885773064733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 639
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0228830c0accb50a0800000000000000
+      internalID: -6891689813968649696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 650
+        width: 144
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4abbc7c5049bd20800000000000000
+      internalID: 3294735368372069581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 610
+        width: 128
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ceee4b1c73765a0800000000000000
+      internalID: -6528187829746471863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 719
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a203840b28a7e590800000000000000
+      internalID: -7644956939725372761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 774
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cfa0096a9d1e700800000000000000
+      internalID: 567974337429830797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 763
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea809341a932c33b0800000000000000
+      internalID: -5531507097646593874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 752
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3ed5ae2a9b11fc0800000000000000
+      internalID: -3525832923886525525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 741
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c653f91404b5c7d80800000000000000
+      internalID: -8251620085712603796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 731
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3927480e433b7cd0800000000000000
+      internalID: -2559395552990648004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 639
+        width: 24
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d73f83371983620800000000000000
+      internalID: 2754111096199806307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 640
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c36cde7dcf5ca4f0800000000000000
+      internalID: -816172096259595323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 639
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0372fe150baefb60800000000000000
+      internalID: 7781845244625187598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 493
+        width: 141
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d7c244cd57a4640800000000000000
+      internalID: 5064990319828565384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 512
+        width: 131
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f90806b4f0041f0800000000000000
+      internalID: -1062832695643431060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 531
+        width: 133
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99884e325f3b808e0800000000000000
+      internalID: -1726932591646046055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 546
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b12e669f1378f090800000000000000
+      internalID: -8000518158518705743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 499
+        width: 130
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7354a0b8141d4bc0800000000000000
+      internalID: -3797356814528130179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 622
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc4c4c0ada7fb670800000000000000
+      internalID: 8556692893955017948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 524
+        width: 122
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f20404d2008e170800000000000000
+      internalID: 8207810515234205449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 607
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80cfcd5c89726ad0800000000000000
+      internalID: -2710470381947338614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 495
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931dddc50542f42e0800000000000000
+      internalID: -2139451370403671751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 553
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95562e3f8d9119be0800000000000000
+      internalID: -1472367183578110631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 527
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21fb559c9334b9a0800000000000000
+      internalID: -6218288437878066901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 527
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d605ae071ca38390800000000000000
+      internalID: -7817215313155127596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 531
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12426b6fc5336b8a0800000000000000
+      internalID: -6289783355207179231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 527
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78485b013e8b3aa00800000000000000
+      internalID: 766659646960534663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 523
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7f014d2ce42c2b0800000000000000
+      internalID: -5565799590788008031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 417
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccf99be1878eaff0800000000000000
+      internalID: -22931956017005369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 418
+        width: 117
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e444411a064ab2eb0800000000000000
+      internalID: -4743517047578409906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 441
+        width: 114
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d805148aae3a8a0800000000000000
+      internalID: -6294929845762618019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 425
+        width: 16
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07de43320ccfe4250800000000000000
+      internalID: 5930955661448113520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 502
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d966cd40491a40f70800000000000000
+      internalID: 9152617999832475293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 339
+        width: 87
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24437285e388e0d0800000000000000
+      internalID: -3393317297464327122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 419
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04913ab6cfa6994b0800000000000000
+      internalID: -5433193843075638976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 473
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ec837fe1c676490800000000000000
+      internalID: -7753109353242505709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 428
+        width: 114
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47572c8503f42c280800000000000000
+      internalID: -9024563634230889100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 341
+        width: 87
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91427bc7b714ec060800000000000000
+      internalID: 6975584871472636953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 483
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d6e6de0385437e0800000000000000
+      internalID: -1786706184994132643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 393
+        width: 104
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd9b17de3df5f6c0800000000000000
+      internalID: -4110100638566998586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 423
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a71f35da32e7d4a0800000000000000
+      internalID: -6568532789182916703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 473
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cbc1a54df721e30800000000000000
+      internalID: 4472777929953950878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 463
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67366efa5c34a1530800000000000000
+      internalID: 3826445349743387510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 461
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247d6b71498861250800000000000000
+      internalID: 5915065330232121154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 445
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85922f1f1d163b410800000000000000
+      internalID: 1491643455925004632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 430
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604eb365b102dc0c0800000000000000
+      internalID: -4553948346418732026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 409
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0928c8511554ba0800000000000000
+      internalID: -6105384566837309185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 409
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9486fbed39af799b0800000000000000
+      internalID: -5073310942205351863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 329
+        width: 104
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85a861593b5ec8b0800000000000000
+      internalID: -5130062623791340145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 344
+        width: 115
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed446baa59c70efd0800000000000000
+      internalID: -2314713226212391714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 331
+        width: 115
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc86c4a67be64390800000000000000
+      internalID: -7834315606961255182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 307
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a8b62ccc8b879d0800000000000000
+      internalID: -2776265980699243904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 337
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2232ad6da513000800000000000000
+      internalID: 13892152688059135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 315
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d424d9e13652bbe90800000000000000
+      internalID: -7008967287426432435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 221
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35dcf69ca0d23330800000000000000
+      internalID: 3689240484455961917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 253
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4364d0cc445bd20800000000000000
+      internalID: 3293614345678107862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 315
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff955fe504bbe5d0800000000000000
+      internalID: -3032131986520694795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 316
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67abe6a0a69053580800000000000000
+      internalID: -8848155541853259146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 309
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fed9d4d8e388b000800000000000000
+      internalID: 51936431741460216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 310
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e9eeca6d5a0c240800000000000000
+      internalID: 4810026743474593289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 236
+        width: 119
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34971882ac7877330800000000000000
+      internalID: 3708582120495610179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 228
+        width: 119
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd41fe63f2084370800000000000000
+      internalID: 8306892757246496217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 206
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b928f6e52581c40800000000000000
+      internalID: 5483223111874812689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 182
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83de43228dc06fea0800000000000000
+      internalID: -5839465744412906184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70292624678c5faf0800000000000000
+      internalID: -363163784688004601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 244
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210625bb2a599fa60800000000000000
+      internalID: 7708356763381293074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 251
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e12f0c38c8119990800000000000000
+      internalID: -7381091066003381792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 271
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dde5ad915759650800000000000000
+      internalID: 6239021612689972601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 269
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f03c4290069f730800000000000000
+      internalID: 4033360533674725225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 232
+        width: 109
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2befb3a655e66d2e0800000000000000
+      internalID: -2101370862988165454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 216
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd07881dafc18f40800000000000000
+      internalID: 5729088543339777490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 226
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd73ab7982b3e5c0800000000000000
+      internalID: -4187306924969853520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 244
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c96ddff09fca4010800000000000000
+      internalID: 1173978874558376387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 157
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a15a93733dc3f4c0800000000000000
+      internalID: -4254831602068467291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 203
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea6be658d7e7a590800000000000000
+      internalID: -7662901324590388499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 221
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9698440bfd2156840800000000000000
+      internalID: 5216596495322876265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 139
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f5c6782296afa0800000000000000
+      internalID: -5789779568449162855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 130
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd7c704224221e90800000000000000
+      internalID: -7056537936606757431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 146
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f623fbd64c8238f50800000000000000
+      internalID: 6882389479672197743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 163
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369c34a50405e1610800000000000000
+      internalID: 1593799555458255203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 127
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d673364fae918210800000000000000
+      internalID: 1333521440312620754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 182
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a55fce25d3c5c910800000000000000
+      internalID: 1857105741740987816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 170
+        width: 103
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f963afeac415f350800000000000000
+      internalID: 6049764536278542839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 152
+        width: 95
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20b077af4772e4e0800000000000000
+      internalID: -1953868104330072018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 174
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9297c8be0d6b303e0800000000000000
+      internalID: -2088624793748473559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 150
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1f4dbbe90ec51c0800000000000000
+      internalID: -4513485754171330121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 144
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cf854dd3e0885b0800000000000000
+      internalID: -5366023297293550527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 182
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaf858d71fb714f0800000000000000
+      internalID: -858007094855927057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 112
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dff1666eef50dea0800000000000000
+      internalID: -5850070438429720624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 152
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e42b5ee29ddf8680800000000000000
+      internalID: -8750531927823670042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 138
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fedff04781d11020800000000000000
+      internalID: 2310858462659075828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 97
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c192d3f3d562d90800000000000000
+      internalID: -7122903234449433541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 80
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f53b2ada70560f80800000000000000
+      internalID: -8140730787849095690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 76
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533899af715765900800000000000000
+      internalID: 672853940187530037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 73
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27f1ca9fa068a310800000000000000
+      internalID: 1416488390139967276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 55
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b123ffcdbc7d7810800000000000000
+      internalID: 1764703783678583225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 139
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245390e550a60b6e0800000000000000
+      internalID: -1823841277800008382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 78
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe2efcadee7cb380800000000000000
+      internalID: -8954142399844700484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 90
+        width: 72
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb416c5575f9cbf60800000000000000
+      internalID: 8051485431281620155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 115
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac7d926ce22dcb10800000000000000
+      internalID: 2003295807911853221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 91
+        width: 100
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f74f8d8faa309980800000000000000
+      internalID: -8534256768198424588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 68
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddd65cf1e4dc9200800000000000000
+      internalID: 188259351508999635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 86
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aaa22f6e66cb000800000000000000
+      internalID: 53030437712996983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 89
+        width: 71
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2914ca0081165ed0800000000000000
+      internalID: -2425732107658323670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 83
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e50db9b7e5fa6950800000000000000
+      internalID: 6443232592509339107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 54
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53557e75b89da01b0800000000000000
+      internalID: -5689495986730740427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 68
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9dac833435d7b00800000000000000
+      internalID: 827909454686771627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 15
+        width: 16
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3de3e794bc98cf00800000000000000
+      internalID: 1137331205367393594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 83
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8954eab40ba17afb0800000000000000
+      internalID: -4636707946868357736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 53
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46795f03298c65510800000000000000
+      internalID: 1537636853005784932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 49
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e40b869bc8605990800000000000000
+      internalID: -7399298964156381981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 70
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b65ebcae0fccd60800000000000000
+      internalID: 7911963536616942375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 48
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4705696cb6c4f5ca0800000000000000
+      internalID: -6026013750621482892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 66
+        width: 71
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b104beba8422aa0800000000000000
+      internalID: -6187303034830185717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 60
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598494f0ff0d87140800000000000000
+      internalID: 4717750403562293397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 49
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56617ce5b0e537270800000000000000
+      internalID: 8247038745573267045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 47
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b13fff4c72569c0800000000000000
+      internalID: -3934694972377064636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 44
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7449fea6436f5a6d0800000000000000
+      internalID: -2979704873442896825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ef294995066d420800000000000000
+      internalID: 2654414968242503308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 40
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d27d4951b8e1240800000000000000
+      internalID: 4764398380612267394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 41
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f44113c21ce107e0800000000000000
+      internalID: -1800898810645232395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 41
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54eb211f6beda070800000000000000
+      internalID: 8119404565480858718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 55
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eb1d95792d4a800800000000000000
+      internalID: 622854195972783701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 39
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc5ae14e3c002680800000000000000
+      internalID: -8782005811839083265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 40
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb7e037a9d85b8b0800000000000000
+      internalID: -5137044105451373634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 48
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c48cee3653816ae0800000000000000
+      internalID: -1557819589647366970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 36
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851ee9b384e65c300800000000000000
+      internalID: 271744609042751832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 36
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef7e5b35071800b0800000000000000
+      internalID: -5762330411982225432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 33
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d671d351b466a30800000000000000
+      internalID: 4208133456415649124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 32
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2ef900bdafdacf0800000000000000
+      internalID: -239259386665508179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 47
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c3b09dd4589b420800000000000000
+      internalID: 2646292825457245323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 46
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364380b3ed12ff650800000000000000
+      internalID: 6268766444679869539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 46
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f961ecdd085c15170800000000000000
+      internalID: 8165524756667176607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 45
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fbb054004457d10800000000000000
+      internalID: 2122677567324143494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 43
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7662b339debfd7e80800000000000000
+      internalID: -8179104350439004569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 46
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae090c9915905020800000000000000
+      internalID: 2328524944575106724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 55
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ecebf70c33c9720800000000000000
+      internalID: 2854213165716000311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 26
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39da47e831d01d140800000000000000
+      internalID: 4742586260243393939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 23
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0e8cc6d62b5cde0800000000000000
+      internalID: -1313447533262348106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 27
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b684b6bb832f50570800000000000000
+      internalID: 8432412202797582443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 27
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f9613d1850887a0800000000000000
+      internalID: -6374839217392541896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 30
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d42ff06b75fcdb0800000000000000
+      internalID: -4769497040898863770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 25
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6248b8d423c0dad0800000000000000
+      internalID: -2679427215263251857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 22
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b6f88ff2823d330800000000000000
+      internalID: 3734372702518995780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_171
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 23
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43eeeba419e923b0800000000000000
+      internalID: -5536637991882136757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_172
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 23
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1757655dd41773610800000000000000
+      internalID: 1600872771659134321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_173
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 45
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6d6ff5c69694b90800000000000000
+      internalID: -7257153410343446836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_174
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bb0ea3602920560800000000000000
+      internalID: 7278540503239408486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_175
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 21
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b773607324cf7590800000000000000
+      internalID: -7674199583527569487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_176
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 9
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37aa95fbd534e730800000000000000
+      internalID: 4027403185610729276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_177
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 17
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c9e3e8b66df0220800000000000000
+      internalID: 2454416079376522326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_178
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 14
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2fb5a34f2ccb8a0800000000000000
+      internalID: -6287936625509141856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_179
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 18
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7a322697945e7e0800000000000000
+      internalID: -1736901295595083801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_180
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dc6f908c5d46820800000000000000
+      internalID: 2910686314325527896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_181
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 9
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16999635f8cf28b70800000000000000
+      internalID: 8899953506147473761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_182
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ddc712578c7430800000000000000
+      internalID: 3782046573740806520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_183
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 11
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d87aa87faf2278b0800000000000000
+      internalID: -5156006192695576363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_184
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 14
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa21fdbdcc4490c0800000000000000
+      internalID: -4569943275335505237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_185
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 15
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbeb9c3af618e6c0800000000000000
+      internalID: -4114012995588461610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_186
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 23
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb133e0e963561d0800000000000000
+      internalID: -3358217894663873549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_187
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 11
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca2ccb1e70c87a50800000000000000
+      internalID: 6519172108483570383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_188
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 11
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfef7f9369348f50800000000000000
+      internalID: 6882689230569467839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_189
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 14
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302a164aa2da2c900800000000000000
+      internalID: 703314890481312259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_190
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 9
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b457202045ed5c70800000000000000
+      internalID: 8961570897117271222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_191
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 9
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feca50eea3c3e8f10800000000000000
+      internalID: 2273821085667798255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_192
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 9
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fbeb15002357b40800000000000000
+      internalID: 5437307102072586097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_193
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 22
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a86783590d99600800000000000000
+      internalID: 475640574980295230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_194
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 21
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cfe66a829b49d10800000000000000
+      internalID: 2131532107895209091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_195
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 20
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ef7a8d30eb6bf80800000000000000
+      internalID: -8091070756795449856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_196
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 20
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5875d4d8af2d380800000000000000
+      internalID: -8947814024836839957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_197
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 21
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c971c44ce52ae4d0800000000000000
+      internalID: -3104627296422495799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_198
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 17
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157e4200cdf8867b0800000000000000
+      internalID: -5230772792132835503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_199
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 15
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525b1da1c3d307850800000000000000
+      internalID: 6372660801086534949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_200
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 22
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1272439996c776860800000000000000
+      internalID: 7523118495529445153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_201
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 22
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05f5ec11e9976bc0800000000000000
+      internalID: -3789891369277459190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_202
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb0ebf94fd3673c0800000000000000
+      internalID: -4362231068200399936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_203
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dc7a153b5aac2f0800000000000000
+      internalID: -951766181647758001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_204
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34b4435c34ebb9d0800000000000000
+      internalID: -2757359399088114626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_205
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 5
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e08cd964bbd4470800000000000000
+      internalID: 8380560393575599687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_206
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 4
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d9203966693b2e0800000000000000
+      internalID: -2111178433009378042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_207
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 6
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c82752ae239b50e0800000000000000
+      internalID: -2280066957831624506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_208
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff0e44697173a4b0800000000000000
+      internalID: -5430371959490867215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_209
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 5
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5466d5de179aea5a0800000000000000
+      internalID: -6508078104725068219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_210
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 5
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb45f561ff3eac790800000000000000
+      internalID: -7508938743955368772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTBLASTSPINNER_1536_00_211
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 5
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2de787c4660946e0800000000000000
+      internalID: -1852942741772178133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTBLASTSPINNER_1536_00_0: -4226094887878928577
+      PLANTBLASTSPINNER_1536_00_1: -4207241176284815247
+      PLANTBLASTSPINNER_1536_00_10: 4454276548674059053
+      PLANTBLASTSPINNER_1536_00_100: -4254831602068467291
+      PLANTBLASTSPINNER_1536_00_101: -7662901324590388499
+      PLANTBLASTSPINNER_1536_00_102: 5216596495322876265
+      PLANTBLASTSPINNER_1536_00_103: -5789779568449162855
+      PLANTBLASTSPINNER_1536_00_104: -7056537936606757431
+      PLANTBLASTSPINNER_1536_00_105: 6882389479672197743
+      PLANTBLASTSPINNER_1536_00_106: 1593799555458255203
+      PLANTBLASTSPINNER_1536_00_107: 1333521440312620754
+      PLANTBLASTSPINNER_1536_00_108: 1857105741740987816
+      PLANTBLASTSPINNER_1536_00_109: 6049764536278542839
+      PLANTBLASTSPINNER_1536_00_11: 4123825353373817756
+      PLANTBLASTSPINNER_1536_00_110: -1953868104330072018
+      PLANTBLASTSPINNER_1536_00_111: -2088624793748473559
+      PLANTBLASTSPINNER_1536_00_112: -4513485754171330121
+      PLANTBLASTSPINNER_1536_00_113: -5366023297293550527
+      PLANTBLASTSPINNER_1536_00_114: -858007094855927057
+      PLANTBLASTSPINNER_1536_00_115: -5850070438429720624
+      PLANTBLASTSPINNER_1536_00_116: -8750531927823670042
+      PLANTBLASTSPINNER_1536_00_117: 2310858462659075828
+      PLANTBLASTSPINNER_1536_00_118: -7122903234449433541
+      PLANTBLASTSPINNER_1536_00_119: -8140730787849095690
+      PLANTBLASTSPINNER_1536_00_12: -2534613100542212586
+      PLANTBLASTSPINNER_1536_00_120: 672853940187530037
+      PLANTBLASTSPINNER_1536_00_121: 1416488390139967276
+      PLANTBLASTSPINNER_1536_00_122: 1764703783678583225
+      PLANTBLASTSPINNER_1536_00_123: -1823841277800008382
+      PLANTBLASTSPINNER_1536_00_124: -8954142399844700484
+      PLANTBLASTSPINNER_1536_00_125: 8051485431281620155
+      PLANTBLASTSPINNER_1536_00_126: 2003295807911853221
+      PLANTBLASTSPINNER_1536_00_127: -8534256768198424588
+      PLANTBLASTSPINNER_1536_00_128: 188259351508999635
+      PLANTBLASTSPINNER_1536_00_129: 53030437712996983
+      PLANTBLASTSPINNER_1536_00_13: 676480921899669086
+      PLANTBLASTSPINNER_1536_00_130: -2425732107658323670
+      PLANTBLASTSPINNER_1536_00_131: 6443232592509339107
+      PLANTBLASTSPINNER_1536_00_132: -5689495986730740427
+      PLANTBLASTSPINNER_1536_00_133: 827909454686771627
+      PLANTBLASTSPINNER_1536_00_134: 1137331205367393594
+      PLANTBLASTSPINNER_1536_00_135: -4636707946868357736
+      PLANTBLASTSPINNER_1536_00_136: 1537636853005784932
+      PLANTBLASTSPINNER_1536_00_137: -7399298964156381981
+      PLANTBLASTSPINNER_1536_00_138: 7911963536616942375
+      PLANTBLASTSPINNER_1536_00_139: -6026013750621482892
+      PLANTBLASTSPINNER_1536_00_14: 6234454593196793672
+      PLANTBLASTSPINNER_1536_00_140: -6187303034830185717
+      PLANTBLASTSPINNER_1536_00_141: 4717750403562293397
+      PLANTBLASTSPINNER_1536_00_142: 8247038745573267045
+      PLANTBLASTSPINNER_1536_00_143: -3934694972377064636
+      PLANTBLASTSPINNER_1536_00_144: -2979704873442896825
+      PLANTBLASTSPINNER_1536_00_145: 2654414968242503308
+      PLANTBLASTSPINNER_1536_00_146: 4764398380612267394
+      PLANTBLASTSPINNER_1536_00_147: -1800898810645232395
+      PLANTBLASTSPINNER_1536_00_148: 8119404565480858718
+      PLANTBLASTSPINNER_1536_00_149: 622854195972783701
+      PLANTBLASTSPINNER_1536_00_15: 7008298925879628773
+      PLANTBLASTSPINNER_1536_00_150: -8782005811839083265
+      PLANTBLASTSPINNER_1536_00_151: -5137044105451373634
+      PLANTBLASTSPINNER_1536_00_152: -1557819589647366970
+      PLANTBLASTSPINNER_1536_00_153: 271744609042751832
+      PLANTBLASTSPINNER_1536_00_154: -5762330411982225432
+      PLANTBLASTSPINNER_1536_00_155: 4208133456415649124
+      PLANTBLASTSPINNER_1536_00_156: -239259386665508179
+      PLANTBLASTSPINNER_1536_00_157: 2646292825457245323
+      PLANTBLASTSPINNER_1536_00_158: 6268766444679869539
+      PLANTBLASTSPINNER_1536_00_159: 8165524756667176607
+      PLANTBLASTSPINNER_1536_00_16: -2635129735657625186
+      PLANTBLASTSPINNER_1536_00_160: 2122677567324143494
+      PLANTBLASTSPINNER_1536_00_161: -8179104350439004569
+      PLANTBLASTSPINNER_1536_00_162: 2328524944575106724
+      PLANTBLASTSPINNER_1536_00_163: 2854213165716000311
+      PLANTBLASTSPINNER_1536_00_164: 4742586260243393939
+      PLANTBLASTSPINNER_1536_00_165: -1313447533262348106
+      PLANTBLASTSPINNER_1536_00_166: 8432412202797582443
+      PLANTBLASTSPINNER_1536_00_167: -6374839217392541896
+      PLANTBLASTSPINNER_1536_00_168: -4769497040898863770
+      PLANTBLASTSPINNER_1536_00_169: -2679427215263251857
+      PLANTBLASTSPINNER_1536_00_17: 151985561134138718
+      PLANTBLASTSPINNER_1536_00_170: 3734372702518995780
+      PLANTBLASTSPINNER_1536_00_171: -5536637991882136757
+      PLANTBLASTSPINNER_1536_00_172: 1600872771659134321
+      PLANTBLASTSPINNER_1536_00_173: -7257153410343446836
+      PLANTBLASTSPINNER_1536_00_174: 7278540503239408486
+      PLANTBLASTSPINNER_1536_00_175: -7674199583527569487
+      PLANTBLASTSPINNER_1536_00_176: 4027403185610729276
+      PLANTBLASTSPINNER_1536_00_177: 2454416079376522326
+      PLANTBLASTSPINNER_1536_00_178: -6287936625509141856
+      PLANTBLASTSPINNER_1536_00_179: -1736901295595083801
+      PLANTBLASTSPINNER_1536_00_18: 5545689221467405692
+      PLANTBLASTSPINNER_1536_00_180: 2910686314325527896
+      PLANTBLASTSPINNER_1536_00_181: 8899953506147473761
+      PLANTBLASTSPINNER_1536_00_182: 3782046573740806520
+      PLANTBLASTSPINNER_1536_00_183: -5156006192695576363
+      PLANTBLASTSPINNER_1536_00_184: -4569943275335505237
+      PLANTBLASTSPINNER_1536_00_185: -4114012995588461610
+      PLANTBLASTSPINNER_1536_00_186: -3358217894663873549
+      PLANTBLASTSPINNER_1536_00_187: 6519172108483570383
+      PLANTBLASTSPINNER_1536_00_188: 6882689230569467839
+      PLANTBLASTSPINNER_1536_00_189: 703314890481312259
+      PLANTBLASTSPINNER_1536_00_19: 4412072993743296300
+      PLANTBLASTSPINNER_1536_00_190: 8961570897117271222
+      PLANTBLASTSPINNER_1536_00_191: 2273821085667798255
+      PLANTBLASTSPINNER_1536_00_192: 5437307102072586097
+      PLANTBLASTSPINNER_1536_00_193: 475640574980295230
+      PLANTBLASTSPINNER_1536_00_194: 2131532107895209091
+      PLANTBLASTSPINNER_1536_00_195: -8091070756795449856
+      PLANTBLASTSPINNER_1536_00_196: -8947814024836839957
+      PLANTBLASTSPINNER_1536_00_197: -3104627296422495799
+      PLANTBLASTSPINNER_1536_00_198: -5230772792132835503
+      PLANTBLASTSPINNER_1536_00_199: 6372660801086534949
+      PLANTBLASTSPINNER_1536_00_2: -6036023157556256675
+      PLANTBLASTSPINNER_1536_00_20: 5692570409925730997
+      PLANTBLASTSPINNER_1536_00_200: 7523118495529445153
+      PLANTBLASTSPINNER_1536_00_201: -3789891369277459190
+      PLANTBLASTSPINNER_1536_00_202: -4362231068200399936
+      PLANTBLASTSPINNER_1536_00_203: -951766181647758001
+      PLANTBLASTSPINNER_1536_00_204: -2757359399088114626
+      PLANTBLASTSPINNER_1536_00_205: 8380560393575599687
+      PLANTBLASTSPINNER_1536_00_206: -2111178433009378042
+      PLANTBLASTSPINNER_1536_00_207: -2280066957831624506
+      PLANTBLASTSPINNER_1536_00_208: -5430371959490867215
+      PLANTBLASTSPINNER_1536_00_209: -6508078104725068219
+      PLANTBLASTSPINNER_1536_00_21: -2695428742974143074
+      PLANTBLASTSPINNER_1536_00_210: -7508938743955368772
+      PLANTBLASTSPINNER_1536_00_211: -1852942741772178133
+      PLANTBLASTSPINNER_1536_00_22: -8121226475815652540
+      PLANTBLASTSPINNER_1536_00_23: -3286679571562760040
+      PLANTBLASTSPINNER_1536_00_24: 1332162473646371408
+      PLANTBLASTSPINNER_1536_00_25: -1615000885567663489
+      PLANTBLASTSPINNER_1536_00_26: -4156743575629351962
+      PLANTBLASTSPINNER_1536_00_27: 5269277885773064733
+      PLANTBLASTSPINNER_1536_00_28: -6891689813968649696
+      PLANTBLASTSPINNER_1536_00_29: 3294735368372069581
+      PLANTBLASTSPINNER_1536_00_3: 3858196763118162807
+      PLANTBLASTSPINNER_1536_00_30: -6528187829746471863
+      PLANTBLASTSPINNER_1536_00_31: -7644956939725372761
+      PLANTBLASTSPINNER_1536_00_32: 567974337429830797
+      PLANTBLASTSPINNER_1536_00_33: -5531507097646593874
+      PLANTBLASTSPINNER_1536_00_34: -3525832923886525525
+      PLANTBLASTSPINNER_1536_00_35: -8251620085712603796
+      PLANTBLASTSPINNER_1536_00_36: -2559395552990648004
+      PLANTBLASTSPINNER_1536_00_37: 2754111096199806307
+      PLANTBLASTSPINNER_1536_00_38: -816172096259595323
+      PLANTBLASTSPINNER_1536_00_39: 7781845244625187598
+      PLANTBLASTSPINNER_1536_00_4: -3987496437767871276
+      PLANTBLASTSPINNER_1536_00_40: 5064990319828565384
+      PLANTBLASTSPINNER_1536_00_41: -1062832695643431060
+      PLANTBLASTSPINNER_1536_00_42: -1726932591646046055
+      PLANTBLASTSPINNER_1536_00_43: -8000518158518705743
+      PLANTBLASTSPINNER_1536_00_44: -3797356814528130179
+      PLANTBLASTSPINNER_1536_00_45: 8556692893955017948
+      PLANTBLASTSPINNER_1536_00_46: 8207810515234205449
+      PLANTBLASTSPINNER_1536_00_47: -2710470381947338614
+      PLANTBLASTSPINNER_1536_00_48: -2139451370403671751
+      PLANTBLASTSPINNER_1536_00_49: -1472367183578110631
+      PLANTBLASTSPINNER_1536_00_5: -5816614274443852705
+      PLANTBLASTSPINNER_1536_00_50: -6218288437878066901
+      PLANTBLASTSPINNER_1536_00_51: -7817215313155127596
+      PLANTBLASTSPINNER_1536_00_52: -6289783355207179231
+      PLANTBLASTSPINNER_1536_00_53: 766659646960534663
+      PLANTBLASTSPINNER_1536_00_54: -5565799590788008031
+      PLANTBLASTSPINNER_1536_00_55: -22931956017005369
+      PLANTBLASTSPINNER_1536_00_56: -4743517047578409906
+      PLANTBLASTSPINNER_1536_00_57: -6294929845762618019
+      PLANTBLASTSPINNER_1536_00_58: 5930955661448113520
+      PLANTBLASTSPINNER_1536_00_59: 9152617999832475293
+      PLANTBLASTSPINNER_1536_00_6: -9074766942220253841
+      PLANTBLASTSPINNER_1536_00_60: -3393317297464327122
+      PLANTBLASTSPINNER_1536_00_61: -5433193843075638976
+      PLANTBLASTSPINNER_1536_00_62: -7753109353242505709
+      PLANTBLASTSPINNER_1536_00_63: -9024563634230889100
+      PLANTBLASTSPINNER_1536_00_64: 6975584871472636953
+      PLANTBLASTSPINNER_1536_00_65: -1786706184994132643
+      PLANTBLASTSPINNER_1536_00_66: -4110100638566998586
+      PLANTBLASTSPINNER_1536_00_67: -6568532789182916703
+      PLANTBLASTSPINNER_1536_00_68: 4472777929953950878
+      PLANTBLASTSPINNER_1536_00_69: 3826445349743387510
+      PLANTBLASTSPINNER_1536_00_7: 7682771027943266679
+      PLANTBLASTSPINNER_1536_00_70: 5915065330232121154
+      PLANTBLASTSPINNER_1536_00_71: 1491643455925004632
+      PLANTBLASTSPINNER_1536_00_72: -4553948346418732026
+      PLANTBLASTSPINNER_1536_00_73: -6105384566837309185
+      PLANTBLASTSPINNER_1536_00_74: -5073310942205351863
+      PLANTBLASTSPINNER_1536_00_75: -5130062623791340145
+      PLANTBLASTSPINNER_1536_00_76: -2314713226212391714
+      PLANTBLASTSPINNER_1536_00_77: -7834315606961255182
+      PLANTBLASTSPINNER_1536_00_78: -2776265980699243904
+      PLANTBLASTSPINNER_1536_00_79: 13892152688059135
+      PLANTBLASTSPINNER_1536_00_8: 8176192725680706928
+      PLANTBLASTSPINNER_1536_00_80: -7008967287426432435
+      PLANTBLASTSPINNER_1536_00_81: 3689240484455961917
+      PLANTBLASTSPINNER_1536_00_82: 3293614345678107862
+      PLANTBLASTSPINNER_1536_00_83: -3032131986520694795
+      PLANTBLASTSPINNER_1536_00_84: -8848155541853259146
+      PLANTBLASTSPINNER_1536_00_85: 51936431741460216
+      PLANTBLASTSPINNER_1536_00_86: 4810026743474593289
+      PLANTBLASTSPINNER_1536_00_87: 3708582120495610179
+      PLANTBLASTSPINNER_1536_00_88: 8306892757246496217
+      PLANTBLASTSPINNER_1536_00_89: 5483223111874812689
+      PLANTBLASTSPINNER_1536_00_9: 6282143534229888919
+      PLANTBLASTSPINNER_1536_00_90: -5839465744412906184
+      PLANTBLASTSPINNER_1536_00_91: -363163784688004601
+      PLANTBLASTSPINNER_1536_00_92: 7708356763381293074
+      PLANTBLASTSPINNER_1536_00_93: -7381091066003381792
+      PLANTBLASTSPINNER_1536_00_94: 6239021612689972601
+      PLANTBLASTSPINNER_1536_00_95: 4033360533674725225
+      PLANTBLASTSPINNER_1536_00_96: -2101370862988165454
+      PLANTBLASTSPINNER_1536_00_97: 5729088543339777490
+      PLANTBLASTSPINNER_1536_00_98: -4187306924969853520
+      PLANTBLASTSPINNER_1536_00_99: 1173978874558376387
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

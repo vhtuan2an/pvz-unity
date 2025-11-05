@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: df0736ef37d485c499f124241371e5a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9161439022647353303
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_0
+  - first:
+      213: -6324404861799152979
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_1
+  - first:
+      213: 5977182029126011071
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_2
+  - first:
+      213: 1139558069889863174
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_3
+  - first:
+      213: -3719930103445760634
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_4
+  - first:
+      213: -7829066116301880749
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_5
+  - first:
+      213: -7228404873137493304
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_6
+  - first:
+      213: 6305239478779507570
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_7
+  - first:
+      213: 9072859711112208460
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_8
+  - first:
+      213: -4530765244605908377
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_9
+  - first:
+      213: 3791584105981678106
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_10
+  - first:
+      213: -7494003262125176918
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_11
+  - first:
+      213: 2113120841149208939
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_12
+  - first:
+      213: 8655561840845079565
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_13
+  - first:
+      213: 3375954736029557874
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_14
+  - first:
+      213: 1522705932676270917
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_15
+  - first:
+      213: -4758184247602047462
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_16
+  - first:
+      213: -2932535354644677621
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_17
+  - first:
+      213: 4001943959945560829
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_18
+  - first:
+      213: -3604568005707241816
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_19
+  - first:
+      213: -512900277148863480
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_20
+  - first:
+      213: -3937461816041199520
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_21
+  - first:
+      213: -9145392366055076965
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_22
+  - first:
+      213: 55478810389377628
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_23
+  - first:
+      213: -6847382484845167423
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_24
+  - first:
+      213: -3302964880435509016
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_25
+  - first:
+      213: -6397112423441126322
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_26
+  - first:
+      213: -1704359964682733136
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_27
+  - first:
+      213: 9069716811939340874
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_28
+  - first:
+      213: -2238918306102746916
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_29
+  - first:
+      213: -8078757337703352302
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_30
+  - first:
+      213: 1916766583455564399
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_31
+  - first:
+      213: 2214112866156596392
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_32
+  - first:
+      213: 7671335586994074664
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_33
+  - first:
+      213: -1849026986919598451
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_34
+  - first:
+      213: 5605780199829439267
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_35
+  - first:
+      213: -5676580260231053684
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_36
+  - first:
+      213: 2075283057474747732
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_37
+  - first:
+      213: 2502061870937795038
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_38
+  - first:
+      213: 2520995194345228711
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_39
+  - first:
+      213: -7856326237521710171
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_40
+  - first:
+      213: -2383866861508451049
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_41
+  - first:
+      213: -2994364096729871362
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_42
+  - first:
+      213: -228904868337565335
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_43
+  - first:
+      213: -6618942238122376437
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_44
+  - first:
+      213: -8804458913846533910
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_45
+  - first:
+      213: -2318224887802377326
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_46
+  - first:
+      213: 2722446912142031531
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_47
+  - first:
+      213: 1727130610408709063
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_48
+  - first:
+      213: -5871306806422288952
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_49
+  - first:
+      213: -1094281853477711925
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_50
+  - first:
+      213: -2929781229568095229
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_51
+  - first:
+      213: -202288625294618029
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_52
+  - first:
+      213: -1805834694978004353
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_53
+  - first:
+      213: 6079886039765603621
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_54
+  - first:
+      213: 5176233123327475527
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_55
+  - first:
+      213: 7180780518526965313
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_56
+  - first:
+      213: 6856244048986793293
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_57
+  - first:
+      213: -5570406116878148003
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_58
+  - first:
+      213: -7899026780041819826
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_59
+  - first:
+      213: -1032897602702401363
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_60
+  - first:
+      213: -2151319004450092887
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_61
+  - first:
+      213: 2366680880768786842
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_62
+  - first:
+      213: 6599126060038317564
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_63
+  - first:
+      213: -6655344118456288918
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_64
+  - first:
+      213: 7417988363079039197
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_65
+  - first:
+      213: -52024434357107494
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_66
+  - first:
+      213: 3153967155448852188
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_67
+  - first:
+      213: 8139929260901343435
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_68
+  - first:
+      213: 5691696574157858703
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_69
+  - first:
+      213: -2455247935588109593
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_70
+  - first:
+      213: 8419342449227863952
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_71
+  - first:
+      213: -3142982313534934635
+    second: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 560
+        width: 156
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df1c407048f32f70800000000000000
+      internalID: 9161439022647353303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 554
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da245bc49433b38a0800000000000000
+      internalID: -6324404861799152979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 554
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb887e3136733f250800000000000000
+      internalID: 5977182029126011071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 575
+        width: 101
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e07b4e60680df00800000000000000
+      internalID: 1139558069889863174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 464
+        width: 126
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68555daa747206cc0800000000000000
+      internalID: -3719930103445760634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35287cee8d1995390800000000000000
+      internalID: -7829066116301880749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 458
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caefebc01c8fab90800000000000000
+      internalID: -7228404873137493304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 483
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273fb6c36e5b08750800000000000000
+      internalID: 6305239478779507570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 481
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40ebc156d549ed70800000000000000
+      internalID: 9072859711112208460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 481
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a349ad30d7f11c0800000000000000
+      internalID: -4530765244605908377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 466
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a121e0dd7a96e9430800000000000000
+      internalID: 3791584105981678106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 373
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7096fecb3fff790800000000000000
+      internalID: -7494003262125176918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 353
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b695c209530535d10800000000000000
+      internalID: 2113120841149208939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 392
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d044ff692abbe1870800000000000000
+      internalID: 8655561840845079565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 367
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274e6d222fcc9de20800000000000000
+      internalID: 3375954736029557874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 377
+        width: 108
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b8c866afcb12510800000000000000
+      internalID: 1522705932676270917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 215
+        width: 27
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1612d103a887fdb0800000000000000
+      internalID: -4758184247602047462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 280
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c3127d1aa8d47d0800000000000000
+      internalID: -2932535354644677621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 246
+        width: 57
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2439f04d2c98730800000000000000
+      internalID: 4001943959945560829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 283
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6e4132f700afdc0800000000000000
+      internalID: -3604568005707241816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 274
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804b7575aefc1e8f0800000000000000
+      internalID: -512900277148863480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 305
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068233207535b59c0800000000000000
+      internalID: -3937461816041199520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 286
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bc7b1f81a051180800000000000000
+      internalID: -9145392366055076965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 347
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52f1d12fa915c000800000000000000
+      internalID: 55478810389377628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 317
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc7295b8e539f0a0800000000000000
+      internalID: -6847382484845167423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 220
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e80d0ce0f28922d0800000000000000
+      internalID: -3302964880435509016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 251
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cad8ce424e837a0800000000000000
+      internalID: -6397112423441126322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 221
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b930b764a5e858e0800000000000000
+      internalID: -1704359964682733136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 233
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a426805136b1edd70800000000000000
+      internalID: 9069716811939340874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 179
+        width: 57
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd060a3b9a3cde0e0800000000000000
+      internalID: -2238918306102746916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 216
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2187c93210d72ef80800000000000000
+      internalID: -8078757337703352302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 224
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62453c5d09b99a10800000000000000
+      internalID: 1916766583455564399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acc2efbbeb1abe10800000000000000
+      internalID: 2214112866156596392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 205
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8243897621f067a60800000000000000
+      internalID: 7671335586994074664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 179
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86eb8080cfe656e0800000000000000
+      internalID: -1849026986919598451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 191
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32380cb146bbbcd40800000000000000
+      internalID: 5605780199829439267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_36
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 184
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8efee1445cb831b0800000000000000
+      internalID: -5676580260231053684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_37
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 164
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d3b2902f2eccc10800000000000000
+      internalID: 2075283057474747732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_38
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 163
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9eb4fd30c19b220800000000000000
+      internalID: 2502061870937795038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 153
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a90a6fb5cf5cf220800000000000000
+      internalID: 2520995194345228711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3ffec59e8b8f290800000000000000
+      internalID: -7856326237521710171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_41
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 164
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715a6ff38bdcaeed0800000000000000
+      internalID: -2383866861508451049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_42
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 165
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb8b3608b1e176d0800000000000000
+      internalID: -2994364096729871362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_43
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 152
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961c16b2c34c2dcf0800000000000000
+      internalID: -228904868337565335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 153
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0303e36a1bc424a0800000000000000
+      internalID: -6618942238122376437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 90
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0e7a0144740d580800000000000000
+      internalID: -8804458913846533910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bc11d3fb204dfd0800000000000000
+      internalID: -2318224887802377326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 113
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baab51eda0318c520800000000000000
+      internalID: 2722446912142031531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_48
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 123
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb5d12b32008f710800000000000000
+      internalID: 1727130610408709063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_49
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 100
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5cddb219de48ea0800000000000000
+      internalID: -5871306806422288952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_50
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 102
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf0e47b37450d0f0800000000000000
+      internalID: -1094281853477711925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_51
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 102
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c8cfd8e735757d0800000000000000
+      internalID: -2929781229568095229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_52
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 100
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352563b2193513df0800000000000000
+      internalID: -202288625294618029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_53
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 105
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a92c2a9e260f6e0800000000000000
+      internalID: -1805834694978004353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_54
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 105
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525d51bf328106450800000000000000
+      internalID: 6079886039765603621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 102
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f7b8ec99ca5d740800000000000000
+      internalID: 5176233123327475527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_56
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 90
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14658d016d147a360800000000000000
+      internalID: 7180780518526965313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_57
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d456e39f2a5462f50800000000000000
+      internalID: 6856244048986793293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_58
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 68
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e90d46621f1b2b0800000000000000
+      internalID: -5570406116878148003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_59
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 68
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e494f409ef4016290800000000000000
+      internalID: -7899026780041819826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_60
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da022955a196aa1f0800000000000000
+      internalID: -1032897602702401363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_61
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 54
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8843d73caf422e0800000000000000
+      internalID: -2151319004450092887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_62
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 54
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91aeeac8b328d020800000000000000
+      internalID: 2366680880768786842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 43
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf56b9c103ec49b50800000000000000
+      internalID: 6599126060038317564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_64
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 38
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a697d6929c773a3a0800000000000000
+      internalID: -6655344118456288918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8be413d1df1f660800000000000000
+      internalID: 7417988363079039197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_66
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 55
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad401867d0c274ff0800000000000000
+      internalID: -52024434357107494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 55
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde27cdda6425cb20800000000000000
+      internalID: 3153967155448852188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_68
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 35
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc025dc1986d6f070800000000000000
+      internalID: 8139929260901343435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_69
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 35
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87acf7d0e7fcfe40800000000000000
+      internalID: 5691696574157858703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_70
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 23
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e272c3d2053dedd0800000000000000
+      internalID: -2455247935588109593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_71
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 3
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0971898995387d470800000000000000
+      internalID: 8419342449227863952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_72
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 25
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5913a62fc32e164d0800000000000000
+      internalID: -3142982313534934635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_0: 9161439022647353303
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_1: -6324404861799152979
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_10: 3791584105981678106
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_11: -7494003262125176918
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_12: 2113120841149208939
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_13: 8655561840845079565
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_14: 3375954736029557874
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_15: 1522705932676270917
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_16: -4758184247602047462
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_17: -2932535354644677621
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_18: 4001943959945560829
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_19: -3604568005707241816
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_2: 5977182029126011071
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_20: -512900277148863480
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_21: -3937461816041199520
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_22: -9145392366055076965
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_23: 55478810389377628
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_24: -6847382484845167423
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_25: -3302964880435509016
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_26: -6397112423441126322
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_27: -1704359964682733136
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_28: 9069716811939340874
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_29: -2238918306102746916
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_3: 1139558069889863174
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_30: -8078757337703352302
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_31: 1916766583455564399
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_32: 2214112866156596392
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_33: 7671335586994074664
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_34: -1849026986919598451
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_35: 5605780199829439267
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_36: -5676580260231053684
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_37: 2075283057474747732
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_38: 2502061870937795038
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_39: 2520995194345228711
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_4: -3719930103445760634
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_40: -7856326237521710171
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_41: -2383866861508451049
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_42: -2994364096729871362
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_43: -228904868337565335
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_44: -6618942238122376437
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_45: -8804458913846533910
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_46: -2318224887802377326
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_47: 2722446912142031531
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_48: 1727130610408709063
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_49: -5871306806422288952
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_5: -7829066116301880749
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_50: -1094281853477711925
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_51: -2929781229568095229
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_52: -202288625294618029
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_53: -1805834694978004353
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_54: 6079886039765603621
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_55: 5176233123327475527
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_56: 7180780518526965313
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_57: 6856244048986793293
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_58: -5570406116878148003
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_59: -7899026780041819826
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_6: -7228404873137493304
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_60: -1032897602702401363
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_61: -2151319004450092887
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_62: 2366680880768786842
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_63: 6599126060038317564
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_64: -6655344118456288918
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_65: 7417988363079039197
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_66: -52024434357107494
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_67: 3153967155448852188
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_68: 8139929260901343435
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_69: 5691696574157858703
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_7: 6305239478779507570
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_70: -2455247935588109593
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_71: 8419342449227863952
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_72: -3142982313534934635
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_8: 9072859711112208460
+      ATLASES_ZOMBIELOSTCITYBASICGROUP_1536_00_PTX_9: -4530765244605908377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

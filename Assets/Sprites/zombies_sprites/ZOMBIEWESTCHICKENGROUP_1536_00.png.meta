@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: db5603c92a7b52d46b245b129f7d4360
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5051349286237792262
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_0
+  - first:
+      213: -8007733845384395386
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_1
+  - first:
+      213: -135392130561612000
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_2
+  - first:
+      213: 990853239603421404
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_3
+  - first:
+      213: 945558601031743272
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_4
+  - first:
+      213: -8447918398210850813
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_5
+  - first:
+      213: -6283463962892716034
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_6
+  - first:
+      213: 5313433339466399779
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_7
+  - first:
+      213: 1515751657659537311
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_8
+  - first:
+      213: -6843270179121422905
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_9
+  - first:
+      213: -6526388324118409537
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_10
+  - first:
+      213: 6996993730576243749
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_11
+  - first:
+      213: -5501791075728373200
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_12
+  - first:
+      213: 3276545581000894941
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_13
+  - first:
+      213: 2598519123241699412
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_14
+  - first:
+      213: -6212455103518307088
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_15
+  - first:
+      213: 8024716775512336875
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_16
+  - first:
+      213: 3795115522087345072
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_17
+  - first:
+      213: 1276948963755261101
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_18
+  - first:
+      213: -3234777951475927271
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_19
+  - first:
+      213: -2796348801291051365
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_20
+  - first:
+      213: -6286413409989086109
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_21
+  - first:
+      213: -1985755285273577907
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_22
+  - first:
+      213: 200733414583890116
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_23
+  - first:
+      213: -3022597744289005502
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_24
+  - first:
+      213: 7954877908460079790
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_25
+  - first:
+      213: -9176233709052733344
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_26
+  - first:
+      213: -3979269531151703744
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_27
+  - first:
+      213: 7485633089394564471
+    second: ZOMBIEWESTCHICKENGROUP_1536_00_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 251
+        width: 98
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af79f5d569006e9b0800000000000000
+      internalID: -5051349286237792262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 282
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6858df19e70ded090800000000000000
+      internalID: -8007733845384395386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 349
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027ed78139dfe1ef0800000000000000
+      internalID: -135392130561612000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 321
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06b1b85c730cd00800000000000000
+      internalID: 990853239603421404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 294
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ffc0b98c4f1d00800000000000000
+      internalID: 945558601031743272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 278
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300c72fc9f6f2ca80800000000000000
+      internalID: -8447918398210850813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7bfc421d6acc8a0800000000000000
+      internalID: -6283463962892716034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 150
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320cc90787b1db940800000000000000
+      internalID: 5313433339466399779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 219
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9791821a18090510800000000000000
+      internalID: 1515751657659537311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 166
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd917f7702d701a0800000000000000
+      internalID: -6843270179121422905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe4aa2c56c9d65a0800000000000000
+      internalID: -6526388324118409537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cd1aee9b05a1160800000000000000
+      internalID: 6996993730576243749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 93
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03acbc69a26b5a3b0800000000000000
+      internalID: -5501791075728373200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 111
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd92fe598d0a87d20800000000000000
+      internalID: 3276545581000894941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45881e2006bcf0420800000000000000
+      internalID: 2598519123241699412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc8ab39ffce8c9a0800000000000000
+      internalID: -6212455103518307088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 29
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9e78bf3658d5f60800000000000000
+      internalID: 8024716775512336875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 34
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb569fb575faa430800000000000000
+      internalID: 3795115522087345072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 41
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac7fe42152a8b110800000000000000
+      internalID: 1276948963755261101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 59
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917f20b7792cb13d0800000000000000
+      internalID: -3234777951475927271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 17
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e15f6b49f5139d0800000000000000
+      internalID: -2796348801291051365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 17
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364395a7f4c22c8a0800000000000000
+      internalID: -6286413409989086109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 33
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46f96ac61e2174e0800000000000000
+      internalID: -1985755285273577907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0f2de1af529c200800000000000000
+      internalID: 200733414583890116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240c1c0bd539d06d0800000000000000
+      internalID: -3022597744289005502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa8d5d9f47656e60800000000000000
+      internalID: 7954877908460079790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 9
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06852f33f0877a080800000000000000
+      internalID: -9176233709052733344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 10
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041ea2ac17bc6c8c0800000000000000
+      internalID: -3979269531151703744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEWESTCHICKENGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 9
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dd54c52af42e760800000000000000
+      internalID: 7485633089394564471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEWESTCHICKENGROUP_1536_00_0: -5051349286237792262
+      ZOMBIEWESTCHICKENGROUP_1536_00_1: -8007733845384395386
+      ZOMBIEWESTCHICKENGROUP_1536_00_10: -6526388324118409537
+      ZOMBIEWESTCHICKENGROUP_1536_00_11: 6996993730576243749
+      ZOMBIEWESTCHICKENGROUP_1536_00_12: -5501791075728373200
+      ZOMBIEWESTCHICKENGROUP_1536_00_13: 3276545581000894941
+      ZOMBIEWESTCHICKENGROUP_1536_00_14: 2598519123241699412
+      ZOMBIEWESTCHICKENGROUP_1536_00_15: -6212455103518307088
+      ZOMBIEWESTCHICKENGROUP_1536_00_16: 8024716775512336875
+      ZOMBIEWESTCHICKENGROUP_1536_00_17: 3795115522087345072
+      ZOMBIEWESTCHICKENGROUP_1536_00_18: 1276948963755261101
+      ZOMBIEWESTCHICKENGROUP_1536_00_19: -3234777951475927271
+      ZOMBIEWESTCHICKENGROUP_1536_00_2: -135392130561612000
+      ZOMBIEWESTCHICKENGROUP_1536_00_20: -2796348801291051365
+      ZOMBIEWESTCHICKENGROUP_1536_00_21: -6286413409989086109
+      ZOMBIEWESTCHICKENGROUP_1536_00_22: -1985755285273577907
+      ZOMBIEWESTCHICKENGROUP_1536_00_23: 200733414583890116
+      ZOMBIEWESTCHICKENGROUP_1536_00_24: -3022597744289005502
+      ZOMBIEWESTCHICKENGROUP_1536_00_25: 7954877908460079790
+      ZOMBIEWESTCHICKENGROUP_1536_00_26: -9176233709052733344
+      ZOMBIEWESTCHICKENGROUP_1536_00_27: -3979269531151703744
+      ZOMBIEWESTCHICKENGROUP_1536_00_28: 7485633089394564471
+      ZOMBIEWESTCHICKENGROUP_1536_00_3: 990853239603421404
+      ZOMBIEWESTCHICKENGROUP_1536_00_4: 945558601031743272
+      ZOMBIEWESTCHICKENGROUP_1536_00_5: -8447918398210850813
+      ZOMBIEWESTCHICKENGROUP_1536_00_6: -6283463962892716034
+      ZOMBIEWESTCHICKENGROUP_1536_00_7: 5313433339466399779
+      ZOMBIEWESTCHICKENGROUP_1536_00_8: 1515751657659537311
+      ZOMBIEWESTCHICKENGROUP_1536_00_9: -6843270179121422905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

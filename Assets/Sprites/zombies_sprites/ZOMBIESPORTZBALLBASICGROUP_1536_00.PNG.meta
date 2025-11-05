@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: b390957e34e7ba34eb3e33ab54cbd367
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5990365161189167988
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_0
+  - first:
+      213: -8042671609347826391
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_1
+  - first:
+      213: 682437693135557120
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_2
+  - first:
+      213: -8814772547506878370
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_3
+  - first:
+      213: 3129071487678709116
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_4
+  - first:
+      213: 6274135518299182293
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_5
+  - first:
+      213: -5757326922547224790
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_6
+  - first:
+      213: 4084805571114953570
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_7
+  - first:
+      213: 5832335352079927370
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_8
+  - first:
+      213: -4528810503422252847
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_9
+  - first:
+      213: -4579803062767218273
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_10
+  - first:
+      213: 7088047817451773050
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_11
+  - first:
+      213: 6278602016685988166
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_12
+  - first:
+      213: -6796277387738581440
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_13
+  - first:
+      213: 388808593994193682
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_14
+  - first:
+      213: 3051651191739051067
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_15
+  - first:
+      213: -3945575843737673604
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_16
+  - first:
+      213: -1937402842221897310
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_17
+  - first:
+      213: -6091008458906530462
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_18
+  - first:
+      213: 3964575880031712031
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_19
+  - first:
+      213: -2002677295591567032
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_20
+  - first:
+      213: 4147165285257016316
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_21
+  - first:
+      213: -7642491728765957463
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_22
+  - first:
+      213: 1526134552830533044
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_23
+  - first:
+      213: 6317458044625558855
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_24
+  - first:
+      213: 6447432104870211627
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_25
+  - first:
+      213: -9209366867706437017
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_26
+  - first:
+      213: -2795585665345570228
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_27
+  - first:
+      213: 6488240635348864473
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_28
+  - first:
+      213: -7235061837630103855
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_29
+  - first:
+      213: 4474252771897898141
+    second: ZOMBIESPORTZBALLBASICGROUP_1536_00_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 196
+        width: 134
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4735e83306d022350800000000000000
+      internalID: 5990365161189167988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 194
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d14bf78c0b26090800000000000000
+      internalID: -8042671609347826391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 192
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0029ea85771887900800000000000000
+      internalID: 682437693135557120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 222
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58ccf91213aba580800000000000000
+      internalID: -8814772547506878370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 266
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d74e380f1bc6b20800000000000000
+      internalID: 3129071487678709116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 255
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d452e81305321750800000000000000
+      internalID: 6274135518299182293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 84
+        width: 79
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f97c5eaadd910b0800000000000000
+      internalID: -5757326922547224790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 101
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26be7d2560520b830800000000000000
+      internalID: 4084805571114953570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 118
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a484da70a1e90f050800000000000000
+      internalID: 5832335352079927370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 132
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8657087de6621c0800000000000000
+      internalID: -4528810503422252847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 151
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91938611654170c0800000000000000
+      internalID: -4579803062767218273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 131
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c12369fedcd5260800000000000000
+      internalID: 7088047817451773050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 131
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6499e9ac443122750800000000000000
+      internalID: 6278602016685988166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 58
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04672dc59b5cea1a0800000000000000
+      internalID: -6796277387738581440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 51
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b94a23b53556500800000000000000
+      internalID: 388808593994193682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 65
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ce00e2794a95a20800000000000000
+      internalID: 3051651191739051067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 71
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7067a7bcaf7e39c0800000000000000
+      internalID: -3945575843737673604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 89
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9188a3166fc15e0800000000000000
+      internalID: -1937402842221897310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 89
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d0af20414687ba0800000000000000
+      internalID: -6091008458906530462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 67
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f133f56f1c0050730800000000000000
+      internalID: 3964575880031712031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 79
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841568c3c9f0534e0800000000000000
+      internalID: -2002677295591567032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 67
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf37394bad0bd8930800000000000000
+      internalID: 4147165285257016316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa4b0ca34a60f590800000000000000
+      internalID: -7642491728765957463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 21
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdd9ec3a4bed2510800000000000000
+      internalID: 1526134552830533044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 17
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d1759ce9e1ca750800000000000000
+      internalID: 6317458044625558855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 55
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20fc34e651e97950800000000000000
+      internalID: 6447432104870211627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 55
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7622b1c80a1c13080800000000000000
+      internalID: -9209366867706437017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a37e526a51439d0800000000000000
+      internalID: -2795585665345570228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 26
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd493f4b7cda0a50800000000000000
+      internalID: 6488240635348864473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de92187795e79b90800000000000000
+      internalID: -7235061837630103855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIESPORTZBALLBASICGROUP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 26
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94f740c03db71e30800000000000000
+      internalID: 4474252771897898141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_0: 5990365161189167988
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_1: -8042671609347826391
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_10: -4579803062767218273
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_11: 7088047817451773050
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_12: 6278602016685988166
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_13: -6796277387738581440
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_14: 388808593994193682
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_15: 3051651191739051067
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_16: -3945575843737673604
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_17: -1937402842221897310
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_18: -6091008458906530462
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_19: 3964575880031712031
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_2: 682437693135557120
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_20: -2002677295591567032
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_21: 4147165285257016316
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_22: -7642491728765957463
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_23: 1526134552830533044
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_24: 6317458044625558855
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_25: 6447432104870211627
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_26: -9209366867706437017
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_27: -2795585665345570228
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_28: 6488240635348864473
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_29: -7235061837630103855
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_3: -8814772547506878370
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_30: 4474252771897898141
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_4: 3129071487678709116
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_5: 6274135518299182293
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_6: -5757326922547224790
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_7: 4084805571114953570
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_8: 5832335352079927370
+      ZOMBIESPORTZBALLBASICGROUP_1536_00_9: -4528810503422252847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

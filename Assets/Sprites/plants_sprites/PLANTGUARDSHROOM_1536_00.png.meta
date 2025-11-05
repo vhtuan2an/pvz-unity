@@ -1,0 +1,3679 @@
+fileFormatVersion: 2
+guid: 09b3c14c1d400c742a0a6b1f1e54612d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4654384649021181917
+    second: PLANTGUARDSHROOM_1536_00_0
+  - first:
+      213: -1749823896867108036
+    second: PLANTGUARDSHROOM_1536_00_1
+  - first:
+      213: 6274983179129875808
+    second: PLANTGUARDSHROOM_1536_00_2
+  - first:
+      213: 5890412789498822897
+    second: PLANTGUARDSHROOM_1536_00_3
+  - first:
+      213: 7344064869457565605
+    second: PLANTGUARDSHROOM_1536_00_4
+  - first:
+      213: -1042095430007042883
+    second: PLANTGUARDSHROOM_1536_00_5
+  - first:
+      213: 5236229565502754988
+    second: PLANTGUARDSHROOM_1536_00_6
+  - first:
+      213: -6139326273596244143
+    second: PLANTGUARDSHROOM_1536_00_7
+  - first:
+      213: -6200511964419538932
+    second: PLANTGUARDSHROOM_1536_00_8
+  - first:
+      213: 2510702144921883292
+    second: PLANTGUARDSHROOM_1536_00_9
+  - first:
+      213: -7693457879970623227
+    second: PLANTGUARDSHROOM_1536_00_10
+  - first:
+      213: -2382363796962751253
+    second: PLANTGUARDSHROOM_1536_00_11
+  - first:
+      213: -2905709085472108568
+    second: PLANTGUARDSHROOM_1536_00_12
+  - first:
+      213: -405535861429054916
+    second: PLANTGUARDSHROOM_1536_00_13
+  - first:
+      213: -613420404533367566
+    second: PLANTGUARDSHROOM_1536_00_14
+  - first:
+      213: 1217184751171446972
+    second: PLANTGUARDSHROOM_1536_00_15
+  - first:
+      213: -7301861597704194881
+    second: PLANTGUARDSHROOM_1536_00_16
+  - first:
+      213: 7781592725845431926
+    second: PLANTGUARDSHROOM_1536_00_17
+  - first:
+      213: 2555651848489895698
+    second: PLANTGUARDSHROOM_1536_00_18
+  - first:
+      213: -2525746752114404209
+    second: PLANTGUARDSHROOM_1536_00_19
+  - first:
+      213: -8631691949688905947
+    second: PLANTGUARDSHROOM_1536_00_20
+  - first:
+      213: -7027327535824947236
+    second: PLANTGUARDSHROOM_1536_00_21
+  - first:
+      213: 7744191778523114903
+    second: PLANTGUARDSHROOM_1536_00_22
+  - first:
+      213: 3021575263724931044
+    second: PLANTGUARDSHROOM_1536_00_23
+  - first:
+      213: 5572957008640230347
+    second: PLANTGUARDSHROOM_1536_00_24
+  - first:
+      213: -3000344546873037246
+    second: PLANTGUARDSHROOM_1536_00_25
+  - first:
+      213: -3132359785823866896
+    second: PLANTGUARDSHROOM_1536_00_26
+  - first:
+      213: -8572454206507186372
+    second: PLANTGUARDSHROOM_1536_00_27
+  - first:
+      213: -625603944711654851
+    second: PLANTGUARDSHROOM_1536_00_28
+  - first:
+      213: -779243742067867349
+    second: PLANTGUARDSHROOM_1536_00_29
+  - first:
+      213: -7539463825338613018
+    second: PLANTGUARDSHROOM_1536_00_30
+  - first:
+      213: 224939158635040107
+    second: PLANTGUARDSHROOM_1536_00_31
+  - first:
+      213: 236596438351908683
+    second: PLANTGUARDSHROOM_1536_00_32
+  - first:
+      213: 7240932759610391474
+    second: PLANTGUARDSHROOM_1536_00_33
+  - first:
+      213: 7066378235464605826
+    second: PLANTGUARDSHROOM_1536_00_34
+  - first:
+      213: 3562560777575964979
+    second: PLANTGUARDSHROOM_1536_00_35
+  - first:
+      213: -3336804082171206258
+    second: PLANTGUARDSHROOM_1536_00_36
+  - first:
+      213: -8863121345049892274
+    second: PLANTGUARDSHROOM_1536_00_37
+  - first:
+      213: 2220663573396823847
+    second: PLANTGUARDSHROOM_1536_00_38
+  - first:
+      213: -5298908636981440011
+    second: PLANTGUARDSHROOM_1536_00_39
+  - first:
+      213: 3093835406915937236
+    second: PLANTGUARDSHROOM_1536_00_40
+  - first:
+      213: -8514868461270279525
+    second: PLANTGUARDSHROOM_1536_00_41
+  - first:
+      213: 9039804184739056839
+    second: PLANTGUARDSHROOM_1536_00_42
+  - first:
+      213: -4361563288126889471
+    second: PLANTGUARDSHROOM_1536_00_43
+  - first:
+      213: -5152689932016215363
+    second: PLANTGUARDSHROOM_1536_00_44
+  - first:
+      213: -4459222126946086948
+    second: PLANTGUARDSHROOM_1536_00_45
+  - first:
+      213: 5545863111734837248
+    second: PLANTGUARDSHROOM_1536_00_46
+  - first:
+      213: -8863382973992572828
+    second: PLANTGUARDSHROOM_1536_00_47
+  - first:
+      213: 1349925009696005068
+    second: PLANTGUARDSHROOM_1536_00_48
+  - first:
+      213: -7736151806473065473
+    second: PLANTGUARDSHROOM_1536_00_49
+  - first:
+      213: -6377485926994035698
+    second: PLANTGUARDSHROOM_1536_00_50
+  - first:
+      213: 8013491559723240953
+    second: PLANTGUARDSHROOM_1536_00_51
+  - first:
+      213: -6288658428484503445
+    second: PLANTGUARDSHROOM_1536_00_52
+  - first:
+      213: -5465866026807257856
+    second: PLANTGUARDSHROOM_1536_00_53
+  - first:
+      213: -5989708419723862377
+    second: PLANTGUARDSHROOM_1536_00_54
+  - first:
+      213: -1472209636101255774
+    second: PLANTGUARDSHROOM_1536_00_55
+  - first:
+      213: 6476681096486682487
+    second: PLANTGUARDSHROOM_1536_00_56
+  - first:
+      213: -8058562038703964927
+    second: PLANTGUARDSHROOM_1536_00_57
+  - first:
+      213: 542611571595894833
+    second: PLANTGUARDSHROOM_1536_00_58
+  - first:
+      213: 1317156286148753276
+    second: PLANTGUARDSHROOM_1536_00_59
+  - first:
+      213: -3686682264283901449
+    second: PLANTGUARDSHROOM_1536_00_60
+  - first:
+      213: 6563748028444516113
+    second: PLANTGUARDSHROOM_1536_00_61
+  - first:
+      213: -7417850130813490179
+    second: PLANTGUARDSHROOM_1536_00_62
+  - first:
+      213: 1725610329677549854
+    second: PLANTGUARDSHROOM_1536_00_63
+  - first:
+      213: 828323942150497118
+    second: PLANTGUARDSHROOM_1536_00_64
+  - first:
+      213: -3125747746101484972
+    second: PLANTGUARDSHROOM_1536_00_65
+  - first:
+      213: 8542405438599307560
+    second: PLANTGUARDSHROOM_1536_00_66
+  - first:
+      213: 6193577132964139579
+    second: PLANTGUARDSHROOM_1536_00_67
+  - first:
+      213: -306631625076787452
+    second: PLANTGUARDSHROOM_1536_00_68
+  - first:
+      213: -6141200646090450816
+    second: PLANTGUARDSHROOM_1536_00_69
+  - first:
+      213: 1372494742161803194
+    second: PLANTGUARDSHROOM_1536_00_70
+  - first:
+      213: -2858382856367003009
+    second: PLANTGUARDSHROOM_1536_00_71
+  - first:
+      213: -6260182635286258145
+    second: PLANTGUARDSHROOM_1536_00_72
+  - first:
+      213: -8007794193213255330
+    second: PLANTGUARDSHROOM_1536_00_73
+  - first:
+      213: -6125106045237951763
+    second: PLANTGUARDSHROOM_1536_00_74
+  - first:
+      213: 2360444172007144201
+    second: PLANTGUARDSHROOM_1536_00_75
+  - first:
+      213: 1998194359871817031
+    second: PLANTGUARDSHROOM_1536_00_76
+  - first:
+      213: 6067128109954736703
+    second: PLANTGUARDSHROOM_1536_00_77
+  - first:
+      213: -5006421035988010986
+    second: PLANTGUARDSHROOM_1536_00_78
+  - first:
+      213: 2888071590901291634
+    second: PLANTGUARDSHROOM_1536_00_79
+  - first:
+      213: -2686318251651282773
+    second: PLANTGUARDSHROOM_1536_00_80
+  - first:
+      213: 3530210535021274549
+    second: PLANTGUARDSHROOM_1536_00_81
+  - first:
+      213: -7206962402551084823
+    second: PLANTGUARDSHROOM_1536_00_82
+  - first:
+      213: -4168995519060016332
+    second: PLANTGUARDSHROOM_1536_00_83
+  - first:
+      213: -1431437333827224401
+    second: PLANTGUARDSHROOM_1536_00_84
+  - first:
+      213: -475555063063148982
+    second: PLANTGUARDSHROOM_1536_00_85
+  - first:
+      213: -2782223095469304676
+    second: PLANTGUARDSHROOM_1536_00_86
+  - first:
+      213: -6841904724488478545
+    second: PLANTGUARDSHROOM_1536_00_87
+  - first:
+      213: -6300898886711201625
+    second: PLANTGUARDSHROOM_1536_00_88
+  - first:
+      213: -9038258753456640238
+    second: PLANTGUARDSHROOM_1536_00_89
+  - first:
+      213: 3786045883603708614
+    second: PLANTGUARDSHROOM_1536_00_90
+  - first:
+      213: -6680937019210841493
+    second: PLANTGUARDSHROOM_1536_00_91
+  - first:
+      213: -968602442452114599
+    second: PLANTGUARDSHROOM_1536_00_92
+  - first:
+      213: -816517708974323098
+    second: PLANTGUARDSHROOM_1536_00_93
+  - first:
+      213: 2892057126900984437
+    second: PLANTGUARDSHROOM_1536_00_94
+  - first:
+      213: -6513181034099313305
+    second: PLANTGUARDSHROOM_1536_00_95
+  - first:
+      213: 5621057428097385241
+    second: PLANTGUARDSHROOM_1536_00_96
+  - first:
+      213: 278976897697094119
+    second: PLANTGUARDSHROOM_1536_00_97
+  - first:
+      213: 7799233814755988282
+    second: PLANTGUARDSHROOM_1536_00_98
+  - first:
+      213: -8422278798887202462
+    second: PLANTGUARDSHROOM_1536_00_99
+  - first:
+      213: 3279433389402454084
+    second: PLANTGUARDSHROOM_1536_00_100
+  - first:
+      213: 7927506028668545673
+    second: PLANTGUARDSHROOM_1536_00_101
+  - first:
+      213: -6884058451941252781
+    second: PLANTGUARDSHROOM_1536_00_102
+  - first:
+      213: -5178037133646768830
+    second: PLANTGUARDSHROOM_1536_00_103
+  - first:
+      213: -3504989740775041598
+    second: PLANTGUARDSHROOM_1536_00_104
+  - first:
+      213: 5622616000499193711
+    second: PLANTGUARDSHROOM_1536_00_105
+  - first:
+      213: -3676267039945938176
+    second: PLANTGUARDSHROOM_1536_00_106
+  - first:
+      213: -7461737229494275368
+    second: PLANTGUARDSHROOM_1536_00_107
+  - first:
+      213: -2638872886033665438
+    second: PLANTGUARDSHROOM_1536_00_108
+  - first:
+      213: 2659805950396820451
+    second: PLANTGUARDSHROOM_1536_00_109
+  - first:
+      213: -2809323643408461826
+    second: PLANTGUARDSHROOM_1536_00_110
+  - first:
+      213: 9069630525276479820
+    second: PLANTGUARDSHROOM_1536_00_111
+  - first:
+      213: -5042671817380619253
+    second: PLANTGUARDSHROOM_1536_00_112
+  - first:
+      213: 2148299166245246725
+    second: PLANTGUARDSHROOM_1536_00_113
+  - first:
+      213: 8644630037081024571
+    second: PLANTGUARDSHROOM_1536_00_114
+  - first:
+      213: -5923882980676507599
+    second: PLANTGUARDSHROOM_1536_00_115
+  - first:
+      213: 7287178814358355972
+    second: PLANTGUARDSHROOM_1536_00_116
+  - first:
+      213: -5622841665085865272
+    second: PLANTGUARDSHROOM_1536_00_117
+  - first:
+      213: -6247970128063066701
+    second: PLANTGUARDSHROOM_1536_00_118
+  - first:
+      213: 8029693069203446399
+    second: PLANTGUARDSHROOM_1536_00_119
+  - first:
+      213: -7057535691602769252
+    second: PLANTGUARDSHROOM_1536_00_120
+  - first:
+      213: 1197811896056021096
+    second: PLANTGUARDSHROOM_1536_00_121
+  - first:
+      213: 3802696195945721967
+    second: PLANTGUARDSHROOM_1536_00_122
+  - first:
+      213: -1761550252954810968
+    second: PLANTGUARDSHROOM_1536_00_123
+  - first:
+      213: -6529863729583700618
+    second: PLANTGUARDSHROOM_1536_00_124
+  - first:
+      213: 1907459011208588926
+    second: PLANTGUARDSHROOM_1536_00_125
+  - first:
+      213: 6028963156423041063
+    second: PLANTGUARDSHROOM_1536_00_126
+  - first:
+      213: -2515122305813843183
+    second: PLANTGUARDSHROOM_1536_00_127
+  - first:
+      213: 4303134819491284322
+    second: PLANTGUARDSHROOM_1536_00_128
+  - first:
+      213: -1248406311564350161
+    second: PLANTGUARDSHROOM_1536_00_129
+  - first:
+      213: 4355557878102055641
+    second: PLANTGUARDSHROOM_1536_00_130
+  - first:
+      213: -6534059483995402267
+    second: PLANTGUARDSHROOM_1536_00_131
+  - first:
+      213: -2809786134039931225
+    second: PLANTGUARDSHROOM_1536_00_132
+  - first:
+      213: -3531679511660460899
+    second: PLANTGUARDSHROOM_1536_00_133
+  - first:
+      213: -2675664621284765953
+    second: PLANTGUARDSHROOM_1536_00_134
+  - first:
+      213: 2167059470824447094
+    second: PLANTGUARDSHROOM_1536_00_135
+  - first:
+      213: -4342299309964005521
+    second: PLANTGUARDSHROOM_1536_00_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 480
+        width: 424
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320bf0b52dd486fb0800000000000000
+      internalID: -4654384649021181917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 540
+        width: 209
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b0fbfcf6067b7e0800000000000000
+      internalID: -1749823896867108036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 701
+        width: 208
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d669384f7351750800000000000000
+      internalID: 6274983179129875808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 792
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0ce7a2933feb150800000000000000
+      internalID: 5890412789498822897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 713
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a79177961c5be560800000000000000
+      internalID: 7344064869457565605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 732
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc4f584abbb981f0800000000000000
+      internalID: -1042095430007042883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 713
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0903e0c03daa840800000000000000
+      internalID: 5236229565502754988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 696
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fb21e184bbccaa0800000000000000
+      internalID: -6139326273596244143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 695
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00c637583b53f9a0800000000000000
+      internalID: -6200511964419538932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 652
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9251ec6c4ec7d220800000000000000
+      internalID: 2510702144921883292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 415
+        width: 133
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501dbe1e1d85b3590800000000000000
+      internalID: -7693457879970623227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 415
+        width: 133
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becc84cbfb420fed0800000000000000
+      internalID: -2382363796962751253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 592
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef4fcb5bf8dca7d0800000000000000
+      internalID: -2905709085472108568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 552
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32d6db584f3f5af0800000000000000
+      internalID: -405535861429054916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 540
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcefc16461bc77f0800000000000000
+      internalID: -613420404533367566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 539
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8a89f051f44e010800000000000000
+      internalID: 1217184751171446972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 232
+        width: 101
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb476c550939aaa90800000000000000
+      internalID: -7301861597704194881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 405
+        width: 139
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676d7c20b55cdfb60800000000000000
+      internalID: 7781592725845431926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 480
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2178fc6d0df777320800000000000000
+      internalID: 2555651848489895698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 469
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84df9ff5beb2fcd0800000000000000
+      internalID: -2525746752114404209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 356
+        width: 174
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f913887e1163880800000000000000
+      internalID: -8631691949688905947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 345
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd735daa6dae97e90800000000000000
+      internalID: -7027327535824947236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 270
+        width: 64
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dee5f5465e87b60800000000000000
+      internalID: 7744191778523114903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 409
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e78e6081bacee920800000000000000
+      internalID: 3021575263724931044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 439
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc346806fde175d40800000000000000
+      internalID: 5572957008640230347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 430
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e2ad7f782ac56d0800000000000000
+      internalID: -3000344546873037246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 415
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffef39ee5f9784d0800000000000000
+      internalID: -3132359785823866896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 415
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3706d76156880980800000000000000
+      internalID: -8572454206507186372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 415
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32f061e6886157f0800000000000000
+      internalID: -625603944711654851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 353
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b214998f1f19f25f0800000000000000
+      internalID: -779243742067867349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 304
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2c8cdb8917e5790800000000000000
+      internalID: -7539463825338613018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 375
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d448619f42f1300800000000000000
+      internalID: 224939158635040107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 296
+        width: 136
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f8617053f884300800000000000000
+      internalID: 236596438351908683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 296
+        width: 136
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbf0131bf5fc7460800000000000000
+      internalID: 7240932759610391474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 350
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2806b6dd091d01260800000000000000
+      internalID: 7066378235464605826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331a726e622c07130800000000000000
+      internalID: 3562560777575964979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 300
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85ac1dcd5a41b1d0800000000000000
+      internalID: -3336804082171206258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 345
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a6e13781edff480800000000000000
+      internalID: -8863121345049892274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 299
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f97f121c161de10800000000000000
+      internalID: 2220663573396823847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1d8736bae7676b0800000000000000
+      internalID: -5298908636981440011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 138
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d320c629e28fea20800000000000000
+      internalID: 3093835406915937236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 320
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9adec88f3c15d980800000000000000
+      internalID: -8514868461270279525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 303
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc0676d206d37d70800000000000000
+      internalID: 9039804184739056839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 260
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102efc94c4d9873c0800000000000000
+      internalID: -4361563288126889471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 240
+        width: 190
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba11749ec7fd78b0800000000000000
+      internalID: -5152689932016215363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 207
+        width: 119
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf01dcf919ad12c0800000000000000
+      internalID: -4459222126946086948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 212
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000c5ebed1dd6fc40800000000000000
+      internalID: 5545863111734837248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 258
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4686de63520fef480800000000000000
+      internalID: -8863382973992572828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb9854e4a5ebb210800000000000000
+      internalID: 1349925009696005068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 207
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb2dae7beaa3a490800000000000000
+      internalID: -7736151806473065473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 205
+        width: 148
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cb779b65e9e77a0800000000000000
+      internalID: -6377485926994035698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 208
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd05e3cd14a53f60800000000000000
+      internalID: 8013491559723240953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 152
+        width: 95
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b683a606a723ab8a0800000000000000
+      internalID: -6288658428484503445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 156
+        width: 92
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005174adec75524b0800000000000000
+      internalID: -5465866026807257856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 217
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e51365de740eca0800000000000000
+      internalID: -5989708419723862377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 142
+        width: 127
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad0745d229a19be0800000000000000
+      internalID: -1472209636101255774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 155
+        width: 158
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f739f642bc1e950800000000000000
+      internalID: 6476681096486682487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 194
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d3a9a958c3a2090800000000000000
+      internalID: -8058562038703964927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 124
+        width: 92
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1306df7795eb78700800000000000000
+      internalID: 542611571595894833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 166
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77b195e9aa774210800000000000000
+      internalID: 1317156286148753276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 128
+        width: 92
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f110a5730646dcc0800000000000000
+      internalID: -3686682264283901449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 133
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f1b9e3e0e171b50800000000000000
+      internalID: 6563748028444516113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 154
+        width: 128
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbe6c38b908e0990800000000000000
+      internalID: -7417850130813490179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 180
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11dc21c37992f710800000000000000
+      internalID: 1725610329677549854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 86
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53e4da9c3cce7b00800000000000000
+      internalID: 828323942150497118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 144
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452a4206cfc1f94d0800000000000000
+      internalID: -3125747746101484972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 116
+        width: 129
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821a31f9c78bc8670800000000000000
+      internalID: 8542405438599307560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 93
+        width: 104
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b325f43669104f550800000000000000
+      internalID: 6193577132964139579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 119
+        width: 158
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b56e5920aebbf0800000000000000
+      internalID: -306631625076787452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 112
+        width: 105
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0881163cc8216caa0800000000000000
+      internalID: -6141200646090450816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 129
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab745aa32b41c0310800000000000000
+      internalID: 1372494742161803194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 64
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7aad2ebfebf458d0800000000000000
+      internalID: -2858382856367003009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e91b2af0d5f19a0800000000000000
+      internalID: -6260182635286258145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 65
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51961fbb999ed090800000000000000
+      internalID: -8007794193213255330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 79
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de28ef901804ffaa0800000000000000
+      internalID: -6125106045237951763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 87
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b70a0e77bf1c020800000000000000
+      internalID: 2360444172007144201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 89
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7454954fe230bbb10800000000000000
+      internalID: 1998194359871817031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 93
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32a3a8fed4c23450800000000000000
+      internalID: 6067128109954736703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 96
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61834e9c79e958ab0800000000000000
+      internalID: -5006421035988010986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 51
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a919d6fcd741820800000000000000
+      internalID: 2888071590901291634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 60
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba84da868c748bad0800000000000000
+      internalID: -2686318251651282773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 68
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5e84a17c3ddf030800000000000000
+      internalID: 3530210535021274549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 81
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8c85601e9bbfb90800000000000000
+      internalID: -7206962402551084823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 80
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4338b38e9a0c426c0800000000000000
+      internalID: -4168995519060016332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 83
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facfef63453822ce0800000000000000
+      internalID: -1431437333827224401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 81
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a468bf2903d7669f0800000000000000
+      internalID: -475555063063148982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 68
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c941aa4e5de8369d0800000000000000
+      internalID: -2782223095469304676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 68
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa02ccd27ebac01a0800000000000000
+      internalID: -6841904724488478545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 68
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0bceb98d5be88a0800000000000000
+      internalID: -6300898886711201625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fe62cec87a19280800000000000000
+      internalID: -9038258753456640238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 78
+        width: 177
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca678bfbacba8430800000000000000
+      internalID: 3786045883603708614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 25
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b624e2b9d2b8843a0800000000000000
+      internalID: -6680937019210841493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 23
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953e011e535de82f0800000000000000
+      internalID: -968602442452114599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 23
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a05c348752ba4f0800000000000000
+      internalID: -816517708974323098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 38
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ae11752a6a22820800000000000000
+      internalID: 2892057126900984437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 24
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765f2b89b588c95a0800000000000000
+      internalID: -6513181034099313305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913c0dff2f1020e40800000000000000
+      internalID: 5621057428097385241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 36
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e996c7a2002fd300800000000000000
+      internalID: 278976897697094119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 36
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33deb815d17c3c60800000000000000
+      internalID: 7799233814755988282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 34
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26156093e0e0e1b80800000000000000
+      internalID: -8422278798887202462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 38
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44873efda43e28d20800000000000000
+      internalID: 3279433389402454084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 38
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a6e893bb8240e60800000000000000
+      internalID: 7927506028668545673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 36
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351240faf49e670a0800000000000000
+      internalID: -6884058451941252781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 23
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245d33f49aae328b0800000000000000
+      internalID: -5178037133646768830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 39
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c517b7a666cb5fc0800000000000000
+      internalID: -3504989740775041598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 30
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f679e2a667b870e40800000000000000
+      internalID: 5622616000499193711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 36
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bab88da964bfcc0800000000000000
+      internalID: -3676267039945938176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 55
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2bfa41685927890800000000000000
+      internalID: -7461737229494275368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 50
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262bd8c6717d06bd0800000000000000
+      internalID: -2638872886033665438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 49
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb6fdc6b6789e420800000000000000
+      internalID: 2659805950396820451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 36
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff488fd7074309d0800000000000000
+      internalID: -2809323643408461826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 35
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41e427e8eccddd70800000000000000
+      internalID: 9069630525276479820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 39
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c972603b4d40ab0800000000000000
+      internalID: -5042671817380619253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 44
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507d053a5ba40dd10800000000000000
+      internalID: 2148299166245246725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 27
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38e2eea735e7f770800000000000000
+      internalID: 8644630037081024571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 23
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1386bcda0d32acda0800000000000000
+      internalID: -5923882980676507599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 19
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4000594c582412560800000000000000
+      internalID: 7287178814358355972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 19
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c28a44fb47a7f1b0800000000000000
+      internalID: -5622841665085865272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd8c8d8540ca49a0800000000000000
+      internalID: -6247970128063066701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 11
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9945ad433f6f60800000000000000
+      internalID: 8029693069203446399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 9
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a40605ea89e0e90800000000000000
+      internalID: -7057535691602769252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 19
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860082cb29b7f9010800000000000000
+      internalID: 1197811896056021096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60f21cea04e5c430800000000000000
+      internalID: 3802696195945721967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 4
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a501a6c067bd87e0800000000000000
+      internalID: -1761550252954810968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675c47ed8834165a0800000000000000
+      internalID: -6529863729583700618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 16
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ea4b25dd7a87a10800000000000000
+      internalID: 1907459011208588926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 16
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72063864c0e2ba350800000000000000
+      internalID: 6028963156423041063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 17
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113fd4ba69d781dd0800000000000000
+      internalID: -2515122305813843183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 17
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2658460c15ec7bb30800000000000000
+      internalID: 4303134819491284322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 18
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2de9dfe215ccaee0800000000000000
+      internalID: -1248406311564350161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 15
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da5dea30dc027c30800000000000000
+      internalID: 4355557878102055641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 26
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef8e2ba48b5255a0800000000000000
+      internalID: -6534059483995402267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a65bb1e562a109d0800000000000000
+      internalID: -2809786134039931225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 18
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9404fe1234fcfec0800000000000000
+      internalID: -3531679511660460899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 21
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffecd3604312edad0800000000000000
+      internalID: -2675664621284765953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c13ad6b11f21e10800000000000000
+      internalID: 2167059470824447094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTGUARDSHROOM_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 12
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6feb29b8cd0db3c0800000000000000
+      internalID: -4342299309964005521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTGUARDSHROOM_1536_00_0: -4654384649021181917
+      PLANTGUARDSHROOM_1536_00_1: -1749823896867108036
+      PLANTGUARDSHROOM_1536_00_10: -7693457879970623227
+      PLANTGUARDSHROOM_1536_00_100: 3279433389402454084
+      PLANTGUARDSHROOM_1536_00_101: 7927506028668545673
+      PLANTGUARDSHROOM_1536_00_102: -6884058451941252781
+      PLANTGUARDSHROOM_1536_00_103: -5178037133646768830
+      PLANTGUARDSHROOM_1536_00_104: -3504989740775041598
+      PLANTGUARDSHROOM_1536_00_105: 5622616000499193711
+      PLANTGUARDSHROOM_1536_00_106: -3676267039945938176
+      PLANTGUARDSHROOM_1536_00_107: -7461737229494275368
+      PLANTGUARDSHROOM_1536_00_108: -2638872886033665438
+      PLANTGUARDSHROOM_1536_00_109: 2659805950396820451
+      PLANTGUARDSHROOM_1536_00_11: -2382363796962751253
+      PLANTGUARDSHROOM_1536_00_110: -2809323643408461826
+      PLANTGUARDSHROOM_1536_00_111: 9069630525276479820
+      PLANTGUARDSHROOM_1536_00_112: -5042671817380619253
+      PLANTGUARDSHROOM_1536_00_113: 2148299166245246725
+      PLANTGUARDSHROOM_1536_00_114: 8644630037081024571
+      PLANTGUARDSHROOM_1536_00_115: -5923882980676507599
+      PLANTGUARDSHROOM_1536_00_116: 7287178814358355972
+      PLANTGUARDSHROOM_1536_00_117: -5622841665085865272
+      PLANTGUARDSHROOM_1536_00_118: -6247970128063066701
+      PLANTGUARDSHROOM_1536_00_119: 8029693069203446399
+      PLANTGUARDSHROOM_1536_00_12: -2905709085472108568
+      PLANTGUARDSHROOM_1536_00_120: -7057535691602769252
+      PLANTGUARDSHROOM_1536_00_121: 1197811896056021096
+      PLANTGUARDSHROOM_1536_00_122: 3802696195945721967
+      PLANTGUARDSHROOM_1536_00_123: -1761550252954810968
+      PLANTGUARDSHROOM_1536_00_124: -6529863729583700618
+      PLANTGUARDSHROOM_1536_00_125: 1907459011208588926
+      PLANTGUARDSHROOM_1536_00_126: 6028963156423041063
+      PLANTGUARDSHROOM_1536_00_127: -2515122305813843183
+      PLANTGUARDSHROOM_1536_00_128: 4303134819491284322
+      PLANTGUARDSHROOM_1536_00_129: -1248406311564350161
+      PLANTGUARDSHROOM_1536_00_13: -405535861429054916
+      PLANTGUARDSHROOM_1536_00_130: 4355557878102055641
+      PLANTGUARDSHROOM_1536_00_131: -6534059483995402267
+      PLANTGUARDSHROOM_1536_00_132: -2809786134039931225
+      PLANTGUARDSHROOM_1536_00_133: -3531679511660460899
+      PLANTGUARDSHROOM_1536_00_134: -2675664621284765953
+      PLANTGUARDSHROOM_1536_00_135: 2167059470824447094
+      PLANTGUARDSHROOM_1536_00_136: -4342299309964005521
+      PLANTGUARDSHROOM_1536_00_14: -613420404533367566
+      PLANTGUARDSHROOM_1536_00_15: 1217184751171446972
+      PLANTGUARDSHROOM_1536_00_16: -7301861597704194881
+      PLANTGUARDSHROOM_1536_00_17: 7781592725845431926
+      PLANTGUARDSHROOM_1536_00_18: 2555651848489895698
+      PLANTGUARDSHROOM_1536_00_19: -2525746752114404209
+      PLANTGUARDSHROOM_1536_00_2: 6274983179129875808
+      PLANTGUARDSHROOM_1536_00_20: -8631691949688905947
+      PLANTGUARDSHROOM_1536_00_21: -7027327535824947236
+      PLANTGUARDSHROOM_1536_00_22: 7744191778523114903
+      PLANTGUARDSHROOM_1536_00_23: 3021575263724931044
+      PLANTGUARDSHROOM_1536_00_24: 5572957008640230347
+      PLANTGUARDSHROOM_1536_00_25: -3000344546873037246
+      PLANTGUARDSHROOM_1536_00_26: -3132359785823866896
+      PLANTGUARDSHROOM_1536_00_27: -8572454206507186372
+      PLANTGUARDSHROOM_1536_00_28: -625603944711654851
+      PLANTGUARDSHROOM_1536_00_29: -779243742067867349
+      PLANTGUARDSHROOM_1536_00_3: 5890412789498822897
+      PLANTGUARDSHROOM_1536_00_30: -7539463825338613018
+      PLANTGUARDSHROOM_1536_00_31: 224939158635040107
+      PLANTGUARDSHROOM_1536_00_32: 236596438351908683
+      PLANTGUARDSHROOM_1536_00_33: 7240932759610391474
+      PLANTGUARDSHROOM_1536_00_34: 7066378235464605826
+      PLANTGUARDSHROOM_1536_00_35: 3562560777575964979
+      PLANTGUARDSHROOM_1536_00_36: -3336804082171206258
+      PLANTGUARDSHROOM_1536_00_37: -8863121345049892274
+      PLANTGUARDSHROOM_1536_00_38: 2220663573396823847
+      PLANTGUARDSHROOM_1536_00_39: -5298908636981440011
+      PLANTGUARDSHROOM_1536_00_4: 7344064869457565605
+      PLANTGUARDSHROOM_1536_00_40: 3093835406915937236
+      PLANTGUARDSHROOM_1536_00_41: -8514868461270279525
+      PLANTGUARDSHROOM_1536_00_42: 9039804184739056839
+      PLANTGUARDSHROOM_1536_00_43: -4361563288126889471
+      PLANTGUARDSHROOM_1536_00_44: -5152689932016215363
+      PLANTGUARDSHROOM_1536_00_45: -4459222126946086948
+      PLANTGUARDSHROOM_1536_00_46: 5545863111734837248
+      PLANTGUARDSHROOM_1536_00_47: -8863382973992572828
+      PLANTGUARDSHROOM_1536_00_48: 1349925009696005068
+      PLANTGUARDSHROOM_1536_00_49: -7736151806473065473
+      PLANTGUARDSHROOM_1536_00_5: -1042095430007042883
+      PLANTGUARDSHROOM_1536_00_50: -6377485926994035698
+      PLANTGUARDSHROOM_1536_00_51: 8013491559723240953
+      PLANTGUARDSHROOM_1536_00_52: -6288658428484503445
+      PLANTGUARDSHROOM_1536_00_53: -5465866026807257856
+      PLANTGUARDSHROOM_1536_00_54: -5989708419723862377
+      PLANTGUARDSHROOM_1536_00_55: -1472209636101255774
+      PLANTGUARDSHROOM_1536_00_56: 6476681096486682487
+      PLANTGUARDSHROOM_1536_00_57: -8058562038703964927
+      PLANTGUARDSHROOM_1536_00_58: 542611571595894833
+      PLANTGUARDSHROOM_1536_00_59: 1317156286148753276
+      PLANTGUARDSHROOM_1536_00_6: 5236229565502754988
+      PLANTGUARDSHROOM_1536_00_60: -3686682264283901449
+      PLANTGUARDSHROOM_1536_00_61: 6563748028444516113
+      PLANTGUARDSHROOM_1536_00_62: -7417850130813490179
+      PLANTGUARDSHROOM_1536_00_63: 1725610329677549854
+      PLANTGUARDSHROOM_1536_00_64: 828323942150497118
+      PLANTGUARDSHROOM_1536_00_65: -3125747746101484972
+      PLANTGUARDSHROOM_1536_00_66: 8542405438599307560
+      PLANTGUARDSHROOM_1536_00_67: 6193577132964139579
+      PLANTGUARDSHROOM_1536_00_68: -306631625076787452
+      PLANTGUARDSHROOM_1536_00_69: -6141200646090450816
+      PLANTGUARDSHROOM_1536_00_7: -6139326273596244143
+      PLANTGUARDSHROOM_1536_00_70: 1372494742161803194
+      PLANTGUARDSHROOM_1536_00_71: -2858382856367003009
+      PLANTGUARDSHROOM_1536_00_72: -6260182635286258145
+      PLANTGUARDSHROOM_1536_00_73: -8007794193213255330
+      PLANTGUARDSHROOM_1536_00_74: -6125106045237951763
+      PLANTGUARDSHROOM_1536_00_75: 2360444172007144201
+      PLANTGUARDSHROOM_1536_00_76: 1998194359871817031
+      PLANTGUARDSHROOM_1536_00_77: 6067128109954736703
+      PLANTGUARDSHROOM_1536_00_78: -5006421035988010986
+      PLANTGUARDSHROOM_1536_00_79: 2888071590901291634
+      PLANTGUARDSHROOM_1536_00_8: -6200511964419538932
+      PLANTGUARDSHROOM_1536_00_80: -2686318251651282773
+      PLANTGUARDSHROOM_1536_00_81: 3530210535021274549
+      PLANTGUARDSHROOM_1536_00_82: -7206962402551084823
+      PLANTGUARDSHROOM_1536_00_83: -4168995519060016332
+      PLANTGUARDSHROOM_1536_00_84: -1431437333827224401
+      PLANTGUARDSHROOM_1536_00_85: -475555063063148982
+      PLANTGUARDSHROOM_1536_00_86: -2782223095469304676
+      PLANTGUARDSHROOM_1536_00_87: -6841904724488478545
+      PLANTGUARDSHROOM_1536_00_88: -6300898886711201625
+      PLANTGUARDSHROOM_1536_00_89: -9038258753456640238
+      PLANTGUARDSHROOM_1536_00_9: 2510702144921883292
+      PLANTGUARDSHROOM_1536_00_90: 3786045883603708614
+      PLANTGUARDSHROOM_1536_00_91: -6680937019210841493
+      PLANTGUARDSHROOM_1536_00_92: -968602442452114599
+      PLANTGUARDSHROOM_1536_00_93: -816517708974323098
+      PLANTGUARDSHROOM_1536_00_94: 2892057126900984437
+      PLANTGUARDSHROOM_1536_00_95: -6513181034099313305
+      PLANTGUARDSHROOM_1536_00_96: 5621057428097385241
+      PLANTGUARDSHROOM_1536_00_97: 278976897697094119
+      PLANTGUARDSHROOM_1536_00_98: 7799233814755988282
+      PLANTGUARDSHROOM_1536_00_99: -8422278798887202462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

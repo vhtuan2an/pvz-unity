@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 56a6c05b72646ad49949ee9cc6ed52d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5650924461349264621
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_0
+  - first:
+      213: 2310648321704575861
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_1
+  - first:
+      213: 7130167029273876260
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_2
+  - first:
+      213: 3022210393662478369
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_3
+  - first:
+      213: 4645377780004897295
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_4
+  - first:
+      213: -1367032440328487502
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_5
+  - first:
+      213: -2507025738577346909
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_6
+  - first:
+      213: -7883321059892891360
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_7
+  - first:
+      213: 2781588638320082508
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_8
+  - first:
+      213: 6536070701366773655
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_9
+  - first:
+      213: 3281289309102450581
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_10
+  - first:
+      213: -134028162709697580
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_11
+  - first:
+      213: 3728341584601139024
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_12
+  - first:
+      213: 3861190285145133715
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_13
+  - first:
+      213: -1875881308782220598
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_14
+  - first:
+      213: 2708171387406036748
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_15
+  - first:
+      213: -4756679018566352954
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_16
+  - first:
+      213: 3751616379084028556
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_17
+  - first:
+      213: -5483037623590810383
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_18
+  - first:
+      213: -3850609490870443859
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_19
+  - first:
+      213: -5970863673075355961
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_20
+  - first:
+      213: 2934995431314475764
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_21
+  - first:
+      213: -5050499663268415355
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_22
+  - first:
+      213: -2090236585816993745
+    second: ATLASES_PLANTSTARFRUIT_1536_00_PTX_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 399
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decd9439bdd1c6e40800000000000000
+      internalID: 5650924461349264621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 362
+        width: 102
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573cd000862111020800000000000000
+      internalID: 2310648321704575861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 419
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4275219c22173f260800000000000000
+      internalID: 7130167029273876260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 462
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128deb6375c01f920800000000000000
+      internalID: 3022210393662478369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 288
+        width: 142
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f024fa88a72b77040800000000000000
+      internalID: 4645377780004897295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 384
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdf8c50d33570de0800000000000000
+      internalID: -1367032440328487502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 263
+        width: 103
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aef551af51453dd0800000000000000
+      internalID: -2507025738577346909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 358
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0217abe7341d89290800000000000000
+      internalID: -7883321059892891360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 331
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eb45a01203a9620800000000000000
+      internalID: 2781588638320082508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 352
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7970ecd5ca9c4ba50800000000000000
+      internalID: 6536070701366773655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 313
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597a65add3b798d20800000000000000
+      internalID: 3281289309102450581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 326
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db4acb9816d32ef0800000000000000
+      internalID: -134028162709697580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 334
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057c777eaeabdb330800000000000000
+      internalID: 3728341584601139024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 342
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392d34c5b14b59530800000000000000
+      internalID: 3861190285145133715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 333
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaad3573e787f5e0800000000000000
+      internalID: -1875881308782220598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 119
+        width: 116
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fa631478b559520800000000000000
+      internalID: 2708171387406036748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 168
+        width: 141
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf7cc372a1ecfdb0800000000000000
+      internalID: -4756679018566352954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 164
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a37d8483b601430800000000000000
+      internalID: 3751616379084028556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 53
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc84cbe45658e3b0800000000000000
+      internalID: -5483037623590810383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 75
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da06be7c113ef8ac0800000000000000
+      internalID: -3850609490870443859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 114
+        width: 140
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce2f04df1b332da0800000000000000
+      internalID: -5970863673075355961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 64
+        width: 140
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fac4e46bc23bb820800000000000000
+      internalID: 2934995431314475764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 140
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588f7a0a05509e9b0800000000000000
+      internalID: -5050499663268415355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSTARFRUIT_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 14
+        width: 140
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f205ad556ecfdf2e0800000000000000
+      internalID: -2090236585816993745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_0: 5650924461349264621
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_1: 2310648321704575861
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_10: 3281289309102450581
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_11: -134028162709697580
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_12: 3728341584601139024
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_13: 3861190285145133715
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_14: -1875881308782220598
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_15: 2708171387406036748
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_16: -4756679018566352954
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_17: 3751616379084028556
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_18: -5483037623590810383
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_19: -3850609490870443859
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_2: 7130167029273876260
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_20: -5970863673075355961
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_21: 2934995431314475764
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_22: -5050499663268415355
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_23: -2090236585816993745
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_3: 3022210393662478369
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_4: 4645377780004897295
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_5: -1367032440328487502
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_6: -2507025738577346909
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_7: -7883321059892891360
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_8: 2781588638320082508
+      ATLASES_PLANTSTARFRUIT_1536_00_PTX_9: 6536070701366773655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

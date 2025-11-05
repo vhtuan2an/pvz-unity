@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: bd2428c15f6abc8478ec0917c65e1a42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1277797085967861102
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_0
+  - first:
+      213: 8681356181820442054
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_1
+  - first:
+      213: 5384646395249552173
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_2
+  - first:
+      213: -3241000312019394850
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_3
+  - first:
+      213: -4747827280963397560
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_4
+  - first:
+      213: 4469873153957882324
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_5
+  - first:
+      213: 8795832785218586215
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_6
+  - first:
+      213: 6775964921042390973
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_7
+  - first:
+      213: 4468832162664710643
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_8
+  - first:
+      213: -2329289054974985583
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_9
+  - first:
+      213: -1397813572261337144
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_10
+  - first:
+      213: -6043702225725017345
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_11
+  - first:
+      213: -2594714664221165545
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_12
+  - first:
+      213: -5915690401767468356
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_13
+  - first:
+      213: 6398149493946222531
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_14
+  - first:
+      213: -5729397830223139255
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_15
+  - first:
+      213: -91508707707393853
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_16
+  - first:
+      213: 4447248567416973436
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_17
+  - first:
+      213: -1494183521801724770
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_18
+  - first:
+      213: -2682782347081826114
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_19
+  - first:
+      213: 4877660033163993756
+    second: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 391
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a3bd3025a544ee0800000000000000
+      internalID: -1277797085967861102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 400
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c58c0a937f5a7870800000000000000
+      internalID: 8681356181820442054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 490
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2befed0e5b1aba40800000000000000
+      internalID: 5384646395249552173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 474
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede57254367a503d0800000000000000
+      internalID: -3241000312019394850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 334
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84894473e345c1eb0800000000000000
+      internalID: -4747827280963397560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 302
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9e6bc73fd280e30800000000000000
+      internalID: 4469873153957882324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 296
+        width: 32
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76640bad053111a70800000000000000
+      internalID: 8795832785218586215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 281
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf4d31f130190e50800000000000000
+      internalID: 6775964921042390973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 269
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f18870dc2b740e30800000000000000
+      internalID: 4468832162664710643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 307
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ab20312f3bcafd0800000000000000
+      internalID: -2329289054974985583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 292
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7a42346f7f99ce0800000000000000
+      internalID: -1397813572261337144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 231
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff23c6bb8d4702ca0800000000000000
+      internalID: -6043702225725017345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 240
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718b991a2c8bdfbd0800000000000000
+      internalID: -2594714664221165545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 222
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb256791cee37eda0800000000000000
+      internalID: -5915690401767468356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 222
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7828ed01bcac850800000000000000
+      internalID: 6398149493946222531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 241
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ee7a077071d70b0800000000000000
+      internalID: -5729397830223139255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 246
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8ee3fa055eabef0800000000000000
+      internalID: -91508707707393853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 254
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78e0c0720dc7bd30800000000000000
+      internalID: 4447248567416973436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 224
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c14c1e008934be0800000000000000
+      internalID: -1494183521801724770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 223
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0cf785ba7d4cad0800000000000000
+      internalID: -2682782347081826114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 230
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c922cdb05fde0b340800000000000000
+      internalID: 4877660033163993756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_0: -1277797085967861102
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_1: 8681356181820442054
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_10: -1397813572261337144
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_11: -6043702225725017345
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_12: -2594714664221165545
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_13: -5915690401767468356
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_14: 6398149493946222531
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_15: -5729397830223139255
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_16: -91508707707393853
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_17: 4447248567416973436
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_18: -1494183521801724770
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_19: -2682782347081826114
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_2: 5384646395249552173
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_20: 4877660033163993756
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_3: -3241000312019394850
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_4: -4747827280963397560
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_5: 4469873153957882324
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_6: 8795832785218586215
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_7: 6775964921042390973
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_8: 4468832162664710643
+      ATLASES_ZOMBIEFOODFIGHTGOBBLERKINGGROUP_1536_00_PTX_9: -2329289054974985583
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: e2e72eedb2e8b0c43ac524724dc5da57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5703855630181469910
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_0
+  - first:
+      213: 2655659618068568039
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_1
+  - first:
+      213: -1460716361761586512
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_2
+  - first:
+      213: -1823737362312139161
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_3
+  - first:
+      213: 7085262150051889830
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_4
+  - first:
+      213: 6597602469897173789
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_5
+  - first:
+      213: -6272488907533933692
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_6
+  - first:
+      213: -3935752640793435777
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_7
+  - first:
+      213: 4508494728391457784
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_8
+  - first:
+      213: -3447090255567685276
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_9
+  - first:
+      213: -1074061421120372544
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_10
+  - first:
+      213: 5709342565850569604
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_11
+  - first:
+      213: 3743606999645247095
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_12
+  - first:
+      213: -5354904989969664562
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_13
+  - first:
+      213: -5969934698048542947
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_14
+  - first:
+      213: -1106211681597822793
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_15
+  - first:
+      213: 8241798359962035456
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_16
+  - first:
+      213: 1721424319742092351
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_17
+  - first:
+      213: -800579925058580455
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_18
+  - first:
+      213: -6287195437008037764
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_19
+  - first:
+      213: -3854697691562854838
+    second: ATLASES_PLANTLILYPAD_1536_00_PTX_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 215
+        width: 272
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21fbe05685d7d0b0800000000000000
+      internalID: -5703855630181469910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 191
+        width: 171
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e793533a5ccad420800000000000000
+      internalID: 2655659618068568039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 284
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2899b453e7abbe0800000000000000
+      internalID: -1460716361761586512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 266
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ee6c31888c0b6e0800000000000000
+      internalID: -1823737362312139161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 248
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a20d5ad268e35260800000000000000
+      internalID: 7085262150051889830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 223
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bf573ad746f8b50800000000000000
+      internalID: 6597602469897173789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 220
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483acd85294a3f8a0800000000000000
+      internalID: -6272488907533933692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 99
+        width: 166
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71a3b163d56169c0800000000000000
+      internalID: -3935752640793435777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 203
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb7e758114619e30800000000000000
+      internalID: 4508494728391457784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 196
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4697d201da97920d0800000000000000
+      internalID: -3447090255567685276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 200
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c04b2ff3da2811f0800000000000000
+      internalID: -1074061421120372544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 203
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b5a8270d8ab3f40800000000000000
+      internalID: 5709342565850569604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 196
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77655805bb6f3f330800000000000000
+      internalID: 3743606999645247095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 133
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec534ea784e8fa5b0800000000000000
+      internalID: -5354904989969664562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 79
+        width: 158
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a98ea508862da0800000000000000
+      internalID: -5969934698048542947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 75
+        width: 138
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b869f72652f5a0f0800000000000000
+      internalID: -1106211681597822793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 166
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0052fe301ffb06270800000000000000
+      internalID: 8241798359962035456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 4
+        width: 75
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3422fd5c4ab3e710800000000000000
+      internalID: 1721424319742092351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 24
+        width: 111
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9101390ccc4c3e4f0800000000000000
+      internalID: -800579925058580455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 27
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78ddaf9f056fb8a0800000000000000
+      internalID: -6287195437008037764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTLILYPAD_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b0e16fdc518ac0800000000000000
+      internalID: -3854697691562854838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTLILYPAD_1536_00_PTX_0: -5703855630181469910
+      ATLASES_PLANTLILYPAD_1536_00_PTX_1: 2655659618068568039
+      ATLASES_PLANTLILYPAD_1536_00_PTX_10: -1074061421120372544
+      ATLASES_PLANTLILYPAD_1536_00_PTX_11: 5709342565850569604
+      ATLASES_PLANTLILYPAD_1536_00_PTX_12: 3743606999645247095
+      ATLASES_PLANTLILYPAD_1536_00_PTX_13: -5354904989969664562
+      ATLASES_PLANTLILYPAD_1536_00_PTX_14: -5969934698048542947
+      ATLASES_PLANTLILYPAD_1536_00_PTX_15: -1106211681597822793
+      ATLASES_PLANTLILYPAD_1536_00_PTX_16: 8241798359962035456
+      ATLASES_PLANTLILYPAD_1536_00_PTX_17: 1721424319742092351
+      ATLASES_PLANTLILYPAD_1536_00_PTX_18: -800579925058580455
+      ATLASES_PLANTLILYPAD_1536_00_PTX_19: -6287195437008037764
+      ATLASES_PLANTLILYPAD_1536_00_PTX_2: -1460716361761586512
+      ATLASES_PLANTLILYPAD_1536_00_PTX_20: -3854697691562854838
+      ATLASES_PLANTLILYPAD_1536_00_PTX_3: -1823737362312139161
+      ATLASES_PLANTLILYPAD_1536_00_PTX_4: 7085262150051889830
+      ATLASES_PLANTLILYPAD_1536_00_PTX_5: 6597602469897173789
+      ATLASES_PLANTLILYPAD_1536_00_PTX_6: -6272488907533933692
+      ATLASES_PLANTLILYPAD_1536_00_PTX_7: -3935752640793435777
+      ATLASES_PLANTLILYPAD_1536_00_PTX_8: 4508494728391457784
+      ATLASES_PLANTLILYPAD_1536_00_PTX_9: -3447090255567685276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

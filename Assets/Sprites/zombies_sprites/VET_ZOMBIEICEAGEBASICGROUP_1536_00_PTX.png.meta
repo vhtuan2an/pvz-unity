@@ -1,0 +1,4043 @@
+fileFormatVersion: 2
+guid: 3c20af2af0bf67647b6f7423fc7ca125
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3772844678180355166
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_0
+  - first:
+      213: 6651032762938500074
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_1
+  - first:
+      213: 8008295492335513653
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_2
+  - first:
+      213: 7448666052929197514
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_3
+  - first:
+      213: 4110093265407480049
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_4
+  - first:
+      213: 1974073067411195176
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_5
+  - first:
+      213: -2701610759665763246
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_6
+  - first:
+      213: 8091009503779450822
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_7
+  - first:
+      213: 4949316398741554290
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_8
+  - first:
+      213: -1095716984030267291
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_9
+  - first:
+      213: -8919396974283995975
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_10
+  - first:
+      213: -2752081763337575252
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_11
+  - first:
+      213: 2955258840728319063
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_12
+  - first:
+      213: -5237804134053347273
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_13
+  - first:
+      213: 3435969399934735687
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_14
+  - first:
+      213: -1342184439067515912
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_15
+  - first:
+      213: -4412821438375264668
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_16
+  - first:
+      213: 8628097902299324102
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_17
+  - first:
+      213: 6990137579278283392
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_18
+  - first:
+      213: -3995617607657516412
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_19
+  - first:
+      213: -2511222393587124525
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_20
+  - first:
+      213: 2355189188865647340
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_21
+  - first:
+      213: 2339173647188525374
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_22
+  - first:
+      213: -4155192988940980032
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_23
+  - first:
+      213: 2462500953411868808
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_24
+  - first:
+      213: -6922741140414385555
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_25
+  - first:
+      213: -2488843792888790464
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_26
+  - first:
+      213: 5062961258246267165
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_27
+  - first:
+      213: -2283400165004893491
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_28
+  - first:
+      213: 1258503380322248540
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_29
+  - first:
+      213: 5973369179804276538
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_30
+  - first:
+      213: -7461262266327415492
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_31
+  - first:
+      213: 6704411716117079778
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_32
+  - first:
+      213: -6219660711180998369
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_33
+  - first:
+      213: -905770870646066828
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_34
+  - first:
+      213: -7775144256689648658
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_35
+  - first:
+      213: -3719712872938109750
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_36
+  - first:
+      213: -4529852916692492413
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_37
+  - first:
+      213: -6358583814080100260
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_38
+  - first:
+      213: 8021601133957486152
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_39
+  - first:
+      213: -2165604869387373376
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_40
+  - first:
+      213: 8420871469286386457
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_41
+  - first:
+      213: 4391422462283302454
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_42
+  - first:
+      213: 3817439727027436599
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_43
+  - first:
+      213: 7175483834070122666
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_44
+  - first:
+      213: -3033994370685415413
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_45
+  - first:
+      213: -2819951686366254945
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_46
+  - first:
+      213: 8017956036968496361
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_47
+  - first:
+      213: -8939265834424344714
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_48
+  - first:
+      213: -5506940173727652105
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_49
+  - first:
+      213: 5088196501663160276
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_50
+  - first:
+      213: 2949528850348126578
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_51
+  - first:
+      213: -5476058183735459871
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_52
+  - first:
+      213: -382903009324704584
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_53
+  - first:
+      213: -1073423928297965
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_54
+  - first:
+      213: -2333187086369925729
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_55
+  - first:
+      213: -3289266239273896463
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_56
+  - first:
+      213: 3342928083785109693
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_57
+  - first:
+      213: 4738987590538394772
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_58
+  - first:
+      213: 4988434268254711032
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_59
+  - first:
+      213: -5789580878044282122
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_60
+  - first:
+      213: 6693301700502709913
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_61
+  - first:
+      213: 7608649419331228096
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_62
+  - first:
+      213: 1434964999583683525
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_63
+  - first:
+      213: 89412205261267334
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_64
+  - first:
+      213: 1876664684797412595
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_65
+  - first:
+      213: -2100171592404568685
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_66
+  - first:
+      213: 8100959453114126029
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_67
+  - first:
+      213: 7711718510840455025
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_68
+  - first:
+      213: 1270379050285963404
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_69
+  - first:
+      213: -8016747006161181554
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_70
+  - first:
+      213: -5269534313646585386
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_71
+  - first:
+      213: -7493604909724344911
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_72
+  - first:
+      213: 4558310798506270453
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_73
+  - first:
+      213: 1272628817616814605
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_74
+  - first:
+      213: -8067143565463807073
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_75
+  - first:
+      213: 5023573783592965988
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_76
+  - first:
+      213: -2566408896444275452
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_77
+  - first:
+      213: 5738389066261349158
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_78
+  - first:
+      213: 8495650651520149232
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_79
+  - first:
+      213: -4833373636888480536
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_80
+  - first:
+      213: -299965845718727985
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_81
+  - first:
+      213: 7829183302368742594
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_82
+  - first:
+      213: -5739322333140142157
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_83
+  - first:
+      213: -3272928986877862483
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_84
+  - first:
+      213: 295766339391146245
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_85
+  - first:
+      213: 2485122336674036836
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_86
+  - first:
+      213: -5889126300218339222
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_87
+  - first:
+      213: -5621558896067014425
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_88
+  - first:
+      213: -5099841097149562663
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_89
+  - first:
+      213: -9074826680967392995
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_90
+  - first:
+      213: 5089119865113852144
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_91
+  - first:
+      213: 4400845719304984542
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_92
+  - first:
+      213: -5771818498878008920
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_93
+  - first:
+      213: -646308952256865417
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_94
+  - first:
+      213: 6953561640703650034
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_95
+  - first:
+      213: 4533317465117418758
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_96
+  - first:
+      213: 7379165091938712919
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_97
+  - first:
+      213: -7024215021503139851
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_98
+  - first:
+      213: 4191174279912496806
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_99
+  - first:
+      213: 4344043157896612836
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_100
+  - first:
+      213: -3501509113923124475
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_101
+  - first:
+      213: 442433017512685590
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_102
+  - first:
+      213: -3144023353772327278
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_103
+  - first:
+      213: 1782253335068792372
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_104
+  - first:
+      213: 8400262981297136198
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_105
+  - first:
+      213: -3522186006083323112
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_106
+  - first:
+      213: 3335471956332011959
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_107
+  - first:
+      213: -6435958656678431169
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_108
+  - first:
+      213: 7130143717918521371
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_109
+  - first:
+      213: -5777148986830938877
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_110
+  - first:
+      213: -7829871582355404700
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_111
+  - first:
+      213: -4507356236847594485
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_112
+  - first:
+      213: 6112502477405217320
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_113
+  - first:
+      213: -7518903092463219540
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_114
+  - first:
+      213: -8402392945207007455
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_115
+  - first:
+      213: -2837545722004151752
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_116
+  - first:
+      213: -4832535148588737966
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_117
+  - first:
+      213: 8182075408239847828
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_118
+  - first:
+      213: -8437699082898587348
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_119
+  - first:
+      213: -2461003641240138527
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_120
+  - first:
+      213: 5001821318408635129
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_121
+  - first:
+      213: 437284461910327166
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_122
+  - first:
+      213: -5108701582733775933
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_123
+  - first:
+      213: 4629823732344920042
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_124
+  - first:
+      213: 5590664467104512546
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_125
+  - first:
+      213: 4672987709853270246
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_126
+  - first:
+      213: 7817438775292117875
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_127
+  - first:
+      213: 1455785992129854013
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_128
+  - first:
+      213: -1027499515252129796
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_129
+  - first:
+      213: 3978262465111779155
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_130
+  - first:
+      213: -8843695207579963893
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_131
+  - first:
+      213: -8868070496214543829
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_132
+  - first:
+      213: 4299318016266208044
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_133
+  - first:
+      213: 5625554433528105877
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_134
+  - first:
+      213: -3633570357940333663
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_135
+  - first:
+      213: 7424709329804368379
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_136
+  - first:
+      213: -5238574787527813288
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_137
+  - first:
+      213: 5725662658408814425
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_138
+  - first:
+      213: -2514345091712888200
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_139
+  - first:
+      213: 6887523303465052025
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_140
+  - first:
+      213: 7158850523776048856
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_141
+  - first:
+      213: -5129664523621350308
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_142
+  - first:
+      213: 4390612335082574773
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_143
+  - first:
+      213: -4571120998629777139
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_144
+  - first:
+      213: 3966885637960109492
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_145
+  - first:
+      213: -5296432832946378621
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_146
+  - first:
+      213: 2466025505586450053
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_147
+  - first:
+      213: -7974378062881158103
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_148
+  - first:
+      213: -2553496961454244866
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_149
+  - first:
+      213: 8830926896033677001
+    second: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_150
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 866
+        width: 239
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cb9a3de36db5430800000000000000
+      internalID: 3772844678180355166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 880
+        width: 217
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae32f682f073d4c50800000000000000
+      internalID: 6651032762938500074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 910
+        width: 167
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530350d025e232f60800000000000000
+      internalID: 8008295492335513653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 940
+        width: 165
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac51b577f4afe5760800000000000000
+      internalID: 7448666052929197514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 910
+        width: 107
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f096567c0cf90930800000000000000
+      internalID: 4110093265407480049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 940
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825c5b7eef0556b10800000000000000
+      internalID: 1974073067411195176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1063
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cbfbce353f18ad0800000000000000
+      internalID: -2701610759665763246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1052
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf6513964a094070800000000000000
+      internalID: 8091009503779450822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1041
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2748104ca018fa440800000000000000
+      internalID: 4949316398741554290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 935
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5687388553b3bc0f0800000000000000
+      internalID: -1095716984030267291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 913
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4cb1975bfe73480800000000000000
+      internalID: -8919396974283995975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 913
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4ee67a734aec9d0800000000000000
+      internalID: -2752081763337575252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 771
+        width: 107
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754b1fc0240330920800000000000000
+      internalID: 2955258840728319063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 917
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7308da224e49f47b0800000000000000
+      internalID: -5237804134053347273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 750
+        width: 139
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745d836f6f30faf20800000000000000
+      internalID: 3435969399934735687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 773
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3e2562d5a9f5de0800000000000000
+      internalID: -1342184439067515912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 764
+        width: 139
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ef96c284282c2c0800000000000000
+      internalID: -4412821438375264668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 814
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce18d914592db770800000000000000
+      internalID: 8628097902299324102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 746
+        width: 107
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082bdffc715f10160800000000000000
+      internalID: 6990137579278283392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 845
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482174d94f6bc88c0800000000000000
+      internalID: -3995617607657516412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 778
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6bb3eb988562dd0800000000000000
+      internalID: -2511222393587124525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 778
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce26d25c6105fa020800000000000000
+      internalID: 2355189188865647340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 860
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3180a4e90a667020800000000000000
+      internalID: 2339173647188525374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 773
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0baf0edf9c556c0800000000000000
+      internalID: -4155192988940980032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 780
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888dc2bf19f8c2220800000000000000
+      internalID: 2462500953411868808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 807
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d623e9d6c9b7def90800000000000000
+      internalID: -6922741140414385555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 618
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0428d6fb1c9d57dd0800000000000000
+      internalID: -2488843792888790464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 649
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11655d8070434640800000000000000
+      internalID: 5062961258246267165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 649
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2a0dcd5abbf40e0800000000000000
+      internalID: -2283400165004893491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 630
+        width: 135
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c576cb4182a177110800000000000000
+      internalID: 1258503380322248540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 655
+        width: 138
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37108aee9ba5e250800000000000000
+      internalID: 5973369179804276538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 718
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35478f0085447890800000000000000
+      internalID: -7461262266327415492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 662
+        width: 138
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6202f2feada0d50800000000000000
+      internalID: 6704411716117079778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_33
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 646
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f196a9e49835fa9a0800000000000000
+      internalID: -6219660711180998369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_34
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 676
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471be3f213e0e63f0800000000000000
+      internalID: -905770870646066828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 540
+        width: 116
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb48963e73291490800000000000000
+      internalID: -7775144256689648658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_36
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 533
+        width: 134
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4831699dce06cc0800000000000000
+      internalID: -3719712872938109750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_37
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 534
+        width: 133
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd6cfb5cab221c0800000000000000
+      internalID: -4529852916692492413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 511
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c580537d5b5c1c7a0800000000000000
+      internalID: -6358583814080100260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_39
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 554
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84618672bb3725f60800000000000000
+      internalID: 8021601133957486152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_40
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 539
+        width: 134
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c43f4c58d932f1e0800000000000000
+      internalID: -2165604869387373376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_41
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 546
+        width: 135
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b69025cf1fcd470800000000000000
+      internalID: 8420871469286386457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_42
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 531
+        width: 133
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6364113767771fc30800000000000000
+      internalID: 4391422462283302454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_43
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 395
+        width: 20
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c3fe0c4354af430800000000000000
+      internalID: 3817439727027436599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 417
+        width: 119
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0ce4d9780749360800000000000000
+      internalID: 7175483834070122666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 481
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00d2c4d13615e5d0800000000000000
+      internalID: -3033994370685415413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 489
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98206ac1e48dd8d0800000000000000
+      internalID: -2819951686366254945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_47
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 488
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecb430e880854f60800000000000000
+      internalID: 8017956036968496361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_48
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 418
+        width: 119
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fd95af51951f380800000000000000
+      internalID: -8939265834424344714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_49
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 403
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6a2a9c61b6393b0800000000000000
+      internalID: -5506940173727652105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_50
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 420
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7940582c7ec9640800000000000000
+      internalID: 5088196501663160276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_51
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 474
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27134c3bcd4dee820800000000000000
+      internalID: 2949528850348126578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_52
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 427
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efb31568122104b0800000000000000
+      internalID: -5476058183735459871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_53
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 479
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcd5c1edb7afaaf0800000000000000
+      internalID: -382903009324704584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_54
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 487
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3167f040abf2cfff0800000000000000
+      internalID: -1073423928297965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_55
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 486
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95546ae4bade9fd0800000000000000
+      internalID: -2333187086369925729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_56
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 455
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5f46c58cd2a52d0800000000000000
+      internalID: -3289266239273896463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_57
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 427
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db050bf6167746e20800000000000000
+      internalID: 3342928083785109693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 422
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c7609fa1444c140800000000000000
+      internalID: 4738987590538394772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_59
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 439
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc25b0898a7a3540800000000000000
+      internalID: 4988434268254711032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_60
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 440
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2c6cdadd647afa0800000000000000
+      internalID: -5789580878044282122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_61
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 425
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9966bf81f6263ec50800000000000000
+      internalID: 6693301700502709913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_62
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 420
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c158b3a55a579960800000000000000
+      internalID: 7608649419331228096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_63
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 437
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3dd4970150ae310800000000000000
+      internalID: 1434964999583683525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_64
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 437
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681ae2d4de7ad3100800000000000000
+      internalID: 89412205261267334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 309
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4cedb76904b0a10800000000000000
+      internalID: 1876664684797412595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_66
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 314
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395fb5b5011bad2e0800000000000000
+      internalID: -2100171592404568685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_67
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 310
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcec5bea3b36c6070800000000000000
+      internalID: 8100959453114126029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_68
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 295
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f137e8027850b60800000000000000
+      internalID: 7711718510840455025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_69
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 336
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c889466f30b41a110800000000000000
+      internalID: 1270379050285963404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_70
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 286
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84269b821bceb090800000000000000
+      internalID: -8016747006161181554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_71
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 344
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d90d5ff57aded6b0800000000000000
+      internalID: -5269534313646585386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_72
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 319
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdd1c4990e510890800000000000000
+      internalID: -7493604909724344911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_73
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 286
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe1bc0358f524f30800000000000000
+      internalID: 4558310798506270453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_74
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 312
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02c9fcba2949a110800000000000000
+      internalID: 1272628817616814605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_75
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 335
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b93743bafbb0090800000000000000
+      internalID: -8067143565463807073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_76
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 204
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467160a7db157b540800000000000000
+      internalID: 5023573783592965988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_77
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 230
+        width: 119
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4056903c4b8426cd0800000000000000
+      internalID: -2566408896444275452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_78
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 226
+        width: 119
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6234e75d37ad2af40800000000000000
+      internalID: 5738389066261349158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_79
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 294
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6aca3714d96e570800000000000000
+      internalID: 8495650651520149232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_80
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 235
+        width: 118
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4368a19486cecb0800000000000000
+      internalID: -4833373636888480536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_81
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 301
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc28f2117ae46dbf0800000000000000
+      internalID: -299965845718727985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_82
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 228
+        width: 118
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cccb139bb8d6ac60800000000000000
+      internalID: 7829183302368742594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_83
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 267
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b737b90fb4d950b0800000000000000
+      internalID: -5739322333140142157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_84
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 190
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadd01a5d683492d0800000000000000
+      internalID: -3272928986877862483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_85
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 195
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5094deb2be5ca1400800000000000000
+      internalID: 295766339391146245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_86
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 236
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c38d4399dec7220800000000000000
+      internalID: 2485122336674036836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_87
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 195
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a605316f4de954ea0800000000000000
+      internalID: -5889126300218339222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_88
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 244
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e01df3e7f53cf1b0800000000000000
+      internalID: -5621558896067014425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_89
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 152
+        width: 116
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d04671da89b939b0800000000000000
+      internalID: -5099841097149562663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_90
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 166
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1193b2d63dbf0280800000000000000
+      internalID: -9074826680967392995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_91
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 187
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8be73dd8f20a640800000000000000
+      internalID: 5089119865113852144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_92
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 144
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7d8727dd1f21d30800000000000000
+      internalID: 4400845719304984542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_93
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 201
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1195ad7a166efa0800000000000000
+      internalID: -5771818498878008920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_94
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 135
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b1395ae69d707f0800000000000000
+      internalID: -646308952256865417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_95
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 135
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f86ced7873008060800000000000000
+      internalID: 6953561640703650034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 126
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605e56a473499ee30800000000000000
+      internalID: 4533317465117418758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_97
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 157
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d38fbfd8f086660800000000000000
+      internalID: 7379165091938712919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_98
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 112
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffa75167a9f48e90800000000000000
+      internalID: -7024215021503139851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_99
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 117
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae10f14dca0a2a30800000000000000
+      internalID: 4191174279912496806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_100
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 135
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebc4638c34294c30800000000000000
+      internalID: 4344043157896612836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_101
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 156
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503c1de3304286fc0800000000000000
+      internalID: -3501509113923124475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_102
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 138
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6107fbd3c76d32600800000000000000
+      internalID: 442433017512685590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_103
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 86
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e3ed0ea6f2e54d0800000000000000
+      internalID: -3144023353772327278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_104
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 92
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436d78827f5dbb810800000000000000
+      internalID: 1782253335068792372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_105
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 91
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642641cccaab39470800000000000000
+      internalID: 8400262981297136198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_106
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 97
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b3d822d7eae1fc0800000000000000
+      internalID: -3522186006083323112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_107
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 103
+        width: 74
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1627b721af94e20800000000000000
+      internalID: 3335471956332011959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_108
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 126
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36f49f63b1eea6a0800000000000000
+      internalID: -6435958656678431169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_109
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 94
+        width: 74
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1834003feb53f260800000000000000
+      internalID: 7130143717918521371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_110
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 78
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d1f69ea9173dfa0800000000000000
+      internalID: -5777148986830938877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_111
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 78
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468c7c0c745b65390800000000000000
+      internalID: -7829871582355404700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_112
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 75
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ce823267a271c0800000000000000
+      internalID: -4507356236847594485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_113
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822ee662e98f3d450800000000000000
+      internalID: 6112502477405217320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_114
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 59
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacc429697d77a790800000000000000
+      internalID: -7518903092463219540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 45
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12720b55224b46b80800000000000000
+      internalID: -8402392945207007455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 22
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832630623330f98d0800000000000000
+      internalID: -2837545722004151752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_117
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 39
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a57cfd2e26fecb0800000000000000
+      internalID: -4832535148588737966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_118
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 39
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4996899bb329c8170800000000000000
+      internalID: 8182075408239847828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_119
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 57
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21c032936547ea80800000000000000
+      internalID: -8437699082898587348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_120
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 55
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec40fc2a32c8ddd0800000000000000
+      internalID: -2461003641240138527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_121
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 62
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f209b10df90a6540800000000000000
+      internalID: 5001821318408635129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_122
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 57
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f76f9b6eb811600800000000000000
+      internalID: 437284461910327166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_123
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 60
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb6da14afe3a19b0800000000000000
+      internalID: -5108701582733775933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_124
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 46
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7971b9720704040800000000000000
+      internalID: 4629823732344920042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_125
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 53
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ab92456b7069d40800000000000000
+      internalID: 5590664467104512546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_126
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 66
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e002954099c9d040800000000000000
+      internalID: 4672987709853270246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_127
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 66
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373c6a6c52f1d7c60800000000000000
+      internalID: 7817438775292117875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_128
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 66
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ab3e195adf33410800000000000000
+      internalID: 1455785992129854013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_129
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 42
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffb28282a69db1f0800000000000000
+      internalID: -1027499515252129796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_130
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 64
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357e14062a0a53730800000000000000
+      internalID: 3978262465111779155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_131
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 11
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e2f5a8012e44580800000000000000
+      internalID: -8843695207579963893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_132
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2292066ed84ee480800000000000000
+      internalID: -8868070496214543829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_133
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 17
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c230cfff4fe3aab30800000000000000
+      internalID: 4299318016266208044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_134
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 24
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b011ba3fbf11e40800000000000000
+      internalID: 5625554433528105877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_135
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 33
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3d39cc207f29dc0800000000000000
+      internalID: -3633570357940333663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_136
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 33
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf994833ccdd90760800000000000000
+      internalID: 7424709329804368379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_137
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 52
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85756146cf7dc47b0800000000000000
+      internalID: -5238574787527813288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_138
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 44
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9571d2a1ad3a57f40800000000000000
+      internalID: 5725662658408814425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_139
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 9
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872d4bde5704b1dd0800000000000000
+      internalID: -2514345091712888200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_140
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 10
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977624de3f5659f50800000000000000
+      internalID: 6887523303465052025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_141
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 7
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de5ac54f98595360800000000000000
+      internalID: 7158850523776048856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_142
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 7
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5440ac3b45cfc8b0800000000000000
+      internalID: -5129664523621350308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_143
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 18
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b39b0308a69eec30800000000000000
+      internalID: 4390612335082574773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_144
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01e75babad1090c0800000000000000
+      internalID: -4571120998629777139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_145
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 16
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd063368753d0730800000000000000
+      internalID: 3966885637960109492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_146
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 16
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388e38f666a4f76b0800000000000000
+      internalID: -5296432832946378621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_147
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 16
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e888bb125193220800000000000000
+      internalID: 2466025505586450053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_148
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 13
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c0d41e661555190800000000000000
+      internalID: -7974378062881158103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_149
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 4
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbfa75ea08209cd0800000000000000
+      internalID: -2553496961454244866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_150
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 15
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ceb7834931cd8a70800000000000000
+      internalID: 8830926896033677001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_0: 3772844678180355166
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_1: 6651032762938500074
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_10: -8919396974283995975
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_100: 4344043157896612836
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_101: -3501509113923124475
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_102: 442433017512685590
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_103: -3144023353772327278
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_104: 1782253335068792372
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_105: 8400262981297136198
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_106: -3522186006083323112
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_107: 3335471956332011959
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_108: -6435958656678431169
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_109: 7130143717918521371
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_11: -2752081763337575252
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_110: -5777148986830938877
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_111: -7829871582355404700
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_112: -4507356236847594485
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_113: 6112502477405217320
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_114: -7518903092463219540
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_115: -8402392945207007455
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_116: -2837545722004151752
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_117: -4832535148588737966
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_118: 8182075408239847828
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_119: -8437699082898587348
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_12: 2955258840728319063
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_120: -2461003641240138527
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_121: 5001821318408635129
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_122: 437284461910327166
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_123: -5108701582733775933
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_124: 4629823732344920042
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_125: 5590664467104512546
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_126: 4672987709853270246
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_127: 7817438775292117875
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_128: 1455785992129854013
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_129: -1027499515252129796
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_13: -5237804134053347273
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_130: 3978262465111779155
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_131: -8843695207579963893
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_132: -8868070496214543829
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_133: 4299318016266208044
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_134: 5625554433528105877
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_135: -3633570357940333663
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_136: 7424709329804368379
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_137: -5238574787527813288
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_138: 5725662658408814425
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_139: -2514345091712888200
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_14: 3435969399934735687
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_140: 6887523303465052025
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_141: 7158850523776048856
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_142: -5129664523621350308
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_143: 4390612335082574773
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_144: -4571120998629777139
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_145: 3966885637960109492
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_146: -5296432832946378621
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_147: 2466025505586450053
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_148: -7974378062881158103
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_149: -2553496961454244866
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_15: -1342184439067515912
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_150: 8830926896033677001
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_16: -4412821438375264668
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_17: 8628097902299324102
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_18: 6990137579278283392
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_19: -3995617607657516412
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_2: 8008295492335513653
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_20: -2511222393587124525
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_21: 2355189188865647340
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_22: 2339173647188525374
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_23: -4155192988940980032
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_24: 2462500953411868808
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_25: -6922741140414385555
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_26: -2488843792888790464
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_27: 5062961258246267165
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_28: -2283400165004893491
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_29: 1258503380322248540
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_3: 7448666052929197514
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_30: 5973369179804276538
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_31: -7461262266327415492
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_32: 6704411716117079778
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_33: -6219660711180998369
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_34: -905770870646066828
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_35: -7775144256689648658
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_36: -3719712872938109750
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_37: -4529852916692492413
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_38: -6358583814080100260
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_39: 8021601133957486152
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_4: 4110093265407480049
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_40: -2165604869387373376
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_41: 8420871469286386457
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_42: 4391422462283302454
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_43: 3817439727027436599
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_44: 7175483834070122666
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_45: -3033994370685415413
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_46: -2819951686366254945
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_47: 8017956036968496361
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_48: -8939265834424344714
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_49: -5506940173727652105
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_5: 1974073067411195176
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_50: 5088196501663160276
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_51: 2949528850348126578
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_52: -5476058183735459871
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_53: -382903009324704584
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_54: -1073423928297965
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_55: -2333187086369925729
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_56: -3289266239273896463
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_57: 3342928083785109693
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_58: 4738987590538394772
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_59: 4988434268254711032
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_6: -2701610759665763246
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_60: -5789580878044282122
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_61: 6693301700502709913
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_62: 7608649419331228096
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_63: 1434964999583683525
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_64: 89412205261267334
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_65: 1876664684797412595
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_66: -2100171592404568685
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_67: 8100959453114126029
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_68: 7711718510840455025
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_69: 1270379050285963404
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_7: 8091009503779450822
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_70: -8016747006161181554
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_71: -5269534313646585386
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_72: -7493604909724344911
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_73: 4558310798506270453
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_74: 1272628817616814605
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_75: -8067143565463807073
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_76: 5023573783592965988
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_77: -2566408896444275452
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_78: 5738389066261349158
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_79: 8495650651520149232
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_8: 4949316398741554290
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_80: -4833373636888480536
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_81: -299965845718727985
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_82: 7829183302368742594
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_83: -5739322333140142157
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_84: -3272928986877862483
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_85: 295766339391146245
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_86: 2485122336674036836
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_87: -5889126300218339222
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_88: -5621558896067014425
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_89: -5099841097149562663
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_9: -1095716984030267291
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_90: -9074826680967392995
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_91: 5089119865113852144
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_92: 4400845719304984542
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_93: -5771818498878008920
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_94: -646308952256865417
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_95: 6953561640703650034
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_96: 4533317465117418758
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_97: 7379165091938712919
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_98: -7024215021503139851
+      VET_ZOMBIEICEAGEBASICGROUP_1536_00_PTX_99: 4191174279912496806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: db58b761cfa8eed43ba49e637d5adee7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6687575109595898538
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_0
+  - first:
+      213: -1620143605486728372
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_1
+  - first:
+      213: 2117016225308604521
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_2
+  - first:
+      213: -3732944587868782168
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_3
+  - first:
+      213: -7076748997111045851
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_4
+  - first:
+      213: -4283733354388277621
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_5
+  - first:
+      213: -1260940286234937126
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_6
+  - first:
+      213: 3006567174927181492
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_7
+  - first:
+      213: 158035089859624944
+    second: ATLASES_UI_SEEDPACKETS_1536_00_PTX_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: packetPeashooter
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 740
+        width: 156
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ddacfbed5f033a0800000000000000
+      internalID: -6687575109595898538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: packetWallnut
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 441
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bc7d589f71489e0800000000000000
+      internalID: -1620143605486728372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 236
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968f14d5a07216d10800000000000000
+      internalID: 2117016225308604521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: packetSunflower
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 532
+        width: 138
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a14dd1ecaae13cc0800000000000000
+      internalID: -3732944587868782168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 220
+        width: 108
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521289608465acd90800000000000000
+      internalID: -7076748997111045851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 217
+        width: 103
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86b13bd53f1d84c0800000000000000
+      internalID: -4283733354388277621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 214
+        width: 98
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8bcfb8d7d308ee0800000000000000
+      internalID: -1260940286234937126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 221
+        width: 360
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b662e68ae879b920800000000000000
+      internalID: 3006567174927181492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 241
+        width: 493
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff3121b314713200800000000000000
+      internalID: 158035089859624944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 986ccd79b1dadb94c92b690f4c04604a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_2: 2117016225308604521
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_4: -7076748997111045851
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_5: -4283733354388277621
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_6: -1260940286234937126
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_7: 3006567174927181492
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_8: 158035089859624944
+      ATLASES_UI_SEEDPACKETS_1536_00_PTX_9: -1822667734
+      packetPeashooter: -6687575109595898538
+      packetSunflower: -3732944587868782168
+      packetWallnut: -1620143605486728372
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

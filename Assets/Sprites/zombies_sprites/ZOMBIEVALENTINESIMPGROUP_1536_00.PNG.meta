@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 73786840795fb224697a77abaae03252
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3380779064753737667
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_0
+  - first:
+      213: 2584310788819130149
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_1
+  - first:
+      213: 3855928304152975871
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_2
+  - first:
+      213: -1567176683212416076
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_3
+  - first:
+      213: -7625358561659798846
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_4
+  - first:
+      213: -2241557309742093966
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_5
+  - first:
+      213: 7463929965045070183
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_6
+  - first:
+      213: 584304925539393856
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_7
+  - first:
+      213: -2108906546123861724
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_8
+  - first:
+      213: -6116034281598496892
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_9
+  - first:
+      213: 2461267567651620769
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_10
+  - first:
+      213: 8926619002708930000
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_11
+  - first:
+      213: -1920003466955634515
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_12
+  - first:
+      213: 7280419592339524342
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_13
+  - first:
+      213: 2521161312075753463
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_14
+  - first:
+      213: -22247342828319304
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_15
+  - first:
+      213: -5533840655653425657
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_16
+  - first:
+      213: 2036405541166651058
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_17
+  - first:
+      213: 595001687592859313
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_18
+  - first:
+      213: 538314909578634815
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_19
+  - first:
+      213: 2381266264667840598
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_20
+  - first:
+      213: -5249638150670856212
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_21
+  - first:
+      213: -2964657871348692438
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_22
+  - first:
+      213: -7041642056453429570
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_23
+  - first:
+      213: -4053712809577128016
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_24
+  - first:
+      213: -647015017923406690
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_25
+  - first:
+      213: 3275835885033197228
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_26
+  - first:
+      213: -3924815896452254252
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_27
+  - first:
+      213: -7197661917927322404
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_28
+  - first:
+      213: 6053699744764239655
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_29
+  - first:
+      213: -7371256660217603498
+    second: ZOMBIEVALENTINESIMPGROUP_1536_00_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 201
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30b64d4a5f0511d0800000000000000
+      internalID: -3380779064753737667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 209
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52716cc58f05dd320800000000000000
+      internalID: 2584310788819130149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 234
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff99960fc52038530800000000000000
+      internalID: 3855928304152975871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 292
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb59d02c15404ae0800000000000000
+      internalID: -1567176683212416076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 212
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab84ff9c84d2690800000000000000
+      internalID: -7625358561659798846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 214
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2796429c08364e0e0800000000000000
+      internalID: -2241557309742093966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 209
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769b7e2f1c4359760800000000000000
+      internalID: 7463929965045070183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0416947eb3edb1800800000000000000
+      internalID: 584304925539393856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 130
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4219ac57ba8abb2e0800000000000000
+      internalID: -2108906546123861724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 194
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fc53b993b7f1ba0800000000000000
+      internalID: -6116034281598496892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 156
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7801bffcd282220800000000000000
+      internalID: 2461267567651620769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda7bd00b8b1eb70800000000000000
+      internalID: 8926619002708930000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 137
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da84798f407ca55e0800000000000000
+      internalID: -1920003466955634515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa0131cb0f390560800000000000000
+      internalID: 7280419592339524342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7abbb0bd6fcf220800000000000000
+      internalID: 2521161312075753463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd8589d826f0bff0800000000000000
+      internalID: -22247342828319304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 115
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ea9244e39d333b0800000000000000
+      internalID: -5533840655653425657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 122
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b610e3ec04c24c10800000000000000
+      internalID: 2036405541166651058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 59
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6fab5e1eed14800800000000000000
+      internalID: 595001687592859313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 47
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f362bb2ee8a787700800000000000000
+      internalID: 538314909578634815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 87
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650e52d1d05fb0120800000000000000
+      internalID: 2381266264667840598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 79
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefcced6ae98527b0800000000000000
+      internalID: -5249638150670856212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 87
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a02b99f5b6bd6d0800000000000000
+      internalID: -2964657871348692438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 48
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb664ad9bdf074e90800000000000000
+      internalID: -7041642056453429570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 48
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf54bb5da15eb7c0800000000000000
+      internalID: -4053712809577128016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 51
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94155ce4475507f0800000000000000
+      internalID: -647015017923406690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 212
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae81ed916b167d20800000000000000
+      internalID: 3275835885033197228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 14
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5382b9cb04889c0800000000000000
+      internalID: -3924815896452254252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 17
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcc598de94cc1c90800000000000000
+      internalID: -7197661917927322404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f9b8f08df030450800000000000000
+      internalID: 6053699744764239655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEVALENTINESIMPGROUP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a5f734f1904b990800000000000000
+      internalID: -7371256660217603498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEVALENTINESIMPGROUP_1536_00_0: -3380779064753737667
+      ZOMBIEVALENTINESIMPGROUP_1536_00_1: 2584310788819130149
+      ZOMBIEVALENTINESIMPGROUP_1536_00_10: 2461267567651620769
+      ZOMBIEVALENTINESIMPGROUP_1536_00_11: 8926619002708930000
+      ZOMBIEVALENTINESIMPGROUP_1536_00_12: -1920003466955634515
+      ZOMBIEVALENTINESIMPGROUP_1536_00_13: 7280419592339524342
+      ZOMBIEVALENTINESIMPGROUP_1536_00_14: 2521161312075753463
+      ZOMBIEVALENTINESIMPGROUP_1536_00_15: -22247342828319304
+      ZOMBIEVALENTINESIMPGROUP_1536_00_16: -5533840655653425657
+      ZOMBIEVALENTINESIMPGROUP_1536_00_17: 2036405541166651058
+      ZOMBIEVALENTINESIMPGROUP_1536_00_18: 595001687592859313
+      ZOMBIEVALENTINESIMPGROUP_1536_00_19: 538314909578634815
+      ZOMBIEVALENTINESIMPGROUP_1536_00_2: 3855928304152975871
+      ZOMBIEVALENTINESIMPGROUP_1536_00_20: 2381266264667840598
+      ZOMBIEVALENTINESIMPGROUP_1536_00_21: -5249638150670856212
+      ZOMBIEVALENTINESIMPGROUP_1536_00_22: -2964657871348692438
+      ZOMBIEVALENTINESIMPGROUP_1536_00_23: -7041642056453429570
+      ZOMBIEVALENTINESIMPGROUP_1536_00_24: -4053712809577128016
+      ZOMBIEVALENTINESIMPGROUP_1536_00_25: -647015017923406690
+      ZOMBIEVALENTINESIMPGROUP_1536_00_26: 3275835885033197228
+      ZOMBIEVALENTINESIMPGROUP_1536_00_27: -3924815896452254252
+      ZOMBIEVALENTINESIMPGROUP_1536_00_28: -7197661917927322404
+      ZOMBIEVALENTINESIMPGROUP_1536_00_29: 6053699744764239655
+      ZOMBIEVALENTINESIMPGROUP_1536_00_3: -1567176683212416076
+      ZOMBIEVALENTINESIMPGROUP_1536_00_30: -7371256660217603498
+      ZOMBIEVALENTINESIMPGROUP_1536_00_4: -7625358561659798846
+      ZOMBIEVALENTINESIMPGROUP_1536_00_5: -2241557309742093966
+      ZOMBIEVALENTINESIMPGROUP_1536_00_6: 7463929965045070183
+      ZOMBIEVALENTINESIMPGROUP_1536_00_7: 584304925539393856
+      ZOMBIEVALENTINESIMPGROUP_1536_00_8: -2108906546123861724
+      ZOMBIEVALENTINESIMPGROUP_1536_00_9: -6116034281598496892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: a9c3fd87862d89b4f9b06db13f4c3766
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7534001116662704841
+    second: PLANTWINTERMINT_1536_00_0
+  - first:
+      213: -8007842167711068074
+    second: PLANTWINTERMINT_1536_00_1
+  - first:
+      213: 8279727419760897431
+    second: PLANTWINTERMINT_1536_00_2
+  - first:
+      213: 2871153066581662986
+    second: PLANTWINTERMINT_1536_00_3
+  - first:
+      213: -8667676711874187856
+    second: PLANTWINTERMINT_1536_00_4
+  - first:
+      213: -1605908897444823561
+    second: PLANTWINTERMINT_1536_00_5
+  - first:
+      213: -6192491067437167576
+    second: PLANTWINTERMINT_1536_00_6
+  - first:
+      213: -4166551417609767740
+    second: PLANTWINTERMINT_1536_00_7
+  - first:
+      213: 5444790392528046872
+    second: PLANTWINTERMINT_1536_00_8
+  - first:
+      213: -7106873796705883907
+    second: PLANTWINTERMINT_1536_00_9
+  - first:
+      213: -5485647456632999755
+    second: PLANTWINTERMINT_1536_00_10
+  - first:
+      213: -6329684244402267336
+    second: PLANTWINTERMINT_1536_00_11
+  - first:
+      213: -4302220501007911060
+    second: PLANTWINTERMINT_1536_00_12
+  - first:
+      213: 3705892871637669878
+    second: PLANTWINTERMINT_1536_00_13
+  - first:
+      213: -7295852832839698890
+    second: PLANTWINTERMINT_1536_00_14
+  - first:
+      213: 194491037241015505
+    second: PLANTWINTERMINT_1536_00_15
+  - first:
+      213: 4994112948042910635
+    second: PLANTWINTERMINT_1536_00_16
+  - first:
+      213: -2923106843786450804
+    second: PLANTWINTERMINT_1536_00_17
+  - first:
+      213: -6913823769262485318
+    second: PLANTWINTERMINT_1536_00_18
+  - first:
+      213: -674441295285981959
+    second: PLANTWINTERMINT_1536_00_19
+  - first:
+      213: 485797955720910231
+    second: PLANTWINTERMINT_1536_00_20
+  - first:
+      213: -7635754971406676199
+    second: PLANTWINTERMINT_1536_00_21
+  - first:
+      213: 2195861341151631987
+    second: PLANTWINTERMINT_1536_00_22
+  - first:
+      213: 8420102032233810211
+    second: PLANTWINTERMINT_1536_00_23
+  - first:
+      213: 5631555578020902688
+    second: PLANTWINTERMINT_1536_00_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 255
+        width: 176
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caa31849162e8860800000000000000
+      internalID: 7534001116662704841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 301
+        width: 167
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6501030d9fd6ed090800000000000000
+      internalID: -8007842167711068074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 225
+        width: 90
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79de8eb683087e270800000000000000
+      internalID: 8279727419760897431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 400
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d9f55808268d720800000000000000
+      internalID: 2871153066581662986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 315
+        width: 24
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd20d034f936b780800000000000000
+      internalID: -8667676711874187856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 342
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7922cd5aa6b9e0800000000000000
+      internalID: -1605908897444823561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 318
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cc0a2fe2adf0aa0800000000000000
+      internalID: -6192491067437167576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 318
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c438fe9f8f6d26c0800000000000000
+      internalID: -4166551417609767740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 155
+        width: 165
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b0817a308cf8b40800000000000000
+      internalID: 5444790392528046872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 291
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df860db8fef4f5d90800000000000000
+      internalID: -7106873796705883907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 265
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b07d50d3b01fd3b0800000000000000
+      internalID: -5485647456632999755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 271
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b140047b17828a0800000000000000
+      internalID: -6329684244402267336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 124
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67350c9f317b44c0800000000000000
+      internalID: -4302220501007911060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 230
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f79d9d9ee9fd6330800000000000000
+      internalID: 3705892871637669878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 241
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636ff0de08cefba90800000000000000
+      internalID: -7295852832839698890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 210
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc7fb26198f2b200800000000000000
+      internalID: 194491037241015505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 210
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babc64c2447ae4540800000000000000
+      internalID: 4994112948042910635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 139
+        width: 124
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88689710d90f67d0800000000000000
+      internalID: -2923106843786450804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01571b9e92d00a0800000000000000
+      internalID: -6913823769262485318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 48
+        width: 80
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcef9c1737e3a6f0800000000000000
+      internalID: -674441295285981959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 50
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7951b57baa6edb600800000000000000
+      internalID: 485797955720910231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 45
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fc1693f49580690800000000000000
+      internalID: -7635754971406676199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 39
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a1b5f6144497e10800000000000000
+      internalID: 2195861341151631987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 86
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32947dbcf263ad470800000000000000
+      internalID: 8420102032233810211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTWINTERMINT_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 21
+        width: 125
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0273ec006fd472e40800000000000000
+      internalID: 5631555578020902688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTWINTERMINT_1536_00_0: 7534001116662704841
+      PLANTWINTERMINT_1536_00_1: -8007842167711068074
+      PLANTWINTERMINT_1536_00_10: -5485647456632999755
+      PLANTWINTERMINT_1536_00_11: -6329684244402267336
+      PLANTWINTERMINT_1536_00_12: -4302220501007911060
+      PLANTWINTERMINT_1536_00_13: 3705892871637669878
+      PLANTWINTERMINT_1536_00_14: -7295852832839698890
+      PLANTWINTERMINT_1536_00_15: 194491037241015505
+      PLANTWINTERMINT_1536_00_16: 4994112948042910635
+      PLANTWINTERMINT_1536_00_17: -2923106843786450804
+      PLANTWINTERMINT_1536_00_18: -6913823769262485318
+      PLANTWINTERMINT_1536_00_19: -674441295285981959
+      PLANTWINTERMINT_1536_00_2: 8279727419760897431
+      PLANTWINTERMINT_1536_00_20: 485797955720910231
+      PLANTWINTERMINT_1536_00_21: -7635754971406676199
+      PLANTWINTERMINT_1536_00_22: 2195861341151631987
+      PLANTWINTERMINT_1536_00_23: 8420102032233810211
+      PLANTWINTERMINT_1536_00_24: 5631555578020902688
+      PLANTWINTERMINT_1536_00_3: 2871153066581662986
+      PLANTWINTERMINT_1536_00_4: -8667676711874187856
+      PLANTWINTERMINT_1536_00_5: -1605908897444823561
+      PLANTWINTERMINT_1536_00_6: -6192491067437167576
+      PLANTWINTERMINT_1536_00_7: -4166551417609767740
+      PLANTWINTERMINT_1536_00_8: 5444790392528046872
+      PLANTWINTERMINT_1536_00_9: -7106873796705883907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

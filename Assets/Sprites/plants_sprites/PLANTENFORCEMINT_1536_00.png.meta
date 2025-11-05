@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b5f5d3355f3fc7b45aa3ec53c4a91578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8868128158439410201
+    second: PLANTENFORCEMINT_1536_00_0
+  - first:
+      213: 2248787572530774850
+    second: PLANTENFORCEMINT_1536_00_1
+  - first:
+      213: -9086163090126210646
+    second: PLANTENFORCEMINT_1536_00_2
+  - first:
+      213: -8088489853665756807
+    second: PLANTENFORCEMINT_1536_00_3
+  - first:
+      213: 5046590784044030652
+    second: PLANTENFORCEMINT_1536_00_4
+  - first:
+      213: 3026375018284687458
+    second: PLANTENFORCEMINT_1536_00_5
+  - first:
+      213: -661952488375926587
+    second: PLANTENFORCEMINT_1536_00_6
+  - first:
+      213: 838934958003242510
+    second: PLANTENFORCEMINT_1536_00_7
+  - first:
+      213: -9024862028816849172
+    second: PLANTENFORCEMINT_1536_00_8
+  - first:
+      213: 5215456154328951461
+    second: PLANTENFORCEMINT_1536_00_9
+  - first:
+      213: -2412721600491407448
+    second: PLANTENFORCEMINT_1536_00_10
+  - first:
+      213: 7278911909581049745
+    second: PLANTENFORCEMINT_1536_00_11
+  - first:
+      213: 5172930026258374509
+    second: PLANTENFORCEMINT_1536_00_12
+  - first:
+      213: 381247281717378867
+    second: PLANTENFORCEMINT_1536_00_13
+  - first:
+      213: -3480443101380555261
+    second: PLANTENFORCEMINT_1536_00_14
+  - first:
+      213: 8615538678270127578
+    second: PLANTENFORCEMINT_1536_00_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 108
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a8b62239be11b70800000000000000
+      internalID: 8868128158439410201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 295
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2438204f16c453f10800000000000000
+      internalID: 2248787572530774850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 310
+        width: 142
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9f2c16fc677e180800000000000000
+      internalID: -9086163090126210646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 459
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979b6ee2559efbf80800000000000000
+      internalID: -8088489853665756807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 437
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba54b18497190640800000000000000
+      internalID: 5046590784044030652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 416
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260a9f17b08dff920800000000000000
+      internalID: 3026375018284687458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 393
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0ca2018b540d6f0800000000000000
+      internalID: -661952488375926587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 183
+        width: 291
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06c07146ee74ab00800000000000000
+      internalID: 838934958003242510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 216
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6e571fccf31c280800000000000000
+      internalID: -9024862028816849172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 45
+        width: 148
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aae66c5db5016840800000000000000
+      internalID: 5215456154328951461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 70
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a73ccccc7a448ed0800000000000000
+      internalID: -2412721600491407448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 125
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f40f101d3e30560800000000000000
+      internalID: 7278911909581049745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 83
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f15179370f9c740800000000000000
+      internalID: 5172930026258374509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 83
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff85ef1667a4500800000000000000
+      internalID: 381247281717378867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 142
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ec041807bf2bfc0800000000000000
+      internalID: -3480443101380555261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTENFORCEMINT_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 27
+        width: 142
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addede2e7ca809770800000000000000
+      internalID: 8615538678270127578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTENFORCEMINT_1536_00_0: 8868128158439410201
+      PLANTENFORCEMINT_1536_00_1: 2248787572530774850
+      PLANTENFORCEMINT_1536_00_10: -2412721600491407448
+      PLANTENFORCEMINT_1536_00_11: 7278911909581049745
+      PLANTENFORCEMINT_1536_00_12: 5172930026258374509
+      PLANTENFORCEMINT_1536_00_13: 381247281717378867
+      PLANTENFORCEMINT_1536_00_14: -3480443101380555261
+      PLANTENFORCEMINT_1536_00_15: 8615538678270127578
+      PLANTENFORCEMINT_1536_00_2: -9086163090126210646
+      PLANTENFORCEMINT_1536_00_3: -8088489853665756807
+      PLANTENFORCEMINT_1536_00_4: 5046590784044030652
+      PLANTENFORCEMINT_1536_00_5: 3026375018284687458
+      PLANTENFORCEMINT_1536_00_6: -661952488375926587
+      PLANTENFORCEMINT_1536_00_7: 838934958003242510
+      PLANTENFORCEMINT_1536_00_8: -9024862028816849172
+      PLANTENFORCEMINT_1536_00_9: 5215456154328951461
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

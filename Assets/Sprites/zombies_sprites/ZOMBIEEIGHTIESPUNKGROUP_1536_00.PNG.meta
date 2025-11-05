@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 6df2865c39b019045aa7f5ca4f8223bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7690526011062163026
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_0
+  - first:
+      213: 8889884204582960265
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_1
+  - first:
+      213: 2371980665633303246
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_2
+  - first:
+      213: -7824492340762377118
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_3
+  - first:
+      213: 9023184246439024272
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_4
+  - first:
+      213: 2236618203752870233
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_5
+  - first:
+      213: -6782506850474732446
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_6
+  - first:
+      213: 6910197392142068772
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_7
+  - first:
+      213: -8076714947042585992
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_8
+  - first:
+      213: 1322798286732219194
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_9
+  - first:
+      213: -3926862659781510907
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_10
+  - first:
+      213: 3452893976391065063
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_11
+  - first:
+      213: -4168998745109625424
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_12
+  - first:
+      213: -6369054921819731623
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_13
+  - first:
+      213: 6801501476958069201
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_14
+  - first:
+      213: -4822209374764863019
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_15
+  - first:
+      213: -4518183695153363196
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_16
+  - first:
+      213: 5838106958193537741
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_17
+  - first:
+      213: -8357419724006718413
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_18
+  - first:
+      213: 5046216536393371474
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_19
+  - first:
+      213: -2950251462279268347
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_20
+  - first:
+      213: 5329640232075637145
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_21
+  - first:
+      213: -3053120843028951941
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_22
+  - first:
+      213: -5391132057618116062
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_23
+  - first:
+      213: 1812055871981666792
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_24
+  - first:
+      213: 4535539024747845025
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_25
+  - first:
+      213: 8330840163949346611
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_26
+  - first:
+      213: -395296861644557441
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_27
+  - first:
+      213: 5673035036350239856
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_28
+  - first:
+      213: 4824862310364436488
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_29
+  - first:
+      213: 5449078378812678827
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_30
+  - first:
+      213: 7811581722741794147
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_31
+  - first:
+      213: 5105953271284972807
+    second: ZOMBIEEIGHTIESPUNKGROUP_1536_00_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 125
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256134139ac3aba60800000000000000
+      internalID: 7690526011062163026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 364
+        width: 79
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cf58c55963f5b70800000000000000
+      internalID: 8889884204582960265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 433
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaea2d19d7fae020800000000000000
+      internalID: 2371980665633303246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 500
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26408190ca1d96390800000000000000
+      internalID: -7824492340762377118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 364
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09616e7e34ac83d70800000000000000
+      internalID: 9023184246439024272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 269
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951bcdcf7601a0f10800000000000000
+      internalID: 2236618203752870233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 287
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264dcca64f1bfd1a0800000000000000
+      internalID: -6782506850474732446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 273
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c65769ae3f5ef50800000000000000
+      internalID: 6910197392142068772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 311
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87250754c8eb9ef80800000000000000
+      internalID: -8076714947042585992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 291
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a335b2688068b5210800000000000000
+      internalID: 1322798286732219194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 218
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5093af1673bf089c0800000000000000
+      internalID: -3926862659781510907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 222
+        width: 81
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed10edf6c42bef20800000000000000
+      internalID: 3452893976391065063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 229
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b501b8cabdb426c0800000000000000
+      internalID: -4168998745109625424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9594bf51b429c97a0800000000000000
+      internalID: -6369054921819731623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 159
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d16161be89c36e50800000000000000
+      internalID: 6801501476958069201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 174
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1f4907f12141db0800000000000000
+      internalID: -4822209374764863019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 165
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4070c6c1edf2c41c0800000000000000
+      internalID: -4518183695153363196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 149
+        width: 23
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2bcdbc85f150150800000000000000
+      internalID: 5838106958193537741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348cbf5a0b740c80800000000000000
+      internalID: -8357419724006718413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 107
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fcd6f2433c70640800000000000000
+      internalID: 5046216536393371474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 124
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50874c81de99e07d0800000000000000
+      internalID: -2950251462279268347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 112
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991bf7dad8fa6f940800000000000000
+      internalID: 5329640232075637145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c0be6f4c221a5d0800000000000000
+      internalID: -3053120843028951941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 101
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222937005f9de25b0800000000000000
+      internalID: -5391132057618116062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1c0a20737b52910800000000000000
+      internalID: 1812055871981666792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 55
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5540376b871fe30800000000000000
+      internalID: 4535539024747845025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 51
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff1cc8df61d9370800000000000000
+      internalID: 8330840163949346611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 47
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7379d4499f938af0800000000000000
+      internalID: -395296861644557441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 56
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074500cfe4baabe40800000000000000
+      internalID: 5673035036350239856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 57
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808517345ba55f240800000000000000
+      internalID: 4824862310364436488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 45
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba224624ae30f9b40800000000000000
+      internalID: 5449078378812678827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36565f57030586c60800000000000000
+      internalID: 7811581722741794147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEEIGHTIESPUNKGROUP_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d3fae927dfbd640800000000000000
+      internalID: 5105953271284972807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_0: 7690526011062163026
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_1: 8889884204582960265
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_10: -3926862659781510907
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_11: 3452893976391065063
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_12: -4168998745109625424
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_13: -6369054921819731623
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_14: 6801501476958069201
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_15: -4822209374764863019
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_16: -4518183695153363196
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_17: 5838106958193537741
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_18: -8357419724006718413
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_19: 5046216536393371474
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_2: 2371980665633303246
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_20: -2950251462279268347
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_21: 5329640232075637145
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_22: -3053120843028951941
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_23: -5391132057618116062
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_24: 1812055871981666792
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_25: 4535539024747845025
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_26: 8330840163949346611
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_27: -395296861644557441
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_28: 5673035036350239856
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_29: 4824862310364436488
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_3: -7824492340762377118
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_30: 5449078378812678827
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_31: 7811581722741794147
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_32: 5105953271284972807
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_4: 9023184246439024272
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_5: 2236618203752870233
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_6: -6782506850474732446
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_7: 6910197392142068772
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_8: -8076714947042585992
+      ZOMBIEEIGHTIESPUNKGROUP_1536_00_9: 1322798286732219194
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

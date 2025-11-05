@@ -1,0 +1,4563 @@
+fileFormatVersion: 2
+guid: f8f904984a43352429150b598eccf8d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7657348320734665313
+    second: PLANTLEVITATER_1536_00_0
+  - first:
+      213: -4073182951770927585
+    second: PLANTLEVITATER_1536_00_1
+  - first:
+      213: 6450399080328263585
+    second: PLANTLEVITATER_1536_00_2
+  - first:
+      213: 7478971964237409751
+    second: PLANTLEVITATER_1536_00_3
+  - first:
+      213: 8478952160457209796
+    second: PLANTLEVITATER_1536_00_4
+  - first:
+      213: 5615437507596399999
+    second: PLANTLEVITATER_1536_00_5
+  - first:
+      213: -551075444920509430
+    second: PLANTLEVITATER_1536_00_6
+  - first:
+      213: -1029928868235903459
+    second: PLANTLEVITATER_1536_00_7
+  - first:
+      213: -6883011149990141268
+    second: PLANTLEVITATER_1536_00_8
+  - first:
+      213: 5131037342013247672
+    second: PLANTLEVITATER_1536_00_9
+  - first:
+      213: -6710771206695321910
+    second: PLANTLEVITATER_1536_00_10
+  - first:
+      213: 8215272584133860310
+    second: PLANTLEVITATER_1536_00_11
+  - first:
+      213: -2667757799977373253
+    second: PLANTLEVITATER_1536_00_12
+  - first:
+      213: -7797351127860407233
+    second: PLANTLEVITATER_1536_00_13
+  - first:
+      213: -8651086142534292815
+    second: PLANTLEVITATER_1536_00_14
+  - first:
+      213: -5160587512089218429
+    second: PLANTLEVITATER_1536_00_15
+  - first:
+      213: -7340308439872751640
+    second: PLANTLEVITATER_1536_00_16
+  - first:
+      213: 5955968314734125003
+    second: PLANTLEVITATER_1536_00_17
+  - first:
+      213: 885010413999105334
+    second: PLANTLEVITATER_1536_00_18
+  - first:
+      213: 236603517005842779
+    second: PLANTLEVITATER_1536_00_19
+  - first:
+      213: 1671667730671116778
+    second: PLANTLEVITATER_1536_00_20
+  - first:
+      213: -5555520903916006734
+    second: PLANTLEVITATER_1536_00_21
+  - first:
+      213: -4660935959444566529
+    second: PLANTLEVITATER_1536_00_22
+  - first:
+      213: -5308867530679321005
+    second: PLANTLEVITATER_1536_00_23
+  - first:
+      213: 8897140464080788138
+    second: PLANTLEVITATER_1536_00_24
+  - first:
+      213: -2747718952413937612
+    second: PLANTLEVITATER_1536_00_25
+  - first:
+      213: 3181751691352857026
+    second: PLANTLEVITATER_1536_00_26
+  - first:
+      213: 668427881919195762
+    second: PLANTLEVITATER_1536_00_27
+  - first:
+      213: 565458362156409744
+    second: PLANTLEVITATER_1536_00_28
+  - first:
+      213: -3791440177681722798
+    second: PLANTLEVITATER_1536_00_29
+  - first:
+      213: 8297913043561798302
+    second: PLANTLEVITATER_1536_00_30
+  - first:
+      213: -4322124602187156648
+    second: PLANTLEVITATER_1536_00_31
+  - first:
+      213: -8478723216989364331
+    second: PLANTLEVITATER_1536_00_32
+  - first:
+      213: 9008133841500855159
+    second: PLANTLEVITATER_1536_00_33
+  - first:
+      213: -1150469435156830645
+    second: PLANTLEVITATER_1536_00_34
+  - first:
+      213: 2842482856976877587
+    second: PLANTLEVITATER_1536_00_35
+  - first:
+      213: -6165526428129804258
+    second: PLANTLEVITATER_1536_00_36
+  - first:
+      213: 7036861935774104169
+    second: PLANTLEVITATER_1536_00_37
+  - first:
+      213: -8488057640323756495
+    second: PLANTLEVITATER_1536_00_38
+  - first:
+      213: 5803645034918584839
+    second: PLANTLEVITATER_1536_00_39
+  - first:
+      213: -1795525833879517288
+    second: PLANTLEVITATER_1536_00_40
+  - first:
+      213: -6107205403446467068
+    second: PLANTLEVITATER_1536_00_41
+  - first:
+      213: 8841846608588599697
+    second: PLANTLEVITATER_1536_00_42
+  - first:
+      213: 8933168109650622666
+    second: PLANTLEVITATER_1536_00_43
+  - first:
+      213: 4251117339794963173
+    second: PLANTLEVITATER_1536_00_44
+  - first:
+      213: -2253184108840938049
+    second: PLANTLEVITATER_1536_00_45
+  - first:
+      213: 561701017933247709
+    second: PLANTLEVITATER_1536_00_46
+  - first:
+      213: -1062509018848477453
+    second: PLANTLEVITATER_1536_00_47
+  - first:
+      213: 1138014284261237494
+    second: PLANTLEVITATER_1536_00_48
+  - first:
+      213: 5585286421162258000
+    second: PLANTLEVITATER_1536_00_49
+  - first:
+      213: 8552020078308912494
+    second: PLANTLEVITATER_1536_00_50
+  - first:
+      213: -6435940263232418437
+    second: PLANTLEVITATER_1536_00_51
+  - first:
+      213: -8918764281003595613
+    second: PLANTLEVITATER_1536_00_52
+  - first:
+      213: 1130941023455377912
+    second: PLANTLEVITATER_1536_00_53
+  - first:
+      213: -5230570450847467998
+    second: PLANTLEVITATER_1536_00_54
+  - first:
+      213: 6115456765887005271
+    second: PLANTLEVITATER_1536_00_55
+  - first:
+      213: -2514980503012287846
+    second: PLANTLEVITATER_1536_00_56
+  - first:
+      213: 85601641918648745
+    second: PLANTLEVITATER_1536_00_57
+  - first:
+      213: 3648016336415777736
+    second: PLANTLEVITATER_1536_00_58
+  - first:
+      213: -734135177184428159
+    second: PLANTLEVITATER_1536_00_59
+  - first:
+      213: 1058282672054000613
+    second: PLANTLEVITATER_1536_00_60
+  - first:
+      213: -5753399990834085978
+    second: PLANTLEVITATER_1536_00_61
+  - first:
+      213: 2388332287876157880
+    second: PLANTLEVITATER_1536_00_62
+  - first:
+      213: 6223421854467132109
+    second: PLANTLEVITATER_1536_00_63
+  - first:
+      213: -8356100695837323650
+    second: PLANTLEVITATER_1536_00_64
+  - first:
+      213: 7600822106329904436
+    second: PLANTLEVITATER_1536_00_65
+  - first:
+      213: -5730789013642755009
+    second: PLANTLEVITATER_1536_00_66
+  - first:
+      213: 8561847520146771931
+    second: PLANTLEVITATER_1536_00_67
+  - first:
+      213: 7455188713342932338
+    second: PLANTLEVITATER_1536_00_68
+  - first:
+      213: -1356554914667161550
+    second: PLANTLEVITATER_1536_00_69
+  - first:
+      213: -4238089840987380121
+    second: PLANTLEVITATER_1536_00_70
+  - first:
+      213: 2642796426435676280
+    second: PLANTLEVITATER_1536_00_71
+  - first:
+      213: -6804649206902723525
+    second: PLANTLEVITATER_1536_00_72
+  - first:
+      213: -6223556661204390520
+    second: PLANTLEVITATER_1536_00_73
+  - first:
+      213: 9024665167476644324
+    second: PLANTLEVITATER_1536_00_74
+  - first:
+      213: -5796966083913407641
+    second: PLANTLEVITATER_1536_00_75
+  - first:
+      213: -1690794056636095410
+    second: PLANTLEVITATER_1536_00_76
+  - first:
+      213: 5489001726762503452
+    second: PLANTLEVITATER_1536_00_77
+  - first:
+      213: 4205678140694484879
+    second: PLANTLEVITATER_1536_00_78
+  - first:
+      213: 6633530987461709722
+    second: PLANTLEVITATER_1536_00_79
+  - first:
+      213: 9170043609589152742
+    second: PLANTLEVITATER_1536_00_80
+  - first:
+      213: 2764124494656566859
+    second: PLANTLEVITATER_1536_00_81
+  - first:
+      213: -4648990746061335252
+    second: PLANTLEVITATER_1536_00_82
+  - first:
+      213: 938117125695737551
+    second: PLANTLEVITATER_1536_00_83
+  - first:
+      213: 4103563848797886202
+    second: PLANTLEVITATER_1536_00_84
+  - first:
+      213: 5681037454865116867
+    second: PLANTLEVITATER_1536_00_85
+  - first:
+      213: -6920154229513232551
+    second: PLANTLEVITATER_1536_00_86
+  - first:
+      213: 8900156268004540217
+    second: PLANTLEVITATER_1536_00_87
+  - first:
+      213: -8374345836632503869
+    second: PLANTLEVITATER_1536_00_88
+  - first:
+      213: -5155610598683657691
+    second: PLANTLEVITATER_1536_00_89
+  - first:
+      213: 8973472959869778079
+    second: PLANTLEVITATER_1536_00_90
+  - first:
+      213: 1160469352760576018
+    second: PLANTLEVITATER_1536_00_91
+  - first:
+      213: 655904604501415059
+    second: PLANTLEVITATER_1536_00_92
+  - first:
+      213: 6502739145119694484
+    second: PLANTLEVITATER_1536_00_93
+  - first:
+      213: 7759141575196350042
+    second: PLANTLEVITATER_1536_00_94
+  - first:
+      213: -784000308096212417
+    second: PLANTLEVITATER_1536_00_95
+  - first:
+      213: -6954561362075379491
+    second: PLANTLEVITATER_1536_00_96
+  - first:
+      213: 1135202934321338646
+    second: PLANTLEVITATER_1536_00_97
+  - first:
+      213: 7909073774577356009
+    second: PLANTLEVITATER_1536_00_98
+  - first:
+      213: -432410273980002262
+    second: PLANTLEVITATER_1536_00_99
+  - first:
+      213: -8509810669782204329
+    second: PLANTLEVITATER_1536_00_100
+  - first:
+      213: 952691934532943951
+    second: PLANTLEVITATER_1536_00_101
+  - first:
+      213: 2960249597182152795
+    second: PLANTLEVITATER_1536_00_102
+  - first:
+      213: 8269404893429077705
+    second: PLANTLEVITATER_1536_00_103
+  - first:
+      213: 1275519468490089059
+    second: PLANTLEVITATER_1536_00_104
+  - first:
+      213: 131518835844406791
+    second: PLANTLEVITATER_1536_00_105
+  - first:
+      213: -2590607557579100053
+    second: PLANTLEVITATER_1536_00_106
+  - first:
+      213: -5218542265806009452
+    second: PLANTLEVITATER_1536_00_107
+  - first:
+      213: 4096931053566107967
+    second: PLANTLEVITATER_1536_00_108
+  - first:
+      213: 7838025785381584738
+    second: PLANTLEVITATER_1536_00_109
+  - first:
+      213: -5946264495368305351
+    second: PLANTLEVITATER_1536_00_110
+  - first:
+      213: -5762987659585637439
+    second: PLANTLEVITATER_1536_00_111
+  - first:
+      213: 5031397192023023772
+    second: PLANTLEVITATER_1536_00_112
+  - first:
+      213: 3275842449702878910
+    second: PLANTLEVITATER_1536_00_113
+  - first:
+      213: -7766671482305240296
+    second: PLANTLEVITATER_1536_00_114
+  - first:
+      213: -7311844642098239299
+    second: PLANTLEVITATER_1536_00_115
+  - first:
+      213: 356284787911932983
+    second: PLANTLEVITATER_1536_00_116
+  - first:
+      213: 9078216701033823075
+    second: PLANTLEVITATER_1536_00_117
+  - first:
+      213: 3198922289894448887
+    second: PLANTLEVITATER_1536_00_118
+  - first:
+      213: 9217102291011647697
+    second: PLANTLEVITATER_1536_00_119
+  - first:
+      213: -172064935499619818
+    second: PLANTLEVITATER_1536_00_120
+  - first:
+      213: -2341528502269290461
+    second: PLANTLEVITATER_1536_00_121
+  - first:
+      213: 7480252906947477576
+    second: PLANTLEVITATER_1536_00_122
+  - first:
+      213: -5020111967163493174
+    second: PLANTLEVITATER_1536_00_123
+  - first:
+      213: -1739070787685579955
+    second: PLANTLEVITATER_1536_00_124
+  - first:
+      213: 8862467426138322033
+    second: PLANTLEVITATER_1536_00_125
+  - first:
+      213: 7374361513544955161
+    second: PLANTLEVITATER_1536_00_126
+  - first:
+      213: -7393741811061839167
+    second: PLANTLEVITATER_1536_00_127
+  - first:
+      213: -4370509930437596475
+    second: PLANTLEVITATER_1536_00_128
+  - first:
+      213: -4496822365325093641
+    second: PLANTLEVITATER_1536_00_129
+  - first:
+      213: -8785754840150109828
+    second: PLANTLEVITATER_1536_00_130
+  - first:
+      213: 5135006268881771264
+    second: PLANTLEVITATER_1536_00_131
+  - first:
+      213: 5480082498657288968
+    second: PLANTLEVITATER_1536_00_132
+  - first:
+      213: 4596990231618185554
+    second: PLANTLEVITATER_1536_00_133
+  - first:
+      213: 8635167372395777956
+    second: PLANTLEVITATER_1536_00_134
+  - first:
+      213: 8861181530263268404
+    second: PLANTLEVITATER_1536_00_135
+  - first:
+      213: -6478505823010020889
+    second: PLANTLEVITATER_1536_00_136
+  - first:
+      213: -5515514748025429631
+    second: PLANTLEVITATER_1536_00_137
+  - first:
+      213: -1434284366330616527
+    second: PLANTLEVITATER_1536_00_138
+  - first:
+      213: -2728559336319887959
+    second: PLANTLEVITATER_1536_00_139
+  - first:
+      213: 2923694406261784779
+    second: PLANTLEVITATER_1536_00_140
+  - first:
+      213: 1927897150868516843
+    second: PLANTLEVITATER_1536_00_141
+  - first:
+      213: -2783589834264518023
+    second: PLANTLEVITATER_1536_00_142
+  - first:
+      213: 8666597153781696658
+    second: PLANTLEVITATER_1536_00_143
+  - first:
+      213: -3663166307487037615
+    second: PLANTLEVITATER_1536_00_144
+  - first:
+      213: -958870171154683475
+    second: PLANTLEVITATER_1536_00_145
+  - first:
+      213: 9214148224820504684
+    second: PLANTLEVITATER_1536_00_146
+  - first:
+      213: 7677568535213897915
+    second: PLANTLEVITATER_1536_00_147
+  - first:
+      213: -4373043319888600006
+    second: PLANTLEVITATER_1536_00_148
+  - first:
+      213: -6625138965128281111
+    second: PLANTLEVITATER_1536_00_149
+  - first:
+      213: 8683129906484842091
+    second: PLANTLEVITATER_1536_00_150
+  - first:
+      213: -5802475871554327138
+    second: PLANTLEVITATER_1536_00_151
+  - first:
+      213: -346659736617075632
+    second: PLANTLEVITATER_1536_00_152
+  - first:
+      213: -8471221279321829104
+    second: PLANTLEVITATER_1536_00_153
+  - first:
+      213: 3200983837831185491
+    second: PLANTLEVITATER_1536_00_154
+  - first:
+      213: -7054650672531757961
+    second: PLANTLEVITATER_1536_00_155
+  - first:
+      213: -4109388379147955862
+    second: PLANTLEVITATER_1536_00_156
+  - first:
+      213: 2497964176472333156
+    second: PLANTLEVITATER_1536_00_157
+  - first:
+      213: -6080413327444842480
+    second: PLANTLEVITATER_1536_00_158
+  - first:
+      213: 1772568454672652231
+    second: PLANTLEVITATER_1536_00_159
+  - first:
+      213: 2913029593406755454
+    second: PLANTLEVITATER_1536_00_160
+  - first:
+      213: -4779067622351875291
+    second: PLANTLEVITATER_1536_00_161
+  - first:
+      213: -6409046225846457931
+    second: PLANTLEVITATER_1536_00_162
+  - first:
+      213: -8613521912756652534
+    second: PLANTLEVITATER_1536_00_163
+  - first:
+      213: 4437334457390062556
+    second: PLANTLEVITATER_1536_00_164
+  - first:
+      213: 1450589261145277564
+    second: PLANTLEVITATER_1536_00_165
+  - first:
+      213: 6241863566809778982
+    second: PLANTLEVITATER_1536_00_166
+  - first:
+      213: -8974438381147554708
+    second: PLANTLEVITATER_1536_00_167
+  - first:
+      213: 5749874019464333410
+    second: PLANTLEVITATER_1536_00_168
+  - first:
+      213: -6749848468090500322
+    second: PLANTLEVITATER_1536_00_169
+  - first:
+      213: -5530279481676557514
+    second: PLANTLEVITATER_1536_00_170
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 829
+        width: 272
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f952d2dc542abb590800000000000000
+      internalID: -7657348320734665313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 806
+        width: 206
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e448e9fa52977c0800000000000000
+      internalID: -4073182951770927585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 798
+        width: 154
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7f872b9cb648950800000000000000
+      internalID: 6450399080328263585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 801
+        width: 171
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dde97d4065aac760800000000000000
+      internalID: 7478971964237409751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 885
+        width: 116
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c73597011a4ba570800000000000000
+      internalID: 8478952160457209796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 898
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7530ba49aa0eed40800000000000000
+      internalID: 5615437507596399999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 838
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c92157dcf2a58f0800000000000000
+      internalID: -551075444920509430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 870
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ef0e0b625f4b1f0800000000000000
+      internalID: -1029928868235903459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 852
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2e8cba3d1aa70a0800000000000000
+      internalID: -6883011149990141268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 823
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0d6f3f64b153740800000000000000
+      internalID: 5131037342013247672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 837
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace7108842d8ed2a0800000000000000
+      internalID: -6710771206695321910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 732
+        width: 152
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbdd4e83e2820270800000000000000
+      internalID: 8215272584133860310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 801
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb132915a683afad0800000000000000
+      internalID: -2667757799977373253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 818
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3493ea167e3ac390800000000000000
+      internalID: -7797351127860407233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 818
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba60f02dfa21f780800000000000000
+      internalID: -8651086142534292815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 792
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382fa9deff8e168b0800000000000000
+      internalID: -5160587512089218429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 779
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e735935d5cf12a90800000000000000
+      internalID: -7340308439872751640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 801
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf953d40a9d7a250800000000000000
+      internalID: 5955968314734125003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 802
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63520f45840384c00800000000000000
+      internalID: 885010413999105334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 802
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59cdb725a5984300800000000000000
+      internalID: 236603517005842779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 803
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1a225b1f4f23710800000000000000
+      internalID: 1671667730671116778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 705
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b254db1c23d6e2b0800000000000000
+      internalID: -5555520903916006734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 767
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd46788077015fb0800000000000000
+      internalID: -4660935959444566529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 703
+        width: 222
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ef042cb1d1356b0800000000000000
+      internalID: -5308867530679321005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 740
+        width: 71
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa1a4eec1ef87b70800000000000000
+      internalID: 8897140464080788138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 713
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43042cabb242ed9d0800000000000000
+      internalID: -2747718952413937612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 707
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9d59e3e4ad72c20800000000000000
+      internalID: 3181751691352857026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 751
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aa2cbfd9bb64900800000000000000
+      internalID: 668427881919195762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 704
+        width: 152
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0936b9b6269e8d700800000000000000
+      internalID: 565458362156409744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 750
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252132e0f39126bc0800000000000000
+      internalID: -3791440177681722798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 738
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ad49ae2fb182370800000000000000
+      internalID: 8297913043561798302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 752
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85378abe29ab404c0800000000000000
+      internalID: -4322124602187156648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 739
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fdd760826855a80800000000000000
+      internalID: -8478723216989364331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 676
+        width: 71
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b55df6002530d70800000000000000
+      internalID: 9008133841500855159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 710
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b466888e426b800f0800000000000000
+      internalID: -1150469435156830645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 724
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3188e3a2917827720800000000000000
+      internalID: 2842482856976877587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 719
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e104a064166af6aa0800000000000000
+      internalID: -6165526428129804258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 695
+        width: 84
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a784fc5a4f7a160800000000000000
+      internalID: 7036861935774104169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 706
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e467b3c8c543a80800000000000000
+      internalID: -8488057640323756495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 639
+        width: 222
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70228c40960ba8050800000000000000
+      internalID: 5803645034918584839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 652
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897039664c20517e0800000000000000
+      internalID: -1795525833879517288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 658
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4062a3dfa09de3ba0800000000000000
+      internalID: -6107205403446467068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 611
+        width: 222
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1917a67f4ac84ba70800000000000000
+      internalID: 8841846608588599697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 648
+        width: 71
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8b296d01df8fb70800000000000000
+      internalID: 8933168109650622666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 661
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea7bf872b00ffa30800000000000000
+      internalID: 4251117339794963173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 606
+        width: 200
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb51bfaadf41bb0e0800000000000000
+      internalID: -2253184108840938049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 667
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4f2eb89109bc700800000000000000
+      internalID: 561701017933247709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 622
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe33e04da53141f0800000000000000
+      internalID: -1062509018848477453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 631
+        width: 84
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f226ba46f90bcf00800000000000000
+      internalID: 1138014284261237494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 597
+        width: 200
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e603e686ce28d40800000000000000
+      internalID: 5585286421162258000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 616
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d6c9f53f0eea670800000000000000
+      internalID: 8552020078308912494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 625
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dc56efd62fea6a0800000000000000
+      internalID: -6435940263232418437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 533
+        width: 224
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8a65bd32f2a3480800000000000000
+      internalID: -8918764281003595613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 603
+        width: 84
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f979fc6ed8e1bf00800000000000000
+      internalID: 1130941023455377912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 608
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226f49043e74967b0800000000000000
+      internalID: -5230570450847467998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 608
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75244f907877ed450800000000000000
+      internalID: 6115456765887005271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 607
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a5be4be8ef81dd0800000000000000
+      internalID: -2514980503012287846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 608
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a150c26d3e103100800000000000000
+      internalID: 85601641918648745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 541
+        width: 121
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c362eaa78b50a230800000000000000
+      internalID: 3648016336415777736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 505
+        width: 224
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fbdca22f3dfc5f0800000000000000
+      internalID: -734135177184428159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 585
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebdab3bb76cfae00800000000000000
+      internalID: 1058282672054000613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 508
+        width: 224
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af399fe031d720b0800000000000000
+      internalID: -5753399990834085978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 485
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b15478df8f052120800000000000000
+      internalID: 2388332287876157880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 549
+        width: 87
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca8aea14390e5650800000000000000
+      internalID: 6223421854467132109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 566
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ec83d80ba290c80800000000000000
+      internalID: -8356100695837323650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 513
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435fab05f6b8b7960800000000000000
+      internalID: 7600822106329904436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 503
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34cc1f41c52870b0800000000000000
+      internalID: -5730789013642755009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 548
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf486bf4fac1d670800000000000000
+      internalID: 8561847520146771931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 515
+        width: 133
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2759e40b2a6267760800000000000000
+      internalID: 7455188713342932338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 508
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23814f01e7c8c2de0800000000000000
+      internalID: -1356554914667161550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 510
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76661c57eb74f25c0800000000000000
+      internalID: -4238089840987380121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 507
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878ce5309591da420800000000000000
+      internalID: 2642796426435676280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 410
+        width: 222
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c6b6159970191a0800000000000000
+      internalID: -6804649206902723525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 412
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d6561c03c71a9a0800000000000000
+      internalID: -6223556661204390520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 480
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e95944b72d0e3d70800000000000000
+      internalID: 9024665167476644324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 457
+        width: 87
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763aa517f0a0d8fa0800000000000000
+      internalID: -5796966083913407641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 449
+        width: 121
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e442dd183c71988e0800000000000000
+      internalID: -1690794056636095410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 460
+        width: 87
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d4f2f0df9dc2c40800000000000000
+      internalID: 5489001726762503452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 452
+        width: 121
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8758bf7cf19d5a30800000000000000
+      internalID: 4205678140694484879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 383
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f833289490f0c50800000000000000
+      internalID: 6633530987461709722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebf664f31a824f70800000000000000
+      internalID: 9170043609589152742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 420
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46f5fa35942c5620800000000000000
+      internalID: 2764124494656566859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 461
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c259fe04c877b7fb0800000000000000
+      internalID: -4648990746061335252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 424
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce0ec23e8cd40d00800000000000000
+      internalID: 938117125695737551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 414
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af69bb03499c2f830800000000000000
+      internalID: 4103563848797886202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 421
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceacec377917de40800000000000000
+      internalID: 5681037454865116867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 415
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f52fe846ca6ff90800000000000000
+      internalID: -6920154229513232551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 411
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f70ef78f4b38b70800000000000000
+      internalID: 8900156268004540217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 418
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c98f3da4d858cb80800000000000000
+      internalID: -8374345836632503869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 400
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ab831e9779378b0800000000000000
+      internalID: -5155610598683657691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 317
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f987c9e0d1e288c70800000000000000
+      internalID: 8973472959869778079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 339
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21885085ab0da1010800000000000000
+      internalID: 1160469352760576018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 318
+        width: 222
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39499dd33cd3a1900800000000000000
+      internalID: 655904604501415059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 347
+        width: 116
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ef2ebacce5e3a50800000000000000
+      internalID: 6502739145119694484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 335
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a561b8727220eab60800000000000000
+      internalID: 7759141575196350042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 321
+        width: 222
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32e024afdbae15f0800000000000000
+      internalID: -784000308096212417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 307
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd817dcb94f6c7f90800000000000000
+      internalID: -6954561362075379491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 373
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6195430ed0d01cf00800000000000000
+      internalID: 1135202934321338646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 343
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec8a04a1bca2cd60800000000000000
+      internalID: 7909073774577356009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 283
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2051369525cff9f0800000000000000
+      internalID: -432410273980002262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 340
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7508dc1684417e980800000000000000
+      internalID: -8509810669782204329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 259
+        width: 152
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4047325444a83d00800000000000000
+      internalID: 952691934532943951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 262
+        width: 134
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b501986135be41920800000000000000
+      internalID: 2960249597182152795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 252
+        width: 110
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c697b8ffe3d2c270800000000000000
+      internalID: 8269404893429077705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 288
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3626277d23e83b110800000000000000
+      internalID: 1275519468490089059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 286
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e57c33faf33d100800000000000000
+      internalID: 131518835844406791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 205
+        width: 138
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b603e0ae6205c0cd0800000000000000
+      internalID: -2590607557579100053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 216
+        width: 153
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b454155730497b0800000000000000
+      internalID: -5218542265806009452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31231536193bd830800000000000000
+      internalID: 4096931053566107967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 199
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f75069ce246cc60800000000000000
+      internalID: 7838025785381584738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 222
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9350e0532ff9a7da0800000000000000
+      internalID: -5946264495368305351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 182
+        width: 83
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c33079d141c500b0800000000000000
+      internalID: -5762987659585637439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 192
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c902e62b61d13d540800000000000000
+      internalID: 5031397192023023772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe7fa21a51267d20800000000000000
+      internalID: 3275842449702878910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 224
+        width: 101
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8132a0abf6d373490800000000000000
+      internalID: -7766671482305240296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 244
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db824eea90c178a90800000000000000
+      internalID: -7311844642098239299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 208
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cbd5e7027c1f400800000000000000
+      internalID: 356284787911932983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 241
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bb32bbdfd4cfd70800000000000000
+      internalID: 9078216701033823075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 190
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fedc31cfdad46c20800000000000000
+      internalID: 3198922289894448887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 142
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8303a03b9b9ef70800000000000000
+      internalID: 9217102291011647697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 151
+        width: 103
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612ae315ad3bc9df0800000000000000
+      internalID: -172064935499619818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 208
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32859ceab38318fd0800000000000000
+      internalID: -2341528502269290461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 159
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84000b403623fc760800000000000000
+      internalID: 7480252906947477576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 208
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4588873caf45ab0800000000000000
+      internalID: -5020111967163493174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 132
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d430eb425549dd7e0800000000000000
+      internalID: -1739070787685579955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 131
+        width: 111
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174f1703b2fcdfa70800000000000000
+      internalID: 8862467426138322033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 146
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915b82cb9bef65660800000000000000
+      internalID: 7374361513544955161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 112
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caa4be1ff6246990800000000000000
+      internalID: -7393741811061839167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 154
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca23fccf54d853c0800000000000000
+      internalID: -4370509930437596475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 152
+        width: 119
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f414c842e31891c0800000000000000
+      internalID: -4496822365325093641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 160
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c711f25958ab21680800000000000000
+      internalID: -8785754840150109828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 142
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b1a10cef4334740800000000000000
+      internalID: 5135006268881771264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 134
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8038d407ff92d0c40800000000000000
+      internalID: 5480082498657288968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 76
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259ea8f724acbcf30800000000000000
+      internalID: 4596990231618185554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 79
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af81bf59f646d770800000000000000
+      internalID: 8635167372395777956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 128
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c289937ad39fa70800000000000000
+      internalID: 8861181530263268404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 86
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e120305749b716a0800000000000000
+      internalID: -6478505823010020889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 115
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18124822f84f473b0800000000000000
+      internalID: -5515514748025429631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 87
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135a7fdc7f5681ce0800000000000000
+      internalID: -1434284366330616527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 80
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5d31a7db5322ad0800000000000000
+      internalID: -2728559336319887959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 87
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0c705729c039820800000000000000
+      internalID: 2923694406261784779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 66
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef61098e3441ca10800000000000000
+      internalID: 1927897150868516843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 72
+        width: 88
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97266483bc3be59d0800000000000000
+      internalID: -2783589834264518023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 48
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298c19a9130f54870800000000000000
+      internalID: 8666597153781696658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 60
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1574e01d6a1d92dc0800000000000000
+      internalID: -3663166307487037615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 97
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da96b9ed8a861b2f0800000000000000
+      internalID: -958870171154683475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 97
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68e838edfa3fdf70800000000000000
+      internalID: 9214148224820504684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 27
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8f320c7e33c8a60800000000000000
+      internalID: 7677568535213897915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3425aa1544df43c0800000000000000
+      internalID: -4373043319888600006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 34
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e30ee37637ce04a0800000000000000
+      internalID: -6625138965128281111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 33
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e899e05aca08870800000000000000
+      internalID: 8683129906484842091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 37
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9daa3a00f6797fa0800000000000000
+      internalID: -5802475871554327138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 37
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c32056eca603bf0800000000000000
+      internalID: -346659736617075632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 42
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011da40012d207a80800000000000000
+      internalID: -8471221279321829104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 42
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354c1b947dd2c6c20800000000000000
+      internalID: 3200983837831185491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 41
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77426492798d81e90800000000000000
+      internalID: -7054650672531757961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 46
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6194c8aa0588f6c0800000000000000
+      internalID: -4109388379147955862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bd8480f2d8aa220800000000000000
+      internalID: 2497964176472333156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 41
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018691a4b480e9ba0800000000000000
+      internalID: -6080413327444842480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 43
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c793d83e9d699810800000000000000
+      internalID: 1772568454672652231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 43
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72d5373bf82d6820800000000000000
+      internalID: 2913029593406755454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 54
+        width: 79
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523552c61575dadb0800000000000000
+      internalID: -4779067622351875291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 44
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b92d570a6e7e07a0800000000000000
+      internalID: -6409046225846457931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 43
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06b81de47f967880800000000000000
+      internalID: -8613521912756652534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 13
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbd552dd24949d30800000000000000
+      internalID: 4437334457390062556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 13
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c748f895f37812410800000000000000
+      internalID: 1450589261145277564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 21
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b462cd7dd8f9650800000000000000
+      internalID: 6241863566809778982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 6
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c711947d3647380800000000000000
+      internalID: -8974438381147554708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2684b61e4f7abcf40800000000000000
+      internalID: 5749874019464333410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 19
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b40cb9498b352a0800000000000000
+      internalID: -6749848468090500322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTLEVITATER_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 19
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6339902bc108043b0800000000000000
+      internalID: -5530279481676557514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTLEVITATER_1536_00_0: -7657348320734665313
+      PLANTLEVITATER_1536_00_1: -4073182951770927585
+      PLANTLEVITATER_1536_00_10: -6710771206695321910
+      PLANTLEVITATER_1536_00_100: -8509810669782204329
+      PLANTLEVITATER_1536_00_101: 952691934532943951
+      PLANTLEVITATER_1536_00_102: 2960249597182152795
+      PLANTLEVITATER_1536_00_103: 8269404893429077705
+      PLANTLEVITATER_1536_00_104: 1275519468490089059
+      PLANTLEVITATER_1536_00_105: 131518835844406791
+      PLANTLEVITATER_1536_00_106: -2590607557579100053
+      PLANTLEVITATER_1536_00_107: -5218542265806009452
+      PLANTLEVITATER_1536_00_108: 4096931053566107967
+      PLANTLEVITATER_1536_00_109: 7838025785381584738
+      PLANTLEVITATER_1536_00_11: 8215272584133860310
+      PLANTLEVITATER_1536_00_110: -5946264495368305351
+      PLANTLEVITATER_1536_00_111: -5762987659585637439
+      PLANTLEVITATER_1536_00_112: 5031397192023023772
+      PLANTLEVITATER_1536_00_113: 3275842449702878910
+      PLANTLEVITATER_1536_00_114: -7766671482305240296
+      PLANTLEVITATER_1536_00_115: -7311844642098239299
+      PLANTLEVITATER_1536_00_116: 356284787911932983
+      PLANTLEVITATER_1536_00_117: 9078216701033823075
+      PLANTLEVITATER_1536_00_118: 3198922289894448887
+      PLANTLEVITATER_1536_00_119: 9217102291011647697
+      PLANTLEVITATER_1536_00_12: -2667757799977373253
+      PLANTLEVITATER_1536_00_120: -172064935499619818
+      PLANTLEVITATER_1536_00_121: -2341528502269290461
+      PLANTLEVITATER_1536_00_122: 7480252906947477576
+      PLANTLEVITATER_1536_00_123: -5020111967163493174
+      PLANTLEVITATER_1536_00_124: -1739070787685579955
+      PLANTLEVITATER_1536_00_125: 8862467426138322033
+      PLANTLEVITATER_1536_00_126: 7374361513544955161
+      PLANTLEVITATER_1536_00_127: -7393741811061839167
+      PLANTLEVITATER_1536_00_128: -4370509930437596475
+      PLANTLEVITATER_1536_00_129: -4496822365325093641
+      PLANTLEVITATER_1536_00_13: -7797351127860407233
+      PLANTLEVITATER_1536_00_130: -8785754840150109828
+      PLANTLEVITATER_1536_00_131: 5135006268881771264
+      PLANTLEVITATER_1536_00_132: 5480082498657288968
+      PLANTLEVITATER_1536_00_133: 4596990231618185554
+      PLANTLEVITATER_1536_00_134: 8635167372395777956
+      PLANTLEVITATER_1536_00_135: 8861181530263268404
+      PLANTLEVITATER_1536_00_136: -6478505823010020889
+      PLANTLEVITATER_1536_00_137: -5515514748025429631
+      PLANTLEVITATER_1536_00_138: -1434284366330616527
+      PLANTLEVITATER_1536_00_139: -2728559336319887959
+      PLANTLEVITATER_1536_00_14: -8651086142534292815
+      PLANTLEVITATER_1536_00_140: 2923694406261784779
+      PLANTLEVITATER_1536_00_141: 1927897150868516843
+      PLANTLEVITATER_1536_00_142: -2783589834264518023
+      PLANTLEVITATER_1536_00_143: 8666597153781696658
+      PLANTLEVITATER_1536_00_144: -3663166307487037615
+      PLANTLEVITATER_1536_00_145: -958870171154683475
+      PLANTLEVITATER_1536_00_146: 9214148224820504684
+      PLANTLEVITATER_1536_00_147: 7677568535213897915
+      PLANTLEVITATER_1536_00_148: -4373043319888600006
+      PLANTLEVITATER_1536_00_149: -6625138965128281111
+      PLANTLEVITATER_1536_00_15: -5160587512089218429
+      PLANTLEVITATER_1536_00_150: 8683129906484842091
+      PLANTLEVITATER_1536_00_151: -5802475871554327138
+      PLANTLEVITATER_1536_00_152: -346659736617075632
+      PLANTLEVITATER_1536_00_153: -8471221279321829104
+      PLANTLEVITATER_1536_00_154: 3200983837831185491
+      PLANTLEVITATER_1536_00_155: -7054650672531757961
+      PLANTLEVITATER_1536_00_156: -4109388379147955862
+      PLANTLEVITATER_1536_00_157: 2497964176472333156
+      PLANTLEVITATER_1536_00_158: -6080413327444842480
+      PLANTLEVITATER_1536_00_159: 1772568454672652231
+      PLANTLEVITATER_1536_00_16: -7340308439872751640
+      PLANTLEVITATER_1536_00_160: 2913029593406755454
+      PLANTLEVITATER_1536_00_161: -4779067622351875291
+      PLANTLEVITATER_1536_00_162: -6409046225846457931
+      PLANTLEVITATER_1536_00_163: -8613521912756652534
+      PLANTLEVITATER_1536_00_164: 4437334457390062556
+      PLANTLEVITATER_1536_00_165: 1450589261145277564
+      PLANTLEVITATER_1536_00_166: 6241863566809778982
+      PLANTLEVITATER_1536_00_167: -8974438381147554708
+      PLANTLEVITATER_1536_00_168: 5749874019464333410
+      PLANTLEVITATER_1536_00_169: -6749848468090500322
+      PLANTLEVITATER_1536_00_17: 5955968314734125003
+      PLANTLEVITATER_1536_00_170: -5530279481676557514
+      PLANTLEVITATER_1536_00_18: 885010413999105334
+      PLANTLEVITATER_1536_00_19: 236603517005842779
+      PLANTLEVITATER_1536_00_2: 6450399080328263585
+      PLANTLEVITATER_1536_00_20: 1671667730671116778
+      PLANTLEVITATER_1536_00_21: -5555520903916006734
+      PLANTLEVITATER_1536_00_22: -4660935959444566529
+      PLANTLEVITATER_1536_00_23: -5308867530679321005
+      PLANTLEVITATER_1536_00_24: 8897140464080788138
+      PLANTLEVITATER_1536_00_25: -2747718952413937612
+      PLANTLEVITATER_1536_00_26: 3181751691352857026
+      PLANTLEVITATER_1536_00_27: 668427881919195762
+      PLANTLEVITATER_1536_00_28: 565458362156409744
+      PLANTLEVITATER_1536_00_29: -3791440177681722798
+      PLANTLEVITATER_1536_00_3: 7478971964237409751
+      PLANTLEVITATER_1536_00_30: 8297913043561798302
+      PLANTLEVITATER_1536_00_31: -4322124602187156648
+      PLANTLEVITATER_1536_00_32: -8478723216989364331
+      PLANTLEVITATER_1536_00_33: 9008133841500855159
+      PLANTLEVITATER_1536_00_34: -1150469435156830645
+      PLANTLEVITATER_1536_00_35: 2842482856976877587
+      PLANTLEVITATER_1536_00_36: -6165526428129804258
+      PLANTLEVITATER_1536_00_37: 7036861935774104169
+      PLANTLEVITATER_1536_00_38: -8488057640323756495
+      PLANTLEVITATER_1536_00_39: 5803645034918584839
+      PLANTLEVITATER_1536_00_4: 8478952160457209796
+      PLANTLEVITATER_1536_00_40: -1795525833879517288
+      PLANTLEVITATER_1536_00_41: -6107205403446467068
+      PLANTLEVITATER_1536_00_42: 8841846608588599697
+      PLANTLEVITATER_1536_00_43: 8933168109650622666
+      PLANTLEVITATER_1536_00_44: 4251117339794963173
+      PLANTLEVITATER_1536_00_45: -2253184108840938049
+      PLANTLEVITATER_1536_00_46: 561701017933247709
+      PLANTLEVITATER_1536_00_47: -1062509018848477453
+      PLANTLEVITATER_1536_00_48: 1138014284261237494
+      PLANTLEVITATER_1536_00_49: 5585286421162258000
+      PLANTLEVITATER_1536_00_5: 5615437507596399999
+      PLANTLEVITATER_1536_00_50: 8552020078308912494
+      PLANTLEVITATER_1536_00_51: -6435940263232418437
+      PLANTLEVITATER_1536_00_52: -8918764281003595613
+      PLANTLEVITATER_1536_00_53: 1130941023455377912
+      PLANTLEVITATER_1536_00_54: -5230570450847467998
+      PLANTLEVITATER_1536_00_55: 6115456765887005271
+      PLANTLEVITATER_1536_00_56: -2514980503012287846
+      PLANTLEVITATER_1536_00_57: 85601641918648745
+      PLANTLEVITATER_1536_00_58: 3648016336415777736
+      PLANTLEVITATER_1536_00_59: -734135177184428159
+      PLANTLEVITATER_1536_00_6: -551075444920509430
+      PLANTLEVITATER_1536_00_60: 1058282672054000613
+      PLANTLEVITATER_1536_00_61: -5753399990834085978
+      PLANTLEVITATER_1536_00_62: 2388332287876157880
+      PLANTLEVITATER_1536_00_63: 6223421854467132109
+      PLANTLEVITATER_1536_00_64: -8356100695837323650
+      PLANTLEVITATER_1536_00_65: 7600822106329904436
+      PLANTLEVITATER_1536_00_66: -5730789013642755009
+      PLANTLEVITATER_1536_00_67: 8561847520146771931
+      PLANTLEVITATER_1536_00_68: 7455188713342932338
+      PLANTLEVITATER_1536_00_69: -1356554914667161550
+      PLANTLEVITATER_1536_00_7: -1029928868235903459
+      PLANTLEVITATER_1536_00_70: -4238089840987380121
+      PLANTLEVITATER_1536_00_71: 2642796426435676280
+      PLANTLEVITATER_1536_00_72: -6804649206902723525
+      PLANTLEVITATER_1536_00_73: -6223556661204390520
+      PLANTLEVITATER_1536_00_74: 9024665167476644324
+      PLANTLEVITATER_1536_00_75: -5796966083913407641
+      PLANTLEVITATER_1536_00_76: -1690794056636095410
+      PLANTLEVITATER_1536_00_77: 5489001726762503452
+      PLANTLEVITATER_1536_00_78: 4205678140694484879
+      PLANTLEVITATER_1536_00_79: 6633530987461709722
+      PLANTLEVITATER_1536_00_8: -6883011149990141268
+      PLANTLEVITATER_1536_00_80: 9170043609589152742
+      PLANTLEVITATER_1536_00_81: 2764124494656566859
+      PLANTLEVITATER_1536_00_82: -4648990746061335252
+      PLANTLEVITATER_1536_00_83: 938117125695737551
+      PLANTLEVITATER_1536_00_84: 4103563848797886202
+      PLANTLEVITATER_1536_00_85: 5681037454865116867
+      PLANTLEVITATER_1536_00_86: -6920154229513232551
+      PLANTLEVITATER_1536_00_87: 8900156268004540217
+      PLANTLEVITATER_1536_00_88: -8374345836632503869
+      PLANTLEVITATER_1536_00_89: -5155610598683657691
+      PLANTLEVITATER_1536_00_9: 5131037342013247672
+      PLANTLEVITATER_1536_00_90: 8973472959869778079
+      PLANTLEVITATER_1536_00_91: 1160469352760576018
+      PLANTLEVITATER_1536_00_92: 655904604501415059
+      PLANTLEVITATER_1536_00_93: 6502739145119694484
+      PLANTLEVITATER_1536_00_94: 7759141575196350042
+      PLANTLEVITATER_1536_00_95: -784000308096212417
+      PLANTLEVITATER_1536_00_96: -6954561362075379491
+      PLANTLEVITATER_1536_00_97: 1135202934321338646
+      PLANTLEVITATER_1536_00_98: 7909073774577356009
+      PLANTLEVITATER_1536_00_99: -432410273980002262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 49af08baf58b04c49bfc9e01f7ea7633
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4516133054029856060
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_0
+  - first:
+      213: -7041388876676292231
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_1
+  - first:
+      213: -6766159562806338243
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_2
+  - first:
+      213: 7133754501586553584
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_3
+  - first:
+      213: -8963112377300473484
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_4
+  - first:
+      213: 2387436439705726612
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_5
+  - first:
+      213: -6128993584363186940
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_6
+  - first:
+      213: 2836462207748064293
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_7
+  - first:
+      213: 7267589319340948063
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_8
+  - first:
+      213: -5310350109190338211
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_9
+  - first:
+      213: 769527220724424271
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_10
+  - first:
+      213: -711367502035861110
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_11
+  - first:
+      213: -3706347583750989526
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_12
+  - first:
+      213: 65370010842354689
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_13
+  - first:
+      213: -5920547471749496114
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_14
+  - first:
+      213: -6840801193332124170
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_15
+  - first:
+      213: -2807514220085737917
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_16
+  - first:
+      213: -7676182634525326755
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_17
+  - first:
+      213: 6244858644761855709
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_18
+  - first:
+      213: -2438945860499843300
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_19
+  - first:
+      213: 197562218710783723
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_20
+  - first:
+      213: -7410078368002283638
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_21
+  - first:
+      213: -4338809059921241975
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_22
+  - first:
+      213: -5926612036039821581
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_23
+  - first:
+      213: 3364765516629772172
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_24
+  - first:
+      213: -2880327183392483006
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_25
+  - first:
+      213: -588913600464254690
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_26
+  - first:
+      213: -2755706598215717809
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_27
+  - first:
+      213: 4302899525372028235
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_28
+  - first:
+      213: 1627926005824509016
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_29
+  - first:
+      213: -6653998110249333819
+    second: ATLASES_PLANTHOTPOTATO_1536_00_PTX_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 188
+        width: 258
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d79dbc5178cae30800000000000000
+      internalID: 4516133054029856060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 165
+        width: 144
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971a250af16f74e90800000000000000
+      internalID: -7041388876676292231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 235
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dd05de9b5c912a0800000000000000
+      internalID: -6766159562806338243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 240
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa09e54cef200360800000000000000
+      internalID: 7133754501586553584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 253
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479291d08c0ac9380800000000000000
+      internalID: -8963112377300473484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eab70fac0e12120800000000000000
+      internalID: 2387436439705726612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 207
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405526dcec071faa0800000000000000
+      internalID: -6128993584363186940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 217
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524c4a789532d5720800000000000000
+      internalID: 2836462207748064293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 216
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a7db80bf9abd460800000000000000
+      internalID: 7267589319340948063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 208
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59c0cc06b8dd46b0800000000000000
+      internalID: -5310350109190338211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 219
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed54c1ee8edaa00800000000000000
+      internalID: 769527220724424271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 188
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a814560a607b026f0800000000000000
+      internalID: -711367502035861110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 191
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2915687288609cc0800000000000000
+      internalID: -3706347583750989526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 188
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104d833bdad38e000800000000000000
+      internalID: 65370010842354689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 189
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2c88e517df5dda0800000000000000
+      internalID: -5920547471749496114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 83
+        width: 143
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5de5c0f879011a0800000000000000
+      internalID: -6840801193332124170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 172
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3468ee111b4b909d0800000000000000
+      internalID: -2807514220085737917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 171
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5288166098b87590800000000000000
+      internalID: -7676182634525326755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 172
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6ce89c9d13aa650800000000000000
+      internalID: 6244858644761855709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 176
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c175f7679af172ed0800000000000000
+      internalID: -2438945860499843300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 168
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be65b4b8ac1edb200800000000000000
+      internalID: 197562218710783723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 170
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87ea6d0cfc1a2990800000000000000
+      internalID: -7410078368002283638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 170
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988d523e52479c3c0800000000000000
+      internalID: -4338809059921241975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 173
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6ba46f0c170cda0800000000000000
+      internalID: -5926612036039821581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 66
+        width: 128
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87833bf86c02be20800000000000000
+      internalID: 3364765516629772172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 78
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2495df4ffa50708d0800000000000000
+      internalID: -2880327183392483006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 154
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e198ee85332c3d7f0800000000000000
+      internalID: -588913600464254690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 154
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ce6240373c1c9d0800000000000000
+      internalID: -2755706598215717809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 153
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b452ff11258f6bb30800000000000000
+      internalID: 4302899525372028235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 122
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8545ac1c31e879610800000000000000
+      internalID: 1627926005824509016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTHOTPOTATO_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 11
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbc77e19ff38a3a0800000000000000
+      internalID: -6653998110249333819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_0: 4516133054029856060
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_1: -7041388876676292231
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_10: 769527220724424271
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_11: -711367502035861110
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_12: -3706347583750989526
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_13: 65370010842354689
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_14: -5920547471749496114
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_15: -6840801193332124170
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_16: -2807514220085737917
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_17: -7676182634525326755
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_18: 6244858644761855709
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_19: -2438945860499843300
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_2: -6766159562806338243
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_20: 197562218710783723
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_21: -7410078368002283638
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_22: -4338809059921241975
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_23: -5926612036039821581
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_24: 3364765516629772172
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_25: -2880327183392483006
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_26: -588913600464254690
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_27: -2755706598215717809
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_28: 4302899525372028235
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_29: 1627926005824509016
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_3: 7133754501586553584
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_30: -6653998110249333819
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_4: -8963112377300473484
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_5: 2387436439705726612
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_6: -6128993584363186940
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_7: 2836462207748064293
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_8: 7267589319340948063
+      ATLASES_PLANTHOTPOTATO_1536_00_PTX_9: -5310350109190338211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

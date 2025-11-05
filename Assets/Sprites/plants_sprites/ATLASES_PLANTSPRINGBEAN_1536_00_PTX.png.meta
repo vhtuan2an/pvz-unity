@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 95c4c0b720e65c24895701fd81266544
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2305794823758376060
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_0
+  - first:
+      213: -1394585819467291442
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_1
+  - first:
+      213: 568454692301796217
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_2
+  - first:
+      213: 5382687868977315099
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_3
+  - first:
+      213: 4953175339412289366
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_4
+  - first:
+      213: -1851405327767305792
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_5
+  - first:
+      213: -3971331677006853076
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_6
+  - first:
+      213: 2318060603940916054
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_7
+  - first:
+      213: 8379236704173399710
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_8
+  - first:
+      213: -9106656507236194834
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_9
+  - first:
+      213: -3827889972576667260
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_10
+  - first:
+      213: -6739179803581133100
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_11
+  - first:
+      213: 4700125337950216876
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_12
+  - first:
+      213: -2598171781464501262
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_13
+  - first:
+      213: 1091273495479219572
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_14
+  - first:
+      213: -6617367977544040351
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_15
+  - first:
+      213: -1028619460245795567
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_16
+  - first:
+      213: 8062710597412071225
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_17
+  - first:
+      213: 379938087100944516
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_18
+  - first:
+      213: 3164373848838911173
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_19
+  - first:
+      213: 3611503626797492356
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_20
+  - first:
+      213: -6362416765248655782
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_21
+  - first:
+      213: -6915285699517021678
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_22
+  - first:
+      213: -2965216057594300023
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_23
+  - first:
+      213: 2058101608673162831
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_24
+  - first:
+      213: 2071354944882237364
+    second: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 221
+        width: 88
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c6d03fc24dfff10800000000000000
+      internalID: 2305794823758376060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 416
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4ead5069f65ace0800000000000000
+      internalID: -1394585819467291442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 275
+        width: 342
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9737d85e78e83e700800000000000000
+      internalID: 568454692301796217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 188
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d723f191623ba40800000000000000
+      internalID: 5382687868977315099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 114
+        width: 107
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657f4e76ab63db440800000000000000
+      internalID: 4953175339412289366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 214
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c10a2fd9ac7e46e0800000000000000
+      internalID: -1851405327767305792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 91
+        width: 166
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c00ca71eef2e8c0800000000000000
+      internalID: -3971331677006853076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 34
+        width: 116
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bc9b176d76b2020800000000000000
+      internalID: 2318060603940916054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 79
+        width: 107
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9b292367094470800000000000000
+      internalID: 8379236704173399710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 105
+        width: 83
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5efa2e728ae9180800000000000000
+      internalID: -9106656507236194834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 84
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489b949d95a90eac0800000000000000
+      internalID: -3827889972576667260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 69
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de4f02acaf9972a0800000000000000
+      internalID: -6739179803581133100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 50
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2e550b7133a3140800000000000000
+      internalID: 4700125337950216876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 87
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f35d5cc78071fbd0800000000000000
+      internalID: -2598171781464501262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47576da567bf42f00800000000000000
+      internalID: 1091273495479219572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 12
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160417e72e26a24a0800000000000000
+      internalID: -6617367977544040351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 13
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dcefefc0c99b1f0800000000000000
+      internalID: -1028619460245795567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 13
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937268df19084ef60800000000000000
+      internalID: 8062710597412071225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 32
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4801b4e5dafc54500800000000000000
+      internalID: 379938087100944516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 41
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4349cff3d1aeb20800000000000000
+      internalID: 3164373848838911173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 9
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488ac4cf963ae1230800000000000000
+      internalID: 3611503626797492356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 16
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e2d5a59a724b7a0800000000000000
+      internalID: -6362416765248655782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 16
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21203f78b48f700a0800000000000000
+      internalID: -6915285699517021678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989beccb4bf69d6d0800000000000000
+      internalID: -2965216057594300023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46bf904288df8c10800000000000000
+      internalID: 2058101608673162831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPRINGBEAN_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 11
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf547d095eeebc10800000000000000
+      internalID: 2071354944882237364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_0: 2305794823758376060
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_1: -1394585819467291442
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_10: -3827889972576667260
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_11: -6739179803581133100
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_12: 4700125337950216876
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_13: -2598171781464501262
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_14: 1091273495479219572
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_15: -6617367977544040351
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_16: -1028619460245795567
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_17: 8062710597412071225
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_18: 379938087100944516
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_19: 3164373848838911173
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_2: 568454692301796217
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_20: 3611503626797492356
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_21: -6362416765248655782
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_22: -6915285699517021678
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_23: -2965216057594300023
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_24: 2058101608673162831
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_25: 2071354944882237364
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_3: 5382687868977315099
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_4: 4953175339412289366
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_5: -1851405327767305792
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_6: -3971331677006853076
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_7: 2318060603940916054
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_8: 8379236704173399710
+      ATLASES_PLANTSPRINGBEAN_1536_00_PTX_9: -9106656507236194834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 58bb1eae9bb18664f99b8236d7da5cec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2662849815405333762
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_0
+  - first:
+      213: 7650629803906713411
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_1
+  - first:
+      213: -2371783822432891686
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_2
+  - first:
+      213: -6045130553436474355
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_3
+  - first:
+      213: -4138928746238554836
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_4
+  - first:
+      213: 2496906488255477432
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_5
+  - first:
+      213: 3504855764366943067
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_6
+  - first:
+      213: 2373733538745449200
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_7
+  - first:
+      213: 5909731974056293265
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_8
+  - first:
+      213: -162422868547002553
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_9
+  - first:
+      213: -5383622807032462424
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_10
+  - first:
+      213: 1791401100119790950
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_11
+  - first:
+      213: -1553158035185021309
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_12
+  - first:
+      213: -795231794219781433
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_13
+  - first:
+      213: -425563829052043290
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_14
+  - first:
+      213: 3199105117340610630
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_15
+  - first:
+      213: 4451508219576197968
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_16
+  - first:
+      213: -2130670486590152681
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_17
+  - first:
+      213: 1821751119803585614
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_18
+  - first:
+      213: 7236340826811066973
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_19
+  - first:
+      213: -8177951283641540491
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_20
+  - first:
+      213: 1165533851418223139
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_21
+  - first:
+      213: 6635923276631597546
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_22
+  - first:
+      213: -2634475976486501911
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_23
+  - first:
+      213: -3741568303337856481
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_24
+  - first:
+      213: -4534902620699838985
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_25
+  - first:
+      213: -4499447182010748609
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_26
+  - first:
+      213: 8160730583446639064
+    second: ATLASES_PLANTSUNFLOWER_1536_00_PTX_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 327
+        width: 159
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2fc868338ab0bd0800000000000000
+      internalID: -2662849815405333762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 417
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34740e9954f7c2a60800000000000000
+      internalID: 7650629803906713411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 370
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc8ed30e2bb51fd0800000000000000
+      internalID: -2371783822432891686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 355
+        width: 23
+        height: 59
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04fe854ac16b1ca0800000000000000
+      internalID: -6045130553436474355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 323
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d4cc9fb329f86c0800000000000000
+      internalID: -4138928746238554836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 332
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6f5ddc83bc6a220800000000000000
+      internalID: 2496906488255477432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 206
+        width: 135
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5362188fbfb3a030800000000000000
+      internalID: 3504855764366943067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 230
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa7a50b31231f020800000000000000
+      internalID: 2373733538745449200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 301
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193b4675be5930250800000000000000
+      internalID: 5909731974056293265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 280
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f1bd8f245febdf0800000000000000
+      internalID: -162422868547002553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 257
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a38326a4978945b0800000000000000
+      internalID: -5383622807032462424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 242
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66552ee2fc55cd810800000000000000
+      internalID: 1791401100119790950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 228
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ec0c8fef2127ae0800000000000000
+      internalID: -1553158035185021309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 149
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2fe6f75e4c6f4f0800000000000000
+      internalID: -795231794219781433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 214
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef0914c3f7181af0800000000000000
+      internalID: -425563829052043290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 122
+        width: 119
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640b8369721856c20800000000000000
+      internalID: 3199105117340610630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 69
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053229ef32fe6cd30800000000000000
+      internalID: 4451508219576197968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 126
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710a2613b765e62e0800000000000000
+      internalID: -2130670486590152681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 106
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44101dcdf8284910800000000000000
+      internalID: 1821751119803585614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 108
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5aeab764a5ac6460800000000000000
+      internalID: 7236340826811066973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 92
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570a81cd2a4128e80800000000000000
+      internalID: -8177951283641540491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 30
+        width: 102
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322e973dcdecc2010800000000000000
+      internalID: 1165533851418223139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 23
+        width: 89
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae16f5cbf09871c50800000000000000
+      internalID: 6635923276631597546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 40
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1c834be06707bd0800000000000000
+      internalID: -2634475976486501911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 69
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12afa8a377431cc0800000000000000
+      internalID: -3741568303337856481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2
+        width: 69
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5b23ae71ac011c0800000000000000
+      internalID: -4534902620699838985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31fd9680a0ce81c0800000000000000
+      internalID: -4499447182010748609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSUNFLOWER_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 13
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1d00e6a3db04170800000000000000
+      internalID: 8160730583446639064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6d02fe7466d28104083054301d943dc0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_0: -2662849815405333762
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_1: 7650629803906713411
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_10: -5383622807032462424
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_11: 1791401100119790950
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_12: -1553158035185021309
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_13: -795231794219781433
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_14: -425563829052043290
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_15: 3199105117340610630
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_16: 4451508219576197968
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_17: -2130670486590152681
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_18: 1821751119803585614
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_19: 7236340826811066973
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_2: -2371783822432891686
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_20: -8177951283641540491
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_21: 1165533851418223139
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_22: 6635923276631597546
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_23: -2634475976486501911
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_24: -3741568303337856481
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_25: -4534902620699838985
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_26: -4499447182010748609
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_27: 8160730583446639064
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_3: -6045130553436474355
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_4: -4138928746238554836
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_5: 2496906488255477432
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_6: 3504855764366943067
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_7: 2373733538745449200
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_8: 5909731974056293265
+      ATLASES_PLANTSUNFLOWER_1536_00_PTX_9: -162422868547002553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

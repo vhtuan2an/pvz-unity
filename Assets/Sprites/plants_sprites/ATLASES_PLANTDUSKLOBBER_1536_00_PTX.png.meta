@@ -1,0 +1,4563 @@
+fileFormatVersion: 2
+guid: 2abf235e15af80b4e9c09a257316aa05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2270204164433220275
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_0
+  - first:
+      213: 789268613950561436
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_1
+  - first:
+      213: -8545905127666268765
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_2
+  - first:
+      213: -181380353609688157
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_3
+  - first:
+      213: -702045343384437796
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_4
+  - first:
+      213: 1932569726490701949
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_5
+  - first:
+      213: 8710230066900000966
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_6
+  - first:
+      213: -1964140368016260406
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_7
+  - first:
+      213: -1664348557139992162
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_8
+  - first:
+      213: -4081707331460309581
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_9
+  - first:
+      213: -7322205957331451222
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_10
+  - first:
+      213: 6744851294957614813
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_11
+  - first:
+      213: -7120527120646993300
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_12
+  - first:
+      213: 6587226335304071533
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_13
+  - first:
+      213: 8563170092332282846
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_14
+  - first:
+      213: -970700867040457866
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_15
+  - first:
+      213: -927785900189242904
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_16
+  - first:
+      213: 7855177337021783198
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_17
+  - first:
+      213: -1183873119615197032
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_18
+  - first:
+      213: -2314236578466866011
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_19
+  - first:
+      213: 8274460203275850318
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_20
+  - first:
+      213: 1541142175896750011
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_21
+  - first:
+      213: 1164712404174132224
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_22
+  - first:
+      213: -2938182989187426066
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_23
+  - first:
+      213: -3367277960483991868
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_24
+  - first:
+      213: 2838278691484790193
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_25
+  - first:
+      213: -970904669163065352
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_26
+  - first:
+      213: -7482455633852216410
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_27
+  - first:
+      213: 5510053494573726677
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_28
+  - first:
+      213: -6464541031916867219
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_29
+  - first:
+      213: -4901902276075060259
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_30
+  - first:
+      213: 9109949528364056944
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_31
+  - first:
+      213: 1099162973346378322
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_32
+  - first:
+      213: -2933963380160737492
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_33
+  - first:
+      213: -969733494685988723
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_34
+  - first:
+      213: -794659308490352914
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_35
+  - first:
+      213: -5173853563432961493
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_36
+  - first:
+      213: -5747281128468490740
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_37
+  - first:
+      213: -6798819608224132663
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_38
+  - first:
+      213: -4123060196452806904
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_39
+  - first:
+      213: -857429082376892690
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_40
+  - first:
+      213: 922014249803213135
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_41
+  - first:
+      213: 4565537187085914574
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_42
+  - first:
+      213: 1771527380853956933
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_43
+  - first:
+      213: 8826914996519444755
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_44
+  - first:
+      213: 4468020555088091324
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_45
+  - first:
+      213: 6718896426217236286
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_46
+  - first:
+      213: -653957669187290205
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_47
+  - first:
+      213: 8157614918439591175
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_48
+  - first:
+      213: 6529738220410909783
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_49
+  - first:
+      213: -2353129002452732703
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_50
+  - first:
+      213: -8896623091049275127
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_51
+  - first:
+      213: 585075697197682758
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_52
+  - first:
+      213: -4541297317111405812
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_53
+  - first:
+      213: 3954186380226125461
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_54
+  - first:
+      213: -1199840619497380786
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_55
+  - first:
+      213: 3551400288127583689
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_56
+  - first:
+      213: -5853419497438985228
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_57
+  - first:
+      213: 2119204124036074008
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_58
+  - first:
+      213: 2240069520205710251
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_59
+  - first:
+      213: 6585565264376027675
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_60
+  - first:
+      213: -1323705481573278185
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_61
+  - first:
+      213: -4500116496360198546
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_62
+  - first:
+      213: 3521917289339463625
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_63
+  - first:
+      213: -5945369512746329604
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_64
+  - first:
+      213: 3596766637627884779
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_65
+  - first:
+      213: -6043247641059095121
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_66
+  - first:
+      213: 2291725774773937808
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_67
+  - first:
+      213: -4744792415592017324
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_68
+  - first:
+      213: 140303263844257903
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_69
+  - first:
+      213: 7268666403358212947
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_70
+  - first:
+      213: -7699619274123360739
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_71
+  - first:
+      213: 6079114380549434986
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_72
+  - first:
+      213: 7841102349160574809
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_73
+  - first:
+      213: 8397276282037078172
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_74
+  - first:
+      213: 5272881593826103138
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_75
+  - first:
+      213: -4249971453791496629
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_76
+  - first:
+      213: 91870385257530640
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_77
+  - first:
+      213: -5775084084696189143
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_78
+  - first:
+      213: 8937544817216115020
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_79
+  - first:
+      213: 8171390937088221503
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_80
+  - first:
+      213: -3527133584104934583
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_81
+  - first:
+      213: 1803648527948110161
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_82
+  - first:
+      213: 5616720178375929115
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_83
+  - first:
+      213: 3095419207646642061
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_84
+  - first:
+      213: -8269440104322541381
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_85
+  - first:
+      213: -3362263720381355793
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_86
+  - first:
+      213: -1893853822736219879
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_87
+  - first:
+      213: -3110354401633774601
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_88
+  - first:
+      213: -915655288069936822
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_89
+  - first:
+      213: -4760754392281951881
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_90
+  - first:
+      213: 7700361224188191896
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_91
+  - first:
+      213: 5811502083018211763
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_92
+  - first:
+      213: -4419773288197223414
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_93
+  - first:
+      213: -6679154978730710899
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_94
+  - first:
+      213: -844899325113440332
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_95
+  - first:
+      213: 8999711553927726353
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_96
+  - first:
+      213: 3441144280263656355
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_97
+  - first:
+      213: 8036942032933030118
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_98
+  - first:
+      213: -4161990273151409533
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_99
+  - first:
+      213: 33815823211010310
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_100
+  - first:
+      213: 8074139000424594980
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_101
+  - first:
+      213: -2504624621466237509
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_102
+  - first:
+      213: -203627272471017374
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_103
+  - first:
+      213: -1913201870198023887
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_104
+  - first:
+      213: -2273776567815099961
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_105
+  - first:
+      213: 3854648197255226373
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_106
+  - first:
+      213: 8180092420556605268
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_107
+  - first:
+      213: -177294074594958994
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_108
+  - first:
+      213: -4093189235101109236
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_109
+  - first:
+      213: 3253523573362122348
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_110
+  - first:
+      213: -4524940263596922748
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_111
+  - first:
+      213: -8151666945739649737
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_112
+  - first:
+      213: -8234741707897799424
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_113
+  - first:
+      213: 4506263896692308294
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_114
+  - first:
+      213: 7024724020880432149
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_115
+  - first:
+      213: 3973425848382096402
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_116
+  - first:
+      213: 4693645887951015718
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_117
+  - first:
+      213: -2761996453377835584
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_118
+  - first:
+      213: -1594341548030208185
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_119
+  - first:
+      213: -3006166258966142354
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_120
+  - first:
+      213: -3028315219305949896
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_121
+  - first:
+      213: -633645550596300456
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_122
+  - first:
+      213: 7676125510362274380
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_123
+  - first:
+      213: -4173724263868828706
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_124
+  - first:
+      213: 8288217325186388178
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_125
+  - first:
+      213: -7576338613604570262
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_126
+  - first:
+      213: 3714435205276633196
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_127
+  - first:
+      213: 4462131116979399407
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_128
+  - first:
+      213: -9060439216830609278
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_129
+  - first:
+      213: 5815679436511090041
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_130
+  - first:
+      213: 6235833637741730537
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_131
+  - first:
+      213: 5814129662591146700
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_132
+  - first:
+      213: -4869362124823297804
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_133
+  - first:
+      213: 6717729358604023416
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_134
+  - first:
+      213: -7174780017603390049
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_135
+  - first:
+      213: -5208997733593089798
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_136
+  - first:
+      213: -350615946231967637
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_137
+  - first:
+      213: 1687117618038066743
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_138
+  - first:
+      213: -7473944229343861366
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_139
+  - first:
+      213: 4091272320500957841
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_140
+  - first:
+      213: -392165161267537545
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_141
+  - first:
+      213: -1159182234300977250
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_142
+  - first:
+      213: 1306698755857553253
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_143
+  - first:
+      213: 6447633772019766234
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_144
+  - first:
+      213: 3316238156181668319
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_145
+  - first:
+      213: 7299470826576338552
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_146
+  - first:
+      213: -22540322458674335
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_147
+  - first:
+      213: -3016668264013585154
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_148
+  - first:
+      213: 1157859876156426472
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_149
+  - first:
+      213: 4520858357842517340
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_150
+  - first:
+      213: 6075659903028151038
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_151
+  - first:
+      213: 3559827159846601146
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_152
+  - first:
+      213: 7092941285659772036
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_153
+  - first:
+      213: 318696536268790051
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_154
+  - first:
+      213: -2590983593275880006
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_155
+  - first:
+      213: 1359309902731650484
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_156
+  - first:
+      213: -856544396033055703
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_157
+  - first:
+      213: -552005785288640882
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_158
+  - first:
+      213: -2947538878293785944
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_159
+  - first:
+      213: -8711643801993113990
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_160
+  - first:
+      213: 3277042105567742701
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_161
+  - first:
+      213: 694054200265323265
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_162
+  - first:
+      213: 6270181908807491497
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_163
+  - first:
+      213: 560477593646478448
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_164
+  - first:
+      213: -6193781684950740355
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_165
+  - first:
+      213: 876129067369780207
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_166
+  - first:
+      213: -321875573839908925
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_167
+  - first:
+      213: 3090665600289404243
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_168
+  - first:
+      213: 1277273567757743690
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_169
+  - first:
+      213: -2535167180763146234
+    second: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_170
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1476
+        width: 397
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b297a4d8a2618f10800000000000000
+      internalID: 2270204164433220275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1552
+        width: 412
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c53e66f9b04fa00800000000000000
+      internalID: 789268613950561436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1572
+        width: 109
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a543458098d66980800000000000000
+      internalID: -8545905127666268765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1758
+        width: 13
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab1cd5878b9b7df0800000000000000
+      internalID: -181380353609688157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1673
+        width: 7
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb7a53da75d146f0800000000000000
+      internalID: -702045343384437796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1641
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70f6235dedd1da10800000000000000
+      internalID: 1932569726490701949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1609
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c06089d814f0e870800000000000000
+      internalID: 8710230066900000966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1580
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2c263edb8fdb4e0800000000000000
+      internalID: -1964140368016260406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1561
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91ac3d2ecb07e8e0800000000000000
+      internalID: -1664348557139992162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1496
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd533fceccda57c0800000000000000
+      internalID: -4081707331460309581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1522
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2820df97c426a90800000000000000
+      internalID: -7322205957331451222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1484
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd638ca54868a9d50800000000000000
+      internalID: 6744851294957614813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1117
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a0d485f4ece2d90800000000000000
+      internalID: -7120527120646993300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1396
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69b5ea83778a6b50800000000000000
+      internalID: 6587226335304071533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1184
+        width: 365
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3f6b054dd76d670800000000000000
+      internalID: 8563170092332282846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1315
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bc3e454b06782f0800000000000000
+      internalID: -970700867040457866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1299
+        width: 20
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9aa9fa3a7df13f0800000000000000
+      internalID: -927785900189242904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1355
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cd1e46b22330d60800000000000000
+      internalID: 7855177337021783198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1330
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890e33e8ba9029fe0800000000000000
+      internalID: -1183873119615197032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1305
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac544ed71e22efd0800000000000000
+      internalID: -2314236578466866011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1255
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e421d5407b9c4d270800000000000000
+      internalID: 8274460203275850318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1197
+        width: 20
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7c2b6c4ac336510800000000000000
+      internalID: 1541142175896750011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1281
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0045a4cb2c3e92010800000000000000
+      internalID: 1164712404174132224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1177
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee85364732a7937d0800000000000000
+      internalID: -2938182989187426066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1257
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce895919860541d0800000000000000
+      internalID: -3367277960483991868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1228
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bde28b9e67936720800000000000000
+      internalID: 2838278691484790193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1195
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff64c3f857a682f0800000000000000
+      internalID: -970904669163065352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1204
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab4e98ae3af82890800000000000000
+      internalID: -7482455633852216410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1146
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db7775b574a77c40800000000000000
+      internalID: 5510053494573726677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1128
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6178ac9e265946a0800000000000000
+      internalID: -6464541031916867219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1134
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd30edee9d1f8fbb0800000000000000
+      internalID: -4901902276075060259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1134
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07180e754da0d6e70800000000000000
+      internalID: 9109949528364056944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1135
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252b29096e2014f00800000000000000
+      internalID: 1099162973346378322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_33
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1135
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fc38db9d77847d0800000000000000
+      internalID: -2933963380160737492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_34
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1125
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8881724680da82f0800000000000000
+      internalID: -969733494685988723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1126
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee699f7b19dc8f4f0800000000000000
+      internalID: -794659308490352914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 847
+        width: 244
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a70b7a897c238b0800000000000000
+      internalID: -5173853563432961493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 994
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c065459934e8d30b0800000000000000
+      internalID: -5747281128468490740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_38
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 964
+        width: 356
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c117d7869db5a1a0800000000000000
+      internalID: -6798819608224132663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_39
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 855
+        width: 244
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fc0e2a892f7c6c0800000000000000
+      internalID: -4123060196452806904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_40
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 941
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee06dcdaccc914f0800000000000000
+      internalID: -857429082376892690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_41
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 968
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f496e5d3317abcc00800000000000000
+      internalID: 922014249803213135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_42
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 943
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec19715e1eb0c5f30800000000000000
+      internalID: 4565537187085914574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_43
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 711
+        width: 240
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541ada554cab59810800000000000000
+      internalID: 1771527380853956933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_44
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 718
+        width: 208
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3112c1e1c608f7a70800000000000000
+      internalID: 8826914996519444755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_45
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 894
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb85b23b509910e30800000000000000
+      internalID: 4468020555088091324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_46
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 865
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37e15f83b05e3d50800000000000000
+      internalID: 6718896426217236286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 599
+        width: 79
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abf2f5f6fcace6f0800000000000000
+      internalID: -653957669187290205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_48
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 599
+        width: 79
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dd4042c8ba53170800000000000000
+      internalID: 8157614918439591175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_49
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 744
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75432efb05a4e9a50800000000000000
+      internalID: 6529738220410909783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_50
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 795
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4b222c3a1085fd0800000000000000
+      internalID: -2353129002452732703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_51
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 717
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901687d5f68d88480800000000000000
+      internalID: -8896623091049275127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_52
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 569
+        width: 46
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6409e2a2f3b9e1800800000000000000
+      internalID: 585075697197682758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_53
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 717
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03e322a6221af0c0800000000000000
+      internalID: -4541297317111405812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 719
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ed019009710e630800000000000000
+      internalID: 3954186380226125461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_55
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 735
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4426c7405f495fe0800000000000000
+      internalID: -1199840619497380786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_56
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 710
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c58015febb194130800000000000000
+      internalID: 3551400288127583689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_57
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 711
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3cdc5daf974cea0800000000000000
+      internalID: -5853419497438985228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 573
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a86bb3cece86d10800000000000000
+      internalID: 2119204124036074008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_59
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 661
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba38a083c53561f10800000000000000
+      internalID: 2240069520205710251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_60
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 695
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ad84457b0a46b50800000000000000
+      internalID: 6585565264376027675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_61
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 592
+        width: 280
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e5697b0e041ade0800000000000000
+      internalID: -1323705481573278185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_62
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 574
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e2392a3ef5c81c0800000000000000
+      internalID: -4500116496360198546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_63
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 677
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7a26f5d1d50e030800000000000000
+      internalID: 3521917289339463625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 460
+        width: 79
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf951569dedcd7da0800000000000000
+      internalID: -5945369512746329604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_65
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 642
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be449cf43384ae130800000000000000
+      internalID: 3596766637627884779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_66
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 646
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad84f8f942122ca0800000000000000
+      internalID: -6043247641059095121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_67
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 648
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096e1083378ddcf10800000000000000
+      internalID: 2291725774773937808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_68
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 597
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4529bafdf6c172eb0800000000000000
+      internalID: -4744792415592017324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_69
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 627
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60d34a331572f100800000000000000
+      internalID: 140303263844257903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_70
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3538bf2359d7fd460800000000000000
+      internalID: 7268666403358212947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_71
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 606
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1640248015752590800000000000000
+      internalID: -7699619274123360739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 494
+        width: 131
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e2e91125a5d5450800000000000000
+      internalID: 6079114380549434986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f6239ea0131dc60800000000000000
+      internalID: 7841102349160574809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_74
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 586
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9802afa94e198470800000000000000
+      internalID: 8397276282037078172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 553
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f43b66fd90d2940800000000000000
+      internalID: 5272881593826103138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_76
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 511
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b461537ea711505c0800000000000000
+      internalID: -4249971453791496629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_77
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 463
+        width: 125
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01547aee0a3664100800000000000000
+      internalID: 91870385257530640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_78
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 496
+        width: 188
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927fba76f97cadfa0800000000000000
+      internalID: -5775084084696189143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_79
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 566
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41dc4a78a9880c70800000000000000
+      internalID: 8937544817216115020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_80
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 567
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f316dfd63cc966170800000000000000
+      internalID: 8171390937088221503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_81
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 566
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943331c51ba1d0fc0800000000000000
+      internalID: -3527133584104934583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 533
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159d000b7c8d70910800000000000000
+      internalID: 1803648527948110161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_83
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 350
+        width: 72
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dadda5e3992fd40800000000000000
+      internalID: 5616720178375929115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_84
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 462
+        width: 128
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff2be7e5325fa20800000000000000
+      internalID: 3095419207646642061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_85
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 444
+        width: 144
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb85c7ad90c0d3d80800000000000000
+      internalID: -8269440104322541381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_86
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 513
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe86c79d5f6d651d0800000000000000
+      internalID: -3362263720381355793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_87
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 488
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911ca477bfda7b5e0800000000000000
+      internalID: -1893853822736219879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 493
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3db0da62dc5d4d0800000000000000
+      internalID: -3110354401633774601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_89
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 465
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4922e9ed50fa43f0800000000000000
+      internalID: -915655288069936822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 476
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77157219a176eedb0800000000000000
+      internalID: -4760754392281951881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_91
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 378
+        width: 144
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894ede13cbd2dda60800000000000000
+      internalID: 7700361224188191896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_92
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 453
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b14eb59a5a96a050800000000000000
+      internalID: 5811502083018211763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_93
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 448
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c8e318c9fc9a2c0800000000000000
+      internalID: -4419773288197223414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 357
+        width: 144
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8869fc3fefde43a0800000000000000
+      internalID: -6679154978730710899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_95
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 239
+        width: 72
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b765af4a805644f0800000000000000
+      internalID: -844899325113440332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_96
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 440
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11547dcc9f565ec70800000000000000
+      internalID: 8999711553927726353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_97
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 237
+        width: 72
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a38bfdad7661cf20800000000000000
+      internalID: 3441144280263656355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_98
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 406
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e801698234f88f60800000000000000
+      internalID: 8036942032933030118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_99
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 319
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ed22d5e3ad36c0800000000000000
+      internalID: -4161990273151409533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_100
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 414
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6099742ef43287000800000000000000
+      internalID: 33815823211010310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_101
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 420
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e7f6b64aa1d0070800000000000000
+      internalID: 8074139000424594980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_102
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 338
+        width: 140
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5cec54d29cd3dd0800000000000000
+      internalID: -2504624621466237509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_103
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 411
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26888c513129c2df0800000000000000
+      internalID: -203627272471017374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_104
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 401
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139db3f1901f275e0800000000000000
+      internalID: -1913201870198023887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_105
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 382
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c926c0324ce170e0800000000000000
+      internalID: -2273776567815099961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_106
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 384
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5046f73dc167e7530800000000000000
+      internalID: 3854648197255226373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_107
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 380
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457442d67b6858170800000000000000
+      internalID: 8180092420556605268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_108
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 379
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e616cfe7aff1a8df0800000000000000
+      internalID: -177294074594958994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_109
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 379
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04785bc3121237c0800000000000000
+      internalID: -4093189235101109236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_110
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 379
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6edb9ab376d62d20800000000000000
+      internalID: 3253523573362122348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_111
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 381
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488617eedce2431c0800000000000000
+      internalID: -4524940263596922748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_112
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 355
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d05eb2a167fde80800000000000000
+      internalID: -8151666945739649737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_113
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 359
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d78a3db0258bd80800000000000000
+      internalID: -8234741707897799424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_114
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 273
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649338a8327798e30800000000000000
+      internalID: 4506263896692308294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_115
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 262
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c5bb54745dc7160800000000000000
+      internalID: 7024724020880432149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_116
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 359
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2148b2ac1c1742730800000000000000
+      internalID: 3973425848382096402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_117
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 363
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f0bcc211e232140800000000000000
+      internalID: 4693645887951015718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_118
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 246
+        width: 103
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd768dfbda6ba9d0800000000000000
+      internalID: -2761996453377835584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 342
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747530b2fc2cfd9e0800000000000000
+      internalID: -1594341548030208185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_120
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 348
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62ee8ef6b3f746d0800000000000000
+      internalID: -3006166258966142354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_121
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 339
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8351c5d4a5349f5d0800000000000000
+      internalID: -3028315219305949896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_122
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 236
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851633b9ab6d437f0800000000000000
+      internalID: -633645550596300456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_123
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 286
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a15785b73178a60800000000000000
+      internalID: 7676125510362274380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_124
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 282
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed37ba535e3f316c0800000000000000
+      internalID: -4173724263868828706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_125
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 285
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d019f09eb9a50370800000000000000
+      internalID: 8288217325186388178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_126
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 271
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b260e0c207bd690800000000000000
+      internalID: -7576338613604570262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_127
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 259
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6808b7a3235c8330800000000000000
+      internalID: 3714435205276633196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_128
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 268
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea26c80c9caced30800000000000000
+      internalID: 4462131116979399407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_129
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 268
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2880bcb598ad24280800000000000000
+      internalID: -9060439216830609278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_130
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 274
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97599cc72a175b050800000000000000
+      internalID: 5815679436511090041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_131
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 226
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea170897a12a8650800000000000000
+      internalID: 6235833637741730537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_132
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 179
+        width: 129
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca9ec0af10ffa050800000000000000
+      internalID: 5814129662591146700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_133
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 243
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f08a2b42fc8c6cb0800000000000000
+      internalID: -4869362124823297804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_134
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 225
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8763ec4724b2a3d50800000000000000
+      internalID: 6717729358604023416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_135
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 254
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95dd2d669f0e6c90800000000000000
+      internalID: -7174780017603390049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_136
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 229
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af87e55e82ce5b7b0800000000000000
+      internalID: -5208997733593089798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_137
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 207
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60914097ac522bf0800000000000000
+      internalID: -350615946231967637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_138
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 240
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e467de888d96710800000000000000
+      internalID: 1687117618038066743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_139
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 144
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85e0e27257374890800000000000000
+      internalID: -7473944229343861366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_140
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 220
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19209debf7e17c830800000000000000
+      internalID: 4091272320500957841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_141
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 207
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7795d551ddfbe8af0800000000000000
+      internalID: -392165161267537545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_142
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 208
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9feb8646e1c9efe0800000000000000
+      internalID: -1159182234300977250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_143
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 241
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56795536893522210800000000000000
+      internalID: 1306698755857553253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_144
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 148
+        width: 119
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3dc0f21c89a7950800000000000000
+      internalID: 6447633772019766234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_145
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 148
+        width: 119
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd10ec96805a50e20800000000000000
+      internalID: 3316238156181668319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_146
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 181
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ed862ea0eec4560800000000000000
+      internalID: 7299470826576338552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_147
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 159
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b5ab632bbefaff0800000000000000
+      internalID: -22540322458674335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_148
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 192
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4a6466234a226d0800000000000000
+      internalID: -3016668264013585154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_149
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 129
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e84bf93c6b811010800000000000000
+      internalID: 1157859876156426472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_150
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 192
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d1f0359b05dbe30800000000000000
+      internalID: 4520858357842517340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_151
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 160
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2c318dd74115450800000000000000
+      internalID: 6075659903028151038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_152
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 157
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1c17ce0fb076130800000000000000
+      internalID: 3559827159846601146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_153
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 105
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4840470f4803f6260800000000000000
+      internalID: 7092941285659772036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_154
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 177
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329d27bafcc3c6400800000000000000
+      internalID: 318696536268790051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_155
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 73
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd0de7462afa0cd0800000000000000
+      internalID: -2590983593275880006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_156
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 90
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5adf3972d3dd210800000000000000
+      internalID: 1359309902731650484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_157
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 146
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9242914f861fc14f0800000000000000
+      internalID: -856544396033055703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_158
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86f8e5b9a1e658f0800000000000000
+      internalID: -552005785288640882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_159
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 62
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a245a5c10d3817d0800000000000000
+      internalID: -2947538878293785944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_160
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 51
+        width: 71
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e877c4e160a1780800000000000000
+      internalID: -8711643801993113990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_161
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 26
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea0d58be646a7d20800000000000000
+      internalID: 3277042105567742701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_162
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 105
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103bead2e96c1a900800000000000000
+      internalID: 694054200265323265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_163
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 105
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af1d87a939240750800000000000000
+      internalID: 6270181908807491497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_164
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 97
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0743dd1e66737c700800000000000000
+      internalID: 560477593646478448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_165
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 92
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72d034af544b0aa0800000000000000
+      internalID: -6193781684950740355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_166
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 119
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe358fdaeb2a82c00800000000000000
+      internalID: 876129067369780207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_167
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 31
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa567fed7788bf0800000000000000
+      internalID: -321875573839908925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_168
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 31
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355f4c80dff34ea20800000000000000
+      internalID: 3090665600289404243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_169
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 33
+        width: 84
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a463237ea89c9b110800000000000000
+      internalID: 1277273567757743690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTDUSKLOBBER_1536_00_PTX_170
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608526881e641dcd0800000000000000
+      internalID: -2535167180763146234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_0: 2270204164433220275
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_1: 789268613950561436
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_10: -7322205957331451222
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_100: 33815823211010310
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_101: 8074139000424594980
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_102: -2504624621466237509
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_103: -203627272471017374
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_104: -1913201870198023887
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_105: -2273776567815099961
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_106: 3854648197255226373
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_107: 8180092420556605268
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_108: -177294074594958994
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_109: -4093189235101109236
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_11: 6744851294957614813
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_110: 3253523573362122348
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_111: -4524940263596922748
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_112: -8151666945739649737
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_113: -8234741707897799424
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_114: 4506263896692308294
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_115: 7024724020880432149
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_116: 3973425848382096402
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_117: 4693645887951015718
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_118: -2761996453377835584
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_119: -1594341548030208185
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_12: -7120527120646993300
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_120: -3006166258966142354
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_121: -3028315219305949896
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_122: -633645550596300456
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_123: 7676125510362274380
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_124: -4173724263868828706
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_125: 8288217325186388178
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_126: -7576338613604570262
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_127: 3714435205276633196
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_128: 4462131116979399407
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_129: -9060439216830609278
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_13: 6587226335304071533
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_130: 5815679436511090041
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_131: 6235833637741730537
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_132: 5814129662591146700
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_133: -4869362124823297804
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_134: 6717729358604023416
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_135: -7174780017603390049
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_136: -5208997733593089798
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_137: -350615946231967637
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_138: 1687117618038066743
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_139: -7473944229343861366
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_14: 8563170092332282846
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_140: 4091272320500957841
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_141: -392165161267537545
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_142: -1159182234300977250
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_143: 1306698755857553253
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_144: 6447633772019766234
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_145: 3316238156181668319
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_146: 7299470826576338552
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_147: -22540322458674335
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_148: -3016668264013585154
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_149: 1157859876156426472
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_15: -970700867040457866
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_150: 4520858357842517340
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_151: 6075659903028151038
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_152: 3559827159846601146
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_153: 7092941285659772036
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_154: 318696536268790051
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_155: -2590983593275880006
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_156: 1359309902731650484
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_157: -856544396033055703
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_158: -552005785288640882
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_159: -2947538878293785944
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_16: -927785900189242904
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_160: -8711643801993113990
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_161: 3277042105567742701
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_162: 694054200265323265
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_163: 6270181908807491497
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_164: 560477593646478448
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_165: -6193781684950740355
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_166: 876129067369780207
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_167: -321875573839908925
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_168: 3090665600289404243
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_169: 1277273567757743690
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_17: 7855177337021783198
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_170: -2535167180763146234
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_18: -1183873119615197032
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_19: -2314236578466866011
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_2: -8545905127666268765
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_20: 8274460203275850318
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_21: 1541142175896750011
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_22: 1164712404174132224
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_23: -2938182989187426066
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_24: -3367277960483991868
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_25: 2838278691484790193
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_26: -970904669163065352
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_27: -7482455633852216410
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_28: 5510053494573726677
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_29: -6464541031916867219
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_3: -181380353609688157
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_30: -4901902276075060259
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_31: 9109949528364056944
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_32: 1099162973346378322
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_33: -2933963380160737492
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_34: -969733494685988723
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_35: -794659308490352914
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_36: -5173853563432961493
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_37: -5747281128468490740
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_38: -6798819608224132663
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_39: -4123060196452806904
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_4: -702045343384437796
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_40: -857429082376892690
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_41: 922014249803213135
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_42: 4565537187085914574
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_43: 1771527380853956933
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_44: 8826914996519444755
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_45: 4468020555088091324
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_46: 6718896426217236286
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_47: -653957669187290205
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_48: 8157614918439591175
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_49: 6529738220410909783
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_5: 1932569726490701949
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_50: -2353129002452732703
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_51: -8896623091049275127
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_52: 585075697197682758
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_53: -4541297317111405812
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_54: 3954186380226125461
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_55: -1199840619497380786
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_56: 3551400288127583689
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_57: -5853419497438985228
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_58: 2119204124036074008
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_59: 2240069520205710251
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_6: 8710230066900000966
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_60: 6585565264376027675
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_61: -1323705481573278185
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_62: -4500116496360198546
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_63: 3521917289339463625
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_64: -5945369512746329604
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_65: 3596766637627884779
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_66: -6043247641059095121
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_67: 2291725774773937808
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_68: -4744792415592017324
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_69: 140303263844257903
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_7: -1964140368016260406
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_70: 7268666403358212947
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_71: -7699619274123360739
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_72: 6079114380549434986
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_73: 7841102349160574809
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_74: 8397276282037078172
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_75: 5272881593826103138
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_76: -4249971453791496629
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_77: 91870385257530640
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_78: -5775084084696189143
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_79: 8937544817216115020
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_8: -1664348557139992162
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_80: 8171390937088221503
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_81: -3527133584104934583
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_82: 1803648527948110161
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_83: 5616720178375929115
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_84: 3095419207646642061
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_85: -8269440104322541381
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_86: -3362263720381355793
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_87: -1893853822736219879
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_88: -3110354401633774601
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_89: -915655288069936822
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_9: -4081707331460309581
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_90: -4760754392281951881
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_91: 7700361224188191896
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_92: 5811502083018211763
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_93: -4419773288197223414
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_94: -6679154978730710899
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_95: -844899325113440332
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_96: 8999711553927726353
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_97: 3441144280263656355
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_98: 8036942032933030118
+      ATLASES_PLANTDUSKLOBBER_1536_00_PTX_99: -4161990273151409533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

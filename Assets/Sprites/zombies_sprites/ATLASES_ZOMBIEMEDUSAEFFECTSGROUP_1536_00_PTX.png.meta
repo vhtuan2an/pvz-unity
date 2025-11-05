@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 430b57d73ddd1b644ad4ff89472dfa21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 139293172084108854
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_0
+  - first:
+      213: -5216811656719970411
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_1
+  - first:
+      213: 8145116025541323807
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_2
+  - first:
+      213: 8408181619652548980
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_3
+  - first:
+      213: 1267094437258983998
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_4
+  - first:
+      213: -8880333717967403166
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_5
+  - first:
+      213: 9208857056617909478
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_6
+  - first:
+      213: 7799506490152739125
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_7
+  - first:
+      213: 2753806998181277514
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_8
+  - first:
+      213: 6969240332725653394
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_9
+  - first:
+      213: 1305226317291117460
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_10
+  - first:
+      213: -2362810652137939718
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_11
+  - first:
+      213: 1612039681260043820
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_12
+  - first:
+      213: 982756425573856614
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_13
+  - first:
+      213: -6373593353326802499
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_14
+  - first:
+      213: 8979822733778290292
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_15
+  - first:
+      213: 4757445209423089446
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_16
+  - first:
+      213: -4548532543098180383
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_17
+  - first:
+      213: 3481090076074871587
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_18
+  - first:
+      213: 6236354535219155128
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_19
+  - first:
+      213: -7486223403436234550
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_20
+  - first:
+      213: 7873699641402321377
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_21
+  - first:
+      213: -3260814217864942132
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_22
+  - first:
+      213: -6916996117520644961
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_23
+  - first:
+      213: -3613516116888268294
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_24
+  - first:
+      213: 2378830608912639296
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_25
+  - first:
+      213: -4791743993171673705
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_26
+  - first:
+      213: 8361259049446847572
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_27
+  - first:
+      213: 6800529707048031767
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_28
+  - first:
+      213: -820720954391434550
+    second: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 185
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ee5b9e66edee100800000000000000
+      internalID: 139293172084108854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 413
+        width: 96
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fc61520792a97b0800000000000000
+      internalID: -5216811656719970411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 487
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c6bbcded3490170800000000000000
+      internalID: 8145116025541323807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 453
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479db5672acdfa470800000000000000
+      internalID: 8408181619652548980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 426
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3af1b56daf959110800000000000000
+      internalID: 1267094437258983998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 337
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26701a59887b2c480800000000000000
+      internalID: -8880333717967403166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 380
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec4f0fc3be6ccf70800000000000000
+      internalID: 9208857056617909478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 347
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53168e844d96d3c60800000000000000
+      internalID: 7799506490152739125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 259
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f6492efdc773620800000000000000
+      internalID: 2753806998181277514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 276
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f00727827b7b060800000000000000
+      internalID: 6969240332725653394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 237
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bd0a19b681d1210800000000000000
+      internalID: 1305226317291117460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 238
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc1fc70b3c953fd0800000000000000
+      internalID: -2362810652137939718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 232
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eb6559c8d1f5610800000000000000
+      internalID: 1612039681260043820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 190
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665ff0f13c373ad00800000000000000
+      internalID: 982756425573856614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 195
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db94a282d927c87a0800000000000000
+      internalID: -6373593353326802499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 80
+        width: 143
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47605d0033dbe9c70800000000000000
+      internalID: 8979822733778290292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 164
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f0c024637d50240800000000000000
+      internalID: 4757445209423089446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 144
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec245f40cd50e0c0800000000000000
+      internalID: -4548532543098180383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 148
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b84970bf05f4030800000000000000
+      internalID: 3481090076074871587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 171
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0522d786bfb8650800000000000000
+      internalID: 6236354535219155128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 21
+        width: 137
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8a7f07a779b1890800000000000000
+      internalID: -7486223403436234550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 144
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9e7e17b10054d60800000000000000
+      internalID: 7873699641402321377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 153
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccded91deb24fb2d0800000000000000
+      internalID: -3260814217864942132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 112
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f940d6ecda4e100a0800000000000000
+      internalID: -6916996117520644961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 121
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1d9b6ac363addc0800000000000000
+      internalID: -3613516116888268294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 110
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0456011d5dd430120800000000000000
+      internalID: 2378830608912639296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 115
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79df368d93e408db0800000000000000
+      internalID: -4791743993171673705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 91
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454bc4d3ec8290470800000000000000
+      internalID: 8361259049446847572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 98
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716d611ecb5506e50800000000000000
+      internalID: 6800529707048031767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 83
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca67cde3a63c94f0800000000000000
+      internalID: -820720954391434550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_0: 139293172084108854
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_1: -5216811656719970411
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_10: 1305226317291117460
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_11: -2362810652137939718
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_12: 1612039681260043820
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_13: 982756425573856614
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_14: -6373593353326802499
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_15: 8979822733778290292
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_16: 4757445209423089446
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_17: -4548532543098180383
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_18: 3481090076074871587
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_19: 6236354535219155128
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_2: 8145116025541323807
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_20: -7486223403436234550
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_21: 7873699641402321377
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_22: -3260814217864942132
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_23: -6916996117520644961
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_24: -3613516116888268294
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_25: 2378830608912639296
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_26: -4791743993171673705
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_27: 8361259049446847572
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_28: 6800529707048031767
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_29: -820720954391434550
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_3: 8408181619652548980
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_4: 1267094437258983998
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_5: -8880333717967403166
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_6: 9208857056617909478
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_7: 7799506490152739125
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_8: 2753806998181277514
+      ATLASES_ZOMBIEMEDUSAEFFECTSGROUP_1536_00_PTX_9: 6969240332725653394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4693 @@
+fileFormatVersion: 2
+guid: a83dad00064bef445b0e9191965e8694
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1759477399924810029
+    second: PLANTPOWERVINE_1536_00_0
+  - first:
+      213: -8830974002743548894
+    second: PLANTPOWERVINE_1536_00_1
+  - first:
+      213: -5704129847612302235
+    second: PLANTPOWERVINE_1536_00_2
+  - first:
+      213: -6339199411618646513
+    second: PLANTPOWERVINE_1536_00_3
+  - first:
+      213: 556184313341880031
+    second: PLANTPOWERVINE_1536_00_4
+  - first:
+      213: -8410255110296903484
+    second: PLANTPOWERVINE_1536_00_5
+  - first:
+      213: 2761072422660976757
+    second: PLANTPOWERVINE_1536_00_6
+  - first:
+      213: 9119809750381675760
+    second: PLANTPOWERVINE_1536_00_7
+  - first:
+      213: 4212131010867708836
+    second: PLANTPOWERVINE_1536_00_8
+  - first:
+      213: -7609354571740346140
+    second: PLANTPOWERVINE_1536_00_9
+  - first:
+      213: -2248987291533285756
+    second: PLANTPOWERVINE_1536_00_10
+  - first:
+      213: 4947282510032077605
+    second: PLANTPOWERVINE_1536_00_11
+  - first:
+      213: -7010004905989771584
+    second: PLANTPOWERVINE_1536_00_12
+  - first:
+      213: 2026245922790970691
+    second: PLANTPOWERVINE_1536_00_13
+  - first:
+      213: -5471304284416920606
+    second: PLANTPOWERVINE_1536_00_14
+  - first:
+      213: -8689672601971752486
+    second: PLANTPOWERVINE_1536_00_15
+  - first:
+      213: -7907993493294197528
+    second: PLANTPOWERVINE_1536_00_16
+  - first:
+      213: -780612384205146870
+    second: PLANTPOWERVINE_1536_00_17
+  - first:
+      213: 2388290172081000260
+    second: PLANTPOWERVINE_1536_00_18
+  - first:
+      213: 6606471409288953133
+    second: PLANTPOWERVINE_1536_00_19
+  - first:
+      213: 7075241705840523826
+    second: PLANTPOWERVINE_1536_00_20
+  - first:
+      213: 809041443653816156
+    second: PLANTPOWERVINE_1536_00_21
+  - first:
+      213: -8176760291552780528
+    second: PLANTPOWERVINE_1536_00_22
+  - first:
+      213: -4549458417816232258
+    second: PLANTPOWERVINE_1536_00_23
+  - first:
+      213: 4575032893596541051
+    second: PLANTPOWERVINE_1536_00_24
+  - first:
+      213: -111418759967084325
+    second: PLANTPOWERVINE_1536_00_25
+  - first:
+      213: 1717640787696582637
+    second: PLANTPOWERVINE_1536_00_26
+  - first:
+      213: -4309143076626840434
+    second: PLANTPOWERVINE_1536_00_27
+  - first:
+      213: 4996809134676032826
+    second: PLANTPOWERVINE_1536_00_28
+  - first:
+      213: -6407238390847949804
+    second: PLANTPOWERVINE_1536_00_29
+  - first:
+      213: 4766881317733329485
+    second: PLANTPOWERVINE_1536_00_30
+  - first:
+      213: -4967942221417908952
+    second: PLANTPOWERVINE_1536_00_31
+  - first:
+      213: -1708672940599918704
+    second: PLANTPOWERVINE_1536_00_32
+  - first:
+      213: -4471366085203202159
+    second: PLANTPOWERVINE_1536_00_33
+  - first:
+      213: -1838157743323690426
+    second: PLANTPOWERVINE_1536_00_34
+  - first:
+      213: -855384610547715652
+    second: PLANTPOWERVINE_1536_00_35
+  - first:
+      213: 1110065226373267319
+    second: PLANTPOWERVINE_1536_00_36
+  - first:
+      213: 791330703425917779
+    second: PLANTPOWERVINE_1536_00_37
+  - first:
+      213: 1024988619471622925
+    second: PLANTPOWERVINE_1536_00_38
+  - first:
+      213: 2196284349718406829
+    second: PLANTPOWERVINE_1536_00_39
+  - first:
+      213: -2256636744251035603
+    second: PLANTPOWERVINE_1536_00_40
+  - first:
+      213: -3587320437812907574
+    second: PLANTPOWERVINE_1536_00_41
+  - first:
+      213: 4559713140369257819
+    second: PLANTPOWERVINE_1536_00_42
+  - first:
+      213: 8451734710056708358
+    second: PLANTPOWERVINE_1536_00_43
+  - first:
+      213: 6902029496078008440
+    second: PLANTPOWERVINE_1536_00_44
+  - first:
+      213: -9150856752732962479
+    second: PLANTPOWERVINE_1536_00_45
+  - first:
+      213: 3182824028193287578
+    second: PLANTPOWERVINE_1536_00_46
+  - first:
+      213: 8263505059355289651
+    second: PLANTPOWERVINE_1536_00_47
+  - first:
+      213: -6368111787163486629
+    second: PLANTPOWERVINE_1536_00_48
+  - first:
+      213: 978689793743735598
+    second: PLANTPOWERVINE_1536_00_49
+  - first:
+      213: -5794247896674498622
+    second: PLANTPOWERVINE_1536_00_50
+  - first:
+      213: -6201125710526221240
+    second: PLANTPOWERVINE_1536_00_51
+  - first:
+      213: -903667763785463136
+    second: PLANTPOWERVINE_1536_00_52
+  - first:
+      213: 2884038622259959463
+    second: PLANTPOWERVINE_1536_00_53
+  - first:
+      213: 673208807348641118
+    second: PLANTPOWERVINE_1536_00_54
+  - first:
+      213: 3829136381403407698
+    second: PLANTPOWERVINE_1536_00_55
+  - first:
+      213: -3326567896795178099
+    second: PLANTPOWERVINE_1536_00_56
+  - first:
+      213: -961462983163153801
+    second: PLANTPOWERVINE_1536_00_57
+  - first:
+      213: 1087222826459040607
+    second: PLANTPOWERVINE_1536_00_58
+  - first:
+      213: 5358771183686195582
+    second: PLANTPOWERVINE_1536_00_59
+  - first:
+      213: -2937730779533926967
+    second: PLANTPOWERVINE_1536_00_60
+  - first:
+      213: -1607414313441167977
+    second: PLANTPOWERVINE_1536_00_61
+  - first:
+      213: -6704301175681717798
+    second: PLANTPOWERVINE_1536_00_62
+  - first:
+      213: -499338190494350924
+    second: PLANTPOWERVINE_1536_00_63
+  - first:
+      213: -9030613687539324841
+    second: PLANTPOWERVINE_1536_00_64
+  - first:
+      213: -7200181439663531726
+    second: PLANTPOWERVINE_1536_00_65
+  - first:
+      213: 9039156012477133392
+    second: PLANTPOWERVINE_1536_00_66
+  - first:
+      213: 734617814358343014
+    second: PLANTPOWERVINE_1536_00_67
+  - first:
+      213: 5024526686259905439
+    second: PLANTPOWERVINE_1536_00_68
+  - first:
+      213: -4286414690291455876
+    second: PLANTPOWERVINE_1536_00_69
+  - first:
+      213: -6892650053028545264
+    second: PLANTPOWERVINE_1536_00_70
+  - first:
+      213: 1162588279491021835
+    second: PLANTPOWERVINE_1536_00_71
+  - first:
+      213: 515929560162795852
+    second: PLANTPOWERVINE_1536_00_72
+  - first:
+      213: -1839418998479917164
+    second: PLANTPOWERVINE_1536_00_73
+  - first:
+      213: 1487330084812446631
+    second: PLANTPOWERVINE_1536_00_74
+  - first:
+      213: -5422417115260770608
+    second: PLANTPOWERVINE_1536_00_75
+  - first:
+      213: 3788802374372655421
+    second: PLANTPOWERVINE_1536_00_76
+  - first:
+      213: 1071024336952829096
+    second: PLANTPOWERVINE_1536_00_77
+  - first:
+      213: 4209476245451979570
+    second: PLANTPOWERVINE_1536_00_78
+  - first:
+      213: 795608536012474627
+    second: PLANTPOWERVINE_1536_00_79
+  - first:
+      213: -8705882121346079543
+    second: PLANTPOWERVINE_1536_00_80
+  - first:
+      213: 5499317104795996055
+    second: PLANTPOWERVINE_1536_00_81
+  - first:
+      213: 2940496917747532716
+    second: PLANTPOWERVINE_1536_00_82
+  - first:
+      213: 8249338767347691453
+    second: PLANTPOWERVINE_1536_00_83
+  - first:
+      213: 2320538845303602825
+    second: PLANTPOWERVINE_1536_00_84
+  - first:
+      213: 6295872255195866441
+    second: PLANTPOWERVINE_1536_00_85
+  - first:
+      213: -7813356639840147494
+    second: PLANTPOWERVINE_1536_00_86
+  - first:
+      213: 5060480667348178060
+    second: PLANTPOWERVINE_1536_00_87
+  - first:
+      213: -6993189114863157182
+    second: PLANTPOWERVINE_1536_00_88
+  - first:
+      213: 2806309268915580587
+    second: PLANTPOWERVINE_1536_00_89
+  - first:
+      213: 1298853232352481350
+    second: PLANTPOWERVINE_1536_00_90
+  - first:
+      213: 8362988955521476476
+    second: PLANTPOWERVINE_1536_00_91
+  - first:
+      213: -6223294842316853033
+    second: PLANTPOWERVINE_1536_00_92
+  - first:
+      213: -5475318864163232699
+    second: PLANTPOWERVINE_1536_00_93
+  - first:
+      213: -6031010201283649745
+    second: PLANTPOWERVINE_1536_00_94
+  - first:
+      213: 8230772385402950139
+    second: PLANTPOWERVINE_1536_00_95
+  - first:
+      213: -3249431308612937610
+    second: PLANTPOWERVINE_1536_00_96
+  - first:
+      213: 5808042649777194323
+    second: PLANTPOWERVINE_1536_00_97
+  - first:
+      213: -4000984364738333437
+    second: PLANTPOWERVINE_1536_00_98
+  - first:
+      213: -4724417077151688750
+    second: PLANTPOWERVINE_1536_00_99
+  - first:
+      213: -5553378568556785077
+    second: PLANTPOWERVINE_1536_00_100
+  - first:
+      213: 5831451839424777524
+    second: PLANTPOWERVINE_1536_00_101
+  - first:
+      213: -6590874605826554888
+    second: PLANTPOWERVINE_1536_00_102
+  - first:
+      213: -5010659169273152507
+    second: PLANTPOWERVINE_1536_00_103
+  - first:
+      213: -9063728806544248378
+    second: PLANTPOWERVINE_1536_00_104
+  - first:
+      213: -5839844184698982339
+    second: PLANTPOWERVINE_1536_00_105
+  - first:
+      213: 8409845198470514530
+    second: PLANTPOWERVINE_1536_00_106
+  - first:
+      213: -1552686418126346249
+    second: PLANTPOWERVINE_1536_00_107
+  - first:
+      213: -3742105043944396576
+    second: PLANTPOWERVINE_1536_00_108
+  - first:
+      213: 5054143249852248136
+    second: PLANTPOWERVINE_1536_00_109
+  - first:
+      213: -6292780865042474798
+    second: PLANTPOWERVINE_1536_00_110
+  - first:
+      213: -1268043544424447343
+    second: PLANTPOWERVINE_1536_00_111
+  - first:
+      213: 8676675802292568182
+    second: PLANTPOWERVINE_1536_00_112
+  - first:
+      213: -7999602779550527473
+    second: PLANTPOWERVINE_1536_00_113
+  - first:
+      213: 1499849449427799496
+    second: PLANTPOWERVINE_1536_00_114
+  - first:
+      213: 8491569123898880293
+    second: PLANTPOWERVINE_1536_00_115
+  - first:
+      213: -5201880839045922906
+    second: PLANTPOWERVINE_1536_00_116
+  - first:
+      213: -422029200343688564
+    second: PLANTPOWERVINE_1536_00_117
+  - first:
+      213: 1430623989624840061
+    second: PLANTPOWERVINE_1536_00_118
+  - first:
+      213: -2872804811876618084
+    second: PLANTPOWERVINE_1536_00_119
+  - first:
+      213: -4823268026390108603
+    second: PLANTPOWERVINE_1536_00_120
+  - first:
+      213: 4793209792077319721
+    second: PLANTPOWERVINE_1536_00_121
+  - first:
+      213: 417672059213071075
+    second: PLANTPOWERVINE_1536_00_122
+  - first:
+      213: 6781980509210525466
+    second: PLANTPOWERVINE_1536_00_123
+  - first:
+      213: 511436120822750886
+    second: PLANTPOWERVINE_1536_00_124
+  - first:
+      213: 2211778764184863724
+    second: PLANTPOWERVINE_1536_00_125
+  - first:
+      213: -7083791102950699211
+    second: PLANTPOWERVINE_1536_00_126
+  - first:
+      213: 6601134206891343557
+    second: PLANTPOWERVINE_1536_00_127
+  - first:
+      213: -6151022193944024186
+    second: PLANTPOWERVINE_1536_00_128
+  - first:
+      213: 8161689219479814922
+    second: PLANTPOWERVINE_1536_00_129
+  - first:
+      213: 1724316761458980408
+    second: PLANTPOWERVINE_1536_00_130
+  - first:
+      213: -6420352838864344968
+    second: PLANTPOWERVINE_1536_00_131
+  - first:
+      213: 879077024369829246
+    second: PLANTPOWERVINE_1536_00_132
+  - first:
+      213: 7763511659675040201
+    second: PLANTPOWERVINE_1536_00_133
+  - first:
+      213: -5245626042152705948
+    second: PLANTPOWERVINE_1536_00_134
+  - first:
+      213: -4102229548510303822
+    second: PLANTPOWERVINE_1536_00_135
+  - first:
+      213: 7399463764080125167
+    second: PLANTPOWERVINE_1536_00_136
+  - first:
+      213: -9060053207570381459
+    second: PLANTPOWERVINE_1536_00_137
+  - first:
+      213: 7698983039002550417
+    second: PLANTPOWERVINE_1536_00_138
+  - first:
+      213: 7133923910983193754
+    second: PLANTPOWERVINE_1536_00_139
+  - first:
+      213: 3900227506915195276
+    second: PLANTPOWERVINE_1536_00_140
+  - first:
+      213: -9200556300228524030
+    second: PLANTPOWERVINE_1536_00_141
+  - first:
+      213: -8968873852035111340
+    second: PLANTPOWERVINE_1536_00_142
+  - first:
+      213: -523289470936338150
+    second: PLANTPOWERVINE_1536_00_143
+  - first:
+      213: 1681494386405879549
+    second: PLANTPOWERVINE_1536_00_144
+  - first:
+      213: 5391335224231158616
+    second: PLANTPOWERVINE_1536_00_145
+  - first:
+      213: 6982377933460413015
+    second: PLANTPOWERVINE_1536_00_146
+  - first:
+      213: -2995761879983862320
+    second: PLANTPOWERVINE_1536_00_147
+  - first:
+      213: -3587619514852337591
+    second: PLANTPOWERVINE_1536_00_148
+  - first:
+      213: -6378364291174770574
+    second: PLANTPOWERVINE_1536_00_149
+  - first:
+      213: -8490526468032408786
+    second: PLANTPOWERVINE_1536_00_150
+  - first:
+      213: 6380977978432494420
+    second: PLANTPOWERVINE_1536_00_151
+  - first:
+      213: 7752865579391874828
+    second: PLANTPOWERVINE_1536_00_152
+  - first:
+      213: 6591070595167205187
+    second: PLANTPOWERVINE_1536_00_153
+  - first:
+      213: -5913956649899944165
+    second: PLANTPOWERVINE_1536_00_154
+  - first:
+      213: -8360308287047151502
+    second: PLANTPOWERVINE_1536_00_155
+  - first:
+      213: -5723655496779823960
+    second: PLANTPOWERVINE_1536_00_156
+  - first:
+      213: 7858024292251876135
+    second: PLANTPOWERVINE_1536_00_157
+  - first:
+      213: -6670511688541160729
+    second: PLANTPOWERVINE_1536_00_158
+  - first:
+      213: -7720519240502418690
+    second: PLANTPOWERVINE_1536_00_159
+  - first:
+      213: 4340637561819586471
+    second: PLANTPOWERVINE_1536_00_160
+  - first:
+      213: -6505438964274974328
+    second: PLANTPOWERVINE_1536_00_161
+  - first:
+      213: -7084017869300670144
+    second: PLANTPOWERVINE_1536_00_162
+  - first:
+      213: 8251731759674869576
+    second: PLANTPOWERVINE_1536_00_163
+  - first:
+      213: 2923196124763836509
+    second: PLANTPOWERVINE_1536_00_164
+  - first:
+      213: -5929886942624030416
+    second: PLANTPOWERVINE_1536_00_165
+  - first:
+      213: -4029651575963647745
+    second: PLANTPOWERVINE_1536_00_166
+  - first:
+      213: -3785491731335715488
+    second: PLANTPOWERVINE_1536_00_167
+  - first:
+      213: 8507435350457479401
+    second: PLANTPOWERVINE_1536_00_168
+  - first:
+      213: 1632913426070307896
+    second: PLANTPOWERVINE_1536_00_169
+  - first:
+      213: 3408702969104773301
+    second: PLANTPOWERVINE_1536_00_170
+  - first:
+      213: -4053929664757851246
+    second: PLANTPOWERVINE_1536_00_171
+  - first:
+      213: -551458403289072182
+    second: PLANTPOWERVINE_1536_00_172
+  - first:
+      213: -8953890914021141872
+    second: PLANTPOWERVINE_1536_00_173
+  - first:
+      213: 3863393317981979299
+    second: PLANTPOWERVINE_1536_00_174
+  - first:
+      213: 8668673711336499658
+    second: PLANTPOWERVINE_1536_00_175
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 861
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21a8d48f5bea6810800000000000000
+      internalID: 1759477399924810029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1085
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224e2c9dee3127580800000000000000
+      internalID: -8830974002743548894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1067
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c9d58102cd6d0b0800000000000000
+      internalID: -5704129847612302235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1090
+        width: 13
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06fa1eb8b3a608a0800000000000000
+      internalID: -6339199411618646513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 999
+        width: 214
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6236aafa6f7b700800000000000000
+      internalID: 556184313341880031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1000
+        width: 181
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0e6506985c84b80800000000000000
+      internalID: -8410255110296903484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1153
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570b5d75dbc415620800000000000000
+      internalID: 2761072422660976757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1106
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4c4ae26a2109e70800000000000000
+      internalID: 9119809750381675760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1059
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a34d2a66de747a30800000000000000
+      internalID: 4212131010867708836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 960
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e80c654554266690800000000000000
+      internalID: -7609354571740346140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1008
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4866ac759fdf9c0e0800000000000000
+      internalID: -2248987291533285756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 930
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52307f52b3748a440800000000000000
+      internalID: 4947282510032077605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 993
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceebb8bda577be90800000000000000
+      internalID: -7010004905989771584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 804
+        width: 149
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3451a876eebae1c10800000000000000
+      internalID: 2026245922790970691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 853
+        width: 134
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3b145ddb50214b0800000000000000
+      internalID: -5471304284416920606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 858
+        width: 139
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad18701fec4186780800000000000000
+      internalID: -8689672601971752486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 975
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e45912f0d9214290800000000000000
+      internalID: -7907993493294197528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 961
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a057e242c25ba25f0800000000000000
+      internalID: -780612384205146870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 939
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fc17ff149e42120800000000000000
+      internalID: 2388290172081000260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 794
+        width: 200
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d31718eb6eeab50800000000000000
+      internalID: 6606471409288953133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 814
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a37a068de403260800000000000000
+      internalID: 7075241705840523826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 835
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f0e8118ea4a3b00800000000000000
+      internalID: 809041443653816156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 812
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f1a7056df468e80800000000000000
+      internalID: -8176760291552780528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 829
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe17ad4ca31dd0c0800000000000000
+      internalID: -4549458417816232258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 736
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70ac8a5d28cd7f30800000000000000
+      internalID: 4575032893596541051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 827
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0f8d66a39247ef0800000000000000
+      internalID: -111418759967084325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 741
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def706a223946d710800000000000000
+      internalID: 1717640787696582637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 822
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84c25fd339d234c0800000000000000
+      internalID: -4309143076626840434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 815
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dbaca0f6b385540800000000000000
+      internalID: 4996809134676032826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 801
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414334a61aae417a0800000000000000
+      internalID: -6407238390847949804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 802
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ae0fd6d4d572240800000000000000
+      internalID: 4766881317733329485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 809
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82578b3fed25e0bb0800000000000000
+      internalID: -4967942221417908952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 726
+        width: 208
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f383273039948e0800000000000000
+      internalID: -1708672940599918704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 744
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19febbe5c3482f1c0800000000000000
+      internalID: -4471366085203202159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 740
+        width: 208
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ace0c754d8d76e0800000000000000
+      internalID: -1838157743323690426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 735
+        width: 208
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1b7fd8a301124f0800000000000000
+      internalID: -855384610547715652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 772
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ffd77217eb76f00800000000000000
+      internalID: 1110065226373267319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 766
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353df85051f5bfa00800000000000000
+      internalID: 791330703425917779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 746
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d039c6208bd793e00800000000000000
+      internalID: 1024988619471622925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 741
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da627bacaf4ca7e10800000000000000
+      internalID: 2196284349718406829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 677
+        width: 162
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20b2d756d0dea0e0800000000000000
+      internalID: -2256636744251035603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 675
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1b9a87117473ec0800000000000000
+      internalID: -3587320437812907574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 675
+        width: 208
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55f36951fa574f30800000000000000
+      internalID: 4559713140369257819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 626
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609e4c880f79a4570800000000000000
+      internalID: 8451734710056708358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 640
+        width: 121
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8708ff6124fe8cf50800000000000000
+      internalID: 6902029496078008440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 675
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1510ed64440a10180800000000000000
+      internalID: -9150856752732962479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 687
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9de90f1799ab2c20800000000000000
+      internalID: 3182824028193287578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 580
+        width: 72
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338e38ec11edda270800000000000000
+      internalID: 8263505059355289651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 680
+        width: 71
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56742cb11cef97a0800000000000000
+      internalID: -6368111787163486629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 623
+        width: 164
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b456d9e21059d00800000000000000
+      internalID: 978689793743735598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 570
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7892abc32b69fa0800000000000000
+      internalID: -5794247896674498622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 628
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844fa80750d21f9a0800000000000000
+      internalID: -6201125710526221240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 552
+        width: 114
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa8898e4f68573f0800000000000000
+      internalID: -903667763785463136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 601
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6df4eb8d9260820800000000000000
+      internalID: 2884038622259959463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 607
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d1eade7d7b75900800000000000000
+      internalID: 673208807348641118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 616
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25523125043d32530800000000000000
+      internalID: 3829136381403407698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 540
+        width: 116
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b1e4e6f18a5d1d0800000000000000
+      internalID: -3326567896795178099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 564
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7727fd7c28238a2f0800000000000000
+      internalID: -961462983163153801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 571
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b89ca7667961f00800000000000000
+      internalID: 1087222826459040607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 555
+        width: 171
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791734effd2e5a40800000000000000
+      internalID: 5358771183686195582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 594
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd1628bb651b37d0800000000000000
+      internalID: -2937730779533926967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 576
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795f578c23151b9e0800000000000000
+      internalID: -1607414313441167977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 578
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9e1440a9985f2a0800000000000000
+      internalID: -6704301175681717798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 569
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b14cc4bf8ef119f0800000000000000
+      internalID: -499338190494350924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 583
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758207a82b0dca280800000000000000
+      internalID: -9030613687539324841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 499
+        width: 171
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2399e7af021d31c90800000000000000
+      internalID: -7200181439663531726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 489
+        width: 171
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05239097088817d70800000000000000
+      internalID: 9039156012477133392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 483
+        width: 171
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66db08e8203e13a00800000000000000
+      internalID: 734617814358343014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 538
+        width: 285
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f930efa6664bab540800000000000000
+      internalID: 5024526686259905439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 540
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c786921bc889384c0800000000000000
+      internalID: -4286414690291455876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 504
+        width: 116
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01df72cab436850a0800000000000000
+      internalID: -6892650053028545264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 431
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c481b61e7522010800000000000000
+      internalID: 1162588279491021835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 483
+        width: 199
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4180a29333f82700800000000000000
+      internalID: 515929560162795852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 491
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fef72aa221976e0800000000000000
+      internalID: -1839418998479917164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 442
+        width: 199
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab5ff8f4de04a410800000000000000
+      internalID: 1487330084812446631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 432
+        width: 199
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d622e4ec54bfb4b0800000000000000
+      internalID: -5422417115260770608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 386
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3183a08fa7849430800000000000000
+      internalID: 3788802374372655421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 428
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a42fddb5fa0dde00800000000000000
+      internalID: 1071024336952829096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 424
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b3c9ca7501b6a30800000000000000
+      internalID: 4209476245451979570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 440
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309ca498fb19a0b00800000000000000
+      internalID: 795608536012474627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 428
+        width: 199
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c42ebc165e7e2780800000000000000
+      internalID: -8705882121346079543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 456
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f489a25cf715c40800000000000000
+      internalID: 5499317104795996055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 377
+        width: 161
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca309750e5ebec820800000000000000
+      internalID: 2940496917747532716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 367
+        width: 161
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf2e9be6e98b7270800000000000000
+      internalID: 8249338767347691453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 301
+        width: 60
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ef0d9f8c5343020800000000000000
+      internalID: 2320538845303602825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 419
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945ef2a857e6f5750800000000000000
+      internalID: 6295872255195866441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 363
+        width: 161
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad763e27881619390800000000000000
+      internalID: -7813356639840147494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 305
+        width: 111
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84150afa507a3640800000000000000
+      internalID: 5060480667348178060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 351
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24004713d8333fe90800000000000000
+      internalID: -6993189114863157182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 354
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae699f596302f620800000000000000
+      internalID: 2806309268915580587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 350
+        width: 161
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640dcb91224760210800000000000000
+      internalID: 1298853232352481350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 363
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c776f52652e4f0470800000000000000
+      internalID: 8362988955521476476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 366
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0fe27305a62a9a0800000000000000
+      internalID: -6223294842316853033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 303
+        width: 123
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5442e85a082c304b0800000000000000
+      internalID: -5475318864163232699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 309
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f1bb3fc2c8d4ca0800000000000000
+      internalID: -6031010201283649745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 316
+        width: 224
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1990340e3993270800000000000000
+      internalID: 8230772385402950139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 266
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678d718e073b7e2d0800000000000000
+      internalID: -3249431308612937610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 277
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355c94484005a9050800000000000000
+      internalID: 5808042649777194323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 321
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30531eb1be5a978c0800000000000000
+      internalID: -4000984364738333437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7959903bf7f6eb0800000000000000
+      internalID: -4724417077151688750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 212
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42d7ed6d9f6ee2b0800000000000000
+      internalID: -5553378568556785077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 161
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d46b53d8a7de050800000000000000
+      internalID: 5831451839424777524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 284
+        width: 298
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3c09847728884a0800000000000000
+      internalID: -6590874605826554888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 229
+        width: 90
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c7bec7800967ab0800000000000000
+      internalID: -5010659169273152507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 276
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c174711caa273280800000000000000
+      internalID: -9063728806544248378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 176
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30f263a7a4b4fea0800000000000000
+      internalID: -5839844184698982339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 192
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2670cd696a5c5b470800000000000000
+      internalID: 8409845198470514530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 219
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f76100edefb37ae0800000000000000
+      internalID: -1552686418126346249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 210
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e82f7ff94f511cc0800000000000000
+      internalID: -3742105043944396576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 240
+        width: 154
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840b16bf18ce32640800000000000000
+      internalID: 5054143249852248136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 203
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d894c1d42d8ba8a0800000000000000
+      internalID: -6292780865042474798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 198
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1928ade5d11076ee0800000000000000
+      internalID: -1268043544424447343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 239
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67040e2dbaeb96870800000000000000
+      internalID: 8676675802292568182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 179
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00d9acd7a3bbf090800000000000000
+      internalID: -7999602779550527473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 168
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd85b1b02980d410800000000000000
+      internalID: 1499849449427799496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 199
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521faafb02d18d570800000000000000
+      internalID: 8491569123898880293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 157
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afb1c800f43fc7b0800000000000000
+      internalID: -5201880839045922906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 188
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a1ca4ada6a42af0800000000000000
+      internalID: -422029200343688564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 121
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f9db450f89ad310800000000000000
+      internalID: 1430623989624840061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 133
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90bf0f8e3fb128d0800000000000000
+      internalID: -2872804811876618084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 163
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546a486e84f401db0800000000000000
+      internalID: -4823268026390108603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 123
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e41be09e6e48240800000000000000
+      internalID: 4793209792077319721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 147
+        width: 85
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e24002668edbc500800000000000000
+      internalID: 417672059213071075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 122
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fbd15375f6e1e50800000000000000
+      internalID: 6781980509210525466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 132
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae91f2317cf81700800000000000000
+      internalID: 511436120822750886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 129
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3cdf84111d1be10800000000000000
+      internalID: 2211778764184863724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 120
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f0d8df58151bd90800000000000000
+      internalID: -7083791102950699211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 121
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce307c3690fb9b50800000000000000
+      internalID: 6601134206891343557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 141
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b2c6477ed23aaa0800000000000000
+      internalID: -6151022193944024186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03ca364a15244170800000000000000
+      internalID: 8161689219479814922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 90
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836b30f65f00ee710800000000000000
+      internalID: 1724316761458980408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 107
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e1da0c1356e6a0800000000000000
+      internalID: -6420352838864344968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 104
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7565c765eb133c00800000000000000
+      internalID: 879077024369829246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 97
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9b88cb8b88dbb60800000000000000
+      internalID: 7763511659675040201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 86
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46023fc38eac337b0800000000000000
+      internalID: -5245626042152705948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 83
+        width: 136
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9aeedc5f3f117c0800000000000000
+      internalID: -4102229548510303822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 90
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4ee52e61d20b660800000000000000
+      internalID: 7399463764080125167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 88
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6501a42c99344280800000000000000
+      internalID: -9060053207570381459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 76
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1902183784848da60800000000000000
+      internalID: 7698983039002550417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 79
+        width: 132
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9491d8fff9c00360800000000000000
+      internalID: 7133923910983193754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 63
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8933e4d044602630800000000000000
+      internalID: 3900227506915195276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 65
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20885e4aace015080800000000000000
+      internalID: -9200556300228524030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 62
+        width: 135
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456682e20c8288380800000000000000
+      internalID: -8968873852035111340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 60
+        width: 135
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11332aaff6ecb8f0800000000000000
+      internalID: -523289470936338150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 47
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe29894c3ed55710800000000000000
+      internalID: 1681494386405879549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 220
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853695962ded1da40800000000000000
+      internalID: 5391335224231158616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 39
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a1f6b7cb366e060800000000000000
+      internalID: 6982377933460413015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 38
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddc7ef317aec66d0800000000000000
+      internalID: -2995761879983862320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 47
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94897fb2f07363ec0800000000000000
+      internalID: -3587619514852337591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 34
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278dd70a87f7b77a0800000000000000
+      internalID: -6378364291174770574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 34
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2350ec79279b2a80800000000000000
+      internalID: -8490526468032408786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b1f0cd9a9cd8850800000000000000
+      internalID: 6380977978432494420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 26
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0771030b26b79b60800000000000000
+      internalID: 7752865579391874828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 35
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347b67a09cf287b50800000000000000
+      internalID: 6591070595167205187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 24
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1797a9a2c76deda0800000000000000
+      internalID: -5913956649899944165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 24
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270dcc168e73afb80800000000000000
+      internalID: -8360308287047151502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 20
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a40ab1a6ad7190b0800000000000000
+      internalID: -5723655496779823960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 33
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b3010d57f4d0d60800000000000000
+      internalID: 7858024292251876135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 33
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eab96e06f49d63a0800000000000000
+      internalID: -6670511688541160729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 21
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2e844e7a43bd490800000000000000
+      internalID: -7720519240502418690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_160
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 33
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af59f26dda0d3c30800000000000000
+      internalID: 4340637561819586471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_161
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 33
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881b762bab908b5a0800000000000000
+      internalID: -6505438964274974328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_162
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 24
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04160d5d74380bd90800000000000000
+      internalID: -7084017869300670144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_163
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847ca3dd05a048270800000000000000
+      internalID: 8251731759674869576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_164
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 15
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50d8514367419820800000000000000
+      internalID: 2923196124763836509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_165
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031eaaa5e3fc4bda0800000000000000
+      internalID: -5929886942624030416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_166
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0081edd3dc318c0800000000000000
+      internalID: -4029651575963647745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_167
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 5
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0656e85a35b377bc0800000000000000
+      internalID: -3785491731335715488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_168
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 5
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e07e9d706b701670800000000000000
+      internalID: 8507435350457479401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_169
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 5
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83403e50c1649a610800000000000000
+      internalID: 1632913426070307896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_170
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 12
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03f425a452e4f20800000000000000
+      internalID: 3408702969104773301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_171
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b90b3d27c8db7c0800000000000000
+      internalID: -4053929664757851246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_172
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 10
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdfc830183d858f0800000000000000
+      internalID: -551458403289072182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_173
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 4
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0921c2847a36db380800000000000000
+      internalID: -8953890914021141872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_174
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 4
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a20fe9e0c78d9530800000000000000
+      internalID: 3863393317981979299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTPOWERVINE_1536_00_175
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 8
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9aaf5dfc05d4870800000000000000
+      internalID: 8668673711336499658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTPOWERVINE_1536_00_0: 1759477399924810029
+      PLANTPOWERVINE_1536_00_1: -8830974002743548894
+      PLANTPOWERVINE_1536_00_10: -2248987291533285756
+      PLANTPOWERVINE_1536_00_100: -5553378568556785077
+      PLANTPOWERVINE_1536_00_101: 5831451839424777524
+      PLANTPOWERVINE_1536_00_102: -6590874605826554888
+      PLANTPOWERVINE_1536_00_103: -5010659169273152507
+      PLANTPOWERVINE_1536_00_104: -9063728806544248378
+      PLANTPOWERVINE_1536_00_105: -5839844184698982339
+      PLANTPOWERVINE_1536_00_106: 8409845198470514530
+      PLANTPOWERVINE_1536_00_107: -1552686418126346249
+      PLANTPOWERVINE_1536_00_108: -3742105043944396576
+      PLANTPOWERVINE_1536_00_109: 5054143249852248136
+      PLANTPOWERVINE_1536_00_11: 4947282510032077605
+      PLANTPOWERVINE_1536_00_110: -6292780865042474798
+      PLANTPOWERVINE_1536_00_111: -1268043544424447343
+      PLANTPOWERVINE_1536_00_112: 8676675802292568182
+      PLANTPOWERVINE_1536_00_113: -7999602779550527473
+      PLANTPOWERVINE_1536_00_114: 1499849449427799496
+      PLANTPOWERVINE_1536_00_115: 8491569123898880293
+      PLANTPOWERVINE_1536_00_116: -5201880839045922906
+      PLANTPOWERVINE_1536_00_117: -422029200343688564
+      PLANTPOWERVINE_1536_00_118: 1430623989624840061
+      PLANTPOWERVINE_1536_00_119: -2872804811876618084
+      PLANTPOWERVINE_1536_00_12: -7010004905989771584
+      PLANTPOWERVINE_1536_00_120: -4823268026390108603
+      PLANTPOWERVINE_1536_00_121: 4793209792077319721
+      PLANTPOWERVINE_1536_00_122: 417672059213071075
+      PLANTPOWERVINE_1536_00_123: 6781980509210525466
+      PLANTPOWERVINE_1536_00_124: 511436120822750886
+      PLANTPOWERVINE_1536_00_125: 2211778764184863724
+      PLANTPOWERVINE_1536_00_126: -7083791102950699211
+      PLANTPOWERVINE_1536_00_127: 6601134206891343557
+      PLANTPOWERVINE_1536_00_128: -6151022193944024186
+      PLANTPOWERVINE_1536_00_129: 8161689219479814922
+      PLANTPOWERVINE_1536_00_13: 2026245922790970691
+      PLANTPOWERVINE_1536_00_130: 1724316761458980408
+      PLANTPOWERVINE_1536_00_131: -6420352838864344968
+      PLANTPOWERVINE_1536_00_132: 879077024369829246
+      PLANTPOWERVINE_1536_00_133: 7763511659675040201
+      PLANTPOWERVINE_1536_00_134: -5245626042152705948
+      PLANTPOWERVINE_1536_00_135: -4102229548510303822
+      PLANTPOWERVINE_1536_00_136: 7399463764080125167
+      PLANTPOWERVINE_1536_00_137: -9060053207570381459
+      PLANTPOWERVINE_1536_00_138: 7698983039002550417
+      PLANTPOWERVINE_1536_00_139: 7133923910983193754
+      PLANTPOWERVINE_1536_00_14: -5471304284416920606
+      PLANTPOWERVINE_1536_00_140: 3900227506915195276
+      PLANTPOWERVINE_1536_00_141: -9200556300228524030
+      PLANTPOWERVINE_1536_00_142: -8968873852035111340
+      PLANTPOWERVINE_1536_00_143: -523289470936338150
+      PLANTPOWERVINE_1536_00_144: 1681494386405879549
+      PLANTPOWERVINE_1536_00_145: 5391335224231158616
+      PLANTPOWERVINE_1536_00_146: 6982377933460413015
+      PLANTPOWERVINE_1536_00_147: -2995761879983862320
+      PLANTPOWERVINE_1536_00_148: -3587619514852337591
+      PLANTPOWERVINE_1536_00_149: -6378364291174770574
+      PLANTPOWERVINE_1536_00_15: -8689672601971752486
+      PLANTPOWERVINE_1536_00_150: -8490526468032408786
+      PLANTPOWERVINE_1536_00_151: 6380977978432494420
+      PLANTPOWERVINE_1536_00_152: 7752865579391874828
+      PLANTPOWERVINE_1536_00_153: 6591070595167205187
+      PLANTPOWERVINE_1536_00_154: -5913956649899944165
+      PLANTPOWERVINE_1536_00_155: -8360308287047151502
+      PLANTPOWERVINE_1536_00_156: -5723655496779823960
+      PLANTPOWERVINE_1536_00_157: 7858024292251876135
+      PLANTPOWERVINE_1536_00_158: -6670511688541160729
+      PLANTPOWERVINE_1536_00_159: -7720519240502418690
+      PLANTPOWERVINE_1536_00_16: -7907993493294197528
+      PLANTPOWERVINE_1536_00_160: 4340637561819586471
+      PLANTPOWERVINE_1536_00_161: -6505438964274974328
+      PLANTPOWERVINE_1536_00_162: -7084017869300670144
+      PLANTPOWERVINE_1536_00_163: 8251731759674869576
+      PLANTPOWERVINE_1536_00_164: 2923196124763836509
+      PLANTPOWERVINE_1536_00_165: -5929886942624030416
+      PLANTPOWERVINE_1536_00_166: -4029651575963647745
+      PLANTPOWERVINE_1536_00_167: -3785491731335715488
+      PLANTPOWERVINE_1536_00_168: 8507435350457479401
+      PLANTPOWERVINE_1536_00_169: 1632913426070307896
+      PLANTPOWERVINE_1536_00_17: -780612384205146870
+      PLANTPOWERVINE_1536_00_170: 3408702969104773301
+      PLANTPOWERVINE_1536_00_171: -4053929664757851246
+      PLANTPOWERVINE_1536_00_172: -551458403289072182
+      PLANTPOWERVINE_1536_00_173: -8953890914021141872
+      PLANTPOWERVINE_1536_00_174: 3863393317981979299
+      PLANTPOWERVINE_1536_00_175: 8668673711336499658
+      PLANTPOWERVINE_1536_00_18: 2388290172081000260
+      PLANTPOWERVINE_1536_00_19: 6606471409288953133
+      PLANTPOWERVINE_1536_00_2: -5704129847612302235
+      PLANTPOWERVINE_1536_00_20: 7075241705840523826
+      PLANTPOWERVINE_1536_00_21: 809041443653816156
+      PLANTPOWERVINE_1536_00_22: -8176760291552780528
+      PLANTPOWERVINE_1536_00_23: -4549458417816232258
+      PLANTPOWERVINE_1536_00_24: 4575032893596541051
+      PLANTPOWERVINE_1536_00_25: -111418759967084325
+      PLANTPOWERVINE_1536_00_26: 1717640787696582637
+      PLANTPOWERVINE_1536_00_27: -4309143076626840434
+      PLANTPOWERVINE_1536_00_28: 4996809134676032826
+      PLANTPOWERVINE_1536_00_29: -6407238390847949804
+      PLANTPOWERVINE_1536_00_3: -6339199411618646513
+      PLANTPOWERVINE_1536_00_30: 4766881317733329485
+      PLANTPOWERVINE_1536_00_31: -4967942221417908952
+      PLANTPOWERVINE_1536_00_32: -1708672940599918704
+      PLANTPOWERVINE_1536_00_33: -4471366085203202159
+      PLANTPOWERVINE_1536_00_34: -1838157743323690426
+      PLANTPOWERVINE_1536_00_35: -855384610547715652
+      PLANTPOWERVINE_1536_00_36: 1110065226373267319
+      PLANTPOWERVINE_1536_00_37: 791330703425917779
+      PLANTPOWERVINE_1536_00_38: 1024988619471622925
+      PLANTPOWERVINE_1536_00_39: 2196284349718406829
+      PLANTPOWERVINE_1536_00_4: 556184313341880031
+      PLANTPOWERVINE_1536_00_40: -2256636744251035603
+      PLANTPOWERVINE_1536_00_41: -3587320437812907574
+      PLANTPOWERVINE_1536_00_42: 4559713140369257819
+      PLANTPOWERVINE_1536_00_43: 8451734710056708358
+      PLANTPOWERVINE_1536_00_44: 6902029496078008440
+      PLANTPOWERVINE_1536_00_45: -9150856752732962479
+      PLANTPOWERVINE_1536_00_46: 3182824028193287578
+      PLANTPOWERVINE_1536_00_47: 8263505059355289651
+      PLANTPOWERVINE_1536_00_48: -6368111787163486629
+      PLANTPOWERVINE_1536_00_49: 978689793743735598
+      PLANTPOWERVINE_1536_00_5: -8410255110296903484
+      PLANTPOWERVINE_1536_00_50: -5794247896674498622
+      PLANTPOWERVINE_1536_00_51: -6201125710526221240
+      PLANTPOWERVINE_1536_00_52: -903667763785463136
+      PLANTPOWERVINE_1536_00_53: 2884038622259959463
+      PLANTPOWERVINE_1536_00_54: 673208807348641118
+      PLANTPOWERVINE_1536_00_55: 3829136381403407698
+      PLANTPOWERVINE_1536_00_56: -3326567896795178099
+      PLANTPOWERVINE_1536_00_57: -961462983163153801
+      PLANTPOWERVINE_1536_00_58: 1087222826459040607
+      PLANTPOWERVINE_1536_00_59: 5358771183686195582
+      PLANTPOWERVINE_1536_00_6: 2761072422660976757
+      PLANTPOWERVINE_1536_00_60: -2937730779533926967
+      PLANTPOWERVINE_1536_00_61: -1607414313441167977
+      PLANTPOWERVINE_1536_00_62: -6704301175681717798
+      PLANTPOWERVINE_1536_00_63: -499338190494350924
+      PLANTPOWERVINE_1536_00_64: -9030613687539324841
+      PLANTPOWERVINE_1536_00_65: -7200181439663531726
+      PLANTPOWERVINE_1536_00_66: 9039156012477133392
+      PLANTPOWERVINE_1536_00_67: 734617814358343014
+      PLANTPOWERVINE_1536_00_68: 5024526686259905439
+      PLANTPOWERVINE_1536_00_69: -4286414690291455876
+      PLANTPOWERVINE_1536_00_7: 9119809750381675760
+      PLANTPOWERVINE_1536_00_70: -6892650053028545264
+      PLANTPOWERVINE_1536_00_71: 1162588279491021835
+      PLANTPOWERVINE_1536_00_72: 515929560162795852
+      PLANTPOWERVINE_1536_00_73: -1839418998479917164
+      PLANTPOWERVINE_1536_00_74: 1487330084812446631
+      PLANTPOWERVINE_1536_00_75: -5422417115260770608
+      PLANTPOWERVINE_1536_00_76: 3788802374372655421
+      PLANTPOWERVINE_1536_00_77: 1071024336952829096
+      PLANTPOWERVINE_1536_00_78: 4209476245451979570
+      PLANTPOWERVINE_1536_00_79: 795608536012474627
+      PLANTPOWERVINE_1536_00_8: 4212131010867708836
+      PLANTPOWERVINE_1536_00_80: -8705882121346079543
+      PLANTPOWERVINE_1536_00_81: 5499317104795996055
+      PLANTPOWERVINE_1536_00_82: 2940496917747532716
+      PLANTPOWERVINE_1536_00_83: 8249338767347691453
+      PLANTPOWERVINE_1536_00_84: 2320538845303602825
+      PLANTPOWERVINE_1536_00_85: 6295872255195866441
+      PLANTPOWERVINE_1536_00_86: -7813356639840147494
+      PLANTPOWERVINE_1536_00_87: 5060480667348178060
+      PLANTPOWERVINE_1536_00_88: -6993189114863157182
+      PLANTPOWERVINE_1536_00_89: 2806309268915580587
+      PLANTPOWERVINE_1536_00_9: -7609354571740346140
+      PLANTPOWERVINE_1536_00_90: 1298853232352481350
+      PLANTPOWERVINE_1536_00_91: 8362988955521476476
+      PLANTPOWERVINE_1536_00_92: -6223294842316853033
+      PLANTPOWERVINE_1536_00_93: -5475318864163232699
+      PLANTPOWERVINE_1536_00_94: -6031010201283649745
+      PLANTPOWERVINE_1536_00_95: 8230772385402950139
+      PLANTPOWERVINE_1536_00_96: -3249431308612937610
+      PLANTPOWERVINE_1536_00_97: 5808042649777194323
+      PLANTPOWERVINE_1536_00_98: -4000984364738333437
+      PLANTPOWERVINE_1536_00_99: -4724417077151688750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

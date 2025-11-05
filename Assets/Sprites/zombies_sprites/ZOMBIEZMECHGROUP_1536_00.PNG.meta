@@ -1,0 +1,4277 @@
+fileFormatVersion: 2
+guid: 22c11ad73251b104692f907959cc74d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4977100037116344712
+    second: ZOMBIEZMECHGROUP_1536_00_0
+  - first:
+      213: -2588000054781486881
+    second: ZOMBIEZMECHGROUP_1536_00_1
+  - first:
+      213: 2394006458975606699
+    second: ZOMBIEZMECHGROUP_1536_00_2
+  - first:
+      213: -424232170252231315
+    second: ZOMBIEZMECHGROUP_1536_00_3
+  - first:
+      213: -6239766728020535141
+    second: ZOMBIEZMECHGROUP_1536_00_4
+  - first:
+      213: 757587693118198914
+    second: ZOMBIEZMECHGROUP_1536_00_5
+  - first:
+      213: 4799727068526147122
+    second: ZOMBIEZMECHGROUP_1536_00_6
+  - first:
+      213: -6018665710115373364
+    second: ZOMBIEZMECHGROUP_1536_00_7
+  - first:
+      213: 143503489860955764
+    second: ZOMBIEZMECHGROUP_1536_00_8
+  - first:
+      213: -2981137277449913203
+    second: ZOMBIEZMECHGROUP_1536_00_9
+  - first:
+      213: 8327367367686103048
+    second: ZOMBIEZMECHGROUP_1536_00_10
+  - first:
+      213: 985754738568461110
+    second: ZOMBIEZMECHGROUP_1536_00_11
+  - first:
+      213: -2321625893743340556
+    second: ZOMBIEZMECHGROUP_1536_00_12
+  - first:
+      213: 1248227598221099390
+    second: ZOMBIEZMECHGROUP_1536_00_13
+  - first:
+      213: 5892572058002979194
+    second: ZOMBIEZMECHGROUP_1536_00_14
+  - first:
+      213: 6423461557627063501
+    second: ZOMBIEZMECHGROUP_1536_00_15
+  - first:
+      213: 3196596617561867074
+    second: ZOMBIEZMECHGROUP_1536_00_16
+  - first:
+      213: 6730309051976659632
+    second: ZOMBIEZMECHGROUP_1536_00_17
+  - first:
+      213: -6369523235019704096
+    second: ZOMBIEZMECHGROUP_1536_00_18
+  - first:
+      213: 8328134359437144134
+    second: ZOMBIEZMECHGROUP_1536_00_19
+  - first:
+      213: 111750027671434887
+    second: ZOMBIEZMECHGROUP_1536_00_20
+  - first:
+      213: -8704483956068017816
+    second: ZOMBIEZMECHGROUP_1536_00_21
+  - first:
+      213: 1756260813398391017
+    second: ZOMBIEZMECHGROUP_1536_00_22
+  - first:
+      213: 7756668773833581105
+    second: ZOMBIEZMECHGROUP_1536_00_23
+  - first:
+      213: -2656559423804588291
+    second: ZOMBIEZMECHGROUP_1536_00_24
+  - first:
+      213: -5144125852657646082
+    second: ZOMBIEZMECHGROUP_1536_00_25
+  - first:
+      213: 7457348400327568607
+    second: ZOMBIEZMECHGROUP_1536_00_26
+  - first:
+      213: -7202886196036268522
+    second: ZOMBIEZMECHGROUP_1536_00_27
+  - first:
+      213: -7991738105693497816
+    second: ZOMBIEZMECHGROUP_1536_00_28
+  - first:
+      213: -3140926700606468951
+    second: ZOMBIEZMECHGROUP_1536_00_29
+  - first:
+      213: -5257808479996381579
+    second: ZOMBIEZMECHGROUP_1536_00_30
+  - first:
+      213: -416515031448049711
+    second: ZOMBIEZMECHGROUP_1536_00_31
+  - first:
+      213: 4531617180052924848
+    second: ZOMBIEZMECHGROUP_1536_00_32
+  - first:
+      213: 6933274241074217102
+    second: ZOMBIEZMECHGROUP_1536_00_33
+  - first:
+      213: 4106450726466059840
+    second: ZOMBIEZMECHGROUP_1536_00_34
+  - first:
+      213: -488245113307180144
+    second: ZOMBIEZMECHGROUP_1536_00_35
+  - first:
+      213: 1533561236352312405
+    second: ZOMBIEZMECHGROUP_1536_00_36
+  - first:
+      213: 4758932485578664067
+    second: ZOMBIEZMECHGROUP_1536_00_37
+  - first:
+      213: 7010670523184124258
+    second: ZOMBIEZMECHGROUP_1536_00_38
+  - first:
+      213: -912925910814919101
+    second: ZOMBIEZMECHGROUP_1536_00_39
+  - first:
+      213: 5675760527651544194
+    second: ZOMBIEZMECHGROUP_1536_00_40
+  - first:
+      213: -4340718920603095537
+    second: ZOMBIEZMECHGROUP_1536_00_41
+  - first:
+      213: 647710601601373079
+    second: ZOMBIEZMECHGROUP_1536_00_42
+  - first:
+      213: -6141142305535183873
+    second: ZOMBIEZMECHGROUP_1536_00_43
+  - first:
+      213: 7147226097292628435
+    second: ZOMBIEZMECHGROUP_1536_00_44
+  - first:
+      213: -3121919952930550388
+    second: ZOMBIEZMECHGROUP_1536_00_45
+  - first:
+      213: -299389886035229519
+    second: ZOMBIEZMECHGROUP_1536_00_46
+  - first:
+      213: -6371056429548663889
+    second: ZOMBIEZMECHGROUP_1536_00_47
+  - first:
+      213: 7494450535305129288
+    second: ZOMBIEZMECHGROUP_1536_00_48
+  - first:
+      213: 7639447139816408752
+    second: ZOMBIEZMECHGROUP_1536_00_49
+  - first:
+      213: -5483658116495792253
+    second: ZOMBIEZMECHGROUP_1536_00_50
+  - first:
+      213: 3071945864752433317
+    second: ZOMBIEZMECHGROUP_1536_00_51
+  - first:
+      213: 6625583587056730838
+    second: ZOMBIEZMECHGROUP_1536_00_52
+  - first:
+      213: 1810857657501308710
+    second: ZOMBIEZMECHGROUP_1536_00_53
+  - first:
+      213: -7378921277152658138
+    second: ZOMBIEZMECHGROUP_1536_00_54
+  - first:
+      213: 6895589489468720058
+    second: ZOMBIEZMECHGROUP_1536_00_55
+  - first:
+      213: 6022410551832169501
+    second: ZOMBIEZMECHGROUP_1536_00_56
+  - first:
+      213: -8442366312740993846
+    second: ZOMBIEZMECHGROUP_1536_00_57
+  - first:
+      213: -6271400174258948477
+    second: ZOMBIEZMECHGROUP_1536_00_58
+  - first:
+      213: 8835432173004957911
+    second: ZOMBIEZMECHGROUP_1536_00_59
+  - first:
+      213: -4837487686613812672
+    second: ZOMBIEZMECHGROUP_1536_00_60
+  - first:
+      213: 6181951569611151772
+    second: ZOMBIEZMECHGROUP_1536_00_61
+  - first:
+      213: -8863596836342366462
+    second: ZOMBIEZMECHGROUP_1536_00_62
+  - first:
+      213: -6553362719149506239
+    second: ZOMBIEZMECHGROUP_1536_00_63
+  - first:
+      213: -3455766439730957563
+    second: ZOMBIEZMECHGROUP_1536_00_64
+  - first:
+      213: 6286898805575839816
+    second: ZOMBIEZMECHGROUP_1536_00_65
+  - first:
+      213: 3483517756837175311
+    second: ZOMBIEZMECHGROUP_1536_00_66
+  - first:
+      213: -2401250842579081723
+    second: ZOMBIEZMECHGROUP_1536_00_67
+  - first:
+      213: 3505330203413750776
+    second: ZOMBIEZMECHGROUP_1536_00_68
+  - first:
+      213: 5689434470572810586
+    second: ZOMBIEZMECHGROUP_1536_00_69
+  - first:
+      213: 8361802087306619434
+    second: ZOMBIEZMECHGROUP_1536_00_70
+  - first:
+      213: -8900467327028976269
+    second: ZOMBIEZMECHGROUP_1536_00_71
+  - first:
+      213: -7117325024614954427
+    second: ZOMBIEZMECHGROUP_1536_00_72
+  - first:
+      213: -908252888991497107
+    second: ZOMBIEZMECHGROUP_1536_00_73
+  - first:
+      213: -7836410434181320373
+    second: ZOMBIEZMECHGROUP_1536_00_74
+  - first:
+      213: -7133027913866850287
+    second: ZOMBIEZMECHGROUP_1536_00_75
+  - first:
+      213: -8427637757552412098
+    second: ZOMBIEZMECHGROUP_1536_00_76
+  - first:
+      213: -8905712161707492235
+    second: ZOMBIEZMECHGROUP_1536_00_77
+  - first:
+      213: 3004651576203005556
+    second: ZOMBIEZMECHGROUP_1536_00_78
+  - first:
+      213: 5976920610054545599
+    second: ZOMBIEZMECHGROUP_1536_00_79
+  - first:
+      213: 2538981528027030127
+    second: ZOMBIEZMECHGROUP_1536_00_80
+  - first:
+      213: -8920294155979533078
+    second: ZOMBIEZMECHGROUP_1536_00_81
+  - first:
+      213: -2081086700079570767
+    second: ZOMBIEZMECHGROUP_1536_00_82
+  - first:
+      213: -2645883995456877804
+    second: ZOMBIEZMECHGROUP_1536_00_83
+  - first:
+      213: 9217792571389883639
+    second: ZOMBIEZMECHGROUP_1536_00_84
+  - first:
+      213: 8803632408461201478
+    second: ZOMBIEZMECHGROUP_1536_00_85
+  - first:
+      213: 411901754392652493
+    second: ZOMBIEZMECHGROUP_1536_00_86
+  - first:
+      213: -564056730089750994
+    second: ZOMBIEZMECHGROUP_1536_00_87
+  - first:
+      213: -5294945627049614422
+    second: ZOMBIEZMECHGROUP_1536_00_88
+  - first:
+      213: 7914528150526348650
+    second: ZOMBIEZMECHGROUP_1536_00_89
+  - first:
+      213: -8780846064800813521
+    second: ZOMBIEZMECHGROUP_1536_00_90
+  - first:
+      213: 8727162522449147295
+    second: ZOMBIEZMECHGROUP_1536_00_91
+  - first:
+      213: 8089036701988996129
+    second: ZOMBIEZMECHGROUP_1536_00_92
+  - first:
+      213: 6067648184768229835
+    second: ZOMBIEZMECHGROUP_1536_00_93
+  - first:
+      213: -4063212416749517798
+    second: ZOMBIEZMECHGROUP_1536_00_94
+  - first:
+      213: 895591812664093311
+    second: ZOMBIEZMECHGROUP_1536_00_95
+  - first:
+      213: 977518176125805203
+    second: ZOMBIEZMECHGROUP_1536_00_96
+  - first:
+      213: 2976280992304754166
+    second: ZOMBIEZMECHGROUP_1536_00_97
+  - first:
+      213: 9068224608199197863
+    second: ZOMBIEZMECHGROUP_1536_00_98
+  - first:
+      213: 5373564796769968921
+    second: ZOMBIEZMECHGROUP_1536_00_99
+  - first:
+      213: 4840775291465318643
+    second: ZOMBIEZMECHGROUP_1536_00_100
+  - first:
+      213: 6646378201749263326
+    second: ZOMBIEZMECHGROUP_1536_00_101
+  - first:
+      213: -7195065332613632237
+    second: ZOMBIEZMECHGROUP_1536_00_102
+  - first:
+      213: -8293482541653327734
+    second: ZOMBIEZMECHGROUP_1536_00_103
+  - first:
+      213: 3336839477151422246
+    second: ZOMBIEZMECHGROUP_1536_00_104
+  - first:
+      213: -163314599452236106
+    second: ZOMBIEZMECHGROUP_1536_00_105
+  - first:
+      213: -935699939865669142
+    second: ZOMBIEZMECHGROUP_1536_00_106
+  - first:
+      213: -1797579010186379868
+    second: ZOMBIEZMECHGROUP_1536_00_107
+  - first:
+      213: 1391595513357093488
+    second: ZOMBIEZMECHGROUP_1536_00_108
+  - first:
+      213: -2908655440252207766
+    second: ZOMBIEZMECHGROUP_1536_00_109
+  - first:
+      213: 1459538483626908812
+    second: ZOMBIEZMECHGROUP_1536_00_110
+  - first:
+      213: 483464864373330857
+    second: ZOMBIEZMECHGROUP_1536_00_111
+  - first:
+      213: -7279857576008405122
+    second: ZOMBIEZMECHGROUP_1536_00_112
+  - first:
+      213: -2601442668335639007
+    second: ZOMBIEZMECHGROUP_1536_00_113
+  - first:
+      213: -7799062212037098204
+    second: ZOMBIEZMECHGROUP_1536_00_114
+  - first:
+      213: -4047407913973792452
+    second: ZOMBIEZMECHGROUP_1536_00_115
+  - first:
+      213: 478702551115861548
+    second: ZOMBIEZMECHGROUP_1536_00_116
+  - first:
+      213: -1994801429004860049
+    second: ZOMBIEZMECHGROUP_1536_00_117
+  - first:
+      213: -1193470197887715073
+    second: ZOMBIEZMECHGROUP_1536_00_118
+  - first:
+      213: 951754442005247260
+    second: ZOMBIEZMECHGROUP_1536_00_119
+  - first:
+      213: 7863879583179861599
+    second: ZOMBIEZMECHGROUP_1536_00_120
+  - first:
+      213: -6579207091383421939
+    second: ZOMBIEZMECHGROUP_1536_00_121
+  - first:
+      213: 397777751708388875
+    second: ZOMBIEZMECHGROUP_1536_00_122
+  - first:
+      213: -4323306910961728784
+    second: ZOMBIEZMECHGROUP_1536_00_123
+  - first:
+      213: 1300988891784125473
+    second: ZOMBIEZMECHGROUP_1536_00_124
+  - first:
+      213: 8264861509041987718
+    second: ZOMBIEZMECHGROUP_1536_00_125
+  - first:
+      213: 4998220541106868590
+    second: ZOMBIEZMECHGROUP_1536_00_126
+  - first:
+      213: -6752788646507964795
+    second: ZOMBIEZMECHGROUP_1536_00_127
+  - first:
+      213: 2252442074287689738
+    second: ZOMBIEZMECHGROUP_1536_00_128
+  - first:
+      213: -5684864632165031952
+    second: ZOMBIEZMECHGROUP_1536_00_129
+  - first:
+      213: -3942348494319215176
+    second: ZOMBIEZMECHGROUP_1536_00_130
+  - first:
+      213: 8765426262644792938
+    second: ZOMBIEZMECHGROUP_1536_00_131
+  - first:
+      213: 1087430065567994062
+    second: ZOMBIEZMECHGROUP_1536_00_132
+  - first:
+      213: 5161095723036841588
+    second: ZOMBIEZMECHGROUP_1536_00_133
+  - first:
+      213: -2142823747437141433
+    second: ZOMBIEZMECHGROUP_1536_00_134
+  - first:
+      213: -7291363266552643318
+    second: ZOMBIEZMECHGROUP_1536_00_135
+  - first:
+      213: -8241418392703394220
+    second: ZOMBIEZMECHGROUP_1536_00_136
+  - first:
+      213: -4493303014415656361
+    second: ZOMBIEZMECHGROUP_1536_00_137
+  - first:
+      213: 6948829003358983113
+    second: ZOMBIEZMECHGROUP_1536_00_138
+  - first:
+      213: 1131837963126715435
+    second: ZOMBIEZMECHGROUP_1536_00_139
+  - first:
+      213: -118543655359506762
+    second: ZOMBIEZMECHGROUP_1536_00_140
+  - first:
+      213: 8024206493029768799
+    second: ZOMBIEZMECHGROUP_1536_00_141
+  - first:
+      213: -5577284556053201890
+    second: ZOMBIEZMECHGROUP_1536_00_142
+  - first:
+      213: -12253845978741688
+    second: ZOMBIEZMECHGROUP_1536_00_143
+  - first:
+      213: 2654611929203464129
+    second: ZOMBIEZMECHGROUP_1536_00_144
+  - first:
+      213: -3565677070634329615
+    second: ZOMBIEZMECHGROUP_1536_00_145
+  - first:
+      213: -2291492217670324504
+    second: ZOMBIEZMECHGROUP_1536_00_146
+  - first:
+      213: -1103881549619272634
+    second: ZOMBIEZMECHGROUP_1536_00_147
+  - first:
+      213: 8683666004534320645
+    second: ZOMBIEZMECHGROUP_1536_00_148
+  - first:
+      213: 3198438742311810314
+    second: ZOMBIEZMECHGROUP_1536_00_149
+  - first:
+      213: -7010420220038864595
+    second: ZOMBIEZMECHGROUP_1536_00_150
+  - first:
+      213: -6987971557341874840
+    second: ZOMBIEZMECHGROUP_1536_00_151
+  - first:
+      213: 280234569905546052
+    second: ZOMBIEZMECHGROUP_1536_00_152
+  - first:
+      213: -3659754773180112222
+    second: ZOMBIEZMECHGROUP_1536_00_153
+  - first:
+      213: -3786956293857740428
+    second: ZOMBIEZMECHGROUP_1536_00_154
+  - first:
+      213: -7878129989564257112
+    second: ZOMBIEZMECHGROUP_1536_00_155
+  - first:
+      213: 7253961099020393875
+    second: ZOMBIEZMECHGROUP_1536_00_156
+  - first:
+      213: 7509839883879614232
+    second: ZOMBIEZMECHGROUP_1536_00_157
+  - first:
+      213: -4341609435261745411
+    second: ZOMBIEZMECHGROUP_1536_00_158
+  - first:
+      213: 6367611524129296493
+    second: ZOMBIEZMECHGROUP_1536_00_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1161
+        width: 546
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88937eb2d16321540800000000000000
+      internalID: 4977100037116344712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1206
+        width: 527
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8de0879a3951cd0800000000000000
+      internalID: -2588000054781486881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1268
+        width: 448
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba75b31c038393120800000000000000
+      internalID: 2394006458975606699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1321
+        width: 412
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d92ddb613dc1af0800000000000000
+      internalID: -424232170252231315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1524
+        width: 74
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98d8077835e769a0800000000000000
+      internalID: -6239766728020535141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1384
+        width: 70
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28494863efd738a00800000000000000
+      internalID: 757587693118198914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1460
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236f35ab65e0c9240800000000000000
+      internalID: 4799727068526147122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1443
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccebfb6cc67697ca0800000000000000
+      internalID: -6018665710115373364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1426
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ee039e9a3ddf100800000000000000
+      internalID: 143503489860955764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1415
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c3ceed07fd0a6d0800000000000000
+      internalID: -2981137277449913203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1274
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8002c192080c09370800000000000000
+      internalID: 8327367367686103048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 376
+        width: 86
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bf70446ba1ead00800000000000000
+      internalID: 985754738568461110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 376
+        width: 30
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f35416dc8de7cfd0800000000000000
+      internalID: -2321625893743340556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 376
+        width: 30
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71cece1368925110800000000000000
+      internalID: 1248227598221099390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1257
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79f8aa011f96c150800000000000000
+      internalID: 5892572058002979194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1253
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc0db2f048b42950800000000000000
+      internalID: 6423461557627063501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1254
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2438df7ffa79c5c20800000000000000
+      internalID: 3196596617561867074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1130
+        width: 43
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b23aaf8c6cd66d50800000000000000
+      internalID: 6730309051976659632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 941
+        width: 298
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8bd0c6d58ea97a0800000000000000
+      internalID: -6369523235019704096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1009
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640f9f7531a739370800000000000000
+      internalID: 8328134359437144134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1169
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786fefede040d8100800000000000000
+      internalID: 111750027671434887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 953
+        width: 365
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699a75d5f5733780800000000000000
+      internalID: -8704483956068017816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 914
+        width: 373
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8bc8b97ed7f5810800000000000000
+      internalID: 1756260813398391017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1003
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13227b8372935ab60800000000000000
+      internalID: 7756668773833581105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1153
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe39637741022bd0800000000000000
+      internalID: -2656559423804588291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 973
+        width: 365
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef50070bac46c98b0800000000000000
+      internalID: -5144125852657646082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1117
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc2adffbd2dd7760800000000000000
+      internalID: 7457348400327568607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1046
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e81bfca253a0c90800000000000000
+      internalID: -7202886196036268522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8269f20f884a71190800000000000000
+      internalID: -7991738105693497816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1090
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9accfc0aecf2964d0800000000000000
+      internalID: -3140926700606468951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1098
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57677c46b038807b0800000000000000
+      internalID: -5257808479996381579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1082
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7ade229cd383af0800000000000000
+      internalID: -416515031448049711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1049
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9ac13d0d983ee30800000000000000
+      internalID: 4531617180052924848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1017
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80489d2030f73060800000000000000
+      internalID: 6933274241074217102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 993
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e77a6cd2b0df830800000000000000
+      internalID: 4106450726466059840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 944
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093510208a76939f0800000000000000
+      internalID: -488245113307180144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 946
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554a61eb1dd484510800000000000000
+      internalID: 1533561236352312405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 964
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388abf8b1ef1b0240800000000000000
+      internalID: 4758932485578664067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 958
+        width: 97
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26111bb52b7ea4160800000000000000
+      internalID: 7010670523184124258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 958
+        width: 93
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34670a398b2a453f0800000000000000
+      internalID: -912925910814919101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 962
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c9ad0e02a54ce40800000000000000
+      internalID: 5675760527651544194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 942
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ea2abc32ba2c3c0800000000000000
+      internalID: -4340718920603095537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 682
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79354b54c512df800800000000000000
+      internalID: 647710601601373079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 941
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3b37b3c9746caa0800000000000000
+      internalID: -6141142305535183873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 941
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d15782944c003360800000000000000
+      internalID: 7147226097292628435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 948
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dce5ce756bca4d0800000000000000
+      internalID: -3121919952930550388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 923
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b486812c7a58dbf0800000000000000
+      internalID: -299389886035229519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 663
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab88c0cee57597a0800000000000000
+      internalID: -6371056429548663889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 656
+        width: 241
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d2997fd03a10860800000000000000
+      internalID: 7494450535305129288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 672
+        width: 238
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b68129b2b4c40a60800000000000000
+      internalID: 7639447139816408752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 886
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387a4982ff126e3b0800000000000000
+      internalID: -5483658116495792253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 914
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a88cc5fc7eb1aa20800000000000000
+      internalID: 3071945864752433317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 852
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2cc282b2dc2fb50800000000000000
+      internalID: 6625583587056730838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 646
+        width: 245
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6275926f175712910800000000000000
+      internalID: 1810857657501308710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2
+        width: 46
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d7eb1913ec89990800000000000000
+      internalID: -7378921277152658138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 783
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab343b43b1e02bf50800000000000000
+      internalID: 6895589489468720058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 643
+        width: 250
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c45812d76e39350800000000000000
+      internalID: 6022410551832169501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 629
+        width: 148
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac449517190b6da80800000000000000
+      internalID: -8442366312740993846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 821
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386f8f0d4c287f8a0800000000000000
+      internalID: -6271400174258948477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 789
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8a40dcfb2cd9a70800000000000000
+      internalID: 8835432173004957911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 758
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04abe02449acddcb0800000000000000
+      internalID: -4837487686613812672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 644
+        width: 53
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99575df234bac550800000000000000
+      internalID: 6181951569611151772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 761
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f798183ad2ef480800000000000000
+      internalID: -8863596836342366462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 748
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1414ec00457cd05a0800000000000000
+      internalID: -6553362719149506239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 743
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503be158bb6aa00d0800000000000000
+      internalID: -3455766439730957563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 738
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840fc2d772d8f3750800000000000000
+      internalID: 6286898805575839816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 462
+        width: 209
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00ab0181f0f75030800000000000000
+      internalID: 3483517756837175311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 510
+        width: 291
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506677fb41b0daed0800000000000000
+      internalID: -2401250842579081723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 455
+        width: 197
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3acea7f3f65a030800000000000000
+      internalID: 3505330203413750776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 568
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51ea5fc18ee4fe40800000000000000
+      internalID: 5689434470572810586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 345
+        width: 108
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ae70812b61b0470800000000000000
+      internalID: 8361802087306619434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 447
+        width: 119
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375a77d6f103b7480800000000000000
+      internalID: -8900467327028976269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 421
+        width: 170
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ac3dc699e2a3d90800000000000000
+      internalID: -7117325024614954427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 550
+        width: 55
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6480714fcc3563f0800000000000000
+      internalID: -908252888991497107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 599
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41357caa3a7f3390800000000000000
+      internalID: -7836410434181320373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 445
+        width: 188
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110550d97e4620d90800000000000000
+      internalID: -7133027913866850287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 624
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a3b6d6c140b0b80800000000000000
+      internalID: -8427637757552412098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 623
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c7c8139fd886480800000000000000
+      internalID: -8905712161707492235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 575
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ec56170baa2b920800000000000000
+      internalID: 3004651576203005556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 427
+        width: 183
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb02305b0a942f250800000000000000
+      internalID: 5976920610054545599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 378
+        width: 114
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6264556f364c3320800000000000000
+      internalID: 2538981528027030127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 484
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4d8d41abfb43480800000000000000
+      internalID: -8920294155979533078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 540
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0a7fe1cae7e13e0800000000000000
+      internalID: -2081086700079570767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 340
+        width: 207
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bc6ed468ee74bd0800000000000000
+      internalID: -2645883995456877804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 466
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4bde6718d2cef70800000000000000
+      internalID: 9217792571389883639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 443
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64052772809cc2a70800000000000000
+      internalID: 8803632408461201478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 456
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca2fe8967e57b500800000000000000
+      internalID: 411901754392652493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 301
+        width: 139
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ef4d974611c28f0800000000000000
+      internalID: -564056730089750994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 374
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa323ba81039486b0800000000000000
+      internalID: -5294945627049614422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 295
+        width: 170
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6dc3f08b6d06dd60800000000000000
+      internalID: 7914528150526348650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 213
+        width: 113
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e2928e60b242680800000000000000
+      internalID: -8780846064800813521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95feaf531c1d1970800000000000000
+      internalID: 8727162522449147295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 386
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124c62dd508024070800000000000000
+      internalID: 8089036701988996129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 433
+        width: 60
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1772350ed943450800000000000000
+      internalID: 6067648184768229835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 300
+        width: 157
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1440b4b5d19c97c0800000000000000
+      internalID: -4063212416749517798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 373
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a67913208cd6c00800000000000000
+      internalID: 895591812664093311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 380
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39267712a97d09d00800000000000000
+      internalID: 977518176125805203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 354
+        width: 90
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd62122bcfdd4920800000000000000
+      internalID: 2976280992304754166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 308
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a44b235c3ec8dd70800000000000000
+      internalID: 9068224608199197863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 289
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913a40956bcb29a40800000000000000
+      internalID: 5373564796769968921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 381
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f04745ea73ed2340800000000000000
+      internalID: 4840775291465318643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 342
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed31a2ea2cdac3c50800000000000000
+      internalID: 6646378201749263326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 340
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f26d9733ef52c90800000000000000
+      internalID: -7195065332613632237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 339
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8089d1b191a7ec80800000000000000
+      internalID: -8293482541653327734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 263
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6275c1c33d5de4e20800000000000000
+      internalID: 3336839477151422246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 292
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6a301bc3acbbdf0800000000000000
+      internalID: -163314599452236106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 267
+        width: 158
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1d3fbbcd9b303f0800000000000000
+      internalID: -935699939865669142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 341
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad742a0a67bd07e0800000000000000
+      internalID: -1797579010186379868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 223
+        width: 101
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a4da41fb0ff4310800000000000000
+      internalID: 1391595513357093488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 225
+        width: 98
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d72cda94162a7d0800000000000000
+      internalID: -2908655440252207766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 289
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c18949482514410800000000000000
+      internalID: 1459538483626908812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 253
+        width: 140
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3da5e8bbc95b600800000000000000
+      internalID: 483464864373330857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 312
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f259eda10c8fa90800000000000000
+      internalID: -7279857576008405122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 229
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1265f4a1da1d5ebd0800000000000000
+      internalID: -2601442668335639007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 225
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4254b564d3a24c390800000000000000
+      internalID: -7799062212037098204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 180
+        width: 83
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31cc7242f7b4d7c0800000000000000
+      internalID: -4047407913973792452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 194
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e85581f61b4a600800000000000000
+      internalID: 478702551115861548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 220
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6549b25baa0154e0800000000000000
+      internalID: -1994801429004860049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 269
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff833e4ad21ff6fe0800000000000000
+      internalID: -1193470197887715073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 251
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c157f155f9f453d00800000000000000
+      internalID: 951754442005247260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 256
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ee1e7f0dc122d60800000000000000
+      internalID: 7863879583179861599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 200
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d043c5e2206f1b4a0800000000000000
+      internalID: -6579207091383421939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 220
+        width: 158
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ec126f1c0358500800000000000000
+      internalID: 397777751708388875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 189
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2822535478004c0800000000000000
+      internalID: -4323306910961728784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 185
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c958f018a0e0210800000000000000
+      internalID: 1300988891784125473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 165
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6802f3cd0cfa2b270800000000000000
+      internalID: 8264861509041987718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 187
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e615cb5b91f3d5540800000000000000
+      internalID: 4998220541106868590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 174
+        width: 92
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5861a99f0864942a0800000000000000
+      internalID: -6752788646507964795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 177
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00df03f128424f10800000000000000
+      internalID: 2252442074287689738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 179
+        width: 97
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff1f9b9cbd4b11b0800000000000000
+      internalID: -5684864632165031952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 181
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd9e4f8ee6f949c0800000000000000
+      internalID: -3942348494319215176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 222
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e92d1aebc05a970800000000000000
+      internalID: 8765426262644792938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 180
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0924812e3571f00800000000000000
+      internalID: 1087430065567994062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 199
+        width: 121
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47616672735ef9740800000000000000
+      internalID: 5161095723036841588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 76
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742ecb5a7292342e0800000000000000
+      internalID: -2142823747437141433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 138
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a014cc88dbfdfca90800000000000000
+      internalID: -7291363266552643318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 138
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e1b8103a990ad80800000000000000
+      internalID: -8241418392703394220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a109507b494a1c0800000000000000
+      internalID: -4493303014415656361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 139
+        width: 90
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3d42e79233f6060800000000000000
+      internalID: 6948829003358983113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 110
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24387771a815bf00800000000000000
+      internalID: 1131837963126715435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 142
+        width: 92
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b69beb6c29da5ef0800000000000000
+      internalID: -118543655359506762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 160
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e1c659a45bb5f60800000000000000
+      internalID: 8024206493029768799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 156
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c3d29fe318992b0800000000000000
+      internalID: -5577284556053201890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 142
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8440e47213774dff0800000000000000
+      internalID: -12253845978741688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 138
+        width: 66
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7dfa02c7317d420800000000000000
+      internalID: 2654611929203464129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 138
+        width: 87
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9d515989b248ec0800000000000000
+      internalID: -3565677070634329615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 136
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee203808fbf230e0800000000000000
+      internalID: -2291492217670324504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_147
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 145
+        width: 93
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644e5d844993ea0f0800000000000000
+      internalID: -1103881549619272634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_148
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 139
+        width: 89
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e576c1934928870800000000000000
+      internalID: 8683666004534320645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_149
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 127
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05b75f0713236c20800000000000000
+      internalID: 3198438742311810314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_150
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 116
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d212e52e3fbf5be90800000000000000
+      internalID: -7010420220038864595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_151
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 154
+        width: 91
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865ba1874ecb50f90800000000000000
+      internalID: -6987971557341874840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_152
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 107
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44321094bd793e300800000000000000
+      internalID: 280234569905546052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_153
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 127
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a22f8b8c60f53dc0800000000000000
+      internalID: -3659754773180112222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_154
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 136
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479fdac9057027bc0800000000000000
+      internalID: -3786956293857740428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_155
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 115
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acabadb3824ba290800000000000000
+      internalID: -7878129989564257112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_156
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 115
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ddc99bf2f3ba460800000000000000
+      internalID: 7253961099020393875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_157
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 124
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81784b6e59f483860800000000000000
+      internalID: 7509839883879614232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_158
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 124
+        width: 71
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df64db1b8318fb3c0800000000000000
+      internalID: -4341609435261745411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZOMBIEZMECHGROUP_1536_00_159
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 121
+        width: 88
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d601963b1fc4e5850800000000000000
+      internalID: 6367611524129296493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZOMBIEZMECHGROUP_1536_00_0: 4977100037116344712
+      ZOMBIEZMECHGROUP_1536_00_1: -2588000054781486881
+      ZOMBIEZMECHGROUP_1536_00_10: 8327367367686103048
+      ZOMBIEZMECHGROUP_1536_00_100: 4840775291465318643
+      ZOMBIEZMECHGROUP_1536_00_101: 6646378201749263326
+      ZOMBIEZMECHGROUP_1536_00_102: -7195065332613632237
+      ZOMBIEZMECHGROUP_1536_00_103: -8293482541653327734
+      ZOMBIEZMECHGROUP_1536_00_104: 3336839477151422246
+      ZOMBIEZMECHGROUP_1536_00_105: -163314599452236106
+      ZOMBIEZMECHGROUP_1536_00_106: -935699939865669142
+      ZOMBIEZMECHGROUP_1536_00_107: -1797579010186379868
+      ZOMBIEZMECHGROUP_1536_00_108: 1391595513357093488
+      ZOMBIEZMECHGROUP_1536_00_109: -2908655440252207766
+      ZOMBIEZMECHGROUP_1536_00_11: 985754738568461110
+      ZOMBIEZMECHGROUP_1536_00_110: 1459538483626908812
+      ZOMBIEZMECHGROUP_1536_00_111: 483464864373330857
+      ZOMBIEZMECHGROUP_1536_00_112: -7279857576008405122
+      ZOMBIEZMECHGROUP_1536_00_113: -2601442668335639007
+      ZOMBIEZMECHGROUP_1536_00_114: -7799062212037098204
+      ZOMBIEZMECHGROUP_1536_00_115: -4047407913973792452
+      ZOMBIEZMECHGROUP_1536_00_116: 478702551115861548
+      ZOMBIEZMECHGROUP_1536_00_117: -1994801429004860049
+      ZOMBIEZMECHGROUP_1536_00_118: -1193470197887715073
+      ZOMBIEZMECHGROUP_1536_00_119: 951754442005247260
+      ZOMBIEZMECHGROUP_1536_00_12: -2321625893743340556
+      ZOMBIEZMECHGROUP_1536_00_120: 7863879583179861599
+      ZOMBIEZMECHGROUP_1536_00_121: -6579207091383421939
+      ZOMBIEZMECHGROUP_1536_00_122: 397777751708388875
+      ZOMBIEZMECHGROUP_1536_00_123: -4323306910961728784
+      ZOMBIEZMECHGROUP_1536_00_124: 1300988891784125473
+      ZOMBIEZMECHGROUP_1536_00_125: 8264861509041987718
+      ZOMBIEZMECHGROUP_1536_00_126: 4998220541106868590
+      ZOMBIEZMECHGROUP_1536_00_127: -6752788646507964795
+      ZOMBIEZMECHGROUP_1536_00_128: 2252442074287689738
+      ZOMBIEZMECHGROUP_1536_00_129: -5684864632165031952
+      ZOMBIEZMECHGROUP_1536_00_13: 1248227598221099390
+      ZOMBIEZMECHGROUP_1536_00_130: -3942348494319215176
+      ZOMBIEZMECHGROUP_1536_00_131: 8765426262644792938
+      ZOMBIEZMECHGROUP_1536_00_132: 1087430065567994062
+      ZOMBIEZMECHGROUP_1536_00_133: 5161095723036841588
+      ZOMBIEZMECHGROUP_1536_00_134: -2142823747437141433
+      ZOMBIEZMECHGROUP_1536_00_135: -7291363266552643318
+      ZOMBIEZMECHGROUP_1536_00_136: -8241418392703394220
+      ZOMBIEZMECHGROUP_1536_00_137: -4493303014415656361
+      ZOMBIEZMECHGROUP_1536_00_138: 6948829003358983113
+      ZOMBIEZMECHGROUP_1536_00_139: 1131837963126715435
+      ZOMBIEZMECHGROUP_1536_00_14: 5892572058002979194
+      ZOMBIEZMECHGROUP_1536_00_140: -118543655359506762
+      ZOMBIEZMECHGROUP_1536_00_141: 8024206493029768799
+      ZOMBIEZMECHGROUP_1536_00_142: -5577284556053201890
+      ZOMBIEZMECHGROUP_1536_00_143: -12253845978741688
+      ZOMBIEZMECHGROUP_1536_00_144: 2654611929203464129
+      ZOMBIEZMECHGROUP_1536_00_145: -3565677070634329615
+      ZOMBIEZMECHGROUP_1536_00_146: -2291492217670324504
+      ZOMBIEZMECHGROUP_1536_00_147: -1103881549619272634
+      ZOMBIEZMECHGROUP_1536_00_148: 8683666004534320645
+      ZOMBIEZMECHGROUP_1536_00_149: 3198438742311810314
+      ZOMBIEZMECHGROUP_1536_00_15: 6423461557627063501
+      ZOMBIEZMECHGROUP_1536_00_150: -7010420220038864595
+      ZOMBIEZMECHGROUP_1536_00_151: -6987971557341874840
+      ZOMBIEZMECHGROUP_1536_00_152: 280234569905546052
+      ZOMBIEZMECHGROUP_1536_00_153: -3659754773180112222
+      ZOMBIEZMECHGROUP_1536_00_154: -3786956293857740428
+      ZOMBIEZMECHGROUP_1536_00_155: -7878129989564257112
+      ZOMBIEZMECHGROUP_1536_00_156: 7253961099020393875
+      ZOMBIEZMECHGROUP_1536_00_157: 7509839883879614232
+      ZOMBIEZMECHGROUP_1536_00_158: -4341609435261745411
+      ZOMBIEZMECHGROUP_1536_00_159: 6367611524129296493
+      ZOMBIEZMECHGROUP_1536_00_16: 3196596617561867074
+      ZOMBIEZMECHGROUP_1536_00_17: 6730309051976659632
+      ZOMBIEZMECHGROUP_1536_00_18: -6369523235019704096
+      ZOMBIEZMECHGROUP_1536_00_19: 8328134359437144134
+      ZOMBIEZMECHGROUP_1536_00_2: 2394006458975606699
+      ZOMBIEZMECHGROUP_1536_00_20: 111750027671434887
+      ZOMBIEZMECHGROUP_1536_00_21: -8704483956068017816
+      ZOMBIEZMECHGROUP_1536_00_22: 1756260813398391017
+      ZOMBIEZMECHGROUP_1536_00_23: 7756668773833581105
+      ZOMBIEZMECHGROUP_1536_00_24: -2656559423804588291
+      ZOMBIEZMECHGROUP_1536_00_25: -5144125852657646082
+      ZOMBIEZMECHGROUP_1536_00_26: 7457348400327568607
+      ZOMBIEZMECHGROUP_1536_00_27: -7202886196036268522
+      ZOMBIEZMECHGROUP_1536_00_28: -7991738105693497816
+      ZOMBIEZMECHGROUP_1536_00_29: -3140926700606468951
+      ZOMBIEZMECHGROUP_1536_00_3: -424232170252231315
+      ZOMBIEZMECHGROUP_1536_00_30: -5257808479996381579
+      ZOMBIEZMECHGROUP_1536_00_31: -416515031448049711
+      ZOMBIEZMECHGROUP_1536_00_32: 4531617180052924848
+      ZOMBIEZMECHGROUP_1536_00_33: 6933274241074217102
+      ZOMBIEZMECHGROUP_1536_00_34: 4106450726466059840
+      ZOMBIEZMECHGROUP_1536_00_35: -488245113307180144
+      ZOMBIEZMECHGROUP_1536_00_36: 1533561236352312405
+      ZOMBIEZMECHGROUP_1536_00_37: 4758932485578664067
+      ZOMBIEZMECHGROUP_1536_00_38: 7010670523184124258
+      ZOMBIEZMECHGROUP_1536_00_39: -912925910814919101
+      ZOMBIEZMECHGROUP_1536_00_4: -6239766728020535141
+      ZOMBIEZMECHGROUP_1536_00_40: 5675760527651544194
+      ZOMBIEZMECHGROUP_1536_00_41: -4340718920603095537
+      ZOMBIEZMECHGROUP_1536_00_42: 647710601601373079
+      ZOMBIEZMECHGROUP_1536_00_43: -6141142305535183873
+      ZOMBIEZMECHGROUP_1536_00_44: 7147226097292628435
+      ZOMBIEZMECHGROUP_1536_00_45: -3121919952930550388
+      ZOMBIEZMECHGROUP_1536_00_46: -299389886035229519
+      ZOMBIEZMECHGROUP_1536_00_47: -6371056429548663889
+      ZOMBIEZMECHGROUP_1536_00_48: 7494450535305129288
+      ZOMBIEZMECHGROUP_1536_00_49: 7639447139816408752
+      ZOMBIEZMECHGROUP_1536_00_5: 757587693118198914
+      ZOMBIEZMECHGROUP_1536_00_50: -5483658116495792253
+      ZOMBIEZMECHGROUP_1536_00_51: 3071945864752433317
+      ZOMBIEZMECHGROUP_1536_00_52: 6625583587056730838
+      ZOMBIEZMECHGROUP_1536_00_53: 1810857657501308710
+      ZOMBIEZMECHGROUP_1536_00_54: -7378921277152658138
+      ZOMBIEZMECHGROUP_1536_00_55: 6895589489468720058
+      ZOMBIEZMECHGROUP_1536_00_56: 6022410551832169501
+      ZOMBIEZMECHGROUP_1536_00_57: -8442366312740993846
+      ZOMBIEZMECHGROUP_1536_00_58: -6271400174258948477
+      ZOMBIEZMECHGROUP_1536_00_59: 8835432173004957911
+      ZOMBIEZMECHGROUP_1536_00_6: 4799727068526147122
+      ZOMBIEZMECHGROUP_1536_00_60: -4837487686613812672
+      ZOMBIEZMECHGROUP_1536_00_61: 6181951569611151772
+      ZOMBIEZMECHGROUP_1536_00_62: -8863596836342366462
+      ZOMBIEZMECHGROUP_1536_00_63: -6553362719149506239
+      ZOMBIEZMECHGROUP_1536_00_64: -3455766439730957563
+      ZOMBIEZMECHGROUP_1536_00_65: 6286898805575839816
+      ZOMBIEZMECHGROUP_1536_00_66: 3483517756837175311
+      ZOMBIEZMECHGROUP_1536_00_67: -2401250842579081723
+      ZOMBIEZMECHGROUP_1536_00_68: 3505330203413750776
+      ZOMBIEZMECHGROUP_1536_00_69: 5689434470572810586
+      ZOMBIEZMECHGROUP_1536_00_7: -6018665710115373364
+      ZOMBIEZMECHGROUP_1536_00_70: 8361802087306619434
+      ZOMBIEZMECHGROUP_1536_00_71: -8900467327028976269
+      ZOMBIEZMECHGROUP_1536_00_72: -7117325024614954427
+      ZOMBIEZMECHGROUP_1536_00_73: -908252888991497107
+      ZOMBIEZMECHGROUP_1536_00_74: -7836410434181320373
+      ZOMBIEZMECHGROUP_1536_00_75: -7133027913866850287
+      ZOMBIEZMECHGROUP_1536_00_76: -8427637757552412098
+      ZOMBIEZMECHGROUP_1536_00_77: -8905712161707492235
+      ZOMBIEZMECHGROUP_1536_00_78: 3004651576203005556
+      ZOMBIEZMECHGROUP_1536_00_79: 5976920610054545599
+      ZOMBIEZMECHGROUP_1536_00_8: 143503489860955764
+      ZOMBIEZMECHGROUP_1536_00_80: 2538981528027030127
+      ZOMBIEZMECHGROUP_1536_00_81: -8920294155979533078
+      ZOMBIEZMECHGROUP_1536_00_82: -2081086700079570767
+      ZOMBIEZMECHGROUP_1536_00_83: -2645883995456877804
+      ZOMBIEZMECHGROUP_1536_00_84: 9217792571389883639
+      ZOMBIEZMECHGROUP_1536_00_85: 8803632408461201478
+      ZOMBIEZMECHGROUP_1536_00_86: 411901754392652493
+      ZOMBIEZMECHGROUP_1536_00_87: -564056730089750994
+      ZOMBIEZMECHGROUP_1536_00_88: -5294945627049614422
+      ZOMBIEZMECHGROUP_1536_00_89: 7914528150526348650
+      ZOMBIEZMECHGROUP_1536_00_9: -2981137277449913203
+      ZOMBIEZMECHGROUP_1536_00_90: -8780846064800813521
+      ZOMBIEZMECHGROUP_1536_00_91: 8727162522449147295
+      ZOMBIEZMECHGROUP_1536_00_92: 8089036701988996129
+      ZOMBIEZMECHGROUP_1536_00_93: 6067648184768229835
+      ZOMBIEZMECHGROUP_1536_00_94: -4063212416749517798
+      ZOMBIEZMECHGROUP_1536_00_95: 895591812664093311
+      ZOMBIEZMECHGROUP_1536_00_96: 977518176125805203
+      ZOMBIEZMECHGROUP_1536_00_97: 2976280992304754166
+      ZOMBIEZMECHGROUP_1536_00_98: 9068224608199197863
+      ZOMBIEZMECHGROUP_1536_00_99: 5373564796769968921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

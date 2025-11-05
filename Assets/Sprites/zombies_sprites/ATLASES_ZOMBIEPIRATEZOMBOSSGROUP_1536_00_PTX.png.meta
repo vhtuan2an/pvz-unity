@@ -1,0 +1,5837 @@
+fileFormatVersion: 2
+guid: 289a4a0f2c0e96848876467b08134c36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7904083531850432209
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_0
+  - first:
+      213: -5183814592279232295
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_1
+  - first:
+      213: -7471898171484968380
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_2
+  - first:
+      213: -3844153327551652096
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_3
+  - first:
+      213: -859943251966030879
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_4
+  - first:
+      213: 5920664848053974074
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_5
+  - first:
+      213: -6529134336390844344
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_6
+  - first:
+      213: 5957796371028748046
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_7
+  - first:
+      213: -2661303997133179611
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_8
+  - first:
+      213: 5017200837469233397
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_9
+  - first:
+      213: 7381361014089891286
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_10
+  - first:
+      213: 1410111896626242182
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_11
+  - first:
+      213: -1161730068417802165
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_12
+  - first:
+      213: -7734939042053146942
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_13
+  - first:
+      213: 1058207668968106075
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_14
+  - first:
+      213: -3013654820652515053
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_15
+  - first:
+      213: 3965871869434019681
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_16
+  - first:
+      213: -5164714774764557530
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_17
+  - first:
+      213: -5293941684381931287
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_18
+  - first:
+      213: -5046621921039633591
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_19
+  - first:
+      213: -1812052737968545285
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_20
+  - first:
+      213: -7030927806466484341
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_21
+  - first:
+      213: 3958744693799094835
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_22
+  - first:
+      213: 5656278930580368131
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_23
+  - first:
+      213: 3668430799651682696
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_24
+  - first:
+      213: 6008630948855308701
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_25
+  - first:
+      213: -6150058981544444535
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_26
+  - first:
+      213: 296595905790610037
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_27
+  - first:
+      213: 4581363559677637461
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_28
+  - first:
+      213: -1395001374363310513
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_29
+  - first:
+      213: -2071181519959108831
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_30
+  - first:
+      213: 4277656651969614911
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_31
+  - first:
+      213: -8031922330560557398
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_32
+  - first:
+      213: -3929801366459294747
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_33
+  - first:
+      213: -5025512873753193019
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_34
+  - first:
+      213: -26108858849423675
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_35
+  - first:
+      213: -2285938978608945316
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_36
+  - first:
+      213: -4538386776166354179
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_37
+  - first:
+      213: 5093597523980217275
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_38
+  - first:
+      213: -6651254765241739816
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_39
+  - first:
+      213: -2188217443112751471
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_40
+  - first:
+      213: 6373848858401052061
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_41
+  - first:
+      213: -1511426141411271798
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_42
+  - first:
+      213: -1670837181043429178
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_43
+  - first:
+      213: 1900997162157529180
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_44
+  - first:
+      213: 7359892296097044628
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_45
+  - first:
+      213: 1731095414550765820
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_46
+  - first:
+      213: 4371424900555355051
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_47
+  - first:
+      213: -4504948916441648525
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_48
+  - first:
+      213: -8094463506034581445
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_49
+  - first:
+      213: 4069281301814161486
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_50
+  - first:
+      213: -6999362104644542697
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_51
+  - first:
+      213: -1596435625897778245
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_52
+  - first:
+      213: -4374890452932752197
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_53
+  - first:
+      213: 4742539419441485777
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_54
+  - first:
+      213: -2692460814267171373
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_55
+  - first:
+      213: 6809903216844166569
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_56
+  - first:
+      213: -4734324209285963673
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_57
+  - first:
+      213: -2827635256731119471
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_58
+  - first:
+      213: 8591955960859650852
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_59
+  - first:
+      213: 1074936680409775372
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_60
+  - first:
+      213: -1298157496945838614
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_61
+  - first:
+      213: 1211288660496385265
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_62
+  - first:
+      213: 5774815555545154986
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_63
+  - first:
+      213: -3823273664586862557
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_64
+  - first:
+      213: 6972588073268772965
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_65
+  - first:
+      213: 7425749435643678057
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_66
+  - first:
+      213: -6532422371192796917
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_67
+  - first:
+      213: 2278118990155802862
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_68
+  - first:
+      213: -7712588912280491646
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_69
+  - first:
+      213: 1621346049911049315
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_70
+  - first:
+      213: 5322592156739773656
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_71
+  - first:
+      213: 8543104030045363478
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_72
+  - first:
+      213: -5855668840632999038
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_73
+  - first:
+      213: -133627273228746872
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_74
+  - first:
+      213: -4636256321389524618
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_75
+  - first:
+      213: -8750765913242000992
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_76
+  - first:
+      213: -4155230533735105714
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_77
+  - first:
+      213: 6523799592998345836
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_78
+  - first:
+      213: 169193876511321264
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_79
+  - first:
+      213: -6056766677822758019
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_80
+  - first:
+      213: 815242140078540086
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_81
+  - first:
+      213: -6780505858909054763
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_82
+  - first:
+      213: -6008450653185560883
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_83
+  - first:
+      213: -1408257108510542633
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_84
+  - first:
+      213: -7912099309141106510
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_85
+  - first:
+      213: 3419787269457371328
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_86
+  - first:
+      213: -6994749255668551967
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_87
+  - first:
+      213: -8513333311838097839
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_88
+  - first:
+      213: -8669544600946153358
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_89
+  - first:
+      213: 2697649098842328566
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_90
+  - first:
+      213: 5149075333026967182
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_91
+  - first:
+      213: -7909414664153291523
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_92
+  - first:
+      213: -3605696179599410767
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_93
+  - first:
+      213: 8184867000514581889
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_94
+  - first:
+      213: -5757962986120707114
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_95
+  - first:
+      213: -7609045740569339044
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_96
+  - first:
+      213: -1828146875060079400
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_97
+  - first:
+      213: 6211028168555716068
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_98
+  - first:
+      213: 3245095394026471989
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_99
+  - first:
+      213: -1596772105990255981
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_100
+  - first:
+      213: 2741185706989703728
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_101
+  - first:
+      213: -1872507402590874602
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_102
+  - first:
+      213: -3920261419259385185
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_103
+  - first:
+      213: 8177473677328582020
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_104
+  - first:
+      213: -1496255881890508034
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_105
+  - first:
+      213: 8309600289648225280
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_106
+  - first:
+      213: -2091222843329308526
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_107
+  - first:
+      213: -6566186228699494959
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_108
+  - first:
+      213: -5261333243569379451
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_109
+  - first:
+      213: -7800443234652781649
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_110
+  - first:
+      213: 9165801957376925212
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_111
+  - first:
+      213: -3644659344979519308
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_112
+  - first:
+      213: 6235080014592141190
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_113
+  - first:
+      213: 6760730428344807451
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_114
+  - first:
+      213: 4362004094825506065
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_115
+  - first:
+      213: -7954100534491409173
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_116
+  - first:
+      213: -602119855186738934
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_117
+  - first:
+      213: 2876679019435265766
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_118
+  - first:
+      213: -524566262850010001
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_119
+  - first:
+      213: 9162019374526691455
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_120
+  - first:
+      213: -5351319288958097406
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_121
+  - first:
+      213: -6642173756686247677
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_122
+  - first:
+      213: -2552529706518414809
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_123
+  - first:
+      213: -1260781686989903130
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_124
+  - first:
+      213: 8703144527793792274
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_125
+  - first:
+      213: 8329668584499681018
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_126
+  - first:
+      213: 7794310688271995676
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_127
+  - first:
+      213: 3605640788814873937
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_128
+  - first:
+      213: -1532324993973071137
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_129
+  - first:
+      213: 1983076947792814450
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_130
+  - first:
+      213: -2574201455672383446
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_131
+  - first:
+      213: -5555396882822338747
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_132
+  - first:
+      213: 3413090370773171926
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_133
+  - first:
+      213: 6021472092711374756
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_134
+  - first:
+      213: -899785705718384756
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_135
+  - first:
+      213: 8876184941119134901
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_136
+  - first:
+      213: 7727511966370176540
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_137
+  - first:
+      213: 2257266593554164646
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_138
+  - first:
+      213: 8676491026602660605
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_139
+  - first:
+      213: -8974097479814951098
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_140
+  - first:
+      213: -8595199023580589360
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_141
+  - first:
+      213: -3016055536931529486
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_142
+  - first:
+      213: -2109390622028017024
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_143
+  - first:
+      213: 2897505409411440078
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_144
+  - first:
+      213: 5241862852960391375
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_145
+  - first:
+      213: 4638652992400669029
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_146
+  - first:
+      213: -4949792535557308910
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_147
+  - first:
+      213: -1690741302800019341
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_148
+  - first:
+      213: 5970466297705421612
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_149
+  - first:
+      213: -4820455476513974444
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_150
+  - first:
+      213: -7539831664385667222
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_151
+  - first:
+      213: 8581383094652357423
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_152
+  - first:
+      213: 6166512481532310535
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_153
+  - first:
+      213: 1762310541298494632
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_154
+  - first:
+      213: -4990973536686768648
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_155
+  - first:
+      213: -5745188481434992906
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_156
+  - first:
+      213: 2281943677070482414
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_157
+  - first:
+      213: 9195682077056090405
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_158
+  - first:
+      213: 4021885607694677445
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_159
+  - first:
+      213: 4517334359769330973
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_160
+  - first:
+      213: -360840433308446678
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_161
+  - first:
+      213: -5198408344431038280
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_162
+  - first:
+      213: 5137867726831458631
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_163
+  - first:
+      213: -8674913164269506008
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_164
+  - first:
+      213: -979029720027437201
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_165
+  - first:
+      213: 297320636919195821
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_166
+  - first:
+      213: 4560717232583128532
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_167
+  - first:
+      213: -5859866794430473249
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_168
+  - first:
+      213: -2162120550408435796
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_169
+  - first:
+      213: -5921539439410402206
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_170
+  - first:
+      213: 9007597688143289051
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_171
+  - first:
+      213: 3058459427852449957
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_172
+  - first:
+      213: -4758238467667812234
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_173
+  - first:
+      213: 7790676441638101898
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_174
+  - first:
+      213: -4835246944503099794
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_175
+  - first:
+      213: -3277144657871593557
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_176
+  - first:
+      213: -551961918294181164
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_177
+  - first:
+      213: -6797443164584399718
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_178
+  - first:
+      213: 7772706368310529141
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_179
+  - first:
+      213: -8193760972597366535
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_180
+  - first:
+      213: -8946508199712383027
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_181
+  - first:
+      213: 3722741513770802663
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_182
+  - first:
+      213: -5699728646068141990
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_183
+  - first:
+      213: -503779694811140885
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_184
+  - first:
+      213: -7366277143805955562
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_185
+  - first:
+      213: 3790778477482367921
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_186
+  - first:
+      213: 7589837565827610926
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_187
+  - first:
+      213: 4326707435731773807
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_188
+  - first:
+      213: 4271723952721416629
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_189
+  - first:
+      213: -3585509857634548127
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_190
+  - first:
+      213: -6832452773829971618
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_191
+  - first:
+      213: -4847808482125603703
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_192
+  - first:
+      213: 1842695792516736700
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_193
+  - first:
+      213: -4749359515301229653
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_194
+  - first:
+      213: -3399720324798403739
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_195
+  - first:
+      213: 6272649371856181110
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_196
+  - first:
+      213: 3020049387881355585
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_197
+  - first:
+      213: -492624904095136158
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_198
+  - first:
+      213: 4556214080389698512
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_199
+  - first:
+      213: 501712581087027560
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_200
+  - first:
+      213: 7246490292995166928
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_201
+  - first:
+      213: -3026869385994554678
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_202
+  - first:
+      213: 5997959850358535643
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_203
+  - first:
+      213: 6036690828345459155
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_204
+  - first:
+      213: 7138210743222421095
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_205
+  - first:
+      213: -3303320726724471436
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_206
+  - first:
+      213: -3544903714971754773
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_207
+  - first:
+      213: -7788072530842897480
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_208
+  - first:
+      213: -7151951783881813677
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_209
+  - first:
+      213: 5547780913101822152
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_210
+  - first:
+      213: 3114479808808419612
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_211
+  - first:
+      213: 5270017251186824827
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_212
+  - first:
+      213: 5649663857315456494
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_213
+  - first:
+      213: 2904478849420537427
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_214
+  - first:
+      213: -8703328047293481698
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_215
+  - first:
+      213: -350167098175552364
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_216
+  - first:
+      213: 7300018299990277485
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_217
+  - first:
+      213: 8618349383154878841
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_218
+  - first:
+      213: 323193228873862132
+    second: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_219
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1530
+        width: 538
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1deb5f63812f0bd60800000000000000
+      internalID: 7904083531850432209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1663
+        width: 499
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0c5b5e7146f08b0800000000000000
+      internalID: -5183814592279232295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1690
+        width: 538
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a6fba633c7e4890800000000000000
+      internalID: -7471898171484968380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 2023
+        width: 392
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fd5217ae2d6aac0800000000000000
+      internalID: -3844153327551652096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1979
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb02932b2ed014f0800000000000000
+      internalID: -859943251966030879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1675
+        width: 229
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34366e6f4d6a2250800000000000000
+      internalID: 5920664848053974074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1915
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8403e94f9ead365a0800000000000000
+      internalID: -6529134336390844344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1889
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07a743db385ea250800000000000000
+      internalID: 5957796371028748046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1829
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525bc836d16211bd0800000000000000
+      internalID: -2661303997133179611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1858
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f06524549da0a540800000000000000
+      internalID: 5017200837469233397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1699
+        width: 88
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddbeb3fbbcdf6660800000000000000
+      internalID: 7381361014089891286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1679
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a5f38c49b19310800000000000000
+      internalID: 1410111896626242182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1679
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40111b68a4b0efe0800000000000000
+      internalID: -1161730068417802165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1680
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c63f173ce9f7a490800000000000000
+      internalID: -7734939042053146942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1084
+        width: 527
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58207fa4428fae00800000000000000
+      internalID: 1058207668968106075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1400
+        width: 190
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3110d5b58e85d26d0800000000000000
+      internalID: -3013654820652515053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1660
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f3452047b990730800000000000000
+      internalID: 3965871869434019681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1662
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b62f3b64f3358b0800000000000000
+      internalID: -5164714774764557530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1656
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e828c826142886b0800000000000000
+      internalID: -5293941684381931287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1645
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943bbb8d91cc6f9b0800000000000000
+      internalID: -5046621921039633591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1628
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf16c1fa2ab4ad6e0800000000000000
+      internalID: -1812052737968545285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1646
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87162659602d6e90800000000000000
+      internalID: -7030927806466484341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1644
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a8b5e135940f630800000000000000
+      internalID: 3958744693799094835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1225
+        width: 31
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30be4c718b32f7e40800000000000000
+      internalID: 5656278930580368131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_24
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1472
+        width: 87
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88937584062e8e230800000000000000
+      internalID: 3668430799651682696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_25
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1619
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9160fc4302f26350800000000000000
+      internalID: 6008630948855308701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_26
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 1629
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98db751d0f996aaa0800000000000000
+      internalID: -6150058981544444535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_27
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1626
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a0c76a768bd1400800000000000000
+      internalID: 296595905790610037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_28
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 902
+        width: 395
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553318962e5449f30800000000000000
+      internalID: 4581363559677637461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_29
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1606
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46a4eb14a5f3ace0800000000000000
+      internalID: -1395001374363310513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_30
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1606
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123db75916fa143e0800000000000000
+      internalID: -2071181519959108831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_31
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1597
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f345cbb9f0a4d5b30800000000000000
+      internalID: 4277656651969614911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_32
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1592
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae096ff131e88090800000000000000
+      internalID: -8031922330560557398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_33
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1176
+        width: 26
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb595a6a7a8679c0800000000000000
+      internalID: -3929801366459294747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_34
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1478
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5d9c9eaaac14ab0800000000000000
+      internalID: -5025512873753193019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_35
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1554
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce0ac6912e33aff0800000000000000
+      internalID: -26108858849423675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_36
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1492
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c576bc14c96b640e0800000000000000
+      internalID: -2285938978608945316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_37
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1506
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df23641c5496401c0800000000000000
+      internalID: -4538386776166354179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_38
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1519
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb66a506f710b640800000000000000
+      internalID: 5093597523980217275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1443
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d55427e70ff1b3a0800000000000000
+      internalID: -6651254765241739816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_40
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1483
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e63f344d3e1a1e0800000000000000
+      internalID: -2188217443112751471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_41
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1496
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95160144c5747850800000000000000
+      internalID: 6373848858401052061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_42
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1468
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b11f8aee5560be0800000000000000
+      internalID: -1511426141411271798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_43
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1459
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c03462bf6effc8e0800000000000000
+      internalID: -1670837181043429178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_44
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1454
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58dc69d8d2b16a10800000000000000
+      internalID: 1900997162157529180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_45
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1345
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4989ff58c07932660800000000000000
+      internalID: 7359892296097044628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_46
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1434
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf02b989b16160810800000000000000
+      internalID: 1731095414550765820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_47
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1419
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba336e749cb6aac30800000000000000
+      internalID: 4371424900555355051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_48
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1414
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372f63824d43b71c0800000000000000
+      internalID: -4504948916441648525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_49
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1400
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30227bd350baaf80800000000000000
+      internalID: -8094463506034581445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1320
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40b5c5b8cdf87830800000000000000
+      internalID: 4069281301814161486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_51
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1343
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fd45200454dde90800000000000000
+      internalID: -6999362104644542697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_52
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1290
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3a59ba14258d9e0800000000000000
+      internalID: -1596435625897778245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_53
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1399
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc02bdef444943c0800000000000000
+      internalID: -4374890452932752197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_54
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1359
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7d8159972e0d140800000000000000
+      internalID: 4742539419441485777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_55
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1351
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd32f9972572aad0800000000000000
+      internalID: -2692460814267171373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_56
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1144
+        width: 248
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a559c235e2a18e50800000000000000
+      internalID: 6809903216844166569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_57
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1176
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7606af5173d4c4eb0800000000000000
+      internalID: -4734324209285963673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1215
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190db2827b832c8d0800000000000000
+      internalID: -2827635256731119471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_59
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1324
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42be6dc9c62cc3770800000000000000
+      internalID: 8591955960859650852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_60
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1243
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dbcdf2731faee00800000000000000
+      internalID: 1074936680409775372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_61
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1294
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5780c62a40cfde0800000000000000
+      internalID: -1298157496945838614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_62
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1297
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f488597e9c5fc010800000000000000
+      internalID: 1211288660496385265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_63
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1202
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa54ba7c624442050800000000000000
+      internalID: 5774815555545154986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_64
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1257
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320b13fcbd001fac0800000000000000
+      internalID: -3823273664586862557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_65
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1119
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5608f4809eb93c060800000000000000
+      internalID: 6972588073268772965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_66
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1223
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4996b4cf8d0760800000000000000
+      internalID: 7425749435643678057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_67
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1143
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b090d32b67c2855a0800000000000000
+      internalID: -6532422371192796917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_68
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1158
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8ee4cc6218d9f10800000000000000
+      internalID: 2278118990155802862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_69
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1173
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289a7e05f3167f490800000000000000
+      internalID: -7712588912280491646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_70
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1190
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c4ee264ad208610800000000000000
+      internalID: 1621346049911049315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_71
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1098
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d421c2cd55add940800000000000000
+      internalID: 5322592156739773656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_72
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1114
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ddf0e1ad33f8670800000000000000
+      internalID: 8543104030045363478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_73
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1127
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2832fbfc63c7cbea0800000000000000
+      internalID: -5855668840632999038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_74
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1093
+        width: 77
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f75e6f3b2452ef0800000000000000
+      internalID: -133627273228746872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_75
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1106
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6790beb8075b8afb0800000000000000
+      internalID: -4636256321389524618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_76
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1098
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a12d94f3c80f8680800000000000000
+      internalID: -8750765913242000992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_77
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1130
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bbcdc48d7a556c0800000000000000
+      internalID: -4155230533735105714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_78
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1086
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c118e4a21398a50800000000000000
+      internalID: 6523799592998345836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_79
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1081
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bce0ab2fe8195200800000000000000
+      internalID: 169193876511321264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_80
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1081
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73a3f0fbca02fba0800000000000000
+      internalID: -6056766677822758019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_81
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1110
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6358f453862505b00800000000000000
+      internalID: 815242140078540086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_82
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1103
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8554298ddc6e1a0800000000000000
+      internalID: -6780505858909054763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_83
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1109
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce296e07f1bd9ca0800000000000000
+      internalID: -6008450653185560883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_84
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1107
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d47fcefe9dd47ce0800000000000000
+      internalID: -1408257108510542633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_85
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1099
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0e7033993923290800000000000000
+      internalID: -7912099309141106510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_86
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1103
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0e86b1766857f20800000000000000
+      internalID: 3419787269457371328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_87
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1079
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eea2fa9c98adee90800000000000000
+      internalID: -6994749255668551967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_88
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1090
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ee36d55709ad980800000000000000
+      internalID: -8513333311838097839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_89
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1088
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278e2306e179fa780800000000000000
+      internalID: -8669544600946153358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_90
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1097
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd46290099ff6520800000000000000
+      internalID: 2697649098842328566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_91
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1086
+        width: 170
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e6cc20cb0357740800000000000000
+      internalID: 5149075333026967182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_92
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1076
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4a0e1d44d1c3290800000000000000
+      internalID: -7909414664153291523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_93
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 692
+        width: 476
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b97efead6ef5fdc0800000000000000
+      internalID: -3605696179599410767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_94
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1017
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1851d73fb2d769170800000000000000
+      internalID: 8184867000514581889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_95
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1027
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d38d6ecb2b9710b0800000000000000
+      internalID: -5757962986120707114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_96
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 945
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b5aa1a63d376690800000000000000
+      internalID: -7609045740569339044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_97
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 854
+        width: 552
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4bdc26a1e11a6e0800000000000000
+      internalID: -1828146875060079400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_98
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 973
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed55bc3631023650800000000000000
+      internalID: 6211028168555716068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_99
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 968
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532443f4115e80d20800000000000000
+      internalID: 3245095394026471989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_100
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1021
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ac23bca3027d9e0800000000000000
+      internalID: -1596772105990255981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_101
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 991
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032df7880e5aa0620800000000000000
+      internalID: 2741185706989703728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_102
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 993
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614184530748306e0800000000000000
+      internalID: -1872507402590874602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_103
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 957
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a2066720f6899c0800000000000000
+      internalID: -3920261419259385185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_104
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 930
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4850741cbf83c7170800000000000000
+      internalID: 8177473677328582020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_105
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 913
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2d3d2f33b3c3be0800000000000000
+      internalID: -1496255881890508034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_106
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 931
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c27f1ff61a15370800000000000000
+      internalID: 8309600289648225280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_107
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 926
+        width: 84
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2989c2d57eb7af2e0800000000000000
+      internalID: -2091222843329308526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_108
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 945
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d50e450a6830e4a0800000000000000
+      internalID: -6566186228699494959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_109
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 901
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587e71c6a4dfbf6b0800000000000000
+      internalID: -5261333243569379451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_110
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 905
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa30ce3e4324fb390800000000000000
+      internalID: -7800443234652781649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_111
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 882
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e18075158733f70800000000000000
+      internalID: 9165801957376925212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_112
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 867
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8103fc2a19b6dc0800000000000000
+      internalID: -3644659344979519308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_113
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 859
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687e6e70d34778650800000000000000
+      internalID: 6235080014592141190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_114
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 858
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10baa33180f2dd50800000000000000
+      internalID: 6760730428344807451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_115
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 852
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115afd40d93f88c30800000000000000
+      internalID: 4362004094825506065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_116
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 859
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be415edd4bb5d9190800000000000000
+      internalID: -7954100534491409173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_117
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 854
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01826f8e27d4a7f0800000000000000
+      internalID: -602119855186738934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_118
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 854
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee024ea3540ce720800000000000000
+      internalID: 2876679019435265766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_119
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 870
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64cba163cd58b8f0800000000000000
+      internalID: -524566262850010001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_120
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 868
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78f8e32418062f70800000000000000
+      internalID: 9162019374526691455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_121
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 845
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208e4fd857b4cb5b0800000000000000
+      internalID: -5351319288958097406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_122
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 653
+        width: 273
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3095b48f82242d3a0800000000000000
+      internalID: -6642173756686247677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_123
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 521
+        width: 119
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a765c71c7939cd0800000000000000
+      internalID: -2552529706518414809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_124
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 865
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea26af4cbdc08ee0800000000000000
+      internalID: -1260781686989903130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_125
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 865
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215a80836d7c7c870800000000000000
+      internalID: 8703144527793792274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_126
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 647
+        width: 531
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af695d3f17de89370800000000000000
+      internalID: 8329668584499681018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_127
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 567
+        width: 185
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c139b736644fa2c60800000000000000
+      internalID: 7794310688271995676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_128
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 665
+        width: 215
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15548f4a13fc90230800000000000000
+      internalID: 3605640788814873937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_129
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 759
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd258cd59861cbae0800000000000000
+      internalID: -1532324993973071137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_130
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 810
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271e47b2afd458b10800000000000000
+      internalID: 1983076947792814450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_131
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 827
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28aa5e2a69964cd0800000000000000
+      internalID: -2574201455672383446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_132
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 831
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547ef0508f347e2b0800000000000000
+      internalID: -5555396882822338747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_133
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 772
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6debd30eb9bbd5f20800000000000000
+      internalID: 3413090370773171926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_134
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 798
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4df617f0909350800000000000000
+      internalID: 6021472092711374756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_135
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 795
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c877eacfaa15383f0800000000000000
+      internalID: -899785705718384756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_136
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 740
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcd3180d2b8e2b70800000000000000
+      internalID: 8876184941119134901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_137
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 762
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e1319f033ad3b60800000000000000
+      internalID: 7727511966370176540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_138
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 761
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abe620e10c635f10800000000000000
+      internalID: 2257266593554164646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_139
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 688
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df214816e96196870800000000000000
+      internalID: 8676491026602660605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_140
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 731
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fc6ef83e9957380800000000000000
+      internalID: -8974097479814951098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_141
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 729
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d1b10708b7b880800000000000000
+      internalID: -8595199023580589360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_142
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 582
+        width: 395
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc985a0871d426d0800000000000000
+      internalID: -3016055536931529486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_143
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 466
+        width: 204
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082da71c760f9b2e0800000000000000
+      internalID: -2109390622028017024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_144
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 626
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdddb671d1063820800000000000000
+      internalID: 2897505409411440078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_145
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 537
+        width: 374
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc015000e76deb840800000000000000
+      internalID: 5241862852960391375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_146
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 531
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5693858e15ecf5040800000000000000
+      internalID: 4638652992400669029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_147
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 547
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ef93ef9edce4bb0800000000000000
+      internalID: -4949792535557308910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_148
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 550
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37016873eb74988e0800000000000000
+      internalID: -1690741302800019341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_149
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 542
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b5c22077b5bd250800000000000000
+      internalID: 5970466297705421612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_150
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 556
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4575cc2b84d4a1db0800000000000000
+      internalID: -4820455476513974444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_151
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 530
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fcc0a8c032d5790800000000000000
+      internalID: -7539831664385667222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_152
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 504
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bcb4e5572371770800000000000000
+      internalID: 8581383094652357423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_153
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 528
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704febc2e6ad39550800000000000000
+      internalID: 6166512481532310535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_154
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 495
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ace506a91cf47810800000000000000
+      internalID: 1762310541298494632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_155
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 484
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdf86ef2008cbab0800000000000000
+      internalID: -4990973536686768648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_156
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 389
+        width: 173
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6feb664f38df440b0800000000000000
+      internalID: -5745188481434992906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_157
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 498
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb1c3d1fa71baf10800000000000000
+      internalID: 2281943677070482414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_158
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 491
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521ca56d020ad9f70800000000000000
+      internalID: 9195682077056090405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_159
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 395
+        width: 286
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5b5edb6ab90d730800000000000000
+      internalID: 4021885607694677445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_160
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 445
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15b7b59aabc0be30800000000000000
+      internalID: 4517334359769330973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_161
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 472
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a205d08a9890efaf0800000000000000
+      internalID: -360840433308446678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_162
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 450
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0f2c0372b8bd7b0800000000000000
+      internalID: -5198408344431038280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_163
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 465
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7499bb8d97f5d4740800000000000000
+      internalID: 5137867726831458631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_164
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 454
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8223b5250748c9780800000000000000
+      internalID: -8674913164269506008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_165
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 452
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67e63128a9c962f0800000000000000
+      internalID: -979029720027437201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_166
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 464
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da826f34b8b402400800000000000000
+      internalID: 297320636919195821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_167
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 280
+        width: 175
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5be19c82cea4f30800000000000000
+      internalID: 4560717232583128532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_168
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 427
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb5dd682329daea0800000000000000
+      internalID: -5859866794430473249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_169
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 276
+        width: 188
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7455790da9ef1e0800000000000000
+      internalID: -2162120550408435796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_170
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 281
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c2a76e04772dda0800000000000000
+      internalID: -5921539439410402206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_171
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 374
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda19618f5a610d70800000000000000
+      internalID: 9007597688143289051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_172
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 418
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8f61d25a4d17a20800000000000000
+      internalID: 3058459427852449957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_173
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 403
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670af0ae25757fdb0800000000000000
+      internalID: -4758238467667812234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_174
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 357
+        width: 423
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83e7d762fa0e1c60800000000000000
+      internalID: 7790676441638101898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_175
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 372
+        width: 94
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e899fa580c5ecb0800000000000000
+      internalID: -4835246944503099794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_176
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 341
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf9ef5fb4e3582d0800000000000000
+      internalID: -3277144657871593557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_177
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 385
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da388a4f890758f0800000000000000
+      internalID: -551961918294181164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_178
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 370
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c2a0ac471aaa1a0800000000000000
+      internalID: -6797443164584399718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_179
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 226
+        width: 178
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cc09aa2433edb60800000000000000
+      internalID: 7772706368310529141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_180
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 354
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0ffddcec9e94e80800000000000000
+      internalID: -8193760972597366535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_181
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 311
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf1608613e97d380800000000000000
+      internalID: -8946508199712383027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_182
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 240
+        width: 43
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed98eecea5d9a330800000000000000
+      internalID: 3722741513770802663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_183
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 328
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a508dfeaefe76e0b0800000000000000
+      internalID: -5699728646068141990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_184
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 316
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec2ab569073209f0800000000000000
+      internalID: -503779694811140885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_185
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 319
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612fd5647f9b5c990800000000000000
+      internalID: -7366277143805955562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_186
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 181
+        width: 140
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb588cd0fc8b9430800000000000000
+      internalID: 3790778477482367921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_187
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 265
+        width: 278
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29f11ead05845960800000000000000
+      internalID: 7589837565827610926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_188
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 274
+        width: 70
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6965d92d7d8b0c30800000000000000
+      internalID: 4326707435731773807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_189
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 297
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1dc7c6d46384b30800000000000000
+      internalID: 4271723952721416629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_190
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 242
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166080508c5bd3ec0800000000000000
+      internalID: -3585509857634548127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_191
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 298
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e517b3fe6604e21a0800000000000000
+      internalID: -6832452773829971618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_192
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 247
+        width: 101
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c17cbcedf19bcb0800000000000000
+      internalID: -4847808482125603703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_193
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 277
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6211e6f02929910800000000000000
+      internalID: 1842695792516736700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_194
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 281
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab49db1fa2e61eb0800000000000000
+      internalID: -4749359515301229653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_195
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 155
+        width: 168
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b27b88064c1d0d0800000000000000
+      internalID: -3399720324798403739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_196
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 249
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677901aae5dec0750800000000000000
+      internalID: 6272649371856181110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_197
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 125
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ddc8daee59e920800000000000000
+      internalID: 3020049387881355585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_198
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 156
+        width: 170
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26606ef7248d929f0800000000000000
+      internalID: -492624904095136158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_199
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 261
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3d246f09cea3f30800000000000000
+      internalID: 4556214080389698512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_200
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 222
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861690f2fe076f600800000000000000
+      internalID: 501712581087027560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_201
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 122
+        width: 134
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d21b462784b09460800000000000000
+      internalID: 7246490292995166928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_202
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 149
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac23a4a94566ef5d0800000000000000
+      internalID: -3026869385994554678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_203
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 144
+        width: 161
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5fca194b80d3350800000000000000
+      internalID: 5997959850358535643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_204
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 156
+        width: 133
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1c36a1352a6c350800000000000000
+      internalID: 6036690828345459155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_205
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 175
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76646a1e9d4001360800000000000000
+      internalID: 7138210743222421095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_206
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 162
+        width: 308
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47517600d4f3822d0800000000000000
+      internalID: -3303320726724471436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_207
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 151
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee552a5ad8fdcec0800000000000000
+      internalID: -3544903714971754773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_208
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 39
+        width: 124
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3b122db453be390800000000000000
+      internalID: -7788072530842897480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_209
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 110
+        width: 167
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351d007ceb92fbc90800000000000000
+      internalID: -7151951783881813677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_210
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 48
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c85029d85dadfc40800000000000000
+      internalID: 5547780913101822152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_211
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11072882ead83b20800000000000000
+      internalID: 3114479808808419612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_212
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 70
+        width: 188
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76db29a4ccd22940800000000000000
+      internalID: 5270017251186824827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_213
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 43
+        width: 122
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5a6a35853a76e40800000000000000
+      internalID: 5649663857315456494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_214
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 20
+        width: 124
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ea85dff18ce4820800000000000000
+      internalID: 2904478849420537427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_215
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 16
+        width: 118
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1db061d041973780800000000000000
+      internalID: -8703328047293481698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_216
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494873521e4f32bf0800000000000000
+      internalID: -350167098175552364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_217
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 9
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d75c877ffde4560800000000000000
+      internalID: 7300018299990277485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_218
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 23
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979472d1a178a9770800000000000000
+      internalID: 8618349383154878841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_219
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 18
+        width: 38
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb86d087863c7400800000000000000
+      internalID: 323193228873862132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_0: 7904083531850432209
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_1: -5183814592279232295
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_10: 7381361014089891286
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_100: -1596772105990255981
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_101: 2741185706989703728
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_102: -1872507402590874602
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_103: -3920261419259385185
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_104: 8177473677328582020
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_105: -1496255881890508034
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_106: 8309600289648225280
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_107: -2091222843329308526
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_108: -6566186228699494959
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_109: -5261333243569379451
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_11: 1410111896626242182
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_110: -7800443234652781649
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_111: 9165801957376925212
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_112: -3644659344979519308
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_113: 6235080014592141190
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_114: 6760730428344807451
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_115: 4362004094825506065
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_116: -7954100534491409173
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_117: -602119855186738934
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_118: 2876679019435265766
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_119: -524566262850010001
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_12: -1161730068417802165
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_120: 9162019374526691455
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_121: -5351319288958097406
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_122: -6642173756686247677
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_123: -2552529706518414809
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_124: -1260781686989903130
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_125: 8703144527793792274
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_126: 8329668584499681018
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_127: 7794310688271995676
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_128: 3605640788814873937
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_129: -1532324993973071137
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_13: -7734939042053146942
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_130: 1983076947792814450
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_131: -2574201455672383446
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_132: -5555396882822338747
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_133: 3413090370773171926
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_134: 6021472092711374756
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_135: -899785705718384756
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_136: 8876184941119134901
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_137: 7727511966370176540
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_138: 2257266593554164646
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_139: 8676491026602660605
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_14: 1058207668968106075
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_140: -8974097479814951098
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_141: -8595199023580589360
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_142: -3016055536931529486
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_143: -2109390622028017024
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_144: 2897505409411440078
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_145: 5241862852960391375
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_146: 4638652992400669029
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_147: -4949792535557308910
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_148: -1690741302800019341
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_149: 5970466297705421612
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_15: -3013654820652515053
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_150: -4820455476513974444
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_151: -7539831664385667222
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_152: 8581383094652357423
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_153: 6166512481532310535
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_154: 1762310541298494632
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_155: -4990973536686768648
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_156: -5745188481434992906
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_157: 2281943677070482414
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_158: 9195682077056090405
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_159: 4021885607694677445
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_16: 3965871869434019681
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_160: 4517334359769330973
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_161: -360840433308446678
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_162: -5198408344431038280
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_163: 5137867726831458631
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_164: -8674913164269506008
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_165: -979029720027437201
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_166: 297320636919195821
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_167: 4560717232583128532
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_168: -5859866794430473249
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_169: -2162120550408435796
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_17: -5164714774764557530
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_170: -5921539439410402206
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_171: 9007597688143289051
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_172: 3058459427852449957
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_173: -4758238467667812234
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_174: 7790676441638101898
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_175: -4835246944503099794
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_176: -3277144657871593557
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_177: -551961918294181164
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_178: -6797443164584399718
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_179: 7772706368310529141
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_18: -5293941684381931287
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_180: -8193760972597366535
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_181: -8946508199712383027
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_182: 3722741513770802663
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_183: -5699728646068141990
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_184: -503779694811140885
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_185: -7366277143805955562
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_186: 3790778477482367921
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_187: 7589837565827610926
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_188: 4326707435731773807
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_189: 4271723952721416629
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_19: -5046621921039633591
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_190: -3585509857634548127
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_191: -6832452773829971618
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_192: -4847808482125603703
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_193: 1842695792516736700
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_194: -4749359515301229653
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_195: -3399720324798403739
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_196: 6272649371856181110
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_197: 3020049387881355585
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_198: -492624904095136158
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_199: 4556214080389698512
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_2: -7471898171484968380
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_20: -1812052737968545285
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_200: 501712581087027560
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_201: 7246490292995166928
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_202: -3026869385994554678
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_203: 5997959850358535643
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_204: 6036690828345459155
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_205: 7138210743222421095
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_206: -3303320726724471436
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_207: -3544903714971754773
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_208: -7788072530842897480
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_209: -7151951783881813677
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_21: -7030927806466484341
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_210: 5547780913101822152
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_211: 3114479808808419612
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_212: 5270017251186824827
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_213: 5649663857315456494
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_214: 2904478849420537427
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_215: -8703328047293481698
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_216: -350167098175552364
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_217: 7300018299990277485
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_218: 8618349383154878841
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_219: 323193228873862132
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_22: 3958744693799094835
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_23: 5656278930580368131
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_24: 3668430799651682696
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_25: 6008630948855308701
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_26: -6150058981544444535
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_27: 296595905790610037
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_28: 4581363559677637461
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_29: -1395001374363310513
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_3: -3844153327551652096
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_30: -2071181519959108831
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_31: 4277656651969614911
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_32: -8031922330560557398
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_33: -3929801366459294747
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_34: -5025512873753193019
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_35: -26108858849423675
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_36: -2285938978608945316
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_37: -4538386776166354179
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_38: 5093597523980217275
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_39: -6651254765241739816
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_4: -859943251966030879
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_40: -2188217443112751471
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_41: 6373848858401052061
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_42: -1511426141411271798
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_43: -1670837181043429178
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_44: 1900997162157529180
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_45: 7359892296097044628
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_46: 1731095414550765820
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_47: 4371424900555355051
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_48: -4504948916441648525
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_49: -8094463506034581445
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_5: 5920664848053974074
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_50: 4069281301814161486
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_51: -6999362104644542697
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_52: -1596435625897778245
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_53: -4374890452932752197
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_54: 4742539419441485777
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_55: -2692460814267171373
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_56: 6809903216844166569
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_57: -4734324209285963673
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_58: -2827635256731119471
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_59: 8591955960859650852
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_6: -6529134336390844344
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_60: 1074936680409775372
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_61: -1298157496945838614
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_62: 1211288660496385265
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_63: 5774815555545154986
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_64: -3823273664586862557
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_65: 6972588073268772965
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_66: 7425749435643678057
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_67: -6532422371192796917
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_68: 2278118990155802862
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_69: -7712588912280491646
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_7: 5957796371028748046
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_70: 1621346049911049315
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_71: 5322592156739773656
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_72: 8543104030045363478
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_73: -5855668840632999038
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_74: -133627273228746872
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_75: -4636256321389524618
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_76: -8750765913242000992
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_77: -4155230533735105714
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_78: 6523799592998345836
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_79: 169193876511321264
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_8: -2661303997133179611
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_80: -6056766677822758019
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_81: 815242140078540086
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_82: -6780505858909054763
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_83: -6008450653185560883
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_84: -1408257108510542633
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_85: -7912099309141106510
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_86: 3419787269457371328
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_87: -6994749255668551967
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_88: -8513333311838097839
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_89: -8669544600946153358
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_9: 5017200837469233397
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_90: 2697649098842328566
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_91: 5149075333026967182
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_92: -7909414664153291523
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_93: -3605696179599410767
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_94: 8184867000514581889
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_95: -5757962986120707114
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_96: -7609045740569339044
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_97: -1828146875060079400
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_98: 6211028168555716068
+      ATLASES_ZOMBIEPIRATEZOMBOSSGROUP_1536_00_PTX_99: 3245095394026471989
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9f68dfcc997a8ef45a8bfb7a0f1c947b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4494213481914862307
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_0
+  - first:
+      213: 319206126156580828
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_1
+  - first:
+      213: -2397515287530545136
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_2
+  - first:
+      213: 4894388404353358502
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_3
+  - first:
+      213: -5982077868116270872
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_4
+  - first:
+      213: -5462102417788156843
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_5
+  - first:
+      213: 2515153945740918827
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_6
+  - first:
+      213: -6933511548652526653
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_7
+  - first:
+      213: 5494936178162558130
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_8
+  - first:
+      213: -7806390242779074522
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_9
+  - first:
+      213: -5404983817550641342
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_10
+  - first:
+      213: 7844837102830889428
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_11
+  - first:
+      213: -8939778157571238167
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_12
+  - first:
+      213: -2394278747242055005
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_13
+  - first:
+      213: -4274294913276226403
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_14
+  - first:
+      213: -6392616176260944276
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_15
+  - first:
+      213: 3739055863073464296
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_16
+  - first:
+      213: 1580828891935347445
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_17
+  - first:
+      213: -1976935490520335442
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_18
+  - first:
+      213: -8124298873639878208
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_19
+  - first:
+      213: -4215368026937377665
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_20
+  - first:
+      213: 5453673240551200122
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_21
+  - first:
+      213: 4913791119969531796
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_22
+  - first:
+      213: -4067812922024041693
+    second: ATLASES_PLANTSPIKEROCK_1536_00_PTX_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 357
+        width: 175
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1571b946a851a1c0800000000000000
+      internalID: -4494213481914862307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 304
+        width: 44
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd701bfc74c0e6400800000000000000
+      internalID: 319206126156580828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 388
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0106c2f6c805abed0800000000000000
+      internalID: -2397515287530545136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 365
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aad54a725c5ce340800000000000000
+      internalID: 4894388404353358502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 301
+        width: 156
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e024349fd36bfca0800000000000000
+      internalID: -5982077868116270872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 231
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5544fec5ac6b234b0800000000000000
+      internalID: -5462102417788156843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 231
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b204f43103f97e220800000000000000
+      internalID: 2515153945740918827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 253
+        width: 111
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c36f785bf737cf90800000000000000
+      internalID: -6933511548652526653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 187
+        width: 157
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b462d2375fe14c40800000000000000
+      internalID: 5494936178162558130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 166
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620f3192f612aa390800000000000000
+      internalID: -7806390242779074522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 224
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247c822dad3adf4b0800000000000000
+      internalID: -5404983817550641342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 148
+        width: 115
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d92a0308c57edc60800000000000000
+      internalID: 7844837102830889428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 96
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e69b2371278fe380800000000000000
+      internalID: -8939778157571238167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 116
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aabe513a20d5ced0800000000000000
+      internalID: -2394278747242055005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 118
+        width: 98
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9459ec2c67aea4c0800000000000000
+      internalID: -4274294913276226403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 54
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eec8c057dd847a0800000000000000
+      internalID: -6392616176260944276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd5d14f7bc3e330800000000000000
+      internalID: 3739055863073464296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 57
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f21b7a608b30f510800000000000000
+      internalID: 1580828891935347445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 74
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab3ca745a38094e0800000000000000
+      internalID: -1976935490520335442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1c6930831b04f80800000000000000
+      internalID: -8124298873639878208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 28
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cbbdc0d110085c0800000000000000
+      internalID: -4215368026937377665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a759b10eae65fab40800000000000000
+      internalID: 5453673240551200122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b04e3dfa413440800000000000000
+      internalID: 4913791119969531796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLASES_PLANTSPIKEROCK_1536_00_PTX_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323630a13b93c87c0800000000000000
+      internalID: -4067812922024041693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_0: -4494213481914862307
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_1: 319206126156580828
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_10: -5404983817550641342
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_11: 7844837102830889428
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_12: -8939778157571238167
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_13: -2394278747242055005
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_14: -4274294913276226403
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_15: -6392616176260944276
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_16: 3739055863073464296
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_17: 1580828891935347445
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_18: -1976935490520335442
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_19: -8124298873639878208
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_2: -2397515287530545136
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_20: -4215368026937377665
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_21: 5453673240551200122
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_22: 4913791119969531796
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_23: -4067812922024041693
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_3: 4894388404353358502
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_4: -5982077868116270872
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_5: -5462102417788156843
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_6: 2515153945740918827
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_7: -6933511548652526653
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_8: 5494936178162558130
+      ATLASES_PLANTSPIKEROCK_1536_00_PTX_9: -7806390242779074522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

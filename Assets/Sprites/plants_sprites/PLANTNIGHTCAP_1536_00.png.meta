@@ -1,0 +1,3939 @@
+fileFormatVersion: 2
+guid: 34f32b89064099642bda6946d399c348
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7675206286727683438
+    second: PLANTNIGHTCAP_1536_00_0
+  - first:
+      213: -8706749817157217419
+    second: PLANTNIGHTCAP_1536_00_1
+  - first:
+      213: 2008449579262963039
+    second: PLANTNIGHTCAP_1536_00_2
+  - first:
+      213: -5381434485841360547
+    second: PLANTNIGHTCAP_1536_00_3
+  - first:
+      213: -1098163263576760859
+    second: PLANTNIGHTCAP_1536_00_4
+  - first:
+      213: 4067867285674373057
+    second: PLANTNIGHTCAP_1536_00_5
+  - first:
+      213: 8058164556795700563
+    second: PLANTNIGHTCAP_1536_00_6
+  - first:
+      213: -4695854143755934365
+    second: PLANTNIGHTCAP_1536_00_7
+  - first:
+      213: -1076569534262873188
+    second: PLANTNIGHTCAP_1536_00_8
+  - first:
+      213: 4050518186450326063
+    second: PLANTNIGHTCAP_1536_00_9
+  - first:
+      213: 3990997548630140840
+    second: PLANTNIGHTCAP_1536_00_10
+  - first:
+      213: 2403298633684854339
+    second: PLANTNIGHTCAP_1536_00_11
+  - first:
+      213: -5211263695550883682
+    second: PLANTNIGHTCAP_1536_00_12
+  - first:
+      213: 8513300334997849752
+    second: PLANTNIGHTCAP_1536_00_13
+  - first:
+      213: -4464059846941959969
+    second: PLANTNIGHTCAP_1536_00_14
+  - first:
+      213: 359719162670776582
+    second: PLANTNIGHTCAP_1536_00_15
+  - first:
+      213: -1141180985030879264
+    second: PLANTNIGHTCAP_1536_00_16
+  - first:
+      213: -3415309290242167907
+    second: PLANTNIGHTCAP_1536_00_17
+  - first:
+      213: 1254797103784935252
+    second: PLANTNIGHTCAP_1536_00_18
+  - first:
+      213: -6859629326430126222
+    second: PLANTNIGHTCAP_1536_00_19
+  - first:
+      213: -8213785036293725525
+    second: PLANTNIGHTCAP_1536_00_20
+  - first:
+      213: 9128997104972760903
+    second: PLANTNIGHTCAP_1536_00_21
+  - first:
+      213: 9052919824211975573
+    second: PLANTNIGHTCAP_1536_00_22
+  - first:
+      213: -1822964280385455445
+    second: PLANTNIGHTCAP_1536_00_23
+  - first:
+      213: 2524941769789565862
+    second: PLANTNIGHTCAP_1536_00_24
+  - first:
+      213: -1277841563436309315
+    second: PLANTNIGHTCAP_1536_00_25
+  - first:
+      213: -7368689852409195685
+    second: PLANTNIGHTCAP_1536_00_26
+  - first:
+      213: 2134746552586924842
+    second: PLANTNIGHTCAP_1536_00_27
+  - first:
+      213: 5981643116559517317
+    second: PLANTNIGHTCAP_1536_00_28
+  - first:
+      213: -2006363876686963412
+    second: PLANTNIGHTCAP_1536_00_29
+  - first:
+      213: -2033644718903986005
+    second: PLANTNIGHTCAP_1536_00_30
+  - first:
+      213: -5765315868816106240
+    second: PLANTNIGHTCAP_1536_00_31
+  - first:
+      213: -4664088791866694422
+    second: PLANTNIGHTCAP_1536_00_32
+  - first:
+      213: -6579747921069411972
+    second: PLANTNIGHTCAP_1536_00_33
+  - first:
+      213: 9156071574642215990
+    second: PLANTNIGHTCAP_1536_00_34
+  - first:
+      213: -5419816488025740643
+    second: PLANTNIGHTCAP_1536_00_35
+  - first:
+      213: 2885670679788075622
+    second: PLANTNIGHTCAP_1536_00_36
+  - first:
+      213: 5553489845837422420
+    second: PLANTNIGHTCAP_1536_00_37
+  - first:
+      213: -3074725675344689707
+    second: PLANTNIGHTCAP_1536_00_38
+  - first:
+      213: 7330247997585248533
+    second: PLANTNIGHTCAP_1536_00_39
+  - first:
+      213: -9186987189427814264
+    second: PLANTNIGHTCAP_1536_00_40
+  - first:
+      213: 1735503340603208435
+    second: PLANTNIGHTCAP_1536_00_41
+  - first:
+      213: 6835346109211684083
+    second: PLANTNIGHTCAP_1536_00_42
+  - first:
+      213: 4919526486333608780
+    second: PLANTNIGHTCAP_1536_00_43
+  - first:
+      213: -4660706084604326655
+    second: PLANTNIGHTCAP_1536_00_44
+  - first:
+      213: 3735235070234854870
+    second: PLANTNIGHTCAP_1536_00_45
+  - first:
+      213: -8841057630897429369
+    second: PLANTNIGHTCAP_1536_00_46
+  - first:
+      213: -5725697210307203902
+    second: PLANTNIGHTCAP_1536_00_47
+  - first:
+      213: -7802321793969441190
+    second: PLANTNIGHTCAP_1536_00_48
+  - first:
+      213: 8140326179644268266
+    second: PLANTNIGHTCAP_1536_00_49
+  - first:
+      213: -687614747874616813
+    second: PLANTNIGHTCAP_1536_00_50
+  - first:
+      213: -774640586898506163
+    second: PLANTNIGHTCAP_1536_00_51
+  - first:
+      213: 9141216902576774245
+    second: PLANTNIGHTCAP_1536_00_52
+  - first:
+      213: 9104667901629078712
+    second: PLANTNIGHTCAP_1536_00_53
+  - first:
+      213: 4151939312588069852
+    second: PLANTNIGHTCAP_1536_00_54
+  - first:
+      213: -7048495493198748116
+    second: PLANTNIGHTCAP_1536_00_55
+  - first:
+      213: -1339649059995777839
+    second: PLANTNIGHTCAP_1536_00_56
+  - first:
+      213: 4536956219012541754
+    second: PLANTNIGHTCAP_1536_00_57
+  - first:
+      213: 1275803546804599072
+    second: PLANTNIGHTCAP_1536_00_58
+  - first:
+      213: 1271554219565356838
+    second: PLANTNIGHTCAP_1536_00_59
+  - first:
+      213: -6288787504442617107
+    second: PLANTNIGHTCAP_1536_00_60
+  - first:
+      213: 836182248237294745
+    second: PLANTNIGHTCAP_1536_00_61
+  - first:
+      213: -2665504301053497169
+    second: PLANTNIGHTCAP_1536_00_62
+  - first:
+      213: -7999771824779741316
+    second: PLANTNIGHTCAP_1536_00_63
+  - first:
+      213: 4715956386734990722
+    second: PLANTNIGHTCAP_1536_00_64
+  - first:
+      213: -2639299213597681166
+    second: PLANTNIGHTCAP_1536_00_65
+  - first:
+      213: 3967397105786202903
+    second: PLANTNIGHTCAP_1536_00_66
+  - first:
+      213: -1822107814913691170
+    second: PLANTNIGHTCAP_1536_00_67
+  - first:
+      213: 7595531329246544205
+    second: PLANTNIGHTCAP_1536_00_68
+  - first:
+      213: 1787589628325718730
+    second: PLANTNIGHTCAP_1536_00_69
+  - first:
+      213: 3915369062983626364
+    second: PLANTNIGHTCAP_1536_00_70
+  - first:
+      213: 3304915499000315980
+    second: PLANTNIGHTCAP_1536_00_71
+  - first:
+      213: 342393538377915821
+    second: PLANTNIGHTCAP_1536_00_72
+  - first:
+      213: -9144131074717990391
+    second: PLANTNIGHTCAP_1536_00_73
+  - first:
+      213: -2183580593603939817
+    second: PLANTNIGHTCAP_1536_00_74
+  - first:
+      213: 2264422413368955403
+    second: PLANTNIGHTCAP_1536_00_75
+  - first:
+      213: 5518453414152213660
+    second: PLANTNIGHTCAP_1536_00_76
+  - first:
+      213: 8644243092425310866
+    second: PLANTNIGHTCAP_1536_00_77
+  - first:
+      213: -1813744967892539778
+    second: PLANTNIGHTCAP_1536_00_78
+  - first:
+      213: 1229759053142295162
+    second: PLANTNIGHTCAP_1536_00_79
+  - first:
+      213: 6020393357583398736
+    second: PLANTNIGHTCAP_1536_00_80
+  - first:
+      213: -1727985663787468752
+    second: PLANTNIGHTCAP_1536_00_81
+  - first:
+      213: -5638177508484238469
+    second: PLANTNIGHTCAP_1536_00_82
+  - first:
+      213: 4201002456199170888
+    second: PLANTNIGHTCAP_1536_00_83
+  - first:
+      213: 2584477581824253357
+    second: PLANTNIGHTCAP_1536_00_84
+  - first:
+      213: 4345038932283051808
+    second: PLANTNIGHTCAP_1536_00_85
+  - first:
+      213: -3016929443808211537
+    second: PLANTNIGHTCAP_1536_00_86
+  - first:
+      213: -4893858500947645788
+    second: PLANTNIGHTCAP_1536_00_87
+  - first:
+      213: -8696151091414805044
+    second: PLANTNIGHTCAP_1536_00_88
+  - first:
+      213: -5930171107943412550
+    second: PLANTNIGHTCAP_1536_00_89
+  - first:
+      213: -850567955328425412
+    second: PLANTNIGHTCAP_1536_00_90
+  - first:
+      213: 3412443756062997789
+    second: PLANTNIGHTCAP_1536_00_91
+  - first:
+      213: 604999470347598495
+    second: PLANTNIGHTCAP_1536_00_92
+  - first:
+      213: 2968364627134293386
+    second: PLANTNIGHTCAP_1536_00_93
+  - first:
+      213: -1068597199329953726
+    second: PLANTNIGHTCAP_1536_00_94
+  - first:
+      213: 6508460329613888328
+    second: PLANTNIGHTCAP_1536_00_95
+  - first:
+      213: -1718568721432785392
+    second: PLANTNIGHTCAP_1536_00_96
+  - first:
+      213: 4394323974135612907
+    second: PLANTNIGHTCAP_1536_00_97
+  - first:
+      213: -3994022953572271193
+    second: PLANTNIGHTCAP_1536_00_98
+  - first:
+      213: 5088286515276085726
+    second: PLANTNIGHTCAP_1536_00_99
+  - first:
+      213: 3599317587211448793
+    second: PLANTNIGHTCAP_1536_00_100
+  - first:
+      213: -1425686232395080770
+    second: PLANTNIGHTCAP_1536_00_101
+  - first:
+      213: 7250265102188417338
+    second: PLANTNIGHTCAP_1536_00_102
+  - first:
+      213: 2386341492187030058
+    second: PLANTNIGHTCAP_1536_00_103
+  - first:
+      213: 3447731535090262828
+    second: PLANTNIGHTCAP_1536_00_104
+  - first:
+      213: 6576506276348704660
+    second: PLANTNIGHTCAP_1536_00_105
+  - first:
+      213: -3776252075853171868
+    second: PLANTNIGHTCAP_1536_00_106
+  - first:
+      213: -3889820727765765085
+    second: PLANTNIGHTCAP_1536_00_107
+  - first:
+      213: 7963203643194768396
+    second: PLANTNIGHTCAP_1536_00_108
+  - first:
+      213: 4561675990165776194
+    second: PLANTNIGHTCAP_1536_00_109
+  - first:
+      213: -7074827616688897449
+    second: PLANTNIGHTCAP_1536_00_110
+  - first:
+      213: 6946644119152013127
+    second: PLANTNIGHTCAP_1536_00_111
+  - first:
+      213: 5681215227615845188
+    second: PLANTNIGHTCAP_1536_00_112
+  - first:
+      213: -8140754609908692186
+    second: PLANTNIGHTCAP_1536_00_113
+  - first:
+      213: 8891386170212952577
+    second: PLANTNIGHTCAP_1536_00_114
+  - first:
+      213: -8074446440061428406
+    second: PLANTNIGHTCAP_1536_00_115
+  - first:
+      213: 3431547532277205696
+    second: PLANTNIGHTCAP_1536_00_116
+  - first:
+      213: -5054458925856772180
+    second: PLANTNIGHTCAP_1536_00_117
+  - first:
+      213: -4923024420947048027
+    second: PLANTNIGHTCAP_1536_00_118
+  - first:
+      213: -7511699161257303301
+    second: PLANTNIGHTCAP_1536_00_119
+  - first:
+      213: 5924775981903231869
+    second: PLANTNIGHTCAP_1536_00_120
+  - first:
+      213: -5749445105756808193
+    second: PLANTNIGHTCAP_1536_00_121
+  - first:
+      213: 3518009004815372578
+    second: PLANTNIGHTCAP_1536_00_122
+  - first:
+      213: -6621003038778174337
+    second: PLANTNIGHTCAP_1536_00_123
+  - first:
+      213: 656453004145138680
+    second: PLANTNIGHTCAP_1536_00_124
+  - first:
+      213: -682337912115889112
+    second: PLANTNIGHTCAP_1536_00_125
+  - first:
+      213: 8336878239579110459
+    second: PLANTNIGHTCAP_1536_00_126
+  - first:
+      213: 616817083224100224
+    second: PLANTNIGHTCAP_1536_00_127
+  - first:
+      213: 2962962009842179086
+    second: PLANTNIGHTCAP_1536_00_128
+  - first:
+      213: -6436197188424433177
+    second: PLANTNIGHTCAP_1536_00_129
+  - first:
+      213: 6689222007457767340
+    second: PLANTNIGHTCAP_1536_00_130
+  - first:
+      213: -7374649709686708219
+    second: PLANTNIGHTCAP_1536_00_131
+  - first:
+      213: 7658587718080160444
+    second: PLANTNIGHTCAP_1536_00_132
+  - first:
+      213: -234755825240336023
+    second: PLANTNIGHTCAP_1536_00_133
+  - first:
+      213: 1311251447327330911
+    second: PLANTNIGHTCAP_1536_00_134
+  - first:
+      213: 7819659934153329536
+    second: PLANTNIGHTCAP_1536_00_135
+  - first:
+      213: -8535932121186565233
+    second: PLANTNIGHTCAP_1536_00_136
+  - first:
+      213: 7798762620112410970
+    second: PLANTNIGHTCAP_1536_00_137
+  - first:
+      213: -7301914199659542332
+    second: PLANTNIGHTCAP_1536_00_138
+  - first:
+      213: -3561598938115557660
+    second: PLANTNIGHTCAP_1536_00_139
+  - first:
+      213: -5491295177242509154
+    second: PLANTNIGHTCAP_1536_00_140
+  - first:
+      213: -357922761636561598
+    second: PLANTNIGHTCAP_1536_00_141
+  - first:
+      213: 1686295965313803184
+    second: PLANTNIGHTCAP_1536_00_142
+  - first:
+      213: -1623126372762500455
+    second: PLANTNIGHTCAP_1536_00_143
+  - first:
+      213: 1957041478334491601
+    second: PLANTNIGHTCAP_1536_00_144
+  - first:
+      213: -7055865684737144479
+    second: PLANTNIGHTCAP_1536_00_145
+  - first:
+      213: 4350093757918487852
+    second: PLANTNIGHTCAP_1536_00_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1626
+        width: 403
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d9f3ae37fc38a60800000000000000
+      internalID: 7675206286727683438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1701
+        width: 380
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5739520fb296b2780800000000000000
+      internalID: -8706749817157217419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1884
+        width: 29
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d604940427fdb10800000000000000
+      internalID: 2008449579262963039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_3
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2026
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d598361e8dd4155b0800000000000000
+      internalID: -5381434485841360547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1863
+        width: 31
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed9f11845a82c0f0800000000000000
+      internalID: -1098163263576760859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_5
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2014
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfad0c6eb7f37830800000000000000
+      internalID: 4067867285674373057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_6
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2003
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355637d68f954df60800000000000000
+      internalID: 8058164556795700563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_7
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1899
+        width: 31
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365a1643989f4deb0800000000000000
+      internalID: -4695854143755934365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_8
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1864
+        width: 28
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93f04666b14f01f0800000000000000
+      internalID: -1076569534262873188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_9
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1759
+        width: 170
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2291ab74d4563830800000000000000
+      internalID: 4050518186450326063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_10
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1699
+        width: 83
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7ed81102fd26730800000000000000
+      internalID: 3990997548630140840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_11
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1698
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346a7f5cf5b3a5120800000000000000
+      internalID: 2403298633684854339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_12
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1743
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98dcc3874fdda7b0800000000000000
+      internalID: -5211263695550883682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_13
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1728
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896c2cd9c81552670800000000000000
+      internalID: 8513300334997849752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1362
+        width: 246
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd890f688397c02c0800000000000000
+      internalID: -4464059846941959969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1648
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60184ed2caafdf400800000000000000
+      internalID: 359719162670776582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_16
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1601
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7ddcab0f5b920f0800000000000000
+      internalID: -1141180985030879264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_17
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1585
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b260dab426a90d0800000000000000
+      internalID: -3415309290242167907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1301
+        width: 390
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f3a44515fe96110800000000000000
+      internalID: 1254797103784935252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_19
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1162
+        width: 239
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fb743b873bdc0a0800000000000000
+      internalID: -6859629326430126222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_20
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1520
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba22b4a2706c20e80800000000000000
+      internalID: -8213785036293725525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_21
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1489
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747887ddf76b0be70800000000000000
+      internalID: 9128997104972760903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_22
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1449
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d1f3e9d9e62ad70800000000000000
+      internalID: 9052919824211975573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_23
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1405
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa366d35a783b6e0800000000000000
+      internalID: -1822964280385455445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_24
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1361
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab6ad279256a0320800000000000000
+      internalID: 2524941769789565862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 988
+        width: 346
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4262c4ed1344ee0800000000000000
+      internalID: -1277841563436309315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1204
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53df17ce972db990800000000000000
+      internalID: -7368689852409195685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_27
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1130
+        width: 217
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23fe60eda420ad10800000000000000
+      internalID: 2134746552586924842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_28
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1218
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586c0bfe8b0130350800000000000000
+      internalID: 5981643116559517317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_29
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1171
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dd5ef2fa6f724e0800000000000000
+      internalID: -2006363876686963412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_30
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1089
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8f06227ea07c3e0800000000000000
+      internalID: -2033644718903986005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 833
+        width: 308
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d1b4563cb7dffa0800000000000000
+      internalID: -5765315868816106240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_32
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 908
+        width: 217
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4a7e784f3d54fb0800000000000000
+      internalID: -4664088791866694422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_33
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 931
+        width: 59
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71fa05702a00b4a0800000000000000
+      internalID: -6579747921069411972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_34
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1051
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cc9901696e01f70800000000000000
+      internalID: 9156071574642215990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_35
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1037
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aab6b9e91f8c4b0800000000000000
+      internalID: -5419816488025740643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_36
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1023
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a378fb136fb0820800000000000000
+      internalID: 2885670679788075622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_37
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1011
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fd0e45795f11d40800000000000000
+      internalID: 5553489845837422420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_38
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 999
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d58e43f9416455d0800000000000000
+      internalID: -3074725675344689707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_39
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 987
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511569b67b54ab560800000000000000
+      internalID: 7330247997585248533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_40
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 975
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880471273d3418080800000000000000
+      internalID: -9186987189427814264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 759
+        width: 215
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2782bd71fb51810800000000000000
+      internalID: 1735503340603208435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_42
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 887
+        width: 97
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc296432170cde50800000000000000
+      internalID: 6835346109211684083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_43
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 963
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c435a09464ba54440800000000000000
+      internalID: 4919526486333608780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_44
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 962
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d48a07288d15fb0800000000000000
+      internalID: -4660706084604326655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_45
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 951
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d50ee9918836d330800000000000000
+      internalID: 3735235070234854870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_46
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 929
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7842a973de04e4580800000000000000
+      internalID: -8841057630897429369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_47
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 939
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cca13829bc3a80b0800000000000000
+      internalID: -5725697210307203902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_48
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 821
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56b927baa598b390800000000000000
+      internalID: -7802321793969441190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_49
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 840
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee5285f78f38f070800000000000000
+      internalID: 8140326179644268266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_50
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 691
+        width: 216
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a1d9aa70a1576f0800000000000000
+      internalID: -687614747874616813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_51
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 804
+        width: 83
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e705d8d7cef35f0800000000000000
+      internalID: -774640586898506163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_52
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 821
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c92e437502cde70800000000000000
+      internalID: 9141216902576774245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 826
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc908ac7374a5e70800000000000000
+      internalID: 9104667901629078712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_54
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 604
+        width: 215
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb9acf8ec6ae9930800000000000000
+      internalID: 4151939312588069852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_55
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 604
+        width: 216
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2662f681b6be2e90800000000000000
+      internalID: -7048495493198748116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_56
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 782
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d40447174c986de0800000000000000
+      internalID: -1339649059995777839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_57
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 705
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dedb3b4a186fe30800000000000000
+      internalID: 4536956219012541754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_58
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 548
+        width: 208
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029b87af09094b110800000000000000
+      internalID: 1275803546804599072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_59
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 743
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62797d163d775a110800000000000000
+      internalID: 1271554219565356838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_60
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 720
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de258c9851db9b8a0800000000000000
+      internalID: -6288787504442617107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_61
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 697
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994eba11357ba9b00800000000000000
+      internalID: 836182248237294745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_62
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 478
+        width: 212
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa03e6ce5f9320bd0800000000000000
+      internalID: -2665504301053497169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_63
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 677
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7733d3f8e91bf090800000000000000
+      internalID: -7999771824779741316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_64
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 682
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285e297f851727140800000000000000
+      internalID: 4715956386734990722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_65
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 603
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9da8d49535f5bd0800000000000000
+      internalID: -2639299213597681166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 435
+        width: 201
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bac45c5a60f0730800000000000000
+      internalID: 3967397105786202903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_67
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 391
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed13b95a89296b6e0800000000000000
+      internalID: -1822107814913691170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_68
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 392
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d414718408fb86960800000000000000
+      internalID: 7595531329246544205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_69
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 485
+        width: 120
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acae680cb4bcec810800000000000000
+      internalID: 1787589628325718730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 392
+        width: 87
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e61b31b6f265630800000000000000
+      internalID: 3915369062983626364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_71
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 391
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40c89ad22b6ddd20800000000000000
+      internalID: 3304915499000315980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_72
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 412
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad976ceb1d60c400800000000000000
+      internalID: 342393538377915821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_73
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 326
+        width: 231
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902c2d73c35891180800000000000000
+      internalID: -9144131074717990391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_74
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 363
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712fccbe40d52b1e0800000000000000
+      internalID: -2183580593603939817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_75
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 412
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b021a420038dc6f10800000000000000
+      internalID: 2264422413368955403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_76
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 394
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c949514642c759c40800000000000000
+      internalID: 5518453414152213660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_77
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 368
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292822c1b4586f770800000000000000
+      internalID: 8644243092425310866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_78
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 242
+        width: 224
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76ec93bf8844d6e0800000000000000
+      internalID: -1813744967892539778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_79
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 257
+        width: 136
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a720ed1e75bf01110800000000000000
+      internalID: 1229759053142295162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_80
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 341
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05731ee7cdbbc8350800000000000000
+      internalID: 6020393357583398736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_81
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 330
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038fafca136f408e0800000000000000
+      internalID: -1727985663787468752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_82
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 285
+        width: 124
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73333aad6b21c1b0800000000000000
+      internalID: -5638177508484238469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_83
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 198
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b8b4ed975fc4a30800000000000000
+      internalID: 4201002456199170888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_84
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 203
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad5892eaa8edd320800000000000000
+      internalID: 2584477581824253357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 196
+        width: 231
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f49fd43edac4c30800000000000000
+      internalID: 4345038932283051808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_86
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 164
+        width: 138
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad056db7a6b126d0800000000000000
+      internalID: -3016929443808211537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_87
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 213
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa6df54f95851cb0800000000000000
+      internalID: -4893858500947645788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_88
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 239
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5581318a0115780800000000000000
+      internalID: -8696151091414805044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_89
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 239
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc8fb5fbccc3bda0800000000000000
+      internalID: -5930171107943412550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_90
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 171
+        width: 196
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32a15d73fc2234f0800000000000000
+      internalID: -850567955328425412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_91
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 156
+        width: 129
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d7228248f6b5f20800000000000000
+      internalID: 3412443756062997789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_92
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 222
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a3e5710d3656800800000000000000
+      internalID: 604999470347598495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_93
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 107
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85ac2cb6efb13920800000000000000
+      internalID: 2968364627134293386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_94
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 102
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248f5f542849b21f0800000000000000
+      internalID: -1068597199329953726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_95
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 68
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b8b5dbf22b25a50800000000000000
+      internalID: 6508460329613888328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_96
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 108
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ec6ec6ada6628e0800000000000000
+      internalID: -1718568721432785392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_97
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 82
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be506525f56cbfc30800000000000000
+      internalID: 4394323974135612907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_98
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 126
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab7193f8416298c0800000000000000
+      internalID: -3994022953572271193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_99
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 121
+        width: 98
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9f07270a93d9640800000000000000
+      internalID: 5088286515276085726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_100
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 89
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1fd8b864853f130800000000000000
+      internalID: 3599317587211448793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_101
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 89
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb1decdce1f63ce0800000000000000
+      internalID: -1425686232395080770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_102
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 128
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a311a5762bd1e9460800000000000000
+      internalID: 7250265102188417338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_103
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 141
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22659a91fcfd1120800000000000000
+      internalID: 2386341492187030058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_104
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 69
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23a7f5709dc8df20800000000000000
+      internalID: 3447731535090262828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_105
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 58
+        width: 75
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49734e05d91744b50800000000000000
+      internalID: 6576506276348704660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_106
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 53
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463b0749ebe089bc0800000000000000
+      internalID: -3776252075853171868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_107
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 70
+        width: 76
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f19148a4940ac0800000000000000
+      internalID: -3889820727765765085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_108
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 94
+        width: 66
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c78bac58bf28e60800000000000000
+      internalID: 7963203643194768396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_109
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 65
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247624ee4245e4f30800000000000000
+      internalID: 4561675990165776194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_110
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 71
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752822444c921dd90800000000000000
+      internalID: -7074827616688897449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_111
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 74
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fac1f7500776060800000000000000
+      internalID: 6946644119152013127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_112
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 44
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b159e262bb7de40800000000000000
+      internalID: 5681215227615845188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_113
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 72
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bc4c850da360f80800000000000000
+      internalID: -8140754609908692186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_114
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 29
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a2d5cfc9c846b70800000000000000
+      internalID: 8891386170212952577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_115
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 36
+        width: 69
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d98363ebdc1ff80800000000000000
+      internalID: -8074446440061428406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_116
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 42
+        width: 78
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca404bac4e4f9f20800000000000000
+      internalID: 3431547532277205696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_117
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 66
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf2188f264fad9b0800000000000000
+      internalID: -5054458925856772180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_118
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 73
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9c0e85f57edabb0800000000000000
+      internalID: -4923024420947048027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_119
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2a8a9596511c790800000000000000
+      internalID: -7511699161257303301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_120
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 14
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bbb1f5d58093250800000000000000
+      internalID: 5924775981903231869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_121
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 17
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbd1cf532ed530b0800000000000000
+      internalID: -5749445105756808193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_122
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 14
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22155a8fc8a72d030800000000000000
+      internalID: 3518009004815372578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_123
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 6
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7458d8d0d87d14a0800000000000000
+      internalID: -6621003038778174337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_124
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 11
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb1fcb77803c1900800000000000000
+      internalID: 656453004145138680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_125
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cfc8bb849d786f0800000000000000
+      internalID: -682337912115889112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_126
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 19
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cfbc5969a82b370800000000000000
+      internalID: 8336878239579110459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_127
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 24
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d07f08edf5f8800800000000000000
+      internalID: 616817083224100224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_128
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 9
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cde9fdf3e8e1920800000000000000
+      internalID: 2962962009842179086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_129
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 22
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1089fe1c80ea6a0800000000000000
+      internalID: -6436197188424433177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_130
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 19
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafde3a89f3e4dc50800000000000000
+      internalID: 6689222007457767340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_131
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 23
+        width: 74
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508af2f592bf7a990800000000000000
+      internalID: -7374649709686708219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_132
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 24
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb26651e3f4c84a60800000000000000
+      internalID: 7658587718080160444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_133
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 9
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969989b12dafdbcf0800000000000000
+      internalID: -234755825240336023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_134
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5299297e30823210800000000000000
+      internalID: 1311251447327330911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_135
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 5
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b409f9743058c60800000000000000
+      internalID: 7819659934153329536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_136
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 9
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8304d906f64a8980800000000000000
+      internalID: -8535932121186565233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_137
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 5
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59156b8845ca3c60800000000000000
+      internalID: 7798762620112410970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_138
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c889ecf8b36aaa90800000000000000
+      internalID: -7301914199659542332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_139
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6b63dc2a8a29ec0800000000000000
+      internalID: -3561598938115557660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_140
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9005a361200bc3b0800000000000000
+      internalID: -5491295177242509154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_141
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 5
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d30a70527680bf0800000000000000
+      internalID: -357922761636561598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_142
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 6
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b324befe3de66710800000000000000
+      internalID: 1686295965313803184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_143
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9924ce5e92f7979e0800000000000000
+      internalID: -1623126372762500455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_144
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 5
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db25de0bdec82b10800000000000000
+      internalID: 1957041478334491601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_145
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169cf561b87841e90800000000000000
+      internalID: -7055865684737144479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLANTNIGHTCAP_1536_00_146
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25206c9933ae5c30800000000000000
+      internalID: 4350093757918487852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLANTNIGHTCAP_1536_00_0: 7675206286727683438
+      PLANTNIGHTCAP_1536_00_1: -8706749817157217419
+      PLANTNIGHTCAP_1536_00_10: 3990997548630140840
+      PLANTNIGHTCAP_1536_00_100: 3599317587211448793
+      PLANTNIGHTCAP_1536_00_101: -1425686232395080770
+      PLANTNIGHTCAP_1536_00_102: 7250265102188417338
+      PLANTNIGHTCAP_1536_00_103: 2386341492187030058
+      PLANTNIGHTCAP_1536_00_104: 3447731535090262828
+      PLANTNIGHTCAP_1536_00_105: 6576506276348704660
+      PLANTNIGHTCAP_1536_00_106: -3776252075853171868
+      PLANTNIGHTCAP_1536_00_107: -3889820727765765085
+      PLANTNIGHTCAP_1536_00_108: 7963203643194768396
+      PLANTNIGHTCAP_1536_00_109: 4561675990165776194
+      PLANTNIGHTCAP_1536_00_11: 2403298633684854339
+      PLANTNIGHTCAP_1536_00_110: -7074827616688897449
+      PLANTNIGHTCAP_1536_00_111: 6946644119152013127
+      PLANTNIGHTCAP_1536_00_112: 5681215227615845188
+      PLANTNIGHTCAP_1536_00_113: -8140754609908692186
+      PLANTNIGHTCAP_1536_00_114: 8891386170212952577
+      PLANTNIGHTCAP_1536_00_115: -8074446440061428406
+      PLANTNIGHTCAP_1536_00_116: 3431547532277205696
+      PLANTNIGHTCAP_1536_00_117: -5054458925856772180
+      PLANTNIGHTCAP_1536_00_118: -4923024420947048027
+      PLANTNIGHTCAP_1536_00_119: -7511699161257303301
+      PLANTNIGHTCAP_1536_00_12: -5211263695550883682
+      PLANTNIGHTCAP_1536_00_120: 5924775981903231869
+      PLANTNIGHTCAP_1536_00_121: -5749445105756808193
+      PLANTNIGHTCAP_1536_00_122: 3518009004815372578
+      PLANTNIGHTCAP_1536_00_123: -6621003038778174337
+      PLANTNIGHTCAP_1536_00_124: 656453004145138680
+      PLANTNIGHTCAP_1536_00_125: -682337912115889112
+      PLANTNIGHTCAP_1536_00_126: 8336878239579110459
+      PLANTNIGHTCAP_1536_00_127: 616817083224100224
+      PLANTNIGHTCAP_1536_00_128: 2962962009842179086
+      PLANTNIGHTCAP_1536_00_129: -6436197188424433177
+      PLANTNIGHTCAP_1536_00_13: 8513300334997849752
+      PLANTNIGHTCAP_1536_00_130: 6689222007457767340
+      PLANTNIGHTCAP_1536_00_131: -7374649709686708219
+      PLANTNIGHTCAP_1536_00_132: 7658587718080160444
+      PLANTNIGHTCAP_1536_00_133: -234755825240336023
+      PLANTNIGHTCAP_1536_00_134: 1311251447327330911
+      PLANTNIGHTCAP_1536_00_135: 7819659934153329536
+      PLANTNIGHTCAP_1536_00_136: -8535932121186565233
+      PLANTNIGHTCAP_1536_00_137: 7798762620112410970
+      PLANTNIGHTCAP_1536_00_138: -7301914199659542332
+      PLANTNIGHTCAP_1536_00_139: -3561598938115557660
+      PLANTNIGHTCAP_1536_00_14: -4464059846941959969
+      PLANTNIGHTCAP_1536_00_140: -5491295177242509154
+      PLANTNIGHTCAP_1536_00_141: -357922761636561598
+      PLANTNIGHTCAP_1536_00_142: 1686295965313803184
+      PLANTNIGHTCAP_1536_00_143: -1623126372762500455
+      PLANTNIGHTCAP_1536_00_144: 1957041478334491601
+      PLANTNIGHTCAP_1536_00_145: -7055865684737144479
+      PLANTNIGHTCAP_1536_00_146: 4350093757918487852
+      PLANTNIGHTCAP_1536_00_15: 359719162670776582
+      PLANTNIGHTCAP_1536_00_16: -1141180985030879264
+      PLANTNIGHTCAP_1536_00_17: -3415309290242167907
+      PLANTNIGHTCAP_1536_00_18: 1254797103784935252
+      PLANTNIGHTCAP_1536_00_19: -6859629326430126222
+      PLANTNIGHTCAP_1536_00_2: 2008449579262963039
+      PLANTNIGHTCAP_1536_00_20: -8213785036293725525
+      PLANTNIGHTCAP_1536_00_21: 9128997104972760903
+      PLANTNIGHTCAP_1536_00_22: 9052919824211975573
+      PLANTNIGHTCAP_1536_00_23: -1822964280385455445
+      PLANTNIGHTCAP_1536_00_24: 2524941769789565862
+      PLANTNIGHTCAP_1536_00_25: -1277841563436309315
+      PLANTNIGHTCAP_1536_00_26: -7368689852409195685
+      PLANTNIGHTCAP_1536_00_27: 2134746552586924842
+      PLANTNIGHTCAP_1536_00_28: 5981643116559517317
+      PLANTNIGHTCAP_1536_00_29: -2006363876686963412
+      PLANTNIGHTCAP_1536_00_3: -5381434485841360547
+      PLANTNIGHTCAP_1536_00_30: -2033644718903986005
+      PLANTNIGHTCAP_1536_00_31: -5765315868816106240
+      PLANTNIGHTCAP_1536_00_32: -4664088791866694422
+      PLANTNIGHTCAP_1536_00_33: -6579747921069411972
+      PLANTNIGHTCAP_1536_00_34: 9156071574642215990
+      PLANTNIGHTCAP_1536_00_35: -5419816488025740643
+      PLANTNIGHTCAP_1536_00_36: 2885670679788075622
+      PLANTNIGHTCAP_1536_00_37: 5553489845837422420
+      PLANTNIGHTCAP_1536_00_38: -3074725675344689707
+      PLANTNIGHTCAP_1536_00_39: 7330247997585248533
+      PLANTNIGHTCAP_1536_00_4: -1098163263576760859
+      PLANTNIGHTCAP_1536_00_40: -9186987189427814264
+      PLANTNIGHTCAP_1536_00_41: 1735503340603208435
+      PLANTNIGHTCAP_1536_00_42: 6835346109211684083
+      PLANTNIGHTCAP_1536_00_43: 4919526486333608780
+      PLANTNIGHTCAP_1536_00_44: -4660706084604326655
+      PLANTNIGHTCAP_1536_00_45: 3735235070234854870
+      PLANTNIGHTCAP_1536_00_46: -8841057630897429369
+      PLANTNIGHTCAP_1536_00_47: -5725697210307203902
+      PLANTNIGHTCAP_1536_00_48: -7802321793969441190
+      PLANTNIGHTCAP_1536_00_49: 8140326179644268266
+      PLANTNIGHTCAP_1536_00_5: 4067867285674373057
+      PLANTNIGHTCAP_1536_00_50: -687614747874616813
+      PLANTNIGHTCAP_1536_00_51: -774640586898506163
+      PLANTNIGHTCAP_1536_00_52: 9141216902576774245
+      PLANTNIGHTCAP_1536_00_53: 9104667901629078712
+      PLANTNIGHTCAP_1536_00_54: 4151939312588069852
+      PLANTNIGHTCAP_1536_00_55: -7048495493198748116
+      PLANTNIGHTCAP_1536_00_56: -1339649059995777839
+      PLANTNIGHTCAP_1536_00_57: 4536956219012541754
+      PLANTNIGHTCAP_1536_00_58: 1275803546804599072
+      PLANTNIGHTCAP_1536_00_59: 1271554219565356838
+      PLANTNIGHTCAP_1536_00_6: 8058164556795700563
+      PLANTNIGHTCAP_1536_00_60: -6288787504442617107
+      PLANTNIGHTCAP_1536_00_61: 836182248237294745
+      PLANTNIGHTCAP_1536_00_62: -2665504301053497169
+      PLANTNIGHTCAP_1536_00_63: -7999771824779741316
+      PLANTNIGHTCAP_1536_00_64: 4715956386734990722
+      PLANTNIGHTCAP_1536_00_65: -2639299213597681166
+      PLANTNIGHTCAP_1536_00_66: 3967397105786202903
+      PLANTNIGHTCAP_1536_00_67: -1822107814913691170
+      PLANTNIGHTCAP_1536_00_68: 7595531329246544205
+      PLANTNIGHTCAP_1536_00_69: 1787589628325718730
+      PLANTNIGHTCAP_1536_00_7: -4695854143755934365
+      PLANTNIGHTCAP_1536_00_70: 3915369062983626364
+      PLANTNIGHTCAP_1536_00_71: 3304915499000315980
+      PLANTNIGHTCAP_1536_00_72: 342393538377915821
+      PLANTNIGHTCAP_1536_00_73: -9144131074717990391
+      PLANTNIGHTCAP_1536_00_74: -2183580593603939817
+      PLANTNIGHTCAP_1536_00_75: 2264422413368955403
+      PLANTNIGHTCAP_1536_00_76: 5518453414152213660
+      PLANTNIGHTCAP_1536_00_77: 8644243092425310866
+      PLANTNIGHTCAP_1536_00_78: -1813744967892539778
+      PLANTNIGHTCAP_1536_00_79: 1229759053142295162
+      PLANTNIGHTCAP_1536_00_8: -1076569534262873188
+      PLANTNIGHTCAP_1536_00_80: 6020393357583398736
+      PLANTNIGHTCAP_1536_00_81: -1727985663787468752
+      PLANTNIGHTCAP_1536_00_82: -5638177508484238469
+      PLANTNIGHTCAP_1536_00_83: 4201002456199170888
+      PLANTNIGHTCAP_1536_00_84: 2584477581824253357
+      PLANTNIGHTCAP_1536_00_85: 4345038932283051808
+      PLANTNIGHTCAP_1536_00_86: -3016929443808211537
+      PLANTNIGHTCAP_1536_00_87: -4893858500947645788
+      PLANTNIGHTCAP_1536_00_88: -8696151091414805044
+      PLANTNIGHTCAP_1536_00_89: -5930171107943412550
+      PLANTNIGHTCAP_1536_00_9: 4050518186450326063
+      PLANTNIGHTCAP_1536_00_90: -850567955328425412
+      PLANTNIGHTCAP_1536_00_91: 3412443756062997789
+      PLANTNIGHTCAP_1536_00_92: 604999470347598495
+      PLANTNIGHTCAP_1536_00_93: 2968364627134293386
+      PLANTNIGHTCAP_1536_00_94: -1068597199329953726
+      PLANTNIGHTCAP_1536_00_95: 6508460329613888328
+      PLANTNIGHTCAP_1536_00_96: -1718568721432785392
+      PLANTNIGHTCAP_1536_00_97: 4394323974135612907
+      PLANTNIGHTCAP_1536_00_98: -3994022953572271193
+      PLANTNIGHTCAP_1536_00_99: 5088286515276085726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
