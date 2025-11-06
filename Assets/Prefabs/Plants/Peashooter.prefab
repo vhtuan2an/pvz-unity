@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6182550927699580811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -177,10 +177,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea83d858ade11c4da5eaf9a05ae30ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  peaPrefab: {fileID: 6182550927699580811}
+  ShowTopMostFoldoutHeaderGroup: 1
+  maxHealth: 300
+  sunCost: 100
+  cooldown: 5
+  packetImage: {fileID: -6687575109595898538, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
+  projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 0}
-  shootInterval: 1.5
+  attackRate: 1.5
   detectionRange: 10
   zombieLayer:
     serializedVersion: 2

@@ -1,20 +1,29 @@
 using Unity.Netcode;
 using UnityEngine;
 using Unity.Services.Authentication;
+using System.Collections.Generic;
 
 public class NetworkGameManager : NetworkBehaviour
 {
     public static NetworkGameManager Instance { get; private set; }
 
-    [Header("Prefabs")]
-    [SerializeField] private GameObject peashooterPrefab;
-    [SerializeField] private GameObject zombiePrefab;
+    [Header("Plant Prefabs - Assign by name")]
+    [SerializeField] private List<PlantPrefabMapping> plantPrefabs = new List<PlantPrefabMapping>();
+
+    [Header("Zombie Prefabs")]
+    [SerializeField] private GameObject basicZombiePrefab;
 
     [Header("Spawn Settings")]
-    [SerializeField] private Transform plantSpawnPoint;
     [SerializeField] private Transform zombieSpawnPoint;
 
     private PlayerRole localPlayerRole = PlayerRole.None;
+
+    [System.Serializable]
+    public class PlantPrefabMapping
+    {
+        public string plantName; // "Peashooter", "Wallnut", etc.
+        public GameObject prefab;
+    }
 
     private void Awake()
     {
@@ -31,108 +40,120 @@ public class NetworkGameManager : NetworkBehaviour
     public override void OnNetworkSpawn()
     {
         base.OnNetworkSpawn();
-        
-        // QUAN TRỌNG: Set role cho cả Host và Client
+
         if (LobbyManager.Instance != null)
         {
             localPlayerRole = LobbyManager.Instance.SelectedRole;
-            Debug.Log($"NetworkGameManager: Local player role set to {localPlayerRole} (IsServer: {IsServer}, IsClient: {IsClient})");
+            Debug.Log($"NetworkGameManager: Local player role set to {localPlayerRole}");
         }
-        else
-        {
-            Debug.LogError("LobbyManager.Instance is null in OnNetworkSpawn!");
-        }
-        
+
         if (IsServer)
         {
             Debug.Log("Server started!");
         }
-        
+
         if (IsClient)
         {
             Debug.Log("Client connected!");
         }
-
-        // Debug prefab references
-        Debug.Log($"Peashooter prefab assigned: {peashooterPrefab != null}");
-        Debug.Log($"Zombie prefab assigned: {zombiePrefab != null}");
     }
 
-    // Gọi hàm này khi player muốn spawn unit
-    public void SpawnUnit()
+    // Plant Player gọi hàm này khi click vào Tile
+    public void SpawnPlantAtPosition(Vector3 position, string plantName)
     {
-        Debug.Log($"SpawnUnit called! Local role: {localPlayerRole}");
-
-        if (localPlayerRole == PlayerRole.None)
+        if (localPlayerRole != PlayerRole.Plant)
         {
-            Debug.LogError("Player role not set!");
+            Debug.LogWarning("Only Plant player can spawn plants!");
             return;
         }
 
-        if (localPlayerRole == PlayerRole.Plant)
-        {
-            Debug.Log("Requesting spawn Peashooter...");
-            RequestSpawnPlantServerRpc(AuthenticationService.Instance.PlayerId);
-        }
-        else if (localPlayerRole == PlayerRole.Zombie)
-        {
-            Debug.Log("Requesting spawn Zombie...");
-            RequestSpawnZombieServerRpc(AuthenticationService.Instance.PlayerId);
-        }
+        Debug.Log($"Requesting spawn {plantName} at {position}");
+        RequestSpawnPlantServerRpc(position, plantName, AuthenticationService.Instance.PlayerId);
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void RequestSpawnPlantServerRpc(string playerId, ServerRpcParams rpcParams = default)
+    private void RequestSpawnPlantServerRpc(Vector3 position, string plantName, string playerId, ServerRpcParams rpcParams = default)
     {
-        Debug.Log($"Server: Spawning Peashooter for player {playerId}");
-        
-        if (peashooterPrefab == null)
+        Debug.Log($"Server: Spawning {plantName} for player {playerId} at {position}");
+
+        // Find prefab by name
+        GameObject prefab = plantPrefabs.Find(p => p.plantName == plantName)?.prefab;
+
+        if (prefab == null)
         {
-            Debug.LogError("Peashooter prefab is not assigned in NetworkGameManager!");
+            Debug.LogError($"Plant prefab '{plantName}' not found in NetworkGameManager!");
             return;
         }
 
-        Vector3 spawnPosition = plantSpawnPoint != null 
-            ? plantSpawnPoint.position 
-            : new Vector3(-5f, 0f, -1f); // THÊM Z = -1 để ở phía trước camera
-
-        GameObject plant = Instantiate(peashooterPrefab, spawnPosition, Quaternion.identity);
+        // Spawn plant
+        GameObject plant = Instantiate(prefab, position, Quaternion.identity);
         NetworkObject networkObject = plant.GetComponent<NetworkObject>();
-        
+
         if (networkObject != null)
         {
-            networkObject.SpawnWithOwnership(rpcParams.Receive.SenderClientId);
-            Debug.Log($"Peashooter spawned at {spawnPosition} and assigned to client {rpcParams.Receive.SenderClientId}");
+            // ✅ SERVER ownership thay vì client ownership
+            networkObject.Spawn(); // Server owns the plant
+            Debug.Log($"{plantName} spawned at {position} (Server-owned)");
+
+            // Notify all clients để update tile state
+            NotifyPlantSpawnedClientRpc(networkObject.NetworkObjectId, position);
         }
         else
         {
-            Debug.LogError("Peashooter prefab missing NetworkObject component!");
+            Debug.LogError($"{plantName} prefab missing NetworkObject component!");
             Destroy(plant);
         }
     }
 
-    [ServerRpc(RequireOwnership = false)]
-    private void RequestSpawnZombieServerRpc(string playerId, ServerRpcParams rpcParams = default)
+    [ClientRpc]
+    private void NotifyPlantSpawnedClientRpc(ulong networkObjectId, Vector3 position)
     {
-        Debug.Log($"Server: Spawning Zombie for player {playerId}");
-        
-        if (zombiePrefab == null)
+        // Find NetworkObject by ID
+        if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(networkObjectId, out NetworkObject netObj))
         {
-            Debug.LogError("Zombie prefab is not assigned in NetworkGameManager!");
+            GameObject plant = netObj.gameObject;
+
+            // Find tile at position
+            Tile tile = FindTileAtPosition(position);
+
+            if (tile != null && PlantManager.Instance != null)
+            {
+                PlantManager.Instance.OnPlantSpawned(plant, tile);
+            }
+        }
+    }
+
+    // Zombie Player spawn zombies (từ UI hoặc button)
+    public void SpawnZombie()
+    {
+        if (localPlayerRole != PlayerRole.Zombie)
+        {
+            Debug.LogWarning("Only Zombie player can spawn zombies!");
             return;
         }
 
-        Vector3 spawnPosition = zombieSpawnPoint != null 
-            ? zombieSpawnPoint.position 
-            : new Vector3(5f, 0f, -1f); // THÊM Z = -1 để ở phía trước camera
+        Vector3 spawnPos = zombieSpawnPoint != null ? zombieSpawnPoint.position : new Vector3(10f, 0f, 0f);
+        RequestSpawnZombieServerRpc(spawnPos, AuthenticationService.Instance.PlayerId);
+    }
 
-        GameObject zombie = Instantiate(zombiePrefab, spawnPosition, Quaternion.identity);
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestSpawnZombieServerRpc(Vector3 position, string playerId, ServerRpcParams rpcParams = default)
+    {
+        Debug.Log($"Server: Spawning Zombie for player {playerId} at {position}");
+
+        if (basicZombiePrefab == null)
+        {
+            Debug.LogError("Zombie prefab not assigned!");
+            return;
+        }
+
+        GameObject zombie = Instantiate(basicZombiePrefab, position, Quaternion.identity);
         NetworkObject networkObject = zombie.GetComponent<NetworkObject>();
-        
+
         if (networkObject != null)
         {
             networkObject.SpawnWithOwnership(rpcParams.Receive.SenderClientId);
-            Debug.Log($"Zombie spawned at {spawnPosition} and assigned to client {rpcParams.Receive.SenderClientId}");
+            Debug.Log($"Zombie spawned at {position}");
         }
         else
         {
@@ -141,52 +162,23 @@ public class NetworkGameManager : NetworkBehaviour
         }
     }
 
-    // Hàm để spawn ở vị trí cụ thể (cho gameplay sau này)
-    public void SpawnUnitAtPosition(Vector3 position)
+    // Utility: Tìm tile gần position nhất
+    private Tile FindTileAtPosition(Vector3 position)
     {
-        if (localPlayerRole == PlayerRole.Plant)
-        {
-            RequestSpawnPlantAtPositionServerRpc(position, AuthenticationService.Instance.PlayerId);
-        }
-        else if (localPlayerRole == PlayerRole.Zombie)
-        {
-            RequestSpawnZombieAtPositionServerRpc(position, AuthenticationService.Instance.PlayerId);
-        }
-    }
+        Tile[] tiles = FindObjectsOfType<Tile>();
+        Tile closest = null;
+        float minDist = float.MaxValue;
 
-    [ServerRpc(RequireOwnership = false)]
-    private void RequestSpawnPlantAtPositionServerRpc(Vector3 position, string playerId, ServerRpcParams rpcParams = default)
-    {
-        if (peashooterPrefab == null) return;
+        foreach (var tile in tiles)
+        {
+            float dist = Vector3.Distance(tile.PlantWorldPosition, position);
+            if (dist < minDist && dist < 0.5f) // threshold 0.5 units
+            {
+                minDist = dist;
+                closest = tile;
+            }
+        }
 
-        GameObject plant = Instantiate(peashooterPrefab, position, Quaternion.identity);
-        NetworkObject networkObject = plant.GetComponent<NetworkObject>();
-        
-        if (networkObject != null)
-        {
-            networkObject.SpawnWithOwnership(rpcParams.Receive.SenderClientId);
-        }
-        else
-        {
-            Destroy(plant);
-        }
-    }
-
-    [ServerRpc(RequireOwnership = false)]
-    private void RequestSpawnZombieAtPositionServerRpc(Vector3 position, string playerId, ServerRpcParams rpcParams = default)
-    {
-        if (zombiePrefab == null) return;
-
-        GameObject zombie = Instantiate(zombiePrefab, position, Quaternion.identity);
-        NetworkObject networkObject = zombie.GetComponent<NetworkObject>();
-        
-        if (networkObject != null)
-        {
-            networkObject.SpawnWithOwnership(rpcParams.Receive.SenderClientId);
-        }
-        else
-        {
-            Destroy(zombie);
-        }
+        return closest;
     }
 }

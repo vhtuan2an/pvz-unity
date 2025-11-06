@@ -1,32 +1,101 @@
 using UnityEngine;
+using Unity.Netcode;
 
-public class ZombieBase : MonoBehaviour
+public class ZombieBase : NetworkBehaviour // Thay đổi từ MonoBehaviour
 {
-    public int maxHealth = 100;
-    protected int currentHealth;
-    protected float slowMultiplier = 1f;
+    [Header("Stats")]
+    [SerializeField] protected int maxHealth = 10;
+    [SerializeField] protected float moveSpeed = 1f;
+    [SerializeField] protected int damage = 1;
     
+    protected NetworkVariable<int> currentHealth;
+    protected float slowMultiplier = 1f;
+    private Animator animator;
+
+    protected virtual void Awake()
+    {
+        currentHealth = new NetworkVariable<int>(
+            maxHealth,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Server
+        );
+    }
+
     protected virtual void Start()
     {
-        currentHealth = maxHealth;
+        animator = GetComponent<Animator>();
+        
+        if (IsServer)
+        {
+            currentHealth.Value = maxHealth;
+        }
     }
 
     public virtual void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        if (currentHealth <= 0)
+        if (!IsServer)
+            return;
+
+        currentHealth.Value -= damage;
+        Debug.Log($"{gameObject.name} took {damage} damage. HP: {currentHealth.Value}/{maxHealth}");
+
+        if (currentHealth.Value <= 0)
         {
             Die();
         }
     }
 
-    public virtual void ApplySlow(float amount)
-    {
-        slowMultiplier = Mathf.Clamp(1f - amount, 0.1f, 1f);
-    }
-
     protected virtual void Die()
     {
+        if (!IsServer)
+            return;
+
+        Debug.Log($"{gameObject.name} died!");
+        
+        TriggerDeathAnimationClientRpc();
+        Invoke(nameof(DespawnZombie), 1f);
+    }
+
+    [ClientRpc]
+    protected void TriggerDeathAnimationClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+    }
+
+    private void DespawnZombie()
+    {
+        if (!IsServer)
+            return;
+
+        NetworkObject netObj = GetComponent<NetworkObject>();
+        if (netObj != null && netObj.IsSpawned)
+        {
+            netObj.Despawn();
+        }
         Destroy(gameObject);
     }
+
+    public void ApplySlow(float duration, float slowAmount)
+    {
+        if (!IsServer)
+            return;
+
+        StartCoroutine(SlowCoroutine(duration, slowAmount));
+    }
+
+    private System.Collections.IEnumerator SlowCoroutine(float duration, float slowAmount)
+    {
+        slowMultiplier = slowAmount;
+        yield return new WaitForSeconds(duration);
+        slowMultiplier = 1f;
+    }
+
+    // Getters
+    public int GetCurrentHealth() => currentHealth.Value;
+    public int GetMaxHealth() => maxHealth;
+    public float GetMoveSpeed() => moveSpeed * slowMultiplier;
+    public int GetDamage() => damage;
 }

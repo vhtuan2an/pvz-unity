@@ -16,14 +16,14 @@ public class LobbyManager : MonoBehaviour
 {
     public static LobbyManager Instance { get; private set; }
 
-[Header("Lobby Settings")]
-[SerializeField] private int maxPlayers = 2;
-// [SerializeField] private float lobbyPollInterval = 3f;
-[SerializeField] private float lobbyHeartbeatInterval = 1.5f;
-private float lastPollTime = 0f;
-private float minPollInterval = 10f; // Minimum 10 seconds between polls
-private int consecutiveErrors = 0;
-private float maxPollInterval = 30f; // Maximum 30 seconds between polls
+    [Header("Lobby Settings")]
+    [SerializeField] private int maxPlayers = 2;
+    // [SerializeField] private float lobbyPollInterval = 3f;
+    [SerializeField] private float lobbyHeartbeatInterval = 1.5f;
+    private float lastPollTime = 0f;
+    private float minPollInterval = 10f; // Minimum 10 seconds between polls
+    private int consecutiveErrors = 0;
+    private float maxPollInterval = 30f; // Maximum 30 seconds between polls
 
 
     public PlayerRole SelectedRole { get; private set; } = PlayerRole.None;
@@ -185,7 +185,7 @@ private float maxPollInterval = 30f; // Maximum 30 seconds between polls
     //     };
 
     //     CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobby.Id, joinOptions);
-        
+
     //     Debug.Log($"Joined lobby: {CurrentLobby.Name} (ID: {CurrentLobby.Id})");
     //     Debug.Log($"Players in lobby: {CurrentLobby.Players.Count}/{CurrentLobby.MaxPlayers}");
 
@@ -219,113 +219,113 @@ private float maxPollInterval = 30f; // Maximum 30 seconds between polls
     }
 
     private async void PollLobby()
-{
-    if (isPolling) return; // guard: ensure single poll loop
-    isPolling = true;
-
-    float baseInterval = Mathf.Max(10f, minPollInterval); // safer minimum, increased from 3f
-    float currentInterval = baseInterval;
-    consecutiveErrors = 0;
-
-    try
     {
-        while (isPolling && IsSearching && CurrentLobby != null)
+        if (isPolling) return; // guard: ensure single poll loop
+        isPolling = true;
+
+        float baseInterval = Mathf.Max(10f, minPollInterval); // safer minimum, increased from 3f
+        float currentInterval = baseInterval;
+        consecutiveErrors = 0;
+
+        try
         {
-            // Add small random jitter to avoid thundering herd (0-2s)
-            float jitter = UnityEngine.Random.Range(0f, 2f);
-            await Task.Delay(TimeSpan.FromSeconds(currentInterval + jitter));
-
-            try
+            while (isPolling && IsSearching && CurrentLobby != null)
             {
-                // Only host should send heartbeat frequently
-                if (IsLobbyHost() && Time.time >= nextHeartbeat)
+                // Add small random jitter to avoid thundering herd (0-2s)
+                float jitter = UnityEngine.Random.Range(0f, 2f);
+                await Task.Delay(TimeSpan.FromSeconds(currentInterval + jitter));
+
+                try
                 {
-                    await LobbyService.Instance.SendHeartbeatPingAsync(CurrentLobby.Id);
-                    nextHeartbeat = Time.time + lobbyHeartbeatInterval;
-                    Debug.Log("Lobby heartbeat sent");
+                    // Only host should send heartbeat frequently
+                    if (IsLobbyHost() && Time.time >= nextHeartbeat)
+                    {
+                        await LobbyService.Instance.SendHeartbeatPingAsync(CurrentLobby.Id);
+                        nextHeartbeat = Time.time + lobbyHeartbeatInterval;
+                        Debug.Log("Lobby heartbeat sent");
+                    }
+
+                    // Poll lobby state
+                    CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                    Debug.Log($"Lobby poll - Players: {CurrentLobby.Players.Count}/{CurrentLobby.MaxPlayers}");
+
+                    // Reset backoff on success
+                    consecutiveErrors = 0;
+                    currentInterval = baseInterval;
+
+                    // Check match condition
+                    if (CurrentLobby.Players.Count == maxPlayers && IsSearching)
+                    {
+                        Debug.Log("=== Match Found! ===");
+                        LogLobbyPlayers();
+
+                        IsSearching = false;
+                        isPolling = false;
+                        OnMatchFound?.Invoke(CurrentLobby.Id);
+                        StartNetworkGame();
+                        break;
+                    }
                 }
-
-                // Poll lobby state
-                CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
-                Debug.Log($"Lobby poll - Players: {CurrentLobby.Players.Count}/{CurrentLobby.MaxPlayers}");
-
-                // Reset backoff on success
-                consecutiveErrors = 0;
-                currentInterval = baseInterval;
-
-                // Check match condition
-                if (CurrentLobby.Players.Count == maxPlayers && IsSearching)
+                catch (LobbyServiceException lex)
                 {
-                    Debug.Log("=== Match Found! ===");
-                    LogLobbyPlayers();
+                    consecutiveErrors++;
+                    string msg = lex.Message ?? lex.Reason.ToString();
+                    Debug.LogError($"Error polling lobby (attempt {consecutiveErrors}): {msg}");
 
-                    IsSearching = false;
-                    isPolling = false;
-                    OnMatchFound?.Invoke(CurrentLobby.Id);
-                    StartNetworkGame();
-                    break;
+                    // Detect rate limit
+                    bool isRateLimit = lex.Message?.Contains("Too Many Requests") == true
+                                       || lex.Message?.Contains("Rate Limited") == true
+                                       || lex.Reason == LobbyExceptionReason.Unknown;
+
+                    if (isRateLimit)
+                    {
+                        // Exponential backoff with cap + jitter
+                        currentInterval = Mathf.Min(currentInterval * 2f, 60f); // cap at 60s
+                        currentInterval += UnityEngine.Random.Range(0f, 5f);
+                        Debug.LogWarning($"Rate limited -> backing off. New interval: {currentInterval}s");
+                    }
+                    else if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
+                    {
+                        await CancelMatchmaking();
+                        OnMatchmakingFailed?.Invoke("Lobby was closed");
+                        break;
+                    }
+                    else
+                    {
+                        // transient error: moderate backoff
+                        currentInterval = Mathf.Min(currentInterval * 1.5f, 30f);
+                        Debug.LogWarning($"Transient lobby error, increasing interval to {currentInterval}s");
+                    }
+
+                    if (consecutiveErrors >= 6)
+                    {
+                        Debug.LogError("Too many consecutive errors polling lobby, cancelling matchmaking.");
+                        await CancelMatchmaking();
+                        OnMatchmakingFailed?.Invoke("Connection issues - polling failed repeatedly");
+                        break;
+                    }
                 }
-            }
-            catch (LobbyServiceException lex)
-            {
-                consecutiveErrors++;
-                string msg = lex.Message ?? lex.Reason.ToString();
-                Debug.LogError($"Error polling lobby (attempt {consecutiveErrors}): {msg}");
-
-                // Detect rate limit
-                bool isRateLimit = lex.Message?.Contains("Too Many Requests") == true
-                                   || lex.Message?.Contains("Rate Limited") == true
-                                   || lex.Reason == LobbyExceptionReason.Unknown;
-
-                if (isRateLimit)
+                catch (Exception ex)
                 {
-                    // Exponential backoff with cap + jitter
-                    currentInterval = Mathf.Min(currentInterval * 2f, 60f); // cap at 60s
-                    currentInterval += UnityEngine.Random.Range(0f, 5f);
-                    Debug.LogWarning($"Rate limited -> backing off. New interval: {currentInterval}s");
-                }
-                else if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
-                {
-                    await CancelMatchmaking();
-                    OnMatchmakingFailed?.Invoke("Lobby was closed");
-                    break;
-                }
-                else
-                {
-                    // transient error: moderate backoff
+                    consecutiveErrors++;
+                    Debug.LogError($"Unexpected error polling lobby: {ex.Message}");
                     currentInterval = Mathf.Min(currentInterval * 1.5f, 30f);
-                    Debug.LogWarning($"Transient lobby error, increasing interval to {currentInterval}s");
-                }
 
-                if (consecutiveErrors >= 6)
-                {
-                    Debug.LogError("Too many consecutive errors polling lobby, cancelling matchmaking.");
-                    await CancelMatchmaking();
-                    OnMatchmakingFailed?.Invoke("Connection issues - polling failed repeatedly");
-                    break;
-                }
-            }
-            catch (Exception ex)
-            {
-                consecutiveErrors++;
-                Debug.LogError($"Unexpected error polling lobby: {ex.Message}");
-                currentInterval = Mathf.Min(currentInterval * 1.5f, 30f);
-
-                if (consecutiveErrors >= 6)
-                {
-                    Debug.LogError("Too many consecutive errors polling lobby, cancelling matchmaking.");
-                    await CancelMatchmaking();
-                    OnMatchmakingFailed?.Invoke("Connection issues - polling failed repeatedly");
-                    break;
+                    if (consecutiveErrors >= 6)
+                    {
+                        Debug.LogError("Too many consecutive errors polling lobby, cancelling matchmaking.");
+                        await CancelMatchmaking();
+                        OnMatchmakingFailed?.Invoke("Connection issues - polling failed repeatedly");
+                        break;
+                    }
                 }
             }
         }
+        finally
+        {
+            isPolling = false;
+        }
     }
-    finally
-    {
-        isPolling = false;
-    }
-}
 
     private void LogLobbyPlayers()
     {
@@ -478,10 +478,10 @@ private float maxPollInterval = 30f; // Maximum 30 seconds between polls
             // Setup UTP transport
             var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
             utpTransport.SetRelayServerData(
-                hostAllocation.RelayServer.IpV4, 
+                hostAllocation.RelayServer.IpV4,
                 (ushort)hostAllocation.RelayServer.Port,
-                hostAllocation.AllocationIdBytes, 
-                hostAllocation.Key, 
+                hostAllocation.AllocationIdBytes,
+                hostAllocation.Key,
                 hostAllocation.ConnectionData
             );
 
@@ -499,77 +499,77 @@ private float maxPollInterval = 30f; // Maximum 30 seconds between polls
     }
 
     private async Task StartClientWithRelay()
-{
-    try
     {
-        // Đợi join code được host cập nhật (host tạo allocation trong StartHostWithRelay)
-        string joinCode = await GetJoinCodeWithRetry(maxRetries: 15, retryDelay: 1f);
-        if (string.IsNullOrEmpty(joinCode))
+        try
         {
-            throw new Exception("No join code found after waiting for host");
-        }
-
-        Debug.Log($"Client joining with code: {joinCode}");
-
-        // Join allocation
-        clientAllocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
-        Debug.Log($"Client joined allocation: {clientAllocation.AllocationId}");
-
-        // Setup UTP transport
-        var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-        utpTransport.SetRelayServerData(
-            clientAllocation.RelayServer.IpV4, 
-            (ushort)clientAllocation.RelayServer.Port,
-            clientAllocation.AllocationIdBytes, 
-            clientAllocation.Key, 
-            clientAllocation.ConnectionData, 
-            clientAllocation.HostConnectionData
-        );
-
-        // Start client
-        if (!NetworkManager.Singleton.IsClient)
-            NetworkManager.Singleton.StartClient();
-
-        Debug.Log("Client started successfully");
-    }
-    catch (Exception ex)
-    {
-        Debug.LogError($"Failed to start client with Relay: {ex.Message}");
-        throw;
-    }
-}
-
-// Sửa GetJoinCodeWithRetry để tăng số lần retry và delay
-private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float retryDelay = 1f)
-{
-    for (int i = 0; i < maxRetries; i++)
-    {
-        if (CurrentLobby != null)
-        {
-            try
+            // Đợi join code được host cập nhật (host tạo allocation trong StartHostWithRelay)
+            string joinCode = await GetJoinCodeWithRetry(maxRetries: 15, retryDelay: 1f);
+            if (string.IsNullOrEmpty(joinCode))
             {
-                CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                throw new Exception("No join code found after waiting for host");
             }
-            catch (Exception ex)
-            {
-                Debug.LogWarning($"Failed to refresh lobby: {ex.Message}");
-            }
+
+            Debug.Log($"Client joining with code: {joinCode}");
+
+            // Join allocation
+            clientAllocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
+            Debug.Log($"Client joined allocation: {clientAllocation.AllocationId}");
+
+            // Setup UTP transport
+            var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+            utpTransport.SetRelayServerData(
+                clientAllocation.RelayServer.IpV4,
+                (ushort)clientAllocation.RelayServer.Port,
+                clientAllocation.AllocationIdBytes,
+                clientAllocation.Key,
+                clientAllocation.ConnectionData,
+                clientAllocation.HostConnectionData
+            );
+
+            // Start client
+            if (!NetworkManager.Singleton.IsClient)
+                NetworkManager.Singleton.StartClient();
+
+            Debug.Log("Client started successfully");
         }
-        
-        string joinCode = GetJoinCodeFromLobby();
-        if (!string.IsNullOrEmpty(joinCode))
+        catch (Exception ex)
         {
-            Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
-            return joinCode;
+            Debug.LogError($"Failed to start client with Relay: {ex.Message}");
+            throw;
         }
-        
-        Debug.Log($"Join code not ready, waiting... ({i + 1}/{maxRetries})");
-        await Task.Delay(TimeSpan.FromSeconds(retryDelay));
     }
-    
-    Debug.LogError("Join code not found after all retries");
-    return null;
-}
+
+    // Sửa GetJoinCodeWithRetry để tăng số lần retry và delay
+    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float retryDelay = 1f)
+    {
+        for (int i = 0; i < maxRetries; i++)
+        {
+            if (CurrentLobby != null)
+            {
+                try
+                {
+                    CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogWarning($"Failed to refresh lobby: {ex.Message}");
+                }
+            }
+
+            string joinCode = GetJoinCodeFromLobby();
+            if (!string.IsNullOrEmpty(joinCode))
+            {
+                Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
+                return joinCode;
+            }
+
+            Debug.Log($"Join code not ready, waiting... ({i + 1}/{maxRetries})");
+            await Task.Delay(TimeSpan.FromSeconds(retryDelay));
+        }
+
+        Debug.LogError("Join code not found after all retries");
+        return null;
+    }
 
     private async Task UpdateLobbyWithRelayData(string joinCode)
     {
@@ -597,9 +597,9 @@ private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float retry
     private string GetJoinCodeFromLobby()
     {
         if (CurrentLobby?.Data == null) return null;
-        
-        return CurrentLobby.Data.ContainsKey("relayJoinCode") 
-            ? CurrentLobby.Data["relayJoinCode"].Value 
+
+        return CurrentLobby.Data.ContainsKey("relayJoinCode")
+            ? CurrentLobby.Data["relayJoinCode"].Value
             : null;
     }
 
@@ -633,102 +633,102 @@ private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float retry
     public async Task<bool> CreateLobbyWithRoleAsync(PlayerRole role)
     {
         // Đảm bảo chúng ta không đang trong một lobby khác
-    if (IsSearching || CurrentLobby != null)
-    {
-        Debug.LogWarning("Cannot create lobby while already in one.");
-        return false;
-    }
+        if (IsSearching || CurrentLobby != null)
+        {
+            Debug.LogWarning("Cannot create lobby while already in one.");
+            return false;
+        }
 
-    SelectedRole = role;
-    try
-    {
-        // Đặt IsSearching = true TRƯỚC khi tạo lobby và polling
-        IsSearching = true;
-        OnMatchmakingStarted?.Invoke();
+        SelectedRole = role;
+        try
+        {
+            // Đặt IsSearching = true TRƯỚC khi tạo lobby và polling
+            IsSearching = true;
+            OnMatchmakingStarted?.Invoke();
 
-        await CreateNewLobby(); // dùng hàm hiện tại (CreateNewLobby dùng SelectedRole)
+            await CreateNewLobby(); // dùng hàm hiện tại (CreateNewLobby dùng SelectedRole)
 
-        return CurrentLobby != null;
-    }
-    catch (Exception ex)
-    {
-        Debug.LogError($"CreateLobbyWithRoleAsync failed: {ex.Message}");
-        IsSearching = false;
-        return false;
-    }
+            return CurrentLobby != null;
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"CreateLobbyWithRoleAsync failed: {ex.Message}");
+            IsSearching = false;
+            return false;
+        }
     }
 
     // Public API: join lobby theo id; tự động chọn role còn lại
     public async Task<bool> JoinLobbyByIdAsyncPublic(string lobbyId)
     {
         // Đảm bảo chúng ta không đang trong một lobby khác
-    if (IsSearching || CurrentLobby != null)
-    {
-        Debug.LogWarning("Cannot join lobby while already in one.");
-        return false;
-    }
-
-    try
-    {
-        // Vấn đề: CreatePlayerData() dùng SelectedRole, lúc này đang là None
-        // var joinOptions = new JoinLobbyByIdOptions { Player = CreatePlayerData() };
-        // CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId, joinOptions);
-        
-        // Sửa: Join trước, sau đó xác định vai trò, rồi cập nhật
-        CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId);
-
-        Debug.Log($"Joined lobby (public call): {CurrentLobby.Name} ({CurrentLobby.Id})");
-
-        // Determine role of other player(s) and pick opposite
-        var otherPlayer = CurrentLobby.Players.FirstOrDefault(p => p.Id != AuthenticationService.Instance.PlayerId);
-        if (otherPlayer != null && otherPlayer.Data != null && otherPlayer.Data.ContainsKey("role"))
+        if (IsSearching || CurrentLobby != null)
         {
-            if (Enum.TryParse<PlayerRole>(otherPlayer.Data["role"].Value, out var otherRole))
-            {
-                SelectedRole = otherRole == PlayerRole.Plant ? PlayerRole.Zombie : PlayerRole.Plant;
-                Debug.Log($"Assigned role after join: {SelectedRole} (other had {otherRole})");
+            Debug.LogWarning("Cannot join lobby while already in one.");
+            return false;
+        }
 
-                // BẮT ĐẦU SỬA: Cập nhật role của mình lên server
-                await LobbyService.Instance.UpdatePlayerAsync(CurrentLobby.Id, AuthenticationService.Instance.PlayerId, new UpdatePlayerOptions
+        try
+        {
+            // Vấn đề: CreatePlayerData() dùng SelectedRole, lúc này đang là None
+            // var joinOptions = new JoinLobbyByIdOptions { Player = CreatePlayerData() };
+            // CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId, joinOptions);
+
+            // Sửa: Join trước, sau đó xác định vai trò, rồi cập nhật
+            CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId);
+
+            Debug.Log($"Joined lobby (public call): {CurrentLobby.Name} ({CurrentLobby.Id})");
+
+            // Determine role of other player(s) and pick opposite
+            var otherPlayer = CurrentLobby.Players.FirstOrDefault(p => p.Id != AuthenticationService.Instance.PlayerId);
+            if (otherPlayer != null && otherPlayer.Data != null && otherPlayer.Data.ContainsKey("role"))
+            {
+                if (Enum.TryParse<PlayerRole>(otherPlayer.Data["role"].Value, out var otherRole))
                 {
-                    Data = CreatePlayerData().Data // Dùng lại hàm CreatePlayerData để lấy data
-                });
-                Debug.Log($"Player role updated to {SelectedRole} on server.");
-                OnRoleSelected?.Invoke(SelectedRole); // Cập nhật UI
-                // KẾT THÚC SỬA
+                    SelectedRole = otherRole == PlayerRole.Plant ? PlayerRole.Zombie : PlayerRole.Plant;
+                    Debug.Log($"Assigned role after join: {SelectedRole} (other had {otherRole})");
+
+                    // BẮT ĐẦU SỬA: Cập nhật role của mình lên server
+                    await LobbyService.Instance.UpdatePlayerAsync(CurrentLobby.Id, AuthenticationService.Instance.PlayerId, new UpdatePlayerOptions
+                    {
+                        Data = CreatePlayerData().Data // Dùng lại hàm CreatePlayerData để lấy data
+                    });
+                    Debug.Log($"Player role updated to {SelectedRole} on server.");
+                    OnRoleSelected?.Invoke(SelectedRole); // Cập nhật UI
+                                                          // KẾT THÚC SỬA
+                }
+                else
+                {
+                    SelectedRole = PlayerRole.None;
+                }
             }
             else
             {
                 SelectedRole = PlayerRole.None;
             }
+
+            // BẮT ĐẦU SỬA: Set IsSearching = true để Client cũng bắt đầu poll
+            IsSearching = true;
+            // KẾT THÚC SỬA
+
+            // Start polling to watch for changes / start match when full
+            StartPolling();
+
+            // If lobby already full, start match
+            if (CurrentLobby.Players.Count == maxPlayers)
+            {
+                OnMatchFound?.Invoke(CurrentLobby.Id);
+                StartNetworkGame();
+                IsSearching = false; // Tắt IsSearching vì đã tìm thấy trận
+            }
+
+            return true;
         }
-        else
+        catch (Exception ex)
         {
-            SelectedRole = PlayerRole.None;
+            Debug.LogError($"JoinLobbyByIdAsyncPublic failed: {ex.Message}");
+            return false;
         }
-
-        // BẮT ĐẦU SỬA: Set IsSearching = true để Client cũng bắt đầu poll
-        IsSearching = true; 
-        // KẾT THÚC SỬA
-
-        // Start polling to watch for changes / start match when full
-        StartPolling();
-
-        // If lobby already full, start match
-        if (CurrentLobby.Players.Count == maxPlayers)
-        {
-            OnMatchFound?.Invoke(CurrentLobby.Id);
-            StartNetworkGame();
-            IsSearching = false; // Tắt IsSearching vì đã tìm thấy trận
-        }
-
-        return true;
-    }
-    catch (Exception ex)
-    {
-        Debug.LogError($"JoinLobbyByIdAsyncPublic failed: {ex.Message}");
-        return false;
-    }
     }
 
     // Helper: get display name (PlayerName) of host/owner for list UI

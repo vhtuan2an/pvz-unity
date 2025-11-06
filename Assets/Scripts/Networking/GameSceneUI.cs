@@ -7,25 +7,21 @@ using System.Collections;
 public class GameSceneUI : MonoBehaviour
 {
     [Header("UI Elements")]
-    [SerializeField] private Button spawnButton;
+    [SerializeField] private Button spawnZombieButton; // Thêm button này
     [SerializeField] private TMP_Text roleText;
-    [SerializeField] private TMP_Text statusText;
     [SerializeField] private TMP_Text connectionStatusText;
 
     private void Start()
     {
-        spawnButton.onClick.AddListener(OnSpawnButtonClicked);
-        
         // Đợi NetworkGameManager ready
-        StartCoroutine(WaitForNetworkManagerAndDisplayRole());
+        StartCoroutine(WaitForNetworkManagerAndSetupUI());
 
         UpdateConnectionStatus();
         InvokeRepeating(nameof(UpdateConnectionStatus), 0.5f, 0.5f);
     }
 
-    private IEnumerator WaitForNetworkManagerAndDisplayRole()
+    private IEnumerator WaitForNetworkManagerAndSetupUI()
     {
-        // Đợi NetworkGameManager spawn
         while (NetworkGameManager.Instance == null)
         {
             yield return null;
@@ -38,29 +34,25 @@ public class GameSceneUI : MonoBehaviour
             roleText.text = $"Role: {role}";
             roleText.color = role == PlayerRole.Plant ? Color.green : Color.red;
             Debug.Log($"GameSceneUI: Displaying role {role}");
-        }
-        else
-        {
-            Debug.LogError("GameSceneUI: LobbyManager.Instance is null!");
-            roleText.text = "Role: Unknown";
-            roleText.color = Color.yellow;
+
+            // Show/Hide buttons dựa trên role
+            if (role == PlayerRole.Zombie && spawnZombieButton != null)
+            {
+                spawnZombieButton.gameObject.SetActive(true);
+                spawnZombieButton.onClick.AddListener(OnSpawnZombieClicked);
+            }
+            else if (spawnZombieButton != null)
+            {
+                spawnZombieButton.gameObject.SetActive(false);
+            }
         }
     }
 
-    private void OnSpawnButtonClicked()
+    private void OnSpawnZombieClicked()
     {
-        Debug.Log("Spawn button clicked!");
-
         if (NetworkGameManager.Instance != null)
         {
-            NetworkGameManager.Instance.SpawnUnit();
-            statusText.text = "Spawning unit...";
-        }
-        else
-        {
-            statusText.text = "Error: NetworkGameManager not found!";
-            statusText.color = Color.red;
-            Debug.LogError("NetworkGameManager.Instance is null when spawn button clicked!");
+            NetworkGameManager.Instance.SpawnZombie();
         }
     }
 

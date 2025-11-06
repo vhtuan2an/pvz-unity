@@ -1,69 +1,127 @@
 using UnityEngine;
-using System.Collections;
+using Unity.Netcode;
 
 public class Peashooter : PlantBase
 {
-    [Header("Shooting Settings")]
-    public GameObject peaPrefab;
-    public Transform shootPoint;
-    public float shootInterval = 1.425f;
-    public float detectionRange = 15f;
-    
-    [Header("Layers")]
-    public LayerMask zombieLayer;
-    
-    private float lastShootTime;
+    [Header("Combat")]
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private Transform shootPoint;
+    [SerializeField] private float attackRate = 1.5f;
+    [SerializeField] private float detectionRange = 10f;
+    [SerializeField] private LayerMask zombieLayer;
+
+    private float attackTimer = 0f;
+    private Animator animator;
 
     protected override void Start()
     {
-        maxHealth = 300;
         base.Start();
-        lastShootTime = Time.time;
+        animator = GetComponent<Animator>();
 
-        // Auto-create ShootPoint if not assigned
         if (shootPoint == null)
         {
-            GameObject sp = new GameObject("ShootPoint");
-            sp.transform.parent = transform;
-            sp.transform.localPosition = new Vector3(0.4f, 0.2f, 0f); // Set to mouth/cannon offset
-            shootPoint = sp.transform;
+            shootPoint = transform;
         }
+
+        Debug.Log($"Peashooter Start: projectilePrefab={projectilePrefab != null}, shootPoint={shootPoint != null}");
     }
 
-    void Update()
+    private void Update()
     {
-        if (IsZombieInRange() && Time.time - lastShootTime >= shootInterval)
+        // ✅ CHỈ SERVER mới kiểm tra zombie và bắn
+        if (!IsServer)
+            return;
+
+        attackTimer += Time.deltaTime;
+
+        if (attackTimer >= attackRate)
         {
-            Shoot();
-            lastShootTime = Time.time;
+            if (CheckForZombies())
+            {
+                ShootProjectile();
+            }
+            attackTimer = 0f;
         }
     }
 
-    private void GetDetectionBox(out Vector2 center, out Vector2 size)
+    private bool CheckForZombies()
     {
-        center = (Vector2)transform.position + Vector2.right * (detectionRange / 2f);
-        size = new Vector2(detectionRange, 1f); // 1f is the height, adjust as needed
-    }
+        GameObject[] zombies = GameObject.FindGameObjectsWithTag("Zombie");
 
-    bool IsZombieInRange()
-    {
-        GetDetectionBox(out Vector2 boxCenter, out Vector2 boxSize);
-        Collider2D hit = Physics2D.OverlapBox(boxCenter, boxSize, 0f, zombieLayer);
-        return hit != null;
-    }
-
-    void Shoot()
-    {
-        if (peaPrefab != null && shootPoint != null)
+        if (zombies.Length > 0)
         {
-            Instantiate(peaPrefab, shootPoint.position, Quaternion.identity);
+            foreach (var zombie in zombies)
+            {
+                if (zombie.transform.position.x > shootPoint.position.x && zombie.transform.position.y == this.transform.position.y)
+                {
+                    float distance = zombie.transform.position.x - shootPoint.position.x;
+                    if (distance <= detectionRange)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
+    private void ShootProjectile()
+    {
+        if (!IsServer)
+            return;
+
+        Debug.Log($"🎯 Peashooter SHOOTING from {transform.position}");
+
+        if (projectilePrefab != null)
+        {
+            // ✅ Check if prefab has NetworkObject
+            NetworkObject prefabNetObj = projectilePrefab.GetComponent<NetworkObject>();
+            if (prefabNetObj == null)
+            {
+                Debug.LogError("⚠️ Projectile prefab missing NetworkObject component!");
+                return;
+            }
+
+            GameObject pea = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+
+            NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
+            if (peaNetObj != null)
+            {
+                // ✅ Spawn với Server ownership - sẽ sync tới TẤT CẢ clients
+                peaNetObj.Spawn(true); // true = destroy with scene
+                Debug.Log($"✅ Projectile spawned: NetworkObjectId={peaNetObj.NetworkObjectId}, IsSpawned={peaNetObj.IsSpawned}");
+            }
+            else
+            {
+                Debug.LogWarning("⚠️ Projectile instance missing NetworkObject component!");
+                Destroy(pea);
+            }
+        }
+        else
+        {
+            Debug.LogError("⚠️ Projectile prefab is null!");
+        }
+
+        // ✅ Trigger animation trên TẤT CẢ clients
+        TriggerShootAnimationClientRpc();
+    }
+
+    [ClientRpc]
+    private void TriggerShootAnimationClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.SetBool("isShooting", true);
         }
     }
 
-    void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
+        if (shootPoint == null)
+            shootPoint = transform;
+
         Gizmos.color = Color.red;
-        GetDetectionBox(out Vector2 boxCenter, out Vector2 boxSize);
-        Gizmos.DrawWireCube(boxCenter, boxSize);
+        Gizmos.DrawRay(shootPoint.position, Vector2.right * detectionRange);
     }
 }
