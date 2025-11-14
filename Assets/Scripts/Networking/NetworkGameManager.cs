@@ -1,6 +1,5 @@
 using Unity.Netcode;
 using UnityEngine;
-using Unity.Services.Authentication;
 using System.Collections.Generic;
 
 public class NetworkGameManager : NetworkBehaviour
@@ -21,7 +20,7 @@ public class NetworkGameManager : NetworkBehaviour
     [System.Serializable]
     public class PlantPrefabMapping
     {
-        public string plantName; // "Peashooter", "Wallnut", etc.
+        public string plantName;
         public GameObject prefab;
     }
 
@@ -30,6 +29,7 @@ public class NetworkGameManager : NetworkBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -68,13 +68,14 @@ public class NetworkGameManager : NetworkBehaviour
         }
 
         Debug.Log($"Requesting spawn {plantName} at {position}");
-        RequestSpawnPlantServerRpc(position, plantName, AuthenticationService.Instance.PlayerId);
+        RequestSpawnPlantServerRpc(position, plantName);
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void RequestSpawnPlantServerRpc(Vector3 position, string plantName, string playerId, ServerRpcParams rpcParams = default)
+    private void RequestSpawnPlantServerRpc(Vector3 position, string plantName, ServerRpcParams rpcParams = default)
     {
-        Debug.Log($"Server: Spawning {plantName} for player {playerId} at {position}");
+        ulong clientId = rpcParams.Receive.SenderClientId;
+        Debug.Log($"Server: Spawning {plantName} for client {clientId} at {position}");
 
         // Find prefab by name
         GameObject prefab = plantPrefabs.Find(p => p.plantName == plantName)?.prefab;
@@ -91,8 +92,7 @@ public class NetworkGameManager : NetworkBehaviour
 
         if (networkObject != null)
         {
-            // ✅ SERVER ownership thay vì client ownership
-            networkObject.Spawn(); // Server owns the plant
+            networkObject.Spawn();
             Debug.Log($"{plantName} spawned at {position} (Server-owned)");
 
             // Notify all clients để update tile state
@@ -108,12 +108,9 @@ public class NetworkGameManager : NetworkBehaviour
     [ClientRpc]
     private void NotifyPlantSpawnedClientRpc(ulong networkObjectId, Vector3 position)
     {
-        // Find NetworkObject by ID
         if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(networkObjectId, out NetworkObject netObj))
         {
             GameObject plant = netObj.gameObject;
-
-            // Find tile at position
             Tile tile = FindTileAtPosition(position);
 
             if (tile != null && PlantManager.Instance != null)
@@ -123,7 +120,7 @@ public class NetworkGameManager : NetworkBehaviour
         }
     }
 
-    // Zombie Player spawn zombies (từ UI hoặc button)
+    // Zombie Player spawn zombies
     public void SpawnZombie()
     {
         if (localPlayerRole != PlayerRole.Zombie)
@@ -133,13 +130,14 @@ public class NetworkGameManager : NetworkBehaviour
         }
 
         Vector3 spawnPos = zombieSpawnPoint != null ? zombieSpawnPoint.position : new Vector3(10f, 0f, 0f);
-        RequestSpawnZombieServerRpc(spawnPos, AuthenticationService.Instance.PlayerId);
+        RequestSpawnZombieServerRpc(spawnPos);
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void RequestSpawnZombieServerRpc(Vector3 position, string playerId, ServerRpcParams rpcParams = default)
+    private void RequestSpawnZombieServerRpc(Vector3 position, ServerRpcParams rpcParams = default)
     {
-        Debug.Log($"Server: Spawning Zombie for player {playerId} at {position}");
+        ulong clientId = rpcParams.Receive.SenderClientId;
+        Debug.Log($"Server: Spawning Zombie for client {clientId} at {position}");
 
         if (basicZombiePrefab == null)
         {
@@ -152,7 +150,7 @@ public class NetworkGameManager : NetworkBehaviour
 
         if (networkObject != null)
         {
-            networkObject.SpawnWithOwnership(rpcParams.Receive.SenderClientId);
+            networkObject.SpawnWithOwnership(clientId);
             Debug.Log($"Zombie spawned at {position}");
         }
         else
@@ -162,7 +160,6 @@ public class NetworkGameManager : NetworkBehaviour
         }
     }
 
-    // Utility: Tìm tile gần position nhất
     private Tile FindTileAtPosition(Vector3 position)
     {
         Tile[] tiles = FindObjectsOfType<Tile>();
@@ -172,7 +169,7 @@ public class NetworkGameManager : NetworkBehaviour
         foreach (var tile in tiles)
         {
             float dist = Vector3.Distance(tile.PlantWorldPosition, position);
-            if (dist < minDist && dist < 0.5f) // threshold 0.5 units
+            if (dist < minDist && dist < 0.5f)
             {
                 minDist = dist;
                 closest = tile;

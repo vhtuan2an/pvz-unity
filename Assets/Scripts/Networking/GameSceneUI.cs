@@ -7,27 +7,70 @@ using System.Collections;
 public class GameSceneUI : MonoBehaviour
 {
     [Header("UI Elements")]
-    [SerializeField] private Button spawnZombieButton; // Thêm button này
+    [SerializeField] private GameObject gameUIPanel;
+    [SerializeField] private Button spawnZombieButton;
     [SerializeField] private TMP_Text roleText;
     [SerializeField] private TMP_Text connectionStatusText;
+    [SerializeField] private TMP_Text modeText; // ✅ Hiển thị Test Mode hoặc Production
 
     private void Start()
     {
-        // Đợi NetworkGameManager ready
+        // Hide game UI until connected
+        if (gameUIPanel != null)
+        {
+            gameUIPanel.SetActive(false);
+        }
+        
         StartCoroutine(WaitForNetworkManagerAndSetupUI());
-
+        
         UpdateConnectionStatus();
         InvokeRepeating(nameof(UpdateConnectionStatus), 0.5f, 0.5f);
+        
+        // ✅ Hiển thị mode
+        UpdateModeDisplay();
+    }
+
+    private void UpdateModeDisplay()
+    {
+        if (modeText != null)
+        {
+            bool isTestMode = TestModeManager.Instance != null && TestModeManager.Instance.IsTestMode;
+            
+            if (isTestMode)
+            {
+                modeText.text = "TEST MODE";
+                modeText.color = Color.yellow;
+            }
+            else
+            {
+                modeText.text = "PRODUCTION";
+                modeText.color = Color.green;
+            }
+        }
     }
 
     private IEnumerator WaitForNetworkManagerAndSetupUI()
     {
+        // Wait for network connection
+        while (NetworkManager.Singleton == null || 
+               (!NetworkManager.Singleton.IsServer && !NetworkManager.Singleton.IsConnectedClient))
+        {
+            yield return null;
+        }
+        
+        // Wait for NetworkGameManager
         while (NetworkGameManager.Instance == null)
         {
             yield return null;
         }
+        
+        // Show game UI
+        if (gameUIPanel != null)
+        {
+            gameUIPanel.SetActive(true);
+        }
 
-        // Hiển thị role
+        // Display role
         if (LobbyManager.Instance != null)
         {
             PlayerRole role = LobbyManager.Instance.SelectedRole;
@@ -35,7 +78,7 @@ public class GameSceneUI : MonoBehaviour
             roleText.color = role == PlayerRole.Plant ? Color.green : Color.red;
             Debug.Log($"GameSceneUI: Displaying role {role}");
 
-            // Show/Hide buttons dựa trên role
+            // Show/Hide buttons based on role
             if (role == PlayerRole.Zombie && spawnZombieButton != null)
             {
                 spawnZombieButton.gameObject.SetActive(true);
