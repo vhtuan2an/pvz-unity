@@ -6102,7 +6102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d5e62e0a6532041881fb00c8fd5bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTestMode: 0
+  enableTestMode: 1
 --- !u!1 &2053702202
 GameObject:
   m_ObjectHideFlags: 0
