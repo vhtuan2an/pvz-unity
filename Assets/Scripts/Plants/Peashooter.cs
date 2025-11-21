@@ -38,10 +38,23 @@ public class Peashooter : PlantBase
         {
             if (CheckForZombies())
             {
-                ShootProjectile();
+                TriggerShoot();
+            }
+            else
+            {
+                SetIdleAnimationClientRpc();
             }
             attackTimer = 0f;
         }
+    }
+
+    private void TriggerShoot()
+    {
+        if (!IsServer)
+            return;
+
+        // Trigger animation on all clients
+        TriggerShootAnimationClientRpc();
     }
 
     private bool CheckForZombies()
@@ -66,6 +79,16 @@ public class Peashooter : PlantBase
         return false;
     }
 
+    // Called by Animation Event at the exact frame when pea should spawn
+    private void SpawnPea()
+    {
+        if (!IsServer)
+            return;
+
+        Debug.Log($"📌 SpawnPea called by Animation Event");
+        ShootProjectile();
+    }
+
     private void ShootProjectile()
     {
         if (!IsServer)
@@ -83,7 +106,9 @@ public class Peashooter : PlantBase
                 return;
             }
 
-            GameObject pea = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+            // Offset spawn position (adjust values as needed)
+            Vector3 spawnPosition = shootPoint.position + new Vector3(0.5f, 0.3f, 0);
+            GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
 
             NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
             if (peaNetObj != null)
@@ -102,9 +127,6 @@ public class Peashooter : PlantBase
         {
             Debug.LogError("⚠️ Projectile prefab is null!");
         }
-
-        // ✅ Trigger animation trên TẤT CẢ clients
-        TriggerShootAnimationClientRpc();
     }
 
     [ClientRpc]
@@ -113,6 +135,15 @@ public class Peashooter : PlantBase
         if (animator != null)
         {
             animator.SetBool("isShooting", true);
+        }
+    }
+
+    [ClientRpc]
+    private void SetIdleAnimationClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.SetBool("isShooting", false);
         }
     }
 
