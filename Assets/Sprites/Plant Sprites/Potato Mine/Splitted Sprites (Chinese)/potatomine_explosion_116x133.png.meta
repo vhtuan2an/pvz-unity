@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 2d726285535d8cb4e9ac1fc1e3649b0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7760462604383497997
+    second: potatomine_explosion_116x133_0
+  - first:
+      213: -4182455531282726880
+    second: potatomine_explosion_116x133_1
+  - first:
+      213: 934510757418195468
+    second: potatomine_explosion_116x133_2
+  - first:
+      213: -1992971536675375879
+    second: potatomine_explosion_116x133_3
+  - first:
+      213: -1661432812333567247
+    second: potatomine_explosion_116x133_4
+  - first:
+      213: -5562248241560908032
+    second: potatomine_explosion_116x133_5
+  - first:
+      213: 4566720306840585414
+    second: potatomine_explosion_116x133_6
+  - first:
+      213: -760294116873662647
+    second: potatomine_explosion_116x133_7
+  - first:
+      213: -3895423606927578687
+    second: potatomine_explosion_116x133_8
+  - first:
+      213: -1186949385275050596
+    second: potatomine_explosion_116x133_9
+  - first:
+      213: -8432572968559051794
+    second: potatomine_explosion_116x133_10
+  - first:
+      213: 4697544702755013318
+    second: potatomine_explosion_116x133_11
+  - first:
+      213: -8336847766979474062
+    second: potatomine_explosion_116x133_12
+  - first:
+      213: 2673719596437339887
+    second: potatomine_explosion_116x133_13
+  - first:
+      213: 1158371704282514948
+    second: potatomine_explosion_116x133_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 152
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0d405c06c4d4490800000000000000
+      internalID: -7760462604383497997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02086099adee4f5c0800000000000000
+      internalID: -4182455531282726880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 132
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a51b6259c08fc00800000000000000
+      internalID: 934510757418195468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 99
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4fff452fa8754e0800000000000000
+      internalID: -1992971536675375879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 89
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2fdaae8a761f8e0800000000000000
+      internalID: -1661432812333567247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f8831c1bceec2b0800000000000000
+      internalID: -5562248241560908032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4cbcd6cef306f30800000000000000
+      internalID: 4566720306840585414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f0de66784e275f0800000000000000
+      internalID: -760294116873662647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 53
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9296b4edca0f9c0800000000000000
+      internalID: -3895423606927578687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95ff44a2db178fe0800000000000000
+      internalID: -1186949385275050596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebf972109b79fa80800000000000000
+      internalID: -8432572968559051794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c20b3cb408013140800000000000000
+      internalID: 4697544702755013318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 5
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d0eae50219d4c80800000000000000
+      internalID: -8336847766979474062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feef5a69ec5fa1520800000000000000
+      internalID: 2673719596437339887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potatomine_explosion_116x133_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4068f9f7dec531010800000000000000
+      internalID: 1158371704282514948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      potatomine_explosion_116x133_0: -7760462604383497997
+      potatomine_explosion_116x133_1: -4182455531282726880
+      potatomine_explosion_116x133_10: -8432572968559051794
+      potatomine_explosion_116x133_11: 4697544702755013318
+      potatomine_explosion_116x133_12: -8336847766979474062
+      potatomine_explosion_116x133_13: 2673719596437339887
+      potatomine_explosion_116x133_14: 1158371704282514948
+      potatomine_explosion_116x133_2: 934510757418195468
+      potatomine_explosion_116x133_3: -1992971536675375879
+      potatomine_explosion_116x133_4: -1661432812333567247
+      potatomine_explosion_116x133_5: -5562248241560908032
+      potatomine_explosion_116x133_6: 4566720306840585414
+      potatomine_explosion_116x133_7: -760294116873662647
+      potatomine_explosion_116x133_8: -3895423606927578687
+      potatomine_explosion_116x133_9: -1186949385275050596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
