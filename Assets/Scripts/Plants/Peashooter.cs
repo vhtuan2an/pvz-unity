@@ -15,130 +15,86 @@ public class Peashooter : PlantBase
 
     protected override void Start()
     {
-        base.Start();
+        base.Start(); // Khởi tạo currentHealth từ PlantBase
         animator = GetComponent<Animator>();
 
         if (shootPoint == null)
-        {
             shootPoint = transform;
-        }
 
-        Debug.Log($"Peashooter Start: projectilePrefab={projectilePrefab != null}, shootPoint={shootPoint != null}");
+        Debug.Log($"Peashooter Start: HP={currentHealth}, projectilePrefab={projectilePrefab != null}");
     }
 
     private void Update()
     {
-        // Only server handles logic
-        if (!IsServer)
-            return;
+        if (!IsServer) return; // Chỉ server xử lý logic bắn
 
         attackTimer += Time.deltaTime;
 
         if (attackTimer >= attackRate)
         {
             if (CheckForZombies())
-            {
                 TriggerShoot();
-            }
             else
-            {
                 SetIdleAnimationClientRpc();
-            }
+
             attackTimer = 0f;
         }
     }
 
-    private void TriggerShoot()
-    {
-        if (!IsServer)
-            return;
-
-        TriggerShootAnimationClientRpc();
-    }
-
-    // ⭐ FIXED VERSION USING RAYCAST2D ⭐
     private bool CheckForZombies()
     {
         if (shootPoint == null)
             shootPoint = transform;
 
-        // Raycast về hướng phải
         RaycastHit2D hit = Physics2D.Raycast(shootPoint.position, Vector2.right, detectionRange, zombieLayer);
-
-        // Debug: hiển thị ray trong Scene view
         Debug.DrawRay(shootPoint.position, Vector2.right * detectionRange, Color.red);
-
-        if (hit.collider != null)
-        {
-            Debug.Log($"🎯 Zombie detected: {hit.collider.name}");
-            return true;
-        }
-
-        return false;
+        return hit.collider != null;
     }
 
-    private void SpawnPea()  // called by animation event
+    private void TriggerShoot()
     {
-        if (!IsServer)
-            return;
+        if (!IsServer) return;
 
-        Debug.Log("📌 SpawnPea animation event");
-        ShootProjectile();
+        TriggerShootAnimationClientRpc();
     }
 
-    private void ShootProjectile()
+    private void SpawnPea() // gọi bởi animation event
     {
-        if (!IsServer)
-            return;
+        if (!IsServer) return;
 
-        Debug.Log($"🎯 Peashooter SHOOTING from {transform.position}");
+        if (projectilePrefab == null) return;
 
-        if (projectilePrefab != null)
-        {
-            NetworkObject prefabNetObj = projectilePrefab.GetComponent<NetworkObject>();
-            if (prefabNetObj == null)
-            {
-                Debug.LogError("⚠️ Projectile prefab missing NetworkObject component!");
-                return;
-            }
+        Vector3 spawnPosition = shootPoint.position + new Vector3(0.5f, 0.3f, 0);
+        GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
 
-            Vector3 spawnPosition = shootPoint.position + new Vector3(0.5f, 0.3f, 0);
-            GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
-
-            NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
-            if (peaNetObj != null)
-            {
-                peaNetObj.Spawn(true);
-                Debug.Log($"✅ Projectile spawned: {peaNetObj.NetworkObjectId}");
-            }
-            else
-            {
-                Debug.LogWarning("⚠️ Projectile instance missing NetworkObject component!");
-                Destroy(pea);
-            }
-        }
+        NetworkObject netObj = pea.GetComponent<NetworkObject>();
+        if (netObj != null)
+            netObj.Spawn(true);
         else
-        {
-            Debug.LogError("⚠️ Projectile prefab is null!");
-        }
+            Destroy(pea);
     }
 
     [ClientRpc]
     private void TriggerShootAnimationClientRpc()
     {
         if (animator != null)
-        {
             animator.SetBool("isShooting", true);
-        }
     }
 
     [ClientRpc]
     private void SetIdleAnimationClientRpc()
     {
         if (animator != null)
-        {
             animator.SetBool("isShooting", false);
-        }
+    }
+
+    // Override TakeDamage để thêm animation hit, dùng currentHealth từ PlantBase
+    public override void TakeDamage(int damage)
+    {
+        base.TakeDamage(damage);
+
+        if (animator != null)
+            animator.SetTrigger("Hit"); // optional
     }
 
     private void OnDrawGizmosSelected()
