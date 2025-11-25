@@ -28,7 +28,7 @@ public class Peashooter : PlantBase
 
     private void Update()
     {
-        // ✅ CHỈ SERVER mới kiểm tra zombie và bắn
+        // Only server handles logic
         if (!IsServer)
             return;
 
@@ -53,39 +53,36 @@ public class Peashooter : PlantBase
         if (!IsServer)
             return;
 
-        // Trigger animation on all clients
         TriggerShootAnimationClientRpc();
     }
 
+    // ⭐ FIXED VERSION USING RAYCAST2D ⭐
     private bool CheckForZombies()
     {
-        GameObject[] zombies = GameObject.FindGameObjectsWithTag("Zombie");
+        if (shootPoint == null)
+            shootPoint = transform;
 
-        if (zombies.Length > 0)
+        // Raycast về hướng phải
+        RaycastHit2D hit = Physics2D.Raycast(shootPoint.position, Vector2.right, detectionRange, zombieLayer);
+
+        // Debug: hiển thị ray trong Scene view
+        Debug.DrawRay(shootPoint.position, Vector2.right * detectionRange, Color.red);
+
+        if (hit.collider != null)
         {
-            foreach (var zombie in zombies)
-            {
-                if (zombie.transform.position.x > shootPoint.position.x && zombie.transform.position.y == this.transform.position.y)
-                {
-                    float distance = zombie.transform.position.x - shootPoint.position.x;
-                    if (distance <= detectionRange)
-                    {
-                        return true;
-                    }
-                }
-            }
+            Debug.Log($"🎯 Zombie detected: {hit.collider.name}");
+            return true;
         }
 
         return false;
     }
 
-    // Called by Animation Event at the exact frame when pea should spawn
-    private void SpawnPea()
+    private void SpawnPea()  // called by animation event
     {
         if (!IsServer)
             return;
 
-        Debug.Log($"📌 SpawnPea called by Animation Event");
+        Debug.Log("📌 SpawnPea animation event");
         ShootProjectile();
     }
 
@@ -98,7 +95,6 @@ public class Peashooter : PlantBase
 
         if (projectilePrefab != null)
         {
-            // ✅ Check if prefab has NetworkObject
             NetworkObject prefabNetObj = projectilePrefab.GetComponent<NetworkObject>();
             if (prefabNetObj == null)
             {
@@ -106,16 +102,14 @@ public class Peashooter : PlantBase
                 return;
             }
 
-            // Offset spawn position (adjust values as needed)
             Vector3 spawnPosition = shootPoint.position + new Vector3(0.5f, 0.3f, 0);
             GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
 
             NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
             if (peaNetObj != null)
             {
-                // ✅ Spawn với Server ownership - sẽ sync tới TẤT CẢ clients
-                peaNetObj.Spawn(true); // true = destroy with scene
-                Debug.Log($"✅ Projectile spawned: NetworkObjectId={peaNetObj.NetworkObjectId}, IsSpawned={peaNetObj.IsSpawned}");
+                peaNetObj.Spawn(true);
+                Debug.Log($"✅ Projectile spawned: {peaNetObj.NetworkObjectId}");
             }
             else
             {
