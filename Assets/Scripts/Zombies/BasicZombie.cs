@@ -29,10 +29,11 @@ public class BasicZombie : ZombieBase
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
 
-
-        SetWalkingClientRpc(false);
-        SetEatingClientRpc(false);
-
+        if (animator != null)
+        {
+            SetWalkingClientRpc(false);
+            SetEatingClientRpc(false);
+        }
 
         Invoke(nameof(StartWalking), startDelay);
     }
@@ -45,10 +46,12 @@ public class BasicZombie : ZombieBase
     private void FixedUpdate()
     {
         if (!IsServer) return;
+
         attackTimer += Time.fixedDeltaTime;
         float speed = GetMoveSpeed();
         Vector2 movement = Vector2.left * speed * Time.fixedDeltaTime;
         float checkDistance = 0.01f;
+
         RaycastHit2D hit = Physics2D.BoxCast(
             rb.position,
             boxCollider.size,
@@ -61,24 +64,30 @@ public class BasicZombie : ZombieBase
         if (hit.collider == null)
         {
             rb.MovePosition(rb.position + movement);
-
             SetEatingClientRpc(false);
             SetWalkingClientRpc(true);
         }
         else
         {
             rb.MovePosition(rb.position);
-            if(animator != null)
+            SetWalkingClientRpc(false);
+            SetEatingClientRpc(true);
+
+            if (attackTimer >= attackRate)
             {
-                animator.SetBool("isAttacking", true);
+                PlantBase plant = hit.collider.GetComponent<PlantBase>();
+                if (plant != null)
+                {
+                    plant.TakeDamage(GetDamage());
+                }
+                attackTimer = 0f;
             }
         }
     }
 
-
     protected override void Die()
     {
-        if(animator != null && rb != null)
+        if (animator != null && rb != null)
         {
             RaycastHit2D hit = Physics2D.BoxCast(
                 rb.position,
@@ -88,8 +97,31 @@ public class BasicZombie : ZombieBase
                 0.01f,
                 LayerMask.GetMask("Plant")
             );
-            if(hit.collider == null)
-                animator.SetBool("isAttacking", false);
+            
+            if (hit.collider == null)
+            {
+                SetEatingClientRpc(false);
+            }
+        }
+
+        base.Die();
+    }
+
+    [ClientRpc]
+    private void SetWalkingClientRpc(bool isWalking)
+    {
+        if (animator != null)
+        {
+            animator.SetBool("isWalking", isWalking);
+        }
+    }
+
+    [ClientRpc]
+    private void SetEatingClientRpc(bool isEating)
+    {
+        if (animator != null)
+        {
+            animator.SetBool("isAttacking", isEating);
         }
     }
 }
