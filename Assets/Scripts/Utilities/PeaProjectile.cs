@@ -7,6 +7,8 @@ public class PeaProjectile : NetworkBehaviour
     [SerializeField] private int damage = 1;
     [SerializeField] private float lifetime = 5f;
 
+    private bool hasHit = false; // ✅ Guard flag
+
     private void Start()
     {
         // Auto destroy sau lifetime
@@ -28,12 +30,17 @@ public class PeaProjectile : NetworkBehaviour
         if (!IsServer)
             return;
 
+        // Guard flag to ensure single hit processing
+        if (hasHit)
+            return;
+        
+
         // Kiểm tra có phải zombie không
         ZombieBase zombie = collision.GetComponent<ZombieBase>();
         if (zombie != null)
         {
             Debug.Log($"Projectile hit zombie: {collision.name}");
-            
+            hasHit = true;
             // Gây damage
             zombie.TakeDamage(damage);
             

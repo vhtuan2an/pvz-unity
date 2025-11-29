@@ -18,15 +18,13 @@ public class Peashooter : PlantBase
 
     protected override void Start()
     {
-        base.Start();
+        base.Start(); // Khởi tạo currentHealth từ PlantBase
         animator = GetComponent<Animator>();
 
         if (shootPoint == null)
-        {
             shootPoint = transform;
-        }
 
-        Debug.Log($"Peashooter Start: projectilePrefab={projectilePrefab != null}, shootPoint={shootPoint != null}");
+        Debug.Log($"Peashooter Start: HP={currentHealth}, projectilePrefab={projectilePrefab != null}");
     }
 
     private void Update()
@@ -98,11 +96,9 @@ public class Peashooter : PlantBase
     // Called by Animation Event
     private void SpawnPea()
     {
-        if (!IsServer)
-            return;
+        if (!IsServer) return;
 
-        Debug.Log($"📌 SpawnPea called by Animation Event");
-        ShootProjectile();
+        TriggerShootAnimationClientRpc();
     }
 
     private void ShootProjectile()
@@ -168,18 +164,23 @@ public class Peashooter : PlantBase
     private void TriggerShootAnimationClientRpc()
     {
         if (animator != null)
-        {
             animator.SetBool("isShooting", true);
-        }
     }
 
     [ClientRpc]
     private void SetIdleAnimationClientRpc()
     {
         if (animator != null)
-        {
             animator.SetBool("isShooting", false);
-        }
+    }
+
+    // Override TakeDamage để thêm animation hit, dùng currentHealth từ PlantBase
+    public override void TakeDamage(int damage)
+    {
+        base.TakeDamage(damage);
+
+        if (animator != null)
+            animator.SetTrigger("Hit"); // optional
     }
 
     private void OnDrawGizmosSelected()

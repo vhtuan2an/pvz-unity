@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 300
+  maxHealth: 5
   sunCost: 100
   cooldown: 5
   packetImage: {fileID: -6687575109595898538, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}

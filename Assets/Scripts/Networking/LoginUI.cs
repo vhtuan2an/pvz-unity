@@ -31,7 +31,6 @@ public class LoginUI : MonoBehaviour
         showSignupButton.onClick.AddListener(ShowSignupPanel);
         
         signupButton.onClick.AddListener(OnSignupButtonClicked);
-        backToLoginButton.onClick.AddListener(ShowLoginPanel);
     }
 
     private void ShowLoginPanel()
