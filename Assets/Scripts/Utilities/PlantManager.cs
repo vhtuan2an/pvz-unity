@@ -14,6 +14,9 @@ public class PlantManager : MonoBehaviour
     [Header("UI")]
     public TextMeshProUGUI countText;
 
+    [Header("Fusion")]
+    [SerializeField] private GameObject repeaterPrefab;
+
     private GameObject selectedPlantPrefab;
     private int selectedCost;
     private SeedPacket selectedSeedPacket;
@@ -31,6 +34,7 @@ public class PlantManager : MonoBehaviour
         selectedPlantPrefab = prefab;
         selectedCost = cost;
         selectedSeedPacket = seedPacket;
+        Debug.Log($"🌱 Plant selected: {prefab.name}, Cost: {cost}");
     }
 
     public void ClearSelection()
@@ -54,7 +58,36 @@ public class PlantManager : MonoBehaviour
 
     public void TryPlaceOnTile(Tile tile)
     {
-        if (tile == null || selectedPlantPrefab == null) return;
+        Debug.Log($"➡️ TryPlaceOnTile called - tile: {tile?.name}, selectedPlantPrefab: {selectedPlantPrefab?.name}");
+        
+        if (tile == null || selectedPlantPrefab == null)
+        {
+            Debug.LogWarning($"⚠️ Early return - tile null: {tile == null}, prefab null: {selectedPlantPrefab == null}");
+            return;
+        }
+        
+        Debug.Log($"Attempting to place: {selectedPlantPrefab.name}, Tile occupied: {tile.IsOccupied}");
+        
+        // Check for fusion: If tile has Peashooter and we're placing another Peashooter
+        if (tile.IsOccupied)
+        {
+            GameObject existingPlant = tile.GetOccupyingPlant();
+            Debug.Log($"Existing plant: {(existingPlant != null ? existingPlant.name : "null")}");
+            
+            // Check if both are Peashooters (handles "(Clone)" suffix)
+            bool isPlacingPeashooter = selectedPlantPrefab.GetComponent<Peashooter>() != null;
+            bool hasExistingPeashooter = existingPlant != null && existingPlant.GetComponent<Peashooter>() != null;
+            
+            Debug.Log($"Is placing Peashooter: {isPlacingPeashooter}, Has existing Peashooter: {hasExistingPeashooter}");
+            
+            if (isPlacingPeashooter && hasExistingPeashooter)
+            {
+                Debug.Log("🔥 Fusion condition met!");
+                TryFusionToRepeater(tile, existingPlant);
+                return;
+            }
+        }
+        
         if (tile.IsOccupied) return;
         if (currentSun < selectedCost) return;
 
@@ -79,6 +112,55 @@ public class PlantManager : MonoBehaviour
             SpendSun(selectedCost);
             selectedSeedPacket?.StartCooldown();
             ClearSelection();
+        }
+        else
+        {
+            Debug.LogError("NetworkGameManager not found!");
+        }
+    }
+
+    private void TryFusionToRepeater(Tile tile, GameObject existingPeashooter)
+    {
+        if (currentSun < selectedCost)
+        {
+            Debug.LogWarning($"⚠️ Not enough sun for fusion! Current: {currentSun}, Cost: {selectedCost}");
+            return;
+        }
+        
+        if (repeaterPrefab == null)
+        {
+            Debug.LogError("⚠️ Repeater prefab not assigned in PlantManager Inspector!");
+            return;
+        }
+
+        Debug.Log("🔥 Fusing 2 Peashooters into Repeater!");
+
+        if (NetworkGameManager.Instance != null)
+        {
+            // Clear the tile first
+            tile.Clear();
+            
+            // Remove existing peashooter
+            NetworkObject netObj = existingPeashooter.GetComponent<NetworkObject>();
+            if (netObj != null && netObj.IsSpawned)
+            {
+                netObj.Despawn();
+            }
+            else
+            {
+                Destroy(existingPeashooter);
+            }
+
+            // Spawn Repeater at same position
+            Vector3 position = tile.PlantWorldPosition;
+            Debug.Log($"📍 Spawning Repeater at {position}");
+            NetworkGameManager.Instance.SpawnPlantAtPosition(position, "Repeater");
+
+            SpendSun(selectedCost);
+            selectedSeedPacket?.StartCooldown();
+            ClearSelection();
+            
+            Debug.Log("✅ Fusion complete - Repeater spawn requested!");
         }
         else
         {

@@ -10,10 +10,12 @@ public class Sun : MonoBehaviour
     public float rotationSpeed = 50f;
 
     [Header("Collection")]
-    // fallback values if UI target not found   
     public Vector2 collectTarget = new Vector2(-8.9f, 3.7f);
     public float collectSpeed = 25f;
     public float collectArrivalThreshold = 0.05f;
+    
+    [Header("Hover Collection")]
+    public float hoverCollectRadius = 1.5f;
 
     bool isCollected = false;
     Collider2D col2d;
@@ -34,9 +36,30 @@ public class Sun : MonoBehaviour
     void Update()
     {
         if (!isCollected)
+        {
             transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
+            
+            // Check for hover-based collection
+            CheckHoverCollection();
+        }
     }
 
+    void CheckHoverCollection()
+    {
+        // Get mouse position in world coordinates
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0f; // Ensure same Z plane
+
+        // Check distance between sun and mouse
+        float distance = Vector2.Distance(transform.position, mouseWorldPos);
+        
+        if (distance <= hoverCollectRadius)
+        {
+            StartCollection();
+        }
+    }
+
+    // Keep OnMouseDown as fallback for direct clicks
     void OnMouseDown()
     {
         if (isCollected) return;
@@ -45,6 +68,8 @@ public class Sun : MonoBehaviour
 
     void StartCollection()
     {
+        if (isCollected) return; // Prevent double collection
+        
         if (autoDestroyRoutine != null) StopCoroutine(autoDestroyRoutine);
         StartCoroutine(CollectRoutine());
     }
@@ -123,5 +148,12 @@ public class Sun : MonoBehaviour
     {
         yield return new WaitForSeconds(lifetime);
         if (!isCollected) Destroy(gameObject);
+    }
+
+    // Visualize the hover collection radius in editor
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = new Color(1f, 1f, 0f, 0.3f); // Semi-transparent yellow
+        Gizmos.DrawWireSphere(transform.position, hoverCollectRadius);
     }
 }

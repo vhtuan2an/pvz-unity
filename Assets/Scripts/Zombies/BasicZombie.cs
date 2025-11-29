@@ -7,7 +7,6 @@ public class BasicZombie : ZombieBase
 {
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
-    private Animator animator;
 
     protected override void Start()
     {
@@ -15,7 +14,6 @@ public class BasicZombie : ZombieBase
 
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
-        animator = GetComponent<Animator>();
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
     }
@@ -46,28 +44,13 @@ public class BasicZombie : ZombieBase
         {
             // Có vật cản → dừng lại, trigger animation nếu cần
             rb.MovePosition(rb.position);
-            if(animator != null)
-            {
-                animator.SetBool("isAttacking", true);
-            }
+            // Attack animation removed - add animator parameter if needed
         }
     }
 
 
     private void LateUpdate()
     {
-        if(animator != null && rb != null)
-        {
-            RaycastHit2D hit = Physics2D.BoxCast(
-                rb.position,
-                boxCollider.size,
-                0f,
-                Vector2.left,
-                0.01f,
-                LayerMask.GetMask("Plant")
-            );
-            if(hit.collider == null)
-                animator.SetBool("isAttacking", false);
-        }
+        // Attack animation handling removed
     }
 }

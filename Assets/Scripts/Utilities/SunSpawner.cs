@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Unity.Netcode;
 
 public class SunSpawner : MonoBehaviour
 {
@@ -37,6 +38,8 @@ public class SunSpawner : MonoBehaviour
     void SpawnSunFromSky()
     {
         if (sunPrefab == null) return;
+        if (!NetworkManager.Singleton.IsServer) return; // Only server spawns
+        
         Camera cam = Camera.main;
         if (cam == null) return;
 
@@ -46,6 +49,14 @@ public class SunSpawner : MonoBehaviour
         spawnPos.z = 0f;
 
         GameObject s = Instantiate(sunPrefab, spawnPos, Quaternion.identity);
+        
+        // Spawn as NetworkObject
+        NetworkObject netObj = s.GetComponent<NetworkObject>();
+        if (netObj != null)
+        {
+            netObj.Spawn(true);
+        }
+        
         float stopAfter = Random.Range(minFallDuration, maxFallDuration);
 
         Rigidbody2D rb = s.GetComponent<Rigidbody2D>();

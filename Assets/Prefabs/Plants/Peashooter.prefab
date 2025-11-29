@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4632349638801766516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.369, y: -0.135, z: 0}
+  m_LocalPosition: {x: 0.369, y: 0.681, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41,11 +41,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3581426108690634205}
   - component: {fileID: 2775726474089816081}
-  - component: {fileID: 4510875523957054736}
   - component: {fileID: 4453159782855990791}
   - component: {fileID: 4589151850186231828}
   - component: {fileID: 2157186212544230630}
   - component: {fileID: -3011877247219106591}
+  - component: {fileID: 2315285758538191671}
   m_Layer: 6
   m_Name: Peashooter
   m_TagString: Plant
@@ -113,39 +113,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -5020514758781672274, guid: 9816de7cfc280aa4a92a003a2e6a913e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9816de7cfc280aa4a92a003a2e6a913e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.11, y: 1.1}
+  m_Size: {x: 1.77, y: 1.66}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4510875523957054736
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6182550927699580811}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: db6d527c4ba90714c87b5b5811fd3023, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &4453159782855990791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 393741207
+  GlobalObjectIdHash: 1304617377
   InScenePlacedSourceGlobalObjectIdHash: 906605438
   DeferredDespawnTick: 0
   Ownership: 1
@@ -215,6 +193,7 @@ MonoBehaviour:
   sunCost: 100
   cooldown: 5
   packetImage: {fileID: -6687575109595898538, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
+  pivotOffset: {x: 0.1, y: -0.75, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 2118876949700380241}
   attackRate: 1.5
@@ -222,6 +201,8 @@ MonoBehaviour:
   zombieLayer:
     serializedVersion: 2
     m_Bits: 8
+  laneHeight: 0.8
+  detectionOffset: {x: -0.1, y: 0.9, z: 0}
 --- !u!61 &-3011877247219106591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -256,15 +237,37 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0825097, y: 0.40129423}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.11, y: 1.1}
-    newSize: {x: 1.11, y: 1.1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.77, y: 1.66}
+    newSize: {x: 1.77, y: 1.66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.11, y: 1.1}
+  m_Size: {x: 1.1812104, y: 1.1729625}
   m_EdgeRadius: 0
+--- !u!95 &2315285758538191671
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6182550927699580811}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: db6d527c4ba90714c87b5b5811fd3023, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
