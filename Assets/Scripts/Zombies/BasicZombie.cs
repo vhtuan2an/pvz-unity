@@ -87,24 +87,29 @@ public class BasicZombie : ZombieBase
 
     protected override void Die()
     {
-        if (animator != null && rb != null)
-        {
-            RaycastHit2D hit = Physics2D.BoxCast(
-                rb.position,
-                boxCollider.size,
-                0f,
-                Vector2.left,
-                0.01f,
-                LayerMask.GetMask("Plant")
-            );
-            
-            if (hit.collider == null)
-            {
-                SetEatingClientRpc(false);
-            }
-        }
+        if (!IsServer) return;
 
-        base.Die();
+        // Stop movement/attack animations
+        SetWalkingClientRpc(false);
+        SetEatingClientRpc(false);
+
+        // Trigger die animation on clients
+        TriggerDieAnimationClientRpc();
+
+        // Despawn after dieAnimLength
+        Invoke(nameof(DespawnZombie), dieAnimLength);
+    }
+
+    private void DespawnZombie()
+    {
+        if (!IsServer) return;
+
+        NetworkObject netObj = GetComponent<NetworkObject>();
+        if (netObj != null && netObj.IsSpawned)
+        {
+            netObj.Despawn();
+        }
+        Destroy(gameObject);
     }
 
     [ClientRpc]
@@ -121,7 +126,16 @@ public class BasicZombie : ZombieBase
     {
         if (animator != null)
         {
-            animator.SetBool("isAttacking", isEating);
+            animator.SetBool("isEating", isEating);
+        }
+    }
+
+    [ClientRpc]
+    private void TriggerDieAnimationClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
         }
     }
 }

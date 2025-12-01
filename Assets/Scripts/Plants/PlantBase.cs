@@ -80,13 +80,20 @@ public class PlantBase : NetworkBehaviour
 
     protected virtual void Die()
     {
-        // Chỉ server xử lý death
+        // Only server handles death
         if (!IsServer)
             return;
 
         Debug.Log($"{gameObject.name} died!");
 
-        // Despawn từ network trước khi destroy
+        // Clear tile occupancy
+        if (occupiedTile != null)
+        {
+            occupiedTile.Clear();
+            Debug.Log($"Tile {occupiedTile.name} cleared by {gameObject.name} death.");
+        }
+
+        // Despawn from network before destroy
         NetworkObject netObj = GetComponent<NetworkObject>();
         if (netObj != null && netObj.IsSpawned)
         {
