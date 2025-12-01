@@ -162,7 +162,7 @@ public class NetworkGameManager : NetworkBehaviour
 
     private Tile FindTileAtPosition(Vector3 position)
     {
-        Tile[] tiles = FindObjectsOfType<Tile>();
+        Tile[] tiles = FindObjectsByType<Tile>(FindObjectsSortMode.None);
         Tile closest = null;
         float minDist = float.MaxValue;
 

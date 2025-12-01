@@ -10,7 +10,7 @@ public class ZombieBase : NetworkBehaviour // Thay đổi từ MonoBehaviour
     
     protected NetworkVariable<int> currentHealth;
     protected float slowMultiplier = 1f;
-    private Animator animator;
+    protected Animator animator;
 
     protected virtual void Awake()
     {
@@ -57,12 +57,9 @@ public class ZombieBase : NetworkBehaviour // Thay đổi từ MonoBehaviour
     }
 
     [ClientRpc]
-    protected void TriggerDeathAnimationClientRpc()
+    private void TriggerDeathAnimationClientRpc()
     {
-        if (animator != null)
-        {
-            animator.SetTrigger("Die");
-        }
+        // Death animation trigger removed - add animator parameter "Die" if needed
     }
 
     private void DespawnZombie()

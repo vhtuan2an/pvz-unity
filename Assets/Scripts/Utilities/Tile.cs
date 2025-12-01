@@ -24,8 +24,14 @@ public class Tile : MonoBehaviour
         Debug.Log($"Tile cleared: {name}, IsOccupied = {IsOccupied}");
     }
 
+    public GameObject GetOccupyingPlant()
+    {
+        return Occupant;
+    }
+
     void OnMouseDown()
     {
+        Debug.Log($"🖱️ Tile clicked: {name}, IsOccupied: {IsOccupied}, Occupant: {(Occupant != null ? Occupant.name : "null")}");
         PlantManager.Instance?.TryPlaceOnTile(this);
     }
 

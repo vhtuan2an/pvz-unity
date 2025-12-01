@@ -9,9 +9,12 @@ public class Peashooter : PlantBase
     [SerializeField] private float attackRate = 1.5f;
     [SerializeField] private float detectionRange = 10f;
     [SerializeField] private LayerMask zombieLayer;
+    [SerializeField] private float laneHeight = 1.3f;
+    [SerializeField] private Vector3 detectionOffset = new Vector3(-0.1f, 0.75f, 0f);
 
     private float attackTimer = 0f;
     private Animator animator;
+    private bool isShooting = false;
 
     protected override void Start()
     {
@@ -26,52 +29,135 @@ public class Peashooter : PlantBase
 
     private void Update()
     {
-        if (!IsServer) return; // Chỉ server xử lý logic bắn
+        // Only server checks for zombies and shoots
+        if (!IsServer)
+            return;
 
-        attackTimer += Time.deltaTime;
-
-        if (attackTimer >= attackRate)
+        // Only increment timer when not shooting
+        if (!isShooting)
         {
-            if (CheckForZombies())
-                TriggerShoot();
-            else
-                SetIdleAnimationClientRpc();
+            attackTimer += Time.deltaTime;
 
-            attackTimer = 0f;
+            if (attackTimer >= attackRate)
+            {
+                if (CheckForZombies())
+                {
+                    TriggerShoot();
+                }
+                else
+                {
+                    // Reset timer to keep checking even with no zombies
+                    attackTimer = 0f;
+                }
+            }
         }
+    }
+
+    private void TriggerShoot()
+    {
+        if (!IsServer || isShooting)
+            return;
+        isShooting = true;
+        // Trigger animation on all clients
+        TriggerShootAnimationClientRpc();
     }
 
     private bool CheckForZombies()
     {
-        if (shootPoint == null)
-            shootPoint = transform;
+        GameObject[] zombies = GameObject.FindGameObjectsWithTag("Zombie");
 
-        RaycastHit2D hit = Physics2D.Raycast(shootPoint.position, Vector2.right, detectionRange, zombieLayer);
-        Debug.DrawRay(shootPoint.position, Vector2.right * detectionRange, Color.red);
-        return hit.collider != null;
+        if (zombies.Length > 0)
+        {
+            Vector3 detectionOrigin = transform.position + detectionOffset;
+            
+            foreach (var zombie in zombies)
+            {
+                // Check if zombie is to the right of detection origin
+                if (zombie.transform.position.x > detectionOrigin.x)
+                {
+                    float yDiff = Mathf.Abs(zombie.transform.position.y - detectionOrigin.y);
+                    
+                    // If zombie is within half lane height, consider it on same lane
+                    if (yDiff < (laneHeight * 0.5f))
+                    {
+                        float distance = zombie.transform.position.x - detectionOrigin.x;
+                        if (distance <= detectionRange)
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+
+        return false;
     }
 
-    private void TriggerShoot()
+    // Called by Animation Event
+    private void SpawnPea()
     {
         if (!IsServer) return;
 
         TriggerShootAnimationClientRpc();
     }
 
-    private void SpawnPea() // gọi bởi animation event
+    private void ShootProjectile()
     {
-        if (!IsServer) return;
+        if (!IsServer)
+            return;
 
-        if (projectilePrefab == null) return;
+        Debug.Log($"🎯 Peashooter SHOOTING from {transform.position}");
 
-        Vector3 spawnPosition = shootPoint.position + new Vector3(0.5f, 0.3f, 0);
-        GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
+        if (projectilePrefab != null)
+        {
+            // Check if prefab has NetworkObject
+            NetworkObject prefabNetObj = projectilePrefab.GetComponent<NetworkObject>();
+            if (prefabNetObj == null)
+            {
+                Debug.LogError("⚠️ Projectile prefab missing NetworkObject component!");
+                ResetShootingState();
+                return;
+            }
 
-        NetworkObject netObj = pea.GetComponent<NetworkObject>();
-        if (netObj != null)
-            netObj.Spawn(true);
+            // Spawn pea from detection origin position
+            Vector3 spawnPosition = transform.position + detectionOffset + new Vector3(0.5f, 0f, 0);
+            GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
+
+            NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
+            if (peaNetObj != null)
+            {
+                // Spawn with server ownership to sync to all clients
+                peaNetObj.Spawn(true);
+                Debug.Log($"✅ Projectile spawned: NetworkObjectId={peaNetObj.NetworkObjectId}, IsSpawned={peaNetObj.IsSpawned}");
+            }
+            else
+            {
+                Debug.LogWarning("⚠️ Projectile instance missing NetworkObject component!");
+                Destroy(pea);
+                ResetShootingState();
+            }
+        }
         else
-            Destroy(pea);
+        {
+            Debug.LogError("⚠️ Projectile prefab is null!");
+            ResetShootingState();
+        }
+    }
+    
+    // Called at end of shoot animation via Animation Event
+    private void OnShootAnimationComplete()
+    {
+        if (!IsServer)
+            return;        
+        Debug.Log("🎬 Shoot animation complete");
+        ResetShootingState();
+    }
+
+    private void ResetShootingState()
+    {
+        isShooting = false;
+        attackTimer = 0f;
+        SetIdleAnimationClientRpc();
     }
 
     [ClientRpc]
@@ -102,7 +188,22 @@ public class Peashooter : PlantBase
         if (shootPoint == null)
             shootPoint = transform;
 
+        // Use detection offset for visualization
+        Vector3 detectionOrigin = transform.position + detectionOffset;
+
+        // Draw detection ray from visual center
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(shootPoint.position, Vector2.right * detectionRange);
+        Gizmos.DrawRay(detectionOrigin, Vector2.right * detectionRange);
+        
+        // Draw lane detection zone - starts from visual center
+        Gizmos.color = new Color(1f, 0f, 0f, 0.2f);
+        Vector3 boxCenter = detectionOrigin + new Vector3(detectionRange * 0.5f, 0f, 0f);
+        Vector3 boxSize = new Vector3(detectionRange, laneHeight, 0.1f);
+        
+        Gizmos.DrawCube(boxCenter, boxSize);
+        
+        // Draw wireframe for clarity
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(boxCenter, boxSize);
     }
 }
