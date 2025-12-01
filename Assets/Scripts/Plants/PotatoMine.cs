@@ -5,9 +5,9 @@ using System.Collections;
 public class PotatoMine : PlantBase
 {
     [Header("Potato Mine Settings")]
-    [SerializeField] private float burrowTime = 5f; // Time underground before arming
+    [SerializeField] private float burrowTime = 5f;
     [SerializeField] private int explosionDamage = 1800;
-    [SerializeField] private float explosionRadius = 1.5f; // For visual effect, not used in tile logic
+    [SerializeField] private float explosionRadius = 1.5f;
 
     private Animator animator;
     private bool isArmed = false;
@@ -17,32 +17,42 @@ public class PotatoMine : PlantBase
     {
         base.Start();
         animator = GetComponent<Animator>();
+        animator.SetBool("IsArmed", false);
+        animator.SetBool("IsExploding", false);
         StartCoroutine(BurrowSequence());
     }
 
     private IEnumerator BurrowSequence()
     {
-        animator.Play("Idle2");
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        // Start burrow animation (Idle2)
+        animator.SetBool("IsArmed", false);
 
-        // Pause on last unarmed frame for burrowTime
-        animator.speed = 0f;
         yield return new WaitForSeconds(burrowTime);
 
-        // Play Grow animation
-        animator.speed = 1f;
-        animator.Play("Grow");
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        // Trigger Grow animation
+        animator.SetTrigger("Grow");
 
-        // Loop armed
-        animator.Play("Idle1");
+        // Wait for grow animation to finish (use animation event or set a fixed time)
+        yield return new WaitForSeconds(1.0f); // Replace with actual grow anim length if needed
+
+        // Armed state
+        animator.SetBool("IsArmed", true);
         isArmed = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!isArmed || isExploding || !IsServer) return;
+        TryExplode(other);
+    }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        TryExplode(other);
+    }
+
+    private void TryExplode(Collider2D other)
+    {
+        if (!isArmed || isExploding || !IsServer) return;
         if (other.CompareTag("Zombie"))
         {
             StartCoroutine(ExplodeSequence());
@@ -54,26 +64,27 @@ public class PotatoMine : PlantBase
         isExploding = true;
         isArmed = false;
 
-        // 5. Play Pre-Explore animation
-        animator.Play("Pre-Explore");
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        animator.SetBool("IsExploding", true);
+        animator.SetBool("IsArmed", false);
 
-        // 6. Deal damage to tile, left tile, right tile
+        yield return null;
+        while (!animator.GetCurrentAnimatorStateInfo(0).IsName("Explode"))
+            yield return null;
+
+        // Deal damage instantly
         DealExplosionDamage();
 
-        // 7. Play Explore3 animation (explosion)
-        animator.Play("Explore3");
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        // Wait for a short part of the Explode animation (e.g. half its length)
+        float explodeLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(explodeLength * 0.5f);
 
-        // 8. Destroy self
         Die();
     }
 
     private void DealExplosionDamage()
     {
-        // Center the AOE on the mine's position
         Vector2 center = transform.position;
-        Vector2 size = new Vector2(3f, 1.2f); // 3 tiles wide, 1 tile tall (adjust as needed)
+        Vector2 size = new Vector2(3f, 1.2f);
 
         Collider2D[] hits = Physics2D.OverlapBoxAll(center, size, 0f, LayerMask.GetMask("Zombie"));
         foreach (var hit in hits)
@@ -86,7 +97,6 @@ public class PotatoMine : PlantBase
         }
     }
 
-    // For debugging, visualize the AOE in the editor
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
