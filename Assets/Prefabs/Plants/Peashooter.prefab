@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4632349638801766516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.369, y: 0.681, z: 0}
+  m_LocalPosition: {x: 0.369, y: 0.961, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -189,20 +189,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 5
+  maxHealth: 300
   sunCost: 100
-  cooldown: 5
+  cooldown: 3
   packetImage: {fileID: -6687575109595898538, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
   pivotOffset: {x: 0.1, y: -0.75, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 2118876949700380241}
-  attackRate: 1.5
+  attackRate: 0.75
   detectionRange: 10
   zombieLayer:
     serializedVersion: 2
     m_Bits: 8
   laneHeight: 0.8
-  detectionOffset: {x: -0.1, y: 0.9, z: 0}
+  detectionOffset: {x: -0.1, y: 1, z: 0}
 --- !u!61 &-3011877247219106591
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -343,6 +343,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: packetPotatoMine
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1153
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b56243524990ac48aad438d568a7f9a
+      internalID: 1107962353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -367,6 +389,7 @@ TextureImporter:
       ATLASES_UI_SEEDPACKETS_1536_00_PTX_9: -1822667734
       packetBonkChoy: -1661800560
       packetPeashooter: -6687575109595898538
+      packetPotatoMine: 1107962353
       packetSunflower: -3732944587868782168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

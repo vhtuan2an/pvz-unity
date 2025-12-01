@@ -227,7 +227,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 300
   sunCost: 50
-  cooldown: 7.5
+  cooldown: 3
   packetImage: {fileID: -3732944587868782168, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
   pivotOffset: {x: 0, y: -0.75, z: 0}
   sunProductionInterval: 12.5

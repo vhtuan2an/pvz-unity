@@ -97,7 +97,7 @@ public class Peashooter : PlantBase
     private void SpawnPea()
     {
         if (!IsServer) return;
-
+        ShootProjectile();
         TriggerShootAnimationClientRpc();
     }
 
