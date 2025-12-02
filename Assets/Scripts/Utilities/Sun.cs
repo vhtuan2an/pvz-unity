@@ -34,6 +34,9 @@ public class Sun : NetworkBehaviour
         {
             autoDestroyRoutine = StartCoroutine(AutoDestroyCoroutine());
         }
+        
+        // Hide sun for Zombie player
+        UpdateSunVisibility();
     }
 
     void Update()
@@ -51,8 +54,34 @@ public class Sun : NetworkBehaviour
         }
     }
 
+    private void UpdateSunVisibility()
+    {
+        bool shouldShow = ShouldShowSun();
+        
+        // Hide renderer for Zombie
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        if (sr != null)
+            sr.enabled = shouldShow;
+        
+        // Disable collider for Zombie
+        if (col2d != null)
+            col2d.enabled = shouldShow;
+    }
+
+    private bool ShouldShowSun()
+    {
+        if (LobbyManager.Instance != null)
+        {
+            return LobbyManager.Instance.SelectedRole == PlayerRole.Plant;
+        }
+        return true; // Default: show (for testing)
+    }
+
     void CheckHoverCollection()
     {
+        // Only Plant player can hover-collect
+        if (!ShouldShowSun()) return;
+        
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
 
@@ -66,6 +95,8 @@ public class Sun : NetworkBehaviour
 
     void OnMouseDown()
     {
+        // Only Plant player can click
+        if (!ShouldShowSun()) return;
         if (isCollected) return;
         StartCollection();
     }

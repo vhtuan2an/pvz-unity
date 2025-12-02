@@ -3128,6 +3128,71 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
+--- !u!1001 &881009131
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289506357615543110, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3060784469928152072, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2622120441
+      objectReference: {fileID: 0}
+    - target: {fileID: 3060784469928152072, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 2448641857
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157382542763865438, guid: 8a207769162a999499893270627b461b, type: 3}
+      propertyPath: m_Name
+      value: AllstarZombie
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a207769162a999499893270627b461b, type: 3}
 --- !u!1 &897508328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,7 +3769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111.99997, y: -2.5}
+  m_AnchoredPosition: {x: 112, y: -52.09}
   m_SizeDelta: {x: 182.6232, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029356199
@@ -5085,10 +5150,6 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2172646939
       objectReference: {fileID: 0}
-    - target: {fileID: 8614764912292104599, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
-      propertyPath: damage
-      value: 50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5480,7 +5541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.31157, y: 2.5}
+  m_AnchoredPosition: {x: -160.7, y: -51.91}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1721836071
@@ -6765,3 +6826,4 @@ SceneRoots:
   - {fileID: 274807122}
   - {fileID: 2049050042}
   - {fileID: 2142819518}
+  - {fileID: 881009131}

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8614764912292104599}
   - component: {fileID: 8553583170690861327}
   - component: {fileID: 6976416174839701727}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Zombie
   m_TagString: Zombie
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1700254636
+  GlobalObjectIdHash: 2172646939
   InScenePlacedSourceGlobalObjectIdHash: 1700254636
   DeferredDespawnTick: 0
   Ownership: 1
@@ -181,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 190
-  moveSpeed: 0.213
-  damage: 100
+  moveSpeed: 0.5
+  damage: 50
   attackRate: 1.5
   startDelay: 0.5
   dieAnimLength: 1

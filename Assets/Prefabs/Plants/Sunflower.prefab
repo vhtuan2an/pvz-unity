@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6972692435130208799}
   - component: {fileID: 8017803962777644921}
   - component: {fileID: 2881973679973073024}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Sunflower
   m_TagString: Plant
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2270551811
+  GlobalObjectIdHash: 1795061599
   InScenePlacedSourceGlobalObjectIdHash: 1795061599
   DeferredDespawnTick: 0
   Ownership: 1

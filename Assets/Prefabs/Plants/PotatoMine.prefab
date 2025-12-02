@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2275976282902163410}
   - component: {fileID: 1619289654094526517}
   - component: {fileID: 3436341767852033845}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: PotatoMine
   m_TagString: Plant
   m_Icon: {fileID: 0}
@@ -159,6 +159,7 @@ MonoBehaviour:
   burrowTime: 7
   explosionDamage: 1800
   explosionRadius: 1.5
+  explosionHeight: 1.2
 --- !u!61 &3436341767852033845
 BoxCollider2D:
   m_ObjectHideFlags: 0
