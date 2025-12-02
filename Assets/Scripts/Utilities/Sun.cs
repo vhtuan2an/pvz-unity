@@ -1,8 +1,8 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
+using Unity.Netcode;
 
-public class Sun : MonoBehaviour
+public class Sun : NetworkBehaviour 
 {
     [Header("Sun Settings")]
     public int sunValue = 50;
@@ -17,10 +17,10 @@ public class Sun : MonoBehaviour
     [Header("Hover Collection")]
     public float hoverCollectRadius = 1.5f;
 
-    bool isCollected = false;
-    Collider2D col2d;
-    Rigidbody2D rb2d;
-    Coroutine autoDestroyRoutine;
+    private bool isCollected = false;
+    private Collider2D col2d;
+    private Rigidbody2D rb2d;
+    private Coroutine autoDestroyRoutine;
 
     void Awake()
     {
@@ -30,27 +30,32 @@ public class Sun : MonoBehaviour
 
     void Start()
     {
-        autoDestroyRoutine = StartCoroutine(AutoDestroyCoroutine());
+        if (IsServer)
+        {
+            autoDestroyRoutine = StartCoroutine(AutoDestroyCoroutine());
+        }
     }
 
     void Update()
     {
-        if (!isCollected)
+        // ✅ Chỉ Server mới update rotation/position
+        if (IsServer && !isCollected)
         {
             transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
-            
-            // Check for hover-based collection
+        }
+        
+        // ✅ Client chỉ check hover (input handling)
+        if (!isCollected)
+        {
             CheckHoverCollection();
         }
     }
 
     void CheckHoverCollection()
     {
-        // Get mouse position in world coordinates
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorldPos.z = 0f; // Ensure same Z plane
+        mouseWorldPos.z = 0f;
 
-        // Check distance between sun and mouse
         float distance = Vector2.Distance(transform.position, mouseWorldPos);
         
         if (distance <= hoverCollectRadius)
@@ -59,7 +64,6 @@ public class Sun : MonoBehaviour
         }
     }
 
-    // Keep OnMouseDown as fallback for direct clicks
     void OnMouseDown()
     {
         if (isCollected) return;
@@ -68,13 +72,39 @@ public class Sun : MonoBehaviour
 
     void StartCollection()
     {
-        if (isCollected) return; // Prevent double collection
+        if (isCollected) return;
         
-        if (autoDestroyRoutine != null) StopCoroutine(autoDestroyRoutine);
-        StartCoroutine(CollectRoutine());
+        // ✅ Request server to collect
+        RequestCollectServerRpc();
     }
 
-    // Convert a RectTransform (UI) position into a world position suitable for the Sun to move to.
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestCollectServerRpc(ServerRpcParams rpcParams = default)
+    {
+        if (isCollected) return;
+        
+        ulong clientId = rpcParams.Receive.SenderClientId;
+        
+        if (autoDestroyRoutine != null) StopCoroutine(autoDestroyRoutine);
+        
+        // ✅ Notify all clients to play collect animation
+        CollectClientRpc(clientId);
+        
+        // ✅ Add sun value on server
+        if (PlantManager.Instance != null)
+        {
+            PlantManager.Instance.AddSun(sunValue);
+        }
+    }
+
+    [ClientRpc]
+    private void CollectClientRpc(ulong collectingClientId)
+    {
+        if (isCollected) return;
+        
+        StartCoroutine(CollectRoutine(collectingClientId));
+    }
+
     Vector3 GetWorldPositionFromUI(RectTransform uiRect)
     {
         if (uiRect == null)
@@ -87,13 +117,10 @@ public class Sun : MonoBehaviour
             if (canvas.renderMode == RenderMode.ScreenSpaceCamera)
                 uiCam = canvas.worldCamera;
             else if (canvas.renderMode == RenderMode.WorldSpace)
-                return uiRect.position; // already world space
+                return uiRect.position;
         }
 
-        // get screen point of the UI element
         Vector2 screenPoint = RectTransformUtility.WorldToScreenPoint(uiCam, uiRect.position);
-
-        // choose camera for ScreenToWorldPoint
         Camera worldCam = uiCam != null ? uiCam : Camera.main;
         if (worldCam == null)
             return new Vector3(collectTarget.x, collectTarget.y, 0f);
@@ -104,7 +131,7 @@ public class Sun : MonoBehaviour
         return worldPoint;
     }
 
-    IEnumerator CollectRoutine()
+    IEnumerator CollectRoutine(ulong collectingClientId)
     {
         isCollected = true;
 
@@ -118,18 +145,15 @@ public class Sun : MonoBehaviour
             rb2d.bodyType = RigidbodyType2D.Kinematic;
         }
 
-        // try to find the UI CountText RectTransform from PlantManager
         RectTransform uiTargetRect = null;
         if (PlantManager.Instance != null && PlantManager.Instance.countText != null)
             uiTargetRect = PlantManager.Instance.countText.GetComponent<RectTransform>();
         else
         {
-            // fallback: try to find GameObject named "SunCounter" or "CountText"
             var go = GameObject.Find("CountText") ?? GameObject.Find("SunCounter");
             if (go != null) uiTargetRect = go.GetComponent<RectTransform>();
         }
 
-        // move toward dynamic UI position (recompute every frame to handle camera/UI movement)
         while (gameObject != null)
         {
             Vector3 targetWorld = GetWorldPositionFromUI(uiTargetRect);
@@ -140,20 +164,36 @@ public class Sun : MonoBehaviour
             yield return null;
         }
 
-        PlantManager.Instance?.AddSun(sunValue);
-        Destroy(gameObject);
+        // ✅ Only server despawns
+        if (IsServer)
+        {
+            DespawnSun();
+        }
     }
 
     IEnumerator AutoDestroyCoroutine()
     {
         yield return new WaitForSeconds(lifetime);
-        if (!isCollected) Destroy(gameObject);
+        if (!isCollected && IsServer)
+        {
+            DespawnSun();
+        }
     }
 
-    // Visualize the hover collection radius in editor
+    private void DespawnSun()
+    {
+        if (!IsServer) return;
+        
+        NetworkObject netObj = GetComponent<NetworkObject>();
+        if (netObj != null && netObj.IsSpawned)
+        {
+            netObj.Despawn(true);
+        }
+    }
+
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = new Color(1f, 1f, 0f, 0.3f); // Semi-transparent yellow
+        Gizmos.color = new Color(1f, 1f, 0f, 0.3f);
         Gizmos.DrawWireSphere(transform.position, hoverCollectRadius);
     }
 }
