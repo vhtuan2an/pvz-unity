@@ -7,7 +7,8 @@ public class PotatoMine : PlantBase
     [Header("Potato Mine Settings")]
     [SerializeField] private float burrowTime = 5f;
     [SerializeField] private int explosionDamage = 1800;
-    [SerializeField] private float explosionRadius = 1.5f;
+    [SerializeField] private float explosionRadius = 1.5f; // Width of explosion area
+    [SerializeField] private float explosionHeight = 1.2f; // Height of explosion area
 
     private Animator animator;
     private bool isArmed = false;
@@ -63,28 +64,30 @@ public class PotatoMine : PlantBase
     {
         isExploding = true;
         isArmed = false;
-
-        animator.SetBool("IsExploding", true);
-        animator.SetBool("IsArmed", false);
-
+        TriggerExplodeAnimationClientRpc();
         yield return null;
         while (!animator.GetCurrentAnimatorStateInfo(0).IsName("Explode"))
             yield return null;
-
-        // Deal damage instantly
-        DealExplosionDamage();
-
-        // Wait for a short part of the Explode animation (e.g. half its length)
+        // Wait for explosion animation to finish
         float explodeLength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(explodeLength * 0.5f);
-
         Die();
+    }
+
+    [ClientRpc]
+    private void TriggerExplodeAnimationClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.SetBool("IsExploding", true);
+            animator.SetBool("IsArmed", false);
+        }
     }
 
     private void DealExplosionDamage()
     {
         Vector2 center = transform.position;
-        Vector2 size = new Vector2(3f, 1.2f);
+        Vector2 size = new Vector2(explosionRadius * 2f, explosionHeight); // Use the field
 
         Collider2D[] hits = Physics2D.OverlapBoxAll(center, size, 0f, LayerMask.GetMask("Zombie"));
         foreach (var hit in hits)
@@ -100,6 +103,6 @@ public class PotatoMine : PlantBase
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(transform.position, new Vector3(3f, 1.2f, 0f));
+        Gizmos.DrawWireCube(transform.position, new Vector3(explosionRadius * 2f, explosionHeight, 0f));
     }
 }

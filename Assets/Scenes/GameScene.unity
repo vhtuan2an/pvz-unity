@@ -3704,7 +3704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111.99997, y: -2.5}
+  m_AnchoredPosition: {x: 112, y: -52.09}
   m_SizeDelta: {x: 182.6232, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029356199
@@ -5085,14 +5085,6 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2172646939
       objectReference: {fileID: 0}
-    - target: {fileID: 8614764912292104599, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
-      propertyPath: damage
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 8614764912292104599, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
-      propertyPath: moveSpeed
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5484,7 +5476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.31157, y: 2.5}
+  m_AnchoredPosition: {x: -160.7, y: -51.91}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1721836071
@@ -6484,7 +6476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d5e62e0a6532041881fb00c8fd5bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTestMode: 0
+  enableTestMode: 1
 --- !u!1 &2053702202
 GameObject:
   m_ObjectHideFlags: 0
