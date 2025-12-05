@@ -455,7 +455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentBrains: 0
-  maxBrains: 50
   brainCounterText: {fileID: 1254964023}
   selectedZombie: {fileID: 0}
 --- !u!4 &82893173
@@ -5630,8 +5629,8 @@ MonoBehaviour:
   brainPrefab: {fileID: 799892346893128453, guid: 57f3a24a866112240946b1f17f066378, type: 3}
   initialDelay: 1
   spawnInterval: 10
-  minViewportX: 0.05
-  maxViewportX: 0.95
+  minViewportX: 0.321
+  maxViewportX: 0.879
   spawnViewportY: 1.15
   fallSpeed: 2
   minFallDuration: 0.8
