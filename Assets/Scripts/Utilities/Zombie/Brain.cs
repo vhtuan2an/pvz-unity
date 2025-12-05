@@ -8,7 +8,7 @@ public class Brain : MonoBehaviour
     public float lifetime = 10f;
     public float rotationSpeed = 50f;
     public float hoverCollectRadius = 1.5f;
-    public Vector3 collectTarget = new Vector3(9f, 4.5f, 0f);
+    public Vector2 collectTarget = new Vector2(8.9f, 3.7f);
 
     private bool isCollected = false;
     private SpriteRenderer sr;

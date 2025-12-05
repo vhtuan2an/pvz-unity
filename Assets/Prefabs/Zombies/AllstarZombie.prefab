@@ -211,7 +211,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.74, y: 2.24}
+  m_Size: {x: 0.5165143, y: 1.25}
   m_EdgeRadius: 0
 --- !u!114 &2818679849568237191
 MonoBehaviour:
@@ -275,6 +275,9 @@ MonoBehaviour:
   maxHealth: 1100
   moveSpeed: 1
   damage: 50
+  cooldown: 7.5
+  packetImage: {fileID: 3369399851761963896, guid: 8117ef7bda35a1d4a844a61438803c12, type: 3}
+  brainCost: 50
   attackRate: 1.5
   startDelay: 0.5
   dieAnimLength: 1

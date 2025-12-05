@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using Unity.Netcode;
 using System.Collections;
@@ -8,7 +7,6 @@ public class GameSceneUI : MonoBehaviour
 {
     [Header("UI Elements")]
     [SerializeField] private GameObject gameUIPanel;
-    [SerializeField] private Button spawnZombieButton;
     [SerializeField] private TMP_Text roleText;
     [SerializeField] private TMP_Text connectionStatusText;
     [SerializeField] private TMP_Text modeText; // ✅ Hiển thị Test Mode hoặc Production
@@ -77,25 +75,6 @@ public class GameSceneUI : MonoBehaviour
             roleText.text = $"Role: {role}";
             roleText.color = role == PlayerRole.Plant ? Color.green : Color.red;
             Debug.Log($"GameSceneUI: Displaying role {role}");
-
-            // Show/Hide buttons based on role
-            if (role == PlayerRole.Zombie && spawnZombieButton != null)
-            {
-                spawnZombieButton.gameObject.SetActive(true);
-                spawnZombieButton.onClick.AddListener(OnSpawnZombieClicked);
-            }
-            else if (spawnZombieButton != null)
-            {
-                spawnZombieButton.gameObject.SetActive(false);
-            }
-        }
-    }
-
-    private void OnSpawnZombieClicked()
-    {
-        if (NetworkGameManager.Instance != null)
-        {
-            NetworkGameManager.Instance.SpawnZombie();
         }
     }
 

@@ -8,6 +8,13 @@ public class ZombieBase : NetworkBehaviour
     [SerializeField] protected int maxHealth = 10;
     [SerializeField] protected float moveSpeed = 1f;
     [SerializeField] protected int damage = 1;
+    [SerializeField] public float cooldown = 7.5f;
+    [SerializeField] public Sprite packetImage;    
+
+    [Header("Spawn Cost")]
+    [SerializeField] private int brainCost = 50;
+
+    public int GetBrainCost() => brainCost;
     
     protected NetworkVariable<int> currentHealth;
     protected Animator animator;

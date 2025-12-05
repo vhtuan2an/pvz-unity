@@ -163,11 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44dfed5610e12e746b424fdd90ff1f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
   brainValue: 50
   lifetime: 8
   rotationSpeed: 50
-  collectTarget: {x: -8.9, y: 3.7}
-  collectSpeed: 25
-  collectArrivalThreshold: 1
   hoverCollectRadius: 1.5
+  collectTarget: {x: 8.9, y: 3.7}

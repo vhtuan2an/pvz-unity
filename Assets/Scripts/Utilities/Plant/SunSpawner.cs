@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using Unity.Netcode;
 
 public class SunSpawner : MonoBehaviour
 {
@@ -16,10 +15,10 @@ public class SunSpawner : MonoBehaviour
     [Header("Spawn Area (viewport)")]
     [Range(0f, 1f)] public float minViewportX = 0.05f;
     [Range(0f, 1f)] public float maxViewportX = 0.95f;
-    public float spawnViewportY = 1.15f; // >1 spawns above the top of the screen
+    public float spawnViewportY = 1.15f;
 
     [Header("Falling")]
-    public float fallSpeed = 2f;    
+    public float fallSpeed = 2f;
     public float minFallDuration = 0.8f;
     public float maxFallDuration = 1.8f;
 
@@ -38,8 +37,7 @@ public class SunSpawner : MonoBehaviour
     void SpawnSunFromSky()
     {
         if (sunPrefab == null) return;
-        if (!NetworkManager.Singleton.IsServer) return; // Only server spawns
-        
+
         Camera cam = Camera.main;
         if (cam == null) return;
 
@@ -49,14 +47,7 @@ public class SunSpawner : MonoBehaviour
         spawnPos.z = 0f;
 
         GameObject s = Instantiate(sunPrefab, spawnPos, Quaternion.identity);
-        
-        // Spawn as NetworkObject
-        NetworkObject netObj = s.GetComponent<NetworkObject>();
-        if (netObj != null)
-        {
-            netObj.Spawn(true);
-        }
-        
+
         float stopAfter = Random.Range(minFallDuration, maxFallDuration);
 
         Rigidbody2D rb = s.GetComponent<Rigidbody2D>();
@@ -74,6 +65,7 @@ public class SunSpawner : MonoBehaviour
     public void SpawnSunAtWorldPosition(Vector3 worldPos, bool falling = false, float customFallSpeed = 0f)
     {
         if (sunPrefab == null) return;
+
         GameObject s = Instantiate(sunPrefab, worldPos, Quaternion.identity);
 
         float speed = customFallSpeed > 0f ? customFallSpeed : fallSpeed;
@@ -108,6 +100,7 @@ public class SunSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(duration);
         if (rb == null) yield break;
+
         rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0f;
         rb.gravityScale = 0f;
