@@ -8,7 +8,7 @@ public class ZombieManager : MonoBehaviour
 
     [Header("Brains Resource")]
     public int currentBrains = 50;
-    public int maxBrains = 50;
+
 
     [Header("UI")]
     public TextMeshProUGUI brainCounterText;
@@ -31,7 +31,6 @@ public class ZombieManager : MonoBehaviour
     public void AddBrains(int amount)
     {
         currentBrains += amount;
-        if (currentBrains > maxBrains) currentBrains = maxBrains;
         UpdateBrainUI();
     }
 
