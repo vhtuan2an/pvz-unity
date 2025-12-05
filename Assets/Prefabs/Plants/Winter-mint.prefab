@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 3375944409382178314}
   - component: {fileID: 981355157798950502}
   - component: {fileID: 7728169417191701200}
-  m_Layer: 0
+  - component: {fileID: 8315751645219008083}
+  - component: {fileID: 8916891219991882489}
+  m_Layer: 3
   m_Name: Winter-mint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,3 +112,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8315751645219008083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8428471616817675384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 3270102073
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &8916891219991882489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8428471616817675384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96b4e4abf3b12ec4ba6fb6aa04e3b615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  maxHealth: 100
+  sunCost: 100
+  cooldown: 7.5
+  packetImage: {fileID: 919534086, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
+  pivotOffset: {x: 0, y: 0, z: 0}
+  freezeDuration: 5
+  slowPercentage: 0.5
+  slowDuration: 3
+  freezeVFXPrefab: {fileID: 5568469807763454021, guid: f3589ba09bed55242819725178abf5d4, type: 3}
+  slowVFXPrefab: {fileID: 331315747605451013, guid: 03a442a65b6fbec409b58bcc93a6da69, type: 3}
