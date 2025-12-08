@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1974920393
+  GlobalObjectIdHash: 2964125921
   InScenePlacedSourceGlobalObjectIdHash: 1974920393
   DeferredDespawnTick: 0
   Ownership: 1
@@ -203,6 +203,8 @@ MonoBehaviour:
     m_Bits: 64
   laneHeight: 0.8
   detectionOffset: {x: 0, y: 0.2, z: 0}
+  peaAmount: 1
+  burstDelay: 0.15
 --- !u!61 &-3011877247219106591
 BoxCollider2D:
   m_ObjectHideFlags: 0

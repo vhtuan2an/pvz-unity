@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2118876949700380241}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4632349638801766516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.369, y: -0.135, z: 0}
+  m_LocalPosition: {x: 2.42, y: 1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45,8 +45,8 @@ GameObject:
   - component: {fileID: 4453159782855990791}
   - component: {fileID: 4589151850186231828}
   - component: {fileID: -3011877247219106591}
-  - component: {fileID: 2295534563777776752}
-  m_Layer: 6
+  - component: {fileID: 3085854254664049168}
+  m_Layer: 3
   m_Name: Repeater
   m_TagString: Plant
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2118876949700380241}
@@ -113,12 +113,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -5020514758781672274, guid: 9816de7cfc280aa4a92a003a2e6a913e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54fd610610285c940ab43d8fa7540a4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.11, y: 1.1}
+  m_Size: {x: 7.26, y: 7.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -134,7 +134,7 @@ Animator:
   m_GameObject: {fileID: 6182550927699580811}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: db6d527c4ba90714c87b5b5811fd3023, type: 2}
+  m_Controller: {fileID: 9100000, guid: 86f55f6139b7041458517339662a7987, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2233070379
+  GlobalObjectIdHash: 498003674
   InScenePlacedSourceGlobalObjectIdHash: 2233070379
   DeferredDespawnTick: 0
   Ownership: 1
@@ -236,15 +236,15 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.11, y: 1.1}
-    newSize: {x: 1.11, y: 1.1}
+    oldSize: {x: 7.26, y: 7.44}
+    newSize: {x: 7.26, y: 7.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 1.11, y: 1.1}
   m_EdgeRadius: 0
---- !u!114 &2295534563777776752
+--- !u!114 &3085854254664049168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,16 +253,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 6182550927699580811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 799268186557769428910227bf7ff73f, type: 3}
+  m_Script: {fileID: 11500000, guid: dea83d858ade11c4da5eaf9a05ae30ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 1
-  sunCost: 0
-  cooldown: 0.5
+  maxHealth: 100
+  sunCost: 100
+  cooldown: 7.5
   packetImage: {fileID: 0}
+  pivotOffset: {x: 0, y: 0, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 3581426108690634205}
-  attackRate: 1.5
+  attackRate: 0.75
   detectionRange: 10
+  zombieLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  laneHeight: 0.8
+  detectionOffset: {x: -0.1, y: 0, z: 0}
+  peaAmount: 2
   burstDelay: 0.15
