@@ -39,6 +39,18 @@ public class BrainSpawner : MonoBehaviour
 
         if (brainPrefab == null) yield break;
 
+        // CRITICAL: Chờ NetworkManager connected để tránh spawn brain trước khi client join
+        while (Unity.Netcode.NetworkManager.Singleton == null || !Unity.Netcode.NetworkManager.Singleton.IsListening)
+            yield return null;
+
+        // Nếu là host, đợi thêm một chút để client có thời gian sync scene
+        if (Unity.Netcode.NetworkManager.Singleton.IsHost)
+        {
+            Debug.Log("BrainSpawner: Waiting for clients to connect...");
+            yield return new WaitForSeconds(2f); // Đợi 2s để client join và sync
+        }
+
+        Debug.Log("BrainSpawner: Starting brain spawning");
         InvokeRepeating(nameof(SpawnBrainFromSky), initialDelay, spawnInterval);
     }
 

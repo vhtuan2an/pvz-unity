@@ -140,11 +140,12 @@ public class PlantManager : MonoBehaviour
             // Clear the tile first
             tile.Clear();
             
-            // Remove existing peashooter
+            // Remove existing peashooter via server
             NetworkObject netObj = existingPeashooter.GetComponent<NetworkObject>();
             if (netObj != null && netObj.IsSpawned)
             {
-                netObj.Despawn();
+                // Use NetworkGameManager to properly despawn via ServerRpc
+                NetworkGameManager.Instance.DespawnPlantByNetworkId(netObj.NetworkObjectId);
             }
             else
             {

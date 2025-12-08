@@ -28,9 +28,22 @@ public class SunSpawner : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    void Start()
+    IEnumerator Start()
     {
-        if (sunPrefab == null) return;
+        if (sunPrefab == null) yield break;
+
+        // CRITICAL: Chờ NetworkManager connected để tránh spawn sun trước khi client join  
+        while (Unity.Netcode.NetworkManager.Singleton == null || !Unity.Netcode.NetworkManager.Singleton.IsListening)
+            yield return null;
+
+        // Nếu là host, đợi thêm một chút để client có thời gian sync scene
+        if (Unity.Netcode.NetworkManager.Singleton.IsHost)
+        {
+            Debug.Log("SunSpawner: Waiting for clients to connect...");
+            yield return new WaitForSeconds(2f); // Đợi 2s để client join và sync
+        }
+
+        Debug.Log("SunSpawner: Starting sun spawning");
         InvokeRepeating(nameof(SpawnSunFromSky), initialDelay, spawnInterval);
     }
 
