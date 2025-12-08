@@ -32,7 +32,19 @@ public class Tile : MonoBehaviour
     void OnMouseDown()
     {
         Debug.Log($"🖱️ Tile clicked: {name}, IsOccupied: {IsOccupied}, Occupant: {(Occupant != null ? Occupant.name : "null")}");
-        PlantManager.Instance?.TryPlaceOnTile(this);
+        
+        // Route to correct manager based on player role
+        if (LobbyManager.Instance == null) return;
+        
+        if (LobbyManager.Instance.SelectedRole == PlayerRole.Plant)
+        {
+            PlantManager.Instance?.TryPlaceOnTile(this);
+        }
+        else if (LobbyManager.Instance.SelectedRole == PlayerRole.Zombie)
+        {
+            // Zombie clicks tiles to spawn zombies at that position
+            ZombieManager.Instance?.TrySpawnZombieOnLane(this.transform);
+        }
     }
 
     void OnDrawGizmosSelected()

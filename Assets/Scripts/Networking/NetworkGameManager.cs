@@ -55,12 +55,45 @@ public class NetworkGameManager : NetworkBehaviour
         if (IsClient) Debug.Log("Client connected!");
     }
 
+    private void Update()
+    {
+        // Auto-sync localPlayerRole from LobbyManager if still None
+        // This handles test mode where OnNetworkSpawn might have race conditions
+        if (IsSpawned && localPlayerRole == PlayerRole.None && LobbyManager.Instance != null)
+        {
+            PlayerRole lobbyRole = LobbyManager.Instance.SelectedRole;
+            if (lobbyRole != PlayerRole.None)
+            {
+                localPlayerRole = lobbyRole;
+                Debug.Log($"[AUTO-SYNC] NetworkGameManager synced role from LobbyManager: {localPlayerRole}");
+            }
+        }
+    }
+
+    /// <summary>
+    /// Gets the effective player role with fallback logic:
+    /// 1. Use localPlayerRole if not None
+    /// 2. Fall back to LobbyManager.Instance.SelectedRole if available
+    /// 3. Return None if neither is available
+    /// </summary>
+    private PlayerRole GetEffectivePlayerRole()
+    {
+        if (localPlayerRole != PlayerRole.None)
+            return localPlayerRole;
+
+        if (LobbyManager.Instance != null)
+            return LobbyManager.Instance.SelectedRole;
+
+        return PlayerRole.None;
+    }
+
     // ===================== PLANT =====================
     public void SpawnPlantAtPosition(Vector3 position, string plantName)
     {
-        if (localPlayerRole != PlayerRole.Plant)
+        PlayerRole effectiveRole = GetEffectivePlayerRole();
+        if (effectiveRole != PlayerRole.Plant)
         {
-            Debug.LogWarning("Only Plant player can spawn plants!");
+            Debug.LogWarning($"Only Plant player can spawn plants! (Current role: {effectiveRole})");
             return;
         }
 
@@ -116,12 +149,25 @@ public class NetworkGameManager : NetworkBehaviour
     // ===================== ZOMBIE =====================
     public void SpawnZombieAtPosition(Vector3 position, string zombieName, ulong ownerClientId)
     {
-        if (localPlayerRole != PlayerRole.Zombie)
+        PlayerRole effectiveRole = GetEffectivePlayerRole();
+        
+        // Enhanced debugging for intermittent spawn issues
+        Debug.Log($"🧟 ZOMBIE SPAWN ATTEMPT: " +
+                  $"localPlayerRole={localPlayerRole}, " +
+                  $"LobbyRole={LobbyManager.Instance?.SelectedRole}, " +
+                  $"effectiveRole={effectiveRole}, " +
+                  $"zombie={zombieName}, " +
+                  $"IsSpawned={IsSpawned}, " +
+                  $"IsServer={IsServer}, " +
+                  $"IsClient={IsClient}");
+        
+        if (effectiveRole != PlayerRole.Zombie)
         {
-            Debug.LogWarning("Only Zombie player can spawn zombies!");
+            Debug.LogWarning($"❌ ZOMBIE SPAWN BLOCKED: Current role is {effectiveRole}, not Zombie!");
             return;
         }
 
+        Debug.Log($"✅ ZOMBIE SPAWN APPROVED: Sending ServerRpc for {zombieName}");
         RequestSpawnZombieServerRpc(position, zombieName, ownerClientId);
     }
 
@@ -148,6 +194,33 @@ public class NetworkGameManager : NetworkBehaviour
         {
             Debug.LogError($"Zombie prefab '{zombieName}' missing NetworkObject component!");
             Destroy(zombie);
+        }
+    }
+
+    // ===================== DESPAWN =====================
+    public void DespawnPlantByNetworkId(ulong networkObjectId)
+    {
+        PlayerRole effectiveRole = GetEffectivePlayerRole();
+        if (effectiveRole != PlayerRole.Plant)
+        {
+            Debug.LogWarning($"Only Plant player can despawn plants! (Current role: {effectiveRole})");
+            return;
+        }
+
+        RequestDespawnPlantServerRpc(networkObjectId);
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestDespawnPlantServerRpc(ulong networkObjectId)
+    {
+        if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(networkObjectId, out NetworkObject netObj))
+        {
+            Debug.Log($"Server despawning plant: {netObj.gameObject.name} (NetworkId: {networkObjectId})");
+            netObj.Despawn();
+        }
+        else
+        {
+            Debug.LogWarning($"Cannot despawn: NetworkObject {networkObjectId} not found!");
         }
     }
 

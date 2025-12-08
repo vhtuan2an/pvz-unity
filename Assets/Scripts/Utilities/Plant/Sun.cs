@@ -1,7 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using Unity.Netcode;
 
-public class Sun : MonoBehaviour
+public class Sun : NetworkBehaviour
 {
     [Header("Sun Settings")]
     public int sunValue = 50;
@@ -109,14 +110,43 @@ public class Sun : MonoBehaviour
         }
 
         PlantManager.Instance?.AddSun(sunValue);
-        Destroy(gameObject);
+        
+        // Request server to despawn this sun
+        if (IsSpawned)
+        {
+            RequestDespawnServerRpc();
+        }
+        else
+        {
+            // Fallback if not spawned (shouldn't happen in normal gameplay)
+            Destroy(gameObject);
+        }
     }
 
     IEnumerator AutoDestroyCoroutine()
     {
         yield return new WaitForSeconds(lifetime);
         if (!isCollected)
-            Destroy(gameObject);
+        {
+            // Request server to despawn this sun
+            if (IsSpawned)
+            {
+                RequestDespawnServerRpc();
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestDespawnServerRpc()
+    {
+        if (IsSpawned)
+        {
+            NetworkObject.Despawn();
+        }
     }
 
     void OnDrawGizmosSelected()

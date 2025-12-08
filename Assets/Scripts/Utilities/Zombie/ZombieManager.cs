@@ -22,7 +22,7 @@ public class ZombieManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
-        UpdateBrainUI();
+        UpdateBrainsUI();
     }
 
     //==============================
@@ -31,17 +31,17 @@ public class ZombieManager : MonoBehaviour
     public void AddBrains(int amount)
     {
         currentBrains += amount;
-        UpdateBrainUI();
+        UpdateBrainsUI();
     }
 
     public void SpendBrains(int amount)
     {
         currentBrains -= amount;
         if (currentBrains < 0) currentBrains = 0;
-        UpdateBrainUI();
+        UpdateBrainsUI();
     }
 
-    private void UpdateBrainUI()
+    private void UpdateBrainsUI()
     {
         if (brainCounterText != null)
             brainCounterText.text = currentBrains.ToString();
@@ -125,14 +125,17 @@ public class ZombieManager : MonoBehaviour
         Vector3 pos = laneSpawnPoint.position;
         ulong clientId = NetworkManager.Singleton.LocalClientId;
 
+        // Debug logging for spawn attempt
+        Debug.Log($"🧟 ZombieManager: Requesting spawn of {selectedZombie.name} at {pos} for client {clientId}");
+        
         // Gọi network spawn với 3 tham số
         NetworkGameManager.Instance.SpawnZombieAtPosition(pos, selectedZombie.name, clientId);
 
-        SpendBrains(cost);
-        selectedPacket?.StartCooldown();
-        ClearSelection();
+        // Trừ brain
+        currentBrains -= cost;
+        UpdateBrainsUI();
 
-        Debug.Log("🧟 Spawn request sent!");
+        Debug.Log($"✅ Zombie spawn requested! Brains remaining: {currentBrains}");
     }
 
     public void OnZombieSpawned(GameObject zombieObject)

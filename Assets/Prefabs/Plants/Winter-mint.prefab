@@ -124,8 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3270102073
-  InScenePlacedSourceGlobalObjectIdHash: 0
+  GlobalObjectIdHash: 3449476045
+  InScenePlacedSourceGlobalObjectIdHash: 3270102073
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -158,5 +158,5 @@ MonoBehaviour:
   freezeDuration: 5
   slowPercentage: 0.5
   slowDuration: 3
-  freezeVFXPrefab: {fileID: 5568469807763454021, guid: f3589ba09bed55242819725178abf5d4, type: 3}
-  slowVFXPrefab: {fileID: 331315747605451013, guid: 03a442a65b6fbec409b58bcc93a6da69, type: 3}
+  freezeVFXPrefabName: FreezeEffect
+  freezeVFXDuration: 5

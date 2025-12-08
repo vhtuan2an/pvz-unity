@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 906605438
+  GlobalObjectIdHash: 3655307611
   InScenePlacedSourceGlobalObjectIdHash: 906605438
   DeferredDespawnTick: 0
   Ownership: 1
@@ -196,13 +196,15 @@ MonoBehaviour:
   pivotOffset: {x: 0.1, y: -0.75, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 2118876949700380241}
-  attackRate: 0.75
+  attackRate: 0.5
   detectionRange: 10
   zombieLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   laneHeight: 0.8
   detectionOffset: {x: -0.1, y: 1, z: 0}
+  peaAmount: 1
+  burstDelay: 0.15
 --- !u!61 &-3011877247219106591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -237,7 +239,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0825097, y: 0.40129423}
+  m_Offset: {x: -0.054664135, y: 0.8336904}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -247,7 +249,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1812104, y: 1.1729625}
+  m_Size: {x: 1.169281, y: 1.1550703}
   m_EdgeRadius: 0
 --- !u!95 &2315285758538191671
 Animator:
@@ -259,7 +261,7 @@ Animator:
   m_GameObject: {fileID: 6182550927699580811}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: db6d527c4ba90714c87b5b5811fd3023, type: 2}
+  m_Controller: {fileID: 9100000, guid: a2deb09bb32d65045abc648592881e5e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

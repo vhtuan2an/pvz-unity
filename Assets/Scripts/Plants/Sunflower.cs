@@ -60,13 +60,19 @@ public class Sunflower : PlantBase
         TriggerProduceAnimationClientRpc(); 
     }
 
-    // Called by Animation Event at the exact frame when sun should spawn
     private void SpawnSun()
     {
-        if (!IsServer)
-            return;
+        Debug.Log($"☀️ SpawnSun animation event called (IsServer={IsServer})");
+        
+        // Request server to spawn sun
+        RequestSpawnSunServerRpc();
+    }
 
-        Debug.Log($"☀️ SpawnSun called by Animation Event");
+    // Server spawns the sun
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestSpawnSunServerRpc()
+    {
+        Debug.Log($"☀️ SERVER: RequestSpawnSunServerRpc called");
         
         if (SunSpawner.Instance == null || SunSpawner.Instance.sunPrefab == null)
         {
@@ -83,27 +89,40 @@ public class Sunflower : PlantBase
         if (sunNetObj != null)
         {
             sunNetObj.Spawn(true);
-            Debug.Log($"✅ Sun spawned: NetworkObjectId={sunNetObj.NetworkObjectId}, IsSpawned={sunNetObj.IsSpawned}");
+            Debug.Log($"✅ Sun spawned: NetworkObjectId={sunNetObj.NetworkObjectId}");
+            
+            // Trigger bounce animation on all clients
+            TriggerSunBounceClientRpc(sunNetObj.NetworkObjectId, spawnPos);
         }
         else
         {
             Debug.LogWarning("⚠️ Sun prefab missing NetworkObject component!");
             Destroy(sun);
-            isProducing = false;
-            SetIdleAnimationClientRpc();
-            return;
-        }        
+        }
+        
         isProducing = false;
         SetIdleAnimationClientRpc();
-        StartCoroutine(SunBounce(sun.transform, spawnPos));
+    }
+
+    // Trigger bounce animation on all clients
+    [ClientRpc]
+    private void TriggerSunBounceClientRpc(ulong sunNetworkObjectId, Vector3 startPos)
+    {
+        Debug.Log($"☀️ CLIENT: TriggerSunBounceClientRpc for sun {sunNetworkObjectId}");
+        
+        if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(sunNetworkObjectId, out NetworkObject sunNetObj))
+        {
+            StartCoroutine(SunBounce(sunNetObj.transform, startPos));
+        }
+        else
+        {
+            Debug.LogWarning($"⚠️ Could not find sun {sunNetworkObjectId}");
+        }
     }
 
     private IEnumerator SunBounce(Transform sunTransform, Vector3 startPos)
     {
-        if (sunTransform == null)
-        {
-            yield break;
-        }
+        if (sunTransform == null) yield break;
 
         // Disable sun rigidbody during animation
         Rigidbody2D rb = sunTransform.GetComponent<Rigidbody2D>();
@@ -147,8 +166,9 @@ public class Sunflower : PlantBase
 
         // Stay at final position
         sunTransform.position = finalPos;
-        Debug.Log($"☀️ Sun production complete, staying at {finalPos}");
+        Debug.Log($"☀️ Sun bounce complete at {finalPos}");
     }
+
     private void ScheduleNextBlink()
     {
         nextBlinkTime = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval);
