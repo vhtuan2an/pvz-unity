@@ -11,7 +11,7 @@ public class WinterMint : PlantBase
     
     [Header("VFX Settings")]
     [SerializeField] private string freezeVFXPrefabName = "FreezeEffect";
-    [SerializeField] private float freezeVFXDuration = 5f; // ⭐ Add this field
+    [SerializeField] private float freezeVFXDuration = 5f;
 
     private Animator animator;
 
@@ -74,7 +74,6 @@ public class WinterMint : PlantBase
 
         foreach (ZombieBase zombie in zombies)
         {
-            // ⭐ Add freezeVFXDuration parameter (5th parameter)
             zombie.ApplySlow(freezeDuration, 1.0f, "wintermint_freeze", freezeVFXPrefabName, freezeVFXDuration);
         }
     }
@@ -89,7 +88,6 @@ public class WinterMint : PlantBase
 
         foreach (ZombieBase zombie in zombies)
         {
-            // Apply slow - color tint only, no VFX
             zombie.ApplySlow(slowDuration, slowPercentage, "wintermint_slow");
         }
     }

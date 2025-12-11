@@ -196,6 +196,7 @@ public class ZombieBase : NetworkBehaviour
             }
         }
 
+
         // Recalculate multiplier and color if any slows expired
         if (expiredSlows.Count > 0)
         {
@@ -275,7 +276,7 @@ public class ZombieBase : NetworkBehaviour
         Color targetColor = originalColor * blueShade;
         spriteRenderer.color = targetColor;
         
-        Debug.Log($"🎨 Applied blue tint: slowAmount={slowAmount}, color={targetColor}");
+        Debug.Log($"Applied blue tint: slowAmount={slowAmount}, color={targetColor}");
     }
 
     [ClientRpc]
@@ -288,20 +289,20 @@ public class ZombieBase : NetworkBehaviour
         }
 
         spriteRenderer.color = originalColor;
-        Debug.Log($"🎨 Reset to original color: {originalColor}");
+        Debug.Log($"Reset to original color: {originalColor}");
     }
 
     [ClientRpc]
     private void SpawnFreezeVFXClientRpc(string sourceId, string freezeVFXPrefabName, float vfxDuration)
     {
-        Debug.Log($"❄️ CLIENT: Spawning freeze VFX '{freezeVFXPrefabName}' for {sourceId}, duration: {vfxDuration}s");
+        Debug.Log($"Client: Spawning freeze VFX '{freezeVFXPrefabName}' for {sourceId}, duration: {vfxDuration}s");
         
         // Load freeze VFX from Resources
         GameObject vfxPrefab = Resources.Load<GameObject>($"VFX/Prefabs/{freezeVFXPrefabName}");
         
         if (vfxPrefab == null)
         {
-            Debug.LogError($"❌ Failed to load Resources/VFX/Prefabs/{freezeVFXPrefabName}.prefab");
+            Debug.LogError($"Failed to load Resources/VFX/Prefabs/{freezeVFXPrefabName}.prefab");
             return;
         }
 
@@ -320,7 +321,7 @@ public class ZombieBase : NetworkBehaviour
         AutoDestroyVFX autoDestroy = vfxInstance.AddComponent<AutoDestroyVFX>();
         autoDestroy.lifetime = vfxDuration;
         
-        Debug.Log($"✅ Freeze VFX spawned for {sourceId}, will auto-destroy in {vfxDuration}s");
+        Debug.Log($"Freeze VFX spawned for {sourceId}, will auto-destroy in {vfxDuration}s");
     }
 
     // Getters
@@ -344,7 +345,7 @@ public class AutoDestroyVFX : MonoBehaviour
     {
         if (Time.time >= spawnTime + lifetime)
         {
-            Debug.Log($"🗑️ Auto-destroying VFX after {lifetime}s");
+            Debug.Log($"Auto-destroying VFX after {lifetime}s");
             Destroy(gameObject);
         }
     }

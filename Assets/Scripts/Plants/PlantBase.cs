@@ -13,7 +13,7 @@ public class PlantBase : NetworkBehaviour
     [SerializeField] protected Vector3 pivotOffset = Vector3.zero;
 
     protected int currentHealth;
-    private Tile occupiedTile;
+    protected Tile occupiedTile;
 
     protected virtual void Start()
     {

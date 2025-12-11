@@ -1,7 +1,6 @@
 using UnityEngine;
 using TMPro;
 using Unity.Netcode;
-using Unity.Services.Authentication;
 
 public class PlantManager : MonoBehaviour
 {
@@ -13,9 +12,6 @@ public class PlantManager : MonoBehaviour
 
     [Header("UI")]
     public TextMeshProUGUI countText;
-
-    [Header("Fusion")]
-    [SerializeField] private GameObject repeaterPrefab;
 
     private GameObject selectedPlantPrefab;
     private int selectedCost;
@@ -29,12 +25,57 @@ public class PlantManager : MonoBehaviour
         UpdateSunCounter();
     }
 
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            HandleWorldClick();
+        }
+    }
+
+    // Tiles take priority
+    private void HandleWorldClick()
+    {
+        // Cast ray to world
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(ray.origin, ray.direction, Mathf.Infinity);
+        
+        // Look for tile in hits
+        Tile clickedTile = null;
+        foreach (var hit in hits)
+        {
+            Tile tile = hit.collider.GetComponent<Tile>();
+            if (tile != null)
+            {
+                clickedTile = tile;
+                break;
+            }
+        }
+        
+        if (clickedTile != null)
+        {
+            Debug.Log($"🖱️ Tile clicked: {clickedTile.name}");
+            
+            // Only place plant if one is selected
+            if (selectedPlantPrefab != null && LobbyManager.Instance?.SelectedRole == PlayerRole.Plant)
+            {
+                TryPlaceOnTile(clickedTile);
+            }            
+            // Consume the click so UI doesn't process it
+            return;
+        }
+        
+        // No tile clicked - allow UI to process (buttons, etc.)
+        Debug.Log("No tile clicked, allowing UI to process");
+    }
+
     public void SelectPlant(GameObject prefab, int cost, SeedPacket seedPacket = null)
     {
         selectedPlantPrefab = prefab;
         selectedCost = cost;
         selectedSeedPacket = seedPacket;
-        Debug.Log($"🌱 Plant selected: {prefab.name}, Cost: {cost}");
+        
+        Debug.Log($"Plant selected: {prefab.name}, Cost: {cost}");
     }
 
     public void ClearSelection()
@@ -58,32 +99,33 @@ public class PlantManager : MonoBehaviour
 
     public void TryPlaceOnTile(Tile tile)
     {
-        Debug.Log($"➡️ TryPlaceOnTile called - tile: {tile?.name}, selectedPlantPrefab: {selectedPlantPrefab?.name}");
+        Debug.Log($"TryPlaceOnTile called - tile: {tile?.name}, selectedPlantPrefab: {selectedPlantPrefab?.name}");
         
         if (tile == null || selectedPlantPrefab == null)
         {
-            Debug.LogWarning($"⚠️ Early return - tile null: {tile == null}, prefab null: {selectedPlantPrefab == null}");
+            Debug.LogWarning($"Early return - tile null: {tile == null}, prefab null: {selectedPlantPrefab == null}");
             return;
         }
         
         Debug.Log($"Attempting to place: {selectedPlantPrefab.name}, Tile occupied: {tile.IsOccupied}");
         
-        // Check for fusion: If tile has Peashooter and we're placing another Peashooter
-        if (tile.IsOccupied)
+        if (tile.IsOccupied && FusionManager.Instance != null)
         {
             GameObject existingPlant = tile.GetOccupyingPlant();
-            Debug.Log($"Existing plant: {(existingPlant != null ? existingPlant.name : "null")}");
             
-            // Check if both are Peashooters (handles "(Clone)" suffix)
-            bool isPlacingPeashooter = selectedPlantPrefab.GetComponent<Peashooter>() != null;
-            bool hasExistingPeashooter = existingPlant != null && existingPlant.GetComponent<Peashooter>() != null;
-            
-            Debug.Log($"Is placing Peashooter: {isPlacingPeashooter}, Has existing Peashooter: {hasExistingPeashooter}");
-            
-            if (isPlacingPeashooter && hasExistingPeashooter)
+            if (FusionManager.Instance.TryFusion(tile, existingPlant, selectedPlantPrefab, currentSun))
             {
-                Debug.Log("🔥 Fusion condition met!");
-                TryFusionToRepeater(tile, existingPlant);
+                if (existingPlant != null)
+                {
+                    if (existingPlant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
+                    {
+                        if (netObj.IsSpawned) netObj.Despawn();
+                    }
+                    Destroy(existingPlant);
+                }
+                SpendSun(selectedCost);
+                selectedSeedPacket?.StartCooldown();
+                ClearSelection();
                 return;
             }
         }
@@ -91,24 +133,18 @@ public class PlantManager : MonoBehaviour
         if (tile.IsOccupied) return;
         if (currentSun < selectedCost) return;
 
-        // Kiểm tra role
         if (LobbyManager.Instance == null || LobbyManager.Instance.SelectedRole != PlayerRole.Plant)
         {
             Debug.LogWarning("Only Plant player can place plants!");
             return;
         }
-
-        // Spawn qua NetworkGameManager thay vì Instantiate
+        
         Vector3 position = tile.PlantWorldPosition;
         
         if (NetworkGameManager.Instance != null)
         {
-            // Gọi hàm spawn từ NetworkGameManager
             NetworkGameManager.Instance.SpawnPlantAtPosition(position, selectedPlantPrefab.name);
             
-            // Occupy tile (sẽ được sync sau khi server confirm spawn)
-            // tile.TryOccupy(...) sẽ được gọi trong callback
-            
             SpendSun(selectedCost);
             selectedSeedPacket?.StartCooldown();
             ClearSelection();
@@ -119,57 +155,6 @@ public class PlantManager : MonoBehaviour
         }
     }
 
-    private void TryFusionToRepeater(Tile tile, GameObject existingPeashooter)
-    {
-        if (currentSun < selectedCost)
-        {
-            Debug.LogWarning($"⚠️ Not enough sun for fusion! Current: {currentSun}, Cost: {selectedCost}");
-            return;
-        }
-        
-        if (repeaterPrefab == null)
-        {
-            Debug.LogError("⚠️ Repeater prefab not assigned in PlantManager Inspector!");
-            return;
-        }
-
-        Debug.Log("🔥 Fusing 2 Peashooters into Repeater!");
-
-        if (NetworkGameManager.Instance != null)
-        {
-            // Clear the tile first
-            tile.Clear();
-            
-            // Remove existing peashooter via server
-            NetworkObject netObj = existingPeashooter.GetComponent<NetworkObject>();
-            if (netObj != null && netObj.IsSpawned)
-            {
-                // Use NetworkGameManager to properly despawn via ServerRpc
-                NetworkGameManager.Instance.DespawnPlantByNetworkId(netObj.NetworkObjectId);
-            }
-            else
-            {
-                Destroy(existingPeashooter);
-            }
-
-            // Spawn Repeater at same position
-            Vector3 position = tile.PlantWorldPosition;
-            Debug.Log($"📍 Spawning Repeater at {position}");
-            NetworkGameManager.Instance.SpawnPlantAtPosition(position, "Repeater");
-
-            SpendSun(selectedCost);
-            selectedSeedPacket?.StartCooldown();
-            ClearSelection();
-            
-            Debug.Log("✅ Fusion complete - Repeater spawn requested!");
-        }
-        else
-        {
-            Debug.LogError("NetworkGameManager not found!");
-        }
-    }
-
-    // Hàm này sẽ được gọi từ NetworkGameManager sau khi spawn thành công
     public void OnPlantSpawned(GameObject plant, Tile tile)
     {
         if (tile.TryOccupy(plant))

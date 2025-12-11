@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3655307611
+  GlobalObjectIdHash: 906605438
   InScenePlacedSourceGlobalObjectIdHash: 906605438
   DeferredDespawnTick: 0
   Ownership: 1
@@ -191,7 +191,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 300
   sunCost: 100
-  cooldown: 3
+  cooldown: 0
   packetImage: {fileID: -6687575109595898538, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
   pivotOffset: {x: 0.1, y: -0.75, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
