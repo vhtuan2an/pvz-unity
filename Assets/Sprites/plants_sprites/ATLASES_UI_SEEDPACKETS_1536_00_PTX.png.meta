@@ -146,13 +146,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ATLASES_UI_SEEDPACKETS_1536_00_PTX_1
+      name: packetWallnut
       rect:
         serializedVersion: 2
-        x: 112
-        y: 237
-        width: 141
-        height: 243
+        x: 0
+        y: 441
+        width: 136
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,7 +401,6 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ATLASES_UI_SEEDPACKETS_1536_00_PTX_1: -1620143605486728372
       ATLASES_UI_SEEDPACKETS_1536_00_PTX_2: 2117016225308604521
       ATLASES_UI_SEEDPACKETS_1536_00_PTX_4: -7076748997111045851
       ATLASES_UI_SEEDPACKETS_1536_00_PTX_5: -4283733354388277621
@@ -413,6 +412,7 @@ TextureImporter:
       packetPeashooter: -6687575109595898538
       packetPotatoMine: 1107962353
       packetSunflower: -3732944587868782168
+      packetWallnut: -1620143605486728372
       packetWinterMint: 919534086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

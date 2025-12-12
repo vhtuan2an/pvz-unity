@@ -134,6 +134,9 @@ public class ZombieBase : NetworkBehaviour
             // Always apply blue tint
             ApplyColorTintClientRpc(slowAmount);
             
+            // Apply animation freeze
+            ApplyAnimationSpeedClientRpc(0f);
+            
             // Spawn freeze VFX if prefab name provided
             if (!string.IsNullOrEmpty(freezeVFXPrefabName))
             {
@@ -211,6 +214,7 @@ public class ZombieBase : NetworkBehaviour
         {
             currentSlowMultiplier = 1f;
             ResetColorClientRpc();
+            ApplyAnimationSpeedClientRpc(1f);
             return;
         }
 
@@ -222,6 +226,7 @@ public class ZombieBase : NetworkBehaviour
             {
                 currentSlowMultiplier = 0f;
                 ApplyColorTintClientRpc(1f);
+                ApplyAnimationSpeedClientRpc(0f);
                 return;
             }
             maxSlowAmount = Mathf.Max(maxSlowAmount, slow.slowAmount);
@@ -236,6 +241,7 @@ public class ZombieBase : NetworkBehaviour
         
         currentSlowMultiplier = multiplier;
         ApplyColorTintClientRpc(maxSlowAmount);
+        ApplyAnimationSpeedClientRpc(currentSlowMultiplier); // ⭐ Apply animation speed
     }
 
     private void UpdateColorBasedOnSlows()
@@ -290,6 +296,19 @@ public class ZombieBase : NetworkBehaviour
 
         spriteRenderer.color = originalColor;
         Debug.Log($"Reset to original color: {originalColor}");
+    }
+
+    [ClientRpc]
+    private void ApplyAnimationSpeedClientRpc(float speedMultiplier)
+    {
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+            if (animator == null) return;
+        }
+
+        animator.speed = speedMultiplier;
+        Debug.Log($"Animation speed set to: {speedMultiplier}");
     }
 
     [ClientRpc]

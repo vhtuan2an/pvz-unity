@@ -16,6 +16,14 @@ public class PlantManager : MonoBehaviour
     private GameObject selectedPlantPrefab;
     private int selectedCost;
     private SeedPacket selectedSeedPacket;
+    private System.Collections.Generic.List<SeedPacket> allSeedPackets = new System.Collections.Generic.List<SeedPacket>();
+
+    // Preview
+    private GameObject previewObject;
+    private SpriteRenderer previewRenderer;
+    private Tile currentHoveredTile;
+    private Vector3 currentPivotOffset;
+    private Vector3 currentScale;
 
     void Awake()
     {
@@ -23,6 +31,7 @@ public class PlantManager : MonoBehaviour
         else Destroy(gameObject);
 
         UpdateSunCounter();
+        CreatePreviewObject();
     }
 
     void Update()
@@ -30,6 +39,76 @@ public class PlantManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             HandleWorldClick();
+        }
+        UpdatePreview();
+    }
+
+    private void CreatePreviewObject()
+    {
+        previewObject = new GameObject("PlantPreview");
+        previewRenderer = previewObject.AddComponent<SpriteRenderer>();
+        previewRenderer.sortingOrder = 100;
+        previewObject.SetActive(false);
+    }
+
+    private void UpdatePreview()
+    {
+        if (selectedPlantPrefab == null)
+        {
+            HidePreview();
+            return;
+        }
+
+        // Raycast to find tile under mouse
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(ray.origin, ray.direction, Mathf.Infinity);
+        Tile hoveredTile = null;
+        foreach (var hit in hits)
+        {
+            Tile tile = hit.collider.GetComponent<Tile>();
+            if (tile != null)
+            {
+                hoveredTile = tile;
+                break;
+            }
+        }
+
+        if (hoveredTile != null)
+        {
+            currentHoveredTile = hoveredTile;
+            ShowPreview(hoveredTile);
+        }
+        else
+        {
+            currentHoveredTile = null;
+            HidePreview();
+        }
+    }
+
+    private void ShowPreview(Tile tile)
+    {
+        if (!previewObject.activeSelf)
+        {
+            previewObject.SetActive(true);
+        }
+
+        // ⭐ Apply position, scale, and offset
+        previewObject.transform.position = tile.PlantWorldPosition + currentPivotOffset;
+        previewObject.transform.localScale = currentScale; // ⭐ Apply scale
+
+        // Determine if placement is valid
+        bool canPlace = !tile.IsOccupied && currentSun >= selectedCost;
+        
+        // Set color based on validity
+        Color previewColor = canPlace ? new Color(1f, 1f, 1f, 0.6f) : new Color(1f, 0.3f, 0.3f, 0.6f);
+        previewRenderer.color = previewColor;
+    }
+
+    private void HidePreview()
+    {
+        if (previewObject != null)
+        {
+            previewObject.SetActive(false);
         }
     }
 
@@ -54,7 +133,7 @@ public class PlantManager : MonoBehaviour
         
         if (clickedTile != null)
         {
-            Debug.Log($"🖱️ Tile clicked: {clickedTile.name}");
+            Debug.Log($"Tile clicked: {clickedTile.name}");
             
             // Only place plant if one is selected
             if (selectedPlantPrefab != null && LobbyManager.Instance?.SelectedRole == PlayerRole.Plant)
@@ -69,19 +148,112 @@ public class PlantManager : MonoBehaviour
         Debug.Log("No tile clicked, allowing UI to process");
     }
 
+    // Register seed packet for dimming system
+    public void RegisterSeedPacket(SeedPacket packet)
+    {
+        if (!allSeedPackets.Contains(packet))
+            allSeedPackets.Add(packet);
+    }
+
     public void SelectPlant(GameObject prefab, int cost, SeedPacket seedPacket = null)
     {
         selectedPlantPrefab = prefab;
         selectedCost = cost;
         selectedSeedPacket = seedPacket;
         
+        SetPreviewSprite(prefab);
+        
+        // Dim all other seed packets
+        foreach (var packet in allSeedPackets)
+        {
+            packet.SetDimmed(packet != seedPacket);
+        }
+        
         Debug.Log($"Plant selected: {prefab.name}, Cost: {cost}");
+    }
+
+    // Extract first frame sprite from plant prefab
+    private void SetPreviewSprite(GameObject prefab)
+    {
+        if (previewRenderer == null) return;
+
+        // Reset pivot offset and scale
+        currentPivotOffset = Vector3.zero;
+        currentScale = Vector3.one;
+
+        // Get scale from prefab's Transform
+        currentScale = prefab.transform.localScale;
+        Debug.Log($"Preview scale for {prefab.name}: {currentScale}");
+
+        // Get pivot offset from PlantBase
+        PlantBase plantBase = prefab.GetComponent<PlantBase>();
+        if (plantBase != null)
+        {
+            // Access pivotOffset via reflection (protected field)
+            var pivotField = typeof(PlantBase).GetField("pivotOffset", 
+                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            if (pivotField != null)
+            {
+                currentPivotOffset = (Vector3)pivotField.GetValue(plantBase);
+                Debug.Log($"Preview pivot offset for {prefab.name}: {currentPivotOffset}");
+            }
+        }
+
+        // Try to get sprite from SpriteRenderer
+        SpriteRenderer plantRenderer = prefab.GetComponent<SpriteRenderer>();
+        if (plantRenderer != null && plantRenderer.sprite != null)
+        {
+            previewRenderer.sprite = plantRenderer.sprite;
+            return;
+        }
+
+        // Try to get first frame from Animator
+        Animator animator = prefab.GetComponent<Animator>();
+        if (animator != null && animator.runtimeAnimatorController != null)
+        {
+            // Instantiate temporarily to get first frame
+            GameObject tempPlant = Instantiate(prefab);
+            tempPlant.SetActive(true);
+            
+            Animator tempAnimator = tempPlant.GetComponent<Animator>();
+            SpriteRenderer tempRenderer = tempPlant.GetComponent<SpriteRenderer>();
+            
+            if (tempAnimator != null && tempRenderer != null)
+            {
+                tempAnimator.Update(0f); // Force update to first frame
+                previewRenderer.sprite = tempRenderer.sprite;
+            }
+            
+            Destroy(tempPlant);
+        }
     }
 
     public void ClearSelection()
     {
+        HidePreview();
+        currentPivotOffset = Vector3.zero;
+        currentScale = Vector3.one;
+        // Undim all seed packets
+        foreach (var packet in allSeedPackets)
+        {
+            packet.SetDimmed(false);
+        }
+        
         selectedPlantPrefab = null;
         selectedSeedPacket = null;
+    }
+
+    // Called when cooldown ends
+    public void RefreshDimming()
+    {
+        if (selectedSeedPacket != null)
+        {
+            // Reapply dimming to all other packets
+            foreach (var packet in allSeedPackets)
+            {
+                packet.SetDimmed(packet != selectedSeedPacket);
+            }
+        }
     }
 
     public void AddSun(int amount)
@@ -113,9 +285,13 @@ public class PlantManager : MonoBehaviour
         {
             GameObject existingPlant = tile.GetOccupyingPlant();
             
+            // Don't destroy if Wallnut first-aid
+            bool isWallnutRestoration = existingPlant.name.Contains("Wallnut") && 
+                                     selectedPlantPrefab.name.Contains("Wallnut");
+            
             if (FusionManager.Instance.TryFusion(tile, existingPlant, selectedPlantPrefab, currentSun))
             {
-                if (existingPlant != null)
+                if (!isWallnutRestoration && existingPlant != null)
                 {
                     if (existingPlant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
                     {

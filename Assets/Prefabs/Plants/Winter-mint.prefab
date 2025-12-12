@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3435272648
+  GlobalObjectIdHash: 3270102073
   InScenePlacedSourceGlobalObjectIdHash: 3270102073
   DeferredDespawnTick: 0
   Ownership: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
   sunCost: 100
   cooldown: 7.5
   packetImage: {fileID: 919534086, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
-  pivotOffset: {x: 0, y: 0, z: 0}
+  pivotOffset: {x: 0.1, y: 0, z: 0}
   freezeDuration: 5
   slowPercentage: 0.5
   slowDuration: 3
