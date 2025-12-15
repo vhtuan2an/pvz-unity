@@ -8,13 +8,7 @@ using Unity.Services.Authentication;
 public class LobbyUI : MonoBehaviour
 {
     [Header("Player Info")]
-    [SerializeField] private TMP_Text playerIdText;
     [SerializeField] private TMP_Text usernameText;
-
-    // [Header("Role Selection")]
-    // [SerializeField] private Button plantButton; // Không còn cần thiết
-    // [SerializeField] private Button zombieButton; // Không còn cần thiết
-    [SerializeField] private TMP_Text selectedRoleText; // Giữ lại để hiển thị role được gán
 
     [Header("Matchmaking")]
     [SerializeField] private Button refreshLobbyListButton; // Đổi tên từ startMatchmakingButton
@@ -22,13 +16,10 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private GameObject searchingPanel; // Dùng làm panel "Đang đợi"
     [SerializeField] private TMP_Text searchingText;
 
-    [Header("Feedback")]
-    [SerializeField] private TMP_Text feedbackText;
-
     [Header("List UI")]
     [SerializeField] private RectTransform lobbyListContent;
-    [SerializeField] private GameObject lobbyListItemPrefab;
-    [SerializeField] private TMP_Text statusText;
+    [SerializeField] private GameObject plantLobbyItemPrefab;
+    [SerializeField] private GameObject zombieLobbyItemPrefab;
 
     [Header("Create")]
     [SerializeField] private Button createPlantBtn;
@@ -39,7 +30,6 @@ public class LobbyUI : MonoBehaviour
     private void Start()
     {
         // Subscribe to events
-        LobbyManager.Instance.OnRoleSelected += OnRoleSelected;
         LobbyManager.Instance.OnMatchmakingStarted += OnMatchmakingStarted;
         LobbyManager.Instance.OnMatchFound += OnMatchFound;
         LobbyManager.Instance.OnMatchmakingFailed += OnMatchmakingFailed;
@@ -65,13 +55,41 @@ public class LobbyUI : MonoBehaviour
 
         // Initial UI state
         searchingPanel.SetActive(false);
-        UpdateButtons(isSearching: false); // Cập nhật trạng thái nút ban đầu
-        ClearFeedback();
-        selectedRoleText.text = "Select a lobby to join or create one";
+        UpdateButtons(isSearching: false);
 
         _ = RefreshLobbyList();
 
         // InvokeRepeating(nameof(PeriodicRefresh), 15f, 15f); // Bỏ comment nếu muốn tự động refresh
+        ForceContentLayout(); // Fix layout issues
+    }
+
+    private void ForceContentLayout()
+    {
+        if (lobbyListContent == null) return;
+
+        // 1. Pivot & Anchors: Top-Center
+        lobbyListContent.pivot = new Vector2(0.5f, 1f);
+        lobbyListContent.anchorMin = new Vector2(0f, 1f);
+        lobbyListContent.anchorMax = new Vector2(1f, 1f);
+        lobbyListContent.anchoredPosition = Vector2.zero;
+
+        // 2. Vertical Layout Group
+        // var vlg = lobbyListContent.GetComponent<VerticalLayoutGroup>();
+        // if (vlg == null) vlg = lobbyListContent.gameObject.AddComponent<VerticalLayoutGroup>();
+        
+        // vlg.childAlignment = TextAnchor.UpperCenter; // Or UpperLeft depending on design
+        // vlg.childControlWidth = true; // Cho phép LayoutGroup điều khiển chiều rộng
+        // vlg.childControlHeight = true; // Cho phép LayoutGroup điều khiển chiều cao (cần LayoutElement)
+        // vlg.childForceExpandWidth = true; // Item giãn ra full width
+        // vlg.childForceExpandHeight = false;
+        // vlg.spacing = 10f; // Gap between items
+
+        // 3. Content Size Fitter (Crucial for scrolling)
+        var csf = lobbyListContent.GetComponent<ContentSizeFitter>();
+        if (csf == null) csf = lobbyListContent.gameObject.AddComponent<ContentSizeFitter>();
+        
+        csf.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
+        csf.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
     }
 
     private void OnDestroy()
@@ -79,7 +97,6 @@ public class LobbyUI : MonoBehaviour
         // Unsubscribe from events
         if (LobbyManager.Instance != null)
         {
-            LobbyManager.Instance.OnRoleSelected -= OnRoleSelected;
             LobbyManager.Instance.OnMatchmakingStarted -= OnMatchmakingStarted;
             LobbyManager.Instance.OnMatchFound -= OnMatchFound;
             LobbyManager.Instance.OnMatchmakingFailed -= OnMatchmakingFailed;
@@ -93,30 +110,20 @@ public class LobbyUI : MonoBehaviour
     {
         if (AuthenticationService.Instance.IsSignedIn)
         {
-            string playerId = UnityAuthManager.Instance.GetPlayerId();
-            playerIdText.text = $"Player ID: {playerId.Substring(0, 8)}...";
-
-            // Bạn có thể lấy tên người dùng từ Auth service nếu đã đăng ký
-            usernameText.text = $"Welcome, Player!";
+            string playerName = UnityAuthManager.Instance.GetPlayerName();
+            if (string.IsNullOrEmpty(playerName))
+            {
+                string playerId = UnityAuthManager.Instance.GetPlayerId();
+                playerName = $"Player #{playerId.Substring(0, 4)}";
+            }
+            usernameText.text = $"Welcome, {playerName}!";
         }
     }
 
-    // private void OnRoleButtonClicked(PlayerRole role) // Không còn cần thiết
-    // {
-    //     LobbyManager.Instance.SelectRole(role);
-    // }
 
-    private void OnRoleSelected(PlayerRole role)
-    {
-        // Hàm này giờ được gọi khi ta Join một lobby và được gán Role
-        selectedRoleText.text = $"Your Role: {LobbyManager.Instance.GetRoleDisplayName(role)}";
-        selectedRoleText.color = role == PlayerRole.Plant ? Color.green : Color.red;
-        // UpdateUI(); // Đã xóa
-    }
 
     private async void OnCancelMatchmakingClicked()
     {
-        ClearFeedback();
         await LobbyManager.Instance.CancelMatchmaking();
     }
 
@@ -126,31 +133,26 @@ public class LobbyUI : MonoBehaviour
         searchingPanel.SetActive(true);
         searchingText.text = $"Waiting for opponent... Role: {LobbyManager.Instance.GetRoleDisplayName(LobbyManager.Instance.SelectedRole)}";
         UpdateButtons(isSearching: true);
-        ClearFeedback();
     }
 
     private void OnMatchFound(string matchId)
     {
         // Game tự động bắt đầu, không cần làm gì ở UI này
         searchingPanel.SetActive(false);
-        ShowFeedback($"Match found! Starting game...", false);
-        UpdateButtons(isSearching: false); // Trạng thái này sẽ không ở lại lâu
+        UpdateButtons(isSearching: false);
     }
 
     private void OnMatchmakingFailed(string error)
     {
         searchingPanel.SetActive(false);
-        ShowFeedback($"Error: {error}", true);
+        Debug.LogError($"Matchmaking failed: {error}");
         UpdateButtons(isSearching: false);
     }
 
     private void OnMatchmakingCancelled()
     {
         searchingPanel.SetActive(false);
-        ShowFeedback("Left lobby", false);
         UpdateButtons(isSearching: false);
-        selectedRoleText.text = "Select a lobby to join or create one";
-        selectedRoleText.color = Color.white;
     }
 
     /// <summary>
@@ -173,23 +175,7 @@ public class LobbyUI : MonoBehaviour
         }
     }
 
-    // private void UpdateUI() // Hàm cũ, không còn cần thiết
-    // {
-    //     // ...
-    // }
 
-    private void ShowFeedback(string message, bool isError)
-    {
-        feedbackText.text = message;
-        feedbackText.color = isError ? Color.red : Color.green;
-        feedbackText.gameObject.SetActive(true);
-    }
-
-    private void ClearFeedback()
-    {
-        feedbackText.text = "";
-        feedbackText.gameObject.SetActive(false);
-    }
 
     private async void PeriodicRefresh() => await RefreshLobbyList();
 
@@ -200,8 +186,6 @@ public class LobbyUI : MonoBehaviour
         // Đảm bảo không refresh khi đang trong lobby
         if (LobbyManager.Instance.IsSearching) return;
 
-        statusText.text = "Loading lobbies...";
-        ClearFeedback();
         var lobbies = await LobbyManager.Instance.GetAvailableLobbiesAsync(30);
 
         // Clear existing UI
@@ -210,53 +194,46 @@ public class LobbyUI : MonoBehaviour
 
         foreach (var lobby in lobbies)
         {
-            var go = Instantiate(lobbyListItemPrefab, lobbyListContent);
+            // Chọn prefab dựa trên role của host
+            PlayerRole ownerRole = LobbyManager.Instance.GetLobbyOwnerRole(lobby);
+            GameObject prefab = ownerRole == PlayerRole.Plant ? plantLobbyItemPrefab : zombieLobbyItemPrefab;
+            
+            var go = Instantiate(prefab, lobbyListContent);
             var item = go.GetComponent<LobbyListItem>();
             string name = lobby.Name;
             string owner = LobbyManager.Instance.GetLobbyOwnerName(lobby);
-            string ownerRole = LobbyManager.Instance.GetLobbyOwnerRole(lobby).ToString();
-            item.Setup(lobby.Id, name, owner, ownerRole, lobby.Players.Count, lobby.MaxPlayers, OnJoinLobbyClicked);
+            item.Setup(lobby.Id, name, owner, ownerRole.ToString(), OnJoinLobbyClicked);
+            
+            // Đảm bảo item có kích thước cố định cho VerticalLayoutGroup
+            var layoutElement = go.GetComponent<LayoutElement>();
+            if (layoutElement == null) layoutElement = go.AddComponent<LayoutElement>();
+            layoutElement.preferredHeight = 30f; // Chiều cao mỗi item (điều chỉnh theo design)
+            layoutElement.preferredWidth = -1; // Tự động theo parent
+            layoutElement.flexibleWidth = 1; // Cho phép co giãn theo chiều ngang
+
+            go.transform.SetAsFirstSibling();
             spawnedItems.Add(go);
         }
-
-        statusText.text = $"Found {lobbies.Count} lobbies";
     }
 
     private async void OnJoinLobbyClicked(string lobbyId)
     {
-        ClearFeedback();
-        statusText.text = "Joining lobby...";
         bool ok = await LobbyManager.Instance.JoinLobbyByIdAsyncPublic(lobbyId);
 
-        if (ok)
+        if (!ok)
         {
-            // Event OnMatchmakingStarted sẽ được gọi từ LobbyManager,
-            // không cần cập nhật UI ở đây
-            statusText.text = $"Joined lobby. Waiting for host...";
-        }
-        else
-        {
-            statusText.text = "Failed to join lobby.";
-            ShowFeedback("Failed to join lobby. It might be full or closed.", true);
-            await RefreshLobbyList(); // Tải lại danh sách
+            Debug.LogWarning("Failed to join lobby. It might be full or closed.");
+            await RefreshLobbyList();
         }
     }
 
     private async Task CreateLobby(PlayerRole role)
     {
-        ClearFeedback();
-        statusText.text = "Creating lobby...";
         bool ok = await LobbyManager.Instance.CreateLobbyWithRoleAsync(role);
 
-        if (ok)
+        if (!ok)
         {
-            // Event OnMatchmakingStarted sẽ được gọi từ LobbyManager
-            statusText.text = $"Lobby created. Waiting for opponent...";
-        }
-        else
-        {
-            statusText.text = "Failed to create lobby.";
-            ShowFeedback("Failed to create lobby.", true);
+            Debug.LogWarning("Failed to create lobby.");
         }
     }
 }

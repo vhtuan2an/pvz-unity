@@ -12,6 +12,8 @@ public class UnityAuthManager : MonoBehaviour
     [Header("Scene Settings")]
     [SerializeField] private string lobbySceneName = "LobbyScene";
 
+    private string loggedInUsername;
+
     private void Awake()
     {
         if (Instance == null)
@@ -101,6 +103,7 @@ public class UnityAuthManager : MonoBehaviour
         try
         {
             await AuthenticationService.Instance.SignInWithUsernamePasswordAsync(username, password);
+            loggedInUsername = username; // Store the username used for login
             Debug.Log($"Sign in successful! Player ID: {AuthenticationService.Instance.PlayerId}");
             OnSignInSuccess();
         }
@@ -122,6 +125,7 @@ public class UnityAuthManager : MonoBehaviour
         try
         {
             await AuthenticationService.Instance.SignUpWithUsernamePasswordAsync(username, password);
+            loggedInUsername = username; // Store the username used for signup
             Debug.Log($"Sign up successful! Player ID: {AuthenticationService.Instance.PlayerId}");
             OnSignInSuccess();
         }
@@ -198,6 +202,16 @@ public class UnityAuthManager : MonoBehaviour
     public string GetAccessToken()
     {
         return AuthenticationService.Instance.AccessToken;
+    }
+
+    public string GetPlayerName()
+    {
+        // Return the stored login username, or fallback to PlayerName from Auth service
+        if (!string.IsNullOrEmpty(loggedInUsername))
+        {
+            return loggedInUsername;
+        }
+        return AuthenticationService.Instance.PlayerName;
     }
 
     public bool IsSignedIn()
