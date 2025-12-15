@@ -15,9 +15,18 @@ public class SeedPacket : MonoBehaviour
     private bool onCooldown;
     private int sunCost;
     private float cooldown;
+    private CanvasGroup canvasGroup;
 
     void Start()
     {
+        // Get or add CanvasGroup for dimming
+        canvasGroup = GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+            canvasGroup = gameObject.AddComponent<CanvasGroup>();
+
+        // Register with PlantManager
+        PlantManager.Instance?.RegisterSeedPacket(this);
+
         // Add button click listener
         if (button != null)
             button.onClick.AddListener(OnClicked);
@@ -76,6 +85,16 @@ public class SeedPacket : MonoBehaviour
         PlantManager.Instance?.SelectPlant(plantPrefab, sunCost, this);
     }
 
+    // ⭐ Dim/undim this seed packet
+    public void SetDimmed(bool dimmed)
+    {
+        // Don't dim if on cooldown
+        if (onCooldown) return;
+        
+        if (canvasGroup != null)
+            canvasGroup.alpha = dimmed ? 0.5f : 1f;
+    }
+
     public void StartCooldown()
     {
         // Start cooldown if applicable
@@ -106,5 +125,11 @@ public class SeedPacket : MonoBehaviour
         if (button != null) button.interactable = true;
 
         onCooldown = false;
+        
+        // ⭐ Reapply dimming state after cooldown ends
+        if (PlantManager.Instance != null)
+        {
+            PlantManager.Instance.RefreshDimming();
+        }
     }
 }

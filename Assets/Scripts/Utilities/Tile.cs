@@ -8,30 +8,9 @@ public class Tile : MonoBehaviour
     public Vector3 plantOffset = Vector3.zero;
     public Vector3 PlantWorldPosition => transform.position + plantOffset;
 
-    public bool TryOccupy(GameObject occupant)
-    {
-        if (IsOccupied || occupant == null) return false;
-        IsOccupied = true;
-        Occupant = occupant;
-        Debug.Log($"Tile occupied: {name}, IsOccupied = {IsOccupied}");
-        return true;
-    }
-
-    public void Clear()
-    {
-        IsOccupied = false;
-        Occupant = null;
-        Debug.Log($"Tile cleared: {name}, IsOccupied = {IsOccupied}");
-    }
-
-    public GameObject GetOccupyingPlant()
-    {
-        return Occupant;
-    }
-
     void OnMouseDown()
     {
-        Debug.Log($"🖱️ Tile clicked: {name}, IsOccupied: {IsOccupied}, Occupant: {(Occupant != null ? Occupant.name : "null")}");
+        Debug.Log($"Tile clicked: {name}, IsOccupied: {IsOccupied}, Occupant: {(Occupant != null ? Occupant.name : "null")}");
         
         // Route to correct manager based on player role
         if (LobbyManager.Instance == null) return;
@@ -42,14 +21,36 @@ public class Tile : MonoBehaviour
         }
         else if (LobbyManager.Instance.SelectedRole == PlayerRole.Zombie)
         {
-            // Zombie clicks tiles to spawn zombies at that position
             ZombieManager.Instance?.TrySpawnZombieOnLane(this.transform);
         }
+    }
+
+    public bool TryOccupy(GameObject occupant)
+    {
+        if (IsOccupied) return false;
+        IsOccupied = true;
+        Occupant = occupant;
+        Debug.Log($"Tile '{name}' occupied by {occupant.name}");
+        return true;
+    }
+
+    public void Clear()
+    {
+        IsOccupied = false;
+        Occupant = null;
+        Debug.Log($"Tile '{name}' cleared");
+    }
+
+    public GameObject GetOccupyingPlant()
+    {
+        return Occupant;
     }
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = IsOccupied ? Color.red : Color.green;
-        Gizmos.DrawWireCube(transform.position, new Vector3(1f, 1f, 0f));
+        Gizmos.DrawWireCube(transform.position, Vector3.one * 0.8f);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(PlantWorldPosition, 0.15f);
     }
 }

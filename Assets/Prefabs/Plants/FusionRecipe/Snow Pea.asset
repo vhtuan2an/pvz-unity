@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a977cad1ef55de042978ae95a1efc9f0, type: 3}
+  m_Name: Snow Pea
+  m_EditorClassIdentifier: 
+  basePlant: {fileID: 6182550927699580811, guid: bbb2002ed3d95fe4ba0a39733114c422, type: 3}
+  addedPlant: {fileID: 8428471616817675384, guid: 168a7af91cbd6c34d89a3b743a615c86, type: 3}
+  resultFusion: {fileID: 6182550927699580811, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
