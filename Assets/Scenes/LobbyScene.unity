@@ -155,7 +155,7 @@ MonoBehaviour:
   searchingText: {fileID: 1749904710}
   lobbyListContent: {fileID: 774193253}
   plantLobbyItemPrefab: {fileID: 2997419356611630311, guid: 8ded1d309ade2e5418ac5bedd94aefdb, type: 3}
-  zombieLobbyItemPrefab: {fileID: 2997419356611630311, guid: 8ded1d309ade2e5418ac5bedd94aefdb, type: 3}
+  zombieLobbyItemPrefab: {fileID: 2997419356611630311, guid: cef840ddbfbd2264896969974f2045a8, type: 3}
   createPlantBtn: {fileID: 372498881}
   createZombieBtn: {fileID: 1948290782}
 --- !u!4 &32894555
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_text: New Room
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
-  m_sharedMaterial: {fileID: -6278307701644384397, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
+  m_sharedMaterial: {fileID: -3127605560169238988, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2144,7 +2144,7 @@ MonoBehaviour:
   m_text: Player Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
-  m_sharedMaterial: {fileID: -6278307701644384397, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
+  m_sharedMaterial: {fileID: -3127605560169238988, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2434,8 +2434,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLANT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
-  m_sharedMaterial: {fileID: -6278307701644384397, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2696,7 +2696,7 @@ MonoBehaviour:
   m_text: REFRESH
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
-  m_sharedMaterial: {fileID: -6278307701644384397, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
+  m_sharedMaterial: {fileID: -3127605560169238988, guid: 2df9b9882dd7ded4388aba8ca2dbf0ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

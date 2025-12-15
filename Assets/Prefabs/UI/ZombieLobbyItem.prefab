@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9131689199808411254, guid: 1bcdc4ddf5ce5e441b7025bcd0039518, type: 3}
+  m_Sprite: {fileID: 5700335775361950787, guid: 1bcdc4ddf5ce5e441b7025bcd0039518, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 5133239422601096467}
   - component: {fileID: 8623210753466433578}
   m_Layer: 5
-  m_Name: PlantLobbyItem
+  m_Name: ZombieLobbyItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
