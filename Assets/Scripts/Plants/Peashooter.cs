@@ -146,7 +146,7 @@ public class Peashooter : PlantBase
                 return;
             }
 
-            Vector3 spawnPosition = transform.position + detectionOffset + new Vector3(0.5f, 0f, 0);
+            Vector3 spawnPosition = shootPoint != null ? shootPoint.position : (transform.position + detectionOffset + new Vector3(0.5f, 0f, 0));
             GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
 
             NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
