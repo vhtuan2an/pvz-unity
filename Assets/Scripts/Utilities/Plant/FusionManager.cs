@@ -52,6 +52,9 @@ public class FusionManager : MonoBehaviour
         
         Debug.Log($"Fusion: {recipe.basePlant.name} + {recipe.addedPlant.name} → {recipe.resultFusion.name}");
         
+        // Clear the tile first so the fusion result can occupy it
+        tile.Clear();
+        
         // Spawn result
         Vector3 position = tile.PlantWorldPosition;
         

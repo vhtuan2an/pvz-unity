@@ -45,9 +45,9 @@ GameObject:
   - component: {fileID: 4453159782855990791}
   - component: {fileID: 4589151850186231828}
   - component: {fileID: -3011877247219106591}
-  - component: {fileID: 3085854254664049168}
+  - component: {fileID: 2012898275430181732}
   m_Layer: 3
-  m_Name: Repeater
+  m_Name: Threepeater
   m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -5}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 1}
+  m_LocalScale: {x: 0.17, y: 0.17, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2118876949700380241}
@@ -113,12 +113,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 54fd610610285c940ab43d8fa7540a4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e698fe6044d591841a2cdb428b465b23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.26, y: 7.44}
+  m_Size: {x: 10.8, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -134,7 +134,7 @@ Animator:
   m_GameObject: {fileID: 6182550927699580811}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 86f55f6139b7041458517339662a7987, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2732a028eb7bfa14d96ebe334c3cc803, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -158,8 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2233070379
-  InScenePlacedSourceGlobalObjectIdHash: 2233070379
+  GlobalObjectIdHash: 3620407132
+  InScenePlacedSourceGlobalObjectIdHash: 3620407132
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -236,15 +236,15 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.26, y: 7.44}
-    newSize: {x: 7.26, y: 7.44}
+    oldSize: {x: 10.8, y: 10.8}
+    newSize: {x: 10.8, y: 10.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 1.11, y: 1.1}
   m_EdgeRadius: 0
---- !u!114 &3085854254664049168
+--- !u!114 &2012898275430181732
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,15 +261,15 @@ MonoBehaviour:
   sunCost: 100
   cooldown: 7.5
   packetImage: {fileID: 0}
-  pivotOffset: {x: 0, y: 0, z: 0}
+  pivotOffset: {x: 0.1, y: 0, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
-  shootPoint: {fileID: 2118876949700380241}
+  shootPoint: {fileID: 3581426108690634205}
   attackRate: 0.75
   detectionRange: 10
   zombieLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   laneHeight: 0.9
-  detectionOffset: {x: -0.1, y: 0, z: 0}
-  peaAmount: 2
-  burstDelay: 0.15
+  detectionOffset: {x: 0, y: 0, z: 0}
+  peaAmount: 3
+  burstDelay: 0.1

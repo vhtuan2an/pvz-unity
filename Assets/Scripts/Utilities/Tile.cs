@@ -2,7 +2,21 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    public bool IsOccupied { get; private set; }
+    private bool _isOccupied;
+    public bool IsOccupied 
+    { 
+        get 
+        {
+            // Also check if occupant was destroyed
+            if (_isOccupied && Occupant == null)
+            {
+                Clear();
+                return false;
+            }
+            return _isOccupied;
+        }
+        private set => _isOccupied = value;
+    }
     public GameObject Occupant { get; private set; }
 
     public Vector3 plantOffset = Vector3.zero;
@@ -28,7 +42,7 @@ public class Tile : MonoBehaviour
     public bool TryOccupy(GameObject occupant)
     {
         if (IsOccupied) return false;
-        IsOccupied = true;
+        _isOccupied = true;
         Occupant = occupant;
         Debug.Log($"Tile '{name}' occupied by {occupant.name}");
         return true;
@@ -36,7 +50,7 @@ public class Tile : MonoBehaviour
 
     public void Clear()
     {
-        IsOccupied = false;
+        _isOccupied = false;
         Occupant = null;
         Debug.Log($"Tile '{name}' cleared");
     }

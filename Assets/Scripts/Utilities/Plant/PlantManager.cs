@@ -99,28 +99,32 @@ public class PlantManager : MonoBehaviour
         {
             GameObject existingPlant = tile.GetOccupyingPlant();
             
-            // Check for Wallnut restoration
-            bool isWallnutRestoration = existingPlant.name.Contains("Wallnut") && 
-                                         selectedPlantPrefab.name.Contains("Wallnut");
-            
-            if (isWallnutRestoration)
+            // Check if existing plant is still valid (not destroyed)
+            if (existingPlant != null)
             {
-                Wallnut wallnut = existingPlant.GetComponent<Wallnut>();
-                if (wallnut != null && wallnut.CurrentHealth < wallnut.MaxHealth)
-                {
-                    isFusionPreview = true;
-                    SetPreviewSprite(selectedPlantPrefab);
-                }
-            }
-            else
-            {
-                // Check regular fusion recipes
-                FusionRecipe recipe = FusionManager.Instance.GetFusionRecipe(existingPlant, selectedPlantPrefab);
+                // Check for Wallnut restoration
+                bool isWallnutRestoration = existingPlant.name.Contains("Wallnut") && 
+                                             selectedPlantPrefab.name.Contains("Wallnut");
                 
-                if (recipe != null && recipe.resultFusion != null)
+                if (isWallnutRestoration)
                 {
-                    isFusionPreview = true;
-                    SetPreviewSprite(recipe.resultFusion);
+                    Wallnut wallnut = existingPlant.GetComponent<Wallnut>();
+                    if (wallnut != null && wallnut.CurrentHealth < wallnut.MaxHealth)
+                    {
+                        isFusionPreview = true;
+                        SetPreviewSprite(selectedPlantPrefab);
+                    }
+                }
+                else
+                {
+                    // Check regular fusion recipes
+                    FusionRecipe recipe = FusionManager.Instance.GetFusionRecipe(existingPlant, selectedPlantPrefab);
+                    
+                    if (recipe != null && recipe.resultFusion != null)
+                    {
+                        isFusionPreview = true;
+                        SetPreviewSprite(recipe.resultFusion);
+                    }
                 }
             }
         }
@@ -382,9 +386,24 @@ public class PlantManager : MonoBehaviour
 
     public void OnPlantSpawned(GameObject plant, Tile tile)
     {
+        // If tile thinks it's occupied but the old plant is destroyed, clear it first
+        if (tile.IsOccupied)
+        {
+            GameObject oldPlant = tile.GetOccupyingPlant();
+            if (oldPlant == null || oldPlant == plant)
+            {
+                // Old plant was destroyed or it's the same plant, force clear
+                tile.Clear();
+            }
+        }
+        
         if (tile.TryOccupy(plant))
         {
             Debug.Log($"Plant {plant.name} placed on {tile.name}");
+        }
+        else
+        {
+            Debug.LogWarning($"Failed to occupy tile {tile.name} with {plant.name}");
         }
     }
 

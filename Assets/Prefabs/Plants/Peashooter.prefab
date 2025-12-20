@@ -201,7 +201,7 @@ MonoBehaviour:
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64
-  laneHeight: 0.8
+  laneHeight: 0.9
   detectionOffset: {x: -0.1, y: 1, z: 0}
   peaAmount: 1
   burstDelay: 0.15
