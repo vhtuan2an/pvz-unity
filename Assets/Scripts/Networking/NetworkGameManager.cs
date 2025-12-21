@@ -223,6 +223,33 @@ public class NetworkGameManager : NetworkBehaviour
             Debug.LogWarning($"Cannot despawn: NetworkObject {networkObjectId} not found!");
         }
     }
+    public void OnZombieWin()
+    {
+        Debug.Log("🧟 Zombies win! Game Over!");
+
+        // TODO: Add your game over logic here (2an's job), such as:
+        // - Show game over UI
+        // - Stop spawning
+        // - Notify all clients
+
+        // Example: Notify all clients (expand as needed)
+        ShowZombieWinClientRpc();
+    }
+
+    [ClientRpc]
+    private void ShowZombieWinClientRpc()
+    {
+        Debug.Log("🧟 [CLIENT] Zombies win! Showing Game Over screen.");
+        
+        if (ZombieWinUI.Instance != null)
+        {
+            ZombieWinUI.Instance.ShowZombieWin();
+        }
+        else
+        {
+            Debug.LogWarning("ZombieWinUI.Instance is null! Make sure ZombieWinUI is in the scene.");
+        }
+    }
 
     // ===================== HELPERS =====================
     private Tile FindTileAtPosition(Vector3 position)

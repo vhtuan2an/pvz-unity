@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2622120441
+  GlobalObjectIdHash: 2448641857
   InScenePlacedSourceGlobalObjectIdHash: 2448641857
   DeferredDespawnTick: 0
   Ownership: 1
@@ -274,7 +274,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 1100
   moveSpeed: 1
-  damage: 50
+  damage: 36
   cooldown: 7.5
   packetImage: {fileID: 3369399851761963896, guid: 8117ef7bda35a1d4a844a61438803c12, type: 3}
   brainCost: 50

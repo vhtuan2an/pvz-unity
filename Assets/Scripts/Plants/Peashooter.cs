@@ -29,7 +29,7 @@ public class Peashooter : PlantBase
         if (shootPoint == null)
             shootPoint = transform;
 
-        Debug.Log($"Peashooter Start: HP={currentHealth}, projectilePrefab={projectilePrefab != null}, peaAmount={peaAmount}");
+
     }
 
     private void Update()
@@ -78,7 +78,7 @@ public class Peashooter : PlantBase
                 {
                     float yDiff = Mathf.Abs(zombie.transform.position.y - detectionOrigin.y);
                     
-                    if (yDiff < (laneHeight * 0.5f))
+                    if (yDiff <= (laneHeight * 0.5f) + 0.05f)
                     {
                         float distance = zombie.transform.position.x - detectionOrigin.x;
                         if (distance <= detectionRange)
@@ -93,13 +93,10 @@ public class Peashooter : PlantBase
         return false;
     }
 
-    // ⭐ Called by Animation Event - spawns peas based on peaAmount
+    // Called by Animation Event - spawns peas based on peaAmount
     private void SpawnPea()
     {
         if (!IsServer) return;
-        
-        Debug.Log($"📹 SpawnPea animation event called (peaAmount={peaAmount})");
-        
         if (peaAmount == 1)
         {
             // Peashooter: Shoot 1 pea immediately
@@ -125,16 +122,12 @@ public class Peashooter : PlantBase
                 yield return new WaitForSeconds(burstDelay);
             }
         }
-        
-        Debug.Log($"✅ Burst complete: fired {peaAmount} peas");
     }
 
     private void ShootProjectile()
     {
         if (!IsServer)
             return;
-
-        Debug.Log($"🎯 Peashooter SHOOTING pea from {transform.position}");
 
         if (projectilePrefab != null)
         {
@@ -146,14 +139,13 @@ public class Peashooter : PlantBase
                 return;
             }
 
-            Vector3 spawnPosition = transform.position + detectionOffset + new Vector3(0.5f, 0f, 0);
+            Vector3 spawnPosition = shootPoint != null ? shootPoint.position : (transform.position + detectionOffset + new Vector3(0.5f, 0f, 0));
             GameObject pea = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
 
             NetworkObject peaNetObj = pea.GetComponent<NetworkObject>();
             if (peaNetObj != null)
             {
                 peaNetObj.Spawn(true);
-                Debug.Log($"✅ Projectile spawned: NetworkObjectId={peaNetObj.NetworkObjectId}");
             }
             else
             {
@@ -173,8 +165,8 @@ public class Peashooter : PlantBase
     private void OnShootAnimationComplete()
     {
         if (!IsServer)
-            return;        
-        Debug.Log("🎬 Shoot animation complete");
+            return;
+            
         ResetShootingState();
     }
 

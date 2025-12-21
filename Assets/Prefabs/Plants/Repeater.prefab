@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4632349638801766516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.42, y: 1.09, z: 0}
+  m_LocalPosition: {x: 2.42, y: 0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -63,7 +63,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -5}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2118876949700380241}
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 498003674
+  GlobalObjectIdHash: 2233070379
   InScenePlacedSourceGlobalObjectIdHash: 2233070379
   DeferredDespawnTick: 0
   Ownership: 1
@@ -263,13 +263,13 @@ MonoBehaviour:
   packetImage: {fileID: 0}
   pivotOffset: {x: 0, y: 0, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
-  shootPoint: {fileID: 3581426108690634205}
+  shootPoint: {fileID: 2118876949700380241}
   attackRate: 0.75
   detectionRange: 10
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64
-  laneHeight: 0.8
+  laneHeight: 0.9
   detectionOffset: {x: -0.1, y: 0, z: 0}
   peaAmount: 2
   burstDelay: 0.15

@@ -92,16 +92,70 @@ public class PlantManager : MonoBehaviour
             previewObject.SetActive(true);
         }
 
-        // ⭐ Apply position, scale, and offset
+        // Check for fusion possibility
+        bool isFusionPreview = false;
+        
+        if (tile.IsOccupied && FusionManager.Instance != null && selectedPlantPrefab != null)
+        {
+            GameObject existingPlant = tile.GetOccupyingPlant();
+            
+            // Check if existing plant is still valid (not destroyed)
+            if (existingPlant != null)
+            {
+                // Check for Wallnut restoration
+                bool isWallnutRestoration = existingPlant.name.Contains("Wallnut") && 
+                                             selectedPlantPrefab.name.Contains("Wallnut");
+                
+                if (isWallnutRestoration)
+                {
+                    Wallnut wallnut = existingPlant.GetComponent<Wallnut>();
+                    if (wallnut != null && wallnut.CurrentHealth < wallnut.MaxHealth)
+                    {
+                        isFusionPreview = true;
+                        SetPreviewSprite(selectedPlantPrefab);
+                    }
+                }
+                else
+                {
+                    // Check regular fusion recipes
+                    FusionRecipe recipe = FusionManager.Instance.GetFusionRecipe(existingPlant, selectedPlantPrefab);
+                    
+                    if (recipe != null && recipe.resultFusion != null)
+                    {
+                        isFusionPreview = true;
+                        SetPreviewSprite(recipe.resultFusion);
+                    }
+                }
+            }
+        }
+        
+        // If not showing fusion preview, use normal selected plant
+        if (!isFusionPreview && previewRenderer.sprite != GetSpriteFromPrefab(selectedPlantPrefab))
+        {
+            SetPreviewSprite(selectedPlantPrefab);
+        }
+
+        // Apply position, scale, and offset
         previewObject.transform.position = tile.PlantWorldPosition + currentPivotOffset;
-        previewObject.transform.localScale = currentScale; // ⭐ Apply scale
+        previewObject.transform.localScale = currentScale;
 
         // Determine if placement is valid
-        bool canPlace = !tile.IsOccupied && currentSun >= selectedCost;
+        bool canPlace = isFusionPreview ? (currentSun >= selectedCost) : (!tile.IsOccupied && currentSun >= selectedCost);
         
         // Set color based on validity
         Color previewColor = canPlace ? new Color(1f, 1f, 1f, 0.6f) : new Color(1f, 0.3f, 0.3f, 0.6f);
         previewRenderer.color = previewColor;
+    }
+
+    // Helper to get sprite from prefab without changing state
+    private Sprite GetSpriteFromPrefab(GameObject prefab)
+    {
+        if (prefab == null) return null;
+        
+        SpriteRenderer renderer = prefab.GetComponent<SpriteRenderer>();
+        if (renderer != null) return renderer.sprite;
+        
+        return null;
     }
 
     private void HidePreview()
@@ -293,11 +347,10 @@ public class PlantManager : MonoBehaviour
             {
                 if (!isWallnutRestoration && existingPlant != null)
                 {
-                    if (existingPlant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
+                    if (existingPlant.TryGetComponent<NetworkObject>(out NetworkObject netObj) && netObj.IsSpawned)
                     {
-                        if (netObj.IsSpawned) netObj.Despawn();
+                        NetworkGameManager.Instance?.DespawnPlantByNetworkId(netObj.NetworkObjectId);
                     }
-                    Destroy(existingPlant);
                 }
                 SpendSun(selectedCost);
                 selectedSeedPacket?.StartCooldown();
@@ -333,9 +386,24 @@ public class PlantManager : MonoBehaviour
 
     public void OnPlantSpawned(GameObject plant, Tile tile)
     {
+        // If tile thinks it's occupied but the old plant is destroyed, clear it first
+        if (tile.IsOccupied)
+        {
+            GameObject oldPlant = tile.GetOccupyingPlant();
+            if (oldPlant == null || oldPlant == plant)
+            {
+                // Old plant was destroyed or it's the same plant, force clear
+                tile.Clear();
+            }
+        }
+        
         if (tile.TryOccupy(plant))
         {
             Debug.Log($"Plant {plant.name} placed on {tile.name}");
+        }
+        else
+        {
+            Debug.LogWarning($"Failed to occupy tile {tile.name} with {plant.name}");
         }
     }
 
