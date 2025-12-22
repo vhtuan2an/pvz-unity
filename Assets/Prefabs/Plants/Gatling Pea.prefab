@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4632349638801766516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.42, y: 0.72, z: 0}
+  m_LocalPosition: {x: 2.56, y: 3.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: -3011877247219106591}
   - component: {fileID: 2012898275430181732}
   m_Layer: 3
-  m_Name: Threepeater
+  m_Name: Gatling Pea
   m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: e698fe6044d591841a2cdb428b465b23, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc075708e70dcb14db72c5c97153107d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +134,7 @@ Animator:
   m_GameObject: {fileID: 6182550927699580811}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2732a028eb7bfa14d96ebe334c3cc803, type: 2}
+  m_Controller: {fileID: 9100000, guid: e4ef9c355eeff4e47aeff941c4b41df1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -158,8 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1366628871
-  InScenePlacedSourceGlobalObjectIdHash: 3620407132
+  GlobalObjectIdHash: 2808928441
+  InScenePlacedSourceGlobalObjectIdHash: 2808928441
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -232,17 +232,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.6954746, y: -0.49676812}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.4860238, y: 0.2146517}
     oldSize: {x: 10.8, y: 10.8}
     newSize: {x: 10.8, y: 10.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.475092, y: 6.9287453}
+  m_Size: {x: 1.11, y: 1.1}
   m_EdgeRadius: 0
 --- !u!114 &2012898275430181732
 MonoBehaviour:
@@ -261,15 +261,15 @@ MonoBehaviour:
   sunCost: 100
   cooldown: 7.5
   packetImage: {fileID: 0}
-  pivotOffset: {x: 0.15, y: 0.1, z: 0}
+  pivotOffset: {x: 0, y: -0.35, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 2118876949700380241}
-  attackRate: 0.25
+  attackRate: 0.2
   detectionRange: 10
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64
   laneHeight: 0.9
-  detectionOffset: {x: 0, y: 0, z: 0}
-  peaAmount: 3
+  detectionOffset: {x: 0, y: 0.5, z: 0}
+  peaAmount: 4
   burstDelay: 0.1
