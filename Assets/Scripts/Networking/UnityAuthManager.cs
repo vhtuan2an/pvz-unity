@@ -39,10 +39,8 @@ public class UnityAuthManager : MonoBehaviour
             await UnityServices.InitializeAsync();
             Debug.Log("Unity Services initialized successfully");
 
-            // Setup authentication event listeners
             SetupAuthenticationEvents();
 
-            // Check if already signed in
             if (AuthenticationService.Instance.IsSignedIn)
             {
                 Debug.Log($"Already signed in as: {AuthenticationService.Instance.PlayerId}");
@@ -78,7 +76,6 @@ public class UnityAuthManager : MonoBehaviour
         };
     }
 
-    // Anonymous Sign In - Fastest way to authenticate
     public async Task SignInAnonymouslyAsync()
     {
         try
@@ -219,16 +216,23 @@ public class UnityAuthManager : MonoBehaviour
         return AuthenticationService.Instance.IsSignedIn;
     }
 
-    private void OnSignInSuccess()
+    private async void OnSignInSuccess()
     {
-        // Ensure LobbyManager exists
         if (LobbyManager.Instance == null)
         {
             GameObject lobbyObj = new GameObject("LobbyManager");
             lobbyObj.AddComponent<LobbyManager>();
         }
 
-        // Navigate to lobby scene after successful authentication
+        if (PlayerDataManager.Instance == null)
+        {
+            GameObject dataObj = new GameObject("PlayerDataManager");
+            dataObj.AddComponent<PlayerDataManager>();
+        }
+        
+        // Load player data from Cloud Save
+        await PlayerDataManager.Instance.LoadPlayerDataAsync();
+
         LoadLobbyScene();
     }
 
