@@ -79,6 +79,34 @@ public class BrainSpawner : MonoBehaviour
             StartCoroutine(FallRoutine(b.transform, fallSpeed, stopAfter));
         }
     }
+    
+    public void SpawnBrainAtWorldPosition(
+        Vector3 worldPos,
+        bool falling = false,
+        float customFallSpeed = 0f)
+    {
+        if (brainPrefab == null) return;
+
+        GameObject b = Instantiate(brainPrefab, worldPos, Quaternion.identity);
+
+        float speed = customFallSpeed > 0f ? customFallSpeed : fallSpeed;
+
+        if (falling)
+        {
+            float stopAfter = Random.Range(minFallDuration, maxFallDuration);
+
+            Rigidbody2D rb = b.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector2.down * speed;
+                StartCoroutine(StopAfter(rb, stopAfter));
+            }
+            else
+            {
+                StartCoroutine(FallRoutine(b.transform, speed, stopAfter));
+            }
+        }
+    }
 
     IEnumerator FallRoutine(Transform t, float speed, float duration)
     {

@@ -1,7 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using Unity.Netcode;
 
-public class Brain : MonoBehaviour
+public class Brain : NetworkBehaviour
 {
     [Header("Settings")]
     public int brainValue = 25;
@@ -23,6 +24,7 @@ public class Brain : MonoBehaviour
     void Start()
     {
         Invoke(nameof(AutoDespawn), lifetime);
+        UpdateBrainVisibility();
     }
 
     void Update()
@@ -65,7 +67,24 @@ public class Brain : MonoBehaviour
         
         Destroy(gameObject);
     }
+    private void UpdateBrainVisibility()
+    {
+        bool shouldShow = ShouldShowBrain();
 
+        if (col != null)
+            col.enabled = shouldShow;
+
+        if (sr != null)
+            sr.enabled = shouldShow;
+    }
+
+    private bool ShouldShowBrain()
+    {
+        if (LobbyManager.Instance != null)
+            return LobbyManager.Instance.SelectedRole == PlayerRole.Zombie;
+
+        return true;
+    }
     void AutoDespawn()
     {
         if (!isCollected)
