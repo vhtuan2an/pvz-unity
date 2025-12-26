@@ -252,6 +252,16 @@ public class NetworkGameManager : NetworkBehaviour
     }
 
     // ===================== HELPERS =====================
+    // ===================== SOUND =====================
+    [ClientRpc]
+    public void PlaySoundClientRpc(string soundName, float volume = 1f, float pitch = 1f)
+    {
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlaySound(soundName, volume, pitch);
+        }
+    }
+
     private Tile FindTileAtPosition(Vector3 position)
     {
         Tile[] tiles = FindObjectsByType<Tile>(FindObjectsSortMode.None);

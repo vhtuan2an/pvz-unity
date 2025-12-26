@@ -11,12 +11,18 @@ public class PlantManager : MonoBehaviour
     public int currentSun = 100;
 
     [Header("UI")]
+    [Header("UI")]
     public TextMeshProUGUI countText;
+    public UnityEngine.UI.Image shovelImage; // Optional: to show active state
+    public Color shovelActiveColor = Color.red;
+    public Color shovelInactiveColor = Color.white;
 
     private GameObject selectedPlantPrefab;
     private int selectedCost;
     private SeedPacket selectedSeedPacket;
     private System.Collections.Generic.List<SeedPacket> allSeedPackets = new System.Collections.Generic.List<SeedPacket>();
+    
+    private bool isShovelActive = false;
 
     // Preview
     private GameObject previewObject;
@@ -282,7 +288,37 @@ public class PlantManager : MonoBehaviour
         }
     }
 
+    public void ToggleShovel()
+    {
+        isShovelActive = !isShovelActive;
+        
+        if (isShovelActive)
+        {
+            ClearSelection(false);
+            Debug.Log("Shovel Mode: ACTIVATED");
+        }
+        else
+        {
+            Debug.Log("Shovel Mode: DEACTIVATED");
+        }
+
+        UpdateShovelUI();
+    }
+
+    private void UpdateShovelUI()
+    {
+        if (shovelImage != null)
+        {
+            shovelImage.color = isShovelActive ? shovelActiveColor : shovelInactiveColor;
+        }
+    }
+
     public void ClearSelection()
+    {
+        ClearSelection(true);
+    }
+
+    public void ClearSelection(bool clearShovel)
     {
         HidePreview();
         currentPivotOffset = Vector3.zero;
@@ -295,6 +331,12 @@ public class PlantManager : MonoBehaviour
         
         selectedPlantPrefab = null;
         selectedSeedPacket = null;
+        
+        if (clearShovel)
+        {
+            isShovelActive = false;
+            UpdateShovelUI();
+        }
     }
 
     // Called when cooldown ends
@@ -325,11 +367,31 @@ public class PlantManager : MonoBehaviour
 
     public void TryPlaceOnTile(Tile tile)
     {
-        Debug.Log($"TryPlaceOnTile called - tile: {tile?.name}, selectedPlantPrefab: {selectedPlantPrefab?.name}");
+        Debug.Log($"TryPlaceOnTile called - tile: {tile?.name}, isShovel: {isShovelActive}");
         
-        if (tile == null || selectedPlantPrefab == null)
+        if (tile == null) return;
+
+        if (isShovelActive)
         {
-            Debug.LogWarning($"Early return - tile null: {tile == null}, prefab null: {selectedPlantPrefab == null}");
+            if (tile.IsOccupied)
+            {
+                GameObject plant = tile.GetOccupyingPlant();
+                if (plant != null && NetworkGameManager.Instance != null)
+                {
+                    if (plant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
+                    {
+                        NetworkGameManager.Instance.DespawnPlantByNetworkId(netObj.NetworkObjectId);
+                        NetworkGameManager.Instance.PlaySoundClientRpc("plant_shovel"); // Optional sound
+                        Debug.Log($"Shoveled plant on {tile.name}");
+                        ToggleShovel(); 
+                    }
+                }
+            }
+            return;
+        }
+
+        if (selectedPlantPrefab == null)
+        {
             return;
         }
         

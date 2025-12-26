@@ -137,6 +137,7 @@ public class Peashooter : PlantBase
             if (peaNetObj != null)
             {
                 peaNetObj.Spawn(true);
+                NetworkGameManager.Instance.PlaySoundClientRpc("pea_shoot");
             }
             else
             {
