@@ -64,6 +64,8 @@ public class PeaProjectile : NetworkBehaviour
                 int fireDamage = Mathf.RoundToInt(damage * fireDamageMultiplier);
                 zombie.TakeDamage(fireDamage);
                 Debug.Log($"Fire pea hit {zombie.name} for {fireDamage} damage");
+                // Trigger sound
+                PlayHitSoundClientRpc("fire_impact"); 
                 break;
 
             case PeaType.Snow:
@@ -71,6 +73,8 @@ public class PeaProjectile : NetworkBehaviour
                 zombie.TakeDamage(damage);
                 zombie.ApplySlow(slowDuration, slowPercentage, "snowpea");
                 Debug.Log($"Snow pea hit {zombie.name}, applied {slowPercentage * 100}% slow");
+                // Trigger sound
+                PlayHitSoundClientRpc("frozen"); 
                 break;
 
             case PeaType.Normal:
@@ -78,7 +82,18 @@ public class PeaProjectile : NetworkBehaviour
                 // Normal damage only
                 zombie.TakeDamage(damage);
                 Debug.Log($"Normal pea hit {zombie.name} for {damage} damage");
+                // Trigger sound
+                PlayHitSoundClientRpc("pea_splat"); 
                 break;
+        }
+    }
+
+    [ClientRpc]
+    private void PlayHitSoundClientRpc(string soundName)
+    {
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlaySound(soundName);
         }
     }
 

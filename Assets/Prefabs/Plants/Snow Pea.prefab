@@ -197,7 +197,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 3329404701775528199, guid: 859401730d80228418cd39b22cd2cfe2, type: 3}
   shootPoint: {fileID: 2118876949700380241}
   attackRate: 0.5
-  detectionRange: 10
+  detectionRange: 12
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64
