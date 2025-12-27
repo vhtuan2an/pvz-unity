@@ -13,7 +13,11 @@ public class PlantManager : MonoBehaviour
     [Header("UI")]
     [Header("UI")]
     public TextMeshProUGUI countText;
-    public UnityEngine.UI.Image shovelImage; // Optional: to show active state
+    public UnityEngine.UI.Image shovelImage;
+    [Header("Shovel Settings")]
+    public Sprite shovelCursorSprite;
+    public float shovelCursorScale = 1.0f;
+    private GameObject shovelCursorObject;
     public Color shovelActiveColor = Color.red;
     public Color shovelInactiveColor = Color.white;
 
@@ -37,7 +41,50 @@ public class PlantManager : MonoBehaviour
         else Destroy(gameObject);
 
         UpdateSunCounter();
+        CreateShovelCursor();
         CreatePreviewObject();
+    }
+
+    private void CreateShovelCursor()
+    {
+        shovelCursorObject = new GameObject("ShovelCursor");
+        var image = shovelCursorObject.AddComponent<UnityEngine.UI.Image>();
+        
+        // Use custom sprite if assigned, otherwise use the shovel icon sprite
+        if (shovelCursorSprite != null)
+            image.sprite = shovelCursorSprite;
+        else if (shovelImage != null)
+            image.sprite = shovelImage.sprite;
+            
+        image.raycastTarget = false;
+        
+        // Find a suitable parent canvas
+        Transform parentTransform = null;
+        if (shovelImage != null)
+        {
+            parentTransform = shovelImage.canvas != null ? shovelImage.canvas.transform : shovelImage.transform.parent;
+        }
+        
+        if (parentTransform == null)
+        {
+            Canvas canvas = FindObjectOfType<Canvas>();
+            if (canvas != null) parentTransform = canvas.transform;
+        }
+
+        if (parentTransform != null)
+        {
+            shovelCursorObject.transform.SetParent(parentTransform, false);
+        }
+        else
+        {
+            Debug.LogWarning("Could not find a Canvas for Shovel Cursor!");
+        }
+        
+        // Apply scale
+        shovelCursorObject.transform.localScale = Vector3.one * shovelCursorScale;
+        
+        // Disable initially
+        shovelCursorObject.SetActive(false);
     }
 
     void Update()
@@ -46,6 +93,12 @@ public class PlantManager : MonoBehaviour
         {
             HandleWorldClick();
         }
+        
+        if (isShovelActive && shovelCursorObject != null)
+        {
+            shovelCursorObject.transform.position = Input.mousePosition;
+        }
+        
         UpdatePreview();
     }
 
@@ -59,6 +112,12 @@ public class PlantManager : MonoBehaviour
 
     private void UpdatePreview()
     {
+        if (isShovelActive)
+        {
+            HandleShovelPreview();
+            return;
+        }
+
         if (selectedPlantPrefab == null)
         {
             HidePreview();
@@ -164,6 +223,63 @@ public class PlantManager : MonoBehaviour
         return null;
     }
 
+    private void HandleShovelPreview()
+    {
+        // Raycast to find tile under mouse
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(ray.origin, ray.direction, Mathf.Infinity);
+        Tile hoveredTile = null;
+        
+        foreach (var hit in hits)
+        {
+            Tile tile = hit.collider.GetComponent<Tile>();
+            if (tile != null)
+            {
+                hoveredTile = tile;
+                break;
+            }
+        }
+
+        if (hoveredTile != null && hoveredTile.IsOccupied)
+        {
+            GameObject plant = hoveredTile.GetOccupyingPlant();
+            if (plant != null)
+            {
+                if (!previewObject.activeSelf) previewObject.SetActive(true);
+                
+                // Set sprite to plant's sprite
+                SpriteRenderer plantRenderer = plant.GetComponent<SpriteRenderer>();
+                if (plantRenderer != null)
+                {
+                    previewRenderer.sprite = plantRenderer.sprite;
+                }
+                
+                // Red overlay for shovel
+                previewRenderer.color = new Color(1f, 0.3f, 0.3f, 0.6f);
+                
+                // Calculate and apply pivot offset
+                Vector3 pivotOffset = Vector3.zero;
+                PlantBase plantBase = plant.GetComponent<PlantBase>();
+                if (plantBase != null)
+                {
+                    var pivotField = typeof(PlantBase).GetField("pivotOffset", 
+                        System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (pivotField != null)
+                    {
+                        pivotOffset = (Vector3)pivotField.GetValue(plantBase);
+                    }
+                }
+
+                previewObject.transform.position = hoveredTile.PlantWorldPosition + pivotOffset;
+                previewObject.transform.localScale = plant.transform.localScale;
+                return;
+            }
+        }
+        
+        // If not hovering valid plant, hide preview
+        HidePreview();
+    }
+
     private void HidePreview()
     {
         if (previewObject != null)
@@ -195,8 +311,8 @@ public class PlantManager : MonoBehaviour
         {
             Debug.Log($"Tile clicked: {clickedTile.name}");
             
-            // Only place plant if one is selected
-            if (selectedPlantPrefab != null && LobbyManager.Instance?.SelectedRole == PlayerRole.Plant)
+            // Only place plant if one is selected or shovel is active
+            if ((selectedPlantPrefab != null || isShovelActive) && LobbyManager.Instance?.SelectedRole == PlayerRole.Plant)
             {
                 TryPlaceOnTile(clickedTile);
             }            
@@ -217,6 +333,15 @@ public class PlantManager : MonoBehaviour
 
     public void SelectPlant(GameObject prefab, int cost, SeedPacket seedPacket = null)
     {
+        // Deactivate shovel if active (Mutual Exclusivity)
+        if (isShovelActive)
+        {
+            isShovelActive = false;
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(false);
+            UpdateShovelUI(); // Reset UI color
+            HidePreview(); // Clear potential shovel preview
+        }
+
         selectedPlantPrefab = prefab;
         selectedCost = cost;
         selectedSeedPacket = seedPacket;
@@ -295,10 +420,13 @@ public class PlantManager : MonoBehaviour
         if (isShovelActive)
         {
             ClearSelection(false);
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(true);
             Debug.Log("Shovel Mode: ACTIVATED");
         }
         else
         {
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(false);
+            HidePreview(); // Ensure red overlay is gone
             Debug.Log("Shovel Mode: DEACTIVATED");
         }
 
@@ -335,6 +463,7 @@ public class PlantManager : MonoBehaviour
         if (clearShovel)
         {
             isShovelActive = false;
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(false);
             UpdateShovelUI();
         }
     }
