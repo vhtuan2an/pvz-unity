@@ -8265,7 +8265,7 @@ PrefabInstance:
       objectReference: {fileID: 2015167332}
     - target: {fileID: 5961364977802305950, guid: 00760969c6f41ab47adbd6b06f8ce376, type: 3}
       propertyPath: currentSun
-      value: 99999
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5961364977802305950, guid: 00760969c6f41ab47adbd6b06f8ce376, type: 3}
       propertyPath: shovelCursorScale
