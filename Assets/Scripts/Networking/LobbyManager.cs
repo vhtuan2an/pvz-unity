@@ -202,12 +202,15 @@ public class LobbyManager : MonoBehaviour
 
     private Player CreatePlayerData()
     {
+        // Get the actual username from UnityAuthManager (which stores the login username)
+        string username = UnityAuthManager.Instance?.GetPlayerName() ?? "Player";
+        
         return new Player(
             id: AuthenticationService.Instance.PlayerId,
             data: new Dictionary<string, PlayerDataObject>
             {
                 { "role", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, SelectedRole.ToString()) },
-                { "username", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, AuthenticationService.Instance.PlayerName ?? "Player") }
+                { "username", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, username) }
             }
         );
     }
@@ -396,6 +399,10 @@ public class LobbyManager : MonoBehaviour
         if (networkStarted) return;
         networkStarted = true;
 
+        // QUAN TRỌNG: Dừng polling để tránh rate limit
+        isPolling = false;
+        IsSearching = false;
+
         Debug.Log("Starting network game... (loading GameScene)");
         SceneManager.sceneLoaded += OnGameSceneLoadedStartNetwork;
         SceneManager.LoadScene("GameScene");
@@ -418,9 +425,9 @@ public class LobbyManager : MonoBehaviour
         {
             if (isHost)
             {
-                // HOST: Đợi một chút để client cũng vào scene
-                Debug.Log("Host waiting 2s for client to load scene...");
-                await Task.Delay(2000); // Đợi 2 giây
+                // HOST: Đợi ngắn hơn - client sẽ retry nếu chưa có join code
+                Debug.Log("Host waiting 500ms before creating Relay...");
+                await Task.Delay(500); // Giảm xuống 500ms
 
                 Debug.Log("Starting as HOST with Relay");
                 await StartHostWithRelay();
@@ -502,8 +509,12 @@ public class LobbyManager : MonoBehaviour
     {
         try
         {
-            // Đợi join code được host cập nhật (host tạo allocation trong StartHostWithRelay)
-            string joinCode = await GetJoinCodeWithRetry(maxRetries: 15, retryDelay: 1f);
+            // Đợi một chút trước khi bắt đầu poll để tránh rate limit
+            Debug.Log("Client waiting 1s before polling for join code...");
+            await Task.Delay(1000);
+
+            // Đợi join code được host cập nhật (với exponential backoff)
+            string joinCode = await GetJoinCodeWithRetry(maxRetries: 10, initialDelay: 2f);
             if (string.IsNullOrEmpty(joinCode))
             {
                 throw new Exception("No join code found after waiting for host");
@@ -539,9 +550,16 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    // Sửa GetJoinCodeWithRetry để tăng số lần retry và delay
-    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float retryDelay = 1f)
+    /// <summary>
+    /// Get join code with exponential backoff to avoid rate limiting.
+    /// Unity Lobby API allows ~1 request per 3 seconds per player.
+    /// </summary>
+    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 10, float initialDelay = 2f)
     {
+        float currentDelay = initialDelay;
+        const float maxDelay = 10f;
+        const float backoffMultiplier = 1.5f;
+
         for (int i = 0; i < maxRetries; i++)
         {
             if (CurrentLobby != null)
@@ -549,6 +567,27 @@ public class LobbyManager : MonoBehaviour
                 try
                 {
                     CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                    
+                    string joinCode = GetJoinCodeFromLobby();
+                    if (!string.IsNullOrEmpty(joinCode))
+                    {
+                        Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
+                        return joinCode;
+                    }
+                }
+                catch (LobbyServiceException lex)
+                {
+                    // Rate limit detected - increase delay significantly
+                    if (lex.Message?.Contains("Too Many Requests") == true || 
+                        lex.Message?.Contains("Rate Limited") == true)
+                    {
+                        currentDelay = Mathf.Min(currentDelay * 2f, maxDelay);
+                        Debug.LogWarning($"Rate limited while getting join code. Increasing delay to {currentDelay}s");
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"Failed to refresh lobby: {lex.Message}");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -556,15 +595,11 @@ public class LobbyManager : MonoBehaviour
                 }
             }
 
-            string joinCode = GetJoinCodeFromLobby();
-            if (!string.IsNullOrEmpty(joinCode))
-            {
-                Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
-                return joinCode;
-            }
-
-            Debug.Log($"Join code not ready, waiting... ({i + 1}/{maxRetries})");
-            await Task.Delay(TimeSpan.FromSeconds(retryDelay));
+            Debug.Log($"Join code not ready, waiting {currentDelay:F1}s... ({i + 1}/{maxRetries})");
+            await Task.Delay(TimeSpan.FromSeconds(currentDelay));
+            
+            // Exponential backoff với cap
+            currentDelay = Mathf.Min(currentDelay * backoffMultiplier, maxDelay);
         }
 
         Debug.LogError("Join code not found after all retries");
