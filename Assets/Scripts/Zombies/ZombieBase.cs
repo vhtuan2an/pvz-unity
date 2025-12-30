@@ -4,6 +4,12 @@ using System.Collections.Generic;
 
 public class ZombieBase : NetworkBehaviour
 {
+    public enum VFXTargetType
+    {
+        Feet,
+        Head
+    }
+
     [Header("Stats")]
     [SerializeField] protected int maxHealth = 10;
     [SerializeField] protected float moveSpeed = 1f;
@@ -31,6 +37,7 @@ public class ZombieBase : NetworkBehaviour
         public float slowAmount;
         public float endTime;
         public string sourceId;
+        public bool appliesTint = true;
     }
 
     protected virtual void Awake()
@@ -119,8 +126,8 @@ public class ZombieBase : NetworkBehaviour
         ApplySlow(duration, slowAmount, sourceId, null, 0f);
     }
 
-    // Full version with optional freeze VFX (wintermint)
-    public void ApplySlow(float duration, float slowAmount, string sourceId, string freezeVFXPrefabName, float vfxDuration)
+    // Full version with optional freeze VFX (wintermint/butter)
+    public void ApplySlow(float duration, float slowAmount, string sourceId, string freezeVFXPrefabName, float vfxDuration, bool applyTint = true, VFXTargetType vfxTarget = VFXTargetType.Feet)
     {
         if (!IsServer)
             return;
@@ -131,16 +138,18 @@ public class ZombieBase : NetworkBehaviour
             currentSlowMultiplier = 0f;
             Debug.Log($"{gameObject.name} stunned (100% slow) by {sourceId} for {duration}s");
             
-            // Always apply blue tint
-            ApplyColorTintClientRpc(slowAmount);
+            // Apply blue tint ONLY if requested
+            if (applyTint)
+            {
+                ApplyColorTintClientRpc(slowAmount);
+            }
             
             // Apply animation freeze
             ApplyAnimationSpeedClientRpc(0f);
             
             // Spawn freeze VFX if prefab name provided
-            if (!string.IsNullOrEmpty(freezeVFXPrefabName))
             {
-                SpawnFreezeVFXClientRpc(sourceId, freezeVFXPrefabName, vfxDuration);
+                SpawnFreezeVFXClientRpc(sourceId, freezeVFXPrefabName, vfxDuration, vfxTarget);
             }
 
             // Play frozen sound (handled on client via RPC if this was called from server, 
@@ -151,7 +160,8 @@ public class ZombieBase : NetworkBehaviour
             {
                 slowAmount = slowAmount,
                 endTime = Time.time + duration,
-                sourceId = sourceId
+                sourceId = sourceId,
+                appliesTint = applyTint
             };
             currentVFXSource = sourceId;
             return;
@@ -170,7 +180,8 @@ public class ZombieBase : NetworkBehaviour
             {
                 slowAmount = slowAmount,
                 endTime = Time.time + duration,
-                sourceId = sourceId
+                sourceId = sourceId,
+                appliesTint = applyTint
             };
         }
 
@@ -243,8 +254,18 @@ public class ZombieBase : NetworkBehaviour
             multiplier *= (1f - slow.slowAmount);
         }
         
+        // Calculate max tint amount based ONLY on slows that apply tint
+        float maxTintAmount = 0f;
+        foreach (var slow in activeSlows.Values)
+        {
+            if (slow.appliesTint)
+            {
+                maxTintAmount = Mathf.Max(maxTintAmount, slow.slowAmount);
+            }
+        }
+        
         currentSlowMultiplier = multiplier;
-        ApplyColorTintClientRpc(maxSlowAmount);
+        ApplyColorTintClientRpc(maxTintAmount);
         ApplyAnimationSpeedClientRpc(currentSlowMultiplier); // ⭐ Apply animation speed
     }
 
@@ -316,7 +337,7 @@ public class ZombieBase : NetworkBehaviour
     }
 
     [ClientRpc]
-    private void SpawnFreezeVFXClientRpc(string sourceId, string freezeVFXPrefabName, float vfxDuration)
+    private void SpawnFreezeVFXClientRpc(string sourceId, string freezeVFXPrefabName, float vfxDuration, VFXTargetType targetType)
     {
         Debug.Log($"Client: Spawning freeze VFX '{freezeVFXPrefabName}' for {sourceId}, duration: {vfxDuration}s");
         
@@ -332,7 +353,29 @@ public class ZombieBase : NetworkBehaviour
         // Spawn freeze VFX as child
         GameObject vfxInstance = Instantiate(vfxPrefab, transform);
         
-        // Set sorting layer to render above zombie
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // Adjust position based on target type
+        switch (targetType)
+        {
+            case VFXTargetType.Head:
+                if (spriteRenderer != null)
+                {
+                    // Calculate local offset to top of sprite
+                    float yOffset = spriteRenderer.bounds.max.y - transform.position.y;
+                    vfxInstance.transform.localPosition = new Vector3(-0.5f, yOffset - 0.2f, 0);
+                }
+                else
+                {
+                    vfxInstance.transform.localPosition = new Vector3(0, 1.3f, 0);
+                }
+                break;
+
+            case VFXTargetType.Feet:
+            default:
+                vfxInstance.transform.localPosition = new Vector3(0, -0.6f, 0);
+                break;
+        }
         SpriteRenderer vfxSprite = vfxInstance.GetComponent<SpriteRenderer>();
         if (vfxSprite != null)
         {

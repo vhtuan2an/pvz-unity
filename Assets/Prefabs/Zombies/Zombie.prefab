@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1700254636
+  GlobalObjectIdHash: 2048757727
   InScenePlacedSourceGlobalObjectIdHash: 1700254636
   DeferredDespawnTick: 0
   Ownership: 1
@@ -180,8 +180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 190
-  moveSpeed: 0.5
+  maxHealth: 2147483647
+  moveSpeed: 0
   damage: 50
   cooldown: 7.5
   packetImage: {fileID: 3369399851761963896, guid: d4942ef46adf5354ab707c577c1ec9e1, type: 3}
@@ -223,7 +223,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03106761, y: -0.3076838}
+  m_Offset: {x: -0.03106761, y: -0.40391475}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -233,7 +233,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5165143, y: 1.25}
+  m_Size: {x: 0.5165143, y: 1.0575382}
   m_EdgeRadius: 0
 --- !u!114 &6976416174839701727
 MonoBehaviour:

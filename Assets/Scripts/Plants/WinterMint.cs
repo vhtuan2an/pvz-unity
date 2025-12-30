@@ -74,7 +74,8 @@ public class WinterMint : PlantBase
 
         foreach (ZombieBase zombie in zombies)
         {
-            zombie.ApplySlow(freezeDuration, 1.0f, "wintermint_freeze", freezeVFXPrefabName, freezeVFXDuration);
+            // vfxTarget: Feet (default for ice)
+            zombie.ApplySlow(freezeDuration, 1.0f, "wintermint_freeze", freezeVFXPrefabName, freezeVFXDuration, true, ZombieBase.VFXTargetType.Feet);
         }
     }
 
