@@ -11,12 +11,20 @@ public class PlantManager : MonoBehaviour
     public int currentSun = 100;
 
     [Header("UI")]
+    [Header("UI")]
     public TextMeshProUGUI countText;
+    [Header("Shovel Settings")]
+    public Sprite shovelCursorSprite;
+    public float shovelCursorScale = 1.0f;
+    private GameObject shovelCursorObject;
 
     private GameObject selectedPlantPrefab;
     private int selectedCost;
     private SeedPacket selectedSeedPacket;
     private System.Collections.Generic.List<SeedPacket> allSeedPackets = new System.Collections.Generic.List<SeedPacket>();
+    
+    private GameObject shovelPlaceholder;
+    private bool IsShovelSelected => selectedPlantPrefab == shovelPlaceholder;
 
     // Preview
     private GameObject previewObject;
@@ -30,8 +38,48 @@ public class PlantManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
+        shovelPlaceholder = new GameObject("ShovelPlaceholder");
+        DontDestroyOnLoad(shovelPlaceholder);
+
         UpdateSunCounter();
+        CreateShovelCursor();
         CreatePreviewObject();
+    }
+
+    private void CreateShovelCursor()
+    {
+        shovelCursorObject = new GameObject("ShovelCursor");
+        var image = shovelCursorObject.AddComponent<UnityEngine.UI.Image>();
+        
+        // Use custom sprite if assigned
+        if (shovelCursorSprite != null)
+            image.sprite = shovelCursorSprite;
+            
+        image.raycastTarget = false;
+        
+        // Find a suitable parent canvas
+        Transform parentTransform = null;
+        
+        if (parentTransform == null)
+        {
+            Canvas canvas = FindObjectOfType<Canvas>();
+            if (canvas != null) parentTransform = canvas.transform;
+        }
+
+        if (parentTransform != null)
+        {
+            shovelCursorObject.transform.SetParent(parentTransform, false);
+        }
+        else
+        {
+            Debug.LogWarning("Could not find a Canvas for Shovel Cursor!");
+        }
+        
+        // Apply scale
+        shovelCursorObject.transform.localScale = Vector3.one * shovelCursorScale;
+        
+        // Disable initially
+        shovelCursorObject.SetActive(false);
     }
 
     void Update()
@@ -40,6 +88,12 @@ public class PlantManager : MonoBehaviour
         {
             HandleWorldClick();
         }
+        
+        if (IsShovelSelected && shovelCursorObject != null)
+        {
+            shovelCursorObject.transform.position = Input.mousePosition;
+        }
+        
         UpdatePreview();
     }
 
@@ -53,6 +107,12 @@ public class PlantManager : MonoBehaviour
 
     private void UpdatePreview()
     {
+        if (IsShovelSelected)
+        {
+            HandleShovelPreview();
+            return;
+        }
+
         if (selectedPlantPrefab == null)
         {
             HidePreview();
@@ -158,6 +218,63 @@ public class PlantManager : MonoBehaviour
         return null;
     }
 
+    private void HandleShovelPreview()
+    {
+        // Raycast to find tile under mouse
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(ray.origin, ray.direction, Mathf.Infinity);
+        Tile hoveredTile = null;
+        
+        foreach (var hit in hits)
+        {
+            Tile tile = hit.collider.GetComponent<Tile>();
+            if (tile != null)
+            {
+                hoveredTile = tile;
+                break;
+            }
+        }
+
+        if (hoveredTile != null && hoveredTile.IsOccupied)
+        {
+            GameObject plant = hoveredTile.GetOccupyingPlant();
+            if (plant != null)
+            {
+                if (!previewObject.activeSelf) previewObject.SetActive(true);
+                
+                // Set sprite to plant's sprite
+                SpriteRenderer plantRenderer = plant.GetComponent<SpriteRenderer>();
+                if (plantRenderer != null)
+                {
+                    previewRenderer.sprite = plantRenderer.sprite;
+                }
+                
+                // Red overlay for shovel
+                previewRenderer.color = new Color(1f, 0.3f, 0.3f, 0.6f);
+                
+                // Calculate and apply pivot offset
+                Vector3 pivotOffset = Vector3.zero;
+                PlantBase plantBase = plant.GetComponent<PlantBase>();
+                if (plantBase != null)
+                {
+                    var pivotField = typeof(PlantBase).GetField("pivotOffset", 
+                        System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (pivotField != null)
+                    {
+                        pivotOffset = (Vector3)pivotField.GetValue(plantBase);
+                    }
+                }
+
+                previewObject.transform.position = hoveredTile.PlantWorldPosition + pivotOffset;
+                previewObject.transform.localScale = plant.transform.localScale;
+                return;
+            }
+        }
+        
+        // If not hovering valid plant, hide preview
+        HidePreview();
+    }
+
     private void HidePreview()
     {
         if (previewObject != null)
@@ -211,19 +328,37 @@ public class PlantManager : MonoBehaviour
 
     public void SelectPlant(GameObject prefab, int cost, SeedPacket seedPacket = null)
     {
+        // Toggle selection off
+        if (seedPacket != null && seedPacket == selectedSeedPacket)
+        {
+            ClearSelection();
+            return;
+        }
+
         selectedPlantPrefab = prefab;
         selectedCost = cost;
         selectedSeedPacket = seedPacket;
         
-        SetPreviewSprite(prefab);
+        // Handle Shovel Selection
+        if (prefab == shovelPlaceholder)
+        {
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(true);
+            HidePreview(); // Hide standard preview
+            Debug.Log("PlantManager: Shovel Selected");
+        }
+        else
+        {
+            // Handle Normal Plant Selection
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(false);
+            SetPreviewSprite(prefab);
+            Debug.Log($"Plant selected: {prefab.name}, Cost: {cost}");
+        }
         
-        // Dim all other seed packets
+        // Dim all other seed packets (Shovel counts as 'other' for seed packets)
         foreach (var packet in allSeedPackets)
         {
             packet.SetDimmed(packet != seedPacket);
         }
-        
-        Debug.Log($"Plant selected: {prefab.name}, Cost: {cost}");
     }
 
     // Extract first frame sprite from plant prefab
@@ -282,7 +417,26 @@ public class PlantManager : MonoBehaviour
         }
     }
 
+    public void ToggleShovel()
+    {
+        if (IsShovelSelected)
+        {
+            ClearSelection();
+            Debug.Log("Shovel Mode: DEACTIVATED");
+        }
+        else
+        {
+            SelectPlant(shovelPlaceholder, 0);
+            Debug.Log("Shovel Mode: ACTIVATED");
+        }
+    }
+
     public void ClearSelection()
+    {
+        ClearSelection(true);
+    }
+
+    public void ClearSelection(bool clearShovel)
     {
         HidePreview();
         currentPivotOffset = Vector3.zero;
@@ -293,8 +447,23 @@ public class PlantManager : MonoBehaviour
             packet.SetDimmed(false);
         }
         
-        selectedPlantPrefab = null;
-        selectedSeedPacket = null;
+        // If we want to clear everything including shovel
+        if (clearShovel || !IsShovelSelected) 
+        {
+            selectedPlantPrefab = null;
+            selectedSeedPacket = null; 
+            
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(false);
+        }
+        else
+        {
+            // If we are preserving shovel state logic (rare case with this refactor, usually we just clear all)
+            // with shovel as a plant, clearing selection means clearing shovel too usually.
+            // Let's assume ClearSelection clears EVERYTHING now.
+            selectedPlantPrefab = null;
+            selectedSeedPacket = null;
+            if (shovelCursorObject != null) shovelCursorObject.SetActive(false);
+        }
     }
 
     // Called when cooldown ends
@@ -325,13 +494,36 @@ public class PlantManager : MonoBehaviour
 
     public void TryPlaceOnTile(Tile tile)
     {
-        Debug.Log($"TryPlaceOnTile called - tile: {tile?.name}, selectedPlantPrefab: {selectedPlantPrefab?.name}");
+        Debug.Log($"TryPlaceOnTile called - tile: {tile?.name}, IsShovel: {IsShovelSelected}");
         
-        if (tile == null || selectedPlantPrefab == null)
+        if (tile == null) return;
+
+        if (IsShovelSelected)
         {
-            Debug.LogWarning($"Early return - tile null: {tile == null}, prefab null: {selectedPlantPrefab == null}");
+            if (tile.IsOccupied)
+            {
+                GameObject plant = tile.GetOccupyingPlant();
+                if (plant != null && NetworkGameManager.Instance != null)
+                {
+                    if (plant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
+                    {
+                        NetworkGameManager.Instance.DespawnPlantByNetworkId(netObj.NetworkObjectId);
+                        NetworkGameManager.Instance.PlaySoundClientRpc("plant_shovel"); // Optional sound
+                        Debug.Log($"Shoveled plant on {tile.name}");
+                        ClearSelection(); // Deselect shovel after use
+                    }
+                }
+            }
             return;
         }
+
+        if (selectedPlantPrefab == null)
+        {
+            return;
+        }
+
+        // Check sun cost
+        if (currentSun < selectedCost) return;
         
         Debug.Log($"Attempting to place: {selectedPlantPrefab.name}, Tile occupied: {tile.IsOccupied}");
         
@@ -360,7 +552,6 @@ public class PlantManager : MonoBehaviour
         }
         
         if (tile.IsOccupied) return;
-        if (currentSun < selectedCost) return;
 
         if (LobbyManager.Instance == null || LobbyManager.Instance.SelectedRole != PlayerRole.Plant)
         {

@@ -142,6 +142,10 @@ public class ZombieBase : NetworkBehaviour
             {
                 SpawnFreezeVFXClientRpc(sourceId, freezeVFXPrefabName, vfxDuration);
             }
+
+            // Play frozen sound (handled on client via RPC if this was called from server, 
+            // but since ApplySlow runs on server, we need a ClientRpc for sound)
+            PlayFreezeSoundClientRpc();
             
             activeSlows[sourceId] = new SlowEffect
             {
@@ -348,6 +352,15 @@ public class ZombieBase : NetworkBehaviour
     public int GetMaxHealth() => maxHealth;
     public float GetMoveSpeed() => moveSpeed * currentSlowMultiplier;
     public int GetDamage() => damage;
+
+    [ClientRpc]
+    private void PlayFreezeSoundClientRpc()
+    {
+         if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlaySound("frozen");
+        }
+    }
 }
 
 public class AutoDestroyVFX : MonoBehaviour

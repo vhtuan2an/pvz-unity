@@ -78,6 +78,10 @@ public class PeaProjectile : NetworkBehaviour
                 // Normal damage only
                 zombie.TakeDamage(damage);
                 Debug.Log($"Normal pea hit {zombie.name} for {damage} damage");
+                if (NetworkGameManager.Instance != null)
+                {
+                    NetworkGameManager.Instance.PlaySoundClientRpc("pea_splat");
+                }
                 break;
         }
     }

@@ -134,7 +134,7 @@ MonoBehaviour:
   sunCost: 50
   cooldown: 10
   packetImage: {fileID: -1620143605486728372, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
-  pivotOffset: {x: 0, y: 0, z: 0}
+  pivotOffset: {x: 0, y: 0.1, z: 0}
 --- !u!95 &9150221815920809753
 Animator:
   serializedVersion: 7

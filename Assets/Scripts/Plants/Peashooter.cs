@@ -8,7 +8,7 @@ public class Peashooter : PlantBase
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform shootPoint;
     [SerializeField] private float attackRate = 1.5f;
-    [SerializeField] private float detectionRange = 10f;
+    [SerializeField] private float detectionRange = 12f;
     [SerializeField] private LayerMask zombieLayer;
     [SerializeField] private float laneHeight = 1.3f;
     [SerializeField] private Vector3 detectionOffset = new Vector3(-0.1f, 0.75f, 0f);
@@ -93,33 +93,24 @@ public class Peashooter : PlantBase
         return false;
     }
 
-    // Called by Animation Event - spawns peas based on peaAmount
+    // Called by Animation Event
     private void SpawnPea()
     {
         if (!IsServer) return;
-        if (peaAmount == 1)
-        {
-            // Peashooter: Shoot 1 pea immediately
-            ShootProjectile();
-        }
-        else
-        {
-            // Repeater/Multi-shot: Shoot multiple peas with burst delay
-            StartCoroutine(ShootBurst());
-        }
-    }
 
-    // Shoot multiple peas with delay between each
-    private IEnumerator ShootBurst()
-    {
-        for (int i = 0; i < peaAmount; i++)
+        StartCoroutine(ShootBurst());
+
+        IEnumerator ShootBurst()
         {
-            ShootProjectile();
-            
-            // Wait between shots (except for last shot)
-            if (i < peaAmount - 1)
+            for (int i = 0; i < peaAmount; i++)
             {
-                yield return new WaitForSeconds(burstDelay);
+                ShootProjectile();
+
+                // Wait between shots (except for last shot)
+                if (i < peaAmount - 1)
+                {
+                    yield return new WaitForSeconds(burstDelay);
+                }
             }
         }
     }
@@ -146,6 +137,7 @@ public class Peashooter : PlantBase
             if (peaNetObj != null)
             {
                 peaNetObj.Spawn(true);
+                NetworkGameManager.Instance.PlaySoundClientRpc("pea_shoot");
             }
             else
             {

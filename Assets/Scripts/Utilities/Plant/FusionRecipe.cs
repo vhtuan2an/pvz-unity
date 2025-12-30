@@ -14,7 +14,11 @@ public class FusionRecipe : ScriptableObject
     {
         if (existingPlant == null || plantToPlace == null) return false;
         
-        bool baseMatches = existingPlant.name.Contains(basePlant.name.Replace("(Clone)", ""));
+        string existingName = existingPlant.name.Replace("(Clone)", "").Trim();
+        string baseName = basePlant.name.Replace("(Clone)", "").Trim();
+        
+        // Use exact match to prevent issues where "Mega Gatling Pea" contains "Gatling Pea"
+        bool baseMatches = existingName.Equals(baseName);
         bool addedMatches = plantToPlace.name.Contains(addedPlant.name);
         
         return baseMatches && addedMatches;

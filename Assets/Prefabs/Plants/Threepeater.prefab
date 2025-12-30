@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1366628871
+  GlobalObjectIdHash: 3620407132
   InScenePlacedSourceGlobalObjectIdHash: 3620407132
   DeferredDespawnTick: 0
   Ownership: 1
@@ -265,7 +265,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 2118876949700380241}
   attackRate: 0.25
-  detectionRange: 10
+  detectionRange: 12
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64

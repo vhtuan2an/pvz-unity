@@ -196,8 +196,8 @@ MonoBehaviour:
   pivotOffset: {x: 0.1, y: -0.75, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}
   shootPoint: {fileID: 2118876949700380241}
-  attackRate: 0.5
-  detectionRange: 10
+  attackRate: 0.67
+  detectionRange: 12
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64

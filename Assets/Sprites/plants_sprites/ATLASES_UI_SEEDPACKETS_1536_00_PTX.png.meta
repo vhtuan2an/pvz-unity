@@ -387,6 +387,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: packetCherryBomb
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 872
+        width: 150
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2590ed663c2f7a499339af0ec4e306e
+      internalID: 1693411554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -409,6 +431,7 @@ TextureImporter:
       ATLASES_UI_SEEDPACKETS_1536_00_PTX_8: 158035089859624944
       ATLASES_UI_SEEDPACKETS_1536_00_PTX_9: -1822667734
       packetBonkChoy: -1661800560
+      packetCherryBomb: 1693411554
       packetPeashooter: -6687575109595898538
       packetPotatoMine: 1107962353
       packetSunflower: -3732944587868782168
