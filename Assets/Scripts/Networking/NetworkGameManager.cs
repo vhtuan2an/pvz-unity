@@ -30,15 +30,16 @@ public class NetworkGameManager : NetworkBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
+        Debug.Log($"NetworkGameManager: Awake called on {gameObject.name} (ID: {GetInstanceID()})");
+        if (Instance != null && Instance != this)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+             Debug.LogWarning($"NetworkGameManager: Duplicate instance found. Destroying new one on {gameObject.name}.");
+             Destroy(gameObject);
+             return;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        
+        Instance = this;
+        // REMOVED DontDestroyOnLoad - this manager should live and die with the GameScene 100% thinhdeptrai coded no ai
     }
 
     public override void OnNetworkSpawn()
