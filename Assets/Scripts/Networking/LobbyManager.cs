@@ -170,9 +170,6 @@ public class LobbyManager : MonoBehaviour
         Debug.Log($"Created lobby: {CurrentLobby.Name} (ID: {CurrentLobby.Id})");
         Debug.Log($"Host role: {SelectedRole}");
 
-        // QUAN TRỌNG: KHÔNG tạo Relay allocation ở đây nữa
-        // Host sẽ tạo allocation trong StartHostWithRelay() khi cả hai player sẵn sàng
-
         IsSearching = true;
         StartPolling();
     }
@@ -202,12 +199,15 @@ public class LobbyManager : MonoBehaviour
 
     private Player CreatePlayerData()
     {
+        // Get the actual username from UnityAuthManager (which stores the login username)
+        string username = UnityAuthManager.Instance?.GetPlayerName() ?? "Player";
+        
         return new Player(
             id: AuthenticationService.Instance.PlayerId,
             data: new Dictionary<string, PlayerDataObject>
             {
                 { "role", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, SelectedRole.ToString()) },
-                { "username", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, AuthenticationService.Instance.PlayerName ?? "Player") }
+                { "username", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, username) }
             }
         );
     }
@@ -391,157 +391,105 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    private async void StartNetworkGame()
+    private void StartNetworkGame()
     {
         if (networkStarted) return;
         networkStarted = true;
 
-        Debug.Log("Starting network game... (loading GameScene)");
-        SceneManager.sceneLoaded += OnGameSceneLoadedStartNetwork;
-        SceneManager.LoadScene("GameScene");
+        isPolling = false;
+        IsSearching = false;
+
+        Debug.Log("Match found! Loading connection screen...");
+        SceneManager.LoadScene("LoadingScene");
     }
 
-    private async void OnGameSceneLoadedStartNetwork(Scene scene, LoadSceneMode mode)
+    public bool IsLobbyHostPublic()
     {
-        if (scene.name != "GameScene") return;
-        SceneManager.sceneLoaded -= OnGameSceneLoadedStartNetwork;
+        return CurrentLobby != null && CurrentLobby.HostId == AuthenticationService.Instance.PlayerId;
+    }
 
-        bool isHost = CurrentLobby != null && CurrentLobby.HostId == AuthenticationService.Instance.PlayerId;
-
+    public async Task StartHostConnection()
+    {
         if (NetworkManager.Singleton == null)
         {
-            Debug.LogError("NetworkManager not found in GameScene. Make sure a NetworkManager exists in the scene.");
-            return;
+            throw new Exception("NetworkManager not found");
         }
 
-        try
-        {
-            if (isHost)
-            {
-                // HOST: Đợi một chút để client cũng vào scene
-                Debug.Log("Host waiting 2s for client to load scene...");
-                await Task.Delay(2000); // Đợi 2 giây
+        Debug.Log("Host creating Relay allocation...");
+        hostAllocation = await RelayService.Instance.CreateAllocationAsync(maxPlayers - 1);
+        string joinCode = await RelayService.Instance.GetJoinCodeAsync(hostAllocation.AllocationId);
+        Debug.Log($"Relay created with joinCode: {joinCode}");
 
-                Debug.Log("Starting as HOST with Relay");
-                await StartHostWithRelay();
-            }
-            else
-            {
-                // CLIENT: Báo host là đã sẵn sàng (qua lobby data)
-                Debug.Log("Client notifying host that scene is loaded...");
-                await NotifyHostClientReady();
+        await UpdateLobbyWithRelayData(joinCode);
 
-                Debug.Log("Starting as CLIENT with Relay");
-                await StartClientWithRelay();
-            }
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"Failed to start network game: {ex.Message}");
-        }
+        var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+        utpTransport.SetRelayServerData(
+            hostAllocation.RelayServer.IpV4,
+            (ushort)hostAllocation.RelayServer.Port,
+            hostAllocation.AllocationIdBytes,
+            hostAllocation.Key,
+            hostAllocation.ConnectionData
+        );
+
+        if (!NetworkManager.Singleton.IsListening)
+            NetworkManager.Singleton.StartHost();
+
+        Debug.Log("Host started successfully");
     }
 
-    // Thêm hàm mới
-    private async Task NotifyHostClientReady()
+    public async Task StartClientConnection()
     {
-        try
+        if (NetworkManager.Singleton == null)
         {
-            // Cập nhật lobby data để báo host
-            await LobbyService.Instance.UpdatePlayerAsync(CurrentLobby.Id, AuthenticationService.Instance.PlayerId, new UpdatePlayerOptions
-            {
-                Data = new Dictionary<string, PlayerDataObject>
-                {
-                    { "sceneReady", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Public, "true") }
-                }
-            });
+            throw new Exception("NetworkManager not found");
         }
-        catch (Exception ex)
+
+        Debug.Log("Client waiting for join code...");
+        await Task.Delay(1000);
+
+        string joinCode = await GetJoinCodeWithRetry(maxRetries: 10, initialDelay: 2f);
+        if (string.IsNullOrEmpty(joinCode))
         {
-            Debug.LogWarning($"Failed to notify host: {ex.Message}");
+            throw new Exception("No join code found");
         }
+
+        Debug.Log($"Client joining with code: {joinCode}");
+        clientAllocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
+
+        var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+        utpTransport.SetRelayServerData(
+            clientAllocation.RelayServer.IpV4,
+            (ushort)clientAllocation.RelayServer.Port,
+            clientAllocation.AllocationIdBytes,
+            clientAllocation.Key,
+            clientAllocation.ConnectionData,
+            clientAllocation.HostConnectionData
+        );
+
+        if (!NetworkManager.Singleton.IsClient)
+            NetworkManager.Singleton.StartClient();
+
+        Debug.Log("Client started successfully");
     }
 
-    private async Task StartHostWithRelay()
+    public void ResetNetworkState()
     {
-        try
-        {
-            // TẠO ALLOCATION MỚI ĐÚNG LÚC HOST START
-            Debug.Log("Host creating fresh Relay allocation...");
-            hostAllocation = await RelayService.Instance.CreateAllocationAsync(maxPlayers - 1);
-            string joinCode = await RelayService.Instance.GetJoinCodeAsync(hostAllocation.AllocationId);
-            Debug.Log($"Host Relay allocation created with joinCode={joinCode}");
-
-            // Cập nhật join code vào lobby NGAY
-            await UpdateLobbyWithRelayData(joinCode);
-            Debug.Log("Lobby updated with fresh join code");
-
-            // Setup UTP transport
-            var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-            utpTransport.SetRelayServerData(
-                hostAllocation.RelayServer.IpV4,
-                (ushort)hostAllocation.RelayServer.Port,
-                hostAllocation.AllocationIdBytes,
-                hostAllocation.Key,
-                hostAllocation.ConnectionData
-            );
-
-            // Start host
-            if (!NetworkManager.Singleton.IsListening)
-                NetworkManager.Singleton.StartHost();
-
-            Debug.Log("Host started successfully with Relay");
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"Failed to start host with Relay: {ex.Message}");
-            throw;
-        }
+        networkStarted = false;
+        isPolling = false;
+        IsSearching = false;
+        CurrentLobby = null;
     }
 
-    private async Task StartClientWithRelay()
+
+
+
+
+    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 10, float initialDelay = 2f)
     {
-        try
-        {
-            // Đợi join code được host cập nhật (host tạo allocation trong StartHostWithRelay)
-            string joinCode = await GetJoinCodeWithRetry(maxRetries: 15, retryDelay: 1f);
-            if (string.IsNullOrEmpty(joinCode))
-            {
-                throw new Exception("No join code found after waiting for host");
-            }
+        float currentDelay = initialDelay;
+        const float maxDelay = 10f;
+        const float backoffMultiplier = 1.5f;
 
-            Debug.Log($"Client joining with code: {joinCode}");
-
-            // Join allocation
-            clientAllocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
-            Debug.Log($"Client joined allocation: {clientAllocation.AllocationId}");
-
-            // Setup UTP transport
-            var utpTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-            utpTransport.SetRelayServerData(
-                clientAllocation.RelayServer.IpV4,
-                (ushort)clientAllocation.RelayServer.Port,
-                clientAllocation.AllocationIdBytes,
-                clientAllocation.Key,
-                clientAllocation.ConnectionData,
-                clientAllocation.HostConnectionData
-            );
-
-            // Start client
-            if (!NetworkManager.Singleton.IsClient)
-                NetworkManager.Singleton.StartClient();
-
-            Debug.Log("Client started successfully");
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"Failed to start client with Relay: {ex.Message}");
-            throw;
-        }
-    }
-
-    // Sửa GetJoinCodeWithRetry để tăng số lần retry và delay
-    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float retryDelay = 1f)
-    {
         for (int i = 0; i < maxRetries; i++)
         {
             if (CurrentLobby != null)
@@ -549,6 +497,27 @@ public class LobbyManager : MonoBehaviour
                 try
                 {
                     CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                    
+                    string joinCode = GetJoinCodeFromLobby();
+                    if (!string.IsNullOrEmpty(joinCode))
+                    {
+                        Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
+                        return joinCode;
+                    }
+                }
+                catch (LobbyServiceException lex)
+                {
+                    // Rate limit detected - increase delay significantly
+                    if (lex.Message?.Contains("Too Many Requests") == true || 
+                        lex.Message?.Contains("Rate Limited") == true)
+                    {
+                        currentDelay = Mathf.Min(currentDelay * 2f, maxDelay);
+                        Debug.LogWarning($"Rate limited while getting join code. Increasing delay to {currentDelay}s");
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"Failed to refresh lobby: {lex.Message}");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -556,15 +525,11 @@ public class LobbyManager : MonoBehaviour
                 }
             }
 
-            string joinCode = GetJoinCodeFromLobby();
-            if (!string.IsNullOrEmpty(joinCode))
-            {
-                Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
-                return joinCode;
-            }
-
-            Debug.Log($"Join code not ready, waiting... ({i + 1}/{maxRetries})");
-            await Task.Delay(TimeSpan.FromSeconds(retryDelay));
+            Debug.Log($"Join code not ready, waiting {currentDelay:F1}s... ({i + 1}/{maxRetries})");
+            await Task.Delay(TimeSpan.FromSeconds(currentDelay));
+            
+            // Exponential backoff với cap
+            currentDelay = Mathf.Min(currentDelay * backoffMultiplier, maxDelay);
         }
 
         Debug.LogError("Join code not found after all retries");
@@ -603,7 +568,6 @@ public class LobbyManager : MonoBehaviour
             : null;
     }
 
-    // Public API: trả về danh sách lobby sẵn có (1 player hoặc chưa full)
     public async Task<List<Lobby>> GetAvailableLobbiesAsync(int maxResults = 20)
     {
         try
@@ -629,10 +593,8 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    // Public API: tạo lobby với role do người tạo chọn
     public async Task<bool> CreateLobbyWithRoleAsync(PlayerRole role)
     {
-        // Đảm bảo chúng ta không đang trong một lobby khác
         if (IsSearching || CurrentLobby != null)
         {
             Debug.LogWarning("Cannot create lobby while already in one.");
@@ -642,11 +604,10 @@ public class LobbyManager : MonoBehaviour
         SelectedRole = role;
         try
         {
-            // Đặt IsSearching = true TRƯỚC khi tạo lobby và polling
             IsSearching = true;
             OnMatchmakingStarted?.Invoke();
 
-            await CreateNewLobby(); // dùng hàm hiện tại (CreateNewLobby dùng SelectedRole)
+            await CreateNewLobby();
 
             return CurrentLobby != null;
         }
@@ -658,10 +619,8 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    // Public API: join lobby theo id; tự động chọn role còn lại
     public async Task<bool> JoinLobbyByIdAsyncPublic(string lobbyId)
     {
-        // Đảm bảo chúng ta không đang trong một lobby khác
         if (IsSearching || CurrentLobby != null)
         {
             Debug.LogWarning("Cannot join lobby while already in one.");
@@ -670,16 +629,10 @@ public class LobbyManager : MonoBehaviour
 
         try
         {
-            // Vấn đề: CreatePlayerData() dùng SelectedRole, lúc này đang là None
-            // var joinOptions = new JoinLobbyByIdOptions { Player = CreatePlayerData() };
-            // CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId, joinOptions);
-
-            // Sửa: Join trước, sau đó xác định vai trò, rồi cập nhật
             CurrentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId);
 
             Debug.Log($"Joined lobby (public call): {CurrentLobby.Name} ({CurrentLobby.Id})");
 
-            // Determine role of other player(s) and pick opposite
             var otherPlayer = CurrentLobby.Players.FirstOrDefault(p => p.Id != AuthenticationService.Instance.PlayerId);
             if (otherPlayer != null && otherPlayer.Data != null && otherPlayer.Data.ContainsKey("role"))
             {
@@ -688,14 +641,12 @@ public class LobbyManager : MonoBehaviour
                     SelectedRole = otherRole == PlayerRole.Plant ? PlayerRole.Zombie : PlayerRole.Plant;
                     Debug.Log($"Assigned role after join: {SelectedRole} (other had {otherRole})");
 
-                    // BẮT ĐẦU SỬA: Cập nhật role của mình lên server
                     await LobbyService.Instance.UpdatePlayerAsync(CurrentLobby.Id, AuthenticationService.Instance.PlayerId, new UpdatePlayerOptions
                     {
-                        Data = CreatePlayerData().Data // Dùng lại hàm CreatePlayerData để lấy data
+                        Data = CreatePlayerData().Data
                     });
                     Debug.Log($"Player role updated to {SelectedRole} on server.");
-                    OnRoleSelected?.Invoke(SelectedRole); // Cập nhật UI
-                                                          // KẾT THÚC SỬA
+                    OnRoleSelected?.Invoke(SelectedRole); 
                 }
                 else
                 {
@@ -707,11 +658,8 @@ public class LobbyManager : MonoBehaviour
                 SelectedRole = PlayerRole.None;
             }
 
-            // BẮT ĐẦU SỬA: Set IsSearching = true để Client cũng bắt đầu poll
             IsSearching = true;
-            // KẾT THÚC SỬA
 
-            // Start polling to watch for changes / start match when full
             StartPolling();
 
             // If lobby already full, start match
@@ -719,7 +667,7 @@ public class LobbyManager : MonoBehaviour
             {
                 OnMatchFound?.Invoke(CurrentLobby.Id);
                 StartNetworkGame();
-                IsSearching = false; // Tắt IsSearching vì đã tìm thấy trận
+                IsSearching = false; 
             }
 
             return true;

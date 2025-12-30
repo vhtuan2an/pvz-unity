@@ -137,9 +137,7 @@ public class LobbyUI : MonoBehaviour
 
     private void OnMatchFound(string matchId)
     {
-        // Game tự động bắt đầu, không cần làm gì ở UI này
-        searchingPanel.SetActive(false);
-        UpdateButtons(isSearching: false);
+        searchingText.text = "Match found! Connecting...";
     }
 
     private void OnMatchmakingFailed(string error)

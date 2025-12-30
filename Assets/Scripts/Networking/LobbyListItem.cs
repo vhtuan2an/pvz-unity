@@ -16,7 +16,7 @@ public class LobbyListItem : MonoBehaviour
     {
         lobbyId = id;
         lobbyNameText.text = $"ROOM ID: {displayName}"; // Updated format
-        ownerText.text = owner; // Owner name remains as is or can be hidden if not in design
+        ownerText.text = $"OWNER: {owner}"; // Display owner username
         ownerRoleText.text = $"ROLE: {ownerRole}"; // Updated format
         onJoin = onJoinCallback;
         joinButton.onClick.RemoveAllListeners();
@@ -32,16 +32,17 @@ public class LobbyListItem : MonoBehaviour
             rect.sizeDelta = new Vector2(400, 150); // Set a reasonable default size for the board
         }
 
-        // 2. Hide Owner Name if not needed (as per target design) or move it
+        // 2. Show Owner Name with proper format
         if (ownerText != null)
         {
-            ownerText.gameObject.SetActive(false); // Hide it to match the clean target design
+            ownerText.gameObject.SetActive(true); // Show owner username
         }
 
         // 3. Adjust Text Elements to prevent squashing
         // Assuming Texts are children. We should ensure they have enough width.
-        AdjustTextLayout(lobbyNameText, -50, 30);
-        AdjustTextLayout(ownerRoleText, -50, -30);
+        AdjustTextLayout(lobbyNameText, -50, 50);   // Top
+        AdjustTextLayout(ownerText, -50, 0);        // Middle  
+        AdjustTextLayout(ownerRoleText, -50, -50);  // Bottom
     }
 
     private void AdjustTextLayout(TMP_Text textComp, float xOffset, float yOffset)
