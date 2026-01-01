@@ -11,9 +11,9 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private TMP_Text usernameText;
 
     [Header("Matchmaking")]
-    [SerializeField] private Button refreshLobbyListButton; // Đổi tên từ startMatchmakingButton
+    [SerializeField] private Button refreshLobbyListButton; 
     [SerializeField] private Button cancelMatchmakingButton;
-    [SerializeField] private GameObject searchingPanel; // Dùng làm panel "Đang đợi"
+    // [SerializeField] private GameObject searchingPanel; 
     [SerializeField] private TMP_Text searchingText;
 
     [Header("List UI")]
@@ -36,30 +36,19 @@ public class LobbyUI : MonoBehaviour
         LobbyManager.Instance.OnMatchmakingCancelled += OnMatchmakingCancelled;
 
         // Setup buttons
-        // plantButton.onClick.AddListener(...); // Đã xóa
-        // zombieButton.onClick.AddListener(...); // Đã xóa
-
-        // Sửa dòng 53
         refreshLobbyListButton.onClick.AddListener(() => { _ = RefreshLobbyList(); });
-        // Sửa dòng 55
         cancelMatchmakingButton.onClick.AddListener(() => { _ = LobbyManager.Instance.CancelMatchmaking(); });
 
-        // Sửa dòng 56
         createPlantBtn.onClick.AddListener(() => { _ = CreateLobby(PlayerRole.Plant); });
 
-        // Sửa dòng 57
         createZombieBtn.onClick.AddListener(() => { _ = CreateLobby(PlayerRole.Zombie); });
 
-        // Display player info
         DisplayPlayerInfo();
 
-        // Initial UI state
-        searchingPanel.SetActive(false);
+        // searchingPanel.SetActive(false);
         UpdateButtons(isSearching: false);
 
         _ = RefreshLobbyList();
-
-        // InvokeRepeating(nameof(PeriodicRefresh), 15f, 15f); // Bỏ comment nếu muốn tự động refresh
         ForceContentLayout(); // Fix layout issues
     }
 
@@ -129,9 +118,8 @@ public class LobbyUI : MonoBehaviour
 
     private void OnMatchmakingStarted()
     {
-        // Được gọi khi ta tạo lobby (đang đợi) hoặc join lobby (đang đợi)
-        searchingPanel.SetActive(true);
-        searchingText.text = $"Waiting for opponent... Role: {LobbyManager.Instance.GetRoleDisplayName(LobbyManager.Instance.SelectedRole)}";
+        // searchingPanel.SetActive(true);
+        searchingText.text = $"Finding Match...";
         UpdateButtons(isSearching: true);
     }
 
@@ -142,31 +130,25 @@ public class LobbyUI : MonoBehaviour
 
     private void OnMatchmakingFailed(string error)
     {
-        searchingPanel.SetActive(false);
+        // searchingPanel.SetActive(false);
         Debug.LogError($"Matchmaking failed: {error}");
         UpdateButtons(isSearching: false);
     }
 
     private void OnMatchmakingCancelled()
     {
-        searchingPanel.SetActive(false);
+        // searchingPanel.SetActive(false);
         UpdateButtons(isSearching: false);
     }
 
-    /// <summary>
-    /// Hàm mới thay thế UpdateUI, dùng để bật/tắt các nút dựa trên việc có đang ở trong lobby hay không.
-    /// </summary>
     private void UpdateButtons(bool isSearching)
     {
-        // Khi đang tìm/đợi, không cho refresh hoặc tạo/join lobby
         refreshLobbyListButton.interactable = !isSearching;
         createPlantBtn.interactable = !isSearching;
         createZombieBtn.interactable = !isSearching;
 
-        // Chỉ cho phép hủy khi đang tìm/đợi
         cancelMatchmakingButton.interactable = isSearching;
 
-        // Vô hiệu hóa các item trong danh sách lobby
         foreach (var itemGO in spawnedItems)
         {
             itemGO.GetComponentInChildren<Button>().interactable = !isSearching;
@@ -181,7 +163,6 @@ public class LobbyUI : MonoBehaviour
     {
         if (LobbyManager.Instance == null) return;
 
-        // Đảm bảo không refresh khi đang trong lobby
         if (LobbyManager.Instance.IsSearching) return;
 
         var lobbies = await LobbyManager.Instance.GetAvailableLobbiesAsync(30);
@@ -192,7 +173,6 @@ public class LobbyUI : MonoBehaviour
 
         foreach (var lobby in lobbies)
         {
-            // Chọn prefab dựa trên role của host
             PlayerRole ownerRole = LobbyManager.Instance.GetLobbyOwnerRole(lobby);
             GameObject prefab = ownerRole == PlayerRole.Plant ? plantLobbyItemPrefab : zombieLobbyItemPrefab;
             
@@ -202,12 +182,11 @@ public class LobbyUI : MonoBehaviour
             string owner = LobbyManager.Instance.GetLobbyOwnerName(lobby);
             item.Setup(lobby.Id, name, owner, ownerRole.ToString(), OnJoinLobbyClicked);
             
-            // Đảm bảo item có kích thước cố định cho VerticalLayoutGroup
             var layoutElement = go.GetComponent<LayoutElement>();
             if (layoutElement == null) layoutElement = go.AddComponent<LayoutElement>();
-            layoutElement.preferredHeight = 30f; // Chiều cao mỗi item (điều chỉnh theo design)
-            layoutElement.preferredWidth = -1; // Tự động theo parent
-            layoutElement.flexibleWidth = 1; // Cho phép co giãn theo chiều ngang
+            layoutElement.preferredHeight = 30f; 
+            layoutElement.preferredWidth = -1; 
+            layoutElement.flexibleWidth = 1; 
 
             go.transform.SetAsFirstSibling();
             spawnedItems.Add(go);
