@@ -16,7 +16,6 @@ public class SelectionUI : MonoBehaviour
         public Transform contentArea;
         public Transform selectedSlotsContainer; 
         public Button readyButton;
-        public TMP_Text statusText;
 
         [Header("Gameplay Refs")]
         public GameObject gameplayHUDPanel;
@@ -27,6 +26,12 @@ public class SelectionUI : MonoBehaviour
     [SerializeField] private RoleLayout plantLayout;
     [SerializeField] private RoleLayout zombieLayout;
     
+    [Header("Status Sprites")]
+    [SerializeField] private Sprite plantWaitingSprite;
+    [SerializeField] private Sprite plantReadySprite;
+    [SerializeField] private Sprite zombieWaitingSprite;
+    [SerializeField] private Sprite zombieReadySprite;
+
     [Header("Prefabs & Resources")]
     [SerializeField] private GameObject plantPacketPrefab;
     [SerializeField] private GameObject zombiePacketPrefab;
@@ -39,11 +44,32 @@ public class SelectionUI : MonoBehaviour
 
     private void Start()
     {
+        // Ensure listeners are added even if assigned late (safety check)
+        if (plantLayout.readyButton != null) 
+        {
+            plantLayout.readyButton.onClick.RemoveListener(OnReadyClicked);
+            plantLayout.readyButton.onClick.AddListener(OnReadyClicked);
+        }
+        if (zombieLayout.readyButton != null) 
+        {
+            zombieLayout.readyButton.onClick.RemoveListener(OnReadyClicked);
+            zombieLayout.readyButton.onClick.AddListener(OnReadyClicked);
+        }
+
         if (GameStateManager.Instance != null)
         {
             GameStateManager.Instance.OnStateChanged += OnGameStateChanged;
+            
+            // Subscribe to readiness changes
+            GameStateManager.Instance.IsPlantReady.OnValueChanged += OnReadinessChanged;
+            GameStateManager.Instance.IsZombieReady.OnValueChanged += OnReadinessChanged;
+            
+            GameStateManager.Instance.IsZombieReady.OnValueChanged += OnReadinessChanged;
+            
             OnGameStateChanged(GameStateManager.Instance.CurrentState.Value);
         }
+
+        DisableStatusRaycast();
     }
 
     private void OnDestroy()
@@ -51,6 +77,8 @@ public class SelectionUI : MonoBehaviour
         if (GameStateManager.Instance != null)
         {
             GameStateManager.Instance.OnStateChanged -= OnGameStateChanged;
+            GameStateManager.Instance.IsPlantReady.OnValueChanged -= OnReadinessChanged;
+            GameStateManager.Instance.IsZombieReady.OnValueChanged -= OnReadinessChanged;
         }
         if (plantLayout.readyButton != null) plantLayout.readyButton.onClick.RemoveListener(OnReadyClicked);
         if (zombieLayout.readyButton != null) zombieLayout.readyButton.onClick.RemoveListener(OnReadyClicked);
@@ -58,8 +86,7 @@ public class SelectionUI : MonoBehaviour
 
     private void Awake()
     {
-        if (plantLayout.readyButton != null) plantLayout.readyButton.onClick.AddListener(OnReadyClicked);
-        if (zombieLayout.readyButton != null) zombieLayout.readyButton.onClick.AddListener(OnReadyClicked);
+        // Listeners moved to Start/OnEnable for better reliability with order of operations
     }
 
 
@@ -329,8 +356,65 @@ public class SelectionUI : MonoBehaviour
         ClearSelectedSlots();
 
         isReady = false; // Reset ready state when showing selection UI
-        UpdateStatusText();
+        if (currentLayout.readyButton != null) currentLayout.readyButton.interactable = true;
+        
+        UpdateStatusIndicators(false, false); // Reset indicators
         SetGameplayPacketsActive(false);
+    }
+
+    private void OnReadinessChanged(bool previous, bool current)
+    {
+        if (GameStateManager.Instance == null) return;
+        UpdateStatusIndicators(GameStateManager.Instance.IsPlantReady.Value, GameStateManager.Instance.IsZombieReady.Value);
+    }
+
+    private void UpdateStatusIndicators(bool plantReady, bool zombieReady)
+    {
+        // Update PlantStatus on both panels
+        UpdateStatusForLayout(plantLayout, "PlantStatus", plantReady ? plantReadySprite : plantWaitingSprite);
+        UpdateStatusForLayout(zombieLayout, "PlantStatus", plantReady ? plantReadySprite : plantWaitingSprite);
+
+        // Update ZombieStatus on both panels
+        UpdateStatusForLayout(plantLayout, "ZombieStatus", zombieReady ? zombieReadySprite : zombieWaitingSprite);
+        UpdateStatusForLayout(zombieLayout, "ZombieStatus", zombieReady ? zombieReadySprite : zombieWaitingSprite);
+    }
+    
+    private void UpdateStatusForLayout(RoleLayout layout, string statusObjectName, Sprite sprite)
+    {
+        if (layout.panelRoot != null)
+        {
+            Transform statusT = layout.panelRoot.transform.Find(statusObjectName);
+            // Also try finding it recursively if not direct child, or relax the constraint? 
+            // The user said "added 2 new gameobjects for each side's selection panels"
+            // Assuming direct child of panelRoot based on hierarchy image (PlantSelection -> PlantStatus (1))
+            
+            if (statusT != null)
+            {
+                var img = statusT.GetComponent<UnityEngine.UI.Image>();
+                if (img != null) img.sprite = sprite;
+            }
+        }
+    }
+
+    private void DisableStatusRaycast()
+    {
+        DisableRaycastForLayout(plantLayout, "PlantStatus");
+        DisableRaycastForLayout(plantLayout, "ZombieStatus");
+        DisableRaycastForLayout(zombieLayout, "PlantStatus");
+        DisableRaycastForLayout(zombieLayout, "ZombieStatus");
+    }
+
+    private void DisableRaycastForLayout(RoleLayout layout, string statusName)
+    {
+        if (layout.panelRoot != null)
+        {
+            Transform t = layout.panelRoot.transform.Find(statusName);
+            if (t != null)
+            {
+                var img = t.GetComponent<UnityEngine.UI.Image>();
+                if (img != null) img.raycastTarget = false;
+            }
+        }
     }
 
     private void OnReadyClicked()
@@ -338,13 +422,14 @@ public class SelectionUI : MonoBehaviour
         if (isReady) return;
 
         isReady = true;
-        UpdateStatusText();
+        if (currentLayout.readyButton != null) currentLayout.readyButton.interactable = false;
         
         SendSelectedDeck();
 
-        if (NetworkManager.Singleton != null)
+        if (NetworkManager.Singleton != null && GameStateManager.Instance != null)
         {
-            GameStateManager.Instance.SetPlayerReadyServerRpc(NetworkManager.Singleton.LocalClientId, true);
+            PlayerRole myRole = LobbyManager.Instance.SelectedRole;
+            GameStateManager.Instance.SetPlayerReadyServerRpc(NetworkManager.Singleton.LocalClientId, true, myRole);
         }
     }
 
@@ -399,46 +484,7 @@ public class SelectionUI : MonoBehaviour
         Debug.Log($"SelectionUI: Transferred {selectedCards.Count} cards to gameplay HUD (Hidden until Playing).");
     }
 
-    // TODO: Temp status text will change to icon later
-    private void UpdateStatusText()
-    {
-        var layout = currentLayout;
-        
-        // Auto-create status text if missing but button exists
-        if (layout.statusText == null && layout.readyButton != null)
-        {
-             // Try to find existing first
-             layout.statusText = layout.readyButton.GetComponentInChildren<TMP_Text>();
-             
-             // Check if it's still null, create it
-             if (layout.statusText == null)
-             {
-                 GameObject textObj = new GameObject("StatusText");
-                 textObj.transform.SetParent(layout.readyButton.transform, false);
-                 
-                 RectTransform rt = textObj.AddComponent<RectTransform>();
-                 rt.anchorMin = Vector2.zero;
-                 rt.anchorMax = Vector2.one;
-                 rt.offsetMin = Vector2.zero;
-                 rt.offsetMax = Vector2.zero;
-                 
-                 layout.statusText = textObj.AddComponent<TextMeshProUGUI>();
-                 layout.statusText.alignment = TextAlignmentOptions.Center;
-                 layout.statusText.fontSize = 24;
-                 layout.statusText.color = Color.black; 
-             }
-        }
 
-        if (layout.statusText != null)
-        {
-            layout.statusText.text = isReady ? "WAITING..." : "READY!";
-        }
-        
-        if (layout.readyButton != null)
-        {
-            layout.readyButton.interactable = !isReady;
-        }
-    }
     
 #if UNITY_EDITOR
     [ContextMenu("Auto Populate Prefabs")]
@@ -467,4 +513,5 @@ public class SelectionUI : MonoBehaviour
         EditorUtility.SetDirty(this);
     }
 #endif
+
 }

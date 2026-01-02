@@ -290,6 +290,13 @@ public class PlantManager : MonoBehaviour
     // Tiles take priority
     private void HandleWorldClick()
     {
+        // Block if mouse is over UI
+        if (UnityEngine.EventSystems.EventSystem.current != null && 
+            UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         // Cast ray to world
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D[] hits = Physics2D.RaycastAll(ray.origin, ray.direction, Mathf.Infinity);
@@ -499,6 +506,8 @@ public class PlantManager : MonoBehaviour
     public void TryPlaceOnTile(Tile tile)
     {
         Debug.Log($"TryPlaceOnTile called - tile: {tile?.name}, IsShovel: {IsShovelSelected}");
+        
+        if (GameStateManager.Instance != null && !GameStateManager.Instance.IsGameStarted) return;
         
         if (tile == null) return;
 

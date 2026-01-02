@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Tile : MonoBehaviour
 {
@@ -24,7 +25,19 @@ public class Tile : MonoBehaviour
 
     void OnMouseDown()
     {
+        // Block if mouse is over UI (e.g. Buttons, Panels)
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         Debug.Log($"Tile clicked: {name}, IsOccupied: {IsOccupied}, Occupant: {(Occupant != null ? Occupant.name : "null")}");
+
+        // Prevent interaction if game is not playing
+        if (GameStateManager.Instance != null && !GameStateManager.Instance.IsGameStarted)
+        {
+            return;
+        }
         
         // Route to correct manager based on player role
         if (LobbyManager.Instance == null) return;

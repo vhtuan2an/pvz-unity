@@ -95,6 +95,8 @@ public class ZombieManager : MonoBehaviour
 
     public void TrySpawnZombieOnLane(Transform laneSpawnPoint)
     {
+        if (GameStateManager.Instance != null && !GameStateManager.Instance.IsGameStarted) return;
+
         if (selectedZombie == null)
         {
             Debug.LogWarning("❌ No zombie selected!");
@@ -158,6 +160,13 @@ public class ZombieManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            // Block if mouse is over UI
+            if (UnityEngine.EventSystems.EventSystem.current != null && 
+                UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+            {
+                return;
+            }
+
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 pos2D = new Vector2(worldPos.x, worldPos.y);
 

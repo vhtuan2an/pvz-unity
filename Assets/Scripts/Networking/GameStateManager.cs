@@ -27,6 +27,10 @@ public class GameStateManager : NetworkBehaviour
     private NetworkVariable<bool> gameEnded = new NetworkVariable<bool>(false);
     private NetworkVariable<float> gameTimeRemaining = new NetworkVariable<float>(300f);
     private NetworkVariable<PlayerRole> winner = new NetworkVariable<PlayerRole>(PlayerRole.None);
+
+    // Readiness Sync
+    public NetworkVariable<bool> IsPlantReady = new NetworkVariable<bool>(false);
+    public NetworkVariable<bool> IsZombieReady = new NetworkVariable<bool>(false);
     
     // Events
     public System.Action<GameState> OnStateChanged;
@@ -56,6 +60,8 @@ public class GameStateManager : NetworkBehaviour
         {
             gameTimeRemaining.Value = gameTimeLimit;
             CurrentState.Value = GameState.Waiting;
+            IsPlantReady.Value = false;
+            IsZombieReady.Value = false;
         }
         
         // Subscribe to events
@@ -145,14 +151,18 @@ public class GameStateManager : NetworkBehaviour
     // ===================== READY SYSTEM =====================
     
     [ServerRpc(RequireOwnership = false)]
-    public void SetPlayerReadyServerRpc(ulong clientId, bool isReady)
+    public void SetPlayerReadyServerRpc(ulong clientId, bool isReady, PlayerRole role)
     {
         if (playerReadyStatus.ContainsKey(clientId))
             playerReadyStatus[clientId] = isReady;
         else
             playerReadyStatus.Add(clientId, isReady);
 
-        Debug.Log($"Player {clientId} Ready: {isReady}");
+        // Update NetworkVariables for UI sync
+        if (role == PlayerRole.Plant) IsPlantReady.Value = isReady;
+        else if (role == PlayerRole.Zombie) IsZombieReady.Value = isReady;
+
+        Debug.Log($"Player {clientId} ({role}) Ready: {isReady}");
 
         CheckAllPlayersReady();
     }
