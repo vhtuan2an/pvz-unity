@@ -24,6 +24,20 @@ public class ZombiePacket : MonoBehaviour
 
         if (zombiePrefab != null)
         {
+            RefreshUI();
+        }
+    }
+
+    public void AssignZombie(GameObject prefab)
+    {
+        zombiePrefab = prefab;
+        RefreshUI();
+    }
+
+    private void RefreshUI()
+    {
+        if (zombiePrefab != null)
+        {
             var zombieBase = zombiePrefab.GetComponent<ZombieBase>();
             if (zombieBase != null)
             {
@@ -43,7 +57,6 @@ public class ZombiePacket : MonoBehaviour
             if (costText != null)
                 costText.text = brainCost.ToString();
         }
-
     }
 
     void Update()

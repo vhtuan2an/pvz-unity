@@ -84,6 +84,10 @@ public class PlantManager : MonoBehaviour
 
     void Update()
     {
+        // 1. Check Game State (Must be Playing)
+         if (GameStateManager.Instance != null && GameStateManager.Instance.CurrentState.Value != GameStateManager.GameState.Playing)
+            return;
+
         if (Input.GetMouseButtonDown(0))
         {
             HandleWorldClick();

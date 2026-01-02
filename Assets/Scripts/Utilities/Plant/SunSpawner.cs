@@ -32,19 +32,55 @@ public class SunSpawner : MonoBehaviour
     {
         if (sunPrefab == null) yield break;
 
-        // CRITICAL: Chờ NetworkManager connected để tránh spawn sun trước khi client join  
-        while (Unity.Netcode.NetworkManager.Singleton == null || !Unity.Netcode.NetworkManager.Singleton.IsListening)
-            yield return null;
+        // Wait for GameStateManager
+        while (GameStateManager.Instance == null) yield return null;
 
-        // Nếu là host, đợi thêm một chút để client có thời gian sync scene
-        if (Unity.Netcode.NetworkManager.Singleton.IsHost)
+        // Subscribe to state changes
+        GameStateManager.Instance.OnStateChanged += OnGameStateChanged;
+        
+        // Initial check
+        if (GameStateManager.Instance.CurrentState.Value == GameStateManager.GameState.Playing)
         {
-            Debug.Log("SunSpawner: Waiting for clients to connect...");
-            yield return new WaitForSeconds(2f); // Đợi 2s để client join và sync
+            StartSpawning();
         }
+    }
 
-        Debug.Log("SunSpawner: Starting sun spawning");
-        InvokeRepeating(nameof(SpawnSunFromSky), initialDelay, spawnInterval);
+    private void OnDestroy()
+    {
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.OnStateChanged -= OnGameStateChanged;
+        }
+    }
+
+    private void OnGameStateChanged(GameStateManager.GameState newState)
+    {
+        if (newState == GameStateManager.GameState.Playing)
+        {
+            StartSpawning();
+        }
+        else
+        {
+            StopSpawning();
+        }
+    }
+
+    private void StartSpawning()
+    {
+        if (!IsInvoking(nameof(SpawnSunFromSky)))
+        {
+            Debug.Log("SunSpawner: Starting sun spawning");
+            InvokeRepeating(nameof(SpawnSunFromSky), initialDelay, spawnInterval);
+        }
+    }
+
+    private void StopSpawning()
+    {
+        if (IsInvoking(nameof(SpawnSunFromSky)))
+        {
+            Debug.Log("SunSpawner: Stopping sun spawning");
+            CancelInvoke(nameof(SpawnSunFromSky));
+        }
     }
 
     void SpawnSunFromSky()

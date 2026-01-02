@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 4133782255
+  GlobalObjectIdHash: 1720409415
   InScenePlacedSourceGlobalObjectIdHash: 1720409415
   DeferredDespawnTick: 0
   Ownership: 1
@@ -269,4 +269,4 @@ MonoBehaviour:
   detectionRange: 12
   laneHeight: 0.9
   detectionOffset: {x: -0.1, y: 0.1, z: 0}
-  butterChance: 0.36
+  butterChance: 0.25

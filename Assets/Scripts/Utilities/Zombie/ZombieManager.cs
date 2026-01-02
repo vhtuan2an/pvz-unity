@@ -146,6 +146,10 @@ public class ZombieManager : MonoBehaviour
     //  CLICK LANE TO SPAWN 
     void Update()
     {
+        // 1. Check Game State (Must be Playing)
+        if (GameStateManager.Instance != null && GameStateManager.Instance.CurrentState.Value != GameStateManager.GameState.Playing)
+            return;
+
         if (LobbyManager.Instance == null || LobbyManager.Instance.SelectedRole != PlayerRole.Zombie)
             return;
 

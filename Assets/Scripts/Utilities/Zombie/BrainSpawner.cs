@@ -39,19 +39,55 @@ public class BrainSpawner : MonoBehaviour
 
         if (brainPrefab == null) yield break;
 
-        // CRITICAL: Chờ NetworkManager connected để tránh spawn brain trước khi client join
-        while (Unity.Netcode.NetworkManager.Singleton == null || !Unity.Netcode.NetworkManager.Singleton.IsListening)
-            yield return null;
+         // Wait for GameStateManager
+        while (GameStateManager.Instance == null) yield return null;
+        
+        // Subscribe
+        GameStateManager.Instance.OnStateChanged += OnGameStateChanged;
 
-        // Nếu là host, đợi thêm một chút để client có thời gian sync scene
-        if (Unity.Netcode.NetworkManager.Singleton.IsHost)
+        // Check initial
+        if (GameStateManager.Instance.CurrentState.Value == GameStateManager.GameState.Playing)
         {
-            Debug.Log("BrainSpawner: Waiting for clients to connect...");
-            yield return new WaitForSeconds(2f); // Đợi 2s để client join và sync
+            StartSpawning();
         }
+    }
 
-        Debug.Log("BrainSpawner: Starting brain spawning");
-        InvokeRepeating(nameof(SpawnBrainFromSky), initialDelay, spawnInterval);
+    private void OnDestroy()
+    {
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.OnStateChanged -= OnGameStateChanged;
+        }
+    }
+
+    private void OnGameStateChanged(GameStateManager.GameState newState)
+    {
+        if (newState == GameStateManager.GameState.Playing)
+        {
+            StartSpawning();
+        }
+        else
+        {
+            StopSpawning();
+        }
+    }
+
+    private void StartSpawning()
+    {
+        if (!IsInvoking(nameof(SpawnBrainFromSky)))
+        {
+            Debug.Log("BrainSpawner: Starting brain spawning");
+            InvokeRepeating(nameof(SpawnBrainFromSky), initialDelay, spawnInterval);
+        }
+    }
+
+    private void StopSpawning()
+    {
+        if (IsInvoking(nameof(SpawnBrainFromSky)))
+        {
+            Debug.Log("BrainSpawner: Stopping brain spawning");
+            CancelInvoke(nameof(SpawnBrainFromSky));
+        }
     }
 
     void SpawnBrainFromSky()

@@ -91,6 +91,13 @@ public class NetworkGameManager : NetworkBehaviour
     // ===================== PLANT =====================
     public void SpawnPlantAtPosition(Vector3 position, string plantName)
     {
+        // Block spawning if game hasn't started (e.g. during countdown)
+        if (GameStateManager.Instance != null && !GameStateManager.Instance.IsGameStarted)
+        {
+             Debug.LogWarning("Cannot spawn plant yet! Game has not started.");
+             return;
+        }
+
         PlayerRole effectiveRole = GetEffectivePlayerRole();
         if (effectiveRole != PlayerRole.Plant)
         {
@@ -150,6 +157,13 @@ public class NetworkGameManager : NetworkBehaviour
     // ===================== ZOMBIE =====================
     public void SpawnZombieAtPosition(Vector3 position, string zombieName, ulong ownerClientId)
     {
+        // Block spawning if game hasn't started (e.g. during countdown)
+        if (GameStateManager.Instance != null && !GameStateManager.Instance.IsGameStarted)
+        {
+             Debug.LogWarning("Cannot spawn zombie yet! Game has not started.");
+             return;
+        }
+
         PlayerRole effectiveRole = GetEffectivePlayerRole();
         
         // Enhanced debugging for intermittent spawn issues

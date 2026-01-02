@@ -34,6 +34,20 @@ public class SeedPacket : MonoBehaviour
         // Fetch sun cost, cooldown, and icon dynamically from the plant prefab
         if (plantPrefab != null)
         {
+            RefreshUI();
+        }
+    }
+
+    public void AssignPlant(GameObject prefab)
+    {
+        plantPrefab = prefab;
+        RefreshUI();
+    }
+
+    private void RefreshUI()
+    {
+        if (plantPrefab != null)
+        {
             var plantBase = plantPrefab.GetComponent<PlantBase>();
             if (plantBase != null)
             {
