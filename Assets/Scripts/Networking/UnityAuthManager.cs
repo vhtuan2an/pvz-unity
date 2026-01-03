@@ -62,7 +62,7 @@ public class UnityAuthManager : MonoBehaviour
 
         AuthenticationService.Instance.SignInFailed += (err) =>
         {
-            Debug.LogError($"Sign in failed: {err}");
+            Debug.LogWarning($"Sign in failed: {err.Message}");
         };
 
         AuthenticationService.Instance.SignedOut += () =>
@@ -106,13 +106,15 @@ public class UnityAuthManager : MonoBehaviour
         }
         catch (AuthenticationException ex)
         {
-            Debug.LogError($"Sign in failed: {ex.Message}");
-            throw;
+            Debug.LogWarning($"Sign in failed: {ex.Message}");
+            string friendlyMessage = GetFriendlyErrorMessage(ex.Message);
+            throw new Exception(friendlyMessage);
         }
         catch (RequestFailedException ex)
         {
-            Debug.LogError($"Sign in request failed: {ex.Message}");
-            throw;
+            Debug.LogWarning($"Sign in request failed: {ex.Message}");
+            string friendlyMessage = GetFriendlyErrorMessage(ex.Message);
+            throw new Exception(friendlyMessage);
         }
     }
 
@@ -128,14 +130,68 @@ public class UnityAuthManager : MonoBehaviour
         }
         catch (AuthenticationException ex)
         {
-            Debug.LogError($"Sign up failed: {ex.Message}");
-            throw;
+            Debug.LogWarning($"Sign up failed: {ex.Message}");
+            string friendlyMessage = GetFriendlyErrorMessage(ex.Message);
+            throw new Exception(friendlyMessage);
         }
         catch (RequestFailedException ex)
         {
-            Debug.LogError($"Sign up request failed: {ex.Message}");
-            throw;
+            Debug.LogWarning($"Sign up request failed: {ex.Message}");
+            string friendlyMessage = GetFriendlyErrorMessage(ex.Message);
+            throw new Exception(friendlyMessage);
         }
+    }
+
+    private string GetFriendlyErrorMessage(string errorMessage)
+    {
+        if (string.IsNullOrEmpty(errorMessage))
+            return "An error occurred. Please try again.";
+
+        string lowerMessage = errorMessage.ToLower();
+
+        // Wrong username or password
+        if (lowerMessage.Contains("invalid username or password") ||
+            lowerMessage.Contains("wrong_username_password") ||
+            lowerMessage.Contains("invalid") && lowerMessage.Contains("password") ||
+            lowerMessage.Contains("credentials"))
+        {
+            return "Wrong username or password.";
+        }
+
+        // Account not found
+        if (lowerMessage.Contains("not found") || lowerMessage.Contains("does not exist"))
+        {
+            return "Account not found.";
+        }
+
+        // Account already exists
+        if (lowerMessage.Contains("already exists") || lowerMessage.Contains("duplicate") ||
+            lowerMessage.Contains("entity_exists"))
+        {
+            return "Username already taken.";
+        }
+
+        // Rate limit
+        if (lowerMessage.Contains("rate") || lowerMessage.Contains("too many"))
+        {
+            return "Too many attempts. Please wait a moment.";
+        }
+
+        // Network error
+        if (lowerMessage.Contains("network") || lowerMessage.Contains("timeout") ||
+            lowerMessage.Contains("connection") || lowerMessage.Contains("unable to connect"))
+        {
+            return "Network error. Please check your connection.";
+        }
+
+        // Weak password
+        if (lowerMessage.Contains("password") && (lowerMessage.Contains("weak") || lowerMessage.Contains("requirements")))
+        {
+            return "Password must be at least 8 characters with uppercase, lowercase and numbers.";
+        }
+
+        // Default
+        return "An error occurred. Please try again.";
     }
 
     // Add username and password to anonymous account

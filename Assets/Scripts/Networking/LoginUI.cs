@@ -19,17 +19,15 @@ public class LoginUI : MonoBehaviour
     [SerializeField] private TMP_InputField signupUsernameInput;
     [SerializeField] private TMP_InputField signupPasswordInput;
     [SerializeField] private Button signupButton;
-    [SerializeField] private Button backToLoginButton;
+    // [SerializeField] private Button backToLoginButton;
 
     [Header("Feedback")]
     [SerializeField] private TMP_Text feedbackText;
 
     private void Start()
     {
-        // Setup button listeners
         loginButton.onClick.AddListener(OnLoginButtonClicked);
         showSignupButton.onClick.AddListener(ShowSignupPanel);
-        
         signupButton.onClick.AddListener(OnSignupButtonClicked);
     }
 
@@ -54,18 +52,25 @@ public class LoginUI : MonoBehaviour
 
         if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
         {
-            ShowFeedback("Please enter both username and password", true);
+            ShowErrorDialog("Please enter username and password.");
             return;
         }
+
+        SetButtonsInteractable(false);
+        ShowFeedback("Logging in...", false);
 
         try
         {
             await UnityAuthManager.Instance.SignInWithUsernamePasswordAsync(username, password);
-            ShowFeedback("Login successful!", false);
         }
         catch (Exception ex)
         {
-            ShowFeedback($"Login failed: {ex.Message}", true);
+            ClearFeedback();
+            ShowErrorDialog(ex.Message);
+        }
+        finally
+        {
+            SetButtonsInteractable(true);
         }
     }
 
@@ -74,39 +79,69 @@ public class LoginUI : MonoBehaviour
         string username = signupUsernameInput.text.Trim();
         string password = signupPasswordInput.text;
 
-        // Validation
         if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
         {
-            ShowFeedback("Please enter both username and password", true);
+            ShowErrorDialog("Please enter username and password.");
             return;
         }
 
         if (password.Length < 8)
         {
-            ShowFeedback("Password must be at least 8 characters", true);
+            ShowErrorDialog("Password must be at least 8 characters.");
             return;
         }
+
+        SetButtonsInteractable(false);
+        ShowFeedback("Signing up...", false);
 
         try
         {
             await UnityAuthManager.Instance.SignUpWithUsernamePasswordAsync(username, password);
-            ShowFeedback("Signup successful!", false);
         }
         catch (Exception ex)
         {
-            ShowFeedback($"Signup failed: {ex.Message}", true);
+            ClearFeedback();
+            ShowErrorDialog(ex.Message);
         }
+        finally
+        {
+            SetButtonsInteractable(true);
+        }
+    }
+
+    private void ShowErrorDialog(string message)
+    {
+        if (DialogManager.Instance != null)
+        {
+            DialogManager.Instance.ShowError(message);
+        }
+        else
+        {
+            ShowFeedback(message, true);
+        }
+    }
+
+    private void SetButtonsInteractable(bool interactable)
+    {
+        if (loginButton != null) loginButton.interactable = interactable;
+        if (signupButton != null) signupButton.interactable = interactable;
+        if (showSignupButton != null) showSignupButton.interactable = interactable;
+        // if (backToLoginButton != null) backToLoginButton.interactable = interactable;
     }
 
     private void ShowFeedback(string message, bool isError)
     {
+        if (feedbackText == null) return;
         feedbackText.text = message;
-        feedbackText.color = isError ? Color.red : Color.green;
+        feedbackText.color = isError ? Color.red : Color.white;
         feedbackText.gameObject.SetActive(true);
     }
 
     private void ClearFeedback()
     {
-        feedbackText.gameObject.SetActive(false);
+        if (feedbackText != null)
+        {
+            feedbackText.gameObject.SetActive(false);
+        }
     }
 }
