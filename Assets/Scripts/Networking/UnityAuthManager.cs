@@ -3,7 +3,9 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Unity.Services.Core;
 using Unity.Services.Authentication;
+using Unity.Services.CloudSave;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class UnityAuthManager : MonoBehaviour
 {
@@ -11,8 +13,16 @@ public class UnityAuthManager : MonoBehaviour
 
     [Header("Scene Settings")]
     [SerializeField] private string lobbySceneName = "LobbyScene";
+    [SerializeField] private string loginSceneName = "LoginScene";
+
+    [Header("Session Settings")]
+    [SerializeField] private bool kickPreviousSession = false;
+    [SerializeField] private float sessionCheckInterval = 30f;
 
     private string loggedInUsername;
+    private string currentSessionId;
+    private const string SESSION_KEY = "active_session";
+    private bool isCheckingSession = false;
 
     private void Awake()
     {
@@ -44,7 +54,18 @@ public class UnityAuthManager : MonoBehaviour
             if (AuthenticationService.Instance.IsSignedIn)
             {
                 Debug.Log($"Already signed in as: {AuthenticationService.Instance.PlayerId}");
-                OnSignInSuccess();
+                
+                // Verify session is still valid
+                bool sessionValid = await VerifyCurrentSession();
+                if (sessionValid)
+                {
+                    OnSignInSuccess();
+                }
+                else
+                {
+                    AuthenticationService.Instance.SignOut();
+                    Debug.Log("Previous session invalid, signed out");
+                }
             }
         }
         catch (Exception e)
@@ -68,11 +89,14 @@ public class UnityAuthManager : MonoBehaviour
         AuthenticationService.Instance.SignedOut += () =>
         {
             Debug.Log("Player signed out");
+            StopSessionCheck();
+            currentSessionId = null;
         };
 
         AuthenticationService.Instance.Expired += () =>
         {
             Debug.Log("Session expired. Please sign in again.");
+            HandleSessionExpired();
         };
     }
 
@@ -82,26 +106,39 @@ public class UnityAuthManager : MonoBehaviour
         {
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
             Debug.Log("Anonymous sign in successful!");
+            await CreateNewSession();
             OnSignInSuccess();
         }
         catch (AuthenticationException ex)
         {
             Debug.LogException(ex);
+            throw;
         }
         catch (RequestFailedException ex)
         {
             Debug.LogException(ex);
+            throw;
         }
     }
 
-    // Sign in with Username and Password
     public async Task SignInWithUsernamePasswordAsync(string username, string password)
     {
         try
         {
             await AuthenticationService.Instance.SignInWithUsernamePasswordAsync(username, password);
-            loggedInUsername = username; // Store the username used for login
+            loggedInUsername = username;
             Debug.Log($"Sign in successful! Player ID: {AuthenticationService.Instance.PlayerId}");
+
+            // Check for existing session BEFORE proceeding
+            bool canProceed = await CheckAndHandleExistingSession();
+            
+            if (!canProceed)
+            {
+                // Sign out immediately since we can't proceed
+                AuthenticationService.Instance.SignOut();
+                throw new Exception("This account is already logged in on another device.");
+            }
+
             OnSignInSuccess();
         }
         catch (AuthenticationException ex)
@@ -116,16 +153,22 @@ public class UnityAuthManager : MonoBehaviour
             string friendlyMessage = GetFriendlyErrorMessage(ex.Message);
             throw new Exception(friendlyMessage);
         }
+        catch (Exception ex) when (ex.Message == "This account is already logged in on another device.")
+        {
+            // Re-throw this specific exception as-is
+            throw;
+        }
     }
 
-    // Sign up with Username and Password
     public async Task SignUpWithUsernamePasswordAsync(string username, string password)
     {
         try
         {
             await AuthenticationService.Instance.SignUpWithUsernamePasswordAsync(username, password);
-            loggedInUsername = username; // Store the username used for signup
+            loggedInUsername = username;
             Debug.Log($"Sign up successful! Player ID: {AuthenticationService.Instance.PlayerId}");
+            
+            await CreateNewSession();
             OnSignInSuccess();
         }
         catch (AuthenticationException ex)
@@ -142,6 +185,206 @@ public class UnityAuthManager : MonoBehaviour
         }
     }
 
+    #region Session Management
+
+    private async Task<bool> CheckAndHandleExistingSession()
+    {
+        try
+        {
+            Debug.Log("Checking for existing session...");
+            
+            var savedData = await CloudSaveService.Instance.Data.Player.LoadAsync(
+                new HashSet<string> { SESSION_KEY }
+            );
+
+            if (savedData.TryGetValue(SESSION_KEY, out var item))
+            {
+                string existingSession = item.Value.GetAs<string>();
+                Debug.Log($"Found existing session: '{existingSession}'");
+                
+                if (!string.IsNullOrEmpty(existingSession))
+                {
+                    if (kickPreviousSession)
+                    {
+                        Debug.Log("kickPreviousSession=true, creating new session and kicking old one...");
+                        await CreateNewSession();
+                        return true;
+                    }
+                    else
+                    {
+                        Debug.Log("kickPreviousSession=false, rejecting new login attempt");
+                        return false; // Reject login
+                    }
+                }
+            }
+
+            // No existing session, create new one
+            Debug.Log("No existing session found, creating new session...");
+            await CreateNewSession();
+            return true;
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"Session check failed: {ex.Message}");
+            // On error, allow login but create new session
+            await CreateNewSession();
+            return true;
+        }
+    }
+
+    private async Task<bool> VerifyCurrentSession()
+    {
+        if (string.IsNullOrEmpty(currentSessionId))
+            return false;
+
+        try
+        {
+            var savedData = await CloudSaveService.Instance.Data.Player.LoadAsync(
+                new HashSet<string> { SESSION_KEY }
+            );
+
+            if (savedData.TryGetValue(SESSION_KEY, out var item))
+            {
+                string serverSession = item.Value.GetAs<string>();
+                return serverSession == currentSessionId;
+            }
+
+            return false;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    private async Task CreateNewSession()
+    {
+        currentSessionId = Guid.NewGuid().ToString();
+        
+        var data = new Dictionary<string, object>
+        {
+            { SESSION_KEY, currentSessionId }
+        };
+
+        await CloudSaveService.Instance.Data.Player.SaveAsync(data);
+        Debug.Log($"New session created: {currentSessionId}");
+        
+        StartSessionCheck();
+    }
+
+    private async Task ClearSession()
+    {
+        try
+        {
+            if (!AuthenticationService.Instance.IsSignedIn)
+            {
+                Debug.Log("Not signed in, skipping session clear");
+                return;
+            }
+
+            var data = new Dictionary<string, object>
+            {
+                { SESSION_KEY, "" }
+            };
+            await CloudSaveService.Instance.Data.Player.SaveAsync(data);
+            currentSessionId = null;
+            Debug.Log("Session cleared");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"Failed to clear session: {ex.Message}");
+        }
+    }
+
+    private void StartSessionCheck()
+    {
+        if (!isCheckingSession)
+        {
+            isCheckingSession = true;
+            InvokeRepeating(nameof(CheckSessionValidity), sessionCheckInterval, sessionCheckInterval);
+            Debug.Log($"Session check started (interval: {sessionCheckInterval}s)");
+        }
+    }
+
+    private void StopSessionCheck()
+    {
+        if (isCheckingSession)
+        {
+            isCheckingSession = false;
+            CancelInvoke(nameof(CheckSessionValidity));
+            Debug.Log("Session check stopped");
+        }
+    }
+
+    private async void CheckSessionValidity()
+    {
+        if (!AuthenticationService.Instance.IsSignedIn || string.IsNullOrEmpty(currentSessionId))
+            return;
+
+        try
+        {
+            var savedData = await CloudSaveService.Instance.Data.Player.LoadAsync(
+                new HashSet<string> { SESSION_KEY }
+            );
+
+            if (savedData.TryGetValue(SESSION_KEY, out var item))
+            {
+                string serverSession = item.Value.GetAs<string>();
+                
+                if (serverSession != currentSessionId)
+                {
+                    Debug.Log($"Session mismatch! Local: {currentSessionId}, Server: {serverSession}");
+                    HandleKickedOut();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"Session check error: {ex.Message}");
+        }
+    }
+
+    private void HandleKickedOut()
+    {
+        StopSessionCheck();
+        currentSessionId = null;
+        AuthenticationService.Instance.SignOut();
+        
+        if (DialogManager.Instance != null)
+        {
+            DialogManager.Instance.ShowDialog(
+                "You have been logged out because your account was accessed from another device.",
+                "OK",
+                () => SceneManager.LoadScene(loginSceneName)
+            );
+        }
+        else
+        {
+            SceneManager.LoadScene(loginSceneName);
+        }
+    }
+
+    private void HandleSessionExpired()
+    {
+        StopSessionCheck();
+        currentSessionId = null;
+        
+        if (DialogManager.Instance != null)
+        {
+            DialogManager.Instance.ShowDialog(
+                "Your session has expired. Please log in again.",
+                "OK",
+                () => SceneManager.LoadScene(loginSceneName)
+            );
+        }
+        else
+        {
+            SceneManager.LoadScene(loginSceneName);
+        }
+    }
+
+    #endregion
+
     private string GetFriendlyErrorMessage(string errorMessage)
     {
         if (string.IsNullOrEmpty(errorMessage))
@@ -149,7 +392,6 @@ public class UnityAuthManager : MonoBehaviour
 
         string lowerMessage = errorMessage.ToLower();
 
-        // Wrong username or password
         if (lowerMessage.Contains("invalid username or password") ||
             lowerMessage.Contains("wrong_username_password") ||
             lowerMessage.Contains("invalid") && lowerMessage.Contains("password") ||
@@ -158,43 +400,36 @@ public class UnityAuthManager : MonoBehaviour
             return "Wrong username or password.";
         }
 
-        // Account not found
         if (lowerMessage.Contains("not found") || lowerMessage.Contains("does not exist"))
         {
             return "Account not found.";
         }
 
-        // Account already exists
         if (lowerMessage.Contains("already exists") || lowerMessage.Contains("duplicate") ||
             lowerMessage.Contains("entity_exists"))
         {
             return "Username already taken.";
         }
 
-        // Rate limit
         if (lowerMessage.Contains("rate") || lowerMessage.Contains("too many"))
         {
             return "Too many attempts. Please wait a moment.";
         }
 
-        // Network error
         if (lowerMessage.Contains("network") || lowerMessage.Contains("timeout") ||
             lowerMessage.Contains("connection") || lowerMessage.Contains("unable to connect"))
         {
             return "Network error. Please check your connection.";
         }
 
-        // Weak password
         if (lowerMessage.Contains("password") && (lowerMessage.Contains("weak") || lowerMessage.Contains("requirements")))
         {
             return "Password must be at least 8 characters with uppercase, lowercase and numbers.";
         }
 
-        // Default
         return "An error occurred. Please try again.";
     }
 
-    // Add username and password to anonymous account
     public async Task AddUsernamePasswordAsync(string username, string password)
     {
         try
@@ -209,7 +444,6 @@ public class UnityAuthManager : MonoBehaviour
         }
     }
 
-    // Update password
     public async Task UpdatePasswordAsync(string currentPassword, string newPassword)
     {
         try
@@ -224,18 +458,19 @@ public class UnityAuthManager : MonoBehaviour
         }
     }
 
-    // Sign out
-    public void SignOut()
+    public async void SignOut()
     {
+        await ClearSession();
+        StopSessionCheck();
         AuthenticationService.Instance.SignOut();
         Debug.Log("Signed out successfully");
     }
 
-    // Delete account
     public async Task DeleteAccountAsync()
     {
         try
         {
+            await ClearSession();
             await AuthenticationService.Instance.DeleteAccountAsync();
             Debug.Log("Account deleted successfully");
         }
@@ -246,31 +481,17 @@ public class UnityAuthManager : MonoBehaviour
         }
     }
 
-    // Get player info
-    public string GetPlayerId()
-    {
-        return AuthenticationService.Instance.PlayerId;
-    }
-
-    public string GetAccessToken()
-    {
-        return AuthenticationService.Instance.AccessToken;
-    }
-
+    public string GetPlayerId() => AuthenticationService.Instance.PlayerId;
+    public string GetAccessToken() => AuthenticationService.Instance.AccessToken;
+    
     public string GetPlayerName()
     {
-        // Return the stored login username, or fallback to PlayerName from Auth service
         if (!string.IsNullOrEmpty(loggedInUsername))
-        {
             return loggedInUsername;
-        }
         return AuthenticationService.Instance.PlayerName;
     }
 
-    public bool IsSignedIn()
-    {
-        return AuthenticationService.Instance.IsSignedIn;
-    }
+    public bool IsSignedIn() => AuthenticationService.Instance.IsSignedIn;
 
     private async void OnSignInSuccess()
     {
@@ -286,14 +507,25 @@ public class UnityAuthManager : MonoBehaviour
             dataObj.AddComponent<PlayerDataManager>();
         }
         
-        // Load player data from Cloud Save
         await PlayerDataManager.Instance.LoadPlayerDataAsync();
-
         LoadLobbyScene();
     }
 
     private void LoadLobbyScene()
     {
         SceneManager.LoadScene(lobbySceneName);
+    }
+
+    private async void OnApplicationQuit()
+    {
+        if (AuthenticationService.Instance.IsSignedIn && !string.IsNullOrEmpty(currentSessionId))
+        {
+            await ClearSession();
+        }
+    }
+
+    private void OnDestroy()
+    {
+        StopSessionCheck();
     }
 }
