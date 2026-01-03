@@ -456,6 +456,8 @@ MonoBehaviour:
     prefab: {fileID: 8832556505065614211, guid: 45d3b53858609d544a521f97ab36a27d, type: 3}
   - plantName: Sunflower
     prefab: {fileID: 4269696353772383782, guid: f89ffeada4cad5e4ebbaf649db8566a7, type: 3}
+  - plantName: Twin Sunflower
+    prefab: {fileID: 4269696353772383782, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
   - plantName: PotatoMine
     prefab: {fileID: 3979215487837737811, guid: bf58962e307e46041a970079b27c8ebe, type: 3}
   - plantName: Winter-mint
@@ -1304,67 +1306,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
---- !u!1001 &329792284
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.539562
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.1981116
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581426108690634205, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4453159782855990791, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 3811621584
-      objectReference: {fileID: 0}
-    - target: {fileID: 6182550927699580811, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
-      propertyPath: m_Name
-      value: Snow Pea
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
 --- !u!1 &329832218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,6 +1401,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3c3718ab3ec76be4bbadc6b70cedff79, type: 2}
   - {fileID: 11400000, guid: d681a2305cd3a0342bab8f61f3fc8d81, type: 2}
   - {fileID: 11400000, guid: 5b92fc985e93c9f4ca896cefd5ffcd70, type: 2}
+  - {fileID: 11400000, guid: b153ff431fffdb342b9d7f6c305b675e, type: 2}
 --- !u!4 &330964126
 Transform:
   m_ObjectHideFlags: 0
@@ -2547,6 +2489,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
+--- !u!1001 &510257422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.281104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.466018
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.001299
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269696353772383782, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: m_Name
+      value: Twin Sunflower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017803962777644921, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 27374769
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
 --- !u!4 &536105071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7628224086499638580, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
@@ -8205,7 +8208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d5e62e0a6532041881fb00c8fd5bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTestMode: 0
+  enableTestMode: 1
 --- !u!1 &2053702202
 GameObject:
   m_ObjectHideFlags: 0
@@ -8515,4 +8518,4 @@ SceneRoots:
   - {fileID: 1028082549}
   - {fileID: 1744026789}
   - {fileID: 1097629556}
-  - {fileID: 329792284}
+  - {fileID: 510257422}
