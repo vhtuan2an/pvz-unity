@@ -485,6 +485,8 @@ MonoBehaviour:
     prefab: {fileID: 1785127408593326092, guid: c804a837709b27b42aad03cd712820eb, type: 3}
   - zombieName: Brain
     prefab: {fileID: 799892346893128453, guid: 57f3a24a866112240946b1f17f066378, type: 3}
+  - zombieName: KamehamehaZombie
+    prefab: {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
 --- !u!114 &54118174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,6 +657,7 @@ MonoBehaviour:
   - {fileID: 9157382542763865438, guid: 8a207769162a999499893270627b461b, type: 3}
   - {fileID: 6846179173368709481, guid: 835eda7309a3db64db87a049be04614b, type: 3}
   - {fileID: 6846179173368709481, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
+  - {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
 --- !u!4 &131098482
 Transform:
   m_ObjectHideFlags: 0
