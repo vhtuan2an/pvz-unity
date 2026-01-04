@@ -46,10 +46,6 @@ public class Tile : MonoBehaviour
         {
             PlantManager.Instance?.TryPlaceOnTile(this);
         }
-        else if (LobbyManager.Instance.SelectedRole == PlayerRole.Zombie)
-        {
-            ZombieManager.Instance?.TrySpawnZombieOnLane(this.transform);
-        }
     }
 
     public bool TryOccupy(GameObject occupant)

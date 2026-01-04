@@ -1,6 +1,6 @@
+using System.Collections;
 using UnityEngine;
 using Unity.Netcode;
-using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -13,8 +13,8 @@ public class MixiZombie : ZombieBase
     [SerializeField] private float workAnimLength = 2.0f; 
 
     [Header("Movement")]
-    [SerializeField] private float minY = -7.78f;   // giới hạn dưới
-    [SerializeField] private float maxY = 0f;       // giới hạn trên
+    [SerializeField] private float minY = -7.78f;
+    [SerializeField] private float maxY = 0f;
 
     [Header("Brain Bounce")]
     [SerializeField] private float bounceHeight = 0.5f;
@@ -52,7 +52,7 @@ public class MixiZombie : ZombieBase
 
     private void FixedUpdate()
     {
-        if (!IsServer) return; 
+        if (!IsServer) return;
 
         if (!isWorking)
         {
@@ -98,23 +98,21 @@ public class MixiZombie : ZombieBase
         SetWalking(false);
         SetWorking(true);
 
-        Invoke(nameof(ServerSpawnBrainServerRpc), workAnimLength);
+        Invoke(nameof(ProduceBrainServerRpc), workAnimLength);
     }
 
+    // ==== SERVER SPAWN BRAIN ====
     [ServerRpc(RequireOwnership = false)]
-    private void ServerSpawnBrainServerRpc()
+    private void ProduceBrainServerRpc()
     {
-        if (!IsServer) return;
+        if (!IsServer || brainPrefab == null) return;
 
-        if (brainPrefab != null)
-        {
-            NetworkObject brainInstance = Instantiate(brainPrefab, transform.position, Quaternion.identity);
-            brainInstance.Spawn();
-            Debug.Log($"✅ Brain spawned by {gameObject.name}: NetworkObjectId={brainInstance.NetworkObjectId}");
+        NetworkObject brainInstance = Instantiate(brainPrefab, transform.position, Quaternion.identity);
+        brainInstance.Spawn(true);
+        Debug.Log($"✅ Brain spawned by {gameObject.name}: NetworkObjectId={brainInstance.NetworkObjectId}");
 
-            // Gọi ClientRpc để mọi client chạy hiệu ứng bounce/drop
-            TriggerBrainBounceClientRpc(brainInstance.NetworkObjectId);
-        }
+        // Gọi ClientRpc cho tất cả client chạy bounce animation
+        TriggerBrainBounceClientRpc(brainInstance.NetworkObjectId, transform.position);
 
         isWorking = false;
         SetWalking(true);
@@ -122,15 +120,18 @@ public class MixiZombie : ZombieBase
     }
 
     [ClientRpc]
-    private void TriggerBrainBounceClientRpc(ulong brainId)
+    private void TriggerBrainBounceClientRpc(ulong brainId, Vector3 startPos)
     {
         if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(brainId, out NetworkObject brainObj))
         {
-            StartCoroutine(BrainBounce(brainObj.transform, brainObj.transform.position));
+            StartCoroutine(BrainBounce(brainObj.transform, startPos));
+        }
+        else
+        {
+            Debug.LogWarning($"⚠️ Brain object not found for NetworkObjectId {brainId}");
         }
     }
 
-    // ===== Bounce/Drop logic =====
     private IEnumerator BrainBounce(Transform brainTransform, Vector3 startPos)
     {
         if (brainTransform == null) yield break;
@@ -144,25 +145,25 @@ public class MixiZombie : ZombieBase
 
         // Bounce lên
         Vector3 peakPos = startPos + Vector3.up * bounceHeight;
-        float elapsedTime = 0f;
-        while (elapsedTime < bounceDuration && brainTransform != null)
+        float elapsed = 0f;
+        while (elapsed < bounceDuration && brainTransform != null)
         {
-            float t = elapsedTime / bounceDuration;
+            float t = elapsed / bounceDuration;
             float easeT = 1f - Mathf.Pow(1f - t, 2f);
             brainTransform.position = Vector3.Lerp(startPos, peakPos, easeT);
-            elapsedTime += Time.deltaTime;
+            elapsed += Time.deltaTime;
             yield return null;
         }
 
         // Drop xuống
         Vector3 finalPos = peakPos + Vector3.down * dropDistance;
-        elapsedTime = 0f;
-        while (elapsedTime < dropDuration && brainTransform != null)
+        elapsed = 0f;
+        while (elapsed < dropDuration && brainTransform != null)
         {
-            float t = elapsedTime / dropDuration;
+            float t = elapsed / dropDuration;
             float easeT = t * t;
             brainTransform.position = Vector3.Lerp(peakPos, finalPos, easeT);
-            elapsedTime += Time.deltaTime;
+            elapsed += Time.deltaTime;
             yield return null;
         }
 
@@ -170,7 +171,7 @@ public class MixiZombie : ZombieBase
             brainTransform.position = finalPos;
     }
 
-    // ===== Animation helpers sync =====
+    // ===== Animation helpers =====
     private void SetWalking(bool value) => SetWalkingClientRpc(value);
     private void SetWorking(bool value) => SetWorkingClientRpc(value);
 

@@ -1,12 +1,13 @@
 using System.Collections;
 using UnityEngine;
+using Unity.Netcode;
 
-public class BrainSpawner : MonoBehaviour
+public class BrainSpawner : NetworkBehaviour
 {
     public static BrainSpawner Instance { get; private set; }
 
     [Header("References")]
-    public GameObject brainPrefab;
+    public NetworkObject brainPrefab;
 
     [Header("Timing")]
     public float initialDelay = 1f;
@@ -28,40 +29,47 @@ public class BrainSpawner : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    IEnumerator Start()
+    public override void OnNetworkSpawn()
     {
-        // Chờ LobbyManager sẵn sàng và role được chọn
-        while (LobbyManager.Instance == null || LobbyManager.Instance.SelectedRole == PlayerRole.None)
-            yield return null;
+        base.OnNetworkSpawn();
+        
+        // Chỉ server mới spawn brain
+        if (!IsServer) return;
 
-        // Chỉ spawn cho Zombie
-        if (LobbyManager.Instance.SelectedRole != PlayerRole.Zombie) yield break;
+        StartCoroutine(InitializeSpawner());
+    }
 
-        if (brainPrefab == null) yield break;
-
-         // Wait for GameStateManager
+    IEnumerator InitializeSpawner()
+    {
+        // Wait for GameStateManager
         while (GameStateManager.Instance == null) yield return null;
         
-        // Subscribe
+        // Subscribe to game state changes
         GameStateManager.Instance.OnStateChanged += OnGameStateChanged;
 
-        // Check initial
+        // Check initial state
         if (GameStateManager.Instance.CurrentState.Value == GameStateManager.GameState.Playing)
         {
             StartSpawning();
         }
     }
 
-    private void OnDestroy()
+    public override void OnNetworkDespawn()
     {
+        base.OnNetworkDespawn();
+        
         if (GameStateManager.Instance != null)
         {
             GameStateManager.Instance.OnStateChanged -= OnGameStateChanged;
         }
+
+        StopSpawning();
     }
 
     private void OnGameStateChanged(GameStateManager.GameState newState)
     {
+        if (!IsServer) return;
+
         if (newState == GameStateManager.GameState.Playing)
         {
             StartSpawning();
@@ -92,6 +100,8 @@ public class BrainSpawner : MonoBehaviour
 
     void SpawnBrainFromSky()
     {
+        if (!IsServer) return;
+
         Camera cam = Camera.main;
         if (cam == null) return;
 
@@ -100,20 +110,10 @@ public class BrainSpawner : MonoBehaviour
         Vector3 spawnPos = cam.ViewportToWorldPoint(new Vector3(randX, spawnViewportY, z));
         spawnPos.z = 0f;
 
-        GameObject b = Instantiate(brainPrefab, spawnPos, Quaternion.identity);
-
         float stopAfter = Random.Range(minFallDuration, maxFallDuration);
 
-        Rigidbody2D rb = b.GetComponent<Rigidbody2D>();
-        if (rb != null)
-        {
-            rb.linearVelocity = Vector2.down * fallSpeed;
-            StartCoroutine(StopAfter(rb, stopAfter));
-        }
-        else
-        {
-            StartCoroutine(FallRoutine(b.transform, fallSpeed, stopAfter));
-        }
+        // Spawn brain qua network
+        SpawnBrainAtPosition(spawnPos, true, fallSpeed, stopAfter);
     }
     
     public void SpawnBrainAtWorldPosition(
@@ -121,26 +121,49 @@ public class BrainSpawner : MonoBehaviour
         bool falling = false,
         float customFallSpeed = 0f)
     {
-        if (brainPrefab == null) return;
-
-        GameObject b = Instantiate(brainPrefab, worldPos, Quaternion.identity);
+        if (!IsServer) return;
 
         float speed = customFallSpeed > 0f ? customFallSpeed : fallSpeed;
+        float stopAfter = falling ? Random.Range(minFallDuration, maxFallDuration) : 0f;
 
+        SpawnBrainAtPosition(worldPos, falling, speed, stopAfter);
+    }
+
+    private void SpawnBrainAtPosition(Vector3 position, bool falling, float speed, float stopAfter)
+    {
+        if (!IsServer || brainPrefab == null) return;
+
+        NetworkObject brainInstance = Instantiate(brainPrefab, position, Quaternion.identity);
+        brainInstance.Spawn(true);
+
+        Debug.Log($"✅ Brain spawned by BrainSpawner: NetworkObjectId={brainInstance.NetworkObjectId}");
+
+        // Gọi ClientRpc để setup falling animation trên tất cả client
         if (falling)
         {
-            float stopAfter = Random.Range(minFallDuration, maxFallDuration);
+            SetupBrainFallingClientRpc(brainInstance.NetworkObjectId, speed, stopAfter);
+        }
+    }
 
-            Rigidbody2D rb = b.GetComponent<Rigidbody2D>();
+    [ClientRpc]
+    private void SetupBrainFallingClientRpc(ulong brainId, float speed, float duration)
+    {
+        if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(brainId, out NetworkObject brainObj))
+        {
+            Rigidbody2D rb = brainObj.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
                 rb.linearVelocity = Vector2.down * speed;
-                StartCoroutine(StopAfter(rb, stopAfter));
+                StartCoroutine(StopAfter(rb, duration));
             }
             else
             {
-                StartCoroutine(FallRoutine(b.transform, speed, stopAfter));
+                StartCoroutine(FallRoutine(brainObj.transform, speed, duration));
             }
+        }
+        else
+        {
+            Debug.LogWarning($"⚠️ Brain object not found for NetworkObjectId {brainId}");
         }
     }
 
