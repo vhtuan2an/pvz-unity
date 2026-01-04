@@ -34,7 +34,7 @@ public class LoadingSceneManager : MonoBehaviour
     {
         if (loadingSpinner != null)
         {
-            loadingSpinner.transform.Rotate(0, 0, -spinSpeed * Time.deltaTime);
+            loadingSpinner.transform.Rotate(0, 0, spinSpeed * Time.deltaTime);
         }
 
         if (isConnecting)
