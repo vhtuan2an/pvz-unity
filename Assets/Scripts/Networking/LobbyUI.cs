@@ -4,16 +4,17 @@ using TMPro;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Unity.Services.Authentication;
+using UnityEngine.SceneManagement;
 
 public class LobbyUI : MonoBehaviour
 {
     [Header("Player Info")]
     [SerializeField] private TMP_Text usernameText;
+    [SerializeField] private Button logoutButton;
 
     [Header("Matchmaking")]
     [SerializeField] private Button refreshLobbyListButton; 
     [SerializeField] private Button cancelMatchmakingButton;
-    // [SerializeField] private GameObject searchingPanel; 
     [SerializeField] private TMP_Text searchingText;
 
     [Header("List UI")]
@@ -24,6 +25,9 @@ public class LobbyUI : MonoBehaviour
     [Header("Create")]
     [SerializeField] private Button createPlantBtn;
     [SerializeField] private Button createZombieBtn;
+
+    [Header("Scene Settings")]
+    [SerializeField] private string loginSceneName = "LoginScene";
 
     private List<GameObject> spawnedItems = new List<GameObject>();
 
@@ -40,16 +44,19 @@ public class LobbyUI : MonoBehaviour
         cancelMatchmakingButton.onClick.AddListener(() => { _ = LobbyManager.Instance.CancelMatchmaking(); });
 
         createPlantBtn.onClick.AddListener(() => { _ = CreateLobby(PlayerRole.Plant); });
-
         createZombieBtn.onClick.AddListener(() => { _ = CreateLobby(PlayerRole.Zombie); });
 
-        DisplayPlayerInfo();
+        // Logout button
+        if (logoutButton != null)
+        {
+            logoutButton.onClick.AddListener(OnLogoutClicked);
+        }
 
-        // searchingPanel.SetActive(false);
+        DisplayPlayerInfo();
         UpdateButtons(isSearching: false);
 
         _ = RefreshLobbyList();
-        ForceContentLayout(); // Fix layout issues
+        ForceContentLayout();
     }
 
     private void ForceContentLayout()
@@ -212,5 +219,14 @@ public class LobbyUI : MonoBehaviour
         {
             Debug.LogWarning("Failed to create lobby.");
         }
+    }
+
+    private void OnLogoutClicked()
+    {
+        if (UnityAuthManager.Instance != null)
+        {
+            UnityAuthManager.Instance.SignOut();
+        }
+        SceneManager.LoadScene(loginSceneName);
     }
 }
