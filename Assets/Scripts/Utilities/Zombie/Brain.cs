@@ -42,6 +42,43 @@ public class Brain : NetworkBehaviour
     void TryCollect()
     {
         if (isCollected) return;
+        
+        // Gọi ServerRpc để đồng bộ việc collect
+        RequestCollectServerRpc();
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestCollectServerRpc(ServerRpcParams rpcParams = default)
+    {
+        if (isCollected) return;
+        
+        // Thông báo cho client nào đã collect để cộng điểm
+        ulong clientId = rpcParams.Receive.SenderClientId;
+        NotifyCollectedClientRpc(clientId);
+        
+        // Đánh dấu đã collect
+        isCollected = true;
+        
+        // Fly animation trên tất cả client
+        StartFlyAnimationClientRpc();
+    }
+
+    [ClientRpc]
+    private void NotifyCollectedClientRpc(ulong collectorClientId)
+    {
+        // Chỉ client thu thập mới được cộng điểm
+        if (NetworkManager.Singleton.LocalClientId == collectorClientId)
+        {
+            if (IsLocalPlayerZombie())
+            {
+                ZombieManager.Instance?.OnBrainCollected(brainValue);
+            }
+        }
+    }
+
+    [ClientRpc]
+    private void StartFlyAnimationClientRpc()
+    {
         isCollected = true;
         StartCoroutine(FlyAndDie());
     }
@@ -53,20 +90,23 @@ public class Brain : NetworkBehaviour
 
     IEnumerator FlyAndDie()
     {
+        // Disable collider để không collect 2 lần
+        if (col != null)
+            col.enabled = false;
+
         while (Vector3.Distance(transform.position, collectTarget) > 0.05f)
         {
             transform.position = Vector3.MoveTowards(transform.position, collectTarget, 40f * Time.deltaTime);
             yield return null;
         }
 
-        if (IsLocalPlayerZombie())
+        // Server despawn object
+        if (IsServer)
         {
-        ZombieManager.Instance?.OnBrainCollected(brainValue);
+            DespawnBrain();
         }
-
-        
-        Destroy(gameObject);
     }
+
     private void UpdateBrainVisibility()
     {
         bool shouldShow = ShouldShowBrain();
@@ -85,9 +125,24 @@ public class Brain : NetworkBehaviour
 
         return true;
     }
+
     void AutoDespawn()
     {
-        if (!isCollected)
-            Destroy(gameObject);
+        if (!isCollected && IsServer)
+        {
+            DespawnBrain();
+        }
+    }
+
+    private void DespawnBrain()
+    {
+        NetworkObject netObj = GetComponent<NetworkObject>();
+        
+        if (netObj != null && netObj.IsSpawned)
+        {
+            netObj.Despawn();
+        }
+        
+        Destroy(gameObject);
     }
 }
