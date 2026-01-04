@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8033069310889302770}
   - component: {fileID: 8553583170690861327}
   - component: {fileID: 6976416174839701727}
-  - component: {fileID: 9204231506501960402}
+  - component: {fileID: 5826994415840643989}
   m_Layer: 6
   m_Name: MixiZombie
   m_TagString: Zombie
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1082082965
+  GlobalObjectIdHash: 208592165
   InScenePlacedSourceGlobalObjectIdHash: 1700254636
   DeferredDespawnTick: 0
   Ownership: 1
@@ -201,7 +201,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03106761, y: -0.3076838}
+  m_Offset: {x: -0.03106761, y: -0.40391475}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -211,7 +211,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5165143, y: 1.25}
+  m_Size: {x: 0.5165143, y: 1.0575382}
   m_EdgeRadius: 0
 --- !u!114 &6976416174839701727
 MonoBehaviour:
@@ -259,7 +259,7 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
---- !u!114 &9204231506501960402
+--- !u!114 &5826994415840643989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,3 +283,7 @@ MonoBehaviour:
   workAnimLength: 2
   minY: -3.5
   maxY: 2.75
+  bounceHeight: 0.5
+  bounceDuration: 0.3
+  dropDistance: 0.3
+  dropDuration: 0.2

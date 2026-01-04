@@ -480,7 +480,7 @@ MonoBehaviour:
   - zombieName: AllstarZombie
     prefab: {fileID: 9157382542763865438, guid: 8a207769162a999499893270627b461b, type: 3}
   - zombieName: MixiZombie
-    prefab: {fileID: 6846179173368709481, guid: 835eda7309a3db64db87a049be04614b, type: 3}
+    prefab: {fileID: 6846179173368709481, guid: 43bb35978036a6e47bd5f9f3c8344933, type: 3}
   - zombieName: ZombieManager
     prefab: {fileID: 1785127408593326092, guid: c804a837709b27b42aad03cd712820eb, type: 3}
   - zombieName: Brain
@@ -655,7 +655,7 @@ MonoBehaviour:
   - {fileID: 8428471616817675384, guid: 168a7af91cbd6c34d89a3b743a615c86, type: 3}
   allZombiePrefabs:
   - {fileID: 9157382542763865438, guid: 8a207769162a999499893270627b461b, type: 3}
-  - {fileID: 6846179173368709481, guid: 835eda7309a3db64db87a049be04614b, type: 3}
+  - {fileID: 6846179173368709481, guid: 43bb35978036a6e47bd5f9f3c8344933, type: 3}
   - {fileID: 6846179173368709481, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
   - {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
 --- !u!4 &131098482
@@ -8211,7 +8211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d5e62e0a6532041881fb00c8fd5bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTestMode: 0
+  enableTestMode: 1
 --- !u!1 &2053702202
 GameObject:
   m_ObjectHideFlags: 0
