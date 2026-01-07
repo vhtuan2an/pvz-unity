@@ -281,7 +281,7 @@ MonoBehaviour:
   brainCost: 200
   contraiPrefab: {fileID: 6980011651598055066, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
   firePoint: {fileID: 6340573072069772898}
-  fireCooldown: 5
+  fireCooldown: 15
   fireSpawnNormalizedTime: 0.5
 --- !u!1 &8097442033056543713
 GameObject:

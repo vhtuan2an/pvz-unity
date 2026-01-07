@@ -11,11 +11,14 @@ public class Cannon : ZombieBase
 
     [Header("Fire Timing")]
     [Range(0f, 1f)]
-    [SerializeField] private float fireSpawnNormalizedTime = 0.5f; 
+    [SerializeField] private float fireSpawnNormalizedTime = 0.5f;
 
+    [Header("Die")]
+    [SerializeField] private float dieAnimDuration = 1f;
 
     private float fireTimer;
     private bool hasSpawnedThisFire;
+    private bool isDead;
 
     protected override void Start()
     {
@@ -25,7 +28,7 @@ public class Cannon : ZombieBase
 
     private void Update()
     {
-        if (!IsServer) return;
+        if (!IsServer || isDead) return;
 
         fireTimer -= Time.deltaTime;
 
@@ -39,7 +42,7 @@ public class Cannon : ZombieBase
     }
 
     /* =========================
-     * FIRE LOGIC
+     * FIRE
      * ========================= */
 
     private void StartFire()
@@ -54,13 +57,11 @@ public class Cannon : ZombieBase
 
         if (info.IsName("Fire"))
         {
-
             if (!hasSpawnedThisFire && info.normalizedTime >= fireSpawnNormalizedTime)
             {
                 SpawnConTrai();
                 hasSpawnedThisFire = true;
             }
-
 
             if (info.normalizedTime >= 1f)
             {
@@ -89,6 +90,37 @@ public class Cannon : ZombieBase
     }
 
     /* =========================
+     * DIE (OVERRIDE)
+     * ========================= */
+
+    protected override void Die()
+    {
+        if (!IsServer || isDead) return;
+
+        isDead = true;
+
+
+        fireTimer = float.MaxValue;
+
+        DieClientRpc();
+
+
+        Invoke(nameof(DespawnCannon), dieAnimDuration);
+    }
+
+    private void DespawnCannon()
+    {
+        if (!IsServer) return;
+
+        NetworkObject netObj = GetComponent<NetworkObject>();
+        if (netObj != null && netObj.IsSpawned)
+        {
+            netObj.Despawn();
+        }
+        Destroy(gameObject);
+    }
+
+    /* =========================
      * RPC
      * ========================= */
 
@@ -104,5 +136,17 @@ public class Cannon : ZombieBase
     {
         if (animator != null)
             animator.SetBool("isFiring", false);
+    }
+
+    [ClientRpc]
+    private void DieClientRpc()
+    {
+        if (animator == null)
+            animator = GetComponent<Animator>();
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Die"); 
+        }
     }
 }
