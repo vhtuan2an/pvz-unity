@@ -474,6 +474,8 @@ MonoBehaviour:
     prefab: {fileID: 8428471616817675384, guid: 52ff68316e238e84880c8b5c37ce002b, type: 3}
   - plantName: Kernel-pult
     prefab: {fileID: 6976370162579033916, guid: 03bafc1a56c057a4b998d6fae5699fab, type: 3}
+  - plantName: Doom-Shroom
+    prefab: {fileID: 8428471616817675384, guid: ccc6626d511e2ee4ca75e434f50d2e4c, type: 3}
   zombiePrefabs:
   - zombieName: Zombie
     prefab: {fileID: 6846179173368709481, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
@@ -487,6 +489,8 @@ MonoBehaviour:
     prefab: {fileID: 799892346893128453, guid: 57f3a24a866112240946b1f17f066378, type: 3}
   - zombieName: KamehamehaZombie
     prefab: {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
+  - zombieName: ConTrai
+    prefab: {fileID: 6846179173368709481, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
 --- !u!114 &54118174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,24 +644,21 @@ MonoBehaviour:
   plantPacketPrefab: {fileID: 3601811831167510550, guid: 233cb21146e8a0142b4ae2117f454d89, type: 3}
   zombiePacketPrefab: {fileID: 3601811831167510550, guid: e6a7565b7d3b5a145a9e6ba59c12d99e, type: 3}
   allPlantPrefabs:
-  - {fileID: 8832556505065614211, guid: 45d3b53858609d544a521f97ab36a27d, type: 3}
-  - {fileID: 8428471616817675384, guid: 52ff68316e238e84880c8b5c37ce002b, type: 3}
-  - {fileID: 6182550927699580811, guid: 987f8d1e3bc2bcc43982c4d5b9692e07, type: 3}
-  - {fileID: 6976370162579033916, guid: 03bafc1a56c057a4b998d6fae5699fab, type: 3}
-  - {fileID: 6182550927699580811, guid: b750b619d0de4bc498805bea82085f87, type: 3}
-  - {fileID: 6182550927699580811, guid: bbb2002ed3d95fe4ba0a39733114c422, type: 3}
-  - {fileID: 3979215487837737811, guid: bf58962e307e46041a970079b27c8ebe, type: 3}
-  - {fileID: 6182550927699580811, guid: 397e65d359780b34ab5bb1d5c921172e, type: 3}
-  - {fileID: 6182550927699580811, guid: 77fd2eea1049fc64fb15d13851d598dd, type: 3}
   - {fileID: 4269696353772383782, guid: f89ffeada4cad5e4ebbaf649db8566a7, type: 3}
-  - {fileID: 6182550927699580811, guid: a3399ec0ef5b26b448fc15a6b2e93831, type: 3}
+  - {fileID: 6182550927699580811, guid: bbb2002ed3d95fe4ba0a39733114c422, type: 3}
+  - {fileID: 8428471616817675384, guid: 52ff68316e238e84880c8b5c37ce002b, type: 3}
   - {fileID: 6976370162579033916, guid: 43d771624ae019c4cb125892a1c496af, type: 3}
+  - {fileID: 3979215487837737811, guid: bf58962e307e46041a970079b27c8ebe, type: 3}
+  - {fileID: 8832556505065614211, guid: 45d3b53858609d544a521f97ab36a27d, type: 3}
+  - {fileID: 6976370162579033916, guid: 03bafc1a56c057a4b998d6fae5699fab, type: 3}
   - {fileID: 8428471616817675384, guid: 168a7af91cbd6c34d89a3b743a615c86, type: 3}
+  - {fileID: 8428471616817675384, guid: ccc6626d511e2ee4ca75e434f50d2e4c, type: 3}
   allZombiePrefabs:
   - {fileID: 9157382542763865438, guid: 8a207769162a999499893270627b461b, type: 3}
   - {fileID: 6846179173368709481, guid: 43bb35978036a6e47bd5f9f3c8344933, type: 3}
   - {fileID: 6846179173368709481, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
   - {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
+  - {fileID: 6846179173368709481, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
 --- !u!4 &131098482
 Transform:
   m_ObjectHideFlags: 0
@@ -2492,67 +2493,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
---- !u!1001 &510257422
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.281104
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.466018
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.001299
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2510398178998256174, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4269696353772383782, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: m_Name
-      value: Twin Sunflower
-      objectReference: {fileID: 0}
-    - target: {fileID: 8017803962777644921, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 27374769
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5f63e47e9a0970048a1a2f7bc6d8b707, type: 3}
 --- !u!4 &536105071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7628224086499638580, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
@@ -8238,7 +8178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d5e62e0a6532041881fb00c8fd5bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTestMode: 0
+  enableTestMode: 1
 --- !u!1 &2053702202
 GameObject:
   m_ObjectHideFlags: 0
@@ -8548,4 +8488,3 @@ SceneRoots:
   - {fileID: 1028082549}
   - {fileID: 1744026789}
   - {fileID: 1097629556}
-  - {fileID: 510257422}
