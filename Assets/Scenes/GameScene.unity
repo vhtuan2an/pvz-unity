@@ -491,6 +491,8 @@ MonoBehaviour:
     prefab: {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
   - zombieName: ConTrai
     prefab: {fileID: 6846179173368709481, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
+  - zombieName: Cannon
+    prefab: {fileID: 6846179173368709481, guid: f6be413ed4798484d8663ade1386a5f3, type: 3}
 --- !u!114 &54118174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +661,7 @@ MonoBehaviour:
   - {fileID: 6846179173368709481, guid: b1582362e8e0b0f4b95714a0ced4c183, type: 3}
   - {fileID: 2162020202248559041, guid: 86603beb525cab84ab142e4d0f768607, type: 3}
   - {fileID: 6846179173368709481, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
+  - {fileID: 6846179173368709481, guid: f6be413ed4798484d8663ade1386a5f3, type: 3}
 --- !u!4 &131098482
 Transform:
   m_ObjectHideFlags: 0

@@ -4,7 +4,6 @@ using Unity.Netcode;
 public enum ConTraiState
 {
     Flying,
-    Landing,
     Ground
 }
 
@@ -24,7 +23,6 @@ public class ConTrai : ZombieBase
     [Header("Flying")]
     [SerializeField] private float flySpeed = 8f;
     [SerializeField] private Vector2 flyDirection = Vector2.left;
-    [SerializeField] private float landAnimDuration = 0.6f; // đúng bằng clip Land
 
     [Header("Combat (Ground)")]
     [SerializeField] private float attackRate = 1f;
@@ -46,47 +44,37 @@ public class ConTrai : ZombieBase
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
 
-        if (IsServer)
+        /*if (IsServer)
         {
-        Init(ConTraiSpawnMode.Cannon);
-        }
+            Init(ConTraiSpawnMode.Cannon);
+        }*/
     }
 
     private void FixedUpdate()
     {
         if (!IsServer) return;
 
-        switch (state)
+        if (state == ConTraiState.Flying)
         {
-            case ConTraiState.Flying:
-                FlyUpdate();
-                break;
-
-            case ConTraiState.Ground:
-                GroundUpdate();
-                break;
-
-            case ConTraiState.Landing:
-                // Không làm gì – chờ animation Land
-                break;
+            FlyUpdate();
+        }
+        else
+        {
+            GroundUpdate();
         }
     }
 
     /* =========================
-     * INIT (GỌI TỪ SPAWNER / CANNON)
+     * INIT
      * ========================= */
     public void Init(ConTraiSpawnMode mode)
     {
         if (!IsServer) return;
 
         if (mode == ConTraiSpawnMode.Cannon)
-        {
             EnterFlyingState();
-        }
         else
-        {
             EnterGroundState();
-        }
     }
 
     /* =========================
@@ -117,28 +105,11 @@ public class ConTrai : ZombieBase
 
         if (hit.collider != null)
         {
-            StartLanding();
+            EnterGroundState(); 
             return;
         }
 
         rb.MovePosition(rb.position + flyDirection * flySpeed * Time.fixedDeltaTime);
-    }
-
-    /* =========================
-     * LAND
-     * ========================= */
-    private void StartLanding()
-    {
-        state = ConTraiState.Landing;
-
-        SetFlyingClientRpc(false);
-
-        Invoke(nameof(FinishLanding), landAnimDuration);
-    }
-
-    private void FinishLanding()
-    {
-        EnterGroundState();
     }
 
     /* =========================
@@ -148,6 +119,8 @@ public class ConTrai : ZombieBase
     {
         state = ConTraiState.Ground;
         attackTimer = 0f;
+
+        SetFlyingClientRpc(false);
     }
 
     private void GroundUpdate()
@@ -183,9 +156,8 @@ public class ConTrai : ZombieBase
             {
                 PlantBase plant = hit.collider.GetComponent<PlantBase>();
                 if (plant != null)
-                {
                     plant.TakeDamage(GetDamage());
-                }
+
                 attackTimer = 0f;
             }
         }
@@ -197,21 +169,18 @@ public class ConTrai : ZombieBase
     [ClientRpc]
     private void SetWalkingClientRpc(bool value)
     {
-        if (animator != null)
-            animator.SetBool("isWalking", value);
+        animator?.SetBool("isWalking", value);
     }
 
     [ClientRpc]
     private void SetEatingClientRpc(bool value)
     {
-        if (animator != null)
-            animator.SetBool("isEating", value);
+        animator?.SetBool("isEating", value);
     }
 
     [ClientRpc]
     private void SetFlyingClientRpc(bool value)
     {
-        if (animator != null)
-            animator.SetBool("isFlying", value);
+        animator?.SetBool("isFlying", value);
     }
 }
