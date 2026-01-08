@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 7052946665424191432}
   - component: {fileID: 6980011651598055066}
   - component: {fileID: -8033069310889302770}
+  - component: {fileID: 8614764912292104599}
   - component: {fileID: 8553583170690861327}
   - component: {fileID: 6976416174839701727}
-  - component: {fileID: 6201112765637269341}
   m_Layer: 6
-  m_Name: ConTrai
+  m_Name: BungeeZombie
   m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 6846179173368709481}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.402335, y: -0.32870173, z: -5}
+  m_LocalPosition: {x: 5.374, y: 7.5, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 3369399851761963896, guid: ec3c2174caab5b84588e3824940e3982, type: 3}
+  m_Sprite: {fileID: 3369399851761963896, guid: 440e9f3d0b1816a45a3aa92c6f463369, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +103,7 @@ Animator:
   m_GameObject: {fileID: 6846179173368709481}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7e5f3b7886e79e64287fd1fee316b30d, type: 2}
+  m_Controller: {fileID: 9100000, guid: eb97f08ff9437524b85619ef9667e5d3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 136868224
+  GlobalObjectIdHash: 3300938506
   InScenePlacedSourceGlobalObjectIdHash: 1700254636
   DeferredDespawnTick: 0
   Ownership: 1
@@ -167,6 +167,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8614764912292104599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846179173368709481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85047e6137adef04d88a66084479e212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  maxHealth: 190
+  moveSpeed: 0.5
+  damage: 50
+  cooldown: 7.5
+  packetImage: {fileID: 3369399851761963896, guid: 440e9f3d0b1816a45a3aa92c6f463369, type: 3}
+  brainCost: 50
+  attackRate: 1.5
+  startDelay: 0.5
+  dieAnimLength: 1
 --- !u!61 &8553583170690861327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -197,15 +219,15 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.2, y: -0.13}
+  m_Offset: {x: -0.03106761, y: -4.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.03, y: 1.35}
+    oldSize: {x: 2.38, y: 10.22}
     newSize: {x: 1.2, y: 1.95}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -259,26 +281,3 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
---- !u!114 &6201112765637269341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6846179173368709481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43cc3abb2af16834cb94c9a350d11081, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 100
-  moveSpeed: 1
-  damage: 75
-  cooldown: 7.5
-  packetImage: {fileID: 3369399851761963896, guid: ec3c2174caab5b84588e3824940e3982, type: 3}
-  brainCost: 25
-  state: 1
-  flySpeed: 7.5
-  flyDirection: {x: -1, y: 0}
-  attackRate: 1

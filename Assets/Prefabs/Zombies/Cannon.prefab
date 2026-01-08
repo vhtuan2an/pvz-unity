@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: -8033069310889302770}
   - component: {fileID: 8553583170690861327}
   - component: {fileID: 6976416174839701727}
-  - component: {fileID: 6201112765637269341}
+  - component: {fileID: 4206276096064980995}
   m_Layer: 6
-  m_Name: ConTrai
+  m_Name: Cannon
   m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,8 @@ Transform:
   m_LocalPosition: {x: 4.402335, y: -0.32870173, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6340573072069772898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8491404277598804585
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 3369399851761963896, guid: ec3c2174caab5b84588e3824940e3982, type: 3}
+  m_Sprite: {fileID: 3369399851761963896, guid: a7c6711db6424c94c8f914fd3cb18354, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 6846179173368709481}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7e5f3b7886e79e64287fd1fee316b30d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8c8e487b7f1b96342a30cc81f9fc6356, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -127,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 136868224
+  GlobalObjectIdHash: 1933211326
   InScenePlacedSourceGlobalObjectIdHash: 1700254636
   DeferredDespawnTick: 0
   Ownership: 1
@@ -197,15 +198,15 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.2, y: -0.13}
+  m_Offset: {x: -0.03106761, y: -0.40391475}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.03, y: 1.35}
+    oldSize: {x: 2.88, y: 1.83}
     newSize: {x: 1.2, y: 1.95}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -259,7 +260,7 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
---- !u!114 &6201112765637269341
+--- !u!114 &4206276096064980995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,17 +269,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 6846179173368709481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43cc3abb2af16834cb94c9a350d11081, type: 3}
+  m_Script: {fileID: 11500000, guid: 53c3ce5d3682c9746ad0583155dcbf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 100
-  moveSpeed: 1
-  damage: 75
-  cooldown: 7.5
-  packetImage: {fileID: 3369399851761963896, guid: ec3c2174caab5b84588e3824940e3982, type: 3}
-  brainCost: 25
-  state: 1
-  flySpeed: 7.5
-  flyDirection: {x: -1, y: 0}
-  attackRate: 1
+  maxHealth: 2000
+  moveSpeed: 0
+  damage: 1
+  cooldown: 15
+  packetImage: {fileID: 3369399851761963896, guid: a7c6711db6424c94c8f914fd3cb18354, type: 3}
+  brainCost: 200
+  contraiPrefab: {fileID: 6980011651598055066, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
+  firePoint: {fileID: 6340573072069772898}
+  fireCooldown: 15
+  fireSpawnNormalizedTime: 0.5
+--- !u!1 &8097442033056543713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6340573072069772898}
+  m_Layer: 6
+  m_Name: firePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6340573072069772898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097442033056543713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6546021719159825591}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
