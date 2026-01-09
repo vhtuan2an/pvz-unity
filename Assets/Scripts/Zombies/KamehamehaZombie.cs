@@ -120,27 +120,19 @@ public class KamehamehaZombie : ZombieBase
 
     protected override void Die()
     {
+        base.Die();
+        
         if (!IsServer) return;
 
         isAttackLocked = false;
         pendingTarget = null;
-
+        
         SetWalkingClientRpc(false);
         SetAttackingClientRpc(false);
-
-        TriggerDieAnimationClientRpc();
-        Invoke(nameof(DespawnZombie), dieAnimLength);
-    }
-
-    private void DespawnZombie()
-    {
-        if (!IsServer) return;
-
-        NetworkObject netObj = GetComponent<NetworkObject>();
-        if (netObj != null && netObj.IsSpawned)
-            netObj.Despawn();
-
-        Destroy(gameObject);
+        
+        enabled = false;
+        if (rb != null) rb.simulated = false;
+        if (boxCollider != null) boxCollider.enabled = false;
     }
 
     [ClientRpc]
@@ -155,9 +147,4 @@ public class KamehamehaZombie : ZombieBase
         animator?.SetBool("isAttacking", isAttacking);
     }
 
-    [ClientRpc]
-    private void TriggerDieAnimationClientRpc()
-    {
-        animator?.SetTrigger("Die");
-    }
 }

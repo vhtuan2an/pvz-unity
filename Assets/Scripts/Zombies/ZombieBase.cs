@@ -96,15 +96,43 @@ public class ZombieBase : NetworkBehaviour
         
         // Clear slow effects
         activeSlows.Clear();
+        // Recalculate to reset logic stats (speed, damage) to normal
+        RecalculateSlowMultiplier();
+        
+        // Force visual cleanup on clients
+        ClearStatusEffectsClientRpc();
 
+        // Stress test: FORCE disable everything
+        enabled = false;
+        if (TryGetComponent<Rigidbody2D>(out var rb)) rb.simulated = false;
+        if (TryGetComponent<Collider2D>(out var col)) col.enabled = false;
+
+        // Trigger on clients (and host)
         TriggerDeathAnimationClientRpc();
-        Invoke(nameof(DespawnZombie), 1f);
+    }
+
+    // Called via Animation Event on the last frame of the Death Clip
+    public void OnDeathAnimationEnd()
+    {
+        if (!IsServer) return; // Only server controls despawn
+        
+        StartCoroutine(DeathHoldRoutine());
+    }
+
+    private System.Collections.IEnumerator DeathHoldRoutine()
+    {
+        // Hold on the last frame for 1 second
+        yield return new WaitForSeconds(1.0f);
+        DespawnZombie();
     }
 
     [ClientRpc]
     private void TriggerDeathAnimationClientRpc()
     {
-        // Death animation trigger - add animator parameter "Die" if needed
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
     }
 
     private void DespawnZombie()
@@ -363,7 +391,7 @@ public class ZombieBase : NetworkBehaviour
                 {
                     // Calculate local offset to top of sprite
                     float yOffset = spriteRenderer.bounds.max.y - transform.position.y;
-                    vfxInstance.transform.localPosition = new Vector3(-0.5f, yOffset - 0.2f, 0);
+                    vfxInstance.transform.localPosition = new Vector3(-0.4f, yOffset - 0.2f, 0);
                 }
                 else
                 {
@@ -373,7 +401,7 @@ public class ZombieBase : NetworkBehaviour
 
             case VFXTargetType.Feet:
             default:
-                vfxInstance.transform.localPosition = new Vector3(0, -0.6f, 0);
+                vfxInstance.transform.localPosition = new Vector3(0, -0.7f, 0);
                 break;
         }
         SpriteRenderer vfxSprite = vfxInstance.GetComponent<SpriteRenderer>();
@@ -394,7 +422,7 @@ public class ZombieBase : NetworkBehaviour
     public int GetCurrentHealth() => currentHealth.Value;
     public int GetMaxHealth() => maxHealth;
     public float GetMoveSpeed() => moveSpeed * currentSlowMultiplier;
-    public int GetDamage() => damage;
+    public int GetDamage() => Mathf.FloorToInt(damage * currentSlowMultiplier);
 
     [ClientRpc]
     private void PlayFreezeSoundClientRpc()
@@ -403,6 +431,23 @@ public class ZombieBase : NetworkBehaviour
         {
             SoundManager.Instance.PlaySound("frozen");
         }
+    }
+    [ClientRpc]
+    private void ClearStatusEffectsClientRpc()
+    {
+        // 1. Reset Color & Speed explicitly
+        ResetColorClientRpc();
+        ApplyAnimationSpeedClientRpc(1f);
+        
+        // 2. Destroy attached VFX (Butter, Ice Block)
+        // Find all children with AutoDestroyVFX
+        var effects = GetComponentsInChildren<AutoDestroyVFX>();
+        foreach (var effect in effects)
+        {
+            Destroy(effect.gameObject);
+        }
+        
+        Debug.Log("Cleared all status effects/VFX on death.");
     }
 }
 

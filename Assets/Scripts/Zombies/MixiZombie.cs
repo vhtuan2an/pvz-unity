@@ -191,30 +191,18 @@ public class MixiZombie : ZombieBase
 
     protected override void Die()
     {
+        base.Die();
+        
         if (!IsServer) return;
 
         SetWalking(false);
         SetWorking(false);
-
-        TriggerDieAnimationClientRpc();
-        Invoke(nameof(DespawnZombie), 1f);
-    }
-
-    [ClientRpc]
-    private void TriggerDieAnimationClientRpc()
-    {
-        if (animator != null)
-            animator.SetTrigger("Die");
-    }
-
-    private void DespawnZombie()
-    {
-        if (!IsServer) return;
-
-        NetworkObject netObj = GetComponent<NetworkObject>();
-        if (netObj != null && netObj.IsSpawned)
-            netObj.Despawn();
-
-        Destroy(gameObject);
+        
+        // Disable script & physics
+        enabled = false;
+        if (rb != null) rb.simulated = false;
+        // Mixi uses BoxCollider2D?
+        var col = GetComponent<BoxCollider2D>();
+        if (col != null) col.enabled = false; 
     }
 }

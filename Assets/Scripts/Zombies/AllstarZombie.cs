@@ -87,29 +87,20 @@ public class AllStarZombie : ZombieBase
 
     protected override void Die()
     {
+        base.Die();
+        
         if (!IsServer) return;
 
         // Stop movement/attack animations
         SetRunningClientRpc(false);
         SetEatingClientRpc(false);
+        
+        // Stop physics
+        enabled = false;
+        if (rb != null) rb.simulated = false;
+        if (boxCollider != null) boxCollider.enabled = false;
 
-        // Trigger die animation on clients
-        TriggerDieAnimationClientRpc();
 
-        // Despawn after dieAnimLength
-        Invoke(nameof(DespawnZombie), dieAnimLength);
-    }
-
-    private void DespawnZombie()
-    {
-        if (!IsServer) return;
-
-        NetworkObject netObj = GetComponent<NetworkObject>();
-        if (netObj != null && netObj.IsSpawned)
-        {
-            netObj.Despawn();
-        }
-        Destroy(gameObject);
     }
 
     [ClientRpc]
@@ -130,12 +121,4 @@ public class AllStarZombie : ZombieBase
         }
     }
 
-    [ClientRpc]
-    private void TriggerDieAnimationClientRpc()
-    {
-        if (animator != null)
-        {
-            animator.SetTrigger("Die");
-        }
-    }
 }

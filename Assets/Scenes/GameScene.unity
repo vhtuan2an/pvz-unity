@@ -8394,7 +8394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5588680549022619220, guid: c804a837709b27b42aad03cd712820eb, type: 3}
       propertyPath: currentBrains
-      value: 100
+      value: 999999
       objectReference: {fileID: 0}
     - target: {fileID: 5588680549022619220, guid: c804a837709b27b42aad03cd712820eb, type: 3}
       propertyPath: brainCounterText

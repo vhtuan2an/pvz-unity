@@ -30,7 +30,23 @@ public class Brain : NetworkBehaviour
     void Update()
     {
         if (!isCollected)
+        {
             transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
+            CheckHoverCollection();
+        }
+    }
+
+    void CheckHoverCollection()
+    {
+        if (!ShouldShowBrain()) return;
+
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0f;
+
+        if (Vector2.Distance(transform.position, mouseWorldPos) <= hoverCollectRadius)
+        {
+            TryCollect();
+        }
     }
 
     void OnMouseDown()

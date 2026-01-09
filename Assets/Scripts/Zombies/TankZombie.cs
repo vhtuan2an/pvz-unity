@@ -73,25 +73,15 @@ public class TankZombie : ZombieBase
 
     protected override void Die()
     {
+        base.Die();
+        
         if (!IsServer) return;
 
         SetWalkingClientRpc(false);
-        TriggerDieAnimationClientRpc();
-
-        Invoke(nameof(DespawnZombie), dieAnimLength);
-    }
-
-    private void DespawnZombie()
-    {
-        if (!IsServer) return;
-
-        NetworkObject netObj = GetComponent<NetworkObject>();
-        if (netObj != null && netObj.IsSpawned)
-        {
-            netObj.Despawn();
-        }
-
-        Destroy(gameObject);
+        
+        enabled = false;
+        if (rb != null) rb.simulated = false;
+        if (boxCollider != null) boxCollider.enabled = false;
     }
 
     // ================= RPC =================
@@ -105,12 +95,4 @@ public class TankZombie : ZombieBase
         }
     }
 
-    [ClientRpc]
-    private void TriggerDieAnimationClientRpc()
-    {
-        if (animator != null)
-        {
-            animator.SetTrigger("Die");
-        }
-    }
 }

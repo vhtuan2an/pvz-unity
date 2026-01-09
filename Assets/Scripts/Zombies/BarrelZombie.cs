@@ -46,18 +46,14 @@ public class BarrelZombie : ZombieBase
 
     protected override void Die()
     {
+        base.Die();
+
         if (!IsServer || isDead) return;
 
         isDead = true;
         CancelInvoke();
-
-        animator.SetTrigger("Die");
-        Invoke(nameof(Despawn), 1.0f);
-    }
-
-    private void Despawn()
-    {
-        if (NetworkObject != null && NetworkObject.IsSpawned)
-            NetworkObject.Despawn();
+        
+        // Stop logic
+        enabled = false;
     }
 }
