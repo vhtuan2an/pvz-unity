@@ -51,7 +51,7 @@ public class LoadingSceneManager : MonoBehaviour
     {
         if (roleText != null && LobbyManager.Instance != null)
         {
-            string role = LobbyManager.Instance.GetRoleDisplayName(LobbyManager.Instance.SelectedRole);
+            string role = LobbyManager.Instance.SelectedRole.ToString();
             roleText.text = $"Playing as: {role}";
         }
     }
@@ -156,13 +156,55 @@ public class LoadingSceneManager : MonoBehaviour
         Invoke(nameof(ReturnToLobby), 2f);
     }
 
+    private void CleanupConnection()
+    {
+        isConnecting = false;
+        
+        if (NetworkManager.Singleton != null)
+        {
+            NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
+            
+            if (NetworkManager.Singleton.IsListening)
+            {
+                NetworkManager.Singleton.Shutdown();
+            }
+        }
+    }
+
     private void ReturnToLobby()
     {
+        CleanupConnection();
+        
         if (LobbyManager.Instance != null)
         {
+            LobbyManager.Instance.ResetNetworkState();
             _ = LobbyManager.Instance.CancelMatchmaking();
         }
+        
+        // Reset transport để xóa Relay data
+        ResetTransportData();
+        
         SceneManager.LoadScene("LobbyScene");
+    }
+
+    private void ResetTransportData()
+    {
+        try
+        {
+            if (NetworkManager.Singleton != null)
+            {
+                var transport = NetworkManager.Singleton.GetComponent<Unity.Netcode.Transports.UTP.UnityTransport>();
+                if (transport != null)
+                {
+                    transport.SetConnectionData("127.0.0.1", 7777);
+                    Debug.Log("Transport data reset");
+                }
+            }
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogWarning($"Error resetting transport: {ex.Message}");
+        }
     }
 
     private void UpdateStatus(string message)
