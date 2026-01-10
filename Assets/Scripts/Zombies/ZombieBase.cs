@@ -30,7 +30,7 @@ public class ZombieBase : NetworkBehaviour
     // Slow effect tracking
     private Dictionary<string, SlowEffect> activeSlows = new Dictionary<string, SlowEffect>();
     private string currentVFXSource = null;
-    private float currentSlowMultiplier = 1f;
+    protected float currentSlowMultiplier = 1f;
 
     private class SlowEffect
     {
@@ -131,9 +131,22 @@ public class ZombieBase : NetworkBehaviour
     [ClientRpc]
     private void TriggerDeathAnimationClientRpc()
     {
-        if (animator != null)
+        // 1. Force Local Cleanup (Sync with Death Anim)
+        if (animator != null) 
         {
             animator.SetTrigger("Die");
+            animator.speed = 1f; // Ensure death plays at normal speed
+        }
+
+        if (spriteRenderer != null && originalColor != Color.clear)
+        {
+            spriteRenderer.color = originalColor;
+        }
+
+        var effects = GetComponentsInChildren<AutoDestroyVFX>();
+        foreach (var effect in effects)
+        {
+            if (effect != null) Destroy(effect.gameObject);
         }
     }
 
@@ -386,26 +399,8 @@ public class ZombieBase : NetworkBehaviour
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Adjust position based on target type
-        switch (targetType)
-        {
-            case VFXTargetType.Head:
-                if (spriteRenderer != null)
-                {
-                    // Calculate local offset to top of sprite
-                    float yOffset = spriteRenderer.bounds.max.y - transform.position.y;
-                    vfxInstance.transform.localPosition = new Vector3(-0.4f, yOffset - 0.2f, 0);
-                }
-                else
-                {
-                    vfxInstance.transform.localPosition = new Vector3(0, 1.3f, 0);
-                }
-                break;
-
-            case VFXTargetType.Feet:
-            default:
-                vfxInstance.transform.localPosition = new Vector3(0, -0.7f, 0);
-                break;
-        }
+        vfxInstance.transform.localPosition = GetVFXOffset(targetType);
+        
         SpriteRenderer vfxSprite = vfxInstance.GetComponent<SpriteRenderer>();
         if (vfxSprite != null)
         {
@@ -418,6 +413,28 @@ public class ZombieBase : NetworkBehaviour
         autoDestroy.lifetime = vfxDuration;
         
         Debug.Log($"Freeze VFX spawned for {sourceId}, will auto-destroy in {vfxDuration}s");
+    }
+
+    protected virtual Vector3 GetVFXOffset(VFXTargetType targetType)
+    {
+        switch (targetType)
+        {
+            case VFXTargetType.Head:
+                if (spriteRenderer != null)
+                {
+                    // Calculate local offset to top of sprite
+                    float yOffset = spriteRenderer.bounds.max.y - transform.position.y;
+                    return new Vector3(-0.4f, yOffset - 0.2f, 0);
+                }
+                else
+                {
+                    return new Vector3(0, 1.3f, 0);
+                }
+
+            case VFXTargetType.Feet:
+            default:
+                return new Vector3(0, -0.7f, 0);
+        }
     }
 
     // Getters

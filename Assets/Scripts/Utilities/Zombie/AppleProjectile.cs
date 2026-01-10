@@ -148,6 +148,8 @@ public class AppleProjectile : NetworkBehaviour
         }
     }
 
+    public float hitVfxDuration = 1.0f; // New: Configurable VFX duration
+    
     [ClientRpc]
     private void SpawnHitEffectClientRpc(Vector3 pos)
     {
@@ -156,11 +158,30 @@ public class AppleProjectile : NetworkBehaviour
             GameObject hitVFX = Instantiate(hitEffectPrefab, pos, Quaternion.identity);
             
             // If the prefab doesn't have auto-destroy, let's add it manually as a fallback
-            if (hitVFX.GetComponent<AutoDestroyVFX>() == null)
+            AutoDestroyVFX autoDestroy = hitVFX.GetComponent<AutoDestroyVFX>();
+            if (autoDestroy == null)
             {
-                AutoDestroyVFX autoDestroy = hitVFX.AddComponent<AutoDestroyVFX>();
-                autoDestroy.lifetime = 1.0f; // Default 1 second for animation to play
+                autoDestroy = hitVFX.AddComponent<AutoDestroyVFX>();
             }
+            
+            // Apply config duration
+            autoDestroy.lifetime = hitVfxDuration;
+
+            // Fix Sorting (prevent flickering/z-fighting)
+            SpriteRenderer sr = hitVFX.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                sr.sortingOrder = 300; // High value to sit on top of everything
+                // sr.sortingLayerName = "Projectiles"; // Optional, usually Default is fine if order is high
+            }
+        }
+    }
+    public override void OnDestroy()
+    {
+        base.OnDestroy();
+        if (instantiatedMarker != null)
+        {
+            Destroy(instantiatedMarker);
         }
     }
 }

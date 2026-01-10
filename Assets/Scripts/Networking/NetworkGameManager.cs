@@ -238,17 +238,16 @@ public class NetworkGameManager : NetworkBehaviour
             Debug.LogWarning($"Cannot despawn: NetworkObject {networkObjectId} not found!");
         }
     }
-    public void OnZombieWin()
+    public void OnZombieWin(NetworkObject winner)
     {
-        Debug.Log("🧟 Zombies win! Game Over!");
+        if (!IsServer) return;
 
-        // TODO: Add your game over logic here (2an's job), such as:
-        // - Show game over UI
-        // - Stop spawning
-        // - Notify all clients
+        Debug.Log($"🧟 Zombies win! Winner: {winner.name} ({winner.NetworkObjectId})");
 
-        // Example: Notify all clients (expand as needed)
-        ShowZombieWinClientRpc();
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.EndGameServerRpc(PlayerRole.Zombie, winner.NetworkObjectId);
+        }
     }
 
     [ClientRpc]

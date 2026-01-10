@@ -1,4 +1,5 @@
 using UnityEngine;
+using Unity.Netcode;
 
 public class ZombieWinTrigger : MonoBehaviour
 {
@@ -12,7 +13,9 @@ public class ZombieWinTrigger : MonoBehaviour
             {
                 Debug.Log($"🧟 Zombie {zombie.name} crossed the line! Zombies win!");
                 // Call your game over logic here
-                NetworkGameManager.Instance?.OnZombieWin();
+                var netObj = other.GetComponent<NetworkObject>();
+                if (netObj != null)
+                    NetworkGameManager.Instance?.OnZombieWin(netObj);
             }
         }
     }

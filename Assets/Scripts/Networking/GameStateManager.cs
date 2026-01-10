@@ -131,7 +131,7 @@ public class GameStateManager : NetworkBehaviour
         
         if (gameTimeRemaining.Value <= 0)
         {
-            EndGame(PlayerRole.None); // Time's up - draw
+            EndGame(PlayerRole.None, 0); // Time's up - draw
         }
     }
 
@@ -228,14 +228,16 @@ public class GameStateManager : NetworkBehaviour
 
     // ===================== END GAME (Legacy/Existing) =====================
 
+    // ===================== END GAME (Updated for Iris Shot) =====================
+
     [ServerRpc(RequireOwnership = false)]
-    public void EndGameServerRpc(PlayerRole winningRole)
+    public void EndGameServerRpc(PlayerRole winningRole, ulong focusNetworkId)
     {
         if (gameEnded.Value) return;
-        EndGame(winningRole);
+        EndGame(winningRole, focusNetworkId);
     }
 
-    private void EndGame(PlayerRole winningRole)
+    private void EndGame(PlayerRole winningRole, ulong focusNetworkId)
     {
         if (!IsServer) return;
         
@@ -253,36 +255,57 @@ public class GameStateManager : NetworkBehaviour
         Debug.Log($"Game ended: {result}");
         
         // Notify all clients
-        EndGameClientRpc(winningRole);
+        EndGameClientRpc(winningRole, focusNetworkId);
     }
 
     [ClientRpc]
-    private void EndGameClientRpc(PlayerRole winningRole)
+    private void EndGameClientRpc(PlayerRole winningRole, ulong focusNetworkId)
     {
         OnGameEnded?.Invoke(winningRole);
         
-        // Show end game UI
-        ShowEndGameUI(winningRole);
+        // Show end game UI with Iris focus
+        ShowEndGameUI(winningRole, focusNetworkId);
     }
 
-    private void ShowEndGameUI(PlayerRole winningRole)
+    private void ShowEndGameUI(PlayerRole winningRole, ulong focusNetworkId)
     {
-        string message = winningRole switch
+        // Try to find the focus target
+        Vector3 targetPos = Vector3.zero;
+        bool hasTarget = false;
+
+        if (NetworkManager.Singleton.SpawnManager.SpawnedObjects.TryGetValue(focusNetworkId, out NetworkObject netObj))
         {
-            PlayerRole.Plant => "Plants Win!",
-            PlayerRole.Zombie => "Zombies Win!",
-            _ => "Draw - Time's Up!"
-        };
-        
-        Debug.Log($"Game Result: {message}");
-        
-        if (ZombieWinUI.Instance != null && winningRole == PlayerRole.Zombie)
-        {
-             ZombieWinUI.Instance.ShowZombieWin();
+            if (netObj != null) 
+            {
+                targetPos = netObj.transform.position;
+                hasTarget = true;
+
+                // Freeze the winner for cinematic effect (Only if Zombie wins / reaches house)
+                // If Plant wins (Boss death), we let the death animation play.
+                if (winningRole == PlayerRole.Zombie)
+                {
+                    if (netObj.TryGetComponent(out Animator anim)) anim.speed = 0f;
+                    if (netObj.TryGetComponent(out ZombieBase zb)) zb.enabled = false;
+                }
+            }
         }
-        else if (PlantWinUI.Instance != null && winningRole == PlayerRole.Plant)
+
+        // Trigger Iris Transition
+        if (IrisTransitionUI.Instance != null)
         {
-             PlantWinUI.Instance.ShowPlantWin();
+            if (hasTarget)
+                IrisTransitionUI.Instance.PlayTransition(targetPos, winningRole);
+            else
+                IrisTransitionUI.Instance.PlayTransitionCentered(winningRole);
+        }
+        else
+        {
+            Debug.LogWarning("IrisTransitionUI not found! Falling back to legacy UI.");
+            // Legacy Fallback
+            if (ZombieWinUI.Instance != null && winningRole == PlayerRole.Zombie)
+                ZombieWinUI.Instance.ShowZombieWin();
+            else if (PlantWinUI.Instance != null && winningRole == PlayerRole.Plant)
+                PlantWinUI.Instance.ShowPlantWin();
         }
     }
 

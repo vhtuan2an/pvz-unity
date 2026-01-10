@@ -19,8 +19,140 @@ public class YourMomZombie : ZombieBase
     public float globalAttackIntervalMin = 45f;
     public float globalAttackIntervalMax = 60f;
     public GameObject appleProjectilePrefab;
+    public Transform shootPoint; // New: Specific spawn point
+    public GameObject targetMarkerPrefab; // New: Warning marker
+    public float telegraphDuration = 1.0f; // New: Warning time
+    
+    [Header("VFX Settings")]
+    public Vector3 headVFXOffset = new Vector3(0f, 2.5f, 0f);
+    public Vector3 feetVFXOffset = new Vector3(0f, -0.5f, 0f);
 
-    [Header("Patrol Area")]
+    private GameObject activeTelegraphMarker; // Local reference for cleanup
+
+    // ... (Patrol Area fields remain)
+
+    // ...
+
+    private Vector3 pendingTargetPos;
+
+    private IEnumerator PerformGlobalAttack()
+    {
+        currentState = BossState.GlobalAttack;
+        // Do NOT trigger animation yet. Just prepare.
+
+        // Wait for anim windup (removed, we control flow now)
+        // yield return new WaitForSeconds(0.5f); 
+
+        // Find Target (Random Tile)
+        Tile[] allTiles = FindObjectsOfType<Tile>();
+        if (allTiles.Length > 0)
+        {
+            Tile targetTile = allTiles[Random.Range(0, allTiles.Length)];
+            if (targetTile != null)
+            {
+                pendingTargetPos = targetTile.PlantWorldPosition;
+
+                // 1. Telegraph Phase
+                SpawnTelegraphMarkerClientRpc(pendingTargetPos);
+                Debug.Log($"Boss targeting tile: {targetTile.name} (Telegraphing...)");
+
+                yield return new WaitForSeconds(telegraphDuration);
+
+                // 2. Cleanup Marker
+                DestroyTelegraphMarkerClientRpc();
+
+                // Check Frozen AGAIN after waiting
+                if (currentSlowMultiplier <= 0f)
+                {
+                    Debug.Log("Boss frozen during telegraph - cancelling throw!");
+                    currentState = BossState.Idle;
+                    SetStateClientRpc(BossState.Idle);
+                    yield break;
+                }
+
+                // 3. Trigger Animation (The EVENT will spawn the apple)
+                SetStateClientRpc(BossState.GlobalAttack);
+            }
+        }
+        else
+        {
+            // No tiles?
+             currentState = BossState.Idle;
+             SetStateClientRpc(BossState.Idle);
+             yield break;
+        }
+
+        // Wait for Animation to finish (and Event to fire)
+        // Adjust this recovery time based on animation length if needed
+        yield return new WaitForSeconds(1.0f); 
+        
+        currentState = BossState.Idle;
+        SetStateClientRpc(BossState.Idle);
+    }
+
+    // Called via Animation Event
+    public void AnimEvent_ThrowApple()
+    {
+        if (!IsServer) return;
+        if (GlobalAttackCancelled()) return;
+
+        Debug.Log("AnimEvent: Throwing Apple!");
+        SpawnAppleProjectile(pendingTargetPos, null);
+    }
+    
+    // Safety check if needed
+    private bool GlobalAttackCancelled() => currentState != BossState.GlobalAttack;
+
+    // Custom VFX Offsets
+    protected override Vector3 GetVFXOffset(VFXTargetType targetType)
+    {
+        switch (targetType)
+        {
+            case VFXTargetType.Head:
+                return headVFXOffset;
+            case VFXTargetType.Feet:
+            default:
+                return feetVFXOffset;
+        }
+    }
+
+    [ClientRpc]
+    private void SpawnTelegraphMarkerClientRpc(Vector3 pos)
+    {
+        if (targetMarkerPrefab != null)
+        {
+            if (activeTelegraphMarker != null) Destroy(activeTelegraphMarker);
+            activeTelegraphMarker = Instantiate(targetMarkerPrefab, pos, Quaternion.identity);
+        }
+    }
+
+    [ClientRpc]
+    private void DestroyTelegraphMarkerClientRpc()
+    {
+         if (activeTelegraphMarker != null)
+         {
+             Destroy(activeTelegraphMarker);
+             activeTelegraphMarker = null;
+         }
+    }
+    
+    // ...
+
+    private void SpawnAppleProjectile(Vector3 targetPos, Transform targetTrans)
+    {
+        if (appleProjectilePrefab != null)
+        {
+            // Use shootPoint if assigned, else fallback
+            Vector3 spawnPos = shootPoint != null ? shootPoint.position : (transform.position + Vector3.up);
+            GameObject apple = Instantiate(appleProjectilePrefab, spawnPos, Quaternion.identity);
+            apple.GetComponent<NetworkObject>().Spawn();
+            AppleProjectile proj = apple.GetComponent<AppleProjectile>();
+            if (proj != null)
+            {
+                proj.Launch(targetPos, targetTrans);
+            }
+        }
+    }
     public float minX = 1.0f;
     public float maxX = 3.4f;
     public float minY = -3.2f;
@@ -143,7 +275,7 @@ public class YourMomZombie : ZombieBase
         {
              if (IsServer && GameStateManager.Instance != null)
             {
-                GameStateManager.Instance.EndGameServerRpc(PlayerRole.Plant);
+                GameStateManager.Instance.EndGameServerRpc(PlayerRole.Plant, NetworkObjectId);
                 Debug.Log("BOSS DIED - PLANTS WIN!");
             }
         }
@@ -156,11 +288,14 @@ public class YourMomZombie : ZombieBase
         // Global Attack Timer
         globalAttackTimer -= Time.deltaTime;
         
-        // Only attack if ready AND Idle (don't interrupt moving)
+        // Only attack if ready AND Idle (don't interrupt moving) AND Not Frozen
         if (globalAttackTimer <= 0 && currentState == BossState.Idle)
         {
-            StartCoroutine(PerformGlobalAttack());
-            globalAttackTimer = Random.Range(globalAttackIntervalMin, globalAttackIntervalMax);
+            if (currentSlowMultiplier > 0f) 
+            {
+                StartCoroutine(PerformGlobalAttack());
+                globalAttackTimer = Random.Range(globalAttackIntervalMin, globalAttackIntervalMax);
+            }
             return;
         }
 
@@ -216,36 +351,7 @@ public class YourMomZombie : ZombieBase
         }
     }
 
-    private IEnumerator PerformGlobalAttack()
-    {
-        currentState = BossState.GlobalAttack;
-        SetStateClientRpc(BossState.GlobalAttack); // Play Throw prep animation
 
-        // Wait for anim windup
-        yield return new WaitForSeconds(1.0f);
-
-        // Find Target (Random Tile)
-        Tile[] allTiles = FindObjectsOfType<Tile>();
-        if (allTiles.Length > 0)
-        {
-            Tile targetTile = allTiles[Random.Range(0, allTiles.Length)];
-            if (targetTile != null)
-            {
-                // Spawn Projectile targeting the TILE position (no direct transform tracking)
-                SpawnAppleProjectile(targetTile.PlantWorldPosition, null);
-                Debug.Log($"Boss targeting tile: {targetTile.name} at {targetTile.PlantWorldPosition}");
-            }
-        }
-        else
-        {
-            // Just skip for now.
-        }
-
-        // Cooldown/Finish
-        yield return new WaitForSeconds(1.0f); // Recover
-        currentState = BossState.Idle;
-        SetStateClientRpc(BossState.Idle);
-    }
     
     private void TriggerSummonAnimation()
     {
@@ -267,19 +373,7 @@ public class YourMomZombie : ZombieBase
         else if (currentState == BossState.Moving) SetStateClientRpc(BossState.Moving);
     }
 
-    private void SpawnAppleProjectile(Vector3 targetPos, Transform targetTrans)
-    {
-        if (appleProjectilePrefab != null)
-        {
-            GameObject apple = Instantiate(appleProjectilePrefab, transform.position + Vector3.up, Quaternion.identity);
-            apple.GetComponent<NetworkObject>().Spawn();
-            AppleProjectile proj = apple.GetComponent<AppleProjectile>();
-            if (proj != null)
-            {
-                proj.Launch(targetPos, targetTrans);
-            }
-        }
-    }
+
 
     [ClientRpc]
     private void SetStateClientRpc(BossState state, bool isMovingRight = false)
