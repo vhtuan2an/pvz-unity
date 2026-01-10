@@ -514,13 +514,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  gameTimeLimit: 300
+  gameTimeLimit: 900
   CurrentState:
     m_InternalValue: 0
   IsPlantReady:
     m_InternalValue: 0
   IsZombieReady:
     m_InternalValue: 0
+  bossZombiePrefab: {fileID: 6846179173368709481, guid: 054951ce3489cef4691f5d4697131fe2, type: 3}
 --- !u!4 &66192745 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7628224086499638580, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
@@ -2584,6 +2585,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
+--- !u!1 &541941317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 541941318}
+  - component: {fileID: 541941319}
+  m_Layer: 0
+  m_Name: PlantWinUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &541941318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541941317}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.919924, y: -1.4250768, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &541941319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541941317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65a9fc828eff7a4c90e2c2eec41ad2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverPanel: {fileID: 0}
+  gameOverText: {fileID: 0}
 --- !u!1 &544033523
 GameObject:
   m_ObjectHideFlags: 0
@@ -8463,7 +8510,7 @@ PrefabInstance:
       objectReference: {fileID: 2015167332}
     - target: {fileID: 5961364977802305950, guid: 00760969c6f41ab47adbd6b06f8ce376, type: 3}
       propertyPath: currentSun
-      value: 100
+      value: 99999
       objectReference: {fileID: 0}
     - target: {fileID: 5961364977802305950, guid: 00760969c6f41ab47adbd6b06f8ce376, type: 3}
       propertyPath: shovelCursorScale
@@ -8499,5 +8546,6 @@ SceneRoots:
   - {fileID: 274807122}
   - {fileID: 2049050042}
   - {fileID: 1028082549}
+  - {fileID: 541941318}
   - {fileID: 1744026789}
   - {fileID: 1097629556}

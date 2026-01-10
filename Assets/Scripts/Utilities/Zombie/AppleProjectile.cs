@@ -14,6 +14,10 @@ public class AppleProjectile : NetworkBehaviour
     private float flightTimer;
     private bool isLaunched = false;
 
+    [Header("Visuals")]
+    [SerializeField] private GameObject targetMarkerPrefab;
+    [SerializeField] private GameObject hitEffectPrefab;
+    private GameObject instantiatedMarker;
     // Optional: Target object for direct hit check
     private Transform specificTarget;
 
@@ -27,6 +31,9 @@ public class AppleProjectile : NetworkBehaviour
         flightDuration = distance / speed;
         flightTimer = 0f;
         isLaunched = true;
+
+        // Spawn Target Marker on Clients
+        SpawnMarkerClientRpc(targetPos);
     }
 
     void Update()
@@ -50,6 +57,12 @@ public class AppleProjectile : NetworkBehaviour
         
         // Visual Rotation (spin the apple)
         transform.Rotate(0, 0, -360f * Time.deltaTime);
+
+        // Visual Rotation (spin the target marker if it exists)
+        if (instantiatedMarker != null)
+        {
+            instantiatedMarker.transform.Rotate(0, 0, 180f * Time.deltaTime); // Spin slower than apple? or same?
+        }
     }
 
     void HitTarget()
@@ -62,15 +75,16 @@ public class AppleProjectile : NetworkBehaviour
              NetworkGameManager.Instance.PlaySoundClientRpc("splat"); // Reusing splat sound
         }
 
+        // Destroy Marker
+        DestroyMarkerClientRpc();
+        
+        // Spawn Hit Effect
+        SpawnHitEffectClientRpc(transform.position);
+
         // Damage logic
-        // 1. Try specific target first
+        // 1. Try specific target first (if assigned)
         if (specificTarget != null)
         {
-            // Try get PlantBase (or whatever takes damage, might be PlantBase logic)
-            // Note: Plants usually don't have a specific 'TakeDamage' in the same way Zombies do in this codebase?
-            // Need to check how zombies damage plants. Usually via 'Eat' or 'Projectile'.
-            // Plants have 'TakeDamage'.
-            
             PlantBase plant = specificTarget.GetComponent<PlantBase>();
             if (plant != null)
             {
@@ -79,12 +93,12 @@ public class AppleProjectile : NetworkBehaviour
             }
             else
             {
-                // Should do a small area check if specific target is missing?
                 CheckAreaDamage(targetPos);
             }
         }
         else
         {
+            // If no specific target (Tile Targeting), always check area
             CheckAreaDamage(targetPos);
         }
 
@@ -113,6 +127,40 @@ public class AppleProjectile : NetworkBehaviour
         {
             GetComponent<NetworkObject>().Despawn();
             Destroy(gameObject);
+        }
+    }
+
+    [ClientRpc]
+    private void SpawnMarkerClientRpc(Vector3 pos)
+    {
+        if (targetMarkerPrefab != null)
+        {
+            instantiatedMarker = Instantiate(targetMarkerPrefab, pos, Quaternion.identity);
+        }
+    }
+
+    [ClientRpc]
+    private void DestroyMarkerClientRpc()
+    {
+        if (instantiatedMarker != null)
+        {
+            Destroy(instantiatedMarker);
+        }
+    }
+
+    [ClientRpc]
+    private void SpawnHitEffectClientRpc(Vector3 pos)
+    {
+        if (hitEffectPrefab != null)
+        {
+            GameObject hitVFX = Instantiate(hitEffectPrefab, pos, Quaternion.identity);
+            
+            // If the prefab doesn't have auto-destroy, let's add it manually as a fallback
+            if (hitVFX.GetComponent<AutoDestroyVFX>() == null)
+            {
+                AutoDestroyVFX autoDestroy = hitVFX.AddComponent<AutoDestroyVFX>();
+                autoDestroy.lifetime = 1.0f; // Default 1 second for animation to play
+            }
         }
     }
 }

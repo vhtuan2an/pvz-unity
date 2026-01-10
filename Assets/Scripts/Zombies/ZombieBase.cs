@@ -49,6 +49,8 @@ public class ZombieBase : NetworkBehaviour
         );
     }
 
+    protected float currentSpeed => moveSpeed * currentSlowMultiplier;
+
     protected virtual void Start()
     {
         animator = GetComponent<Animator>();
@@ -65,7 +67,7 @@ public class ZombieBase : NetworkBehaviour
         }
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (IsServer)
         {
@@ -451,22 +453,3 @@ public class ZombieBase : NetworkBehaviour
     }
 }
 
-public class AutoDestroyVFX : MonoBehaviour
-{
-    public float lifetime = 5f;
-    private float spawnTime;
-
-    private void Start()
-    {
-        spawnTime = Time.time;
-    }
-
-    private void Update()
-    {
-        if (Time.time >= spawnTime + lifetime)
-        {
-            Debug.Log($"Auto-destroying VFX after {lifetime}s");
-            Destroy(gameObject);
-        }
-    }
-}

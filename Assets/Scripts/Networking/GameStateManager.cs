@@ -186,6 +186,9 @@ public class GameStateManager : NetworkBehaviour
     }
 
     // ===================== FLOW TRIGGERS =====================
+    
+    [Header("Boss Spawn")]
+    [SerializeField] private GameObject bossZombiePrefab;
 
     [ServerRpc(RequireOwnership = false)]
     public void ReportIntroFinishedServerRpc()
@@ -203,6 +206,23 @@ public class GameStateManager : NetworkBehaviour
         if (CurrentState.Value == GameState.Countdown)
         {
             SetState(GameState.Playing);
+            
+            // Spawn Boss
+            SpawnBoss();
+        }
+    }
+
+    private void SpawnBoss()
+    {
+        if (bossZombiePrefab != null)
+        {
+            GameObject boss = Instantiate(bossZombiePrefab, Vector3.zero, Quaternion.identity); // Position handled by Boss script intro
+            boss.GetComponent<NetworkObject>().Spawn();
+            Debug.Log("BOSS SPAWNED!");
+        }
+        else
+        {
+             Debug.LogWarning("Boss Prefab not assigned in GameStateManager!");
         }
     }
 
@@ -259,6 +279,10 @@ public class GameStateManager : NetworkBehaviour
         if (ZombieWinUI.Instance != null && winningRole == PlayerRole.Zombie)
         {
              ZombieWinUI.Instance.ShowZombieWin();
+        }
+        else if (PlantWinUI.Instance != null && winningRole == PlayerRole.Plant)
+        {
+             PlantWinUI.Instance.ShowPlantWin();
         }
     }
 
