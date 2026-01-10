@@ -30,6 +30,9 @@ public class UnityAuthManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            
+            // Cleanup ngay trong Awake - trước khi bất kỳ network activity nào xảy ra
+            CleanupPreviousNetworkSession();
         }
         else
         {
@@ -46,6 +49,8 @@ public class UnityAuthManager : MonoBehaviour
     {
         try
         {
+            // Không cần gọi CleanupPreviousNetworkSession() ở đây nữa vì đã gọi trong Awake
+            
             await UnityServices.InitializeAsync();
             Debug.Log("Unity Services initialized successfully");
 
@@ -71,6 +76,45 @@ public class UnityAuthManager : MonoBehaviour
         catch (Exception e)
         {
             Debug.LogError($"Failed to initialize Unity Services: {e.Message}");
+        }
+    }
+
+    /// <summary>
+    /// Dọn dẹp network session từ phiên trước để tránh lỗi "allocation ID not found"
+    /// </summary>
+    private void CleanupPreviousNetworkSession()
+    {
+        try
+        {
+            // Reset LobbyManager state nếu có
+            if (LobbyManager.Instance != null)
+            {
+                LobbyManager.Instance.ResetNetworkState();
+                Debug.Log("LobbyManager state reset");
+            }
+
+            // Shutdown và reset NetworkManager nếu đang active
+            if (Unity.Netcode.NetworkManager.Singleton != null)
+            {
+                if (Unity.Netcode.NetworkManager.Singleton.IsListening)
+                {
+                    Unity.Netcode.NetworkManager.Singleton.Shutdown();
+                    Debug.Log("NetworkManager shutdown completed");
+                }
+
+                // Reset UnityTransport để xóa Relay data cũ
+                var transport = Unity.Netcode.NetworkManager.Singleton.GetComponent<Unity.Netcode.Transports.UTP.UnityTransport>();
+                if (transport != null)
+                {
+                    // Reset về default local connection (không dùng Relay)
+                    transport.SetConnectionData("127.0.0.1", 7777);
+                    Debug.Log("UnityTransport reset to default");
+                }
+            }
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogWarning($"Error during network cleanup: {ex.Message}");
         }
     }
 

@@ -11,6 +11,7 @@ using UnityEngine.SceneManagement;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
 using System.Linq;
+using System.Threading;
 
 public class LobbyManager : MonoBehaviour
 {
@@ -18,13 +19,15 @@ public class LobbyManager : MonoBehaviour
 
     [Header("Lobby Settings")]
     [SerializeField] private int maxPlayers = 2;
-    // [SerializeField] private float lobbyPollInterval = 3f;
-    [SerializeField] private float lobbyHeartbeatInterval = 1.5f;
-    private float lastPollTime = 0f;
-    private float minPollInterval = 10f; // Minimum 10 seconds between polls
+    [SerializeField] private float lobbyHeartbeatInterval = 15f;
+    
+    // Giảm polling interval để match nhanh hơn
+    private float minPollInterval = 2f; // Giảm từ 10s xuống 2s
+    private float maxPollInterval = 30f;
     private int consecutiveErrors = 0;
-    private float maxPollInterval = 30f; // Maximum 30 seconds between polls
 
+    // Cancellation token để dừng polling an toàn
+    private CancellationTokenSource pollCancellationTokenSource;
 
     public PlayerRole SelectedRole { get; private set; } = PlayerRole.None;
     public bool IsSearching { get; private set; }
@@ -33,7 +36,7 @@ public class LobbyManager : MonoBehaviour
     // Events
     public event Action<PlayerRole> OnRoleSelected;
     public event Action OnMatchmakingStarted;
-    public event Action<string> OnMatchFound; // lobbyId
+    public event Action<string> OnMatchFound;
     public event Action<string> OnMatchmakingFailed;
     public event Action OnMatchmakingCancelled;
 
@@ -214,39 +217,102 @@ public class LobbyManager : MonoBehaviour
 
     private void StartPolling()
     {
+        // Cancel any existing polling
+        StopPolling();
+        
+        pollCancellationTokenSource = new CancellationTokenSource();
         nextHeartbeat = Time.time + lobbyHeartbeatInterval;
-        PollLobby();
+        PollLobby(pollCancellationTokenSource.Token);
     }
 
-    private async void PollLobby()
+    private void StopPolling()
     {
-        if (isPolling) return; // guard: ensure single poll loop
+        isPolling = false;
+        pollCancellationTokenSource?.Cancel();
+        pollCancellationTokenSource?.Dispose();
+        pollCancellationTokenSource = null;
+    }
+
+    private async void PollLobby(CancellationToken cancellationToken)
+    {
+        if (isPolling) return;
         isPolling = true;
 
-        float baseInterval = Mathf.Max(10f, minPollInterval); // safer minimum, increased from 3f
+        float baseInterval = minPollInterval; // Giảm xuống 2s
         float currentInterval = baseInterval;
         consecutiveErrors = 0;
 
         try
         {
-            while (isPolling && IsSearching && CurrentLobby != null)
+            while (isPolling && IsSearching && !cancellationToken.IsCancellationRequested)
             {
-                // Add small random jitter to avoid thundering herd (0-2s)
-                float jitter = UnityEngine.Random.Range(0f, 2f);
-                await Task.Delay(TimeSpan.FromSeconds(currentInterval + jitter));
+                // Kiểm tra CurrentLobby trước khi tiếp tục
+                if (CurrentLobby == null)
+                {
+                    Debug.LogWarning("CurrentLobby is null, stopping polling.");
+                    break;
+                }
+                
+                // Lưu lobby ID để tránh null reference
+                string lobbyId = CurrentLobby?.Id;
+                if (string.IsNullOrEmpty(lobbyId))
+                {
+                    Debug.LogWarning("Lobby ID is null, stopping polling.");
+                    break;
+                }
+
+                // Add small random jitter (0-1s) - giảm jitter
+                float jitter = UnityEngine.Random.Range(0f, 1f);
+                
+                try
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(currentInterval + jitter), cancellationToken);
+                }
+                catch (TaskCanceledException)
+                {
+                    Debug.Log("Polling cancelled during delay.");
+                    break;
+                }
+
+                // Kiểm tra lại sau delay
+                if (cancellationToken.IsCancellationRequested || CurrentLobby == null)
+                {
+                    break;
+                }
 
                 try
                 {
-                    // Only host should send heartbeat frequently
+                    // Only host should send heartbeat
                     if (IsLobbyHost() && Time.time >= nextHeartbeat)
                     {
-                        await LobbyService.Instance.SendHeartbeatPingAsync(CurrentLobby.Id);
-                        nextHeartbeat = Time.time + lobbyHeartbeatInterval;
-                        Debug.Log("Lobby heartbeat sent");
+                        try
+                        {
+                            await LobbyService.Instance.SendHeartbeatPingAsync(lobbyId);
+                            nextHeartbeat = Time.time + lobbyHeartbeatInterval;
+                            Debug.Log("Lobby heartbeat sent");
+                        }
+                        catch (LobbyServiceException hex)
+                        {
+                            // Nếu lobby không tồn tại, thoát
+                            if (hex.Reason == LobbyExceptionReason.LobbyNotFound)
+                            {
+                                Debug.LogWarning("Lobby not found during heartbeat.");
+                                HandleLobbyNotFound();
+                                break;
+                            }
+                        }
                     }
 
+                    // Kiểm tra cancellation trước khi poll
+                    if (cancellationToken.IsCancellationRequested) break;
+
                     // Poll lobby state
-                    CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                    var updatedLobby = await LobbyService.Instance.GetLobbyAsync(lobbyId);
+                    
+                    // Kiểm tra cancellation sau khi poll
+                    if (cancellationToken.IsCancellationRequested) break;
+                    
+                    CurrentLobby = updatedLobby;
                     Debug.Log($"Lobby poll - Players: {CurrentLobby.Players.Count}/{CurrentLobby.MaxPlayers}");
 
                     // Reset backoff on success
@@ -260,61 +326,61 @@ public class LobbyManager : MonoBehaviour
                         LogLobbyPlayers();
 
                         IsSearching = false;
-                        isPolling = false;
+                        StopPolling();
                         OnMatchFound?.Invoke(CurrentLobby.Id);
                         StartNetworkGame();
-                        break;
+                        return; // Exit method completely
                     }
                 }
                 catch (LobbyServiceException lex)
                 {
+                    if (cancellationToken.IsCancellationRequested) break;
+                    
                     consecutiveErrors++;
                     string msg = lex.Message ?? lex.Reason.ToString();
                     Debug.LogError($"Error polling lobby (attempt {consecutiveErrors}): {msg}");
 
+                    if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
+                    {
+                        HandleLobbyNotFound();
+                        break;
+                    }
+
                     // Detect rate limit
                     bool isRateLimit = lex.Message?.Contains("Too Many Requests") == true
-                                       || lex.Message?.Contains("Rate Limited") == true
-                                       || lex.Reason == LobbyExceptionReason.Unknown;
+                                       || lex.Message?.Contains("Rate Limited") == true;
 
                     if (isRateLimit)
                     {
-                        // Exponential backoff with cap + jitter
-                        currentInterval = Mathf.Min(currentInterval * 2f, 60f); // cap at 60s
+                        currentInterval = Mathf.Min(currentInterval * 2f, 60f);
                         currentInterval += UnityEngine.Random.Range(0f, 5f);
                         Debug.LogWarning($"Rate limited -> backing off. New interval: {currentInterval}s");
                     }
-                    else if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
-                    {
-                        await CancelMatchmaking();
-                        OnMatchmakingFailed?.Invoke("Lobby was closed");
-                        break;
-                    }
                     else
                     {
-                        // transient error: moderate backoff
-                        currentInterval = Mathf.Min(currentInterval * 1.5f, 30f);
-                        Debug.LogWarning($"Transient lobby error, increasing interval to {currentInterval}s");
+                        currentInterval = Mathf.Min(currentInterval * 1.5f, maxPollInterval);
                     }
 
                     if (consecutiveErrors >= 6)
                     {
                         Debug.LogError("Too many consecutive errors polling lobby, cancelling matchmaking.");
-                        await CancelMatchmaking();
+                        await SafeCancelMatchmaking();
                         OnMatchmakingFailed?.Invoke("Connection issues - polling failed repeatedly");
                         break;
                     }
                 }
                 catch (Exception ex)
                 {
+                    if (cancellationToken.IsCancellationRequested) break;
+                    
                     consecutiveErrors++;
                     Debug.LogError($"Unexpected error polling lobby: {ex.Message}");
-                    currentInterval = Mathf.Min(currentInterval * 1.5f, 30f);
+                    currentInterval = Mathf.Min(currentInterval * 1.5f, maxPollInterval);
 
                     if (consecutiveErrors >= 6)
                     {
                         Debug.LogError("Too many consecutive errors polling lobby, cancelling matchmaking.");
-                        await CancelMatchmaking();
+                        await SafeCancelMatchmaking();
                         OnMatchmakingFailed?.Invoke("Connection issues - polling failed repeatedly");
                         break;
                     }
@@ -324,6 +390,88 @@ public class LobbyManager : MonoBehaviour
         finally
         {
             isPolling = false;
+        }
+    }
+
+    private void HandleLobbyNotFound()
+    {
+        Debug.LogWarning("Lobby was closed or deleted by host.");
+        IsSearching = false;
+        CurrentLobby = null;
+        StopPolling();
+        OnMatchmakingFailed?.Invoke("Lobby was closed by host");
+    }
+
+    // Safe cancel without throwing
+    private async Task SafeCancelMatchmaking()
+    {
+        try
+        {
+            await CancelMatchmaking();
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"Error during safe cancel: {ex.Message}");
+            // Reset state anyway
+            IsSearching = false;
+            CurrentLobby = null;
+        }
+    }
+
+    public async Task CancelMatchmaking()
+    {
+        // Dừng polling trước
+        StopPolling();
+        
+        if (!IsSearching && CurrentLobby == null)
+            return;
+
+        string lobbyId = CurrentLobby?.Id;
+        bool wasHost = CurrentLobby != null && IsLobbyHost();
+
+        // Reset state trước khi gọi API
+        IsSearching = false;
+        var tempLobby = CurrentLobby;
+        CurrentLobby = null;
+
+        if (string.IsNullOrEmpty(lobbyId))
+        {
+            OnMatchmakingCancelled?.Invoke();
+            return;
+        }
+
+        try
+        {
+            if (wasHost)
+            {
+                await LobbyService.Instance.DeleteLobbyAsync(lobbyId);
+                Debug.Log("Lobby deleted (host left)");
+            }
+            else
+            {
+                await LobbyService.Instance.RemovePlayerAsync(lobbyId, AuthenticationService.Instance.PlayerId);
+                Debug.Log("Left lobby");
+            }
+        }
+        catch (LobbyServiceException lex)
+        {
+            // Lobby có thể đã bị xóa, không cần báo lỗi nghiêm trọng
+            if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
+            {
+                Debug.LogWarning("Lobby already deleted.");
+            }
+            else
+            {
+                Debug.LogError($"Failed to cancel matchmaking: {lex.Message}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"Failed to cancel matchmaking: {ex.Message}");
+        }
+        finally
+        {
+            OnMatchmakingCancelled?.Invoke();
         }
     }
 
@@ -341,54 +489,6 @@ public class LobbyManager : MonoBehaviour
     private bool IsLobbyHost()
     {
         return CurrentLobby != null && CurrentLobby.HostId == AuthenticationService.Instance.PlayerId;
-    }
-
-    public async Task CancelMatchmaking()
-    {
-        if (!IsSearching || CurrentLobby == null)
-            return;
-
-        try
-        {
-            isPolling = false;
-
-            if (IsLobbyHost())
-            {
-                await LobbyService.Instance.DeleteLobbyAsync(CurrentLobby.Id);
-                Debug.Log("Lobby deleted (host left)");
-            }
-            else
-            {
-                await LobbyService.Instance.RemovePlayerAsync(CurrentLobby.Id, AuthenticationService.Instance.PlayerId);
-                Debug.Log("Left lobby");
-            }
-
-            IsSearching = false;
-            CurrentLobby = null;
-            OnMatchmakingCancelled?.Invoke();
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"Failed to cancel matchmaking: {ex.Message}");
-        }
-    }
-
-    public string GetRoleDisplayName(PlayerRole role)
-    {
-        return role switch
-        {
-            PlayerRole.Plant => "Plants",
-            PlayerRole.Zombie => "Zombies",
-            _ => "None"
-        };
-    }
-
-    private void OnDestroy()
-    {
-        if (IsSearching)
-        {
-            _ = CancelMatchmaking();
-        }
     }
 
     private void StartNetworkGame()
@@ -480,55 +580,59 @@ public class LobbyManager : MonoBehaviour
         CurrentLobby = null;
     }
 
-
-
-
-
-    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 10, float initialDelay = 2f)
+    private async Task<string> GetJoinCodeWithRetry(int maxRetries = 15, float initialDelay = 1f)
     {
         float currentDelay = initialDelay;
-        const float maxDelay = 10f;
-        const float backoffMultiplier = 1.5f;
+        const float maxDelay = 5f; // Giảm từ 10s xuống 5s
+        const float backoffMultiplier = 1.3f; // Giảm từ 1.5 xuống 1.3
 
         for (int i = 0; i < maxRetries; i++)
         {
-            if (CurrentLobby != null)
+            if (CurrentLobby == null)
             {
-                try
+                Debug.LogWarning("CurrentLobby is null while waiting for join code");
+                return null;
+            }
+
+            try
+            {
+                // Refresh lobby để lấy data mới nhất
+                CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
+                
+                string joinCode = GetJoinCodeFromLobby();
+                if (!string.IsNullOrEmpty(joinCode))
                 {
-                    CurrentLobby = await LobbyService.Instance.GetLobbyAsync(CurrentLobby.Id);
-                    
-                    string joinCode = GetJoinCodeFromLobby();
-                    if (!string.IsNullOrEmpty(joinCode))
-                    {
-                        Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
-                        return joinCode;
-                    }
+                    Debug.Log($"Found join code after {i + 1} attempts: {joinCode}");
+                    return joinCode;
                 }
-                catch (LobbyServiceException lex)
+            }
+            catch (LobbyServiceException lex)
+            {
+                if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
                 {
-                    // Rate limit detected - increase delay significantly
-                    if (lex.Message?.Contains("Too Many Requests") == true || 
-                        lex.Message?.Contains("Rate Limited") == true)
-                    {
-                        currentDelay = Mathf.Min(currentDelay * 2f, maxDelay);
-                        Debug.LogWarning($"Rate limited while getting join code. Increasing delay to {currentDelay}s");
-                    }
-                    else
-                    {
-                        Debug.LogWarning($"Failed to refresh lobby: {lex.Message}");
-                    }
+                    Debug.LogError("Lobby was deleted while waiting for join code");
+                    return null;
                 }
-                catch (Exception ex)
+
+                if (lex.Message?.Contains("Too Many Requests") == true || 
+                    lex.Message?.Contains("Rate Limited") == true)
                 {
-                    Debug.LogWarning($"Failed to refresh lobby: {ex.Message}");
+                    currentDelay = Mathf.Min(currentDelay * 2f, maxDelay);
+                    Debug.LogWarning($"Rate limited while getting join code. Increasing delay to {currentDelay}s");
                 }
+                else
+                {
+                    Debug.LogWarning($"Failed to refresh lobby: {lex.Message}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"Failed to refresh lobby: {ex.Message}");
             }
 
             Debug.Log($"Join code not ready, waiting {currentDelay:F1}s... ({i + 1}/{maxRetries})");
             await Task.Delay(TimeSpan.FromSeconds(currentDelay));
             
-            // Exponential backoff với cap
             currentDelay = Mathf.Min(currentDelay * backoffMultiplier, maxDelay);
         }
 
@@ -700,5 +804,14 @@ public class LobbyManager : MonoBehaviour
             if (Enum.TryParse<PlayerRole>(host.Data["role"].Value, out var r)) return r;
         }
         return PlayerRole.None;
+    }
+
+    private void OnDestroy()
+    {
+        StopPolling();
+        if (IsSearching)
+        {
+            _ = CancelMatchmaking();
+        }
     }
 }

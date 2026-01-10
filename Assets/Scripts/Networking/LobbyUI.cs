@@ -223,6 +223,27 @@ public class LobbyUI : MonoBehaviour
 
     private void OnLogoutClicked()
     {
+        // Cleanup network trước khi logout
+        if (LobbyManager.Instance != null)
+        {
+            LobbyManager.Instance.ResetNetworkState();
+        }
+        
+        // Reset transport
+        if (Unity.Netcode.NetworkManager.Singleton != null)
+        {
+            if (Unity.Netcode.NetworkManager.Singleton.IsListening)
+            {
+                Unity.Netcode.NetworkManager.Singleton.Shutdown();
+            }
+            
+            var transport = Unity.Netcode.NetworkManager.Singleton.GetComponent<Unity.Netcode.Transports.UTP.UnityTransport>();
+            if (transport != null)
+            {
+                transport.SetConnectionData("127.0.0.1", 7777);
+            }
+        }
+        
         if (UnityAuthManager.Instance != null)
         {
             UnityAuthManager.Instance.SignOut();
