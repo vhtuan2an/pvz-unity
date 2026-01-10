@@ -155,7 +155,9 @@ public class YourMomZombie : ZombieBase
 
         // Global Attack Timer
         globalAttackTimer -= Time.deltaTime;
-        if (globalAttackTimer <= 0)
+        
+        // Only attack if ready AND Idle (don't interrupt moving)
+        if (globalAttackTimer <= 0 && currentState == BossState.Idle)
         {
             StartCoroutine(PerformGlobalAttack());
             globalAttackTimer = Random.Range(globalAttackIntervalMin, globalAttackIntervalMax);
@@ -288,25 +290,23 @@ public class YourMomZombie : ZombieBase
             // Ensure scale is normal (animations handle direction)
             transform.localScale = Vector3.one;
 
+            // 0 = Idle, 1 = Left, 2 = Right
+            int moveState = 0;
+            if (state == BossState.Moving || state == BossState.Intro)
+            {
+                moveState = isMovingRight ? 2 : 1;
+            }
+            animator.SetInteger("isMoving", moveState);
+
+            // Trigger One-Shot Animations
             switch (state)
             {
-                case BossState.Idle:
-                    animator.CrossFade("idle", 0.2f);
-                    break;
-                    
-                case BossState.Moving:
-                    if (isMovingRight)
-                        animator.CrossFade("klaw", 0.2f); // Right walk
-                    else
-                        animator.CrossFade("walk", 0.2f); // Left walk
-                    break;
-                    
                 case BossState.GlobalAttack:
-                    animator.CrossFade("throw", 0.2f);
+                    animator.SetTrigger("Throw");
                     break;
                     
                 case BossState.Summoning:
-                    animator.CrossFade("summon", 0.2f);
+                    animator.SetTrigger("Summon");
                     break;
             }
         }

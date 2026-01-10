@@ -143,6 +143,8 @@ public class BonkChoy : PlantBase
     private void UpdatePunchAnimationClientRpc(PunchSide side, bool hasTargets)
     {
         currentSide = side;
+        if (animator == null) animator = GetComponent<Animator>();
+        if (animator == null) return;
 
         if (side == PunchSide.Left)
         {
