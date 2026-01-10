@@ -14,7 +14,7 @@ public class BasicZombie : ZombieBase
     [SerializeField] private float startDelay = 0.5f; 
 
     [Header("Animation")]
-    [SerializeField] private float dieAnimLength = 1.0f; 
+    // private float dieAnimLength = 1.0f; // Removed 
 
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
@@ -87,29 +87,14 @@ public class BasicZombie : ZombieBase
 
     protected override void Die()
     {
-        if (!IsServer) return;
-
-        // Stop movement/attack animations
-        SetWalkingClientRpc(false);
-        SetEatingClientRpc(false);
-
-        // Trigger die animation on clients
-        TriggerDieAnimationClientRpc();
-
-        // Despawn after dieAnimLength
-        Invoke(nameof(DespawnZombie), dieAnimLength);
-    }
-
-    private void DespawnZombie()
-    {
-        if (!IsServer) return;
-
-        NetworkObject netObj = GetComponent<NetworkObject>();
-        if (netObj != null && netObj.IsSpawned)
-        {
-            netObj.Despawn();
-        }
-        Destroy(gameObject);
+        base.Die();
+        
+        // Stop this script to prevent FixedUpdate movement
+        enabled = false;
+        
+        // Disable physics
+        if (rb != null) rb.simulated = false;
+        if (boxCollider != null) boxCollider.enabled = false;
     }
 
     [ClientRpc]
@@ -127,15 +112,6 @@ public class BasicZombie : ZombieBase
         if (animator != null)
         {
             animator.SetBool("isEating", isEating);
-        }
-    }
-
-    [ClientRpc]
-    private void TriggerDieAnimationClientRpc()
-    {
-        if (animator != null)
-        {
-            animator.SetTrigger("Die");
         }
     }
 }

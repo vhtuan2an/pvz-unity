@@ -95,29 +95,15 @@ public class Cannon : ZombieBase
 
     protected override void Die()
     {
+        base.Die();
+        
         if (!IsServer || isDead) return;
 
         isDead = true;
-
-
         fireTimer = float.MaxValue;
-
-        DieClientRpc();
-
-
-        Invoke(nameof(DespawnCannon), dieAnimDuration);
-    }
-
-    private void DespawnCannon()
-    {
-        if (!IsServer) return;
-
-        NetworkObject netObj = GetComponent<NetworkObject>();
-        if (netObj != null && netObj.IsSpawned)
-        {
-            netObj.Despawn();
-        }
-        Destroy(gameObject);
+        
+        // Stop logic
+        enabled = false;
     }
 
     /* =========================
@@ -138,15 +124,4 @@ public class Cannon : ZombieBase
             animator.SetBool("isFiring", false);
     }
 
-    [ClientRpc]
-    private void DieClientRpc()
-    {
-        if (animator == null)
-            animator = GetComponent<Animator>();
-
-        if (animator != null)
-        {
-            animator.SetTrigger("Die"); 
-        }
-    }
 }

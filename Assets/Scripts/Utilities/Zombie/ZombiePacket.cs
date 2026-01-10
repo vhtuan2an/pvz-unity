@@ -26,6 +26,12 @@ public class ZombiePacket : MonoBehaviour
         {
             RefreshUI();
         }
+
+        // Register with Manager
+        if (ZombieManager.Instance != null)
+        {
+            ZombieManager.Instance.RegisterZombiePacket(this);
+        }
     }
 
     public void AssignZombie(GameObject prefab)
@@ -87,6 +93,14 @@ public class ZombiePacket : MonoBehaviour
     {
         if (onCooldown || cooldown <= 0f) return;
         StartCoroutine(CooldownRoutine());
+    }
+    
+    public void SetDimmed(bool dimmed)
+    {
+        if (icon != null)
+        {
+            icon.color = dimmed ? Color.gray : Color.white;
+        }
     }
 
     IEnumerator CooldownRoutine()

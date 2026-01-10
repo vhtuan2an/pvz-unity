@@ -17,12 +17,33 @@ public class ZombieManager : MonoBehaviour
     public ZombieBase selectedZombie;      // zombie đang được chọn từ ZombiePacket
     private ZombiePacket selectedPacket;   // packet UI để gọi cooldown
 
+    // --- Events ---
+    public event System.Action OnZombieSpawnEvent;
+
+    // --- Packet Management ---
+    private System.Collections.Generic.List<ZombiePacket> allZombiePackets = new System.Collections.Generic.List<ZombiePacket>();
+
+    // --- Preview System ---
+    private GameObject previewObject;
+    private SpriteRenderer previewRenderer;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
         UpdateBrainsUI();
+        CreatePreviewObject();
+    }
+
+    private void CreatePreviewObject()
+    {
+        previewObject = new GameObject("ZombiePreview");
+        previewRenderer = previewObject.AddComponent<SpriteRenderer>();
+        previewRenderer.sortingOrder = 100; // High sorting order to be visible
+        // Set a default semi-transparent material or color if needed
+        previewRenderer.color = new Color(1f, 1f, 1f, 0.6f); 
+        previewObject.SetActive(false);
     }
 
     //==============================
@@ -55,6 +76,14 @@ public class ZombieManager : MonoBehaviour
     //==============================
     //  Zombie Selection
     //==============================
+    public void RegisterZombiePacket(ZombiePacket packet)
+    {
+        if (!allZombiePackets.Contains(packet))
+        {
+            allZombiePackets.Add(packet);
+        }
+    }
+
     public void SelectZombie(ZombieBase zombie, ZombiePacket packet = null)
     {
         selectedZombie = zombie;
@@ -62,6 +91,13 @@ public class ZombieManager : MonoBehaviour
         if (selectedZombie != null)
         {
             Debug.Log($"🧟 Selected zombie: {selectedZombie.name}, Cost: {selectedZombie.GetBrainCost()}");
+            SetPreviewSprite(zombie.gameObject);
+            
+            // Dim other packets
+            foreach (var p in allZombiePackets)
+            {
+                p.SetDimmed(p != packet);
+            }
         }
     }
 
@@ -87,6 +123,15 @@ public class ZombieManager : MonoBehaviour
     {
         selectedZombie = null;
         selectedPacket = null;
+        
+        // Hide preview
+        if (previewObject != null) previewObject.SetActive(false);
+        
+        // Undim all packets
+        foreach (var p in allZombiePackets)
+        {
+            p.SetDimmed(false);
+        }
     }
 
     //==============================
@@ -136,8 +181,20 @@ public class ZombieManager : MonoBehaviour
         // Trừ brain
         currentBrains -= cost;
         UpdateBrainsUI();
+        
+        // Start cooldown
+        if (selectedPacket != null)
+        {
+            selectedPacket.StartCooldown();
+        }
 
         Debug.Log($"✅ Zombie spawn requested! Brains remaining: {currentBrains}");
+
+        // Trigger Spawn Event (for Boss reaction)
+        OnZombieSpawnEvent?.Invoke();
+        
+        // Clear selection after spawn (optional, keep selected for multi-spawn? usually clear)
+        ClearSelection();
     }
 
     public void OnZombieSpawned(GameObject zombieObject)
@@ -155,6 +212,8 @@ public class ZombieManager : MonoBehaviour
         if (LobbyManager.Instance == null || LobbyManager.Instance.SelectedRole != PlayerRole.Zombie)
             return;
 
+        UpdatePreview();
+
         if (selectedZombie == null)
             return;
 
@@ -170,17 +229,84 @@ public class ZombieManager : MonoBehaviour
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 pos2D = new Vector2(worldPos.x, worldPos.y);
 
-            RaycastHit2D hit = Physics2D.Raycast(pos2D, Vector2.zero);
+            // Use RaycastAll to filter through any blocking colliders
+            RaycastHit2D[] hits = Physics2D.RaycastAll(pos2D, Vector2.zero);
 
-            if (hit.collider != null)
+            foreach (var hit in hits)
             {
                 ZombieLaneClick lane = hit.collider.GetComponent<ZombieLaneClick>();
 
                 if (lane != null)
                 {
-                    lane.RequestSpawnZombieOnLane(); // hàm public đã sửa
+                    lane.RequestSpawnZombieOnLane();
+                    return; // Stop after finding the first valid lane
                 }
             }
+        }
+    }
+    
+    private void UpdatePreview()
+    {
+        if (selectedZombie == null)
+        {
+            if (previewObject.activeSelf) previewObject.SetActive(false);
+            return;
+        }
+
+        // Raycast to find lane under mouse
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 pos2D = new Vector2(worldPos.x, worldPos.y);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(pos2D, Vector2.zero);
+        
+        ZombieLaneClick lane = null;
+        foreach (var hit in hits)
+        {
+            var l = hit.collider.GetComponent<ZombieLaneClick>();
+            if (l != null)
+            {
+                lane = l;
+                break;
+            }
+        }
+
+        if (lane != null && lane.spawnPoint != null)
+        {
+            if (!previewObject.activeSelf) previewObject.SetActive(true);
+            
+            // Set position to lane's spawn point
+            previewObject.transform.position = lane.spawnPoint.position;
+            
+            // Update Color based on cost
+            int cost = selectedZombie.GetBrainCost();
+            bool enoughBrains = currentBrains >= cost;
+            previewRenderer.color = enoughBrains ? new Color(1f, 1f, 1f, 0.6f) : new Color(1f, 0.3f, 0.3f, 0.6f);
+        }
+        else
+        {
+            if (previewObject.activeSelf) previewObject.SetActive(false);
+        }
+    }
+
+    private void SetPreviewSprite(GameObject prefab)
+    {
+        if (previewRenderer == null || prefab == null) return;
+        
+        // Try to get sprite from SpriteRenderer
+        SpriteRenderer sr = prefab.GetComponent<SpriteRenderer>();
+        if (sr != null)
+        {
+            previewRenderer.sprite = sr.sprite;
+            // Also match scale
+            previewObject.transform.localScale = prefab.transform.localScale;
+            return;
+        }
+        
+        // If animated, try to get first frame (simple approach) or sprite from child
+        sr = prefab.GetComponentInChildren<SpriteRenderer>();
+        if (sr != null)
+        {
+            previewRenderer.sprite = sr.sprite;
+            previewObject.transform.localScale = prefab.transform.localScale;
         }
     }
 }
