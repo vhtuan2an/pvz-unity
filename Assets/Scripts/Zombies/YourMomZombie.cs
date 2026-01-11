@@ -6,8 +6,8 @@ public class YourMomZombie : ZombieBase
 {
     public static YourMomZombie Instance { get; private set; }
 
-    private enum BossState { Intro, Idle, Moving, Attacking, Summoning, GlobalAttack }
-    private BossState currentState = BossState.Intro;
+    private enum BossState { Intro, Idle, Moving, Attacking, Summoning, GlobalAttack, Waiting }
+    private BossState currentState = BossState.Waiting;
 
     [Header("Boss Settings")]
     public float patrolIntervalMin = 5f;
@@ -19,19 +19,15 @@ public class YourMomZombie : ZombieBase
     public float globalAttackIntervalMin = 45f;
     public float globalAttackIntervalMax = 60f;
     public GameObject appleProjectilePrefab;
-    public Transform shootPoint; // New: Specific spawn point
-    public GameObject targetMarkerPrefab; // New: Warning marker
-    public float telegraphDuration = 1.0f; // New: Warning time
+    public Transform shootPoint;
+    public GameObject targetMarkerPrefab;
+    public float telegraphDuration = 1.0f;
     
     [Header("VFX Settings")]
     public Vector3 headVFXOffset = new Vector3(0f, 2.5f, 0f);
     public Vector3 feetVFXOffset = new Vector3(0f, -0.5f, 0f);
 
-    private GameObject activeTelegraphMarker; // Local reference for cleanup
-
-    // ... (Patrol Area fields remain)
-
-    // ...
+    private GameObject activeTelegraphMarker;
 
     private Vector3 pendingTargetPos;
 
@@ -135,8 +131,6 @@ public class YourMomZombie : ZombieBase
              activeTelegraphMarker = null;
          }
     }
-    
-    // ...
 
     private void SpawnAppleProjectile(Vector3 targetPos, Transform targetTrans)
     {
@@ -157,7 +151,7 @@ public class YourMomZombie : ZombieBase
     public float maxX = 3.4f;
     public float minY = -3.2f;
     public float maxY = 1.6f;
-    private Vector3 spawnPoint = new Vector3(8.5f, 0.5f, 0f);
+    private Vector3 spawnPoint = new Vector3(15f, 0.5f, 0f);
 
     private float patrolTimer;
     private float globalAttackTimer;
@@ -184,17 +178,9 @@ public class YourMomZombie : ZombieBase
     protected override void Start()
     {
         base.Start();
-        // animator = GetComponent<Animator>(); // Already done in base.Start()
-
         // Start timers
         patrolTimer = Random.Range(patrolIntervalMin, patrolIntervalMax);
         globalAttackTimer = Random.Range(globalAttackIntervalMin, globalAttackIntervalMax);
-
-        // Subscribe to spawn event
-        if (ZombieManager.Instance != null)
-        {
-            ZombieManager.Instance.OnZombieSpawnEvent += TriggerSummonAnimation;
-        }
     }
 
     public override void OnNetworkSpawn()
@@ -207,10 +193,51 @@ public class YourMomZombie : ZombieBase
             
             // Pick random target in gameplay area
             introTargetPos = GetRandomPatrolPosition();
-            
-            currentState = BossState.Intro;
-            SetStateClientRpc(BossState.Moving, false); // Look left walking
+
+            // Check Game State
+            if (GameStateManager.Instance != null && GameStateManager.Instance.CurrentState.Value == GameStateManager.GameState.Playing)
+            {
+                StartIntroWalk();
+            }
+            else
+            {
+                currentState = BossState.Waiting;
+                // Subscribe to state change
+                if (GameStateManager.Instance != null)
+                {
+                    GameStateManager.Instance.OnStateChanged += OnGameStateChanged;
+                }
+            }
+
+            // Subscribe to Zombie Spawn (Server Side)
+            if (NetworkGameManager.Instance != null)
+            {
+                NetworkGameManager.Instance.OnZombieSpawnedServer += TriggerSummonAnimation;
+            }
         }
+    }
+
+    private void OnGameStateChanged(GameStateManager.GameState newState)
+    {
+        if (newState == GameStateManager.GameState.Playing)
+        {
+            if (currentState == BossState.Waiting)
+            {
+                StartIntroWalk();
+            }
+            
+            // Unsubscribe
+            if (GameStateManager.Instance != null)
+            {
+                GameStateManager.Instance.OnStateChanged -= OnGameStateChanged;
+            }
+        }
+    }
+
+    private void StartIntroWalk()
+    {
+        currentState = BossState.Intro;
+        SetStateClientRpc(BossState.Moving, false); // Look left walking
     }
 
     private Vector3 GetRandomPatrolPosition()
@@ -223,9 +250,16 @@ public class YourMomZombie : ZombieBase
     public override void OnDestroy()
     {
         base.OnDestroy();
-        if (ZombieManager.Instance != null)
+
+
+        if (IsServer && GameStateManager.Instance != null)
         {
-            ZombieManager.Instance.OnZombieSpawnEvent -= TriggerSummonAnimation;
+            GameStateManager.Instance.OnStateChanged -= OnGameStateChanged;
+        }
+
+        if (IsServer && NetworkGameManager.Instance != null)
+        {
+            NetworkGameManager.Instance.OnZombieSpawnedServer -= TriggerSummonAnimation;
         }
     }
 
@@ -251,8 +285,10 @@ public class YourMomZombie : ZombieBase
         
         switch (currentState)
         {
+            case BossState.Waiting:
+                break;
+
             case BossState.Idle:
-                // this.speed = 0; // Removing direct field access if private
                 break;
 
             case BossState.Moving:
@@ -351,8 +387,6 @@ public class YourMomZombie : ZombieBase
         }
     }
 
-
-    
     private void TriggerSummonAnimation()
     {
         if (currentState != BossState.Idle) return; // Don't interrupt attacks?

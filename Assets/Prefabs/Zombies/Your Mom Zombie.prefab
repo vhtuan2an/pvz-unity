@@ -283,8 +283,8 @@ MonoBehaviour:
   patrolIntervalMax: 10
   attackRange: 3
   appleCooldown: 2
-  globalAttackIntervalMin: 1
-  globalAttackIntervalMax: 2
+  globalAttackIntervalMin: 45
+  globalAttackIntervalMax: 60
   appleProjectilePrefab: {fileID: 3329404701775528199, guid: 0ca40c95cf7d72445897a62ac51aaabb, type: 3}
   shootPoint: {fileID: 7891351126840575645}
   targetMarkerPrefab: {fileID: 5104920504382881539, guid: b8d97526c88f95d4daeb214744e0ed43, type: 3}

@@ -1,4 +1,5 @@
 using Unity.Netcode;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,8 +15,12 @@ public class GameStateManager : NetworkBehaviour
         Intro,      // Camera panning to lawn
         Countdown,  // Ready... Set... Plant!
         Playing,    // Active gameplay
+        Paused,     // Game paused
+        Unpausing,  // Countdown to resume
         GameOver    // Game ended
     }
+
+    private GameState previousStateBeforePause; // To return to correct state
 
     [Header("Game Settings")]
     [SerializeField] private float gameTimeLimit = 300f; // 5 minutes
@@ -86,6 +91,12 @@ public class GameStateManager : NetworkBehaviour
 
     private void Update()
     {
+        // Handle Input for everyone (Client + Server)
+        if (CurrentState.Value == GameState.Playing || CurrentState.Value == GameState.Paused)
+        {
+            HandleInput();
+        }
+
         if (!IsServer) return;
 
         // State Machine Logic
@@ -103,22 +114,29 @@ public class GameStateManager : NetworkBehaviour
             case GameState.Countdown:
                 // Logic handled by StartCountdownUI reporting back
                 break;
-            case GameState.Playing:
                 UpdateGameTimer();
                 break;
+            case GameState.Paused:
+                // Paused logic
+                break;
+            case GameState.Unpausing:
+                // Waiting for routine to finish
+                break;
+        }
+    }
+
+    private void HandleInput()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            TogglePauseServerRpc();
         }
     }
 
     private void CheckPlayersConnected()
     {
-        // Simple check: if we have 2 players (Host + Client), start selection
-        // In a real lobby, you might check specific roles
-        if (NetworkManager.Singleton.ConnectedClientsIds.Count >= 1) // Allow 1 for testing, 2 for real
+        if (NetworkManager.Singleton.ConnectedClientsIds.Count >= 1)
         {
-             // If we want to enforce 2 players:
-             // if (NetworkManager.Singleton.ConnectedClientsIds.Count >= 2)
-            
-            // Move to Selection
             SetState(GameState.Selection);
         }
     }
@@ -131,7 +149,7 @@ public class GameStateManager : NetworkBehaviour
         
         if (gameTimeRemaining.Value <= 0)
         {
-            EndGame(PlayerRole.None, 0); // Time's up - draw
+            EndGame(PlayerRole.None, 0);
         }
     }
 
@@ -146,9 +164,16 @@ public class GameStateManager : NetworkBehaviour
     {
         Debug.Log($"[GameState] Changed to {current}");
         OnStateChanged?.Invoke(current);
+        
+        if (current == GameState.Paused)
+        {
+             Time.timeScale = 0f;
+        }
+        else if (current == GameState.Playing)
+        {
+             Time.timeScale = 1f;
+        }
     }
-
-    // ===================== READY SYSTEM =====================
     
     [ServerRpc(RequireOwnership = false)]
     public void SetPlayerReadyServerRpc(ulong clientId, bool isReady, PlayerRole role)
@@ -171,21 +196,16 @@ public class GameStateManager : NetworkBehaviour
     {
         if (CurrentState.Value != GameState.Selection) return;
 
-        // Rule: All connected players must be ready
+        // All connected players must be ready
         foreach (var id in NetworkManager.Singleton.ConnectedClientsIds)
         {
             if (!playerReadyStatus.ContainsKey(id) || !playerReadyStatus[id])
             {
-                return; // Someone is not ready
+                return;
             }
         }
-
-        // All ready! Move to Intro
-        Debug.Log("All players ready! Moving to Intro.");
         SetState(GameState.Intro);
     }
-
-    // ===================== FLOW TRIGGERS =====================
     
     [Header("Boss Spawn")]
     [SerializeField] private GameObject bossZombiePrefab;
@@ -193,22 +213,57 @@ public class GameStateManager : NetworkBehaviour
     [ServerRpc(RequireOwnership = false)]
     public void ReportIntroFinishedServerRpc()
     {
-         // This might be called by multiple clients, so ensure we only trigger once
          if (CurrentState.Value == GameState.Intro)
          {
              SetState(GameState.Countdown);
          }
     }
     
+
+
     [ServerRpc(RequireOwnership = false)]
     public void ReportCountdownFinishedServerRpc()
     {
         if (CurrentState.Value == GameState.Countdown)
         {
             SetState(GameState.Playing);
-            
             // Spawn Boss
             SpawnBoss();
+        }
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    public void TogglePauseServerRpc()
+    {
+        if (CurrentState.Value == GameState.Playing)
+        {
+            previousStateBeforePause = GameState.Playing;
+            SetState(GameState.Paused);
+        }
+        else if (CurrentState.Value == GameState.Paused)
+        {
+            // Start Resume Sequence
+            StartCoroutine(ResumeGameRoutine());
+        }
+    }
+
+    private IEnumerator ResumeGameRoutine()
+    {
+        SetState(GameState.Unpausing);
+        
+        ShowResumeCountdownClientRpc();
+        
+        yield return new WaitForSecondsRealtime(3f);
+        
+        SetState(GameState.Playing);
+    }
+
+    [ClientRpc]
+    private void ShowResumeCountdownClientRpc()
+    {
+        if (StartCountdownUI.Instance != null)
+        {
+            StartCountdownUI.Instance.StartResumeCountdown();
         }
     }
 
@@ -225,10 +280,6 @@ public class GameStateManager : NetworkBehaviour
              Debug.LogWarning("Boss Prefab not assigned in GameStateManager!");
         }
     }
-
-    // ===================== END GAME (Legacy/Existing) =====================
-
-    // ===================== END GAME (Updated for Iris Shot) =====================
 
     [ServerRpc(RequireOwnership = false)]
     public void EndGameServerRpc(PlayerRole winningRole, ulong focusNetworkId)
@@ -280,8 +331,6 @@ public class GameStateManager : NetworkBehaviour
                 targetPos = netObj.transform.position;
                 hasTarget = true;
 
-                // Freeze the winner for cinematic effect (Only if Zombie wins / reaches house)
-                // If Plant wins (Boss death), we let the death animation play.
                 if (winningRole == PlayerRole.Zombie)
                 {
                     if (netObj.TryGetComponent(out Animator anim)) anim.speed = 0f;
@@ -301,7 +350,6 @@ public class GameStateManager : NetworkBehaviour
         else
         {
             Debug.LogWarning("IrisTransitionUI not found! Falling back to legacy UI.");
-            // Legacy Fallback
             if (ZombieWinUI.Instance != null && winningRole == PlayerRole.Zombie)
                 ZombieWinUI.Instance.ShowZombieWin();
             else if (PlantWinUI.Instance != null && winningRole == PlayerRole.Plant)
@@ -319,9 +367,34 @@ public class GameStateManager : NetworkBehaviour
         OnTimeUpdated?.Invoke(newValue);
     }
 
-    // Public getters
     public bool IsGameStarted => CurrentState.Value == GameState.Playing;
     public bool IsGameEnded => gameEnded.Value;
     public float TimeRemaining => gameTimeRemaining.Value;
     public PlayerRole Winner => winner.Value;
+
+    // ===================== GLOBAL QUIT =====================
+
+    [ServerRpc(RequireOwnership = false)]
+    public void QuitGameServerRpc()
+    {
+        Debug.Log("QuitGameServerRpc received. Ending game for all.");
+        
+        // Notify all clients to leave
+        ReturnToLobbyClientRpc();
+    }
+
+    [ClientRpc]
+    private void ReturnToLobbyClientRpc()
+    {
+        Debug.Log("Returning to Lobby...");
+        
+        // 1. Shutdown Network
+        if (NetworkManager.Singleton != null)
+        {
+            NetworkManager.Singleton.Shutdown();
+        }
+
+        // 2. Load Lobby Scene
+        SceneManager.LoadScene("LobbyScene");
+    }
 }

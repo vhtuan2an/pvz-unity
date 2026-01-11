@@ -181,6 +181,26 @@ public class StartCountdownUI : MonoBehaviour
         StartCoroutine(CountdownRoutine());
     }
 
+    public void StartResumeCountdown()
+    {
+        StartCoroutine(ResumeRoutine());
+    }
+
+
+
+    private IEnumerator ResumeRoutine()
+    {
+        string[] sequence = { "3...", "2...", "1..." };
+
+        foreach (var msg in sequence)
+        {
+            UpdateCountdown(msg);
+            yield return new WaitForSecondsRealtime(1f);
+        }
+        
+        Hide();
+    }
+
     private IEnumerator CountdownRoutine()
     {
         string[] sequence = { "Ready...", "Set..." };
