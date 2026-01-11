@@ -283,3 +283,5 @@ MonoBehaviour:
   summonCooldown: 5
   summonDistance: 1.25
   discoSummonPrefab: {fileID: 6846179173368709481, guid: ce5a409c34b301041a559e7ca09f578e, type: 3}
+  minY: -3.25
+  maxY: 2.5

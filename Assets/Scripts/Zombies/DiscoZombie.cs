@@ -19,6 +19,11 @@ public class DiscoZombie : ZombieBase
     [SerializeField] private float summonDistance = 0.8f;
     [SerializeField] private GameObject discoSummonPrefab;
 
+    [Header("Lane Bounds")]
+    [SerializeField] private float minY = -3.5f;
+    [SerializeField] private float maxY = 2.75f;
+
+
     private float summonTimer = 0f;
 
     private Rigidbody2D rb;
@@ -126,33 +131,33 @@ public class DiscoZombie : ZombieBase
     private void SpawnDiscoSummons()
     {
         Vector3 center = transform.position;
+        TrySpawn(center + Vector3.left * summonDistance);
+        TrySpawn(center + Vector3.right * summonDistance);
+        Vector3 upPos = center + Vector3.up * summonDistance;
+        if (upPos.y <= maxY)
+            TrySpawn(upPos);
+        Vector3 downPos = center + Vector3.down * summonDistance;
+        if (downPos.y >= minY)
+            TrySpawn(downPos);
+    }
 
-        Vector3[] directions =
+    private void TrySpawn(Vector3 spawnPos)
+    {
+        GameObject summon = Instantiate(
+            discoSummonPrefab,
+            spawnPos,
+            Quaternion.identity
+        );
+
+        NetworkObject netObj = summon.GetComponent<NetworkObject>();
+        if (netObj != null)
         {
-            Vector3.up,
-            Vector3.down,
-            Vector3.left,
-            Vector3.right
-        };
-
-        foreach (Vector3 dir in directions)
-        {
-            Vector3 spawnPos = center + dir * summonDistance;
-
-            GameObject summon = Instantiate(
-                discoSummonPrefab,
-                spawnPos,
-                Quaternion.identity
-            );
-
-            NetworkObject netObj = summon.GetComponent<NetworkObject>();
-            if (netObj != null)
-            {
-                netObj.Spawn();
-                activeSummons.Add(netObj);
-            }
+            netObj.Spawn();
+            activeSummons.Add(netObj);
         }
     }
+
+
 
     /// <summary>
 
@@ -184,8 +189,8 @@ public class DiscoZombie : ZombieBase
         if (rb != null) rb.simulated = false;
         if (boxCollider != null) boxCollider.enabled = false;
 
-        // 🔥 TỰ DESPAWN SAU KHI CHẾT
-        Invoke(nameof(ForceDespawn), 1.5f); // = thời gian clip die
+
+        Invoke(nameof(ForceDespawn), 1.5f); 
     }
 
     private void ForceDespawn()
