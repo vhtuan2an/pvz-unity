@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3811621584
+  GlobalObjectIdHash: 1974920393
   InScenePlacedSourceGlobalObjectIdHash: 1974920393
   DeferredDespawnTick: 0
   Ownership: 1
@@ -249,7 +249,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.631531, y: 6.805762}
+  m_Size: {x: 7.631531, y: 4.61}
   m_EdgeRadius: 0
 --- !u!95 &2315285758538191671
 Animator:

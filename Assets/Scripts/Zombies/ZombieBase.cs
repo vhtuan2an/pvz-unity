@@ -111,6 +111,12 @@ public class ZombieBase : NetworkBehaviour
 
         // Trigger on clients (and host)
         TriggerDeathAnimationClientRpc();
+        StartCoroutine(ForceDespawnRoutine());
+    }
+    private System.Collections.IEnumerator ForceDespawnRoutine()
+    {
+        yield return new WaitForSeconds(1.5f); // = độ dài clip Die
+        DespawnZombie();
     }
 
     // Called via Animation Event on the last frame of the Death Clip

@@ -174,10 +174,31 @@ public class DiscoZombie : ZombieBase
 
     protected override void Die()
     {
+        if (!IsServer) return;
+
         base.Die();
 
+        enabled = false;
         activeSummons.Clear();
+
+        if (rb != null) rb.simulated = false;
+        if (boxCollider != null) boxCollider.enabled = false;
+
+        // 🔥 TỰ DESPAWN SAU KHI CHẾT
+        Invoke(nameof(ForceDespawn), 1.5f); // = thời gian clip die
     }
+
+    private void ForceDespawn()
+    {
+        if (!IsServer) return;
+
+        NetworkObject netObj = GetComponent<NetworkObject>();
+        if (netObj != null && netObj.IsSpawned)
+        {
+            netObj.Despawn();
+        }
+    }
+
 
     // ===================== ANIMATION =====================
 
