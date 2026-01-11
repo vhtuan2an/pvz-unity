@@ -281,7 +281,12 @@ MonoBehaviour:
   brainCost: 150
   barrelPrefab: {fileID: 3329404701775528199, guid: dcf71ab0588cf214dab9c462c183edeb, type: 3}
   rollCooldown: 3
+  rollDuration: 0.6
   barrelSpawnPoint: {fileID: 2352270168049998148}
+  detectionRange: 12
+  laneHeight: 0.3
+  detectionOffset: {x: 0, y: 0, z: 0}
+  yTolerance: 0.25
 --- !u!1 &7051024466986170442
 GameObject:
   m_ObjectHideFlags: 0
