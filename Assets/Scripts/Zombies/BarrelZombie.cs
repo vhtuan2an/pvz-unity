@@ -6,6 +6,7 @@ public class BarrelZombie : ZombieBase
     [Header("Barrel")]
     [SerializeField] private GameObject barrelPrefab;
     [SerializeField] private float rollCooldown = 3f;
+    [SerializeField] private float rollDuration = 0.6f;
     [SerializeField] private Transform barrelSpawnPoint;
 
     private bool isDead;
@@ -13,9 +14,13 @@ public class BarrelZombie : ZombieBase
     protected override void Start()
     {
         base.Start();
+        animator = GetComponent<Animator>();
+
         if (!IsServer) return;
 
-        animator.SetBool("isRolling", false);
+
+        SetRollingClientRpc(false);
+
         InvokeRepeating(nameof(RollBarrel), 1f, rollCooldown);
     }
 
@@ -23,14 +28,16 @@ public class BarrelZombie : ZombieBase
     {
         if (isDead) return;
 
-        animator.SetBool("isRolling", true);
+        SetRollingClientRpc(true);
+
         SpawnBarrel();
-        Invoke(nameof(StopRolling), 0.5f); 
+
+        Invoke(nameof(StopRolling), rollDuration);
     }
 
     private void StopRolling()
     {
-        animator.SetBool("isRolling", false);
+        SetRollingClientRpc(false);
     }
 
     private void SpawnBarrel()
@@ -46,14 +53,35 @@ public class BarrelZombie : ZombieBase
 
     protected override void Die()
     {
-        base.Die();
-
         if (!IsServer || isDead) return;
 
         isDead = true;
         CancelInvoke();
-        
-        // Stop logic
+
+
+        DieClientRpc();
+
+        base.Die();
         enabled = false;
+    }
+
+    // ================= RPC =================
+
+    [ClientRpc]
+    private void SetRollingClientRpc(bool isRolling)
+    {
+        if (animator != null)
+        {
+            animator.SetBool("isRolling", isRolling);
+        }
+    }
+
+    [ClientRpc]
+    private void DieClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
     }
 }
