@@ -282,6 +282,20 @@ public class NetworkGameManager : NetworkBehaviour
         }
     }
 
+    [ClientRpc]
+    public void PlayLoopSoundClientRpc(string key, string clip, float volume, float pitch, bool excludeOwner = false)
+    {
+        if (excludeOwner && IsHost) return;
+        SoundManager.Instance.PlayLoop(key, clip, volume, pitch);
+    }
+
+    [ClientRpc]
+    public void StopSoundClientRpc(string key)
+    {
+        SoundManager.Instance.Stop(key);
+    }
+
+
     private Tile FindTileAtPosition(Vector3 position)
     {
         Tile[] tiles = FindObjectsByType<Tile>(FindObjectsSortMode.None);
@@ -300,4 +314,32 @@ public class NetworkGameManager : NetworkBehaviour
 
         return closest;
     }
+
+    // Disco Zombie: only 1 disco 
+    public int DiscoAliveCount { get; private set; } = 0;
+
+
+    public void RegisterDiscoZombie()
+    {
+        DiscoAliveCount++;
+
+        if (DiscoAliveCount == 1)
+        {
+            PlayLoopSoundClientRpc("GLOBAL_DISCO", "disco", 0.7f, 1f, excludeOwner: true);
+        }
+    }
+
+
+    public void UnregisterDiscoZombie()
+    {
+        DiscoAliveCount = Mathf.Max(0, DiscoAliveCount - 1);
+
+        if (DiscoAliveCount == 0)
+        {
+            StopSoundClientRpc("GLOBAL_DISCO");
+        }
+    }
+
+
+
 }

@@ -7,7 +7,8 @@ public class SoundManager : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private int initialPoolSize = 10;
-    
+
+    private Dictionary<string, AudioSource> loopingSources = new Dictionary<string, AudioSource>();
     private Queue<AudioSource> audioSourcePool;
     private GameObject poolContainer;
 
@@ -167,4 +168,40 @@ public class SoundManager : MonoBehaviour
             return null;
         }
     }
+
+    public void Stop(string key)
+    {
+        if (!loopingSources.TryGetValue(key, out AudioSource source))
+            return;
+
+        source.Stop();
+        source.loop = false;
+        source.clip = null;
+
+        loopingSources.Remove(key);
+
+        audioSourcePool.Enqueue(source);
+    }
+
+    public void PlayLoop(string key, string clipName, float volume = 1f, float pitch = 1f)
+    {
+        if (loopingSources.ContainsKey(key))
+            return;
+
+        AudioClip[] clips = GetClips(clipName);
+        if (clips == null || clips.Length == 0) return;
+
+        AudioClip selectedClip = clips[Random.Range(0, clips.Length)];
+
+        AudioSource source = GetAudioSource();
+        source.clip = selectedClip;
+        source.volume = volume;
+        source.pitch = pitch;
+        source.loop = true;
+        source.Play();
+
+        loopingSources.Add(key, source);
+    }
+
+
 }

@@ -27,6 +27,11 @@ public class ConTrai : ZombieBase
     [Header("Combat (Ground)")]
     [SerializeField] private float attackRate = 1f;
 
+    [Header("Audio")]
+    private string eatSoundKey;
+    private bool isEatingSoundPlaying = false;
+
+
     private float attackTimer;
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
@@ -37,6 +42,7 @@ public class ConTrai : ZombieBase
     protected override void Start()
     {
         base.Start();
+        eatSoundKey = $"contrai_eat_{NetworkObjectId}";
 
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
@@ -140,17 +146,38 @@ public class ConTrai : ZombieBase
             LayerMask.GetMask("Plant")
         );
 
-        if (hit.collider == null)
+        bool isEating = hit.collider != null;
+
+        if (!isEating)
         {
             rb.MovePosition(rb.position + movement);
-            SetEatingClientRpc(false);
+
             SetWalkingClientRpc(true);
+            SetEatingClientRpc(false);
+
+            if (isEatingSoundPlaying)
+            {
+                NetworkGameManager.Instance.StopSoundClientRpc(eatSoundKey);
+                isEatingSoundPlaying = false;
+            }
         }
         else
         {
             rb.MovePosition(rb.position);
+
             SetWalkingClientRpc(false);
             SetEatingClientRpc(true);
+
+            if (!isEatingSoundPlaying)
+            {
+                NetworkGameManager.Instance.PlayLoopSoundClientRpc(
+                    eatSoundKey,
+                    "zombie_eat",
+                    0.6f,
+                    Random.Range(0.95f, 1.05f)
+                );
+                isEatingSoundPlaying = true;
+            }
 
             if (attackTimer >= attackRate)
             {
@@ -161,7 +188,25 @@ public class ConTrai : ZombieBase
                 attackTimer = 0f;
             }
         }
+
+
     }
+    protected override void Die()
+    {
+        StopEatSound();
+        base.Die();
+
+        if (!IsServer) return;
+
+        NetworkGameManager.Instance.StopSoundClientRpc(eatSoundKey);
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
+
+        enabled = false;
+
+        if (rb != null) rb.simulated = false;
+        if (boxCollider != null) boxCollider.enabled = false;
+    }
+
 
     /* =========================
      * ANIMATOR RPC
@@ -183,4 +228,13 @@ public class ConTrai : ZombieBase
     {
         animator?.SetBool("isFlying", value);
     }
+
+    private void StopEatSound()
+    {
+        if (!isEatingSoundPlaying) return;
+
+        NetworkGameManager.Instance.StopSoundClientRpc(eatSoundKey);
+        isEatingSoundPlaying = false;
+    }
+
 }

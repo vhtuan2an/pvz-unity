@@ -78,6 +78,7 @@ public class TankZombie : ZombieBase
         if (!IsServer) return;
 
         SetWalkingClientRpc(false);
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
         
         enabled = false;
         if (rb != null) rb.simulated = false;

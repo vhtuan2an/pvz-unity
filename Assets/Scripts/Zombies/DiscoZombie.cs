@@ -182,10 +182,12 @@ public class DiscoZombie : ZombieBase
         if (!IsServer) return;
 
         base.Die();
-
+        
+        NetworkGameManager.Instance.UnregisterDiscoZombie();
         enabled = false;
         activeSummons.Clear();
-
+        
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
         if (rb != null) rb.simulated = false;
         if (boxCollider != null) boxCollider.enabled = false;
 
@@ -224,4 +226,15 @@ public class DiscoZombie : ZombieBase
             animator.SetBool("isEating", value);
         }
     }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+
+        if (IsServer)
+        {
+            NetworkGameManager.Instance.RegisterDiscoZombie();
+        }
+    }
+
 }

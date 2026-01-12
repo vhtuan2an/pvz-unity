@@ -127,6 +127,8 @@ public class KamehamehaZombie : ZombieBase
         isAttackLocked = false;
         pendingTarget = null;
         
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
+
         SetWalkingClientRpc(false);
         SetAttackingClientRpc(false);
         

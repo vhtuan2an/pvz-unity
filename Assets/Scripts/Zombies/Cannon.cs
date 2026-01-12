@@ -101,6 +101,8 @@ public class Cannon : ZombieBase
 
         isDead = true;
         fireTimer = float.MaxValue;
+
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
         
         // Stop logic
         enabled = false;

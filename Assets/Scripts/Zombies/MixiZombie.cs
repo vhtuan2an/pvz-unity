@@ -197,6 +197,8 @@ public class MixiZombie : ZombieBase
 
         SetWalking(false);
         SetWorking(false);
+
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
         
         // Disable script & physics
         enabled = false;

@@ -165,6 +165,8 @@ public class BarrelZombie : ZombieBase
         CancelInvoke();
         currentTarget = null;
 
+        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
+        
         DieClientRpc();
         base.Die();
 
