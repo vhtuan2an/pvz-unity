@@ -19,6 +19,7 @@ public class ZombieBase : NetworkBehaviour
 
     [Header("Spawn Cost")]
     [SerializeField] private int brainCost = 50;
+    private static int globalSpawnOrder = 0;
 
     public int GetBrainCost() => brainCost;
     
@@ -59,6 +60,9 @@ public class ZombieBase : NetworkBehaviour
         if (spriteRenderer != null)
         {
             originalColor = spriteRenderer.color;
+            globalSpawnOrder++;
+            spriteRenderer.sortingOrder = globalSpawnOrder;
+            if (globalSpawnOrder >= 30000) globalSpawnOrder = 0; 
         }
         
         if (IsServer)
