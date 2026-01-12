@@ -32,6 +32,9 @@ public class LobbyManager : MonoBehaviour
     public PlayerRole SelectedRole { get; private set; } = PlayerRole.None;
     public bool IsSearching { get; private set; }
     public Lobby CurrentLobby { get; private set; }
+    
+    // Flag to indicate lobby was cancelled by host (used to show dialog after scene transition)
+    public bool WasCancelledByHost { get; private set; } = false;
 
     // Events
     public event Action<PlayerRole> OnRoleSelected;
@@ -39,6 +42,7 @@ public class LobbyManager : MonoBehaviour
     public event Action<string> OnMatchFound;
     public event Action<string> OnMatchmakingFailed;
     public event Action OnMatchmakingCancelled;
+    public event Action OnLobbyCancelledByHost;
 
     private bool isPolling;
     private float nextHeartbeat;
@@ -338,13 +342,16 @@ public class LobbyManager : MonoBehaviour
                     
                     consecutiveErrors++;
                     string msg = lex.Message ?? lex.Reason.ToString();
-                    Debug.LogError($"Error polling lobby (attempt {consecutiveErrors}): {msg}");
 
                     if (lex.Reason == LobbyExceptionReason.LobbyNotFound)
                     {
+                        // This is expected behavior when host cancels the lobby, use Warning instead of Error
+                        Debug.LogWarning($"Polling lobby failed: {msg}");
                         HandleLobbyNotFound();
                         break;
                     }
+                    
+                    Debug.LogError($"Error polling lobby (attempt {consecutiveErrors}): {msg}");
 
                     // Detect rate limit
                     bool isRateLimit = lex.Message?.Contains("Too Many Requests") == true
@@ -398,8 +405,9 @@ public class LobbyManager : MonoBehaviour
         Debug.LogWarning("Lobby was closed or deleted by host.");
         IsSearching = false;
         CurrentLobby = null;
+        WasCancelledByHost = true;
         StopPolling();
-        OnMatchmakingFailed?.Invoke("Lobby was closed by host");
+        OnLobbyCancelledByHost?.Invoke();
     }
 
     // Safe cancel without throwing
@@ -547,10 +555,20 @@ public class LobbyManager : MonoBehaviour
         Debug.Log("Client waiting for join code...");
         await Task.Delay(1000);
 
-        string joinCode = await GetJoinCodeWithRetry(maxRetries: 10, initialDelay: 2f);
-        if (string.IsNullOrEmpty(joinCode))
+        // Check if lobby was cancelled by host before trying to get join code
+        if (WasCancelledByHost || CurrentLobby == null)
         {
-            throw new Exception("No join code found");
+            Debug.LogWarning("Lobby was cancelled by host, aborting client connection.");
+            throw new LobbyCancelledException("Lobby was cancelled by host");
+        }
+
+        string joinCode = await GetJoinCodeWithRetry(maxRetries: 10, initialDelay: 2f);
+        
+        // Check again if lobby was cancelled during retry
+        if (WasCancelledByHost || string.IsNullOrEmpty(joinCode))
+        {
+            Debug.LogWarning("No join code found - lobby may have been cancelled.");
+            throw new LobbyCancelledException("Lobby was cancelled by host");
         }
 
         Debug.Log($"Client joining with code: {joinCode}");
@@ -783,6 +801,12 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
+    // Clear the cancelled by host flag (call after showing the dialog)
+    public void ClearCancelledByHostFlag()
+    {
+        WasCancelledByHost = false;
+    }
+
     // Helper: get display name (PlayerName) of host/owner for list UI
     public string GetLobbyOwnerName(Lobby lobby)
     {
@@ -814,4 +838,12 @@ public class LobbyManager : MonoBehaviour
             _ = CancelMatchmaking();
         }
     }
+}
+
+/// <summary>
+/// Custom exception for when lobby is cancelled by host
+/// </summary>
+public class LobbyCancelledException : System.Exception
+{
+    public LobbyCancelledException(string message) : base(message) { }
 }
