@@ -191,7 +191,7 @@ public class StartCountdownUI : MonoBehaviour
     private IEnumerator ResumeRoutine()
     {
         string[] sequence = { "3...", "2...", "1..." };
-
+        NetworkGameManager.Instance.PlaySoundClientRpc("countdown");
         foreach (var msg in sequence)
         {
             UpdateCountdown(msg);
@@ -202,9 +202,10 @@ public class StartCountdownUI : MonoBehaviour
     }
 
     private IEnumerator CountdownRoutine()
-    {
+    {   
+        
         string[] sequence = { "Ready...", "Set..." };
-
+        NetworkGameManager.Instance.PlaySoundClientRpc("countdown");
         foreach (var msg in sequence)
         {
             UpdateCountdown(msg);
