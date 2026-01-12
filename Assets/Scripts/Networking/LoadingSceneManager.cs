@@ -81,6 +81,14 @@ public class LoadingSceneManager : MonoBehaviour
             UpdateStatus("Waiting for all players...");
             WaitForAllPlayersConnected();
         }
+        catch (LobbyCancelledException)
+        {
+            // This is expected behavior when host cancels - don't log as error
+            Debug.LogWarning("Lobby was cancelled by host, returning to lobby.");
+            UpdateStatus("Room was cancelled by host, returning to lobby...");
+            await Task.Delay(1000);
+            ReturnToLobby();
+        }
         catch (System.Exception ex)
         {
             Debug.LogError($"Connection failed: {ex.Message}");

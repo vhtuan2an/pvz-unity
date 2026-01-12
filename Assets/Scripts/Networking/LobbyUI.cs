@@ -38,6 +38,7 @@ public class LobbyUI : MonoBehaviour
         LobbyManager.Instance.OnMatchFound += OnMatchFound;
         LobbyManager.Instance.OnMatchmakingFailed += OnMatchmakingFailed;
         LobbyManager.Instance.OnMatchmakingCancelled += OnMatchmakingCancelled;
+        LobbyManager.Instance.OnLobbyCancelledByHost += OnLobbyCancelledByHost;
 
         // Setup buttons
         refreshLobbyListButton.onClick.AddListener(() => { _ = RefreshLobbyList(); });
@@ -54,6 +55,9 @@ public class LobbyUI : MonoBehaviour
 
         DisplayPlayerInfo();
         UpdateButtons(isSearching: false);
+
+        // Check if we returned from LoadingScene because lobby was cancelled by host
+        CheckAndShowLobbyCancelledDialog();
 
         _ = RefreshLobbyList();
         ForceContentLayout();
@@ -97,9 +101,34 @@ public class LobbyUI : MonoBehaviour
             LobbyManager.Instance.OnMatchFound -= OnMatchFound;
             LobbyManager.Instance.OnMatchmakingFailed -= OnMatchmakingFailed;
             LobbyManager.Instance.OnMatchmakingCancelled -= OnMatchmakingCancelled;
+            LobbyManager.Instance.OnLobbyCancelledByHost -= OnLobbyCancelledByHost;
         }
 
         CancelInvoke(nameof(PeriodicRefresh));
+    }
+
+    private void CheckAndShowLobbyCancelledDialog()
+    {
+        if (LobbyManager.Instance != null && LobbyManager.Instance.WasCancelledByHost)
+        {
+            Debug.Log("Detected lobby was cancelled by host, showing dialog.");
+            LobbyManager.Instance.ClearCancelledByHostFlag();
+            
+            if (DialogManager.Instance != null)
+            {
+                DialogManager.Instance.ShowDialog(
+                    "Room was cancelled by host.",
+                    "OK",
+                    () => {
+                        _ = RefreshLobbyList();
+                    }
+                );
+            }
+            else
+            {
+                Debug.LogWarning("DialogManager.Instance is null! Make sure DialogManager is added to LobbyScene.");
+            }
+        }
     }
 
     private void DisplayPlayerInfo()
@@ -146,6 +175,31 @@ public class LobbyUI : MonoBehaviour
     {
         // searchingPanel.SetActive(false);
         UpdateButtons(isSearching: false);
+    }
+
+    private void OnLobbyCancelledByHost()
+    {
+        Debug.Log("Lobby was cancelled by host, returning to lobby scene.");
+        UpdateButtons(isSearching: false);
+        searchingText.text = "";
+        
+        // Show dialog informing the player that the host cancelled the room
+        if (DialogManager.Instance != null)
+        {
+            DialogManager.Instance.ShowDialog(
+                "Room was cancelled by host.",
+                "OK",
+                () => {
+                    // Refresh lobby list after dismissing the dialog
+                    _ = RefreshLobbyList();
+                }
+            );
+        }
+        else
+        {
+            // If no DialogManager, just refresh the lobby list
+            _ = RefreshLobbyList();
+        }
     }
 
     private void UpdateButtons(bool isSearching)
