@@ -356,7 +356,12 @@ public class SelectionUI : MonoBehaviour
         ClearSelectedSlots();
 
         isReady = false; // Reset ready state when showing selection UI
-        if (currentLayout.readyButton != null) currentLayout.readyButton.interactable = true;
+        if (currentLayout.readyButton != null) 
+        {
+            currentLayout.readyButton.interactable = true;
+            var btnText = currentLayout.readyButton.GetComponentInChildren<TMP_Text>();
+            if (btnText != null) btnText.text = "READY";
+        }
         
         UpdateStatusIndicators(false, false); // Reset indicators
         SetGameplayPacketsActive(false);
@@ -419,17 +424,25 @@ public class SelectionUI : MonoBehaviour
 
     private void OnReadyClicked()
     {
-        if (isReady) return;
+        // Toggle Ready State
+        isReady = !isReady;
 
-        isReady = true;
-        if (currentLayout.readyButton != null) currentLayout.readyButton.interactable = false;
+        if (currentLayout.readyButton != null)
+        {
+            // Update Visuals
+            var btnText = currentLayout.readyButton.GetComponentInChildren<TMP_Text>();
+            if (btnText != null) btnText.text = isReady ? "WAITING..." : "READY";
+        }
         
-        SendSelectedDeck();
+        if (isReady)
+        {
+            SendSelectedDeck();
+        }
 
         if (NetworkManager.Singleton != null && GameStateManager.Instance != null)
         {
             PlayerRole myRole = LobbyManager.Instance.SelectedRole;
-            GameStateManager.Instance.SetPlayerReadyServerRpc(NetworkManager.Singleton.LocalClientId, true, myRole);
+            GameStateManager.Instance.SetPlayerReadyServerRpc(NetworkManager.Singleton.LocalClientId, isReady, myRole);
         }
     }
 

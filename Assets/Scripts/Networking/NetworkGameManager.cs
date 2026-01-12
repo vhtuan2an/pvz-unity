@@ -21,6 +21,9 @@ public class NetworkGameManager : NetworkBehaviour
         public GameObject prefab;
     }
 
+    // Events
+    public System.Action OnZombieSpawnedServer;
+
     [System.Serializable]
     public class ZombiePrefabMapping
     {
@@ -204,6 +207,9 @@ public class NetworkGameManager : NetworkBehaviour
         {
             networkObject.SpawnWithOwnership(ownerClientId);
             Debug.Log($"Zombie '{zombieName}' spawned at {position} (Server-owned for client {ownerClientId})");
+            
+            // Notify System (e.g. Boss)
+            OnZombieSpawnedServer?.Invoke();
         }
         else
         {
