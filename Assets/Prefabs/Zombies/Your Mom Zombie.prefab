@@ -278,7 +278,6 @@ MonoBehaviour:
   damage: 1
   cooldown: 7.5
   packetImage: {fileID: 0}
-  useSpawnOrder: 0
   brainCost: 50
   patrolIntervalMin: 5
   patrolIntervalMax: 10
