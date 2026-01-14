@@ -18,8 +18,59 @@ public class ManualTestManager : MonoBehaviour
 
     private void Start()
     {
-        // ✅ Chỉ hiện test panel nếu đang ở Test Mode
         bool isTestMode = TestModeManager.Instance != null && TestModeManager.Instance.IsTestMode;
+        
+        // Debug: Log all relevant states
+        Debug.Log($"[ManualTestManager] Start() called - isTestMode: {isTestMode}");
+        Debug.Log($"[ManualTestManager] NetworkManager.Singleton: {NetworkManager.Singleton != null}");
+        if (NetworkManager.Singleton != null)
+        {
+            Debug.Log($"[ManualTestManager] IsServer: {NetworkManager.Singleton.IsServer}, IsClient: {NetworkManager.Singleton.IsClient}, IsConnectedClient: {NetworkManager.Singleton.IsConnectedClient}");
+        }
+        Debug.Log($"[ManualTestManager] LobbyManager.Instance: {LobbyManager.Instance != null}");
+        if (LobbyManager.Instance != null)
+        {
+            Debug.Log($"[ManualTestManager] SelectedRole: {LobbyManager.Instance.SelectedRole}, CurrentLobby: {LobbyManager.Instance.CurrentLobby != null}");
+        }
+        
+        // If network is already connected, players joined via lobby (production flow)
+        // Do not show test panel in this case, even if TestModeManager says test mode is enabled
+        bool isAlreadyConnected = NetworkManager.Singleton != null && 
+                                  (NetworkManager.Singleton.IsServer || NetworkManager.Singleton.IsConnectedClient);
+        
+        // Also check if player joined via lobby (has selected role or has current lobby)
+        bool joinedViaLobby = LobbyManager.Instance != null && 
+                              (LobbyManager.Instance.SelectedRole != PlayerRole.None || 
+                               LobbyManager.Instance.CurrentLobby != null);
+        
+        if (isAlreadyConnected || joinedViaLobby)
+        {
+            Debug.Log($"[ManualTestManager] Hiding test panel - isAlreadyConnected: {isAlreadyConnected}, joinedViaLobby: {joinedViaLobby}");
+            Debug.Log($"[ManualTestManager] testPanel reference is: {(testPanel != null ? "assigned" : "NULL")}");
+            
+            // If testPanel reference is null, try to find it by name as fallback
+            if (testPanel == null)
+            {
+                testPanel = GameObject.Find("TestUI");
+                if (testPanel != null)
+                {
+                    Debug.Log("[ManualTestManager] Found testPanel by name (fallback)");
+                }
+            }
+            
+            if (testPanel != null)
+            {
+                testPanel.SetActive(false);
+                Debug.Log("[ManualTestManager] testPanel.SetActive(false) called successfully");
+            }
+            else
+            {
+                Debug.LogWarning("[ManualTestManager] testPanel is still null, cannot hide it!");
+            }
+            
+            enabled = false;
+            return;
+        }
         
         if (testPanel != null)
         {
@@ -28,7 +79,6 @@ public class ManualTestManager : MonoBehaviour
         
         if (!isTestMode)
         {
-            // Không phải test mode, disable script này
             enabled = false;
             return;
         }
