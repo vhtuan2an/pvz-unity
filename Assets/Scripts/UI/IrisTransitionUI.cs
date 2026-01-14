@@ -100,8 +100,26 @@ public class IrisTransitionUI : MonoBehaviour
         }
     }
 
+    // Flag to wait for input before returning to lobby
+    private bool isWaitInput = false;
+
+    private void Update()
+    {
+        if (isWaitInput && Input.anyKeyDown)
+        {
+            isWaitInput = false; // Prevent multiple calls
+            Debug.Log("Victory Input Detected: Returning to Lobby...");
+            if (GameStateManager.Instance != null)
+            {
+                GameStateManager.Instance.QuitGameServerRpc();
+            }
+        }
+    }
+
     private IEnumerator IrisRoutine(Vector3 targetWorldPos, PlayerRole winner)
     {
+        isWaitInput = false;
+
         // PHASE 1: Close Iris on Target (Focus on Winner)
         float timer = 0f;
         SetIrisWorld(targetWorldPos, initialRadius);
@@ -109,7 +127,7 @@ public class IrisTransitionUI : MonoBehaviour
         // Animate Closing
         while (timer < transitionDuration)
         {
-            timer += Time.deltaTime;
+            timer += Time.unscaledDeltaTime;
             float t = timer / transitionDuration;
             // Ease Out
             float currentRadius = Mathf.Lerp(initialRadius, targetRadius, t);
@@ -121,7 +139,7 @@ public class IrisTransitionUI : MonoBehaviour
         SetIrisWorld(targetWorldPos, targetRadius);
         
         // Wait briefly
-        yield return new WaitForSeconds(holdDuration);
+        yield return new WaitForSecondsRealtime(holdDuration);
 
         // PHASE 2: Reveal Victory Screen (Iris Open from Center)
         
@@ -138,7 +156,7 @@ public class IrisTransitionUI : MonoBehaviour
         // Animate Opening
         while (timer < transitionDuration)
         {
-            timer += Time.deltaTime;
+            timer += Time.unscaledDeltaTime;
             float t = timer / transitionDuration;
             float currentRadius = Mathf.Lerp(targetRadius, initialRadius, t); // Expanding from Target
             
@@ -149,6 +167,9 @@ public class IrisTransitionUI : MonoBehaviour
         // Fully Open
         SetIrisUV(centerUV, initialRadius);
         Debug.Log($"Iris Sequence Complete. Winner: {winner}");
+        
+        // Enable Input
+        isWaitInput = true;
     }
 
     // Helper: Sets Iris based on World Position

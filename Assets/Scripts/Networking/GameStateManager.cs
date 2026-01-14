@@ -74,6 +74,11 @@ public class GameStateManager : NetworkBehaviour
         gameEnded.OnValueChanged += OnGameEndedChanged;
         gameTimeRemaining.OnValueChanged += OnTimeRemainingChanged;
 
+        if (NetworkManager.Singleton != null)
+        {
+            NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
+        }
+
         // Initial check
         if (IsClient)
         {
@@ -83,6 +88,11 @@ public class GameStateManager : NetworkBehaviour
 
     public override void OnNetworkDespawn()
     {
+        if (NetworkManager.Singleton != null)
+        {
+            NetworkManager.Singleton.OnClientDisconnectCallback -= OnClientDisconnected;
+        }
+
         CurrentState.OnValueChanged -= OnGameStateChangedCallback;
         gameEnded.OnValueChanged -= OnGameEndedChanged;
         gameTimeRemaining.OnValueChanged -= OnTimeRemainingChanged;
@@ -163,6 +173,8 @@ public class GameStateManager : NetworkBehaviour
     private void OnGameStateChangedCallback(GameState previous, GameState current)
     {
         Debug.Log($"[GameState] Changed to {current}");
+        localStateCache = current; // Update Cache
+
         OnStateChanged?.Invoke(current);
         
         if (current == GameState.Paused)
@@ -172,6 +184,10 @@ public class GameStateManager : NetworkBehaviour
         else if (current == GameState.Playing)
         {
              Time.timeScale = 1f;
+        }
+        else if (current == GameState.GameOver)
+        {
+             Time.timeScale = 0f;
         }
     }
     
@@ -314,6 +330,13 @@ public class GameStateManager : NetworkBehaviour
     {
         OnGameEnded?.Invoke(winningRole);
         
+        // Stop all existing sounds (Ambience, Shooting, Zombies, etc.)
+        AudioSource[] allAudio = FindObjectsByType<AudioSource>(FindObjectsSortMode.None);
+        foreach (var audio in allAudio)
+        {
+            if (audio != null) audio.Stop();
+        }
+
         // Show end game UI with Iris focus
         ShowEndGameUI(winningRole, focusNetworkId);
     }
@@ -383,18 +406,78 @@ public class GameStateManager : NetworkBehaviour
         ReturnToLobbyClientRpc();
     }
 
+    private bool isExitingGracefully = false;
+
     [ClientRpc]
     private void ReturnToLobbyClientRpc()
     {
+        StartCoroutine(ShutdownAndReturnToLobbyRoutine());
+    }
+
+    private IEnumerator ShutdownAndReturnToLobbyRoutine()
+    {
         Debug.Log("Returning to Lobby...");
         
+        isExitingGracefully = true;
+
+        // Reset Time Scale so Lobby works!
+        Time.timeScale = 1f;
+
+        // Cleanup Role & Network State
+        if (LobbyManager.Instance != null)
+        {
+            LobbyManager.Instance.ClearSelectedRole();
+            LobbyManager.Instance.ResetNetworkState();
+        }
+
         // 1. Shutdown Network
         if (NetworkManager.Singleton != null)
         {
+             // OnClientDisconnectCallback might fire during Shutdown, isExitingGracefully prevents weird loops
             NetworkManager.Singleton.Shutdown();
         }
 
+        // Wait one frame to let NetworkManager finish internal cleanup (prevents TLS Allocator leak)
+        yield return null; 
+
         // 2. Load Lobby Scene
         SceneManager.LoadScene("LobbyScene");
+    }
+
+    private GameState localStateCache = GameState.Waiting; // Cache for safety
+
+    private void OnClientDisconnected(ulong clientId)
+    {
+        if (isExitingGracefully) return;
+
+        Debug.Log($"Client {clientId} disconnected. LocalState: {localStateCache}");
+
+        // Use local cache because NetworkVariable might be inaccessible during shutdown
+        if (localStateCache == GameState.Playing || localStateCache == GameState.Paused || localStateCache == GameState.Countdown)
+        {
+             Debug.Log("Player surrendered/disconnected mid-game.");
+             
+             // Host Logic
+             if (IsServer)
+             {
+                 Debug.Log("Host detected disconnect -> Returning to Lobby");
+                 QuitGameServerRpc();
+             }
+             // Client Logic (Host disconnected)
+             else
+             {
+                 Debug.Log("Client detected disconnect -> Returning to Lobby");
+                 
+                 // Manual Cleanup since we lost connection
+                 Time.timeScale = 1f;
+                 if (LobbyManager.Instance != null)
+                 {
+                     LobbyManager.Instance.ClearSelectedRole();
+                     LobbyManager.Instance.ResetNetworkState();
+                 }
+                 if (NetworkManager.Singleton != null) NetworkManager.Singleton.Shutdown();
+                 SceneManager.LoadScene("LobbyScene");
+             }
+        }
     }
 }
