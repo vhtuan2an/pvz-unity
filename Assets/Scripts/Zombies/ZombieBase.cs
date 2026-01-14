@@ -23,6 +23,9 @@ public class ZombieBase : NetworkBehaviour
 
     public int GetBrainCost() => brainCost;
     
+    // Check if 100% slowed (frozen/stunned)
+    public bool IsFrozen => currentSlowMultiplier <= 0f;
+
     protected NetworkVariable<int> currentHealth;
     protected Animator animator;
     private SpriteRenderer spriteRenderer;

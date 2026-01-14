@@ -116,6 +116,9 @@ public class KernelPult : PlantBase
         if (prefabToUse != null)
         {
              // Spawn projectile
+            if (NetworkGameManager.Instance != null)
+                NetworkGameManager.Instance.PlaySoundClientRpc("kernelpult");
+
             Vector3 spawnPos = shootPoint.position;
             GameObject projObj = Instantiate(prefabToUse, spawnPos, Quaternion.identity);
             

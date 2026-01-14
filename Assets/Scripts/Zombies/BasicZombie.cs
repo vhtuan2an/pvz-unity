@@ -89,8 +89,14 @@ public class BasicZombie : ZombieBase
 
             SetWalkingClientRpc(true);
             SetEatingClientRpc(false);
-            HandleGroan();
-
+            SetWalkingClientRpc(true);
+            SetEatingClientRpc(false);
+            
+            // Only groan if not frozen
+            if (!IsFrozen)
+            {
+                HandleGroan();
+            }
 
             if (isEatingSoundPlaying)
             {
@@ -106,8 +112,8 @@ public class BasicZombie : ZombieBase
             SetWalkingClientRpc(false);
             SetEatingClientRpc(true);
 
-            // Play eat sound ONCE
-            if (!isEatingSoundPlaying)
+            // Play eat sound ONCE, but only if NOT frozen
+            if (!isEatingSoundPlaying && !IsFrozen)
             {
                 NetworkGameManager.Instance.PlayLoopSoundClientRpc(
                     eatSoundKey,
@@ -116,6 +122,13 @@ public class BasicZombie : ZombieBase
                     Random.Range(0.95f, 1.05f)
                 );
                 isEatingSoundPlaying = true;
+            }
+            
+            // If frozen while eating, stop the sound
+            if (IsFrozen && isEatingSoundPlaying)
+            {
+                NetworkGameManager.Instance.StopSoundClientRpc(eatSoundKey);
+                isEatingSoundPlaying = false;
             }
 
             if (attackTimer >= attackRate)

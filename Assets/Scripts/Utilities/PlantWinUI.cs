@@ -50,13 +50,11 @@ public class PlantWinUI : MonoBehaviour
             // Use assigned UI elements
             gameOverText.text = "PLANTS WIN!";
             gameOverPanel.SetActive(true);
-            NetworkGameManager.Instance.PlaySoundClientRpc("plant_win");
         }
         else
         {
             // Fallback: Create UI dynamically
             CreateDynamicPlantWinUI("PLANTS WIN!");
-            NetworkGameManager.Instance.PlaySoundClientRpc("plant_win");
         }
     }
 

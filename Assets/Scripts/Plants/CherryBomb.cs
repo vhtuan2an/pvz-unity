@@ -42,6 +42,8 @@ public class CherryBomb : PlantBase
             }
         }
 
+        NetworkGameManager.Instance.PlaySoundClientRpc("cherrybomb");
+
         StartCoroutine(DestroyAfterAnim());
     }
 

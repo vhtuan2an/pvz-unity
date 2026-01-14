@@ -86,6 +86,7 @@ public class SoundManager : MonoBehaviour
         {
             source.Stop();
             source.clip = null;
+            source.ignoreListenerPause = false; // Reset for next use
             source.gameObject.SetActive(true); // Ensure it's active
             audioSourcePool.Enqueue(source);
         }
@@ -96,17 +97,17 @@ public class SoundManager : MonoBehaviour
     /// If 'clipName' is a folder, picks a random clip from inside.
     /// </summary>
     /// <param name="clipName">Name of file or folder in Assets/Resources/Audio/</param>
-    public void PlaySound(string clipName, float volume = 1f, float pitch = 1f)
+    public void PlaySound(string clipName, float volume = 1f, float pitch = 1f, bool ignorePause = false)
     {
         AudioClip[] clips = GetClips(clipName);
         if (clips == null || clips.Length == 0) return;
 
         // Pick random clip
         AudioClip selectedClip = clips[Random.Range(0, clips.Length)];
-        PlayClip(selectedClip, volume, pitch);
+        PlayClip(selectedClip, volume, pitch, ignorePause);
     }
 
-    public void PlayClip(AudioClip clip, float volume = 1f, float pitch = 1f)
+    public void PlayClip(AudioClip clip, float volume = 1f, float pitch = 1f, bool ignorePause = false)
     {
         if (clip == null) return;
 
@@ -114,6 +115,7 @@ public class SoundManager : MonoBehaviour
         source.clip = clip;
         source.volume = volume;
         source.pitch = pitch;
+        source.ignoreListenerPause = ignorePause; // Apply pause setting
         source.Play();
 
         // Return to pool after it finishes
@@ -201,6 +203,39 @@ public class SoundManager : MonoBehaviour
         source.Play();
 
         loopingSources.Add(key, source);
+    }
+
+    public void StopAllSounds()
+    {
+        // 1. Stop and recycle Looping Sources (Manual management)
+        foreach (var source in loopingSources.Values)
+        {
+            if (source != null)
+            {
+                source.Stop();
+                source.loop = false;
+                source.clip = null;
+                // Add back to pool manually since no coroutine is tracking them
+                audioSourcePool.Enqueue(source);
+            }
+        }
+        loopingSources.Clear();
+
+        // 2. Stop One-Shots
+        // Just stop them; their existing coroutines (ReturnToPoolRoutine) will handle recycling.
+        if (poolContainer != null)
+        {
+            foreach (Transform child in poolContainer.transform)
+            {
+                AudioSource source = child.GetComponent<AudioSource>();
+                if (source != null && source.isPlaying)
+                {
+                    source.Stop();
+                }
+            }
+        }
+        
+        Debug.Log("[SoundManager] Stopped all sounds.");
     }
 
 

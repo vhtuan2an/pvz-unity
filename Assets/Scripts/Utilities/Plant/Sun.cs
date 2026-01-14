@@ -86,6 +86,8 @@ public class Sun : NetworkBehaviour
         if (isCollected) return;
         isCollected = true;
 
+        SoundManager.Instance.PlaySound("collect");
+
         if (autoDestroyRoutine != null) StopCoroutine(autoDestroyRoutine);
 
         StartCoroutine(CollectRoutine());

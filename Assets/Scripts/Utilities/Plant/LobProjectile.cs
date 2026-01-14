@@ -127,8 +127,8 @@ public class LobProjectile : NetworkBehaviour
         if (NetworkGameManager.Instance != null)
         {
             string soundName = "splat"; // Default
-            if (projectileType == ProjectileType.Butter) soundName = "butter_splat";
-            else if (projectileType == ProjectileType.Kernel) soundName = "kernel_splat";
+            if (projectileType == ProjectileType.Butter) soundName = "butter";
+            else if (projectileType == ProjectileType.Kernel) soundName = "kernel";
             
             NetworkGameManager.Instance.PlaySoundClientRpc(soundName);
         }

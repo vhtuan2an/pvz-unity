@@ -438,6 +438,7 @@ public class PlantManager : MonoBehaviour
         else
         {
             SelectPlant(shovelPlaceholder, 0);
+            SoundManager.Instance.PlaySound("shovel_click");
             Debug.Log("Shovel Mode: ACTIVATED");
         }
     }
@@ -521,7 +522,7 @@ public class PlantManager : MonoBehaviour
                     if (plant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
                     {
                         NetworkGameManager.Instance.DespawnPlantByNetworkId(netObj.NetworkObjectId);
-                        NetworkGameManager.Instance.PlaySoundClientRpc("plant_shovel"); // Optional sound
+                        NetworkGameManager.Instance.PlaySoundClientRpc("shovel_dig"); 
                         Debug.Log($"Shoveled plant on {tile.name}");
                         ClearSelection(); // Deselect shovel after use
                     }
@@ -577,6 +578,7 @@ public class PlantManager : MonoBehaviour
         if (NetworkGameManager.Instance != null)
         {
             NetworkGameManager.Instance.SpawnPlantAtPosition(position, selectedPlantPrefab.name);
+            NetworkGameManager.Instance.PlaySoundClientRpc("planting");
             
             SpendSun(selectedCost);
             selectedSeedPacket?.StartCooldown();

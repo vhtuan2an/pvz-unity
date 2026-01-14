@@ -93,7 +93,13 @@ public class SeedPacket : MonoBehaviour
     void OnClicked()
     {
         // Prevent selection if on cooldown
-        if (onCooldown) return;
+        if (onCooldown) 
+        {
+            SoundManager.Instance.PlaySound("oncooldown");
+            return;
+        }
+
+        SoundManager.Instance.PlaySound("select");
 
         // Pass the plant prefab, sun cost, and this seed packet to PlantManager
         PlantManager.Instance?.SelectPlant(plantPrefab, sunCost, this);

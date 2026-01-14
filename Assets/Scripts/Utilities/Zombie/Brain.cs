@@ -58,69 +58,53 @@ public class Brain : NetworkBehaviour
     void TryCollect()
     {
         if (isCollected) return;
-        
-        // Gọi ServerRpc để đồng bộ việc collect
-        RequestCollectServerRpc();
-    }
-
-    [ServerRpc(RequireOwnership = false)]
-    private void RequestCollectServerRpc(ServerRpcParams rpcParams = default)
-    {
-        if (isCollected) return;
-        
-        // Thông báo cho client nào đã collect để cộng điểm
-        ulong clientId = rpcParams.Receive.SenderClientId;
-        NotifyCollectedClientRpc(clientId);
-        
-        // Đánh dấu đã collect
         isCollected = true;
         
-        // Fly animation trên tất cả client
-        StartFlyAnimationClientRpc();
-    }
+        // 1. Play Sound Locally
+        SoundManager.Instance.PlaySound("collect");
 
-    [ClientRpc]
-    private void NotifyCollectedClientRpc(ulong collectorClientId)
-    {
-        // Chỉ client thu thập mới được cộng điểm
-        if (NetworkManager.Singleton.LocalClientId == collectorClientId)
+        // 2. Add Score Locally
+        if (IsLocalPlayerZombie())
         {
-            if (IsLocalPlayerZombie())
-            {
-                ZombieManager.Instance?.OnBrainCollected(brainValue);
-            }
+            ZombieManager.Instance?.OnBrainCollected(brainValue);
         }
-    }
 
-    [ClientRpc]
-    private void StartFlyAnimationClientRpc()
-    {
-        isCollected = true;
+        // 3. Start Animation locally
+        CancelInvoke(nameof(AutoDespawn));
         StartCoroutine(FlyAndDie());
     }
 
+    // Removed RequestCollectServerRpc, NotifyCollectedClientRpc, StartFlyAnimationClientRpc
+    // as they are no longer needed for local-first collection.
+    
     bool IsLocalPlayerZombie()
     {
         return LobbyManager.Instance != null && LobbyManager.Instance.SelectedRole == PlayerRole.Zombie;
     }
+    
+    // ...
 
     IEnumerator FlyAndDie()
     {
-        // Disable collider để không collect 2 lần
-        if (col != null)
-            col.enabled = false;
+        // Disable collider 
+        if (col != null) col.enabled = false;
 
+        // Fly to target
         while (Vector3.Distance(transform.position, collectTarget) > 0.05f)
         {
             transform.position = Vector3.MoveTowards(transform.position, collectTarget, 40f * Time.deltaTime);
             yield return null;
         }
 
-        // Server despawn object
-        if (IsServer)
-        {
-            DespawnBrain();
-        }
+        // On finished, tell server to destroy this object
+        RequestDespawnServerRpc();
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void RequestDespawnServerRpc()
+    {
+        if (!IsServer) return;
+        DespawnBrain();
     }
 
     private void UpdateBrainVisibility()

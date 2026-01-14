@@ -180,14 +180,17 @@ public class GameStateManager : NetworkBehaviour
         if (current == GameState.Paused)
         {
              Time.timeScale = 0f;
+             AudioListener.pause = true; // Global Audio Pause
         }
         else if (current == GameState.Playing)
         {
              Time.timeScale = 1f;
+             AudioListener.pause = false; // Global Audio Resume
         }
         else if (current == GameState.GameOver)
         {
              Time.timeScale = 0f;
+             AudioListener.pause = true; // Global Audio Pause (optional, but good for dramatic stop)
         }
     }
     
@@ -255,11 +258,13 @@ public class GameStateManager : NetworkBehaviour
         {
             previousStateBeforePause = GameState.Playing;
             SetState(GameState.Paused);
+            NetworkGameManager.Instance.PlaySoundClientRpc("pause", 1f, 1f, true);
         }
         else if (CurrentState.Value == GameState.Paused)
         {
             // Start Resume Sequence
             StartCoroutine(ResumeGameRoutine());
+            NetworkGameManager.Instance.PlaySoundClientRpc("pause", 1f, 1f, true);
         }
     }
 
@@ -335,6 +340,17 @@ public class GameStateManager : NetworkBehaviour
         foreach (var audio in allAudio)
         {
             if (audio != null) audio.Stop();
+        }
+
+        // Play Win Sounds Immediately (ignore pause)
+        if (winningRole == PlayerRole.Plant)
+        {
+            NetworkGameManager.Instance.PlaySoundClientRpc("plant_win", 1f, 1f, true);
+        }
+        else if (winningRole == PlayerRole.Zombie)
+        {
+            NetworkGameManager.Instance.PlaySoundClientRpc("zombie_win", 1f, 1f, true);
+            NetworkGameManager.Instance.PlaySoundClientRpc("2an_cry", 1f, 1f, true);
         }
 
         // Show end game UI with Iris focus
@@ -439,6 +455,13 @@ public class GameStateManager : NetworkBehaviour
 
         // Wait one frame to let NetworkManager finish internal cleanup (prevents TLS Allocator leak)
         yield return null; 
+
+        // 3. Stop all sounds (Disco, Ambience, etc.)
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.StopAllSounds();
+            AudioListener.pause = false; // Ensure audio is unpaused for the Lobby
+        }
 
         // 2. Load Lobby Scene
         SceneManager.LoadScene("LobbyScene");

@@ -187,7 +187,6 @@ public class DiscoZombie : ZombieBase
         enabled = false;
         activeSummons.Clear();
         
-        NetworkGameManager.Instance.PlaySoundClientRpc("zombie_die");
         if (rb != null) rb.simulated = false;
         if (boxCollider != null) boxCollider.enabled = false;
 

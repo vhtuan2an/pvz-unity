@@ -65,6 +65,8 @@ public class DoomShroom : PlantBase
         if (damageDealt) return;
         damageDealt = true;
 
+        NetworkGameManager.Instance.PlaySoundClientRpc("doomshroom");
+
         // Deal Damage
         Vector3 center = transform.position + (Vector3)explosionOffset;
         Collider2D[] hits = Physics2D.OverlapBoxAll(center, aoeScale, 0f);

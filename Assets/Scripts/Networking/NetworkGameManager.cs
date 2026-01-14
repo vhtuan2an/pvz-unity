@@ -187,6 +187,12 @@ public class NetworkGameManager : NetworkBehaviour
 
         Debug.Log($"✅ ZOMBIE SPAWN APPROVED: Sending ServerRpc for {zombieName}");
         RequestSpawnZombieServerRpc(position, zombieName, ownerClientId);
+
+        // Randomly play groan sound (e.g. 30% chance)
+        if (Random.value < 0.3f) 
+        {
+            PlaySoundClientRpc("zombie_groan");
+        }
     }
 
     [ServerRpc(RequireOwnership = false)]
@@ -274,18 +280,18 @@ public class NetworkGameManager : NetworkBehaviour
     // ===================== HELPERS =====================
     // ===================== SOUND =====================
     [ClientRpc]
-    public void PlaySoundClientRpc(string soundName, float volume = 1f, float pitch = 1f)
+    public void PlaySoundClientRpc(string soundName, float volume = 1f, float pitch = 1f, bool ignorePause = false)
     {
         if (SoundManager.Instance != null)
         {
-            SoundManager.Instance.PlaySound(soundName, volume, pitch);
+            SoundManager.Instance.PlaySound(soundName, volume, pitch, ignorePause);
         }
     }
 
     [ClientRpc]
     public void PlayLoopSoundClientRpc(string key, string clip, float volume, float pitch, bool excludeOwner = false)
     {
-        if (excludeOwner && IsHost) return;
+        // Removed IsHost check so Host player can hear sounds too
         SoundManager.Instance.PlayLoop(key, clip, volume, pitch);
     }
 

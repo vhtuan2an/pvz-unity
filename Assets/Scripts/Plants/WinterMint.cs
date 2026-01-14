@@ -71,6 +71,7 @@ public class WinterMint : PlantBase
         ZombieBase[] zombies = FindObjectsByType<ZombieBase>(FindObjectsSortMode.None);
         
         Debug.Log($"Winter-mint freezing {zombies.Length} zombies (100% slow with VFX for {freezeVFXDuration}s)");
+        NetworkGameManager.Instance.PlaySoundClientRpc("wintermint");
 
         foreach (ZombieBase zombie in zombies)
         {

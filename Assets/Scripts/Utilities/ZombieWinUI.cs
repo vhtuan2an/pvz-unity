@@ -50,13 +50,11 @@ public class ZombieWinUI : MonoBehaviour
             // Use assigned UI elements
             gameOverText.text = "2AN DIES MID!";
             gameOverPanel.SetActive(true);
-            NetworkGameManager.Instance.PlaySoundClientRpc("zombie_win");
         }
         else
         {
             // Fallback: Create UI dynamically
             CreateDynamicZombieWinUI("2AN DIES MID!");
-            NetworkGameManager.Instance.PlaySoundClientRpc("zombie_win");
         }
     }
 

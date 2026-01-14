@@ -86,6 +86,8 @@ public class PotatoMine : PlantBase
 
     private void DealExplosionDamage()
     {
+        if (IsServer) NetworkGameManager.Instance.PlaySoundClientRpc("potato-mine");
+        
         Vector2 center = transform.position;
         Vector2 size = new Vector2(explosionRadius * 2f, explosionHeight); // Use the field
 
