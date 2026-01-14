@@ -147,6 +147,13 @@ public class IrisTransitionUI : MonoBehaviour
         if (winner == PlayerRole.Zombie && zombieWinScreen != null) zombieWinScreen.SetActive(true);
         if (winner == PlayerRole.Plant && plantWinScreen != null) plantWinScreen.SetActive(true);
         if (winMessageText != null) winMessageText.text = winner == PlayerRole.Zombie ? "ZOMBIES WIN!" : "PLANTS WIN!";
+        if (NetworkGameManager.Instance != null)
+        {
+            if (winner == PlayerRole.Zombie)
+                NetworkGameManager.Instance.PlaySoundClientRpc("zombie_win");
+            else
+                NetworkGameManager.Instance.PlaySoundClientRpc("plant_win");
+        }
 
         // 2. Center Iris
         // We set the center to 0.5, 0.5 (Screen Center)
