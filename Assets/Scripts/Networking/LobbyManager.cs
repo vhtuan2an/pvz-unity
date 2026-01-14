@@ -830,6 +830,12 @@ public class LobbyManager : MonoBehaviour
         return PlayerRole.None;
     }
 
+    public void ClearSelectedRole()
+    {
+        SelectedRole = PlayerRole.None;
+        Debug.Log("SelectedRole cleared to None.");
+    }
+
     private void OnDestroy()
     {
         StopPolling();
