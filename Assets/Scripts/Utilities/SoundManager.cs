@@ -27,8 +27,8 @@ public class SoundManager : MonoBehaviour
 
         InitializePool();
         clipCache = new Dictionary<string, AudioClip[]>();
-        Resources.LoadAll<AudioClip>("Audio");
-        Debug.Log("[SoundManager] Preloaded all audio files into memory.");
+        // Removed: Resources.LoadAll<AudioClip>("Audio") - audio now loads lazily via GetClips()
+        Debug.Log("[SoundManager] Initialized with lazy audio loading.");
     }
 
     private void InitializePool()
