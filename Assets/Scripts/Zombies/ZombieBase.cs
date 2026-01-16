@@ -63,9 +63,10 @@ public class ZombieBase : NetworkBehaviour
         if (spriteRenderer != null)
         {
             originalColor = spriteRenderer.color;
-            globalSpawnOrder++;
-            spriteRenderer.sortingOrder = globalSpawnOrder;
-            if (globalSpawnOrder >= 30000) globalSpawnOrder = 0; 
+            if (gameObject.GetComponent<DynamicSorting>() == null)
+            {
+                gameObject.AddComponent<DynamicSorting>();
+            }
         }
         
         if (IsServer)
