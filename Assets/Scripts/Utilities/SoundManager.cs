@@ -14,6 +14,19 @@ public class SoundManager : MonoBehaviour
 
     private Dictionary<string, AudioClip[]> clipCache;
 
+    /// <summary>
+    /// Ensures SoundManager instance exists. Creates one if it doesn't.
+    /// </summary>
+    public static void EnsureInstance()
+    {
+        if (Instance == null)
+        {
+            GameObject go = new GameObject("SoundManager");
+            Instance = go.AddComponent<SoundManager>();
+            Debug.Log("[SoundManager] Auto-created SoundManager instance.");
+        }
+    }
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -197,6 +210,34 @@ public class SoundManager : MonoBehaviour
 
         AudioSource source = GetAudioSource();
         source.clip = selectedClip;
+        source.volume = volume;
+        source.pitch = pitch;
+        source.loop = true;
+        source.Play();
+
+        loopingSources.Add(key, source);
+    }
+
+    /// <summary>
+    /// Plays an AudioClip in a loop with a unique key.
+    /// </summary>
+    /// <param name="key">Unique identifier for this looping sound</param>
+    /// <param name="clip">The AudioClip to play</param>
+    /// <param name="volume">Volume level (0-1)</param>
+    /// <param name="pitch">Pitch level</param>
+    public void PlayLoopClip(string key, AudioClip clip, float volume = 1f, float pitch = 1f)
+    {
+        if (loopingSources.ContainsKey(key))
+            return;
+
+        if (clip == null)
+        {
+            Debug.LogWarning($"[SoundManager] PlayLoopClip: clip is null for key '{key}'");
+            return;
+        }
+
+        AudioSource source = GetAudioSource();
+        source.clip = clip;
         source.volume = volume;
         source.pitch = pitch;
         source.loop = true;
