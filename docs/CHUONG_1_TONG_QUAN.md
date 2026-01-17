@@ -43,7 +43,7 @@ Plants vs Zombies là một trong những tựa game Tower Defense nổi tiếng
 | **Networking Framework** | Unity Netcode for GameObjects          |
 | **Relay Service**        | Unity Relay (kết nối P2P)              |
 | **Lobby Service**        | Unity Lobby (quản lý phòng chơi)       |
-| **Authentication**       | Unity Authentication + PlayFab SDK     |
+| **Authentication**       | Unity Authentication                   |
 | **UI Framework**         | Unity UI + TextMeshPro                 |
 | **Animation**            | Unity Animator (Sprite Animation)      |
 
@@ -112,7 +112,7 @@ Xây dựng một game multiplayer 1v1 hoàn chỉnh dựa trên gameplay của 
 
 | #   | Tính năng                 | Mô tả                                |
 | --- | ------------------------- | ------------------------------------ |
-| 1   | **Authentication System** | Đăng nhập Unity Auth + PlayFab       |
+| 1   | **Authentication System** | Đăng nhập Unity Auth (Anonymous)     |
 | 2   | **Lobby System**          | Tạo, tìm, join phòng chơi            |
 | 3   | **Matchmaking**           | Tự động ghép cặp người chơi          |
 | 4   | **Role Selection**        | Chọn phe Plant hoặc Zombie           |
@@ -162,7 +162,7 @@ Xây dựng một game multiplayer 1v1 hoàn chỉnh dựa trên gameplay của 
 │   │   ├── 📁 UI/              # UI elements
 │   │   └── 📁 lawn/            # Background
 │   ├── 📁 Resources/           # Runtime loadable assets
-│   ├── 📁 PlayFabSDK/          # PlayFab integration
+
 │   └── 📁 TextMesh Pro/        # TextMeshPro assets
 ├── 📁 Packages/                # Unity package dependencies
 ├── 📁 ProjectSettings/         # Unity project settings
