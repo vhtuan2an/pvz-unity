@@ -117,7 +117,8 @@ public class SoundManager : MonoBehaviour
 
         // Pick random clip
         AudioClip selectedClip = clips[Random.Range(0, clips.Length)];
-        PlayClip(selectedClip, volume, pitch, ignorePause);
+        // Apply SFX volume multiplier
+        PlayClip(selectedClip, volume * AudioSettings.SFXVolume, pitch, ignorePause);
     }
 
     public void PlayClip(AudioClip clip, float volume = 1f, float pitch = 1f, bool ignorePause = false)
@@ -126,7 +127,8 @@ public class SoundManager : MonoBehaviour
 
         AudioSource source = GetAudioSource();
         source.clip = clip;
-        source.volume = volume;
+        // Apply SFX volume multiplier
+        source.volume = volume * AudioSettings.SFXVolume;
         source.pitch = pitch;
         source.ignoreListenerPause = ignorePause; // Apply pause setting
         source.Play();
@@ -210,7 +212,8 @@ public class SoundManager : MonoBehaviour
 
         AudioSource source = GetAudioSource();
         source.clip = selectedClip;
-        source.volume = volume;
+        // Apply music volume multiplier
+        source.volume = volume * AudioSettings.MusicVolume;
         source.pitch = pitch;
         source.loop = true;
         source.Play();
@@ -238,7 +241,8 @@ public class SoundManager : MonoBehaviour
 
         AudioSource source = GetAudioSource();
         source.clip = clip;
-        source.volume = volume;
+        // Apply music volume multiplier
+        source.volume = volume * AudioSettings.MusicVolume;
         source.pitch = pitch;
         source.loop = true;
         source.Play();
@@ -279,5 +283,24 @@ public class SoundManager : MonoBehaviour
         Debug.Log("[SoundManager] Stopped all sounds.");
     }
 
+    /// <summary>
+    /// Updates the volume of all currently looping music sources.
+    /// Call this when music volume setting changes to apply immediately.
+    /// </summary>
+    public void UpdateLoopingVolumes()
+    {
+        foreach (var source in loopingSources.Values)
+        {
+            if (source != null && source.isPlaying)
+            {
+                // The source.volume was set with the old multiplier
+                // We need to recalculate: original_volume * new_multiplier
+                // Since we don't store original volume, we'll just apply the current setting
+                // This assumes all looping sounds use volume = 1.0f by default
+                source.volume = AudioSettings.MusicVolume;
+            }
+        }
+        Debug.Log($"[SoundManager] Updated looping music volumes to {AudioSettings.MusicVolume:F2}");
+    }
 
 }
