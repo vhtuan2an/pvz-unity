@@ -19,9 +19,9 @@ public class GameplayMusicManager : MonoBehaviour
     private readonly string[] themes = { "PvZ1", "Modern Day", "Holiday Mashup" };
     
     // Health thresholds for music transitions
-    private const float FIRST_WAVE_THRESHOLD = 0.75f;  // 75%
-    private const float MID_WAVE_A_THRESHOLD = 0.45f;   // 45%
-    private const float FINAL_WAVE_THRESHOLD = 0.15f;   // 15%
+    private const float FIRST_WAVE_THRESHOLD = 0.75f;
+    private const float MID_WAVE_A_THRESHOLD = 0.45f;
+    private const float FINAL_WAVE_THRESHOLD = 0.15f;
 
     private bool hasTransitionedToFirstWave = false;
     private bool hasTransitionedToMidWaveA = false;

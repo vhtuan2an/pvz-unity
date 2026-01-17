@@ -61,15 +61,6 @@ public class LobbyUI : MonoBehaviour
 
         _ = RefreshLobbyList();
         ForceContentLayout();
-
-        // Stop all previous music (including gameplay/victory music) and play lobby background music
-        if (SoundManager.Instance != null)
-        {
-            SoundManager.Instance.Stop("LoginBGM");
-            SoundManager.Instance.Stop("GameplayBGM"); // Stop gameplay music key
-            SoundManager.Instance.StopAllSounds(); // Clear any remaining sounds from game scene
-            SoundManager.Instance.PlayLoop("LobbyBGM", "background music/Lobby Scene");
-        }
     }
 
     private void ForceContentLayout()
@@ -114,12 +105,6 @@ public class LobbyUI : MonoBehaviour
         }
 
         CancelInvoke(nameof(PeriodicRefresh));
-
-        // Stop lobby music when leaving the scene
-        if (SoundManager.Instance != null)
-        {
-            SoundManager.Instance.Stop("LobbyBGM");
-        }
     }
 
     private void CheckAndShowLobbyCancelledDialog()
@@ -292,12 +277,6 @@ public class LobbyUI : MonoBehaviour
 
     private void OnLogoutClicked()
     {
-        // Stop lobby music before leaving
-        if (SoundManager.Instance != null)
-        {
-            SoundManager.Instance.Stop("LobbyBGM");
-        }
-
         // Cleanup network trước khi logout
         if (LobbyManager.Instance != null)
         {
