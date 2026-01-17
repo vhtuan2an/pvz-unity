@@ -519,7 +519,7 @@ Project được tổ chức theo chuẩn Unity, tách rõ tài nguyên (assets)
 * **Scripts/**: chứa mã nguồn chia theo nhóm chức năng (Networking, Plants, Zombies, UI, Utilities…).
 * **Sprites/**: chứa bộ sprite lớn phục vụ animation/đồ họa.
 * **Resources/**: chứa các tài nguyên cần nạp tại runtime (âm thanh, hiệu ứng…).
-* **PlayFabSDK/** và **TextMesh Pro/**: phục vụ tích hợp dịch vụ và hiển thị UI.
+
 
 Cách tổ chức này giúp dễ quản lý, bảo trì và mở rộng, đặc biệt khi số lượng asset và script tăng lên.
 
@@ -572,7 +572,7 @@ Hệ thống đăng nhập được triển khai theo hướng:
 
 * người chơi nhập **username**,
 * hệ thống thực hiện **xác thực (authentication)**,
-* tích hợp lưu trữ thông tin người chơi thông qua dịch vụ backend (PlayFab) để quản lý dữ liệu người dùng.
+* tích hợp lưu trữ thông tin người chơi thông qua Unity Services để quản lý dữ liệu người dùng.
 
 Mục tiêu của phần này là đảm bảo:
 
@@ -586,7 +586,7 @@ Mục tiêu của phần này là đảm bảo:
 flowchart LR
   A[Nhập Username] --> B[Unity Services Init]
   B --> C[Unity Authentication Sign-in]
-  C --> D[PlayFab Login / Sync Player Data]
+  C --> D[Store Player Name in Auth Service]
   D --> E[Chuyển sang Lobby Scene]
 ```
 

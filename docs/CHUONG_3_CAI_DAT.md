@@ -24,7 +24,7 @@
 │   └── 📁 Zombies/          # 7 zombie behaviors
 ├── 📁 Sprites/              # 10,000+ sprite files
 ├── 📁 Resources/            # Runtime loadable assets
-├── 📁 PlayFabSDK/           # PlayFab integration
+
 └── 📁 TextMesh Pro/         # UI text rendering
 ```
 
@@ -76,8 +76,11 @@ public class UnityAuthManager : MonoBehaviour
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
 
-        // PlayFab integration
-        PlayFabClientAPI.LoginWithCustomID(...);
+        // Authentication loop or other init logic
+        if (AuthenticationService.Instance.IsSignedIn)
+        {
+             Debug.Log("Signed in: " + AuthenticationService.Instance.PlayerId);
+        }
     }
 }
 ```
@@ -85,7 +88,7 @@ public class UnityAuthManager : MonoBehaviour
 **Luồng hoạt động:**
 
 ```
-User nhập Username → Unity Auth SignIn → PlayFab Login → Lưu Player Data
+User nhập Username → Unity Auth SignIn (Anonymous) → Lưu Player Name vào Auth Service
 ```
 
 ### 3.2.2. Hệ thống Lobby & Matchmaking
@@ -414,7 +417,7 @@ public class SoundManager : MonoBehaviour
 │  LoginScene ─────► LobbyScene ─────► LoadingScene ─────► GameScene    │
 │       │                  │                  │                  │       │
 │  - Unity Auth       - Select Role      - Setup Relay       - Selection│
-│  - PlayFab Login    - Create/Join      - Connect Host      - Intro    │
+│  - Set Username     - Create/Join      - Connect Host      - Intro    │
 │  - Enter Username   - Heartbeat        - Connect Client    - Countdown│
 │                                                             - Playing  │
 │                                                             - GameOver │
