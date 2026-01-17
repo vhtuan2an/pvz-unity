@@ -27,6 +27,17 @@ public class PlantBase : NetworkBehaviour
         }
 
         FindOccupiedTile();
+        
+        // Add static sorting
+        if (GetComponent<DynamicSorting>() == null)
+        {
+            var sorting = gameObject.AddComponent<DynamicSorting>();
+            // Use reflection or just public field if accessible (it is serialized private, but we can rely on default)
+            // Or just let it run. Default is !isStatic, which is fine, or we can assume Plants don't move much
+            // But let's check if we can set isStatic via reflection or just leave it dynamic for now (cheap enough)
+            // Actually, we can't set private serialized fields easily without reflection.
+            // Let's just AddComponent. It will run in LateUpdate which handles potential minor movements or just works.
+        }
     }
 
     private void FindOccupiedTile()

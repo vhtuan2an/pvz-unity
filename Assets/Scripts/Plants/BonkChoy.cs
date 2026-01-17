@@ -5,7 +5,19 @@ using System.Collections.Generic;
 public class BonkChoy : PlantBase
 {
     private enum PunchSide { None, Left, Right }
+    
+    // Animation type enum matching Animator parameter values
+    private enum AttackType 
+    { 
+        Idle = 0,           // No attack
+        PunchLeft = 1,      // Normal punch left
+        PunchRight = 2,     // Normal punch right
+        KillLeft = 3,       // Kill punch left
+        KillRight = 4       // Kill punch right
+    }
+    
     private PunchSide currentSide = PunchSide.None;
+    private AttackType currentAttackType = AttackType.Idle;
 
     [Header("Combat")]
     [SerializeField] private float attackRate = 0.33f; // Punches every 0.33 seconds
@@ -81,9 +93,59 @@ public class BonkChoy : PlantBase
         if (!IsServer)
             return;
 
-        // Trigger punch animation on all clients
+        // Check if any zombie will die to determine attack type
+        currentAttackType = DetermineAttackType();
+        Debug.Log($"🥊 PerformPunch: Determined attack type = {currentAttackType}");
+        
+        // Set animation on all clients
         // Damage will be dealt by Animation Event at the exact punch frame
-        TriggerPunchAnimationClientRpc();
+        SetAttackAnimationClientRpc(currentAttackType);
+    }
+
+    private AttackType DetermineAttackType()
+    {
+        if (!IsServer || currentSide == PunchSide.None)
+            return AttackType.Idle;
+
+        Vector2 boxCenter = (Vector2)transform.position +
+            (currentSide == PunchSide.Left ? Vector2.left : Vector2.right) * punchBoxDistance +
+            punchBoxOffset;
+
+        Collider2D[] targets = Physics2D.OverlapBoxAll(boxCenter, punchBoxSize, 0f, LayerMask.GetMask("Zombie"));
+        
+        Debug.Log($"🔍 DetermineAttackType: Found {targets.Length} zombies, side={currentSide}");
+
+        // Check if any zombie will die from this punch
+        bool willKillZombie = false;
+        foreach (var col in targets)
+        {
+            ZombieBase zombie = col.GetComponent<ZombieBase>();
+            if (zombie != null)
+            {
+                int zombieHP = zombie.GetCurrentHealth();
+                Debug.Log($"🧟 Zombie {col.name} HP: {zombieHP}, Will die: {zombieHP <= punchDamage}");
+                
+                if (zombieHP <= punchDamage)
+                {
+                    willKillZombie = true;
+                    break; // Found at least one zombie that will die
+                }
+            }
+        }
+
+        // Determine attack type based on side and whether we'll kill
+        if (willKillZombie)
+        {
+            AttackType killType = (currentSide == PunchSide.Right) ? AttackType.KillRight : AttackType.KillLeft;
+            Debug.Log($"💀 KILL ATTACK: {killType}");
+            return killType;
+        }
+        else
+        {
+            AttackType normalType = (currentSide == PunchSide.Right) ? AttackType.PunchRight : AttackType.PunchLeft;
+            Debug.Log($"✊ Normal attack: {normalType}");
+            return normalType;
+        }
     }
 
     // Called by Animation Event at the exact frame when punch connects
@@ -93,6 +155,10 @@ public class BonkChoy : PlantBase
             return;
 
         Debug.Log($"💥 DealPunchDamage called by Animation Event");
+        
+        // Play appropriate sound based on attack type
+        PlayPunchSoundClientRpc(currentAttackType);
+        
         DealAOEDamage();
     }
 
@@ -126,19 +192,40 @@ public class BonkChoy : PlantBase
     }
 
     [ClientRpc]
-    private void TriggerPunchAnimationClientRpc()
+    private void SetAttackAnimationClientRpc(AttackType attackType)
     {
-        if (currentSide == PunchSide.Left)
+        if (animator == null) 
         {
-            animator.SetTrigger("PunchLeft");
+            Debug.LogError("❌ Animator is null!");
+            return;
         }
-        else if (currentSide == PunchSide.Right)
-        {
-            animator.SetTrigger("PunchRight");
-        }
+        
+        // Store attack type on clients too for potential client-side logic
+        currentAttackType = attackType;
+
+        int attackValue = (int)attackType;
+        // Set the AttackType integer parameter - Animator will handle transitions
+        animator.SetInteger("AttackType", attackValue);
+        
+        // Verify it was set
+        int currentValue = animator.GetInteger("AttackType");
+        Debug.Log($"🎬 BonkChoy set AttackType = {attackType} (value: {attackValue}), verified current value: {currentValue}");
     }
 
-    // This ClientRpc is called to update the punch animation state on all clients
+    [ClientRpc]
+    private void PlayPunchSoundClientRpc(AttackType attackType)
+    {
+        if (NetworkGameManager.Instance == null) return;
+        
+        // Play kill sound for kill attacks, punch sound for normal
+        string soundName = (attackType == AttackType.KillRight || attackType == AttackType.KillLeft) 
+            ? "bonk_choy/kill" 
+            : "bonk_choy/punch";
+            
+        NetworkGameManager.Instance.PlaySoundClientRpc(soundName);
+    }
+
+    // This ClientRpc is called to update the animation state on all clients
     [ClientRpc]
     private void UpdatePunchAnimationClientRpc(PunchSide side, bool hasTargets)
     {
@@ -146,20 +233,10 @@ public class BonkChoy : PlantBase
         if (animator == null) animator = GetComponent<Animator>();
         if (animator == null) return;
 
-        if (side == PunchSide.Left)
+        // Set AttackType to Idle when no targets
+        if (!hasTargets)
         {
-            animator.SetBool("HasTargetsLeft", hasTargets);
-            animator.SetBool("HasTargetsRight", false);
-        }
-        else if (side == PunchSide.Right)
-        {
-            animator.SetBool("HasTargetsRight", hasTargets);
-            animator.SetBool("HasTargetsLeft", false);
-        }
-        else
-        {
-            animator.SetBool("HasTargetsLeft", false);
-            animator.SetBool("HasTargetsRight", false);
+            animator.SetInteger("AttackType", (int)AttackType.Idle);
         }
     }
 
