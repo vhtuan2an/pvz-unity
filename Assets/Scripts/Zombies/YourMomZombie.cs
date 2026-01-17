@@ -317,6 +317,19 @@ public class YourMomZombie : ZombieBase
         }
     }
 
+    /// <summary>
+    /// Returns the boss's current health as a percentage (0.0 to 1.0)
+    /// </summary>
+    public float GetHealthPercentage()
+    {
+        int currentHealth = GetCurrentHealth();
+        int maxHealth = GetMaxHealth();
+        
+        if (maxHealth <= 0) return 0f;
+        
+        return (float)currentHealth / maxHealth;
+    }
+
     private void HandleTimers()
     {
         if (currentState != BossState.Idle && currentState != BossState.Moving) return;

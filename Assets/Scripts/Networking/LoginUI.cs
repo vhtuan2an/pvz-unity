@@ -29,6 +29,12 @@ public class LoginUI : MonoBehaviour
         loginButton.onClick.AddListener(OnLoginButtonClicked);
         showSignupButton.onClick.AddListener(ShowSignupPanel);
         signupButton.onClick.AddListener(OnSignupButtonClicked);
+
+        // Play background music for login scene
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlayLoop("LoginBGM", "background music/Login Scene");
+        }
     }
 
     private void ShowLoginPanel()
