@@ -539,9 +539,8 @@ public class LobbyManager : MonoBehaviour
             hostAllocation.ConnectionData
         );
         
-        // FIX: Increase Packet Queue Sizes to prevent 4294967296 error
-        utpTransport.MaxSendQueueSize = 1024 * 1024; // 1MB
-        utpTransport.MaxReceiveQueueSize = 1024 * 1024; // 1MB
+        utpTransport.MaxSendQueueSize = 1024 * 1024; // 1MB (Byte buffer)
+        utpTransport.MaxPacketQueueSize = 1024; // Packets per frame (Default 128)
 
         if (!NetworkManager.Singleton.IsListening)
             NetworkManager.Singleton.StartHost();
@@ -588,9 +587,9 @@ public class LobbyManager : MonoBehaviour
             clientAllocation.HostConnectionData
         );
 
-        // FIX: Increase Packet Queue Sizes to prevent 4294967296 error
-        utpTransport.MaxSendQueueSize = 1024 * 1024; // 1MB
-        utpTransport.MaxReceiveQueueSize = 1024 * 1024; // 1MB
+        // FIX: Increase Packet Queue Sizes to prevent errors
+        utpTransport.MaxSendQueueSize = 1024 * 1024; // 1MB (Byte buffer)
+        utpTransport.MaxPacketQueueSize = 1024; // Packets per frame (Default 128)
 
         if (!NetworkManager.Singleton.IsClient)
             NetworkManager.Singleton.StartClient();

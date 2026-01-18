@@ -5769,7 +5769,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Multifusion
+  m_text: pvp
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ecfc7f260b9cd3740bd49f392077c135, type: 2}
   m_sharedMaterial: {fileID: 2592014774562792038, guid: ecfc7f260b9cd3740bd49f392077c135, type: 2}
@@ -5802,7 +5802,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

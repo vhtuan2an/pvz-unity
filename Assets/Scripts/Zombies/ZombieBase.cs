@@ -34,6 +34,8 @@ public class ZombieBase : NetworkBehaviour
     // Slow effect tracking
     protected Dictionary<string, SlowEffect> activeSlows = new Dictionary<string, SlowEffect>();
     private string currentVFXSource = null;
+    private List<GameObject> activeVFXInstances = new List<GameObject>();
+    private List<NetworkObject> serverSpawnedVFX = new List<NetworkObject>();
     protected float currentSlowMultiplier = 1f;
 
     protected class SlowEffect
@@ -108,6 +110,16 @@ public class ZombieBase : NetworkBehaviour
         activeSlows.Clear();
         // Recalculate to reset logic stats (speed, damage) to normal
         RecalculateSlowMultiplier();
+
+        // 1. Cleanup Server-Spawned VFX
+        foreach (var netVFX in serverSpawnedVFX)
+        {
+            if (netVFX != null && netVFX.IsSpawned)
+            {
+                netVFX.Despawn();
+            }
+        }
+        serverSpawnedVFX.Clear();
         
         // Force visual cleanup on clients
         ClearStatusEffectsClientRpc();
@@ -142,6 +154,23 @@ public class ZombieBase : NetworkBehaviour
         DespawnZombie();
     }
 
+    private void CleanupLocalVFX()
+    {
+        // 1. Destroy explicitly tracked VFX
+        foreach (var vfx in activeVFXInstances)
+        {
+            if (vfx != null) Destroy(vfx);
+        }
+        activeVFXInstances.Clear();
+
+        // 2. Fallback: Find children (just in case)
+        var effects = GetComponentsInChildren<AutoDestroyVFX>(true);
+        foreach (var effect in effects)
+        {
+            if (effect != null) Destroy(effect.gameObject);
+        }
+    }
+
     [ClientRpc]
     private void TriggerDeathAnimationClientRpc()
     {
@@ -157,11 +186,7 @@ public class ZombieBase : NetworkBehaviour
             spriteRenderer.color = originalColor;
         }
 
-        var effects = GetComponentsInChildren<AutoDestroyVFX>();
-        foreach (var effect in effects)
-        {
-            if (effect != null) Destroy(effect.gameObject);
-        }
+        CleanupLocalVFX();
     }
 
     private void DespawnZombie()
@@ -176,6 +201,8 @@ public class ZombieBase : NetworkBehaviour
         }
         Destroy(gameObject);
     }
+
+
 
     // Overload for color tint only (snow pea)
     public void ApplySlow(float duration, float slowAmount, string sourceId)
@@ -253,6 +280,7 @@ public class ZombieBase : NetworkBehaviour
                {
                    netObj.Spawn();
                    netObj.TrySetParent(transform);
+                   serverSpawnedVFX.Add(netObj); // Track for cleanup
                    StartCoroutine(DespawnVFXRoutine(netObj, vfxDuration));
                }
                else
@@ -484,9 +512,10 @@ public class ZombieBase : NetworkBehaviour
 
         // Add auto-destroy component
         AutoDestroyVFX autoDestroy = vfxInstance.AddComponent<AutoDestroyVFX>();
-        autoDestroy.lifetime = vfxDuration;
+        autoDestroy.lifetime = 5f; // FORCE 5 SECONDS as requested
         
-        Debug.Log($"Freeze VFX spawned for {sourceId}, will auto-destroy in {vfxDuration}s");
+        Debug.Log($"Freeze VFX spawned for {sourceId}, forced lifetime: 5s");
+        activeVFXInstances.Add(vfxInstance);
     }
 
     protected virtual Vector3 GetVFXOffset(VFXTargetType targetType)
@@ -533,12 +562,7 @@ public class ZombieBase : NetworkBehaviour
         ApplyAnimationSpeedClientRpc(1f);
         
         // 2. Destroy attached VFX (Butter, Ice Block)
-        // Find all children with AutoDestroyVFX
-        var effects = GetComponentsInChildren<AutoDestroyVFX>();
-        foreach (var effect in effects)
-        {
-            Destroy(effect.gameObject);
-        }
+        CleanupLocalVFX();
         
         Debug.Log("Cleared all status effects/VFX on death.");
     }
