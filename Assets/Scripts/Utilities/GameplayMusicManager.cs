@@ -27,6 +27,7 @@ public class GameplayMusicManager : MonoBehaviour
     private bool hasTransitionedToMidWaveA = false;
     private bool hasTransitionedToMidWaveB = false;
     private bool hasTransitionedToFinalWave = false;
+    private bool musicLocked = false;
 
     private void Awake()
     {
@@ -66,6 +67,7 @@ public class GameplayMusicManager : MonoBehaviour
     private void Update()
     {
         // Monitor boss health during gameplay
+        if (musicLocked) return;
         if (currentStage != MusicStage.None && currentStage != MusicStage.ChooseYourSeeds)
         {
             UpdateMusicBasedOnBossHealth();
@@ -171,7 +173,8 @@ public class GameplayMusicManager : MonoBehaviour
     }
 
     private void UpdateMusicBasedOnBossHealth()
-    {
+    {   
+        if (YourMomZombie.Instance.isDead) return;
         if (YourMomZombie.Instance == null) return;
 
         float healthPercentage = YourMomZombie.Instance.GetHealthPercentage();
@@ -196,6 +199,7 @@ public class GameplayMusicManager : MonoBehaviour
     private void OnGameEnded(PlayerRole winner)
     {
         // Stop background music when game ends (victory sounds will play)
+        musicLocked = true;
         StopCurrentMusic();
         Debug.Log($"[GameplayMusicManager] Game ended, stopping music. Winner: {winner}");
     }
@@ -209,3 +213,4 @@ public class GameplayMusicManager : MonoBehaviour
         currentStage = MusicStage.None;
     }
 }
+

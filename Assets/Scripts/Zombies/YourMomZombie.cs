@@ -8,7 +8,7 @@ public class YourMomZombie : ZombieBase
 
     private enum BossState { Intro, Idle, Moving, Attacking, Summoning, GlobalAttack, Waiting, Death }
     private BossState currentState = BossState.Waiting;
-    private bool isDead = false;
+    public bool isDead = false;
 
     [Header("Boss Settings")]
     public float patrolIntervalMin = 5f;

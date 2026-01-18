@@ -279,6 +279,7 @@ MonoBehaviour:
   cooldown: 7.5
   packetImage: {fileID: 0}
   brainCost: 50
+  isDead: 0
   patrolIntervalMin: 5
   patrolIntervalMax: 10
   attackRange: 3
