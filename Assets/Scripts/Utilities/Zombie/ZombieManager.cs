@@ -52,6 +52,7 @@ public class ZombieManager : MonoBehaviour
     public void AddBrains(int amount)
     {
         currentBrains += amount;
+        if (currentBrains > 10000) currentBrains = 10000;
         UpdateBrainsUI();
     }
 

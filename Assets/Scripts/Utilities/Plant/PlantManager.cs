@@ -242,7 +242,7 @@ public class PlantManager : MonoBehaviour
         if (hoveredTile != null && hoveredTile.IsOccupied)
         {
             GameObject plant = hoveredTile.GetOccupyingPlant();
-            if (plant != null)
+            if (plant != null && plant.GetComponent<PlantBase>() != null)
             {
                 if (!previewObject.activeSelf) previewObject.SetActive(true);
                 
@@ -494,6 +494,7 @@ public class PlantManager : MonoBehaviour
     public void AddSun(int amount)
     {
         currentSun += amount;
+        if (currentSun > 10000) currentSun = 10000;
         UpdateSunCounter();
     }
 
@@ -517,7 +518,7 @@ public class PlantManager : MonoBehaviour
             if (tile.IsOccupied)
             {
                 GameObject plant = tile.GetOccupyingPlant();
-                if (plant != null && NetworkGameManager.Instance != null)
+                if (plant != null && plant.GetComponent<PlantBase>() != null && NetworkGameManager.Instance != null)
                 {
                     if (plant.TryGetComponent<NetworkObject>(out NetworkObject netObj))
                     {

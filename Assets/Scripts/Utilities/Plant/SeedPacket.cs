@@ -11,6 +11,7 @@ public class SeedPacket : MonoBehaviour
     public Button button;
     public Image cooldownOverlay;
     public TextMeshProUGUI costText;
+    public TextMeshProUGUI cooldownText;
 
     private bool onCooldown;
     private int sunCost;
@@ -80,19 +81,24 @@ public class SeedPacket : MonoBehaviour
             {
                 if (ColorUtility.TryParseHtmlString("#EF696E", out Color redColor))
                     costText.color = redColor;
-                costText.outlineColor = Color.black;
             }
             else
             {
                 costText.color = Color.white;
-                costText.outlineColor = Color.black;
             }
         }
     }
 
     void OnClicked()
     {
-        // Prevent selection if on cooldown
+        // 1. Check Resources First
+        if (PlantManager.Instance != null && PlantManager.Instance.currentSun < sunCost)
+        {
+            SoundManager.Instance.PlaySound("oncooldown");
+            return;
+        }
+
+        // 2. Check Cooldown
         if (onCooldown) 
         {
             SoundManager.Instance.PlaySound("oncooldown");
@@ -138,10 +144,18 @@ public class SeedPacket : MonoBehaviour
             if (cooldownOverlay != null)
                 cooldownOverlay.fillAmount = Mathf.Clamp01(remaining / cooldown);
 
+            // Update cooldown text
+            if (cooldownText != null)
+            {
+                if (!cooldownText.gameObject.activeSelf) cooldownText.gameObject.SetActive(true);
+                cooldownText.text = remaining.ToString("F1");
+            }
+
             yield return null;
         }
 
         if (cooldownOverlay != null) cooldownOverlay.fillAmount = 0f;
+        if (cooldownText != null) cooldownText.gameObject.SetActive(false);
         if (button != null) button.interactable = true;
 
         onCooldown = false;

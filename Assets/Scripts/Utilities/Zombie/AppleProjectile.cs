@@ -34,6 +34,13 @@ public class AppleProjectile : NetworkBehaviour
 
         // Spawn Target Marker on Clients
         SpawnMarkerClientRpc(targetPos);
+
+        // Add DynamicSorting
+        if (GetComponent<DynamicSorting>() == null)
+        {
+            var sorting = gameObject.AddComponent<DynamicSorting>();
+            sorting.group = DynamicSorting.SortGroup.Projectile;
+        }
     }
 
     void Update()

@@ -4,7 +4,16 @@ using System.Collections.Generic;
 [RequireComponent(typeof(SpriteRenderer))]
 public class DynamicSorting : MonoBehaviour
 {
+    public enum SortGroup
+    {
+        Plant = 0,
+        Projectile = 1,
+        Zombie = 2
+    }
+
     [Header("Sorting Settings")]
+    public SortGroup group = SortGroup.Plant;
+    
     [Tooltip("Base offset to start sorting from.")]
     [SerializeField] private int baseOrder = 5000;
 
@@ -67,8 +76,11 @@ public class DynamicSorting : MonoBehaviour
             if (sorter == null) continue;
             
             // Calculate metric
-            // We use -y because lower Y is "front"
-            sorter.SortMetric = (-sorter.transform.position.y * sorter.laneWeight) + sorter.transform.position.x;
+            // Primary sort: Group priority (Plant < Projectile < Zombie)
+            // Secondary sort: Y position (Lower Y = Front)
+            // Tertiary sort: X position (Higher X = Right)
+            float groupPriority = (int)sorter.group * 100000f;
+            sorter.SortMetric = groupPriority + (-sorter.transform.position.y * sorter.laneWeight) + sorter.transform.position.x;
         }
 
         // 2. Sort the list based on metric

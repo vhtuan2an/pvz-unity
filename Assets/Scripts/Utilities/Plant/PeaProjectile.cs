@@ -32,6 +32,13 @@ public class PeaProjectile : NetworkBehaviour
         {
             Invoke(nameof(DestroyProjectile), lifetime);
         }
+
+        // Add DynamicSorting
+        if (GetComponent<DynamicSorting>() == null)
+        {
+            var sorting = gameObject.AddComponent<DynamicSorting>();
+            sorting.group = DynamicSorting.SortGroup.Projectile;
+        }
     }
 
     private void Update()

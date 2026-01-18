@@ -11,6 +11,7 @@ public class ZombiePacket : MonoBehaviour
     public Button button;
     public Image cooldownOverlay;
     public TextMeshProUGUI costText;
+    public TextMeshProUGUI cooldownText;
 
     private bool onCooldown;
     private int brainCost;
@@ -18,7 +19,8 @@ public class ZombiePacket : MonoBehaviour
 
     void Start()
     {
-        cooldownOverlay.fillAmount = 0f;
+        if (cooldownOverlay != null) cooldownOverlay.fillAmount = 0f;
+        if (cooldownText != null) cooldownText.gameObject.SetActive(false);
         if (button != null)
             button.onClick.AddListener(OnClicked);
 
@@ -74,18 +76,29 @@ public class ZombiePacket : MonoBehaviour
         {
             if (ColorUtility.TryParseHtmlString("#EF696E", out Color redColor))
                 costText.color = redColor;
-            costText.outlineColor = Color.black;
         }
         else
         {
             costText.color = Color.white;
-            costText.outlineColor = Color.black;
         }
     }
 
     void OnClicked()
     {
-        if (onCooldown) return;
+        // 1. Check Resources
+        if (ZombieManager.Instance != null && ZombieManager.Instance.currentBrains < brainCost)
+        {
+            SoundManager.Instance.PlaySound("oncooldown");
+            return;
+        }
+
+        // 2. Check Cooldown
+        if (onCooldown) 
+        {
+            SoundManager.Instance.PlaySound("oncooldown");
+            return;
+        }
+
         ZombieManager.Instance?.SelectZombie(zombiePrefab, brainCost, this);
     }
 
@@ -119,10 +132,18 @@ public class ZombiePacket : MonoBehaviour
             if (cooldownOverlay != null)
                 cooldownOverlay.fillAmount = Mathf.Clamp01(remaining / cooldown);
 
+            // Update cooldown text
+            if (cooldownText != null)
+            {
+                if (!cooldownText.gameObject.activeSelf) cooldownText.gameObject.SetActive(true);
+                cooldownText.text = remaining.ToString("F1");
+            }
+
             yield return null;
         }
 
         if (cooldownOverlay != null) cooldownOverlay.fillAmount = 0f;
+        if (cooldownText != null) cooldownText.gameObject.SetActive(false);
         if (button != null) button.interactable = true;
 
         onCooldown = false;
