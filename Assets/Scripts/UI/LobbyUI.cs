@@ -29,7 +29,12 @@ public class LobbyUI : MonoBehaviour
     [Header("Scene Settings")]
     [SerializeField] private string loginSceneName = "LoginScene";
 
+    [Header("Refresh Settings")]
+    [SerializeField] private float refreshCooldown = 2f; // Cooldown giữa các lần refresh (giây)
+
     private List<GameObject> spawnedItems = new List<GameObject>();
+    private bool isRefreshing = false; // Flag để ngăn spam refresh
+    private float lastRefreshTime = -Mathf.Infinity; // Thời điểm refresh gần nhất
 
     private void Start()
     {
@@ -226,31 +231,57 @@ public class LobbyUI : MonoBehaviour
 
         if (LobbyManager.Instance.IsSearching) return;
 
-        var lobbies = await LobbyManager.Instance.GetAvailableLobbiesAsync(30);
-
-        // Clear existing UI
-        foreach (var go in spawnedItems) Destroy(go);
-        spawnedItems.Clear();
-
-        foreach (var lobby in lobbies)
+        // Ngăn chặn spam refresh
+        if (isRefreshing) return;
+        
+        float timeSinceLastRefresh = Time.time - lastRefreshTime;
+        if (timeSinceLastRefresh < refreshCooldown)
         {
-            PlayerRole ownerRole = LobbyManager.Instance.GetLobbyOwnerRole(lobby);
-            GameObject prefab = ownerRole == PlayerRole.Plant ? plantLobbyItemPrefab : zombieLobbyItemPrefab;
-            
-            var go = Instantiate(prefab, lobbyListContent);
-            var item = go.GetComponent<LobbyListItem>();
-            string name = lobby.Name;
-            string owner = LobbyManager.Instance.GetLobbyOwnerName(lobby);
-            item.Setup(lobby.Id, name, owner, ownerRole.ToString(), OnJoinLobbyClicked);
-            
-            var layoutElement = go.GetComponent<LayoutElement>();
-            if (layoutElement == null) layoutElement = go.AddComponent<LayoutElement>();
-            layoutElement.preferredHeight = 30f; 
-            layoutElement.preferredWidth = -1; 
-            layoutElement.flexibleWidth = 1; 
+            Debug.Log($"Refresh cooldown active. Please wait {refreshCooldown - timeSinceLastRefresh:F1}s");
+            return;
+        }
 
-            go.transform.SetAsFirstSibling();
-            spawnedItems.Add(go);
+        isRefreshing = true;
+        lastRefreshTime = Time.time;
+        refreshLobbyListButton.interactable = false; // Disable button trong khi đang refresh
+
+        try
+        {
+            var lobbies = await LobbyManager.Instance.GetAvailableLobbiesAsync(30);
+
+            // Clear existing UI
+            foreach (var go in spawnedItems) Destroy(go);
+            spawnedItems.Clear();
+
+            foreach (var lobby in lobbies)
+            {
+                PlayerRole ownerRole = LobbyManager.Instance.GetLobbyOwnerRole(lobby);
+                GameObject prefab = ownerRole == PlayerRole.Plant ? plantLobbyItemPrefab : zombieLobbyItemPrefab;
+                
+                var go = Instantiate(prefab, lobbyListContent);
+                var item = go.GetComponent<LobbyListItem>();
+                string name = lobby.Name;
+                string owner = LobbyManager.Instance.GetLobbyOwnerName(lobby);
+                item.Setup(lobby.Id, name, owner, ownerRole.ToString(), OnJoinLobbyClicked);
+                
+                var layoutElement = go.GetComponent<LayoutElement>();
+                if (layoutElement == null) layoutElement = go.AddComponent<LayoutElement>();
+                layoutElement.preferredHeight = 30f; 
+                layoutElement.preferredWidth = -1; 
+                layoutElement.flexibleWidth = 1; 
+
+                go.transform.SetAsFirstSibling();
+                spawnedItems.Add(go);
+            }
+        }
+        finally
+        {
+            isRefreshing = false;
+            // Chỉ enable lại button nếu không đang searching
+            if (!LobbyManager.Instance.IsSearching)
+            {
+                refreshLobbyListButton.interactable = true;
+            }
         }
     }
 
