@@ -278,7 +278,7 @@ MonoBehaviour:
   damage: 1
   cooldown: 7.5
   packetImage: {fileID: 3369399851761963896, guid: 405b7ca57476b854791f1a87dbf6cc71, type: 3}
-  brainCost: 150
+  brainCost: 125
   barrelPrefab: {fileID: 3329404701775528199, guid: dcf71ab0588cf214dab9c462c183edeb, type: 3}
   rollCooldown: 3
   rollDuration: 0.6

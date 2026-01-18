@@ -181,13 +181,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 190
-  moveSpeed: 0.5
+  moveSpeed: 0.36
   damage: 50
   cooldown: 7.5
   packetImage: {fileID: 3369399851761963896, guid: b60ebc9559022564b8cdca3dabcaef1b, type: 3}
   brainCost: 50
   attackRate: 1.5
   startDelay: 0.5
+  groanIntervalMin: 5
+  groanIntervalMax: 12
 --- !u!61 &8553583170690861327
 BoxCollider2D:
   m_ObjectHideFlags: 0
