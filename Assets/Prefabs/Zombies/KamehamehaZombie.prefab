@@ -227,7 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 2000
-  moveSpeed: 0.36
+  moveSpeed: 0.1
   damage: 99999999
   cooldown: 36
   packetImage: {fileID: 21300000, guid: e2dfe46c58e6c9d41ab59b44d61fb8f9, type: 3}

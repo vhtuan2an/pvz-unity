@@ -10,7 +10,7 @@ public class WinterMint : PlantBase
     [SerializeField] private float slowDuration = 3f;
     
     [Header("VFX Settings")]
-    [SerializeField] private string freezeVFXPrefabName = "FreezeEffect";
+    [SerializeField] private GameObject freezeVFXPrefab; // ✅ Direct generic reference
     [SerializeField] private float freezeVFXDuration = 5f;
 
     private Animator animator;
@@ -76,7 +76,8 @@ public class WinterMint : PlantBase
         foreach (ZombieBase zombie in zombies)
         {
             // vfxTarget: Feet (default for ice)
-            zombie.ApplySlow(freezeDuration, 1.0f, "wintermint_freeze", freezeVFXPrefabName, freezeVFXDuration, true, ZombieBase.VFXTargetType.Feet);
+            // Now passing the actual GameObject prefab
+            zombie.ApplySlow(freezeDuration, 1.0f, "wintermint_freeze", freezeVFXPrefab, freezeVFXDuration, true, ZombieBase.VFXTargetType.Feet);
         }
     }
 
