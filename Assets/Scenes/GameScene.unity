@@ -1463,9 +1463,9 @@ MonoBehaviour:
   roleText: {fileID: 991514731}
   connectionStatusText: {fileID: 938358653}
   modeText: {fileID: 0}
-  volumeSliderPanel: {fileID: 0}
-  musicVolumeSlider: {fileID: 0}
-  sfxVolumeSlider: {fileID: 0}
+  volumeSliderPanel: {fileID: 1834380797}
+  musicVolumeSlider: {fileID: 1122305387}
+  sfxVolumeSlider: {fileID: 1466584051}
 --- !u!4 &274807122
 Transform:
   m_ObjectHideFlags: 0
@@ -3222,10 +3222,7 @@ RectTransform:
   - {fileID: 957399898}
   - {fileID: 206898425}
   - {fileID: 2005424752}
-  - {fileID: 1466584050}
-  - {fileID: 1334951316}
-  - {fileID: 1122305386}
-  - {fileID: 799819013}
+  - {fileID: 1834380798}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4143,7 +4140,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565977603}
+  m_Father: {fileID: 1834380798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5886,7 +5883,7 @@ RectTransform:
   - {fileID: 1314941928}
   - {fileID: 1975469953}
   - {fileID: 1282936365}
-  m_Father: {fileID: 565977603}
+  m_Father: {fileID: 1834380798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6791,7 +6788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.6679245, g: 0.6679245, b: 0.6679245, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6845,7 +6842,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565977603}
+  m_Father: {fileID: 1834380798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7689,6 +7686,7 @@ MonoBehaviour:
   HUDsHidden:
   - {fileID: 2065238897}
   - {fileID: 1175866659}
+  - {fileID: 1834380797}
   transitionDuration: 1
   holdDuration: 1
   initialRadius: 4
@@ -7725,7 +7723,7 @@ RectTransform:
   - {fileID: 1954180007}
   - {fileID: 808032438}
   - {fileID: 1847178566}
-  m_Father: {fileID: 565977603}
+  m_Father: {fileID: 1834380798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9256,6 +9254,45 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081d557d2abed024d9d0ea8f4ab24f8a, type: 3}
+--- !u!1 &1834380797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834380798}
+  m_Layer: 5
+  m_Name: VolumePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1834380798
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834380797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1466584050}
+  - {fileID: 1334951316}
+  - {fileID: 1122305386}
+  - {fileID: 799819013}
+  m_Father: {fileID: 565977603}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1834632614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9575,7 +9612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.6679245, g: 0.6679245, b: 0.6679245, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
