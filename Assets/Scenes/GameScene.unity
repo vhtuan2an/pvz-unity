@@ -1463,6 +1463,9 @@ MonoBehaviour:
   roleText: {fileID: 991514731}
   connectionStatusText: {fileID: 938358653}
   modeText: {fileID: 0}
+  volumeSliderPanel: {fileID: 0}
+  musicVolumeSlider: {fileID: 0}
+  sfxVolumeSlider: {fileID: 0}
 --- !u!4 &274807122
 Transform:
   m_ObjectHideFlags: 0
@@ -7635,7 +7638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1457494616
 RectTransform:
   m_ObjectHideFlags: 0

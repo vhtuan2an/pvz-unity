@@ -6,8 +6,9 @@ public class YourMomZombie : ZombieBase
 {
     public static YourMomZombie Instance { get; private set; }
 
-    private enum BossState { Intro, Idle, Moving, Attacking, Summoning, GlobalAttack, Waiting }
+    private enum BossState { Intro, Idle, Moving, Attacking, Summoning, GlobalAttack, Waiting, Death }
     private BossState currentState = BossState.Waiting;
+    private bool isDead = false;
 
     [Header("Boss Settings")]
     public float patrolIntervalMin = 5f;
@@ -23,6 +24,9 @@ public class YourMomZombie : ZombieBase
     public GameObject targetMarkerPrefab;
     public float telegraphDuration = 1.0f;
     
+    [Header("Death Settings")]
+    [SerializeField] private float deathDelay = 0.75f; // = length anim Die
+
     [Header("VFX Settings")]
     public Vector3 headVFXOffset = new Vector3(0f, 2.5f, 0f);
     public Vector3 feetVFXOffset = new Vector3(0f, -0.5f, 0f);
@@ -267,6 +271,7 @@ public class YourMomZombie : ZombieBase
     {
         base.Update();
         if (!IsServer) return; // Logic only runs on server
+        if (currentState == BossState.Death) return;
         if (GetCurrentHealth() <= 0) return; // Use public getter instead of direct field
 
         if (currentState == BossState.Intro)
@@ -311,8 +316,7 @@ public class YourMomZombie : ZombieBase
         {
              if (IsServer && GameStateManager.Instance != null)
             {
-                GameStateManager.Instance.EndGameServerRpc(PlayerRole.Plant, NetworkObjectId);
-                Debug.Log("BOSS DIED - PLANTS WIN!");
+                HandleDeath();
             }
         }
     }
@@ -452,4 +456,49 @@ public class YourMomZombie : ZombieBase
             }
         }
     }
+
+
+    private void HandleDeath()
+    {
+        if (isDead) return;
+        isDead = true;
+
+        currentState = BossState.Death;
+
+        StopAllCoroutines();
+
+        PlayDeathClientRpc();
+
+        if (IsServer)
+        {
+            StartCoroutine(DeathRoutine());
+        }
+    }
+
+    private IEnumerator DeathRoutine()
+    {
+        yield return new WaitForSeconds(deathDelay);
+
+        if (NetworkGameManager.Instance != null)
+        {
+            NetworkGameManager.Instance.OnPlantWin(NetworkObject);
+            Debug.Log("🌱 Boss dead → Plants win!");
+        }
+    }
+
+
+
+    [ClientRpc]
+    private void PlayDeathClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.ResetTrigger("Throw");
+            animator.ResetTrigger("Summon");
+            animator.SetInteger("isMoving", 0);
+            animator.SetTrigger("Die"); 
+        }
+    }
+
+
 }

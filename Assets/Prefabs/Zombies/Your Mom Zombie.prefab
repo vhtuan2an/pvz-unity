@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1308378909
+  GlobalObjectIdHash: 1111026589
   InScenePlacedSourceGlobalObjectIdHash: 1111026589
   DeferredDespawnTick: 0
   Ownership: 1
@@ -289,6 +289,7 @@ MonoBehaviour:
   shootPoint: {fileID: 7891351126840575645}
   targetMarkerPrefab: {fileID: 5104920504382881539, guid: b8d97526c88f95d4daeb214744e0ed43, type: 3}
   telegraphDuration: 2
+  deathDelay: 0.75
   headVFXOffset: {x: -0.3, y: 0.5, z: 0}
   feetVFXOffset: {x: 0.25, y: -1, z: 0}
   minX: 1

@@ -262,6 +262,22 @@ public class NetworkGameManager : NetworkBehaviour
         }
     }
 
+    public void OnPlantWin(NetworkObject winner)
+    {
+        if (!IsServer) return;
+
+        Debug.Log($"🌱 Plants win! Winner: {winner.name} ({winner.NetworkObjectId})");
+
+        if (GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.EndGameServerRpc(
+                PlayerRole.Plant,
+                winner.NetworkObjectId
+            );
+        }
+    }
+
+
     [ClientRpc]
     private void ShowZombieWinClientRpc()
     {
