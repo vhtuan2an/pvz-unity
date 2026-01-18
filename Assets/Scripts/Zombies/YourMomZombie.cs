@@ -311,15 +311,62 @@ public class YourMomZombie : ZombieBase
     public override void TakeDamage(int damage)
     {
         base.TakeDamage(damage);
+        // Boss-specific TakeDamage logic if any (e.g. anger phases)
+        // Death is now handled by overriding Die()
+    }
+
+    protected override void Die()
+    {
+        // Check if already dead to prevent spam
+        if (isDead) return;
         
-        if (GetCurrentHealth() <= 0)
+        // We override ZombieBase.Die completely to handle Boss Death
+        HandleDeath();
+    }
+
+    private void HandleDeath()
+    {
+        if (isDead) return;
+        isDead = true;
+
+        currentState = BossState.Death;
+        StopAllCoroutines();
+        
+        // Clear status effects like freezes/slows so animation plays clearly
+        activeSlows.Clear();
+        ClearStatusEffectsClientRpc();
+
+        PlayDeathClientRpc();
+
+        if (IsServer)
         {
-             if (IsServer && GameStateManager.Instance != null)
-            {
-                HandleDeath();
-            }
+            StartCoroutine(DeathRoutine());
         }
     }
+
+    private IEnumerator DeathRoutine()
+    {
+        yield return new WaitForSeconds(deathDelay);
+
+        if (NetworkGameManager.Instance != null)
+        {
+            NetworkGameManager.Instance.OnPlantWin(NetworkObject);
+            Debug.Log("🌱 Boss dead → Plants win!");
+        }
+    }
+
+    [ClientRpc]
+    private void PlayDeathClientRpc()
+    {
+        if (animator != null)
+        {
+            animator.ResetTrigger("Throw");
+            animator.ResetTrigger("Summon");
+            animator.SetInteger("isMoving", 0);
+            animator.SetTrigger("Die"); 
+        }
+    }
+
 
     /// <summary>
     /// Returns the boss's current health as a percentage (0.0 to 1.0)
@@ -456,49 +503,4 @@ public class YourMomZombie : ZombieBase
             }
         }
     }
-
-
-    private void HandleDeath()
-    {
-        if (isDead) return;
-        isDead = true;
-
-        currentState = BossState.Death;
-
-        StopAllCoroutines();
-
-        PlayDeathClientRpc();
-
-        if (IsServer)
-        {
-            StartCoroutine(DeathRoutine());
-        }
-    }
-
-    private IEnumerator DeathRoutine()
-    {
-        yield return new WaitForSeconds(deathDelay);
-
-        if (NetworkGameManager.Instance != null)
-        {
-            NetworkGameManager.Instance.OnPlantWin(NetworkObject);
-            Debug.Log("🌱 Boss dead → Plants win!");
-        }
-    }
-
-
-
-    [ClientRpc]
-    private void PlayDeathClientRpc()
-    {
-        if (animator != null)
-        {
-            animator.ResetTrigger("Throw");
-            animator.ResetTrigger("Summon");
-            animator.SetInteger("isMoving", 0);
-            animator.SetTrigger("Die"); 
-        }
-    }
-
-
 }

@@ -124,6 +124,8 @@ public class GameStateManager : NetworkBehaviour
             case GameState.Countdown:
                 // Logic handled by StartCountdownUI reporting back
                 break;
+            case GameState.Playing:
+                HandleInput();
                 UpdateGameTimer();
                 break;
             case GameState.Paused:
@@ -192,6 +194,14 @@ public class GameStateManager : NetworkBehaviour
              Time.timeScale = 0f;
              AudioListener.pause = true; // Global Audio Pause (optional, but good for dramatic stop)
         }
+
+        // Spawn Boss logic moved to here
+        if (IsServer && current == GameState.Selection && previous != GameState.Selection)
+        {
+             // Spawn boss extremely early (during character select) so it's ready for gameplay
+             Debug.Log("[GameStateManager] Spawning Boss early during Selection phase...");
+             SpawnBoss();
+        }
     }
     
     [ServerRpc(RequireOwnership = false)]
@@ -237,17 +247,14 @@ public class GameStateManager : NetworkBehaviour
              SetState(GameState.Countdown);
          }
     }
-    
-
 
     [ServerRpc(RequireOwnership = false)]
     public void ReportCountdownFinishedServerRpc()
     {
         if (CurrentState.Value == GameState.Countdown)
         {
+            // Game starts instantly - boss is already spawned and waiting!
             SetState(GameState.Playing);
-            // Spawn Boss
-            SpawnBoss();
         }
     }
 
@@ -335,11 +342,10 @@ public class GameStateManager : NetworkBehaviour
     {
         OnGameEnded?.Invoke(winningRole);
         
-        // Stop all existing sounds (Ambience, Shooting, Zombies, etc.)
-        AudioSource[] allAudio = FindObjectsByType<AudioSource>(FindObjectsSortMode.None);
-        foreach (var audio in allAudio)
+        // Stop all existing sounds efficiently using SoundManager
+        if (SoundManager.Instance != null)
         {
-            if (audio != null) audio.Stop();
+            SoundManager.Instance.StopAllSounds();
         }
 
         // Play Win Sounds Immediately (ignore pause)

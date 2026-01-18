@@ -32,11 +32,11 @@ public class ZombieBase : NetworkBehaviour
     private Color originalColor;
 
     // Slow effect tracking
-    private Dictionary<string, SlowEffect> activeSlows = new Dictionary<string, SlowEffect>();
+    protected Dictionary<string, SlowEffect> activeSlows = new Dictionary<string, SlowEffect>();
     private string currentVFXSource = null;
     protected float currentSlowMultiplier = 1f;
 
-    private class SlowEffect
+    protected class SlowEffect
     {
         public float slowAmount;
         public float endTime;
@@ -180,7 +180,7 @@ public class ZombieBase : NetworkBehaviour
     // Overload for color tint only (snow pea)
     public void ApplySlow(float duration, float slowAmount, string sourceId)
     {
-        ApplySlow(duration, slowAmount, sourceId, null, 0f);
+        ApplySlow(duration, slowAmount, sourceId, (string)null, 0f);
     }
 
     // Full version with optional freeze VFX (wintermint/butter)
@@ -223,7 +223,62 @@ public class ZombieBase : NetworkBehaviour
             currentVFXSource = sourceId;
             return;
         }
+        
+        ApplyNormalSlow(duration, slowAmount, sourceId, applyTint);
+    }
 
+    // ✅ Overload: GameObject VFX (Server Spawning)
+    public void ApplySlow(float duration, float slowAmount, string sourceId, GameObject vfxPrefab, float vfxDuration, bool applyTint = true, VFXTargetType vfxTarget = VFXTargetType.Feet)
+    {
+        if (!IsServer) return;
+
+        // Apply stun (100% slow)
+        if (slowAmount >= 1f)
+        {
+            currentSlowMultiplier = 0f;
+            Debug.Log($"{gameObject.name} stunned (100% slow) by {sourceId} for {duration}s");
+            
+            if (applyTint) ApplyColorTintClientRpc(slowAmount);
+            ApplyAnimationSpeedClientRpc(0f);
+            
+            // Spawn Networked VFX
+            if (vfxPrefab != null)
+            {
+               // Offset is local, so we add to world pos
+               Vector3 spawnPos = transform.position + GetVFXOffset(vfxTarget);
+               GameObject vfxInstance = Instantiate(vfxPrefab, spawnPos, Quaternion.identity);
+               
+               NetworkObject netObj = vfxInstance.GetComponent<NetworkObject>();
+               if (netObj != null)
+               {
+                   netObj.Spawn();
+                   netObj.TrySetParent(transform);
+                   StartCoroutine(DespawnVFXRoutine(netObj, vfxDuration));
+               }
+               else
+               {
+                   Debug.LogError($"VFX {vfxPrefab.name} missing NetworkObject! Spawning locally on server only (will not show on clients).");
+               }
+            }
+
+            PlayFreezeSoundClientRpc();
+            
+            activeSlows[sourceId] = new SlowEffect
+            {
+                slowAmount = slowAmount,
+                endTime = Time.time + duration,
+                sourceId = sourceId,
+                appliesTint = applyTint
+            };
+            currentVFXSource = sourceId;
+            return;
+        }
+
+        ApplyNormalSlow(duration, slowAmount, sourceId, applyTint);
+    }
+
+    private void ApplyNormalSlow(float duration, float slowAmount, string sourceId, bool applyTint)
+    {
         // Normal slow handling (color tint only, no VFX)
         if (activeSlows.ContainsKey(sourceId))
         {
@@ -244,6 +299,12 @@ public class ZombieBase : NetworkBehaviour
 
         RecalculateSlowMultiplier();
         Debug.Log($"{gameObject.name} slowed by {slowAmount * 100}% from {sourceId} for {duration}s (total multiplier: {currentSlowMultiplier})");
+    }
+
+    private System.Collections.IEnumerator DespawnVFXRoutine(NetworkObject netObj, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (netObj != null && netObj.IsSpawned) netObj.Despawn();
     }
 
     private void UpdateSlowEffects()
@@ -419,7 +480,6 @@ public class ZombieBase : NetworkBehaviour
         if (vfxSprite != null)
         {
             vfxSprite.sortingLayerName = "TransparentFX";
-            vfxSprite.sortingOrder = 10;
         }
 
         // Add auto-destroy component
@@ -466,7 +526,7 @@ public class ZombieBase : NetworkBehaviour
         }
     }
     [ClientRpc]
-    private void ClearStatusEffectsClientRpc()
+    protected void ClearStatusEffectsClientRpc()
     {
         // 1. Reset Color & Speed explicitly
         ResetColorClientRpc();

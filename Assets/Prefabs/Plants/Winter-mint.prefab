@@ -158,5 +158,5 @@ MonoBehaviour:
   freezeDuration: 5
   slowPercentage: 0.5
   slowDuration: 3
-  freezeVFXPrefabName: FreezeEffect
+  freezeVFXPrefab: {fileID: 5568469807763454021, guid: f3589ba09bed55242819725178abf5d4, type: 3}
   freezeVFXDuration: 5
