@@ -272,12 +272,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 100
+  maxHealth: 180
   moveSpeed: 1
   damage: 75
-  cooldown: 7.5
+  cooldown: 5
   packetImage: {fileID: 3369399851761963896, guid: ec3c2174caab5b84588e3824940e3982, type: 3}
-  brainCost: 25
+  brainCost: 50
   state: 1
   flySpeed: 7.5
   flyDirection: {x: -1, y: 0}

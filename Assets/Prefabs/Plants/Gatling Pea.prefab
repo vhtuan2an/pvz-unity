@@ -257,9 +257,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 100
-  sunCost: 100
-  cooldown: 7.5
+  maxHealth: 500
+  sunCost: -2147483648
+  cooldown: 1e+13
   packetImage: {fileID: 0}
   pivotOffset: {x: 0, y: -0.35, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: a2e58ee612b37ad4fb9a1a6a57aba135, type: 3}

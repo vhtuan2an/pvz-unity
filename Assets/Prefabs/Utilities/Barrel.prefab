@@ -281,11 +281,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 100
-  moveSpeed: 2
+  moveSpeed: 1
   damage: 100
   cooldown: 7.5
   packetImage: {fileID: 0}
   brainCost: 50
   barrelDamage: 100
-  explodeDelay: 0.5
   barrelMoveSpeed: 3

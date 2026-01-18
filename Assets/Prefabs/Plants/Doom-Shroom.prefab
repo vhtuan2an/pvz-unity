@@ -152,10 +152,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 100
-  sunCost: 0
-  cooldown: 0
-  packetImage: {fileID: 0}
+  maxHealth: 2147483647
+  sunCost: 250
+  cooldown: 60
+  packetImage: {fileID: 6845943570793617698, guid: 717fab4f428489d439b96a3bc90bb0b7, type: 3}
   pivotOffset: {x: 0, y: -0.4, z: 0}
   explosionDamage: 696900
   aoeScale: {x: 6.2, y: 6.2}

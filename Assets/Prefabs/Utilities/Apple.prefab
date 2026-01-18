@@ -257,8 +257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  damage: 6969
-  speed: 3
+  damage: 2000
+  speed: 2
   arcHeight: 3
   targetMarkerPrefab: {fileID: 5104920504382881539, guid: b8d97526c88f95d4daeb214744e0ed43, type: 3}
   hitEffectPrefab: {fileID: 6179881624993959143, guid: 359627aaa903db04d9ac772608304c0b, type: 3}
