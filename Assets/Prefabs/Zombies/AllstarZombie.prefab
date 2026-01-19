@@ -277,7 +277,7 @@ MonoBehaviour:
   damage: 50
   cooldown: 25
   packetImage: {fileID: 3369399851761963896, guid: 8117ef7bda35a1d4a844a61438803c12, type: 3}
-  brainCost: 250
+  brainCost: 200
   attackRate: 1.5
   startDelay: 0.5
   dieAnimLength: 1

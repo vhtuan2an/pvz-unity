@@ -32,15 +32,11 @@ public class PlantBase : NetworkBehaviour
         if (GetComponent<DynamicSorting>() == null)
         {
             var sorting = gameObject.AddComponent<DynamicSorting>();
-            // Use reflection or just public field if accessible (it is serialized private, but we can rely on default)
-            // Or just let it run. Default is !isStatic, which is fine, or we can assume Plants don't move much
-            // But let's check if we can set isStatic via reflection or just leave it dynamic for now (cheap enough)
-            // Actually, we can't set private serialized fields easily without reflection.
-            // Let's just AddComponent. It will run in LateUpdate which handles potential minor movements or just works.
+            sorting.group = DynamicSorting.SortGroup.Plant;
         }
     }
 
-    private void FindOccupiedTile()
+    protected void FindOccupiedTile()
     {
         // Find all tiles and check which one has this plant as occupant
         Tile[] allTiles = FindObjectsByType<Tile>(FindObjectsSortMode.None);
@@ -100,8 +96,12 @@ public class PlantBase : NetworkBehaviour
         // Clear tile occupancy
         if (occupiedTile != null)
         {
-            occupiedTile.Clear();
-            Debug.Log($"Tile {occupiedTile.name} cleared by {gameObject.name} death.");
+            // Only clear if WE are the occupant (prevent clearing Crater or other plants)
+            if (occupiedTile.GetOccupyingPlant() == gameObject)
+            {
+                occupiedTile.Clear();
+                Debug.Log($"Tile {occupiedTile.name} cleared by {gameObject.name} death.");
+            }
         }
 
         // Despawn from network before destroy

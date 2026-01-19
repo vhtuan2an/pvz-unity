@@ -88,12 +88,8 @@ public class DoomShroom : PlantBase
             craterInstance.Spawn(true);
         }
 
-        // Release the tile so the Crater can occupy it
-        if (occupiedTile != null)
-        {
-            occupiedTile.Clear();
-            occupiedTile = null; // Ensure Die() doesn't try to clear it again
-        }
+        // Release the tile via Die() later to ensure Crater can take over safely
+        // The safe-clearing logic in PlantBase.Die() will handle this.
 
         // Disable collider so zombies stop attacking the crater/plant
         Collider2D col = GetComponent<Collider2D>();
@@ -118,6 +114,27 @@ public class DoomShroom : PlantBase
     [ClientRpc]
     private void TriggerBoomAnimationClientRpc()
     {
+        // Force clear tile on Client so Crater can occupy it
+        if (occupiedTile != null)
+        {
+             // Only clear if WE are the occupant
+            if (occupiedTile.GetOccupyingPlant() == gameObject)
+            {
+                occupiedTile.Clear();
+            }
+            occupiedTile = null; 
+        }
+        else
+        {
+            // Fallback: try to find it if null (e.g. if Start didn't catch it yet)
+            FindOccupiedTile();
+            if (occupiedTile != null && occupiedTile.GetOccupyingPlant() == gameObject)
+            {
+                occupiedTile.Clear();
+                occupiedTile = null;
+            }
+        }
+
         if (animator != null)
         {
             animator.SetTrigger(BoomHash);

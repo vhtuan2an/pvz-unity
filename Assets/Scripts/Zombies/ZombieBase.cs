@@ -67,7 +67,8 @@ public class ZombieBase : NetworkBehaviour
             originalColor = spriteRenderer.color;
             if (gameObject.GetComponent<DynamicSorting>() == null)
             {
-                gameObject.AddComponent<DynamicSorting>();
+                var sorting = gameObject.AddComponent<DynamicSorting>();
+                sorting.group = DynamicSorting.SortGroup.Zombie;
             }
         }
         

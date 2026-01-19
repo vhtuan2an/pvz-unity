@@ -56,6 +56,9 @@ public class TwinSunflower : PlantBase
     // Called via Animation Event
     private void SpawnSun()
     {
+        // FIX: Only the Server (Host) should listen to this event
+        if (!IsServer) return;
+
         Debug.Log($"☀️ TwinSunflower SpawnSun animation event called (IsServer={IsServer})");
         RequestSpawnTwinSunServerRpc();
     }

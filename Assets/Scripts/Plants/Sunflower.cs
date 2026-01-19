@@ -62,6 +62,9 @@ public class Sunflower : PlantBase
 
     private void SpawnSun()
     {
+        // FIX: Only the Server (Host) should listen to this event to prevent duplicate RPC calls
+        if (!IsServer) return;
+
         Debug.Log($"☀️ SpawnSun animation event called (IsServer={IsServer})");
         
         // Request server to spawn sun

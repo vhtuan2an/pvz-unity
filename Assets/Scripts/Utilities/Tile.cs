@@ -57,6 +57,13 @@ public class Tile : MonoBehaviour
         return true;
     }
 
+    public void ForceOccupy(GameObject occupant)
+    {
+        _isOccupied = true;
+        Occupant = occupant;
+        Debug.Log($"Tile '{name}' FORCE occupied by {occupant.name}");
+    }
+
     public void Clear()
     {
         _isOccupied = false;

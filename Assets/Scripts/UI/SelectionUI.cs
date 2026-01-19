@@ -519,7 +519,20 @@ public class SelectionUI : MonoBehaviour
         {
             string path = AssetDatabase.GUIDToAssetPath(guid);
             GameObject go = AssetDatabase.LoadAssetAtPath<GameObject>(path);
-            if (go.GetComponent<ZombieBase>() != null) allZombiePrefabs.Add(go);
+            if (go != null && go.GetComponent<ZombieBase>() != null) allZombiePrefabs.Add(go);
+        }
+
+        // Auto-assign packet prefabs from UI folder
+        string[] plantPacketGuids = AssetDatabase.FindAssets("SeedPacket t:GameObject", new[] { "Assets/Prefabs/UI" });
+        if (plantPacketGuids.Length > 0)
+        {
+            plantPacketPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(AssetDatabase.GUIDToAssetPath(plantPacketGuids[0]));
+        }
+
+        string[] zombiePacketGuids = AssetDatabase.FindAssets("ZombiePacket t:GameObject", new[] { "Assets/Prefabs/UI" });
+        if (zombiePacketGuids.Length > 0)
+        {
+            zombiePacketPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(AssetDatabase.GUIDToAssetPath(zombiePacketGuids[0]));
         }
         
         Debug.Log($"Auto-Populated: {allPlantPrefabs.Count} Plants, {allZombiePrefabs.Count} Zombies.");
