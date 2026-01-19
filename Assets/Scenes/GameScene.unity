@@ -8894,7 +8894,7 @@ GameObject:
   - component: {fileID: 1706851942}
   - component: {fileID: 1706851943}
   m_Layer: 0
-  m_Name: GameStateTracker
+  m_Name: GameStatsTracker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8939,14 +8939,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   unitRatioThreshold: 2
-  resourceRatioThreshold: 3
+  resourceRatioThreshold: 2.49
   plantHouseX: -7
-  plantRefundPercent: 0.25
-  zombieRefundPercent: 0.2
+  plantRefundPercent: 0.33
+  zombieRefundPercent: 0.25
   bonusIncomeAmount: 25
   bonusIncomeInterval: 2
-  comebackCDR: 0.85
-  zombieHeavyOutnumberedCDR: 0.8
+  comebackCDR: 0.75
+  zombieHeavyOutnumberedCDR: 0.5
+  verboseLogging: 1
 --- !u!4 &1706851944
 Transform:
   m_ObjectHideFlags: 0

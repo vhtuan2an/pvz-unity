@@ -656,7 +656,7 @@ public class PlantManager : NetworkBehaviour
             NetworkGameManager.Instance.SpawnPlantAtPosition(position, selectedPlantPrefab.name);
             NetworkGameManager.Instance.PlaySoundClientRpc("planting");
             
-            SpendSun(selectedCost);
+            // Note: Sun consumption now happens on server side in NetworkGameManager
             selectedSeedPacket?.StartCooldown();
             ClearSelection();
         }

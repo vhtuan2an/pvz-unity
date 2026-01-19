@@ -126,6 +126,15 @@ public class NetworkGameManager : NetworkBehaviour
             return;
         }
 
+        // Get sun cost and consume sun on server
+        PlantBase plantBase = prefab.GetComponent<PlantBase>();
+        if (plantBase != null && PlantManager.Instance != null)
+        {
+            int sunCost = plantBase.sunCost;
+            PlantManager.Instance.SpendSun(sunCost);
+            Debug.Log($"Server consumed {sunCost} sun for plant spawn");
+        }
+
         GameObject plant = Instantiate(prefab, position, Quaternion.identity);
         NetworkObject networkObject = plant.GetComponent<NetworkObject>();
 

@@ -8,7 +8,7 @@ public class GameStatsTracker : NetworkBehaviour
 
     [Header("Settings - Thresholds")]
     public float unitRatioThreshold = 2f;      // Double the units = losing
-    public float resourceRatioThreshold = 3f;  // Triple the resources = losing
+    public float resourceRatioThreshold = 2.49f;  // 2x resources = broke
     public float plantHouseX = -8.5f;          // Panic threshold for plants
 
     [Header("Results - Resource Refunds")]
@@ -22,6 +22,9 @@ public class GameStatsTracker : NetworkBehaviour
     [Header("Results - Cooldown Reductions")]
     public float comebackCDR = 0.85f;          // 15% reduction
     public float zombieHeavyOutnumberedCDR = 0.8f; // 20% reduction (for 10:1 ratio)
+
+    [Header("Debug Settings")]
+    public bool verboseLogging = true; // Enable detailed logging for testing
 
     private float statsLogTimer = 0f;
 
@@ -104,6 +107,20 @@ public class GameStatsTracker : NetworkBehaviour
         {
             statsLogTimer = 0f;
             Debug.Log($"<color=orange>[STATS]</color> Field Value - Plants: {TotalPlantValue} | Zombies: {TotalZombieValue} (Ratio: {(TotalZombieValue > 0 ? ((float)TotalPlantValue / TotalZombieValue).ToString("F1") : "Inf")})");
+            
+            if (verboseLogging)
+            {
+                Debug.Log($"<color=orange>[STATS]</color> Plant Count: {PlantCount} | Zombie Count: {ZombieCount}");
+                Debug.Log($"<color=orange>[STATS]</color> IsPlantLosingUnits: {IsPlantLosingUnits} | IsZombieLosingUnits: {IsZombieLosingUnits}");
+                Debug.Log($"<color=orange>[STATS]</color> IsZombieHeavilyOutnumbered: {IsZombieHeavilyOutnumbered}");
+                Debug.Log($"<color=orange>[STATS]</color> IsHouseThreatened: {IsHouseThreatened}");
+                Debug.Log($"<color=orange>[STATS]</color> IsPlantBroke: {IsPlantBroke} | IsZombieBroke: {IsZombieBroke}");
+                
+                if (PlantManager.Instance != null && ZombieManager.Instance != null)
+                {
+                    Debug.Log($"<color=orange>[STATS]</color> Resources - Sun: {PlantManager.Instance.currentSun.Value} | Brains: {ZombieManager.Instance.currentBrains.Value}");
+                }
+            }
         }
     }
 
