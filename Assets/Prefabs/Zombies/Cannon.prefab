@@ -273,15 +273,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 1000
+  maxHealth: 2000
   moveSpeed: 0
   damage: 1
-  cooldown: 30
+  cooldown: 20
   packetImage: {fileID: 3369399851761963896, guid: a7c6711db6424c94c8f914fd3cb18354, type: 3}
   brainCost: 150
   contraiPrefab: {fileID: 6980011651598055066, guid: 4043814cb67709c45ab3ab2686b90c58, type: 3}
   firePoint: {fileID: 6340573072069772898}
-  fireCooldown: 20
+  fireCooldown: 15
   fireSpawnNormalizedTime: 0.5
   dieAnimDuration: 1
 --- !u!1 &8097442033056543713

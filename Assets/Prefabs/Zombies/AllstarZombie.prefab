@@ -272,10 +272,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  maxHealth: 1100
+  maxHealth: 1800
   moveSpeed: 1.25
   damage: 50
-  cooldown: 25
+  cooldown: 20
   packetImage: {fileID: 3369399851761963896, guid: 8117ef7bda35a1d4a844a61438803c12, type: 3}
   brainCost: 200
   attackRate: 1.5

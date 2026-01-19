@@ -17,7 +17,7 @@ public class YourMomZombie : ZombieBase
     public float appleCooldown = 2f;   // Cooldown for normal attack
     
     [Header("Global Attack Settings")]
-    public float globalAttackIntervalMin = 45f;
+    public float globalAttackIntervalMin = 30f;
     public float globalAttackIntervalMax = 60f;
     public GameObject appleProjectilePrefab;
     public Transform shootPoint;
@@ -35,6 +35,31 @@ public class YourMomZombie : ZombieBase
 
     private Vector3 pendingTargetPos;
 
+    // Get dynamic attack interval based on zombie team status
+    private float GetDynamicGlobalAttackInterval()
+    {
+        if (GameStatsTracker.Instance == null)
+        {
+            return globalAttackIntervalMax; // Default to max if no tracker
+        }
+
+        // If zombies are heavily outnumbered (10:1) - fastest attacks
+        if (GameStatsTracker.Instance.IsZombieHeavilyOutnumbered)
+        {
+            return globalAttackIntervalMin; // 45s (fastest)
+        }
+        // If zombies are losing units or broke - medium speed
+        else if (GameStatsTracker.Instance.IsZombieLosingUnits || GameStatsTracker.Instance.IsZombieBroke)
+        {
+            return Mathf.Lerp(globalAttackIntervalMin, globalAttackIntervalMax, 0.33f); // ~50s
+        }
+        // If zombies are winning - slowest attacks
+        else
+        {
+            return globalAttackIntervalMax; // 60s (slowest)
+        }
+    }
+
     private IEnumerator PerformGlobalAttack()
     {
         currentState = BossState.GlobalAttack;
@@ -43,43 +68,40 @@ public class YourMomZombie : ZombieBase
         // Wait for anim windup (removed, we control flow now)
         // yield return new WaitForSeconds(0.5f); 
 
-        // Find Target (Random Tile)
-        Tile[] allTiles = FindObjectsOfType<Tile>();
-        if (allTiles.Length > 0)
+        // Find Target (Tile with Plant, prioritize backline)
+        Tile targetTile = FindBestPlantTile();
+        if (targetTile != null)
         {
-            Tile targetTile = allTiles[Random.Range(0, allTiles.Length)];
-            if (targetTile != null)
+            pendingTargetPos = targetTile.PlantWorldPosition;
+
+            // 1. Telegraph Phase
+            SpawnTelegraphMarkerClientRpc(pendingTargetPos);
+            Debug.Log($"Boss targeting tile: {targetTile.name} (Telegraphing...)");
+
+            yield return new WaitForSeconds(telegraphDuration);
+
+            // 2. Cleanup Marker
+            DestroyTelegraphMarkerClientRpc();
+
+            // Check Frozen AGAIN after waiting
+            if (currentSlowMultiplier <= 0f)
             {
-                pendingTargetPos = targetTile.PlantWorldPosition;
-
-                // 1. Telegraph Phase
-                SpawnTelegraphMarkerClientRpc(pendingTargetPos);
-                Debug.Log($"Boss targeting tile: {targetTile.name} (Telegraphing...)");
-
-                yield return new WaitForSeconds(telegraphDuration);
-
-                // 2. Cleanup Marker
-                DestroyTelegraphMarkerClientRpc();
-
-                // Check Frozen AGAIN after waiting
-                if (currentSlowMultiplier <= 0f)
-                {
-                    Debug.Log("Boss frozen during telegraph - cancelling throw!");
-                    currentState = BossState.Idle;
-                    SetStateClientRpc(BossState.Idle);
-                    yield break;
-                }
-
-                // 3. Trigger Animation (The EVENT will spawn the apple)
-                SetStateClientRpc(BossState.GlobalAttack);
+                Debug.Log("Boss frozen during telegraph - cancelling throw!");
+                currentState = BossState.Idle;
+                SetStateClientRpc(BossState.Idle);
+                yield break;
             }
+
+            // 3. Trigger Animation (The EVENT will spawn the apple)
+            SetStateClientRpc(BossState.GlobalAttack);
         }
         else
         {
-            // No tiles?
-             currentState = BossState.Idle;
-             SetStateClientRpc(BossState.Idle);
-             yield break;
+            // No valid targets - skip attack
+            Debug.Log("Boss found no plant targets - skipping attack");
+            currentState = BossState.Idle;
+            SetStateClientRpc(BossState.Idle);
+            yield break;
         }
 
         // Wait for Animation to finish (and Event to fire)
@@ -88,6 +110,70 @@ public class YourMomZombie : ZombieBase
         
         currentState = BossState.Idle;
         SetStateClientRpc(BossState.Idle);
+    }
+
+    // Find tile with plant, using weighted random (backline plants have higher chance)
+    private Tile FindBestPlantTile()
+    {
+        Tile[] allTiles = FindObjectsOfType<Tile>();
+        System.Collections.Generic.List<Tile> occupiedTiles = new System.Collections.Generic.List<Tile>();
+        System.Collections.Generic.List<float> weights = new System.Collections.Generic.List<float>();
+
+        // Find all occupied tiles and calculate weights (lower X = higher weight)
+        float maxX = float.MinValue;
+        foreach (Tile tile in allTiles)
+        {
+            if (tile != null && tile.IsOccupied)
+            {
+                occupiedTiles.Add(tile);
+                float tileX = tile.PlantWorldPosition.x;
+                if (tileX > maxX) maxX = tileX;
+            }
+        }
+
+        if (occupiedTiles.Count == 0) return null;
+
+        // Calculate weights: backline (low X) gets higher weight
+        float totalWeight = 0f;
+        foreach (Tile tile in occupiedTiles)
+        {
+            // Weight = (maxX - currentX + 1) to favor lower X values
+            // +1 ensures no zero weights
+            float weight = maxX - tile.PlantWorldPosition.x + 1f;
+            
+            // Extra priority for Sunflowers/TwinSunflowers (2x weight)
+            GameObject occupant = tile.GetOccupyingPlant();
+            if (occupant != null)
+            {
+                PlantBase plant = occupant.GetComponent<PlantBase>();
+                if (plant != null)
+                {
+                    string plantName = plant.GetType().Name;
+                    if (plantName == "Sunflower" || plantName == "TwinSunflower")
+                    {
+                        weight *= 2f; // Double the weight for economy plants
+                    }
+                }
+            }
+            
+            weights.Add(weight);
+            totalWeight += weight;
+        }
+
+        // Weighted random selection
+        float randomValue = Random.Range(0f, totalWeight);
+        float cumulative = 0f;
+        for (int i = 0; i < occupiedTiles.Count; i++)
+        {
+            cumulative += weights[i];
+            if (randomValue <= cumulative)
+            {
+                return occupiedTiles[i];
+            }
+        }
+
+        // Fallback (should never reach here)
+        return occupiedTiles[occupiedTiles.Count - 1];
     }
 
     // Called via Animation Event
@@ -184,7 +270,7 @@ public class YourMomZombie : ZombieBase
         base.Start();
         // Start timers
         patrolTimer = Random.Range(patrolIntervalMin, patrolIntervalMax);
-        globalAttackTimer = Random.Range(globalAttackIntervalMin, globalAttackIntervalMax);
+        globalAttackTimer = GetDynamicGlobalAttackInterval();
     }
 
     public override void OnNetworkSpawn()
@@ -394,7 +480,7 @@ public class YourMomZombie : ZombieBase
             if (currentSlowMultiplier > 0f) 
             {
                 StartCoroutine(PerformGlobalAttack());
-                globalAttackTimer = Random.Range(globalAttackIntervalMin, globalAttackIntervalMax);
+                globalAttackTimer = GetDynamicGlobalAttackInterval(); // Dynamic interval based on losing/winning
             }
             return;
         }

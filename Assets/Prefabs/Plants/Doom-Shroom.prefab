@@ -154,11 +154,11 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 2147483647
   sunCost: 250
-  cooldown: 60
+  cooldown: 300
   packetImage: {fileID: 6845943570793617698, guid: 717fab4f428489d439b96a3bc90bb0b7, type: 3}
   refundsOnDeath: 0
   pivotOffset: {x: 0, y: -0.4, z: 0}
-  explosionDamage: 2200
+  explosionDamage: 4000
   aoeScale: {x: 6.2, y: 6.2}
   explosionOffset: {x: 0, y: 0.4}
   craterOffset: {x: 0.1, y: 0.4, z: 0}

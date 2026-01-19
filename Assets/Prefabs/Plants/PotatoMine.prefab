@@ -157,7 +157,7 @@ MonoBehaviour:
   packetImage: {fileID: 1107962353, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
   refundsOnDeath: 0
   pivotOffset: {x: 0, y: 0, z: 0}
-  burrowTime: 7
+  burrowTime: 5
   explosionDamage: 1800
   explosionRadius: 1.5
   explosionHeight: 1.2
