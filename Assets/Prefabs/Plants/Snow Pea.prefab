@@ -190,9 +190,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 450
-  sunCost: 2147483647
+  sunCost: 200
   cooldown: 1e+17
   packetImage: {fileID: 0}
+  refundsOnDeath: 1
   pivotOffset: {x: 0, y: 0, z: 0}
   projectilePrefab: {fileID: 3329404701775528199, guid: 859401730d80228418cd39b22cd2cfe2, type: 3}
   shootPoint: {fileID: 2118876949700380241}

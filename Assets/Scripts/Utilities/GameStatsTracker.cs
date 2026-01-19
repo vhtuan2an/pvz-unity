@@ -36,8 +36,14 @@ public class GameStatsTracker : NetworkBehaviour
     {
         get
         {
+            // Clean up null entries first
+            activePlants.RemoveAll(p => p == null);
+            
             int total = 0;
-            foreach (var p in activePlants) if (p != null) total += p.sunCost;
+            foreach (var p in activePlants)
+            {
+                if (p != null) total += p.sunCost;
+            }
             return total;
         }
     }
@@ -46,8 +52,14 @@ public class GameStatsTracker : NetworkBehaviour
     {
         get
         {
+            // Clean up null entries first
+            activeZombies.RemoveAll(z => z == null);
+            
             int total = 0;
-            foreach (var z in activeZombies) if (z != null) total += z.GetBrainCost();
+            foreach (var z in activeZombies)
+            {
+                if (z != null) total += z.GetBrainCost();
+            }
             return total;
         }
     }

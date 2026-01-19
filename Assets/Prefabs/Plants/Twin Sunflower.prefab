@@ -226,9 +226,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 400
-  sunCost: 2147483647
+  sunCost: 125
   cooldown: 1e+14
   packetImage: {fileID: 0}
+  refundsOnDeath: 1
   pivotOffset: {x: 0, y: 0, z: 0}
   sunProductionInterval: 13
   sunBounceHeight: 0.5
