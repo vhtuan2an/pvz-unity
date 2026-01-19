@@ -111,12 +111,12 @@ public class Sun : NetworkBehaviour
             yield return null;
         }
 
-        PlantManager.Instance?.AddSun(sunValue);
         
-        // Request server to despawn this sun
+        
+        // Request server to despawn this sun (collected = true)
         if (IsSpawned)
         {
-            RequestDespawnServerRpc();
+            RequestDespawnServerRpc(true);
         }
         else
         {
@@ -130,10 +130,10 @@ public class Sun : NetworkBehaviour
         yield return new WaitForSeconds(lifetime);
         if (!isCollected)
         {
-            // Request server to despawn this sun
+            // Request server to despawn this sun (collected = false)
             if (IsSpawned)
             {
-                RequestDespawnServerRpc();
+                RequestDespawnServerRpc(false);
             }
             else
             {
@@ -143,10 +143,15 @@ public class Sun : NetworkBehaviour
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void RequestDespawnServerRpc()
+    private void RequestDespawnServerRpc(bool wasCollected)
     {
         if (IsSpawned)
         {
+            // Only add sun if it was collected
+            if (wasCollected)
+            {
+                PlantManager.Instance?.AddSun(sunValue);
+            }
             NetworkObject.Despawn();
         }
     }

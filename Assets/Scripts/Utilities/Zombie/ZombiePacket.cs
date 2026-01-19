@@ -72,7 +72,7 @@ public class ZombiePacket : MonoBehaviour
         if (ZombieManager.Instance == null)
             return;
 
-        if (ZombieManager.Instance.currentBrains < brainCost)
+        if (ZombieManager.Instance.currentBrains.Value < brainCost)
         {
             if (ColorUtility.TryParseHtmlString("#EF696E", out Color redColor))
                 costText.color = redColor;
@@ -86,7 +86,7 @@ public class ZombiePacket : MonoBehaviour
     void OnClicked()
     {
         // 1. Check Resources
-        if (ZombieManager.Instance != null && ZombieManager.Instance.currentBrains < brainCost)
+        if (ZombieManager.Instance != null && ZombieManager.Instance.currentBrains.Value < brainCost)
         {
             SoundManager.Instance.PlaySound("oncooldown");
             return;
@@ -127,7 +127,8 @@ public class ZombiePacket : MonoBehaviour
 
         while (remaining > 0f)
         {
-            remaining -= Time.deltaTime;
+            float multiplier = (ZombieManager.Instance != null) ? ZombieManager.Instance.GlobalCooldownMultiplier : 1f;
+            remaining -= Time.deltaTime / multiplier;
 
             if (cooldownOverlay != null)
                 cooldownOverlay.fillAmount = Mathf.Clamp01(remaining / cooldown);

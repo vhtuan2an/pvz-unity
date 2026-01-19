@@ -253,6 +253,16 @@ public class GameStateManager : NetworkBehaviour
     {
         if (CurrentState.Value == GameState.Countdown)
         {
+            // Reset resources to starting values before game starts
+            if (PlantManager.Instance != null)
+            {
+                PlantManager.Instance.currentSun.Value = 50;
+            }
+            if (ZombieManager.Instance != null)
+            {
+                ZombieManager.Instance.currentBrains.Value = 50;
+            }
+            
             // Game starts instantly - boss is already spawned and waiting!
             SetState(GameState.Playing);
         }

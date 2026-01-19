@@ -2,12 +2,13 @@ using UnityEngine;
 using TMPro;
 using Unity.Netcode;
 
-public class ZombieManager : MonoBehaviour
+public class ZombieManager : NetworkBehaviour
 {
     public static ZombieManager Instance { get; private set; }
 
     [Header("Brains Resource")]
-    public int currentBrains = 50;
+    [HideInInspector]
+    public NetworkVariable<int> currentBrains = new NetworkVariable<int>(50);
 
 
     [Header("UI")]
@@ -26,6 +27,11 @@ public class ZombieManager : MonoBehaviour
     // --- Preview System ---
     private GameObject previewObject;
     private SpriteRenderer previewRenderer;
+
+    [Header("Comeback State")]
+    public float GlobalCooldownMultiplier = 1f;
+    private float passiveIncomeTimer = 0f;
+    private bool wasBoostActive = false;
 
     void Awake()
     {
@@ -51,28 +57,48 @@ public class ZombieManager : MonoBehaviour
     //==============================
     public void AddBrains(int amount)
     {
-        currentBrains += amount;
-        if (currentBrains > 10000) currentBrains = 10000;
+        if (IsServer)
+        {
+            currentBrains.Value = Mathf.Min(currentBrains.Value + amount, 10000);
+        }
+        else
+        {
+            UpdateBrainsUI();
+        }
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        currentBrains.OnValueChanged += (oldVal, newVal) => UpdateBrainsUI();
         UpdateBrainsUI();
+    }
+
+    [ClientRpc]
+    public void AddBrainsDirectlyClientRpc(int amount)
+    {
+        if (IsServer) AddBrains(amount);
+
+        if (LobbyManager.Instance != null && LobbyManager.Instance.SelectedRole == PlayerRole.Zombie)
+        {
+            Debug.Log($"<color=magenta>[COMEBACK]</color> Received {amount} Brains reward from Server.");
+        }
     }
 
     public void SpendBrains(int amount)
     {
-        currentBrains -= amount;
-        if (currentBrains < 0) currentBrains = 0;
-        UpdateBrainsUI();
+        if (IsServer)
+        {
+            currentBrains.Value = Mathf.Max(currentBrains.Value - amount, 0);
+        }
     }
 
     private void UpdateBrainsUI()
     {
         if (brainCounterText != null)
-            brainCounterText.text = currentBrains.ToString();
+            brainCounterText.text = currentBrains.Value.ToString();
     }
 
-    public void OnBrainCollected(int value)
-    {
-        AddBrains(value);
-    }
 
     //==============================
     //  Zombie Selection
@@ -158,9 +184,9 @@ public class ZombieManager : MonoBehaviour
 
         int cost = selectedZombie.GetBrainCost();
 
-        if (currentBrains < cost)
+        if (currentBrains.Value < cost)
         {
-            Debug.LogWarning($"❌ Not enough brains! Current: {currentBrains}, need: {cost}");
+            Debug.LogWarning($"❌ Not enough brains! Current: {currentBrains.Value}, need: {cost}");
             return;
         }
 
@@ -176,12 +202,10 @@ public class ZombieManager : MonoBehaviour
         // Debug logging for spawn attempt
         Debug.Log($"🧟 ZombieManager: Requesting spawn of {selectedZombie.name} at {pos} for client {clientId}");
         
-        // Gọi network spawn với 3 tham số
+        // Send spawn request to server (server will consume brains)
         NetworkGameManager.Instance.SpawnZombieAtPosition(pos, selectedZombie.name, clientId);
-
-        // Trừ brain
-        currentBrains -= cost;
-        UpdateBrainsUI();
+        
+        // Note: Brain consumption now happens on server side in NetworkGameManager
         
         // Start cooldown
         if (selectedPacket != null)
@@ -210,38 +234,72 @@ public class ZombieManager : MonoBehaviour
         if (GameStateManager.Instance != null && GameStateManager.Instance.CurrentState.Value != GameStateManager.GameState.Playing)
             return;
 
-        if (LobbyManager.Instance == null || LobbyManager.Instance.SelectedRole != PlayerRole.Zombie)
-            return;
-
-        UpdatePreview();
-
-        if (selectedZombie == null)
-            return;
-
-        if (Input.GetMouseButtonDown(0))
+        if (IsServer)
         {
-            // Block if mouse is over UI
-            if (UnityEngine.EventSystems.EventSystem.current != null && 
-                UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
-            {
+            UpdateComebackMechanics();
+        }
+
+        if (LobbyManager.Instance != null && LobbyManager.Instance.SelectedRole == PlayerRole.Zombie)
+        {
+            UpdatePreview();
+
+            if (selectedZombie == null)
                 return;
-            }
 
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 pos2D = new Vector2(worldPos.x, worldPos.y);
-
-            // Use RaycastAll to filter through any blocking colliders
-            RaycastHit2D[] hits = Physics2D.RaycastAll(pos2D, Vector2.zero);
-
-            foreach (var hit in hits)
+            if (Input.GetMouseButtonDown(0))
             {
-                ZombieLaneClick lane = hit.collider.GetComponent<ZombieLaneClick>();
-
-                if (lane != null)
+                // Block if mouse is over UI
+                if (UnityEngine.EventSystems.EventSystem.current != null && 
+                    UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
                 {
-                    lane.RequestSpawnZombieOnLane();
-                    return; // Stop after finding the first valid lane
+                    return;
                 }
+
+                Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Vector2 pos2D = new Vector2(worldPos.x, worldPos.y);
+
+                // Use RaycastAll to filter through any blocking colliders
+                RaycastHit2D[] hits = Physics2D.RaycastAll(pos2D, Vector2.zero);
+
+                foreach (var hit in hits)
+                {
+                    ZombieLaneClick lane = hit.collider.GetComponent<ZombieLaneClick>();
+
+                    if (lane != null)
+                    {
+                        lane.RequestSpawnZombieOnLane();
+                        break; 
+                    }
+                }
+            }
+        }
+    }
+
+    private void UpdateComebackMechanics()
+    {
+        if (!IsServer) return;
+        if (GameStatsTracker.Instance == null) return;
+
+        // 1. CDR Boost (Desolation Boost for Zombies)
+        // Trigger if heavily outnumbered (10:1) as requested
+        bool isBoostActive = GameStatsTracker.Instance.IsZombieHeavilyOutnumbered;
+        GlobalCooldownMultiplier = isBoostActive ? GameStatsTracker.Instance.zombieHeavyOutnumberedCDR : 1f;
+
+        if (isBoostActive != wasBoostActive)
+        {
+            if (isBoostActive) Debug.Log($"<color=green>[COMEBACK]</color> Zombie Desolation Boost ACTIVE (HEAVILY OUTNUMBERED) - CDR: {GlobalCooldownMultiplier}");
+            else Debug.Log($"<color=green>[COMEBACK]</color> Zombie Desolation Boost DEACTIVATED");
+            wasBoostActive = isBoostActive;
+        }
+
+        // 2. Passive Income Boost (Resource Imbalance)
+        if (IsServer && GameStatsTracker.Instance.IsZombieBroke)
+        {
+            passiveIncomeTimer += Time.deltaTime;
+            if (passiveIncomeTimer >= GameStatsTracker.Instance.bonusIncomeInterval)
+            {
+                AddBrainsDirectlyClientRpc(GameStatsTracker.Instance.bonusIncomeAmount);
+                passiveIncomeTimer = 0f;
             }
         }
     }
@@ -250,7 +308,7 @@ public class ZombieManager : MonoBehaviour
     {
         if (selectedZombie == null)
         {
-            if (previewObject.activeSelf) previewObject.SetActive(false);
+            if (previewObject != null && previewObject.activeSelf) previewObject.SetActive(false);
             return;
         }
 
@@ -279,12 +337,12 @@ public class ZombieManager : MonoBehaviour
             
             // Update Color based on cost
             int cost = selectedZombie.GetBrainCost();
-            bool enoughBrains = currentBrains >= cost;
+            bool enoughBrains = currentBrains.Value >= cost;
             previewRenderer.color = enoughBrains ? new Color(1f, 1f, 1f, 0.6f) : new Color(1f, 0.3f, 0.3f, 0.6f);
         }
         else
         {
-            if (previewObject.activeSelf) previewObject.SetActive(false);
+            if (previewObject != null && previewObject.activeSelf) previewObject.SetActive(false);
         }
     }
 

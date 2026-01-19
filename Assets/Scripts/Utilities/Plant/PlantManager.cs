@@ -2,13 +2,15 @@ using UnityEngine;
 using TMPro;
 using Unity.Netcode;
 
-public class PlantManager : MonoBehaviour
+public class PlantManager : NetworkBehaviour
 {
     public static PlantManager Instance { get; private set; }
 
     [Header("Grid")]
     public Transform plantsParent;
-    public int currentSun = 100;
+    
+    [HideInInspector]
+    public NetworkVariable<int> currentSun = new NetworkVariable<int>(50);
 
     [Header("UI")]
     [Header("UI")]
@@ -32,6 +34,11 @@ public class PlantManager : MonoBehaviour
     private Tile currentHoveredTile;
     private Vector3 currentPivotOffset;
     private Vector3 currentScale;
+
+    [Header("Comeback State")]
+    public float GlobalCooldownMultiplier = 1f;
+    private float passiveIncomeTimer = 0f;
+    private bool wasBoostActive = false;
 
     void Awake()
     {
@@ -88,17 +95,58 @@ public class PlantManager : MonoBehaviour
          if (GameStateManager.Instance != null && GameStateManager.Instance.CurrentState.Value != GameStateManager.GameState.Playing)
             return;
 
-        if (Input.GetMouseButtonDown(0))
+        if (IsServer)
         {
-            HandleWorldClick();
+            UpdateComebackMechanics();
         }
-        
-        if (IsShovelSelected && shovelCursorObject != null)
+
+        // Local player only logic
+        if (LobbyManager.Instance != null && LobbyManager.Instance.SelectedRole == PlayerRole.Plant)
         {
-            shovelCursorObject.transform.position = Input.mousePosition;
+            if (Input.GetMouseButtonDown(0))
+            {
+                HandleWorldClick();
+            }
+            
+            if (IsShovelSelected && shovelCursorObject != null)
+            {
+                shovelCursorObject.transform.position = Input.mousePosition;
+            }
+            
+            UpdatePreview();
         }
-        
-        UpdatePreview();
+    }
+
+    private void UpdateComebackMechanics()
+    {
+        if (!IsServer) return; // Logic only on server
+        if (GameStatsTracker.Instance == null) return;
+
+        // 1. CDR Boost (Desolation Boost) - Calculated on server, results used by clients
+        // Trigger if zombies are close OR if losing units
+        bool threatened = GameStatsTracker.Instance.IsHouseThreatened;
+        bool outnumbered = GameStatsTracker.Instance.IsPlantLosingUnits;
+        bool isBoostActive = threatened || outnumbered;
+        GlobalCooldownMultiplier = isBoostActive ? GameStatsTracker.Instance.comebackCDR : 1f;
+
+        if (isBoostActive != wasBoostActive)
+        {
+            string reason = threatened ? "ZOMBIE NEAR HOUSE" : "OUTNUMBERED";
+            if (isBoostActive) Debug.Log($"<color=cyan>[COMEBACK]</color> Plant Desolation Boost ACTIVE ({reason}) - CDR: {GlobalCooldownMultiplier}");
+            else Debug.Log($"<color=cyan>[COMEBACK]</color> Plant Desolation Boost DEACTIVATED");
+            wasBoostActive = isBoostActive;
+        }
+
+        // 2. Passive Income Boost (Resource Imbalance)
+        if (IsServer && GameStatsTracker.Instance.IsPlantBroke)
+        {
+            passiveIncomeTimer += Time.deltaTime;
+            if (passiveIncomeTimer >= GameStatsTracker.Instance.bonusIncomeInterval)
+            {
+                AddSunDirectlyClientRpc(GameStatsTracker.Instance.bonusIncomeAmount);
+                passiveIncomeTimer = 0f;
+            }
+        }
     }
 
     private void CreatePreviewObject()
@@ -204,7 +252,7 @@ public class PlantManager : MonoBehaviour
         previewObject.transform.localScale = currentScale;
 
         // Determine if placement is valid
-        bool canPlace = isFusionPreview ? (currentSun >= selectedCost) : (!tile.IsOccupied && currentSun >= selectedCost);
+        bool canPlace = isFusionPreview ? (currentSun.Value >= selectedCost) : (!tile.IsOccupied && currentSun.Value >= selectedCost);
         
         // Set color based on validity
         Color previewColor = canPlace ? new Color(1f, 1f, 1f, 0.6f) : new Color(1f, 0.3f, 0.3f, 0.6f);
@@ -493,16 +541,43 @@ public class PlantManager : MonoBehaviour
 
     public void AddSun(int amount)
     {
-        currentSun += amount;
-        if (currentSun > 10000) currentSun = 10000;
+        if (IsServer)
+        {
+            currentSun.Value = Mathf.Min(currentSun.Value + amount, 10000);
+        }
+        else
+        {
+            // Just for UI prediction or if called on client - though NetworkVariable will sync
+            UpdateSunCounter();
+        }
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        currentSun.OnValueChanged += (oldVal, newVal) => UpdateSunCounter();
         UpdateSunCounter();
+    }
+
+    [ClientRpc]
+    public void AddSunDirectlyClientRpc(int amount)
+    {
+        // On server, just add. On client, this confirms it.
+        if (IsServer) AddSun(amount);
+
+        // Visual feedback for the correct player
+        if (LobbyManager.Instance != null && LobbyManager.Instance.SelectedRole == PlayerRole.Plant)
+        {
+            Debug.Log($"<color=yellow>[COMEBACK]</color> Received {amount} Sun reward from Server.");
+        }
     }
 
     public void SpendSun(int amount)
     {
-        currentSun -= amount;
-        if (currentSun < 0) currentSun = 0;
-        UpdateSunCounter();
+        if (IsServer)
+        {
+            currentSun.Value = Mathf.Max(currentSun.Value - amount, 0);
+        }
     }
 
     public void TryPlaceOnTile(Tile tile)
@@ -538,7 +613,7 @@ public class PlantManager : MonoBehaviour
         }
 
         // Check sun cost
-        if (currentSun < selectedCost) return;
+        if (currentSun.Value < selectedCost) return;
         
         Debug.Log($"Attempting to place: {selectedPlantPrefab.name}, Tile occupied: {tile.IsOccupied}");
         
@@ -550,7 +625,7 @@ public class PlantManager : MonoBehaviour
             bool isWallnutRestoration = existingPlant.name.Contains("Wallnut") && 
                                      selectedPlantPrefab.name.Contains("Wallnut");
             
-            if (FusionManager.Instance.TryFusion(tile, existingPlant, selectedPlantPrefab, currentSun))
+            if (FusionManager.Instance.TryFusion(tile, existingPlant, selectedPlantPrefab, currentSun.Value))
             {
                 if (!isWallnutRestoration && existingPlant != null)
                 {
@@ -617,6 +692,6 @@ public class PlantManager : MonoBehaviour
     private void UpdateSunCounter()
     {
         if (countText != null)
-            countText.text = currentSun.ToString();
+            countText.text = currentSun.Value.ToString();
     }
 }
