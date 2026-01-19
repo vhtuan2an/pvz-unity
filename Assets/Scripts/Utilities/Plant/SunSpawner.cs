@@ -95,19 +95,27 @@ public class SunSpawner : MonoBehaviour
         Vector3 spawnPos = cam.ViewportToWorldPoint(new Vector3(randX, spawnViewportY, z));
         spawnPos.z = 0f;
 
-        GameObject s = Instantiate(sunPrefab, spawnPos, Quaternion.identity);
-
-        float stopAfter = Random.Range(minFallDuration, maxFallDuration);
-
-        Rigidbody2D rb = s.GetComponent<Rigidbody2D>();
-        if (rb != null)
+        // Spawn via network if we have a server connection
+        if (Unity.Netcode.NetworkManager.Singleton != null && Unity.Netcode.NetworkManager.Singleton.IsServer)
         {
-            rb.linearVelocity = Vector2.down * fallSpeed;
-            StartCoroutine(StopAfter(rb, stopAfter));
-        }
-        else
-        {
-            StartCoroutine(FallRoutine(s.transform, fallSpeed, stopAfter));
+            GameObject s = Instantiate(sunPrefab, spawnPos, Quaternion.identity);
+            Unity.Netcode.NetworkObject netObj = s.GetComponent<Unity.Netcode.NetworkObject>();
+            if (netObj != null)
+            {
+                netObj.Spawn();
+            }
+
+            float stopAfter = Random.Range(minFallDuration, maxFallDuration);
+            Rigidbody2D rb = s.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector2.down * fallSpeed;
+                StartCoroutine(StopAfter(rb, stopAfter));
+            }
+            else
+            {
+                StartCoroutine(FallRoutine(s.transform, fallSpeed, stopAfter));
+            }
         }
     }
 
@@ -116,6 +124,13 @@ public class SunSpawner : MonoBehaviour
         if (sunPrefab == null) return;
 
         GameObject s = Instantiate(sunPrefab, worldPos, Quaternion.identity);
+        
+        // Network-spawn if server
+        Unity.Netcode.NetworkObject netObj = s.GetComponent<Unity.Netcode.NetworkObject>();
+        if (netObj != null && Unity.Netcode.NetworkManager.Singleton != null && Unity.Netcode.NetworkManager.Singleton.IsServer)
+        {
+            netObj.Spawn();
+        }
 
         float speed = customFallSpeed > 0f ? customFallSpeed : fallSpeed;
         if (falling)

@@ -77,7 +77,7 @@ public class SeedPacket : MonoBehaviour
         // Check if there’s enough sun to plant
         if (PlantManager.Instance != null)
         {
-            if (PlantManager.Instance.currentSun < sunCost)
+            if (PlantManager.Instance.currentSun.Value < sunCost)
             {
                 if (ColorUtility.TryParseHtmlString("#EF696E", out Color redColor))
                     costText.color = redColor;
@@ -92,7 +92,7 @@ public class SeedPacket : MonoBehaviour
     void OnClicked()
     {
         // 1. Check Resources First
-        if (PlantManager.Instance != null && PlantManager.Instance.currentSun < sunCost)
+        if (PlantManager.Instance != null && PlantManager.Instance.currentSun.Value < sunCost)
         {
             SoundManager.Instance.PlaySound("oncooldown");
             return;
@@ -138,7 +138,8 @@ public class SeedPacket : MonoBehaviour
         float remaining = cooldown;
         while (remaining > 0f)
         {
-            remaining -= Time.deltaTime;
+            float multiplier = (PlantManager.Instance != null) ? PlantManager.Instance.GlobalCooldownMultiplier : 1f;
+            remaining -= Time.deltaTime / multiplier;
 
             // Update cooldown overlay fill amount
             if (cooldownOverlay != null)

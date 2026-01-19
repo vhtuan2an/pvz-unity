@@ -24,6 +24,7 @@ public class DoomShroom : PlantBase
     protected override void Start()
     {
         base.Start();
+        refundsOnDeath = false; // Doom Shroom is an instant plant, no refund
         animator = GetComponent<Animator>();
     }
 

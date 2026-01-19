@@ -64,10 +64,7 @@ public class Brain : NetworkBehaviour
         SoundManager.Instance.PlaySound("collect");
 
         // 2. Add Score Locally
-        if (IsLocalPlayerZombie())
-        {
-            ZombieManager.Instance?.OnBrainCollected(brainValue);
-        }
+        
 
         // 3. Start Animation locally
         CancelInvoke(nameof(AutoDespawn));
@@ -96,14 +93,21 @@ public class Brain : NetworkBehaviour
             yield return null;
         }
 
-        // On finished, tell server to destroy this object
-        RequestDespawnServerRpc();
+        // On finished, tell server to destroy this object (collected = true)
+        RequestDespawnServerRpc(true);
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void RequestDespawnServerRpc()
+    private void RequestDespawnServerRpc(bool wasCollected)
     {
         if (!IsServer) return;
+        
+        // Only add brains if it was collected
+        if (wasCollected)
+        {
+            ZombieManager.Instance?.AddBrains(brainValue);
+        }
+        
         DespawnBrain();
     }
 
@@ -130,7 +134,8 @@ public class Brain : NetworkBehaviour
     {
         if (!isCollected && IsServer)
         {
-            DespawnBrain();
+            // Brain expired without being collected (wasCollected = false)
+            RequestDespawnServerRpc(false);
         }
     }
 

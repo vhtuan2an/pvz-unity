@@ -76,6 +76,13 @@ public class ZombieBase : NetworkBehaviour
         {
             currentHealth.Value = maxHealth;
         }
+
+        if (GameStatsTracker.Instance != null) GameStatsTracker.Instance.RegisterZombie(this);
+    }
+
+    protected virtual void OnDestroy()
+    {
+        if (GameStatsTracker.Instance != null) GameStatsTracker.Instance.UnregisterZombie(this);
     }
 
     protected virtual void Update()
@@ -111,6 +118,18 @@ public class ZombieBase : NetworkBehaviour
         activeSlows.Clear();
         // Recalculate to reset logic stats (speed, damage) to normal
         RecalculateSlowMultiplier();
+
+        // Direct refund if losing
+        if (GameStatsTracker.Instance != null && GameStatsTracker.Instance.IsZombieLosingUnits)
+        {
+            int rawRefund = Mathf.RoundToInt(GetBrainCost() * GameStatsTracker.Instance.zombieRefundPercent);
+            int refund = RoundToNearestMultipleOf5(rawRefund);
+            if (refund > 0)
+            {
+                ZombieManager.Instance?.AddBrainsDirectlyClientRpc(refund);
+                Debug.Log($"[COMEBACK] Zombie {name} triggered {refund} brain refund RPC (losing).");
+            }
+        }
 
         // 1. Cleanup Server-Spawned VFX
         foreach (var netVFX in serverSpawnedVFX)
@@ -566,6 +585,12 @@ public class ZombieBase : NetworkBehaviour
         CleanupLocalVFX();
         
         Debug.Log("Cleared all status effects/VFX on death.");
+    }
+
+    // Utility: Round to nearest multiple of 5
+    private int RoundToNearestMultipleOf5(int value)
+    {
+        return Mathf.RoundToInt(value / 5f) * 5;
     }
 }
 

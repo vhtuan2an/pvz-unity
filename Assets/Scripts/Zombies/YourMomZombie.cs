@@ -251,7 +251,7 @@ public class YourMomZombie : ZombieBase
         return new Vector3(randomX, randomY, 0f);
     }
 
-    public override void OnDestroy()
+    protected override void OnDestroy()
     {
         base.OnDestroy();
 

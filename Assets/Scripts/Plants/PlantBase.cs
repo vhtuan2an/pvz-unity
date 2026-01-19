@@ -8,6 +8,7 @@ public class PlantBase : NetworkBehaviour
     [SerializeField] public int sunCost = 100;
     [SerializeField] public float cooldown = 7.5f;
     [SerializeField] public Sprite packetImage;
+    [SerializeField] protected bool refundsOnDeath = true; // Set to false for instant plants
 
     [Header("Positioning")]
     [SerializeField] protected Vector3 pivotOffset = Vector3.zero;
@@ -34,6 +35,13 @@ public class PlantBase : NetworkBehaviour
             var sorting = gameObject.AddComponent<DynamicSorting>();
             sorting.group = DynamicSorting.SortGroup.Plant;
         }
+
+        if (GameStatsTracker.Instance != null) GameStatsTracker.Instance.RegisterPlant(this);
+    }
+
+    protected virtual void OnDestroy()
+    {
+        if (GameStatsTracker.Instance != null) GameStatsTracker.Instance.UnregisterPlant(this);
     }
 
     protected void FindOccupiedTile()
@@ -104,6 +112,18 @@ public class PlantBase : NetworkBehaviour
             }
         }
 
+        // Direct refund if losing (only if plant allows refunds)
+        if (refundsOnDeath && GameStatsTracker.Instance != null && GameStatsTracker.Instance.IsPlantLosingUnits)
+        {
+            int rawRefund = Mathf.RoundToInt(sunCost * GameStatsTracker.Instance.plantRefundPercent);
+            int refund = RoundToNearestMultipleOf5(rawRefund);
+            if (refund > 0)
+            {
+                PlantManager.Instance?.AddSunDirectlyClientRpc(refund);
+                Debug.Log($"[COMEBACK] Plant {name} triggered {refund} sun refund RPC (losing).");
+            }
+        }
+
         // Despawn from network before destroy
         NetworkObject netObj = GetComponent<NetworkObject>();
         if (netObj != null && netObj.IsSpawned)
@@ -112,5 +132,11 @@ public class PlantBase : NetworkBehaviour
         }
 
         Destroy(gameObject);
+    }
+
+    // Utility: Round to nearest multiple of 5
+    private int RoundToNearestMultipleOf5(int value)
+    {
+        return Mathf.RoundToInt(value / 5f) * 5;
     }
 }

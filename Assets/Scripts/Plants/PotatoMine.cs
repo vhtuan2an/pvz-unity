@@ -17,6 +17,7 @@ public class PotatoMine : PlantBase
     protected override void Start()
     {
         base.Start();
+        refundsOnDeath = false; // Potato Mine is an instant plant, no refund
         animator = GetComponent<Animator>();
         animator.SetBool("IsArmed", false);
         animator.SetBool("IsExploding", false);

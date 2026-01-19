@@ -19,6 +19,7 @@ public class CherryBomb : PlantBase
     protected override void Start()
     {
         base.Start();
+        refundsOnDeath = false; // Cherry Bomb is an instant plant, no refund
         animator = GetComponent<Animator>();
     }
 

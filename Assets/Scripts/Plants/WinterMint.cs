@@ -18,6 +18,7 @@ public class WinterMint : PlantBase
     protected override void Start()
     {
         base.Start();
+        refundsOnDeath = false; // Winter Mint is an instant plant, no refund
         animator = GetComponent<Animator>();
         
         if (IsServer)

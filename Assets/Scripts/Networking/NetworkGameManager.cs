@@ -206,6 +206,15 @@ public class NetworkGameManager : NetworkBehaviour
             return;
         }
 
+        // Get brain cost and consume brains on server
+        ZombieBase zombieBase = prefab.GetComponent<ZombieBase>();
+        if (zombieBase != null && ZombieManager.Instance != null)
+        {
+            int brainCost = zombieBase.GetBrainCost();
+            ZombieManager.Instance.SpendBrains(brainCost);
+            Debug.Log($"Server consumed {brainCost} brains for zombie spawn");
+        }
+
         GameObject zombie = Instantiate(prefab, position, Quaternion.identity);
         NetworkObject networkObject = zombie.GetComponent<NetworkObject>();
 
