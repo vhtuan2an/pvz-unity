@@ -152,7 +152,7 @@ MonoBehaviour:
   ShowTopMostFoldoutHeaderGroup: 1
   maxHealth: 2147483647
   sunCost: 100
-  cooldown: 7.5
+  cooldown: 15
   packetImage: {fileID: 919534086, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
   refundsOnDeath: 0
   pivotOffset: {x: 0.1, y: 0, z: 0}

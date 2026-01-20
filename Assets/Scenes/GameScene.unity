@@ -549,6 +549,8 @@ MonoBehaviour:
     prefab: {fileID: 8428471616817675384, guid: 52ff68316e238e84880c8b5c37ce002b, type: 3}
   - plantName: Kernel-pult
     prefab: {fileID: 6976370162579033916, guid: 03bafc1a56c057a4b998d6fae5699fab, type: 3}
+  - plantName: Puff-Shroom
+    prefab: {fileID: 6182550927699580811, guid: 78b1d94a53ed47546ae096b4b1746853, type: 3}
   - plantName: Doom-Shroom
     prefab: {fileID: 8428471616817675384, guid: ccc6626d511e2ee4ca75e434f50d2e4c, type: 3}
   zombiePrefabs:
@@ -829,8 +831,9 @@ MonoBehaviour:
   - {fileID: 3979215487837737811, guid: bf58962e307e46041a970079b27c8ebe, type: 3}
   - {fileID: 8832556505065614211, guid: 45d3b53858609d544a521f97ab36a27d, type: 3}
   - {fileID: 6976370162579033916, guid: 03bafc1a56c057a4b998d6fae5699fab, type: 3}
-  - {fileID: 8428471616817675384, guid: 168a7af91cbd6c34d89a3b743a615c86, type: 3}
+  - {fileID: 6182550927699580811, guid: 78b1d94a53ed47546ae096b4b1746853, type: 3}
   - {fileID: 8428471616817675384, guid: ccc6626d511e2ee4ca75e434f50d2e4c, type: 3}
+  - {fileID: 8428471616817675384, guid: 168a7af91cbd6c34d89a3b743a615c86, type: 3}
   allZombiePrefabs:
   - {fileID: 9157382542763865438, guid: 8a207769162a999499893270627b461b, type: 3}
   - {fileID: 6846179173368709481, guid: 43bb35978036a6e47bd5f9f3c8344933, type: 3}

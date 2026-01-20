@@ -418,7 +418,7 @@ TextureImporter:
         width: 156
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,6 +427,28 @@ TextureImporter:
       bones: []
       spriteID: 7e61537f5eb7f21438c581e8a614eb65
       internalID: -316924437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: packetPuffShroom
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1170
+        width: 109
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c65da2284bc1f4bbc199d41096e883
+      internalID: -1653384315
       vertices: []
       indices: 
       edges: []
@@ -457,6 +479,7 @@ TextureImporter:
       packetKernelpult: -316924437
       packetPeashooter: -6687575109595898538
       packetPotatoMine: 1107962353
+      packetPuffShroom: -1653384315
       packetSunflower: -3732944587868782168
       packetWallnut: -1620143605486728372
       packetWinterMint: 919534086

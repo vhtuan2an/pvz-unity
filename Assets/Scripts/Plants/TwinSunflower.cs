@@ -7,13 +7,13 @@ public class TwinSunflower : PlantBase
     [Header("Sun Production")]
     [SerializeField] private float sunProductionInterval = 24f;
     [SerializeField] private float sunBounceHeight = 0.5f;
-    [SerializeField] private float sunBounceDuration = 0.3f;
-    [SerializeField] private float sunDropDistance = 0.3f;
-    [SerializeField] private float sunDropDuration = 0.2f;
+        [SerializeField] private float sunBounceDuration = 0.3f;
+        [SerializeField] private float sunDropDistance = 0.3f;
+        [SerializeField] private float sunDropDuration = 0.2f;
 
-    [Header("Twin Settings")]
+        [Header("Twin Settings")]
 
-    [SerializeField] private Vector3 sun1Offset = new Vector3(-0.3f, 0.2f, 0f);
+        [SerializeField] private Vector3 sun1Offset = new Vector3(-0.3f, 0.2f, 0f);
     [SerializeField] private Vector3 sun2Offset = new Vector3(0.3f, 0.2f, 0f);
 
 

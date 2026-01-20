@@ -156,9 +156,10 @@ MonoBehaviour:
   sunCost: 150
   cooldown: 10
   packetImage: {fileID: -1661800560, guid: db58b761cfa8eed43ba49e637d5adee7, type: 3}
+  refundsOnDeath: 1
   pivotOffset: {x: 0, y: -0.4, z: 0}
   attackRate: 0.25
-  punchDamage: 20
+  punchDamage: 15
   attackRange: 2.4
   punchPointLeft: {fileID: 2785134815820815532}
   punchPointRight: {fileID: 2785134815820815532}
